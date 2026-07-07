@@ -988,4 +988,15 @@ body.photo-banner .hero {
 .hh-deal { font-size: 0.9rem; color: var(--text); margin: 0 0 8px; }
 .hh-map { font-size: 0.8rem; font-weight: 600; color: var(--red); text-decoration: none; }
 .hh-map:hover { text-decoration: underline; }
+
+/* 3D ward explorer */
+#ward-3d {height:72vh; min-height:480px; border-radius:10px; border:1px solid var(--border); overflow:hidden;}
+.map3d-controls {display:flex; gap:8px; margin:0 0 10px; flex-wrap:wrap;}
+.map3d-btn {padding:6px 16px; border-radius:999px; border:1px solid var(--border); background:#fff; color:var(--navy); font-size:0.85rem; font-weight:600; cursor:pointer;}
+.map3d-btn:hover {background:var(--navy); color:#fff;}
+.map-hint {font-size:0.78rem; color:var(--muted); margin:8px 0 0;}
+.maplibregl-popup-content {font-family:'Inter',sans-serif; padding:14px 16px;}
+.maplibregl-popup-content h4 {font-family:'Newsreader',serif; color:var(--navy); margin:0 0 4px; font-size:1.05rem;}
+.map-pill {display:inline-block; padding:4px 12px; border-radius:999px; background:var(--navy); color:#fff !important; font-size:0.78rem; text-decoration:none; margin:6px 6px 0 0;}
+.map-pill:hover {background:var(--red);}
 @media (max-width: 560px) { .hh-controls select { max-width: 100%; flex: 1 1 100%; } }

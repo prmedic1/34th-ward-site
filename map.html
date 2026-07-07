@@ -4,8 +4,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Ward Map &amp; Neighborhoods | In and Around the West Loop</title>
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
-<link rel="stylesheet" href="css/style.css?v=20260707a">
+<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css">
+<link rel="stylesheet" href="css/style.css?v=20260707c">
 </head>
 <body class="photo-banner" style="--banner-img: url('/images/chicago-river.jpg')">
 
@@ -38,8 +38,14 @@
 </section>
 
 <main class="page-section">
-  <div id="ward-map" aria-label="Interactive map of the 34th Ward boundary"></div>
-  <p class="map-credit">Boundary: official 2023 ward map, City of Chicago Data Portal. Select neighborhood photography courtesy of Choose Chicago.</p>
+  <div class="map3d-controls">
+    <button id="view-birds" class="map3d-btn">Bird's Eye</button>
+    <button id="view-street" class="map3d-btn">Street Level</button>
+    <button id="view-reset" class="map3d-btn">Reset View</button>
+  </div>
+  <div id="ward-3d" aria-label="3D interactive map of the 34th Ward"></div>
+  <p class="map-hint">Drag to move. Right-click and drag (or two fingers) to rotate and tilt. Scroll to zoom. Click any red dot for business info, or any building to see what's there.</p>
+  <p class="map-credit">3D buildings and map data &copy; OpenStreetMap contributors, via OpenFreeMap and OpenMapTiles. Boundary: official 2023 ward map, City of Chicago Data Portal. Select neighborhood photography courtesy of Choose Chicago.</p>
 
   <h3 class="section-heading">Neighborhoods of the 34th Ward</h3>
   <div class="neighborhood-grid">
@@ -150,34 +156,11 @@
   <p>&copy; <span id="year"></span> In and Around the West Loop &middot; 34thward.com</p>
 </footer>
 
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script>
 document.getElementById('year').textContent = new Date().getFullYear();
-
-const map = L.map('ward-map', { scrollWheelZoom: false });
-L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-  maxZoom: 18,
-  attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-}).addTo(map);
-
-fetch('data/ward34_boundary.geojson')
-  .then((r) => r.json())
-  .then((geo) => {
-    const layer = L.geoJSON(geo, {
-      style: {
-        color: '#c60c30',
-        weight: 3,
-        fillColor: '#0c2340',
-        fillOpacity: 0.12
-      }
-    }).addTo(map);
-    map.fitBounds(layer.getBounds(), { padding: [12, 12] });
-  })
-  .catch((err) => {
-    console.error('Failed to load ward boundary', err);
-    map.setView([41.877, -87.64], 14);
-  });
 </script>
+<script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+<script src="js/map3d.js?v=20260707c"></script>
 <script src="js/ticker.js?v=20260707a"></script>
 </body>
 </html>
