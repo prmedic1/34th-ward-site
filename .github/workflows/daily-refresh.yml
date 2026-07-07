@@ -1,0 +1,38 @@
+name: Daily data refresh
+
+# Runs on GitHub's servers - works even when your computer is off.
+# Refreshes the mayor's-race odds (Kalshi) and the happy-hour sheet snapshot,
+# then commits + pushes, which triggers Netlify to redeploy automatically.
+on:
+  schedule:
+    - cron: '32 12 * * *' # 12:32 UTC = ~7:32 AM Central (shifts 1h with daylight saving)
+  workflow_dispatch: {}    # lets you also run it on demand from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Refresh public data (Kalshi odds + happy-hour sheet)
+        run: node scripts/refresh-data.mjs
+
+      - name: Commit and push if anything changed
+        run: |
+          git config user.name "34thward-bot"
+          git config user.email "actions@github.com"
+          if [ -n "$(git status --porcelain)" ]; then
+            git add -A
+            git commit -m "Automated daily data refresh ($(date -u +%Y-%m-%d))"
+            git push
+            echo "Pushed refreshed data."
+          else
+            echo "No changes to commit."
+          fi

@@ -1,0 +1,115 @@
+#!/usr/bin/env node
+/**
+ * Hands-off daily data refresh, run by GitHub Actions (no credentials needed).
+ * Refreshes the two data sources that come from public APIs:
+ *   1. Mayor's-race Kalshi odds  -> data/mayor_race.json
+ *   2. Happy-hour Google Sheet   -> data/happy_hours_sheet.json (fallback snapshot)
+ *
+ * The Gmail-sourced news Front Page and the Business Spotlight are NOT touched
+ * here (they need Gmail access + AI summarization) - those are handled by the
+ * assisted daily task. This script only updates deterministic public data.
+ *
+ * Node 20+ (built-in fetch). No npm install required.
+ */
+import { readFile, writeFile } from 'node:fs/promises';
+import { fileURLToPath } from 'node:url';
+import { dirname, join } from 'node:path';
+
+const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
+const nowIso = () => {
+  // Central time ISO with offset (approx; -05:00 CDT). Good enough for a timestamp label.
+  return new Date().toISOString();
+};
+
+async function refreshKalshi() {
+  const path = join(ROOT, 'data', 'mayor_race.json');
+  const data = JSON.parse(await readFile(path, 'utf8'));
+  const res = await fetch(
+    'https://api.elections.kalshi.com/trade-api/v2/markets?event_ticker=KXMAYORCHI-27&limit=100',
+    { headers: { Accept: 'application/json' } }
+  );
+  if (!res.ok) throw new Error('Kalshi HTTP ' + res.status);
+  const { markets = [] } = await res.json();
+
+  const byName = new Map();
+  for (const m of markets) {
+    const name = (m.yes_sub_title || '').trim().toLowerCase();
+    const price = parseFloat(m.last_price_dollars);
+    if (name && !Number.isNaN(price)) byName.set(name, Math.round(price * 1000) / 10);
+  }
+
+  let changed = 0;
+  for (const c of data.candidates) {
+    const hit = byName.get((c.name || '').trim().toLowerCase());
+    if (hit != null && c.kalshi_pct !== hit) {
+      c.kalshi_pct = hit;
+      changed++;
+    }
+  }
+  data.updated_at = nowIso();
+  await writeFile(path, JSON.stringify(data, null, 2) + '\n');
+  console.log(`Kalshi: ${markets.length} markets, ${changed} candidate odds changed.`);
+}
+
+// Minimal RFC-4180-ish CSV parser
+function parseCsv(text) {
+  const rows = [];
+  let row = [], field = '', q = false;
+  for (let i = 0; i < text.length; i++) {
+    const c = text[i];
+    if (q) {
+      if (c === '"' && text[i + 1] === '"') { field += '"'; i++; }
+      else if (c === '"') q = false;
+      else field += c;
+    } else if (c === '"') q = true;
+    else if (c === ',') { row.push(field); field = ''; }
+    else if (c === '\n') { row.push(field); rows.push(row); row = []; field = ''; }
+    else if (c === '\r') { /* skip */ }
+    else field += c;
+  }
+  if (field.length || row.length) { row.push(field); rows.push(row); }
+  return rows;
+}
+
+async function refreshHappyHours() {
+  const path = join(ROOT, 'data', 'happy_hours_sheet.json');
+  const existing = JSON.parse(await readFile(path, 'utf8'));
+  const res = await fetch(existing.sheet_csv);
+  if (!res.ok) throw new Error('Sheet HTTP ' + res.status);
+  const rows = parseCsv(await res.text());
+  const header = rows.shift().map((h) => h.trim());
+  const idx = (n) => header.indexOf(n);
+  const iName = idx('Restaurant'), iHood = idx('Location'), iDays = idx('Days'),
+    iStart = idx('Start Time'), iEnd = idx('End Time'), iDeal = idx('Deal'),
+    iOys = idx('Oyster Deals'), iPatio = idx('Outside Dining'), iGf = idx('GF Safe Snacks'),
+    iCui = idx('Cuisine'), iAppr = idx('Elizabeth Approved');
+
+  const deals = rows
+    .filter((r) => (r[iName] || '').trim())
+    .map((r) => ({
+      name: (r[iName] || '').trim(),
+      hood: (r[iHood] || '').trim(),
+      days: (r[iDays] || '').split(',').map((s) => s.trim()).filter(Boolean),
+      start: (r[iStart] || '').trim(),
+      end: (r[iEnd] || '').trim(),
+      deal: (r[iDeal] || '').trim(),
+      specials: false,
+      oysters: !!(r[iOys] || '').trim(),
+      patio: (r[iPatio] || '').trim(),
+      gf: (r[iGf] || '').trim(),
+      cuisine: (r[iCui] || '').trim(),
+      approved: !!(r[iAppr] || '').trim()
+    }));
+
+  existing.snapshot_at = nowIso();
+  existing.deals = deals;
+  await writeFile(path, JSON.stringify(existing, null, 1) + '\n');
+  console.log(`Happy hours: snapshot refreshed with ${deals.length} venues.`);
+}
+
+let failed = false;
+for (const [label, fn] of [['Kalshi', refreshKalshi], ['HappyHours', refreshHappyHours]]) {
+  try { await fn(); }
+  catch (e) { failed = true; console.error(`${label} failed:`, e.message); }
+}
+process.exit(failed ? 1 : 0);
