@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-02T12:00:00-05:00",
+  "updated_at": "2026-07-07T11:30:00-05:00",
   "election_date": "February 23, 2027",
   "kalshi_event": "KXMAYORCHI-27",
   "kalshi_url": "https://kalshi.com/markets/kxmayorchi",
@@ -110,6 +110,14 @@
       "order": 12,
       "kalshi_pct": null,
       "image": "images/candidates/nee.webp"
+    },
+    {
+      "name": "Bill Conway",
+      "role": "Alderman, 34th Ward",
+      "status": "rumored",
+      "order": 13,
+      "kalshi_pct": null,
+      "image": "images/candidates/conway.jpg"
     }
   ]
 }

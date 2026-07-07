@@ -21,15 +21,16 @@
   "email_intake": {
     "_comment": "Recommend a dedicated inbox (e.g. news@34thward.com) subscribed to newsletters, kept separate from personal/work email.",
     "inbox_address": "chicagojustice@gmail.com",
-    "gmail_search_query": "{from:bill@ward34.org from:illinoisplaybook@email.politico.com from:forecast@email.politico.com from:westloop.org from:info@indivisiblegwlchi.org from:wcachicago.org from:axios.com} newer_than:2d",
+    "gmail_search_query": "{from:bill@ward34.org from:illinoisplaybook@email.politico.com from:forecast@email.politico.com from:westloop.org from:info@indivisiblegwlchi.org from:wcachicago.org from:axios.com from:tog515@gmail.com} newer_than:2d",
     "expected_senders": [
-      "info@wcachicago.org (The WCA Weekly - West Central Association Chamber of Commerce, Thursdays; skips holiday weeks - none expected week of July 4)",
+      "info@wcachicago.org (The WCA Weekly - West Central Association Chamber of Commerce, Thursdays; skips holiday weeks)",
       "bill@ward34.org (Conway's Corner - 34th Ward Office Newsletter)",
       "info@indivisiblegwlchi.org (Indivisible Greater West Loop - Weekly Action Plan, Mondays)",
       "illinoisplaybook@email.politico.com (POLITICO Illinois Playbook, daily)",
-      "forecast@email.politico.com (POLITICO Forecast, daily)",
+      "forecast@email.politico.com (POLITICO Forecast, daily - excluded from front page via front_exclude)",
       "marketing@westloop.org (West Loop Community Organization - civic_org)",
-      "PENDING: Axios - no Axios emails found in this inbox; subscribe at axios.com/newsletters (e.g. Axios Chicago)"
+      "noreply@axios.com / Axios Chicago (subscribed; if no email arrives, pull latest from https://www.axios.com/local/chicago as fallback)",
+      "tog515@gmail.com (Skyline / Inside Publications, subject 'NEW SKYLINE', irregular schedule; sends a PDF attachment the ingestion can't parse - summarize from the email body text only)"
     ]
   },
 

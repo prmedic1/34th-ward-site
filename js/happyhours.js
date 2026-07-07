@@ -1,4 +1,4 @@
-const DATA_V = '20260703f';
+const DATA_V = '20260707a';
 const SHEET_CSV =
   'https://docs.google.com/spreadsheets/d/1mS4Z7yT5R5KXaj9sZWtRThiRQhJa0zkyYBG8Jwslubc/export?format=csv';
 const PAGE = 40;

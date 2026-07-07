@@ -1,5 +1,5 @@
 (function () {
-  const DATA_V = '20260703f';
+  const DATA_V = '20260707a';
   const header = document.querySelector('.site-header');
   if (!header) return;
 

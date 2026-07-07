@@ -1,6 +1,90 @@
 {
-  "generated_at": "2026-07-03T02:30:00-05:00",
+  "generated_at": "2026-07-07T11:35:00-05:00",
   "items": [
+    {
+      "id": "axios-20260707-storms",
+      "category": "newsletter",
+      "source_id": "axios",
+      "source_name": "Axios Chicago",
+      "source_type": "email_newsletter",
+      "title": "Storm cleanup: what Chicago homeowners and drivers need to know",
+      "summary": "Heavy July Fourth weekend storms knocked out power for nearly 300,000 ComEd customers, flooded homes and CTA buses, and downed trees across the city, and Chicago's Deep Tunnel floodwater system came close to full for the first time in its history. Axios rounds up the insurance basics: if a tree hits your house or car, contact your insurer promptly and document the damage with photos, and remember property insurance typically covers removal and repair only when a structure is actually hit.",
+      "url": "https://www.axios.com/local/chicago",
+      "published_at": "2026-07-07T06:28:00-05:00",
+      "flagged_for_review": false
+    },
+    {
+      "id": "axios-20260707-giannoulias-plates",
+      "category": "newsletter",
+      "source_id": "axios",
+      "source_name": "Axios Chicago",
+      "source_type": "email_newsletter",
+      "title": "Giannoulias urges residents to report license-plate tampering by federal agents",
+      "summary": "Illinois Secretary of State Alexi Giannoulias is asking residents to report immigration agents who remove or obscure vehicle license plates, after a video appearing to show an agent with a plateless SUV went viral. He said operating a vehicle without the required plates is illegal in Illinois for everyone, and pointed residents to a tip line at 312-814-1730 and platewatch@ilsos.gov.",
+      "url": "https://www.axios.com/local/chicago",
+      "published_at": "2026-07-07T06:27:00-05:00",
+      "flagged_for_review": false
+    },
+    {
+      "id": "politico-il-20260707-ai-law",
+      "category": "newsletter",
+      "source_id": "politico",
+      "source_name": "POLITICO Illinois Playbook",
+      "source_type": "email_newsletter",
+      "title": "Illinois becomes the first state to require independent AI safety audits",
+      "summary": "Gov. JB Pritzker signed the Artificial Intelligence Safety Measures Act, which supporters call the nation's strongest state-level AI safety law. It requires the largest AI developers (frontier labs with more than $500 million in revenue) to publish risk frameworks, undergo annual third-party audits, and report serious safety incidents within 72 hours. Attorney General Kwame Raoul's office will enforce it, with penalties up to $1 million for a first violation. The bill passed the House 110-0 and the Senate 52-5.",
+      "url": "https://www.politico.com/newsletters/illinois-playbook",
+      "published_at": "2026-07-07T07:01:00-05:00",
+      "flagged_for_review": false
+    },
+    {
+      "id": "igwl-20260706-good-trouble",
+      "category": "civic_org",
+      "source_id": "igwl",
+      "source_name": "Indivisible Greater West Loop (Weekly Action Plan)",
+      "source_type": "email_newsletter",
+      "title": "'Good Trouble Lives On' weekend of action, July 17-19",
+      "summary": "Indivisible Greater West Loop is joining a national weekend honoring the late Rep. John Lewis and voting rights, July 17-19. Local events include a candlelight vigil near Buckingham Fountain (Fri, July 17), plus a voter registration table at Mary Bartelme Park and a volunteer shift at State Sen. Lakesia Collins' Summer Block Party in North Lawndale (Sat, July 18).",
+      "url": "https://www.indivisiblegwlchi.org",
+      "published_at": "2026-07-06T07:46:00-05:00",
+      "flagged_for_review": false
+    },
+    {
+      "id": "igwl-20260706-july-events",
+      "category": "civic_org",
+      "source_id": "igwl",
+      "source_name": "Indivisible Greater West Loop (Weekly Action Plan)",
+      "source_type": "email_newsletter",
+      "title": "IGWL mid-July calendar: book club, food depository, ice cream social and more",
+      "summary": "Upcoming with Indivisible Greater West Loop: Book Club (July 8), volunteering at the Greater Chicago Food Depository (Fri, July 10, 12:45-3:30pm), a family-friendly Popsicle & Ice Cream Social (Sat, July 11, 11am-1pm), the July Chapter Meetup with guest speaker Nick Uniejewski (Mon, July 13, 6-8pm), and Drinks for Democracy postcard writing (Wed, July 15). IGWL also tables at the West Loop Farmers Market on Saturdays, 8-11:30am.",
+      "url": "https://www.indivisiblegwlchi.org",
+      "published_at": "2026-07-06T07:45:00-05:00",
+      "flagged_for_review": false
+    },
+    {
+      "id": "conway-20260702-taste",
+      "category": "elected_official",
+      "source_id": "conway",
+      "source_name": "Conway's Corner (34th Ward Office Newsletter)",
+      "source_type": "email_newsletter",
+      "title": "Taste of Chicago returns to Grant Park, July 8-12",
+      "summary": "Taste of Chicago is back in Grant Park (Columbus Drive from Balbo to Monroe) July 8-12, with dozens of food vendors, nationally recognized musical performances, local artists, family attractions, and culinary demonstrations across the festival grounds.",
+      "url": "https://www.ward34.org",
+      "published_at": "2026-07-02T15:08:00-05:00",
+      "flagged_for_review": false
+    },
+    {
+      "id": "conway-20260702-youth-summit",
+      "category": "elected_official",
+      "source_id": "conway",
+      "source_name": "Conway's Corner (34th Ward Office Newsletter)",
+      "source_type": "email_newsletter",
+      "title": "'Youth Voice, Real Change' Summit at UIC, July 25",
+      "summary": "Registration is open through July 17 for the Chicago Youth Summit on Saturday, July 25 at 11am at UIC Student Center East (750 S. Halsted). The afternoon focuses on youth leadership, creativity, and community impact, with space for young people to connect with peers and explore ways to lead change in their communities.",
+      "url": "https://www.ward34.org",
+      "published_at": "2026-07-02T15:07:00-05:00",
+      "flagged_for_review": false
+    },
     {
       "id": "axios-20260701-snelling",
       "category": "newsletter",
@@ -77,68 +161,6 @@
       "published_at": "2026-06-26T06:30:00-05:00",
       "flagged_for_review": false,
       "source_id": "wca"
-    },
-    {
-      "id": "igwl-20260629-july-events",
-      "category": "civic_org",
-      "source_name": "Indivisible Greater West Loop (Weekly Action Plan)",
-      "source_type": "email_newsletter",
-      "image": "https://www.indivisiblegwlchi.org/assets/images/card.jpg?v=7265b9dc",
-      "title": "IGWL July calendar: dinner club, book club, food depository volunteering & more",
-      "summary": "Indivisible Greater West Loop's July lineup: First Friday Dinner Club at 5 Rabanitos in Pilsen (Jul 3, 6:30pm), Book Club discussion of 'Read This When Things Fall Apart' (Jul 8), volunteering at the Greater Chicago Food Depository (Jul 10, 12:45-3:30pm), a family-friendly Popsicle & Ice Cream Social (Jul 11, 11am-1pm), the July Chapter Meetup with guest speaker Nick Uniejewski (Jul 13, 6-8pm), and Drinks for Democracy postcard writing (Jul 15, 6-8pm). IGWL also tables at the West Loop Farmers Market every Saturday, 8-11:30am.",
-      "url": "https://www.indivisiblegwlchi.org",
-      "published_at": "2026-06-29T07:50:00-05:00",
-      "flagged_for_review": false,
-      "source_id": "igwl"
-    },
-    {
-      "id": "igwl-20260629-usps-comment",
-      "category": "civic_org",
-      "source_name": "Indivisible Greater West Loop (Weekly Action Plan)",
-      "source_type": "email_newsletter",
-      "title": "Deadline July 2: public comment period on USPS vote-by-mail rule change",
-      "summary": "IGWL is urging residents to submit public comments before Thursday, July 2 on a proposed U.S. Postal Service rule that the group says would restrict who can vote by mail. The USPS is required to consider public comments; IGWL recommends personalizing submissions so each is counted as unique.",
-      "url": "https://www.indivisiblegwlchi.org",
-      "published_at": "2026-06-29T07:50:00-05:00",
-      "flagged_for_review": false,
-      "source_id": "igwl"
-    },
-    {
-      "id": "igwl-20260629-gotv",
-      "category": "civic_org",
-      "source_name": "Indivisible Greater West Loop (Weekly Action Plan)",
-      "source_type": "email_newsletter",
-      "title": "Volunteer opportunities: voter protection and canvassing in Michigan & Wisconsin",
-      "summary": "IGWL's midterm organizing includes phone banks to Michigan (Mondays) and Wisconsin (Wednesdays), canvassing trips July 12 and 25 and August 2 and 22 (no experience or transportation required), a canvassing training in Rogers Park July 21, and swing-state postcard writing July 15. Volunteer sign-ups are also open for Wisconsin's August 11 primary election protection hotline and poll observing.",
-      "url": "https://www.indivisiblegwlchi.org",
-      "published_at": "2026-06-29T07:50:00-05:00",
-      "flagged_for_review": false,
-      "source_id": "igwl"
-    },
-    {
-      "id": "conway-20260625-casablanca",
-      "category": "elected_official",
-      "source_name": "Conway's Corner (34th Ward Office Newsletter)",
-      "source_type": "email_newsletter",
-      "image": "images/mary-bartelme-park.jpg",
-      "title": "Movies in the Park: 'Casablanca' at Mary Bartelme Park",
-      "summary": "A free community screening of 'Casablanca' comes to Mary Bartelme Park (115 S. Sangamon) on Tuesday, June 30. Arrive at 6pm to visit with neighbors and enjoy programming from park sponsors; the film starts at dusk.",
-      "url": "https://www.ward34.org",
-      "published_at": "2026-06-25T17:53:00-05:00",
-      "flagged_for_review": false,
-      "source_id": "conway"
-    },
-    {
-      "id": "conway-20260625-office-closed",
-      "category": "elected_official",
-      "source_name": "Conway's Corner (34th Ward Office Newsletter)",
-      "source_type": "email_newsletter",
-      "title": "Ward office closed Friday, July 3 for the holiday weekend",
-      "summary": "The 34th Ward office will be closed Friday, July 3rd for the 4th of July weekend and will reopen Monday, July 6th at 9am.",
-      "url": "https://www.ward34.org",
-      "published_at": "2026-06-25T17:53:00-05:00",
-      "flagged_for_review": false,
-      "source_id": "conway"
     },
     {
       "id": "conway-20260625-the78-tif",
@@ -225,18 +247,6 @@
       "source_id": "conway"
     },
     {
-      "id": "conway-20260619-nap-deadline",
-      "category": "civic_org",
-      "source_name": "Conway's Corner (34th Ward Office Newsletter)",
-      "source_type": "email_newsletter",
-      "title": "Neighborhood Access Program grant applications due July 1",
-      "summary": "The 2026 Neighborhood Access Program is accepting idea submissions through July 1. The program supports the cultural vitality of Chicago neighborhoods through grants and partnerships responsive to individual communities' needs.",
-      "url": "https://www.ward34.org",
-      "published_at": "2026-06-19T12:05:00-05:00",
-      "flagged_for_review": false,
-      "source_id": "conway"
-    },
-    {
       "id": "politico-il-20260701-birthright",
       "category": "newsletter",
       "source_name": "POLITICO Illinois Playbook",
@@ -271,19 +281,6 @@
       "published_at": "2026-07-01T07:02:00-05:00",
       "flagged_for_review": false,
       "source_id": "politico"
-    },
-    {
-      "id": "politico-forecast-20260701-bosnia",
-      "category": "newsletter",
-      "source_name": "POLITICO Forecast",
-      "source_type": "email_newsletter",
-      "title": "World Cup spotlight: U.S.\u2013Bosnia knockout match carries heavy political history",
-      "summary": "POLITICO Forecast's World Cup series examines Wednesday's U.S.\u2013Bosnia knockout game against the backdrop of America's role in ending the Bosnian war, the Dayton Accords, and current U.S. political figures' involvement in Bosnia's fragile ethnic power-sharing system.",
-      "url": "https://www.politico.com/newsletters/politico-forecast",
-      "published_at": "2026-07-01T15:38:00-05:00",
-      "flagged_for_review": false,
-      "source_id": "politico",
-      "front_exclude": true
     }
   ]
 }

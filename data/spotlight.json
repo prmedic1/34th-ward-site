@@ -1,12 +1,14 @@
 {
   "_rotation_note": "The daily job picks the next business each morning - rotating among ward businesses with priority to spotlight requests from owners and newly opened spots. Keep yesterday's entries in history.",
   "current": {
-    "date": "2026-07-01",
-    "name": "The Original Pancake House",
-    "address": "1124 W Madison St",
-    "website": "https://ophchicagoland.com/",
-    "image": "images/original-pancake-house.jpg",
-    "blurb": "A beloved breakfast institution since 1953, The Original Pancake House serves its famous Dutch Baby, apple pancakes, and made-from-scratch classics every day of the week. The West Loop location on Madison Street draws a sunny sidewalk-patio crowd all summer long."
+    "date": "2026-07-07",
+    "name": "Green Street Smoked Meats",
+    "address": "112 N. Green St, West Loop",
+    "website": "https://greenstreetmeats.com",
+    "image": "images/green-street-smoked-meats.jpg",
+    "blurb": "Tucked down an alley entrance in the heart of the West Loop, Green Street Smoked Meats serves Texas-style barbecue by the pound, brisket, ribs, and burnt ends, plus frozen drinks and cold beer at long communal tables. It's a Fulton Market-era classic that helped define the neighborhood's food scene."
   },
-  "history": []
+  "history": [
+    { "date": "2026-07-01", "name": "The Original Pancake House" }
+  ]
 }

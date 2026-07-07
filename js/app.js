@@ -1,4 +1,4 @@
-const DATA_V = '20260703f';
+const DATA_V = '20260707a';
 
 document.getElementById('year').textContent = new Date().getFullYear();
 
@@ -43,7 +43,13 @@ fetch('data/spotlight.json?d=' + DATA_V)
   .then((data) => {
     const s = data.current;
     if (!s || !s.name) return;
-    document.getElementById('spotlight-img').src = s.image;
+    const simg = document.getElementById('spotlight-img');
+    if (s.image) {
+      simg.src = s.image;
+      simg.onerror = () => { simg.style.display = 'none'; };
+    } else {
+      simg.style.display = 'none';
+    }
     document.getElementById('spotlight-name').textContent = s.name;
     document.getElementById('spotlight-address').textContent = s.address;
     document.getElementById('spotlight-blurb').textContent = s.blurb;
