@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Resident Resources | In and Around the West Loop</title>
+<link rel="stylesheet" href="css/style.css?v=20260703f">
+</head>
+<body class="photo-banner" style="--banner-img: url('/images/west-loop-restaurants.jpg')">
+
+<header class="site-header">
+  <div class="header-inner">
+    <div class="brand">
+      <img class="brand-shield" src="images/shield-header.png" alt="34th Ward shield">
+      <div class="brand-text">
+        <h1>The Official 34th Ward Neighborhood Page</h1>
+        <p>Community News &amp; Civic Updates</p>
+      </div>
+    </div>
+    <nav class="main-nav">
+      <a href="index.html">Home</a>
+      <a href="map.html">Ward Map</a>
+      <a href="directory.html">Businesses</a>
+      <a href="happyhour.html">Happy Hours</a>
+      <a href="housing.html">Housing</a>
+      <a href="culture.html">Arts &amp; Culture</a>
+      <a href="resources.html" class="active">Resources</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero hero-compact">
+  <div class="hero-inner">
+    <h2>Resident Resources</h2>
+    <p>Everything a 34th Ward resident needs, in one searchable place - street sweeping, parking permits, CAPS meetings, your elected officials, parks, markets, and more.</p>
+  </div>
+</section>
+
+<main class="page-section">
+  <div class="feed-controls">
+    <input type="search" id="resource-search" placeholder="Try &quot;street cleaning&quot;, &quot;parking pass&quot;, &quot;donate clothes&quot;, &quot;CAPS&quot;&hellip;" aria-label="Search resources">
+  </div>
+  <div class="chip-row" id="resource-chips"></div>
+
+  <div class="neighborhood-grid" id="resource-grid"></div>
+  <p class="empty-state" id="resource-empty" hidden>Nothing matches that search - try a different word, or <a href="mailto:chicagojustice@gmail.com">tell us what's missing</a>.</p>
+
+  <p class="disclaimer directory-note">
+    Verified details (like this week's CAPS meetings and market hours) come from official ward and city sources through the
+    site's daily update cycle. Links go to the official city, county, and organization pages so the underlying information
+    is always current. Missing something residents need? <a href="mailto:chicagojustice@gmail.com">Suggest a resource</a>.
+  </p>
+</main>
+
+<footer class="site-footer">
+  <p>&copy; <span id="year"></span> In and Around the West Loop &middot; 34thward.com</p>
+</footer>
+
+<script src="js/resources.js?v=20260703f"></script>
+<script src="js/ticker.js?v=20260703f"></script>
+</body>
+</html>

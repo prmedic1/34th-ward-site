@@ -1,0 +1,17 @@
+# 34thward.com - static site, served from the repo root.
+[build]
+  publish = "."
+  # No build step: the site is plain HTML/CSS/JS.
+  command = ""
+
+# Long cache for versioned assets (they carry ?v= query strings);
+# HTML and JSON stay fresh so daily data updates appear immediately.
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+[[headers]]
+  for = "/data/*"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"

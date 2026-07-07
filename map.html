@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ward Map &amp; Neighborhoods | In and Around the West Loop</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<link rel="stylesheet" href="css/style.css?v=20260703f">
+</head>
+<body class="photo-banner" style="--banner-img: url('/images/chicago-river.jpg')">
+
+<header class="site-header">
+  <div class="header-inner">
+    <div class="brand">
+      <img class="brand-shield" src="images/shield-header.png" alt="34th Ward shield">
+      <div class="brand-text">
+        <h1>The Official 34th Ward Neighborhood Page</h1>
+        <p>Community News &amp; Civic Updates</p>
+      </div>
+    </div>
+    <nav class="main-nav">
+      <a href="index.html">Home</a>
+      <a href="map.html" class="active">Ward Map</a>
+      <a href="directory.html">Businesses</a>
+      <a href="happyhour.html">Happy Hours</a>
+      <a href="housing.html">Housing</a>
+      <a href="culture.html">Arts &amp; Culture</a>
+      <a href="resources.html">Resources</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero hero-compact">
+  <div class="hero-inner">
+    <h2>Ward Map &amp; Neighborhoods</h2>
+    <p>The 34th Ward covers the heart of downtown Chicago's west side - from the Loop and Printers Row through Greektown and the West Loop.</p>
+  </div>
+</section>
+
+<main class="page-section">
+  <div id="ward-map" aria-label="Interactive map of the 34th Ward boundary"></div>
+  <p class="map-credit">Boundary: official 2023 ward map, City of Chicago Data Portal. Select neighborhood photography courtesy of Choose Chicago.</p>
+
+  <h3 class="section-heading">Neighborhoods of the 34th Ward</h3>
+  <div class="neighborhood-grid">
+
+    <article class="card">
+      <img class="card-img" src="https://cdn.choosechicago.com/uploads/2019/05/CCG07131901_959-e1564168314188.jpg" alt="West Loop street scene" onerror="this.src='images/mary-bartelme-park.jpg'; this.onerror=null;">
+      <h4>West Loop</h4>
+      <p class="summary">Once the city's warehouse and market district, the West Loop is now one of Chicago's fastest-growing neighborhoods - home to acclaimed restaurants along Randolph Street's "Restaurant Row," Mary Bartelme Park, the Green City Market's West Loop location on Monroe, and a mix of converted lofts and new residential towers.</p>
+    </article>
+
+    <article class="card">
+      <h4>Greektown</h4>
+      <p class="summary">Centered on Halsted Street, Greektown is one of Chicago's most storied ethnic enclaves, anchored by classic Greek restaurants and the National Hellenic Museum at 333 S. Halsted. The neighborhood hosts cultural celebrations year-round and sits at the western gateway to downtown.</p>
+    </article>
+
+    <article class="card">
+      <img class="card-img" src="images/fulton-market-district.webp" alt="The Fulton Market District neon gateway sign at dusk">
+      <h4>Fulton River District</h4>
+      <p class="summary">Between the Chicago River and the Kennedy Expressway, this former industrial pocket has become a dense residential neighborhood of high-rises and converted warehouses, with quick access to both the Loop and the Fulton Market corridor.</p>
+    </article>
+
+    <article class="card">
+      <img class="card-img" src="images/lyric-opera.webp" alt="The Civic Opera House on the Chicago River">
+      <h4>The Loop (western section)</h4>
+      <p class="summary">The ward takes in much of the western and central Loop - Chicago's historic commercial core - including Daley Plaza and its Thursday farmers market, major CTA stations, Union Station, and Ogilvie Transportation Center, the commuter rail gateways to the entire region.</p>
+    </article>
+
+    <article class="card">
+      <h4>Printers Row</h4>
+      <p class="summary">Named for the printing and publishing houses that filled its landmark loft buildings a century ago, Printers Row is a compact, historic South Loop enclave along Dearborn Street, known for its annual Lit Fest, Printers Row Park, and some of the city's earliest loft conversions.</p>
+    </article>
+
+    <article class="card">
+      <img class="card-img" src="https://cdn.choosechicago.com/uploads/2019/06/south-loop.jpg" alt="South Loop skyline" onerror="this.remove()">
+      <h4>South Loop</h4>
+      <p class="summary">South of Congress Parkway, the ward includes a growing stretch of the South Loop with residential high-rises, the Roosevelt Collection shops, and easy access to the Museum Campus and lakefront just beyond the ward's edge.</p>
+    </article>
+
+    <article class="card">
+      <img class="card-img" src="https://cdn.choosechicago.com/uploads/2025/04/DSA06157-scaled-e1744996337679.jpg" alt="Little Italy's Taylor Street" onerror="this.src='images/marios-italian-lemonade.webp'; this.onerror=null;">
+      <h4>Little Italy / University Village (eastern edge)</h4>
+      <p class="summary">The ward's southwestern reaches touch the historic Little Italy neighborhood along Taylor Street and the University of Illinois Chicago campus area, where classic Italian institutions sit alongside student life and new development.</p>
+    </article>
+
+  </div>
+
+  <h3 class="section-heading">Ward Icons</h3>
+  <p class="section-intro">Landmarks and institutions that give the 34th Ward its character.</p>
+  <div class="neighborhood-grid">
+
+    <article class="card">
+      <img class="card-img" src="images/lou-mitchells.jpg" alt="Lou Mitchell's diner">
+      <h4>Lou Mitchell's</h4>
+      <p class="summary">Serving breakfast at 565 W. Jackson since 1923, Lou Mitchell's is the classic diner at the starting line of Route 66 - famous for double-yolk eggs, fluffy omelettes, and free Milk Duds and donut holes while you wait.</p>
+      <a class="read-more" href="https://www.loumitchells.com" target="_blank" rel="noopener">Visit website &rarr;</a>
+    </article>
+
+    <article class="card">
+      <img class="card-img" src="images/mary-bartelme-park.jpg" alt="The Willis Tower rising over Mary Bartelme Park">
+      <h4>Willis (Sears) Tower</h4>
+      <p class="summary">The tallest building in the Western Hemisphere for a quarter century, the 110-story tower at 233 S. Wacker anchors the ward's skyline - visible here over Mary Bartelme Park. The Skydeck's glass Ledge draws visitors from around the world.</p>
+      <a class="read-more" href="https://www.willistower.com" target="_blank" rel="noopener">Visit website &rarr;</a>
+    </article>
+
+    <article class="card">
+      <img class="card-img" src="images/original-pancake-house.jpg" alt="The Original Pancake House patio on Madison Street">
+      <h4>The Original Pancake House</h4>
+      <p class="summary">A breakfast institution since 1953, famous for the oven-baked Dutch Baby and apple pancakes. The West Loop location at 1124 W. Madison fills its striped-awning patio all summer.</p>
+      <a class="read-more" href="https://ophchicagoland.com/" target="_blank" rel="noopener">Visit website &rarr;</a>
+    </article>
+
+    <article class="card">
+      <img class="card-img" src="images/marios-italian-lemonade.webp" alt="The line outside Mario's Italian Lemonade">
+      <h4>Mario's Italian Lemonade</h4>
+      <p class="summary">The little red, white, and green stand at 1068 W. Taylor has served Italian ice to Little Italy since 1954. The line down the block on a hot night is a Chicago summer ritual all its own.</p>
+    </article>
+
+    <article class="card">
+      <img class="card-img" src="images/green-street-smoked-meats.jpg" alt="Green Street Smoked Meats">
+      <h4>Green Street Smoked Meats</h4>
+      <p class="summary">Tucked down an alley entrance at 112 N. Green, this Texas-style barbecue hall helped define the West Loop's food scene - brisket and frozen drinks at long communal tables.</p>
+      <a class="read-more" href="https://greenstreetmeats.com" target="_blank" rel="noopener">Visit website &rarr;</a>
+    </article>
+
+    <article class="card">
+      <h4>Soho House Chicago</h4>
+      <p class="summary">The members' club and hotel at 113-125 N. Green occupies the century-old Chicago Belting Factory - its gym, rooftop pool, and restaurants (some open to the public) made it an early anchor of the Green Street corridor.</p>
+      <a class="read-more" href="https://www.sohohouse.com/houses/soho-house-chicago" target="_blank" rel="noopener">Visit website &rarr;</a>
+    </article>
+
+    <article class="card">
+      <img class="card-img" src="images/lyric-opera.webp" alt="The Civic Opera House from the Chicago River">
+      <h4>Lyric Opera / Civic Opera House</h4>
+      <p class="summary">The 1929 Art Deco "throne" on the river at 20 N. Wacker seats 3,500 - one of the great opera houses of the world, and the western Loop's most dramatic riverfront facade.</p>
+      <a class="read-more" href="https://www.lyricopera.org" target="_blank" rel="noopener">Visit website &rarr;</a>
+    </article>
+
+    <article class="card">
+      <img class="card-img" src="images/chicago-river.jpg" alt="A water taxi on the Chicago River downtown">
+      <h4>The Chicago River</h4>
+      <p class="summary">The ward's eastern edge runs along the river's Main Branch - water taxis, architecture cruises, and the string of movable bridges that define downtown Chicago.</p>
+    </article>
+
+  </div>
+</main>
+
+<footer class="site-footer">
+  <p>&copy; <span id="year"></span> In and Around the West Loop &middot; 34thward.com</p>
+</footer>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+document.getElementById('year').textContent = new Date().getFullYear();
+
+const map = L.map('ward-map', { scrollWheelZoom: false });
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 18,
+  attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+}).addTo(map);
+
+fetch('data/ward34_boundary.geojson')
+  .then((r) => r.json())
+  .then((geo) => {
+    const layer = L.geoJSON(geo, {
+      style: {
+        color: '#c60c30',
+        weight: 3,
+        fillColor: '#0c2340',
+        fillOpacity: 0.12
+      }
+    }).addTo(map);
+    map.fitBounds(layer.getBounds(), { padding: [12, 12] });
+  })
+  .catch((err) => {
+    console.error('Failed to load ward boundary', err);
+    map.setView([41.877, -87.64], 14);
+  });
+</script>
+<script src="js/ticker.js?v=20260703f"></script>
+</body>
+</html>

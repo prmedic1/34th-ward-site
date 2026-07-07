@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Hour Deals | In and Around the West Loop</title>
+<link rel="stylesheet" href="css/style.css?v=20260703f">
+</head>
+<body class="photo-banner" style="--banner-img: url('/images/green-street-smoked-meats.jpg')">
+
+<header class="site-header">
+  <div class="header-inner">
+    <div class="brand">
+      <img class="brand-shield" src="images/shield-header.png" alt="34th Ward shield">
+      <div class="brand-text">
+        <h1>The Official 34th Ward Neighborhood Page</h1>
+        <p>Community News &amp; Civic Updates</p>
+      </div>
+    </div>
+    <nav class="main-nav">
+      <a href="index.html">Home</a>
+      <a href="map.html">Ward Map</a>
+      <a href="directory.html">Businesses</a>
+      <a href="happyhour.html" class="active">Happy Hours</a>
+      <a href="housing.html">Housing</a>
+      <a href="culture.html">Arts &amp; Culture</a>
+      <a href="resources.html">Resources</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero hero-compact">
+  <div class="hero-inner">
+    <h2>Happy Hour Deals</h2>
+    <p>A live, curated guide to <span id="hh-count">hundreds of</span> Chicago happy hours - updated straight from the neighborhood's running spreadsheet. Filter by area, cuisine, day, or see what's on right now.</p>
+    <p class="last-updated" id="hh-status">Loading the latest deals&hellip;</p>
+  </div>
+</section>
+
+<main class="page-section">
+  <div class="hh-controls">
+    <input type="search" id="hh-search" placeholder="Search a bar, deal, or cuisine&hellip;" aria-label="Search happy hours">
+    <select id="hh-hood" aria-label="Neighborhood"></select>
+    <select id="hh-cuisine" aria-label="Cuisine"></select>
+    <select id="hh-day" aria-label="Day">
+      <option value="">Any day</option>
+      <option value="today">Happening today</option>
+      <option value="Monday">Monday</option><option value="Tuesday">Tuesday</option>
+      <option value="Wednesday">Wednesday</option><option value="Thursday">Thursday</option>
+      <option value="Friday">Friday</option><option value="Saturday">Saturday</option>
+      <option value="Sunday">Sunday</option>
+    </select>
+  </div>
+  <div class="hh-toggles">
+    <label class="hh-check"><input type="checkbox" id="hh-now"> On right now</label>
+    <label class="hh-check"><input type="checkbox" id="hh-approved"> Elizabeth Approved &#9733;</label>
+    <label class="hh-check"><input type="checkbox" id="hh-oysters"> Oyster deals</label>
+    <label class="hh-check"><input type="checkbox" id="hh-patio"> Outdoor seating</label>
+  </div>
+
+  <p class="result-count" id="hh-result-count"></p>
+  <div class="hh-list" id="hh-list"></div>
+  <button id="hh-more" class="load-more-btn" hidden>Show more</button>
+  <p class="empty-state" id="hh-empty" hidden>No happy hours match those filters. Try widening your search.</p>
+
+  <p class="disclaimer directory-note">
+    Deals are pulled live from a community-maintained Chicago happy hour spreadsheet and reflect its latest edits. Hours and
+    prices change - the venue is always the final word, so call ahead for anything time-sensitive. Spot something out of date?
+    <a href="mailto:chicagojustice@gmail.com">Let us know</a>.
+  </p>
+</main>
+
+<footer class="site-footer">
+  <p>&copy; <span id="year"></span> In and Around the West Loop &middot; 34thward.com</p>
+</footer>
+
+<script src="js/happyhours.js?v=20260703f"></script>
+<script src="js/ticker.js?v=20260703f"></script>
+</body>
+</html>

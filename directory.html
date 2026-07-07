@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Business Directory | In and Around the West Loop</title>
+<link rel="stylesheet" href="css/style.css?v=20260703f">
+</head>
+<body class="photo-banner" style="--banner-img: url('/images/west-loop.jpg')">
+
+<header class="site-header">
+  <div class="header-inner">
+    <div class="brand">
+      <img class="brand-shield" src="images/shield-header.png" alt="34th Ward shield">
+      <div class="brand-text">
+        <h1>The Official 34th Ward Neighborhood Page</h1>
+        <p>Community News &amp; Civic Updates</p>
+      </div>
+    </div>
+    <nav class="main-nav">
+      <a href="index.html">Home</a>
+      <a href="map.html">Ward Map</a>
+      <a href="directory.html" class="active">Businesses</a>
+      <a href="happyhour.html">Happy Hours</a>
+      <a href="housing.html">Housing</a>
+      <a href="culture.html">Arts &amp; Culture</a>
+      <a href="resources.html">Resources</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero hero-compact">
+  <div class="hero-inner">
+    <h2>Business Directory</h2>
+    <p>Every business holding an active City of Chicago license at a 34th Ward address - <span id="biz-count">-</span> and counting.</p>
+  </div>
+</section>
+
+<main class="page-section">
+  <div class="feed-controls">
+    <input type="search" id="biz-search" placeholder="Search by name or address&hellip;" aria-label="Search businesses">
+    <select id="biz-category" aria-label="Filter by license type">
+      <option value="">All license types</option>
+    </select>
+    <select id="biz-zip" aria-label="Filter by ZIP code">
+      <option value="">All ZIP codes</option>
+    </select>
+  </div>
+
+  <p class="result-count" id="result-count"></p>
+
+  <div class="biz-list" id="biz-list"></div>
+  <button id="load-more" class="load-more-btn" hidden>Show more</button>
+  <p class="empty-state" id="biz-empty" hidden>No businesses match your search.</p>
+
+  <p class="disclaimer directory-note">
+    Source: City of Chicago business license records (data.cityofchicago.org), filtered to Ward 34, updated with each daily refresh.
+    Phone numbers and websites are added progressively; where one isn't listed yet, the "Find online" link runs a web search for the business.
+    Own a business listed here? <a href="mailto:chicagojustice@gmail.com">Send us your website and phone number</a> and we'll add them.
+  </p>
+</main>
+
+<footer class="site-footer">
+  <p>&copy; <span id="year"></span> In and Around the West Loop &middot; 34thward.com</p>
+</footer>
+
+<script src="js/directory.js?v=20260703f"></script>
+<script src="js/ticker.js?v=20260703f"></script>
+</body>
+</html>

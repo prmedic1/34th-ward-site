@@ -1,0 +1,225 @@
+{
+  "updated": "2026-07-01",
+  "categories": ["City Services", "Safety", "Parking", "Elected Officials", "Health", "Giving Back", "Parks & Recreation", "Food & Fun"],
+  "resources": [
+    {
+      "category": "City Services",
+      "title": "Street Sweeping Schedule",
+      "keywords": "street cleaning sweeping ticket tow zone schedule parking restriction april november",
+      "body": "Street sweeping runs April 1 through mid-November. Move your car on your zone's posted days to avoid a ticket and tow. Look up your sweeping zone and this year's schedule, or track the sweeper live.",
+      "links": [
+        {"label": "Find your zone & schedule", "url": "https://www.chicago.gov/city/en/depts/streets/provdrs/streets_san/svcs/street_sweeping.html"},
+        {"label": "Live sweeper tracker", "url": "https://www.chicago.gov/city/en/depts/streets/iframe/sweeper_tracker.html"}
+      ]
+    },
+    {
+      "category": "City Services",
+      "title": "Trash, Recycling & Blue Cart Pickup",
+      "keywords": "garbage trash recycling blue cart pickup collection schedule bulk",
+      "body": "Look up your block's garbage and blue-cart recycling collection day, and schedule bulk or e-waste pickups.",
+      "links": [
+        {"label": "Collection schedule lookup", "url": "https://www.chicago.gov/city/en/depts/streets/provdrs/streets_san.html"},
+        {"label": "Recycling guide", "url": "https://www.chicago.gov/city/en/depts/streets/provdrs/recycling.html"}
+      ]
+    },
+    {
+      "category": "City Services",
+      "title": "311 - City Service Requests",
+      "keywords": "311 pothole graffiti rodent rat tree light broken complaint service request",
+      "body": "Report potholes, graffiti, rodents, broken street lights, tree trims, and more. Requests are tracked and you get status updates.",
+      "links": [
+        {"label": "Submit a 311 request", "url": "https://311.chicago.gov"},
+        {"label": "Download the CHI311 app", "url": "https://www.chicago.gov/city/en/depts/311.html"}
+      ]
+    },
+    {
+      "category": "Safety",
+      "title": "CAPS Community Policing Meetings",
+      "keywords": "caps police beat meeting safety crime community policing district 1st 12th",
+      "body": "CAPS meetings connect neighbors, police, and the ward team on local safety. The ward spans the 1st (Central) and 12th (Near West) police districts. This week: Beat 113 (Jul 1, 5pm) and Beat 111 (Jul 1, 6pm) at Capital One Cafe, 100 S. State; Beat 112 walking meeting Jul 2 at noon - email the district for location.",
+      "links": [
+        {"label": "Find your beat & meeting times", "url": "https://home.chicagopolice.org/community-policing-group/"},
+        {"label": "Email 1st District CAPS", "url": "mailto:CAPS.001District@chicagopolice.org"},
+        {"label": "Email 12th District CAPS", "url": "mailto:CAPS.012District@chicagopolice.org"}
+      ]
+    },
+    {
+      "category": "Safety",
+      "title": "Private Camera Registration",
+      "keywords": "security camera register police investigation crime video",
+      "body": "If your security camera captures the public way, you can voluntarily register it with CPD so detectives can contact you after a nearby crime. Police get no direct access to your system.",
+      "links": [
+        {"label": "Register your camera", "url": "https://home.chicagopolice.org/services/private-sector-camera-registration/"}
+      ]
+    },
+    {
+      "category": "Safety",
+      "title": "Know Your Rights & Immigration Resources",
+      "keywords": "immigration ice rights know your rights icirr family support alerts",
+      "body": "Request a Know Your Rights training, connect with ICIRR's Family Support Network, and sign up for verified alert networks.",
+      "links": [
+        {"label": "ICIRR Family Support Network", "url": "https://www.icirr.org/fsn"},
+        {"label": "City immigrant support resources", "url": "https://www.chicago.gov/city/en/depts/mayor/supp_info/office-of-new-americans.html"}
+      ]
+    },
+    {
+      "category": "Parking",
+      "title": "Residential Parking Permits & Guest Passes",
+      "keywords": "parking permit residential zone guest pass daily sticker visitor",
+      "body": "Residential zone permits and one-day guest passes are issued by the City Clerk - buy online, at the Clerk's office (City Hall, 121 N. LaSalle), or at participating currency exchanges.",
+      "links": [
+        {"label": "Residential parking permits", "url": "https://www.chicityclerk.com/citystickers-parking/residential-parking"},
+        {"label": "Buy online", "url": "https://ezbuy.chicityclerk.com"}
+      ]
+    },
+    {
+      "category": "Parking",
+      "title": "City Vehicle Sticker",
+      "keywords": "city sticker vehicle wheel tax renew clerk",
+      "body": "All Chicago residents with a vehicle need an annual city sticker from the City Clerk. Renew online or in person; late purchase means back-charges and possible tickets.",
+      "links": [
+        {"label": "City sticker info & renewal", "url": "https://www.chicityclerk.com/citystickers-parking/about-city-stickers"}
+      ]
+    },
+    {
+      "category": "Elected Officials",
+      "title": "34th Ward Office - Ald. Bill Conway",
+      "keywords": "alderman ward office conway contact infrastructure city council 34th",
+      "body": "Ward office: City Hall, 121 N. LaSalle St., Room 200. Phone 312-744-6820, email bill@ward34.org. The ward team also tables at the West Loop Green City Market on Saturday mornings (9–11am). Closed Fri, Jul 3 for the holiday.",
+      "links": [
+        {"label": "ward34.org", "url": "https://www.ward34.org"},
+        {"label": "Email the ward office", "url": "mailto:bill@ward34.org"}
+      ]
+    },
+    {
+      "category": "Elected Officials",
+      "title": "City of Chicago Officials",
+      "keywords": "mayor brandon johnson city clerk anna valencia treasurer contact city hall",
+      "body": "Mayor Brandon Johnson, City Clerk Anna Valencia, and City Treasurer - all reachable through City Hall at 121 N. LaSalle St. For most city services, start with 311.",
+      "links": [
+        {"label": "Office of the Mayor", "url": "https://www.chicago.gov/city/en/depts/mayor.html"},
+        {"label": "City Clerk", "url": "https://www.chicityclerk.com"}
+      ]
+    },
+    {
+      "category": "Elected Officials",
+      "title": "County, State & Federal Representatives",
+      "keywords": "congress senator representative state rep cook county preckwinkle davis durbin duckworth district lookup",
+      "body": "Cook County Board President: Toni Preckwinkle. U.S. House: most of the ward sits in IL-7 (Rep. Danny K. Davis). U.S. Senators: Dick Durbin and Tammy Duckworth. For your exact state legislators (State Rep & State Senator), use the official district lookup - boundaries split the ward.",
+      "links": [
+        {"label": "Find your IL legislators", "url": "https://www.ilga.gov/Districts"},
+        {"label": "Cook County government", "url": "https://www.cookcountyil.gov"},
+        {"label": "Rep. Danny K. Davis (IL-7)", "url": "https://davis.house.gov"}
+      ]
+    },
+    {
+      "category": "Health",
+      "title": "Hospitals Near the Ward",
+      "keywords": "hospital emergency room er rush stroger ui health northwestern medical",
+      "body": "The Illinois Medical District sits just west of the ward: Rush University Medical Center (1620 W. Harrison), UI Health (1740 W. Taylor), and Stroger Hospital of Cook County (1969 W. Ogden). Northwestern Memorial serves the east side of downtown.",
+      "links": [
+        {"label": "Rush University Medical Center", "url": "https://www.rush.edu"},
+        {"label": "UI Health", "url": "https://hospital.uillinois.edu"},
+        {"label": "Stroger Hospital", "url": "https://cookcountyhealth.org"}
+      ]
+    },
+    {
+      "category": "Health",
+      "title": "Urgent Care & Clinics",
+      "keywords": "urgent care clinic walk-in doctor immediate care flu shot",
+      "body": "Several walk-in urgent care clinics operate in the West Loop and Loop - search current locations and hours near you. For low-cost care, Cook County Health's community clinics serve all patients regardless of insurance.",
+      "links": [
+        {"label": "Rush immediate care locations", "url": "https://www.rush.edu/locations"},
+        {"label": "Cook County Health clinics", "url": "https://cookcountyhealth.org/locations/"}
+      ]
+    },
+    {
+      "category": "Giving Back",
+      "title": "Donate Clothing & Goods",
+      "keywords": "donate clothing goodwill salvation army donation drop off clothes furniture",
+      "body": "Hope's Table at the Chicago Temple (First United Methodist, with Grace Episcopal at 637 S. Dearborn) distributes clothing to neighbors in need on Saturday mornings. Goodwill and the Salvation Army both have drop-off locators and pickup scheduling for larger donations.",
+      "links": [
+        {"label": "Hope's Table (volunteer/donate)", "url": "https://www.chicagotemple.org"},
+        {"label": "Goodwill location finder", "url": "https://www.goodwill.org/locator/"},
+        {"label": "Salvation Army pickup", "url": "https://satruck.org"}
+      ]
+    },
+    {
+      "category": "Giving Back",
+      "title": "Food Banks & Volunteering",
+      "keywords": "food bank pantry volunteer greater chicago food depository hunger donate food",
+      "body": "The Greater Chicago Food Depository welcomes volunteer groups (Indivisible Greater West Loop is going July 10). Hope's Table serves hot Saturday meals downtown and always needs hands.",
+      "links": [
+        {"label": "Greater Chicago Food Depository", "url": "https://www.chicagosfoodbank.org/volunteer/"},
+        {"label": "Hope's Table", "url": "https://www.chicagotemple.org"}
+      ]
+    },
+    {
+      "category": "Parks & Recreation",
+      "title": "Mary Bartelme Park & Movies in the Park",
+      "keywords": "mary bartelme park movies casablanca playground dog park sangamon outdoor movie",
+      "body": "The West Loop's signature park at 115 S. Sangamon - playground (new surface this year), dog-friendly area, and the iconic steel arches. Free sponsored movie screenings run all summer ('Casablanca' screened June 30; watch the feed for the next title). The Park Advisory Council organizes Farmers Market Fun Days and more.",
+      "links": [
+        {"label": "Park info (Chicago Park District)", "url": "https://www.chicagoparkdistrict.com/parks-facilities/bartelme-mary-park"},
+        {"label": "Movies in the Parks schedule", "url": "https://www.chicagoparkdistrict.com/events/movies-parks"}
+      ]
+    },
+    {
+      "category": "Parks & Recreation",
+      "title": "Ward Parks: Skinner, Printers Row & Heritage Green",
+      "keywords": "skinner park printers row park heritage green fieldhouse dog park programs",
+      "body": "Skinner Park (1331 W. Adams) has a fieldhouse, sports fields, and a dog park. Printers Row Park hosts the South Loop Farmers Market on Saturdays. Find programs, permits, and events for every park.",
+      "links": [
+        {"label": "Find your park & programs", "url": "https://www.chicagoparkdistrict.com/parks-facilities"}
+      ]
+    },
+    {
+      "category": "Parks & Recreation",
+      "title": "Millennium Park Free Summer Events",
+      "keywords": "millennium park free concert movie fitness summer music workout",
+      "body": "DCASE's free summer calendar at Millennium Park includes movies, concerts, and fitness classes just east of the ward - including screenings before Taste of Chicago and celebrations of Chicago house music.",
+      "links": [
+        {"label": "Millennium Park event calendar", "url": "https://www.chicago.gov/city/en/depts/dca/supp_info/millennium_park_-events.html"}
+      ]
+    },
+    {
+      "category": "Food & Fun",
+      "title": "Farmers Markets (4 in the ward)",
+      "keywords": "farmers market green city daley plaza printers row produce saturday thursday tuesday",
+      "body": "West Loop Green City Market: Saturdays 8am–1pm, 900 W. Monroe (ward team on site 9–11am). South Loop Farmers Market: Saturdays 9am–1pm at Printers Row Park. Daley Plaza Market: Thursdays 7am–2pm. The Farmer at the Green: Tuesdays 11am–3pm, 320 S. Canal.",
+      "links": [
+        {"label": "Green City Market vendors", "url": "https://www.greencitymarket.org"},
+        {"label": "City farmers market list", "url": "https://www.chicago.gov/city/en/depts/dca/supp_info/farmersmarkets.html"}
+      ]
+    },
+    {
+      "category": "Food & Fun",
+      "title": "Happy Hour Deals (verified weekly)",
+      "keywords": "happy hour drinks deals bar specials cocktails beer",
+      "body": "Venue-verified happy hours across the ward, re-checked on a daily cycle so nothing stale ever shows - currently Caché 310, Monteverde, and Green Street Local.",
+      "links": [
+        {"label": "See current happy hours", "url": "happyhour.html"}
+      ]
+    },
+    {
+      "category": "Food & Fun",
+      "title": "Concerts & Shows in the Ward",
+      "keywords": "concert music show theater tickets city winery epiphany lyric goodman broadway",
+      "body": "Live music most nights at City Winery (1200 W. Randolph) and Epiphany Center for the Arts (201 S. Ashland - free Blues Friday July 3). Broadway tours at the Loop's historic houses, opera at the Lyric, and more - every venue links to its live calendar.",
+      "links": [
+        {"label": "Arts & Culture page", "url": "culture.html"},
+        {"label": "City Winery calendar", "url": "https://citywinery.com/chicago/pages/calendar"},
+        {"label": "Epiphany events", "url": "https://epiphanychi.com/events/"}
+      ]
+    },
+    {
+      "category": "Food & Fun",
+      "title": "Thursday Night Beats & Bites",
+      "keywords": "food trucks live music roosevelt collection thursday summer entertainment",
+      "body": "Food trucks and live entertainment at Roosevelt Collection's main plaza, Thursdays 5–8pm through July.",
+      "links": [
+        {"label": "Schedule", "url": "https://www.rooseveltcollection.com"}
+      ]
+    }
+  ]
+}

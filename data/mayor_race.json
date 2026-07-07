@@ -1,0 +1,115 @@
+{
+  "updated_at": "2026-07-02T12:00:00-05:00",
+  "election_date": "February 23, 2027",
+  "kalshi_event": "KXMAYORCHI-27",
+  "kalshi_url": "https://kalshi.com/markets/kxmayorchi",
+  "note": "Percentages are the last trade price on Kalshi's 'Chicago mayoral election winner?' market - a prediction market, not a poll. Trading is thin this far out; treat as a rough signal. Refreshed with the site's daily update.",
+  "candidates": [
+    {
+      "name": "Alexi Giannoulias",
+      "role": "Illinois Secretary of State",
+      "status": "rumored",
+      "order": 1,
+      "badge": "Favorite",
+      "badgeColor": "blue",
+      "kalshi_pct": 47,
+      "image": "images/candidates/giannoulias.jpg"
+    },
+    {
+      "name": "Matthew Brewer",
+      "role": "Former CHA board chair",
+      "status": "declared",
+      "order": 2,
+      "kalshi_pct": null,
+      "image": "images/candidates/brewer.jpg",
+      "badge": "Underdog",
+      "badgeColor": "yellow"
+    },
+    {
+      "name": "Brandon Johnson",
+      "role": "Incumbent Mayor - has not declared",
+      "status": "incumbent",
+      "order": 3,
+      "badge": "Incumbent",
+      "badgeColor": "green",
+      "kalshi_pct": 7,
+      "image": "images/candidates/johnson.jpg"
+    },
+    {
+      "name": "Susana Mendoza",
+      "role": "Illinois Comptroller (outgoing)",
+      "status": "declared",
+      "order": 4,
+      "kalshi_pct": null,
+      "image": "images/candidates/mendoza.jpg"
+    },
+    {
+      "name": "Maria Pappas",
+      "role": "Cook County Treasurer",
+      "status": "declared",
+      "order": 5,
+      "kalshi_pct": 1,
+      "image": "images/candidates/pappas.jpg"
+    },
+    {
+      "name": "Mike Quigley",
+      "role": "U.S. Representative (IL-5)",
+      "status": "declared",
+      "order": 6,
+      "kalshi_pct": null,
+      "image": "images/candidates/quigley.jpg"
+    },
+    {
+      "name": "Willie Wilson",
+      "role": "Businessman",
+      "status": "rumored",
+      "order": 7,
+      "kalshi_pct": null,
+      "image": "images/candidates/wilson.jpg"
+    },
+    {
+      "name": "John Kelly",
+      "role": "Lobbyist & City Hall power broker",
+      "status": "rumored",
+      "order": 8,
+      "badge": "Conservative",
+      "badgeColor": "red",
+      "kalshi_pct": null,
+      "image": "images/candidates/kelly.jpg"
+    },
+    {
+      "name": "Joe Holberg",
+      "role": "Entrepreneur",
+      "status": "declared",
+      "order": 9,
+      "kalshi_pct": 3.5,
+      "image": "images/candidates/holberg.jpg"
+    },
+    {
+      "name": "George Cardenas",
+      "role": "Cook County Board of Review",
+      "status": "declared",
+      "order": 10,
+      "kalshi_pct": null,
+      "image": "images/candidates/cardenas.jpg",
+      "badge": "Conservative",
+      "badgeColor": "red"
+    },
+    {
+      "name": "Liam Stanton",
+      "role": "Small business owner & entrepreneur",
+      "status": "declared",
+      "order": 11,
+      "kalshi_pct": null,
+      "image": "images/candidates/stanton.jpg"
+    },
+    {
+      "name": "Dr. Lisa Nee",
+      "role": "Cardiologist & VA whistleblower",
+      "status": "rumored",
+      "order": 12,
+      "kalshi_pct": null,
+      "image": "images/candidates/nee.webp"
+    }
+  ]
+}

@@ -1,0 +1,775 @@
+{
+ "generated_at": "2026-07-03T12:00:00-05:00",
+ "freshness_policy_days": 7,
+ "deals": [
+  {
+   "id": "cache310",
+   "image": "https://cache310.com/wp-content/uploads/sites/114/2026/06/cache-310-og-white-1200x630-1.jpg",
+   "venue": "Cach\u00e9 310",
+   "address": "320 S Canal St (inside The Green at 320)",
+   "neighborhood": "West Loop / Canal corridor",
+   "schedule": "Monday\u2013Thursday, 6\u20138 PM",
+   "deals": [
+    "$10 signature cocktails",
+    "$5 beer & seltzer"
+   ],
+   "source_url": "https://cache310.com/happy-hour/",
+   "verified_via": "venue website",
+   "last_verified": "2026-07-01"
+  },
+  {
+   "id": "monteverde",
+   "venue": "Monteverde",
+   "address": "1020 W Madison St",
+   "neighborhood": "West Loop",
+   "schedule": "Tuesday\u2013Saturday, 2:30\u20134:30 PM (Aperitivo Hour)",
+   "deals": [
+    "Aperitivo hour menu at the bar - see venue site for current offerings"
+   ],
+   "source_url": "https://www.monteverdechicago.com/",
+   "verified_via": "venue website",
+   "last_verified": "2026-07-01"
+  },
+  {
+   "id": "green-street-local",
+   "image": "https://static.spotapps.co/website_images/ab_websites/55854_website_v1/social_back.jpg",
+   "venue": "Green Street Local",
+   "address": "130 S Green St",
+   "neighborhood": "West Loop",
+   "schedule": "Daily specials - different deal each day",
+   "deals": [
+    "Mon (all day): $5 Lagunitas drafts, $7 Dublin Ink Irish whiskey",
+    "Tue (all day): Taco Tuesday - $9 GSL nachos, specialty craft tacos, $8 perfect margaritas",
+    "Wed (all day): Wino Wednesday - $14 tavern cheese pizza, $17 specialty pizza, 1/2 off wine bottles",
+    "Thu 4\u20136 PM: $7 jalapeno garlic wings, $5 Gumballhead",
+    "Fri 3\u20136 PM: $9 GSL nachos, $5 Lagunitas drafts",
+    "Sat 11 AM\u20133 PM: $7 Sneaky Fox vodka, $5 Jamo shots, $29 Feudi ros\u00e9",
+    "Sun: Sunday Funday - $9 GSL nachos, $9 Bloody Marys"
+   ],
+   "source_url": "https://greenstreetlocal.com/chicago-west-loop-chicago-green-street-local-happy-hours-specials",
+   "verified_via": "venue website",
+   "last_verified": "2026-07-01"
+  },
+  {
+   "id": "bub-city",
+   "venue": "Bub City",
+   "address": "435 N Clark St (River North)",
+   "neighborhood": "River North",
+   "schedule": "Monday-Friday, 4-6 PM (+ Hangover Brunch Sat-Sun 11 AM-1 PM)",
+   "deals": [
+    "$5 High Noons, White Claws or Mamitas; $25 buckets",
+    "$6 Easy Peasy Lemonade & Back Porch Tea",
+    "$5 bites: All-American burger, Cali burger, pimento grilled cheese, chicken tenders, cheesy waffle fries",
+    "Weekend brunch: $6 Bloody Marys & espresso martinis"
+   ],
+   "source_url": "https://www.lettuce.com/blog/happy-hour-deals-near-you/",
+   "verified_via": "Lettuce Entertain You official site",
+   "last_verified": "2026-07-03"
+  },
+  {
+   "id": "stk-chicago",
+   "venue": "STK Steakhouse",
+   "address": "9 W Kinzie St (River North)",
+   "neighborhood": "River North",
+   "schedule": "Sunday-Friday, 3-5:30 PM (late-night food 10-11 PM)",
+   "deals": [
+    "$3 / $6 / $9 happy hour menu at the bar - bites, wine, and cocktails tiered by price"
+   ],
+   "source_url": "https://stksteakhouse.com/venues/chicago/",
+   "verified_via": "venue website",
+   "last_verified": "2026-07-03"
+  }
+ ],
+ "reported": [
+  {
+   "venue": "Bandit",
+   "address": "841 W Randolph St (West Loop)",
+   "note": "Reported daily happy hour 4-6 PM with $5 bites, $9 craft cocktails, and $1 wings; Bandit's website is under construction so we can't confirm - call ahead.",
+   "search": "Bandit West Loop Chicago happy hour"
+  },
+  {
+   "venue": "Pizzeria Portofino",
+   "address": "317 N Clark St (Riverfront)",
+   "note": "Has promoted a riverfront happy hour in past seasons; no current deal published on their menu page - call ahead or watch their socials.",
+   "search": "Pizzeria Portofino Chicago happy hour"
+  },
+  {
+   "venue": "Bodega Taqueria y Tequila",
+   "address": "912 W Randolph St (West Loop)",
+   "note": "Reported happy hour Thursday-Sunday 4-7 PM with 1/2-off wells, $6 drafts & margaritas, $4 tacos - confirm with the venue.",
+   "search": "Bodega Taqueria West Loop happy hour"
+  },
+  {
+   "venue": "Green Street Smoked Meats",
+   "address": "112 N Green St (West Loop)",
+   "note": "Frozen drinks and beer specials reported at off-peak hours - confirm with the venue.",
+   "search": "Green Street Smoked Meats happy hour"
+  }
+ ],
+ "all_venues": [
+  {
+   "name": "\"M\" Bar",
+   "address": "151 N Michigan Ave Ll C-16"
+  },
+  {
+   "name": "11 Dining",
+   "address": "440 S La Salle St 3Rd"
+  },
+  {
+   "name": "2 Twenty 2 Tavern",
+   "address": "222 S Wabash Ave 1"
+  },
+  {
+   "name": "9 Muses Bar & Grill",
+   "address": "315 S Halsted St 1St"
+  },
+  {
+   "name": "90Th Meridian",
+   "address": "231 S La Salle St 1 108"
+  },
+  {
+   "name": "Acanto",
+   "address": "18 S Michigan Ave 1St"
+  },
+  {
+   "name": "Aikana",
+   "address": "652-654 W Randolph St 1St"
+  },
+  {
+   "name": "Alla Vita",
+   "address": "564 W Randolph St 1"
+  },
+  {
+   "name": "Amc Dine-In Theatres Block 37",
+   "address": "108 N State St 4 434"
+  },
+  {
+   "name": "AMC Roosevelt Collection 16",
+   "address": "1011 S Delano Ct 1,2, Mezzanine"
+  },
+  {
+   "name": "Aramark @ Harris Bank",
+   "address": "320 S Canal St 16-17"
+  },
+  {
+   "name": "Arlo Chicago & About Last Knife",
+   "address": "168 N Michigan Ave 1-17"
+  },
+  {
+   "name": "Asadito Taqueria/Wok N Bao",
+   "address": "540 W Madison St"
+  },
+  {
+   "name": "Athena Restaurant",
+   "address": "212 S Halsted St 1St"
+  },
+  {
+   "name": "Atwood",
+   "address": "1 W Washington St 1"
+  },
+  {
+   "name": "Avec",
+   "address": "615 W Randolph St Ll-3Rd Fl"
+  },
+  {
+   "name": "Bandol",
+   "address": "100 W Monroe St 1St & 24"
+  },
+  {
+   "name": "Beggar'S Pizza",
+   "address": "310 S Clinton St 1St"
+  },
+  {
+   "name": "Berghoff'S",
+   "address": "17 W Adams St Bsmt & 1St"
+  },
+  {
+   "name": "Billys Goat'S",
+   "address": "1535 W Madison St"
+  },
+  {
+   "name": "Bocaditos",
+   "address": "1140 W Madison St 1"
+  },
+  {
+   "name": "Boka Catering Group",
+   "address": "624 W Lake St 1"
+  },
+  {
+   "name": "Bonivino'S Inc",
+   "address": "109 - 111 W Van Buren St"
+  },
+  {
+   "name": "Broken English Taco Pub",
+   "address": "75 E Lake St 1"
+  },
+  {
+   "name": "cache 310",
+   "address": "320 S Canal St 1 Space 0111"
+  },
+  {
+   "name": "Canal Street Eatery & Market",
+   "address": "320 S Canal St 1-2 Space 0103"
+  },
+  {
+   "name": "Cantina On Madison",
+   "address": "69 E Madison St"
+  },
+  {
+   "name": "Cardozo'S Pub",
+   "address": "170 W Washington St Ll"
+  },
+  {
+   "name": "Carnivale Restaurant",
+   "address": "702 W Fulton Market  1St & 2Nd Flr"
+  },
+  {
+   "name": "Ceres Cafe",
+   "address": "141 W Jackson Blvd 1 A105"
+  },
+  {
+   "name": "Ch Distillery",
+   "address": "564 W Randolph St 1St&Bsmt"
+  },
+  {
+   "name": "Chez Joel",
+   "address": "1119 W Taylor St  1St"
+  },
+  {
+   "name": "Chicago Athletic Association",
+   "address": "12 S Michigan Ave Basement-19"
+  },
+  {
+   "name": "Chicago Concessions @ Cibc Theatre",
+   "address": "18 W Monroe St  Orche"
+  },
+  {
+   "name": "Chili'S Grill And Bar",
+   "address": "1750 W 119Th St 1"
+  },
+  {
+   "name": "City Social",
+   "address": "120 N La Salle St 1"
+  },
+  {
+   "name": "Client Dining Room",
+   "address": "10 S Dearborn St 57Th"
+  },
+  {
+   "name": "Copper Club",
+   "address": "70 W Madison St  55"
+  },
+  {
+   "name": "Crowne Plaza Chicago West Loop/Rye Deli + Drink",
+   "address": "25 S Halsted St"
+  },
+  {
+   "name": "Dialtone Cafe",
+   "address": "550 W Van Buren St 1 100"
+  },
+  {
+   "name": "Dollop Diner Cafe & Bar",
+   "address": "1210 S Indiana Ave 1St"
+  },
+  {
+   "name": "Dugan'S",
+   "address": "128 S Halsted St 1St"
+  },
+  {
+   "name": "Elephant & Castle Pub & Restaurant",
+   "address": "111 W Adams St"
+  },
+  {
+   "name": "Epiphany Center For The Arts",
+   "address": "201-211 S Ashland Ave 1"
+  },
+  {
+   "name": "Era",
+   "address": "416 S Clark St 1"
+  },
+  {
+   "name": "Etc Restaurant",
+   "address": "404-406 S Wells St 1"
+  },
+  {
+   "name": "Eurest Dining at Brookfield Properties",
+   "address": "24 E Washington St 14"
+  },
+  {
+   "name": "Exchequer Restaurant",
+   "address": "224-226 S Wabash Ave 1 & Mezz"
+  },
+  {
+   "name": "Ffc West Loop",
+   "address": "10 S Clinton St 1,2,3"
+  },
+  {
+   "name": "Fft At Sabw, Llc",
+   "address": "1 S Dearborn St 37Th"
+  },
+  {
+   "name": "Five Iron Golf Chicago",
+   "address": "108 N State St  200 & 290"
+  },
+  {
+   "name": "Flat Top Grill",
+   "address": "30 S Wabash Ave"
+  },
+  {
+   "name": "Forte at Symphony Center",
+   "address": "65 E Adams St 1"
+  },
+  {
+   "name": "Forum 55",
+   "address": "55 E Monroe St Ll"
+  },
+  {
+   "name": "Froth Cafe / The Bunker Bar",
+   "address": "1515 W Monroe St 1St Fl- Ll"
+  },
+  {
+   "name": "Garcia's Jazz Restaurant",
+   "address": "1001 W Washington Blvd 1St"
+  },
+  {
+   "name": "Gibsons Italia",
+   "address": "233 N Canal St 2-4"
+  },
+  {
+   "name": "Giordano'S Greektown",
+   "address": "815 W Van Buren St 1"
+  },
+  {
+   "name": "Giordano'S On Jackson",
+   "address": "223-225 W Jackson Blvd"
+  },
+  {
+   "name": "Greek Islands Restaurant",
+   "address": "200 S Halsted St"
+  },
+  {
+   "name": "Green Basil Street",
+   "address": "22 S Wabash Ave"
+  },
+  {
+   "name": "Green Street Local",
+   "address": "130 S Green St 1St & 2Nd"
+  },
+  {
+   "name": "Hampton Inn Chicago-Downtown/West Loop",
+   "address": "116 N Jefferson St"
+  },
+  {
+   "name": "Homewood Suites Chicago-Downtown/West Loop",
+   "address": "118 N Jefferson St"
+  },
+  {
+   "name": "Hot Woks Cool Sushi",
+   "address": "30 S Michigan Ave 1St"
+  },
+  {
+   "name": "Hr Liquors",
+   "address": "210 N Canal St 1St"
+  },
+  {
+   "name": "Hyatt Centric The Loop Chicago",
+   "address": "100 W Monroe St 1-23"
+  },
+  {
+   "name": "Hyatt House Chicago West Loop / Fulton Market",
+   "address": "105 N May St 3, 14"
+  },
+  {
+   "name": "Italian Village Restaurant, Inc.",
+   "address": "71 W Monroe St Ll-2"
+  },
+  {
+   "name": "Ithaki Estiatorio",
+   "address": "314 S Halsted St 1"
+  },
+  {
+   "name": "Jarabe",
+   "address": "1104 W Taylor St"
+  },
+  {
+   "name": "Jefferson Tap And Grille And The Loft",
+   "address": "323-325 N Jefferson St 1"
+  },
+  {
+   "name": "Kumiko",
+   "address": "630 W Lake St Basement & 1St"
+  },
+  {
+   "name": "La Lagartija",
+   "address": "132 S Ashland Ave 1"
+  },
+  {
+   "name": "La Quinta Inn And Suites",
+   "address": "1 S Franklin St Ll-2"
+  },
+  {
+   "name": "Lea French Cafe",
+   "address": "20 N Michigan Ave 1 101"
+  },
+  {
+   "name": "Levy Premium Foodservice Limited Partnership",
+   "address": "220 S Michigan Ave 9Th"
+  },
+  {
+   "name": "Loft Lucia",
+   "address": "1-9 N Carpenter St 3 & 4"
+  },
+  {
+   "name": "Lucy & Max Sports Bar & Grill",
+   "address": "1507 W Madison St"
+  },
+  {
+   "name": "Macy'S",
+   "address": "111 N State St"
+  },
+  {
+   "name": "Madison Crab House",
+   "address": "1045 W Madison St 1St"
+  },
+  {
+   "name": "Mariano'S Fresh Market #8508",
+   "address": "40 S Halsted St 1-2"
+  },
+  {
+   "name": "Mariela",
+   "address": "1 W Washington St 1St"
+  },
+  {
+   "name": "Mila Plaza",
+   "address": "300 S Riverside Plz 1 150"
+  },
+  {
+   "name": "Miller'S Pub Restaurant",
+   "address": "134 S Wabash Ave 1"
+  },
+  {
+   "name": "Minghin Cuisine",
+   "address": "1232-1234 S Michigan Ave 1"
+  },
+  {
+   "name": "Momento Cantina",
+   "address": "44 S Wabash Ave 1St Floor"
+  },
+  {
+   "name": "Monteverde",
+   "address": "1020-1022 W Madison St 1"
+  },
+  {
+   "name": "Nando'S Peri-Peri",
+   "address": "22 S Wabash Ave 1St"
+  },
+  {
+   "name": "Nema Chicago",
+   "address": "1200 S Indiana Ave 16"
+  },
+  {
+   "name": "New Line",
+   "address": "201 N Clinton St 1"
+  },
+  {
+   "name": "O'Neil'S On Wells",
+   "address": "411 S Wells St 1St"
+  },
+  {
+   "name": "Omakase Yume",
+   "address": "651 W Washington Blvd 1 101"
+  },
+  {
+   "name": "Oriole",
+   "address": "661 W Walnut St"
+  },
+  {
+   "name": "Osco Drug #3376",
+   "address": "370 N Desplaines St 1"
+  },
+  {
+   "name": "Palmer House Hilton",
+   "address": "17 E Monroe St 1-27"
+  },
+  {
+   "name": "Park Tavern Chicago",
+   "address": "1645 W Jackson Blvd 1,Mezz, And Patio"
+  },
+  {
+   "name": "Pazzo'S",
+   "address": "311 S Wacker Dr Ll"
+  },
+  {
+   "name": "Pittsfield Cafe",
+   "address": "55 E Washington St 1St"
+  },
+  {
+   "name": "Pizanos",
+   "address": "61-65 E Madison St 1St & Ll"
+  },
+  {
+   "name": "Play 18",
+   "address": "17 N Wabash Ave 3Rd 300"
+  },
+  {
+   "name": "Premier Catering & Events",
+   "address": "500 W Jackson Blvd 1St"
+  },
+  {
+   "name": "Remington'S",
+   "address": "20 N Michigan Ave"
+  },
+  {
+   "name": "Residence Inn Chicago Downtown",
+   "address": "11 S La Salle St"
+  },
+  {
+   "name": "Ricano'S Restaurant",
+   "address": "230 S Ashland Ave 1St"
+  },
+  {
+   "name": "Roanoke",
+   "address": "135 W Madison St 1 & 2"
+  },
+  {
+   "name": "Russian Tea Time",
+   "address": "77 E Adams St"
+  },
+  {
+   "name": "Ryo Sushi",
+   "address": "62-66 E Madison St 1"
+  },
+  {
+   "name": "Ryota",
+   "address": "1131 W Madison St 1"
+  },
+  {
+   "name": "S2 Express Grill",
+   "address": "420 S Clark St 1"
+  },
+  {
+   "name": "Saigon Sisters",
+   "address": "567 W Lake St 1St A"
+  },
+  {
+   "name": "Saint Lou'S Assembly & Moneygun",
+   "address": "660-664 W Lake St"
+  },
+  {
+   "name": "School of the Art Institute of Chicago",
+   "address": "112 S Michigan Ave 2Nd Fl, Mezz-3Rd Fl"
+  },
+  {
+   "name": "Sepia",
+   "address": "135 N Jefferson St"
+  },
+  {
+   "name": "Shake Shack",
+   "address": "12 S Michigan Ave"
+  },
+  {
+   "name": "Simply Thalia",
+   "address": "108 N State St Pedway 10"
+  },
+  {
+   "name": "Sky Ride Tap",
+   "address": "105 W Van Buren St 1"
+  },
+  {
+   "name": "Slightly Toasted",
+   "address": "540 W Madison St 1 140"
+  },
+  {
+   "name": "Sodexomagic, Llc",
+   "address": "525 S Racine Ave"
+  },
+  {
+   "name": "Soju Bbq",
+   "address": "36 S Ashland Ave 1"
+  },
+  {
+   "name": "Spectrum Sports Bar & Grill",
+   "address": "233 S Halsted St"
+  },
+  {
+   "name": "Staypineapple Chicago",
+   "address": "1 W Washington St 1-15"
+  },
+  {
+   "name": "Stelios' Bottles & Bites",
+   "address": "19 S Morgan St 1"
+  },
+  {
+   "name": "Sterling Food Hall",
+   "address": "125 S Clark St 1St"
+  },
+  {
+   "name": "Stocks & Blondes Bar & Grille",
+   "address": "40 N Wells St 1St"
+  },
+  {
+   "name": "Sushi Pink Chicago Inc.",
+   "address": "909 W Washington Blvd 1St"
+  },
+  {
+   "name": "Sushi Plus Sushi Rotary Bar",
+   "address": "611 S Wells St  102"
+  },
+  {
+   "name": "Taco Bell Cantina",
+   "address": "407 S Dearborn St"
+  },
+  {
+   "name": "Taco Lulu",
+   "address": "601-603 W Adams St 1St"
+  },
+  {
+   "name": "Talay",
+   "address": "1222 W Madison St 1 102"
+  },
+  {
+   "name": "Tamashi Ramen",
+   "address": "810 W Jackson Blvd 1St"
+  },
+  {
+   "name": "Taste 222",
+   "address": "222 N Canal St 1"
+  },
+  {
+   "name": "Taureaux Tavern",
+   "address": "155 W Van Buren St Mezz & 1"
+  },
+  {
+   "name": "Ten Goku / Bon Yeon",
+   "address": "651 W Washington Blvd 1"
+  },
+  {
+   "name": "The Art Institute Of Chicago",
+   "address": "112 S Michigan Ave"
+  },
+  {
+   "name": "The Barn Hockey Bar",
+   "address": "1659 W Ogden Ave 1St Floor"
+  },
+  {
+   "name": "The Black Barrel Tavern",
+   "address": "1061 W Madison St Bsmnt-1"
+  },
+  {
+   "name": "The Cross Roads Bar & Grill",
+   "address": "1120-1124 W Madison St 1"
+  },
+  {
+   "name": "The Dearborn",
+   "address": "145 N Dearborn St 1St"
+  },
+  {
+   "name": "The Dining Room At Kendall College At National Louis University",
+   "address": "18 S Michigan Ave 7"
+  },
+  {
+   "name": "The Exchange - 224 S. Michigan Ave",
+   "address": "224 S Michigan Ave Ll-1"
+  },
+  {
+   "name": "The Fillmore",
+   "address": "120 W Monroe St 1St"
+  },
+  {
+   "name": "The Foyer",
+   "address": "525 W Monroe St 1St 100A"
+  },
+  {
+   "name": "The Franklin Tap",
+   "address": "325 S Franklin St 1"
+  },
+  {
+   "name": "The Gage",
+   "address": "24 S Michigan Ave 1St"
+  },
+  {
+   "name": "The Gray",
+   "address": "39 S La Salle St 1-15"
+  },
+  {
+   "name": "The Grillroom",
+   "address": "33 W Monroe St  First"
+  },
+  {
+   "name": "The Ktm Kitchen",
+   "address": "120 W Madison St 1-Mezz 104"
+  },
+  {
+   "name": "The Marq",
+   "address": "60 W Adams St 1"
+  },
+  {
+   "name": "The Original Pancake House",
+   "address": "1124 W Washington Blvd"
+  },
+  {
+   "name": "The Silversmith Hotel & Suites",
+   "address": "10-16 S Wabash Ave"
+  },
+  {
+   "name": "The Woolworth Bar at Washington Hall",
+   "address": "15 W Washington St 1St & Mezz"
+  },
+  {
+   "name": "Third Rail Tavern",
+   "address": "1133 W Madison St"
+  },
+  {
+   "name": "Tufano'S/Vernon Park Tap",
+   "address": "1073 W Vernon Park Pl"
+  },
+  {
+   "name": "Tuscany Restaurant",
+   "address": "1014-1018 W Taylor St 1St"
+  },
+  {
+   "name": "Umai",
+   "address": "730 S Clark St 1 100"
+  },
+  {
+   "name": "University Club Of Chicago",
+   "address": "76 E Monroe St Ll-12"
+  },
+  {
+   "name": "Van Buren Gentlemen's Salon",
+   "address": "235 W Van Buren St 1 C-3"
+  },
+  {
+   "name": "Viaggio",
+   "address": "1027 W Madison St 1"
+  },
+  {
+   "name": "Waffles",
+   "address": "1104 W Madison St"
+  },
+  {
+   "name": "Whole Foods Market",
+   "address": "1 N Halsted St 1"
+  },
+  {
+   "name": "Wishbone Restaurant",
+   "address": "161 N Jefferson St"
+  },
+  {
+   "name": "withlove collective",
+   "address": "33 N Carpenter St 1"
+  },
+  {
+   "name": "Wndr Museum",
+   "address": "1130 W Monroe St 1 And 2"
+  },
+  {
+   "name": "X Pot",
+   "address": "150 W Roosevelt Rd  A101"
+  },
+  {
+   "name": "Xi'an Cuisine West Loop",
+   "address": "769 W Jackson Blvd  103"
+  }
+ ]
+}

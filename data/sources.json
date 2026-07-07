@@ -1,0 +1,44 @@
+{
+  "_comment": "Configuration for the daily ingestion job. Fill in real sources, then point scripts/ingest.js at this file.",
+
+  "rss_feeds": [],
+
+  "website_monitors": [
+    {
+      "name": "34th Ward Office website",
+      "url": "https://www.ward34.org/",
+      "check": "daily",
+      "watch_for": "new newsletter archive entries, development/infrastructure page updates, business resources, community events",
+      "notes": "Homepage is mostly navigation; freshest content arrives via the Conway's Corner email. Monitor for site updates the email misses."
+    }
+  ],
+
+  "editorial_rules": {
+    "focus_on": "local businesses, community news, events, city services, and anything that affects residents' daily lives",
+    "avoid": "highlighting or personalizing coverage around Ald. Bill Conway or any individual politician; keep attribution factual (source name only) and lead with the community impact, not the official"
+  },
+
+  "email_intake": {
+    "_comment": "Recommend a dedicated inbox (e.g. news@34thward.com) subscribed to newsletters, kept separate from personal/work email.",
+    "inbox_address": "chicagojustice@gmail.com",
+    "gmail_search_query": "{from:bill@ward34.org from:illinoisplaybook@email.politico.com from:forecast@email.politico.com from:westloop.org from:info@indivisiblegwlchi.org from:wcachicago.org from:axios.com} newer_than:2d",
+    "expected_senders": [
+      "info@wcachicago.org (The WCA Weekly - West Central Association Chamber of Commerce, Thursdays; skips holiday weeks - none expected week of July 4)",
+      "bill@ward34.org (Conway's Corner - 34th Ward Office Newsletter)",
+      "info@indivisiblegwlchi.org (Indivisible Greater West Loop - Weekly Action Plan, Mondays)",
+      "illinoisplaybook@email.politico.com (POLITICO Illinois Playbook, daily)",
+      "forecast@email.politico.com (POLITICO Forecast, daily)",
+      "marketing@westloop.org (West Loop Community Organization - civic_org)",
+      "PENDING: Axios - no Axios emails found in this inbox; subscribe at axios.com/newsletters (e.g. Axios Chicago)"
+    ]
+  },
+
+  "moderation_rules": {
+    "auto_publish_by_default": true,
+    "hold_for_review_if": [
+      "mentions a named individual alongside an allegation, accusation, lawsuit, or dispute",
+      "content is unverifiable or contradicts a prior published item",
+      "source is not in the approved sender/feed list"
+    ]
+  }
+}

@@ -1,0 +1,8213 @@
+{
+ "source": "Curated Chicago happy hour spreadsheet (maintained by Elizabeth), fetched live",
+ "sheet_csv": "https://docs.google.com/spreadsheets/d/1mS4Z7yT5R5KXaj9sZWtRThiRQhJa0zkyYBG8Jwslubc/export?format=csv",
+ "snapshot_at": "2026-07-03T13:00:00-05:00",
+ "ward_area": [
+  "West Loop",
+  "Loop",
+  "Greektown",
+  "Fulton Market",
+  "River North",
+  "South Loop",
+  "Streeterville",
+  "Gold Coast",
+  "Printer's Row",
+  "River West",
+  "Little Italy",
+  "Near West Side",
+  "University Village",
+  "Old Town"
+ ],
+ "deals": [
+  {
+   "name": "101 Club",
+   "hood": "Streeterville",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+   ],
+   "start": "5:00 PM",
+   "end": "7:00 PM",
+   "deal": "$7 wine, $10 margaritas, $9-12 apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Meditteranean",
+   "approved": false
+  },
+  {
+   "name": "14 Parish",
+   "hood": "Hyde Park",
+   "days": [
+    "Tuesday",
+    "Wednesday",
+    "Thursday"
+   ],
+   "start": "3:00 PM",
+   "end": "6:00 PM",
+   "deal": "$10 cocktails",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "",
+   "cuisine": "Southern",
+   "approved": true
+  },
+  {
+   "name": "3rd Coast Fish Bar",
+   "hood": "Lakeview",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "3:00 PM",
+   "end": "5:00 PM",
+   "deal": "$7 drinks, 1/2 off apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "Sidewalk seating",
+   "gf": "Not gf/celiac safe",
+   "cuisine": "Seafood, Oyster Bar",
+   "approved": true
+  },
+  {
+   "name": "Aba",
+   "hood": "West Loop",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Sunday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$7 wine, $10 apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "Rooftop",
+   "gf": "Yes",
+   "cuisine": "Meditteranean",
+   "approved": true
+  },
+  {
+   "name": "About Last Knife",
+   "hood": "Loop",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "3:00 PM",
+   "end": "7:00 PM",
+   "deal": "$7 wine, $9 cocktails, $5-8 apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "American",
+   "approved": false
+  },
+  {
+   "name": "AceBounce",
+   "hood": "Loop",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "4:00 PM",
+   "end": "7:00 PM",
+   "deal": "$5 wine, $5-7 apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "No hh apps",
+   "cuisine": "American",
+   "approved": false
+  },
+  {
+   "name": "Adalina",
+   "hood": "Streeterville",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$10 martinis, $30 bottles of wine, $2 oysters",
+   "specials": false,
+   "oysters": true,
+   "patio": "",
+   "gf": "No hh apps",
+   "cuisine": "Italian",
+   "approved": false
+  },
+  {
+   "name": "Adobo Grill",
+   "hood": "Old Town",
+   "days": [
+    "Wednesday",
+    "Thursday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$4 tacos, $5 draft beer, $8 margaritas",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "",
+   "cuisine": "Mexican",
+   "approved": false
+  },
+  {
+   "name": "AliveOne!",
+   "hood": "Lakeview",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Sunday"
+   ],
+   "start": "5:00 PM",
+   "end": "7:00 PM",
+   "deal": "1/2 off all drinks",
+   "specials": true,
+   "oysters": false,
+   "patio": "",
+   "gf": "No hh apps",
+   "cuisine": "Dive Bar",
+   "approved": true
+  },
+  {
+   "name": "AliveOne!",
+   "hood": "Lakeview",
+   "days": [
+    "Friday",
+    "Saturday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "1/2 off all drinks",
+   "specials": true,
+   "oysters": false,
+   "patio": "",
+   "gf": "No hh apps",
+   "cuisine": "Dive Bar",
+   "approved": true
+  },
+  {
+   "name": "All Star Seafood and Sports",
+   "hood": "South Loop",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday"
+   ],
+   "start": "4:00 PM",
+   "end": "7:00 PM",
+   "deal": "1/2 off apps, drink specials",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Not gf/celiac safe",
+   "cuisine": "Sports Bar",
+   "approved": false
+  },
+  {
+   "name": "Alulu Brewpub",
+   "hood": "Pilsen",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "3:00 PM",
+   "end": "5:00 PM",
+   "deal": "$5-8 beer, $12 margarita, $5-14 apps",
+   "specials": true,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Brewery",
+   "approved": false
+  },
+  {
+   "name": "Amaru",
+   "hood": "Wicker Park",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday"
+   ],
+   "start": "5:00 PM",
+   "end": "6:00 PM",
+   "deal": "$7 wine, $10 cocktails, $5-10 apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Peruvian",
+   "approved": true
+  },
+  {
+   "name": "Amaru",
+   "hood": "Wicker Park",
+   "days": [
+    "Sunday"
+   ],
+   "start": "4:00 PM",
+   "end": "5:00 PM",
+   "deal": "$7 wine, $10 cocktails, $5-10 apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Peruvian",
+   "approved": true
+  },
+  {
+   "name": "Americano",
+   "hood": "Lincoln Park",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Days"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$8 wine, $8 martinis, $1 oysters",
+   "specials": false,
+   "oysters": true,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "American",
+   "approved": false
+  },
+  {
+   "name": "Andors Taverna",
+   "hood": "Logan Square",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:30 PM",
+   "deal": "$8 cocktails, $19-25 raw items with complimentary rosemary olive oil martini",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Greek",
+   "approved": true
+  },
+  {
+   "name": "Arabella",
+   "hood": "River North",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "5:00 PM",
+   "end": "7:00 PM",
+   "deal": "$7 beer, $10 wine, $10 cocktails, $5 bar bites",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "",
+   "cuisine": "Cocktail Bar",
+   "approved": false
+  },
+  {
+   "name": "Athena",
+   "hood": "Loop, West Loop",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "3:00 PM",
+   "end": "5:00 PM",
+   "deal": "$7 wine, $7-9 cocktails, $7-9 apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Greek",
+   "approved": false
+  },
+  {
+   "name": "Avli",
+   "hood": "Lincoln Park, Loop, River North",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "3:00 PM",
+   "end": "6:00 PM",
+   "deal": "$8 wine, $10 cocktail, $6-10 bites",
+   "specials": false,
+   "oysters": false,
+   "patio": "Sidewalk seating",
+   "gf": "Yes",
+   "cuisine": "Meditteranean",
+   "approved": true
+  },
+  {
+   "name": "Bambola",
+   "hood": "West Loop",
+   "days": [
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday"
+   ],
+   "start": "4:00 PM",
+   "end": "7:00 PM",
+   "deal": "$10 wine, $10 cocktails",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "No hh apps",
+   "cuisine": "Cocktail Bar",
+   "approved": false
+  },
+  {
+   "name": "Bandit",
+   "hood": "West Loop",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$8 cocktails, $8 bites",
+   "specials": false,
+   "oysters": false,
+   "patio": "Sidewalk seating",
+   "gf": "Yes",
+   "cuisine": "American",
+   "approved": true
+  },
+  {
+   "name": "Bandit",
+   "hood": "West Loop",
+   "days": [
+    "Friday"
+   ],
+   "start": "12:00 PM",
+   "end": "3:00 PM",
+   "deal": "$8 cocktails, $8 bites",
+   "specials": false,
+   "oysters": false,
+   "patio": "Sidewalk seating",
+   "gf": "Yes",
+   "cuisine": "American",
+   "approved": true
+  },
+  {
+   "name": "Bandol Brasserie & Raw Bar",
+   "hood": "Loop",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$9 wine, $7-10 cocktails, $2 oysters, $12 apps",
+   "specials": false,
+   "oysters": true,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "French",
+   "approved": false
+  },
+  {
+   "name": "Bangers and Lace",
+   "hood": "Wicker Park",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday"
+   ],
+   "start": "3:00 PM",
+   "end": "6:00 PM",
+   "deal": "$8 wine, $4 shots, $8 cocktails, $8 wrap, $8 Chicago dog",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "",
+   "cuisine": "British",
+   "approved": false
+  },
+  {
+   "name": "Bar Goa",
+   "hood": "River North",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday"
+   ],
+   "start": "5:00 PM",
+   "end": "6:00 PM",
+   "deal": "$7 wine, $7 cocktails, $4-10 apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Indian",
+   "approved": false
+  },
+  {
+   "name": "Bar la Rue",
+   "hood": "West Loop",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$9 wine, $9 martini, $2 oysters, $20 fondue, $10 bottomless fries",
+   "specials": false,
+   "oysters": true,
+   "patio": "",
+   "gf": "Not gf/celiac safe",
+   "cuisine": "French",
+   "approved": false
+  },
+  {
+   "name": "Bar Louie",
+   "hood": "Little Italy",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "4:00 PM",
+   "end": "7:00 PM",
+   "deal": "$4.50 domestic pints, $5.50 craft pints, $7 wine and well drinks, $8 cocktails, $8-10 bar bites and flatbreads",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "",
+   "cuisine": "American",
+   "approved": false
+  },
+  {
+   "name": "Bar Parisette",
+   "hood": "Logan Square",
+   "days": [
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "5:00 PM",
+   "end": "6:30 PM",
+   "deal": "$8 wine, $2 oysters",
+   "specials": false,
+   "oysters": true,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Cocktail Bar",
+   "approved": false
+  },
+  {
+   "name": "Bar Parisette",
+   "hood": "Logan Square",
+   "days": [
+    "Monday"
+   ],
+   "start": "All Day",
+   "end": "8:00 PM",
+   "deal": "$8 wine, $2 oysters",
+   "specials": false,
+   "oysters": true,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Cocktail Bar",
+   "approved": false
+  },
+  {
+   "name": "Bar Pendry",
+   "hood": "Loop",
+   "days": [
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+   ],
+   "start": "5:00 PM",
+   "end": "7:00 PM",
+   "deal": "$8 mini martinis, apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "",
+   "cuisine": "American",
+   "approved": false
+  },
+  {
+   "name": "Bar Roma",
+   "hood": "Andersonville",
+   "days": [
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$9 wine carafe, $10 cocktail, $8-12 bites",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "",
+   "cuisine": "Italian",
+   "approved": true
+  },
+  {
+   "name": "Bar Sotano",
+   "hood": "River North",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+   ],
+   "start": "5:00 PM",
+   "end": "6:00 PM",
+   "deal": "$4-6 beer, $8 cocktail, $6-8 snacks",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "",
+   "cuisine": "Mexican",
+   "approved": false
+  },
+  {
+   "name": "Bar Sotano",
+   "hood": "River North",
+   "days": [
+    "Wednesday"
+   ],
+   "start": "All Day",
+   "end": "",
+   "deal": "$4-6 beer, $8 cocktail, $6-8 snacks, $1 oysters",
+   "specials": false,
+   "oysters": true,
+   "patio": "",
+   "gf": "",
+   "cuisine": "Mexican",
+   "approved": false
+  },
+  {
+   "name": "Bar Taco",
+   "hood": "Bucktown",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "3:00 PM",
+   "end": "6:00 PM",
+   "deal": "$3-5 apps, $6.50 wine, $8.50 cocktails",
+   "specials": false,
+   "oysters": false,
+   "patio": "Patio",
+   "gf": "Yes",
+   "cuisine": "Mexican",
+   "approved": true
+  },
+  {
+   "name": "Barcocina",
+   "hood": "Lakeview",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "4:00 PM",
+   "end": "5:00 PM",
+   "deal": "1/2 off margs, $5 bites",
+   "specials": false,
+   "oysters": false,
+   "patio": "Patio",
+   "gf": "Yes",
+   "cuisine": "Mexican",
+   "approved": false
+  },
+  {
+   "name": "Barcocina",
+   "hood": "West Town",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "5:00 PM",
+   "end": "6:00 PM",
+   "deal": "1/2 off margs, $5 bites",
+   "specials": false,
+   "oysters": false,
+   "patio": "Patio",
+   "gf": "Yes",
+   "cuisine": "Mexican",
+   "approved": false
+  },
+  {
+   "name": "Barrio",
+   "hood": "River North",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "5:00 PM",
+   "end": "6:00 PM",
+   "deal": "$10 cocktails, $5 tacos, $10 apps",
+   "specials": true,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Mexican",
+   "approved": false
+  },
+  {
+   "name": "Basant",
+   "hood": "Lakeview",
+   "days": [
+    "Wednesday",
+    "Tuesday"
+   ],
+   "start": "5:00 PM",
+   "end": "6:00 PM",
+   "deal": "$8 wine, $10 bites",
+   "specials": false,
+   "oysters": false,
+   "patio": "Patio",
+   "gf": "Yes",
+   "cuisine": "Indian",
+   "approved": true
+  },
+  {
+   "name": "Basant",
+   "hood": "Lakeview",
+   "days": [
+    "Sunday"
+   ],
+   "start": "3:00 PM",
+   "end": "5:00 PM",
+   "deal": "$8 wine, $10 bites",
+   "specials": false,
+   "oysters": false,
+   "patio": "Patio",
+   "gf": "Yes",
+   "cuisine": "Indian",
+   "approved": true
+  },
+  {
+   "name": "Beatnik",
+   "hood": "West Town",
+   "days": [
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "4:00 PM",
+   "end": "7:00 PM",
+   "deal": "$10 wine, $10 cocktails, $10 burger, $10 spreads",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Meditteranean",
+   "approved": true
+  },
+  {
+   "name": "Beatrix",
+   "hood": "River North, Loop",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "3:00 PM",
+   "end": "6:00 PM",
+   "deal": "$5 wine, $7 cocktails, $9 burger",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "American",
+   "approved": true
+  },
+  {
+   "name": "Beautiful Rind",
+   "hood": "Logan Square",
+   "days": [
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "3:00 PM",
+   "end": "5:30 PM",
+   "deal": "$5 beer, $8 wine, $15 carafe, $5 snacks, $10 mini charcuterie",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Wine Bar",
+   "approved": true
+  },
+  {
+   "name": "Beauty Bar",
+   "hood": "West Town",
+   "days": [
+    "Friday",
+    "Saturday",
+    "Sunday",
+    "Thursday"
+   ],
+   "start": "7:00 PM",
+   "end": "9:00 PM",
+   "deal": "$8 wine, $10 beer and shot, $4 off signature cocktails",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "",
+   "cuisine": "Dive Bar",
+   "approved": false
+  },
+  {
+   "name": "Beck's Chicago",
+   "hood": "Lincoln Park",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$4 bottles/cans, $5 drafts/wine, 1/2 off apps, $6 well drinks",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Sports Bar",
+   "approved": false
+  },
+  {
+   "name": "Benchmark",
+   "hood": "Old Town",
+   "days": [
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "5:00 PM",
+   "end": "7:00 PM",
+   "deal": "1/2 off wine and apps, $8 cocktails",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "American",
+   "approved": false
+  },
+  {
+   "name": "Big Jones",
+   "hood": "Andersonville",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "4:30 PM",
+   "end": "6:00 PM",
+   "deal": "$6 beer and wine, $6 skillet, $10 burger, $12 fried chicken",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "",
+   "cuisine": "Southern",
+   "approved": false
+  },
+  {
+   "name": "Billy Sunday",
+   "hood": "Logan Square",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+   ],
+   "start": "5:00 PM",
+   "end": "7:00 PM",
+   "deal": "$10 cocktails",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "No hh apps",
+   "cuisine": "Cocktail Bar",
+   "approved": false
+  },
+  {
+   "name": "Bistro Monadnock",
+   "hood": "Printer's Row",
+   "days": [
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+   ],
+   "start": "2:30 PM",
+   "end": "5:30 PM",
+   "deal": "$6 beer, $9 wine, $6-9 apps",
+   "specials": false,
+   "oysters": true,
+   "patio": "",
+   "gf": "",
+   "cuisine": "French",
+   "approved": false
+  },
+  {
+   "name": "Bites Asian Kitchen",
+   "hood": "Lakeview",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$6 wine, $7 sangria, $8 bites",
+   "specials": false,
+   "oysters": false,
+   "patio": "Patio",
+   "gf": "Yes",
+   "cuisine": "Asian",
+   "approved": true
+  },
+  {
+   "name": "Bitter Pops",
+   "hood": "Lakeview",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "3:00 PM",
+   "end": "5:00 PM",
+   "deal": "25% off all drafts",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "",
+   "cuisine": "American",
+   "approved": false
+  },
+  {
+   "name": "BiXi Beer",
+   "hood": "Logan Square",
+   "days": [
+    "Thursday",
+    "Friday",
+    "Sunday"
+   ],
+   "start": "3:00 PM",
+   "end": "5:00 PM",
+   "deal": "$6 drafts, $10 cocktails",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Asian",
+   "approved": false
+  },
+  {
+   "name": "Blue Line Lounge",
+   "hood": "Bucktown",
+   "days": [
+    "Wednesday"
+   ],
+   "start": "All Day",
+   "end": "",
+   "deal": "$8 martinis",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "",
+   "cuisine": "Cocktail Bar",
+   "approved": false
+  },
+  {
+   "name": "Blue Line Lounge",
+   "hood": "Bucktown",
+   "days": [
+    "Friday"
+   ],
+   "start": "4:00 PM",
+   "end": "7:00 PM",
+   "deal": "$8 martinis (may be only during the holidays! Check first!)",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "",
+   "cuisine": "Cocktail Bar",
+   "approved": false
+  },
+  {
+   "name": "Blue Sushi",
+   "hood": "Lincoln Park",
+   "days": [
+    "Monday"
+   ],
+   "start": "3:00 PM",
+   "end": "6:00 PM",
+   "deal": "$7 wine, $8 cocktails, $8-12 sushi",
+   "specials": false,
+   "oysters": false,
+   "patio": "Sidewalk seating",
+   "gf": "Yes",
+   "cuisine": "Sushi",
+   "approved": true
+  },
+  {
+   "name": "Blue Sushi",
+   "hood": "Lincoln Park",
+   "days": [
+    "Sunday"
+   ],
+   "start": "All Day",
+   "end": "6:00 PM",
+   "deal": "$7 wine, $8 cocktails, $8-12 sushi",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Sushi",
+   "approved": true
+  },
+  {
+   "name": "BLVD",
+   "hood": "West Loop",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "4:30 PM",
+   "end": "6:00 PM",
+   "deal": "1/2 off martinis, 1/2 off bottles of wine, $2 oysters, $16 charcuterie boards, $25 buger/beer/shot",
+   "specials": false,
+   "oysters": true,
+   "patio": "",
+   "gf": "",
+   "cuisine": "Steakhouse",
+   "approved": false
+  },
+  {
+   "name": "Bocadito's",
+   "hood": "West Loop",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Sunday"
+   ],
+   "start": "3:00 PM",
+   "end": "6:00 PM",
+   "deal": "$8 wine, $10 cocktails, $2 oysters, $4 tacos",
+   "specials": false,
+   "oysters": true,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Mexican",
+   "approved": false
+  },
+  {
+   "name": "Bocadito's",
+   "hood": "West Loop",
+   "days": [
+    "Friday",
+    "Saturday"
+   ],
+   "start": "2:00 PM",
+   "end": "5:00 PM",
+   "deal": "$8 wine, $10 cocktails, $2 oysters, $4 tacos",
+   "specials": false,
+   "oysters": true,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Mexican",
+   "approved": false
+  },
+  {
+   "name": "Bodega Taqueria",
+   "hood": "River North, West Loop",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "4:00 PM",
+   "end": "7:00 PM",
+   "deal": "$3 margarita, 3 snacks",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Mexican",
+   "approved": false
+  },
+  {
+   "name": "Bokeh",
+   "hood": "Albany Park",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Sunday"
+   ],
+   "start": "5:00 PM",
+   "end": "7:00 PM",
+   "deal": "$7 food and apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Not gf/celiac safe",
+   "cuisine": "Cocktail Bar",
+   "approved": false
+  },
+  {
+   "name": "Boleo",
+   "hood": "Loop",
+   "days": [
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday"
+   ],
+   "start": "3:00 PM",
+   "end": "6:00 PM",
+   "deal": "$10 wine, $8 apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "No hh apps",
+   "cuisine": "Latin American",
+   "approved": false
+  },
+  {
+   "name": "Boqueria",
+   "hood": "West Loop",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "3:00 PM",
+   "end": "6:00 PM",
+   "deal": "$8-9 cocktails, $9 wine, $2-12 tapas",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Tapas",
+   "approved": false
+  },
+  {
+   "name": "Boqueria",
+   "hood": "West Loop",
+   "days": [
+    "Saturday",
+    "Sunday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$8-9 cocktails, $9 wine, $2-12 tapas",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Tapas",
+   "approved": false
+  },
+  {
+   "name": "Brando's",
+   "hood": "Loop, Lincoln Park",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+   ],
+   "start": "5:00 PM",
+   "end": "7:00 PM",
+   "deal": "$5 cocktails, beer, wine",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "",
+   "cuisine": "Dive Bar",
+   "approved": false
+  },
+  {
+   "name": "Brasero",
+   "hood": "West Town",
+   "days": [
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+   ],
+   "start": "5:00 PM",
+   "end": "7:00 PM",
+   "deal": "$5-13 apps, $12 wine",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Latin American",
+   "approved": true
+  },
+  {
+   "name": "Briny Swine",
+   "hood": "Lincoln Park",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$6 cocktails, $9 wine, $14 pitchers",
+   "specials": true,
+   "oysters": true,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "BBQ",
+   "approved": false
+  },
+  {
+   "name": "Broken Barrel",
+   "hood": "Lincoln Park",
+   "days": [
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "2:00 PM",
+   "end": "5:00 PM",
+   "deal": "$5 wine, $5 drinks, $5 margaritas, $6 tacos",
+   "specials": true,
+   "oysters": false,
+   "patio": "Patio",
+   "gf": "Yes",
+   "cuisine": "American, Mexican, Sports Bar",
+   "approved": true
+  },
+  {
+   "name": "Broken English",
+   "hood": "Old Town",
+   "days": [
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "4:00 PM",
+   "end": "7:00 PM",
+   "deal": "$4 tequila shots, $6 margs, $6 mini nachos",
+   "specials": true,
+   "oysters": false,
+   "patio": "",
+   "gf": "",
+   "cuisine": "Mexican",
+   "approved": false
+  },
+  {
+   "name": "Bronzeville Winery",
+   "hood": "Bronzeville",
+   "days": [
+    "Wednesday",
+    "Thursday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$7 wine, $7 cocktails, $7 apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Wine Bar",
+   "approved": false
+  },
+  {
+   "name": "Bub City",
+   "hood": "River North",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$5 High Noon, $25 Buckets of High Noon, $6 Easy Peasy Lemonade, $6 Back Porch Tea",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "",
+   "cuisine": "American",
+   "approved": false
+  },
+  {
+   "name": "Buleria's Tapas",
+   "hood": "Humbolt Park",
+   "days": [
+    "Friday",
+    "Sunday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$4 beer, $4 cocktails, $4 wine, $6 apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "",
+   "cuisine": "Tapas",
+   "approved": false
+  },
+  {
+   "name": "Buleria's Tapas",
+   "hood": "Humbolt Park",
+   "days": [
+    "Saturday"
+   ],
+   "start": "12:00 PM",
+   "end": "5:00 PM",
+   "deal": "$4 beer, $4 cocktails, $4 wine, $6 apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "",
+   "cuisine": "Tapas",
+   "approved": false
+  },
+  {
+   "name": "Burke's",
+   "hood": "Edgewater",
+   "days": [
+    "Tuesday",
+    "Wednesday",
+    "Thursday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$5 drafts, $5 wine, $5 cocktails, 1/2 off apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "American",
+   "approved": false
+  },
+  {
+   "name": "Butcher and the Bear",
+   "hood": "Lincoln Park",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "4:00 PM",
+   "end": "7:00 PM",
+   "deal": "$8 wine, $8 cocktatils, $8-20 apps/burger",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "",
+   "cuisine": "American",
+   "approved": false
+  },
+  {
+   "name": "Cafe Babareba",
+   "hood": "Lincoln Park",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$22 Sangria pitchers, $4 Estrella Damm bottles, $1.50 pintxos, $3 to $5 tapas, $7 wine",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Tapas",
+   "approved": true
+  },
+  {
+   "name": "Cafe Bionda",
+   "hood": "South Loop",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "3:00 PM",
+   "end": "6:00 PM",
+   "deal": "$7 wine, $9 cocktails, $10 apps",
+   "specials": false,
+   "oysters": true,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Italian",
+   "approved": false
+  },
+  {
+   "name": "Cafe El Tapatio",
+   "hood": "Lakeview",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$6 margaritas, $7 snacks",
+   "specials": true,
+   "oysters": false,
+   "patio": "Patio",
+   "gf": "Yes",
+   "cuisine": "Mexican",
+   "approved": true
+  },
+  {
+   "name": "Cafe Korzo",
+   "hood": "Lakeview East",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "4:00 PM",
+   "end": "7:00 PM",
+   "deal": "$5 beer, $7 wine, $8 cockails",
+   "specials": false,
+   "oysters": false,
+   "patio": "Sidewalk seating",
+   "gf": "No hh apps",
+   "cuisine": "Coffee Shop",
+   "approved": true
+  },
+  {
+   "name": "Cafe Yaya",
+   "hood": "Lincoln Park",
+   "days": [
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday"
+   ],
+   "start": "2:00 PM",
+   "end": "5:00 PM",
+   "deal": "$10 cocktails, $9-12 snacks, 1/2 off pastries",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Meditteranean",
+   "approved": false
+  },
+  {
+   "name": "Cafe Yaya",
+   "hood": "Lincoln Park",
+   "days": [
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "5:00 PM",
+   "end": "6:00 PM",
+   "deal": "$10 coffee cocktails",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "No hh apps",
+   "cuisine": "Meditteranean",
+   "approved": false
+  },
+  {
+   "name": "Canal Street Eatery",
+   "hood": "West Loop",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "3:00 PM",
+   "end": "6:00 PM",
+   "deal": "$9 wine, $10 cocktails",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Italian",
+   "approved": false
+  },
+  {
+   "name": "Carnivale",
+   "hood": "West Loop",
+   "days": [
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "4:30 PM",
+   "end": "6:30 PM",
+   "deal": "1/2 off cocktails and beer",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "No hh apps",
+   "cuisine": "Latin American",
+   "approved": false
+  },
+  {
+   "name": "Carpenter Street",
+   "hood": "West Loop",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$7 beer, $10 wine $10 martinis, $10 apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Not gf/celiac safe",
+   "cuisine": "Steakhouse",
+   "approved": false
+  },
+  {
+   "name": "Celeste",
+   "hood": "Streeterville",
+   "days": [
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "5:00 PM",
+   "end": "7:00 PM",
+   "deal": "$8 wine, $10 cocktails, $6-10 apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Cocktail Bar",
+   "approved": true
+  },
+  {
+   "name": "Central Park",
+   "hood": "Avondale",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "4:00 PM",
+   "end": "7:00 PM",
+   "deal": "1/2 off drinks",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "",
+   "cuisine": "Cocktail Bar",
+   "approved": false
+  },
+  {
+   "name": "Cesars Killer Margaritas",
+   "hood": "Lakeview East",
+   "days": [
+    "Tuesday",
+    "Wednesday",
+    "Thursday"
+   ],
+   "start": "3:00 PM",
+   "end": "6:00 PM",
+   "deal": "$8 margaritas, $20 tequila flights, 1/2 off apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Mexican",
+   "approved": false
+  },
+  {
+   "name": "Chalet",
+   "hood": "River North",
+   "days": [
+    "Friday"
+   ],
+   "start": "4:00 PM",
+   "end": "7:00 PM",
+   "deal": "$5 espresso martinis, lemon drops, wings, burger",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "",
+   "cuisine": "American",
+   "approved": false
+  },
+  {
+   "name": "Charlie Martin's",
+   "hood": "River North",
+   "days": [
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday"
+   ],
+   "start": "5:00 PM",
+   "end": "7:00 PM",
+   "deal": "$10-12 cocktails, $10 wine, $2-9 apps",
+   "specials": false,
+   "oysters": true,
+   "patio": "",
+   "gf": "",
+   "cuisine": "American",
+   "approved": false
+  },
+  {
+   "name": "Chef's Special",
+   "hood": "Bucktown",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+   ],
+   "start": "5:00 PM",
+   "end": "6:00 PM",
+   "deal": "$9 cocktails, $6-11 apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Asian, Cocktail Bar",
+   "approved": true
+  },
+  {
+   "name": "CheSa's",
+   "hood": "Avondale",
+   "days": [
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "5:00 PM",
+   "end": "7:00 PM",
+   "deal": "$9.50 cocktails, $5-12 apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Southern",
+   "approved": false
+  },
+  {
+   "name": "Chicago Firehouse",
+   "hood": "South Loop",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "4:00 PM",
+   "end": "5:00 PM",
+   "deal": "$5 wine, 1/2 off cocktails, $5 apps",
+   "specials": false,
+   "oysters": true,
+   "patio": "",
+   "gf": "",
+   "cuisine": "American",
+   "approved": false
+  },
+  {
+   "name": "Chicago Q",
+   "hood": "Streeterville",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$5 old fashioned, $10 sprtizer, $4-9 snacks",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Southern",
+   "approved": false
+  },
+  {
+   "name": "Chiya chai",
+   "hood": "Logan Square",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday"
+   ],
+   "start": "6:00 PM",
+   "end": "7:00 PM",
+   "deal": "$5 cocktails, beer, wine",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "No hh apps",
+   "cuisine": "Indian, Coffee Shop",
+   "approved": false
+  },
+  {
+   "name": "City Social",
+   "hood": "Loop",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$4 beer, $6 rose",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "",
+   "cuisine": "American",
+   "approved": false
+  },
+  {
+   "name": "City Social",
+   "hood": "Loop",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$4-5 beer, $6 rose",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "",
+   "cuisine": "American",
+   "approved": false
+  },
+  {
+   "name": "Claddagh Ring Pub",
+   "hood": "Lincoln Square",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$3 beer, $4 Jameson shots, $5 well drinks, $6 craft drafts, $5 for 6 games of pool",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "No hh apps",
+   "cuisine": "Dive Bar",
+   "approved": false
+  },
+  {
+   "name": "Clara",
+   "hood": "Wicker Park",
+   "days": [
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$10 cocktails, $6 beer, $2 off wine, 1/2 off bottles of wine",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "",
+   "cuisine": "Cocktail Bar",
+   "approved": false
+  },
+  {
+   "name": "Cleo's",
+   "hood": "Ukranian Village",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday"
+   ],
+   "start": "3:00 PM",
+   "end": "6:00 PM",
+   "deal": "1/2 off drafts, well liquor, wine",
+   "specials": true,
+   "oysters": false,
+   "patio": "",
+   "gf": "No hh apps",
+   "cuisine": "Sports Bar",
+   "approved": false
+  },
+  {
+   "name": "Clever Coyote",
+   "hood": "Wicker Park",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+   ],
+   "start": "5:00 PM",
+   "end": "6:00 PM",
+   "deal": "$9 drinks and food",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Not gf/celiac safe",
+   "cuisine": "American, Cocktail Bar",
+   "approved": true
+  },
+  {
+   "name": "Coalfire Pizza",
+   "hood": "Lakeview",
+   "days": [
+    "Tuesday",
+    "Wednesday",
+    "Thursday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$7 wine, $10 cocktail, $16 pizza",
+   "specials": false,
+   "oysters": false,
+   "patio": "Sidewalk seating",
+   "gf": "Not gf/celiac safe",
+   "cuisine": "American",
+   "approved": true
+  },
+  {
+   "name": "Common Decency",
+   "hood": "Logan Square",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$7 wine, $10 cocktails, $5-7 food",
+   "specials": true,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "American",
+   "approved": true
+  },
+  {
+   "name": "Communitty Tavern",
+   "hood": "Portage Park",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+   ],
+   "start": "5:00 PM",
+   "end": "6:00 PM",
+   "deal": "$5 draft cider/beer, $8 cockails, $25 bottle of wine, $8 apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "",
+   "cuisine": "Sports Bar",
+   "approved": false
+  },
+  {
+   "name": "Community Tavern",
+   "hood": "Irving Park",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+   ],
+   "start": "5:00 PM",
+   "end": "6:00 PM",
+   "deal": "$8 cocktails, $8 apps, $25 bottles of wine, $5 beer/cider",
+   "specials": false,
+   "oysters": false,
+   "patio": "Yes",
+   "gf": "Asian",
+   "cuisine": "4038 N Milwaukee Ave, Chicago, IL 60641",
+   "approved": false
+  },
+  {
+   "name": "Coquette",
+   "hood": "West Loop",
+   "days": [
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday"
+   ],
+   "start": "5:00 PM",
+   "end": "7:00 PM",
+   "deal": "$10 wine, $10 cocktails",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "No hh apps",
+   "cuisine": "Cocktail Bar",
+   "approved": false
+  },
+  {
+   "name": "Corocan's",
+   "hood": "Old Town",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "3:00 PM",
+   "end": "6:00 PM",
+   "deal": "$7.5- wine, $29 cider/selzer buckets",
+   "specials": true,
+   "oysters": false,
+   "patio": "",
+   "gf": "No hh apps",
+   "cuisine": "Sports Bar",
+   "approved": false
+  },
+  {
+   "name": "Costera Cocina",
+   "hood": "West Loop",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$7 wine, $10 margaritas, discounted apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "",
+   "cuisine": "Mexican",
+   "approved": false
+  },
+  {
+   "name": "Daisies",
+   "hood": "Logan Square",
+   "days": [
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "3:00 PM",
+   "end": "5:00 PM",
+   "deal": "$7 cocktails, $7 wine, $5-12 snacks",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "American",
+   "approved": true
+  },
+  {
+   "name": "Daisy's Po-Boy and Tavern",
+   "hood": "Hyde Park",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "1/2 off beer, $10 cocktails, $5-10 snacks",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "",
+   "cuisine": "Southern",
+   "approved": false
+  },
+  {
+   "name": "Damen Tavern",
+   "hood": "Ukranian Village",
+   "days": [
+    "Thursday",
+    "Friday"
+   ],
+   "start": "5:00 PM",
+   "end": "8:00 PM",
+   "deal": "$4 beer, seltzer, well drinks, shots",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "No hh apps",
+   "cuisine": "Dive Bar",
+   "approved": true
+  },
+  {
+   "name": "Dearly Beloved",
+   "hood": "Old Town",
+   "days": [
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Sunday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "1/2 off cocktails, $15 martini and fries, $1 oysters (Wed/Thur/Fri)",
+   "specials": false,
+   "oysters": true,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Cocktail Bar",
+   "approved": false
+  },
+  {
+   "name": "Dell Rooster",
+   "hood": "West Town",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Sunday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$6 wine, $6 apps",
+   "specials": true,
+   "oysters": false,
+   "patio": "",
+   "gf": "Not gf/celiac safe",
+   "cuisine": "American",
+   "approved": false
+  },
+  {
+   "name": "Demera",
+   "hood": "Uptown",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$7 wine, $7 beer, $8-10 snacks",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Ethiopian",
+   "approved": false
+  },
+  {
+   "name": "Desert Hawk",
+   "hood": "Wicker Park",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+   ],
+   "start": "5:00 PM",
+   "end": "6:00 PM",
+   "deal": "$9 margaritas and ranch waters, $5/6 drafts, $7 well drinks",
+   "specials": false,
+   "oysters": false,
+   "patio": "Sidewalk seating",
+   "gf": "No hh apps",
+   "cuisine": "Mexican",
+   "approved": true
+  },
+  {
+   "name": "Dial Tone",
+   "hood": "Old Town",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$10 cocktails, $6 beer, $10 wine",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "No hh apps",
+   "cuisine": "Coffee Shop, Wine Bar",
+   "approved": false
+  },
+  {
+   "name": "Dial Tone",
+   "hood": "Old Town",
+   "days": [
+    "Friday",
+    "Saturday"
+   ],
+   "start": "9:00 PM",
+   "end": "10:00 PM",
+   "deal": "$10 cocktails, $6 beer, $10 wine",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "No hh apps",
+   "cuisine": "Coffee Shop, Wine Bar",
+   "approved": false
+  },
+  {
+   "name": "Diego",
+   "hood": "West Town",
+   "days": [
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$10 wine, $11 cocktails, $6 apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "Patio",
+   "gf": "Yes",
+   "cuisine": "Mexican",
+   "approved": true
+  },
+  {
+   "name": "District House",
+   "hood": "Jefferson Park",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday"
+   ],
+   "start": "3:00 PM",
+   "end": "5:00 PM",
+   "deal": "$2.50 beer, $4 vodka shots, $5 wine",
+   "specials": true,
+   "oysters": false,
+   "patio": "",
+   "gf": "",
+   "cuisine": "Sports Bar",
+   "approved": false
+  },
+  {
+   "name": "Divan",
+   "hood": "Old Town",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+   ],
+   "start": "5:00 PM",
+   "end": "6:30 PM",
+   "deal": "$10 cocktails, $2 oysters, $5-20 apps",
+   "specials": false,
+   "oysters": true,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Steakhouse",
+   "approved": false
+  },
+  {
+   "name": "DJ's Great Room",
+   "hood": "Gold Coast",
+   "days": [
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$10 wine, $11 cocktails, $7-9 apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "American",
+   "approved": false
+  },
+  {
+   "name": "Drew's on Halsted",
+   "hood": "Lakeview East",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$8 wine, $8 cocktails, $8 apps",
+   "specials": true,
+   "oysters": false,
+   "patio": "",
+   "gf": "",
+   "cuisine": "American",
+   "approved": false
+  },
+  {
+   "name": "Drop-In",
+   "hood": "River West",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$4-9 cocktails, $27 burger fries pilsner underberg",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Not gf/celiac safe",
+   "cuisine": "American",
+   "approved": false
+  },
+  {
+   "name": "Easy Bar",
+   "hood": "Wicker Park",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "1/2 off drinks",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "",
+   "cuisine": "Dive Bar",
+   "approved": false
+  },
+  {
+   "name": "Easy Bar",
+   "hood": "Wicker Park",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "1/2 off drinks",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "No hh apps",
+   "cuisine": "Dive Bar",
+   "approved": false
+  },
+  {
+   "name": "Easy Does It",
+   "hood": "Logan Square",
+   "days": [
+    "Monday"
+   ],
+   "start": "All Day",
+   "end": "",
+   "deal": "$8 wine, $8 cocktails",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "No hh apps",
+   "cuisine": "Wine Bar",
+   "approved": true
+  },
+  {
+   "name": "Easy Does It",
+   "hood": "Logan Square",
+   "days": [
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "5:00 PM",
+   "end": "7:00 PM",
+   "deal": "$8 wine, $8 cocktails",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "No hh apps",
+   "cuisine": "Wine Bar",
+   "approved": true
+  },
+  {
+   "name": "Easy Does It",
+   "hood": "Logan Square",
+   "days": [
+    "Saturday",
+    "Sunday"
+   ],
+   "start": "2:00 PM",
+   "end": "4:00 PM",
+   "deal": "$8 wine, $8 cocktails",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "No hh apps",
+   "cuisine": "Wine Bar",
+   "approved": false
+  },
+  {
+   "name": "Eduardo's Enoteca",
+   "hood": "Gold Coast",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday"
+   ],
+   "start": "3:00 PM",
+   "end": "5:00 PM",
+   "deal": "1/2 off glasses of wine, $8-10 bites",
+   "specials": false,
+   "oysters": false,
+   "patio": "Sidewalk seating",
+   "gf": "Yes",
+   "cuisine": "Italian",
+   "approved": true
+  },
+  {
+   "name": "Eight Bar",
+   "hood": "River North",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$8 mini martinis, $8 apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Sushi, Asian",
+   "approved": false
+  },
+  {
+   "name": "El Berrinches",
+   "hood": "Pilsen",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+   ],
+   "start": "2:00 PM",
+   "end": "6:00 PM",
+   "deal": "$6-8 cocktails",
+   "specials": true,
+   "oysters": false,
+   "patio": "",
+   "gf": "No hh apps",
+   "cuisine": "Mexican",
+   "approved": true
+  },
+  {
+   "name": "El Che",
+   "hood": "West Loop",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Sunday"
+   ],
+   "start": "5:00 PM",
+   "end": "6:00 PM",
+   "deal": "$6 beer, $11 wine, $13 cocktails, $5-15 apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "",
+   "cuisine": "Steakhouse",
+   "approved": false
+  },
+  {
+   "name": "El Mariachi Tequila Bar",
+   "hood": "Lakeview East",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$8 margaritas, $4 beer, 1/2 off apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "",
+   "cuisine": "Mexican",
+   "approved": false
+  },
+  {
+   "name": "El Nuevo Mexicano",
+   "hood": "Lakeview",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$4 beer, $6 wine, $8-10 cocktails, $8-10 apps and packages",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Mexican",
+   "approved": false
+  },
+  {
+   "name": "El Solazo",
+   "hood": "Pilsen",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$8 beer, $10 apps",
+   "specials": true,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Mexican",
+   "approved": true
+  },
+  {
+   "name": "Electric Shuffle",
+   "hood": "River North",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "3:00 PM",
+   "end": "5:00 PM",
+   "deal": "$5 beer, wine, fries, $10 cocktails, pizza",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "American",
+   "approved": false
+  },
+  {
+   "name": "Elephant and Castle",
+   "hood": "Loop",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "3:00 PM",
+   "end": "6:00 PM",
+   "deal": "$6 wine, $6 apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Not gf/celiac safe",
+   "cuisine": "American",
+   "approved": true
+  },
+  {
+   "name": "Elixir",
+   "hood": "Andersonville",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "5:00 PM",
+   "end": "7:00 PM",
+   "deal": "$8 Wines, $9 House Vodka or Gin Martinis (Dirty, Dry or Straight Up), $10 Old Fashioneds",
+   "specials": false,
+   "oysters": false,
+   "patio": "No hh apps",
+   "gf": "Cocktail Bar",
+   "cuisine": "",
+   "approved": false
+  },
+  {
+   "name": "Ella Elli",
+   "hood": "Lakeview",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "1/2 off wine, martinis, snacks",
+   "specials": false,
+   "oysters": false,
+   "patio": "Sidewalk seating",
+   "gf": "Yes",
+   "cuisine": "Wine Bar",
+   "approved": true
+  },
+  {
+   "name": "Elston Electric",
+   "hood": "River West",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$8 cocktail, $10 wine, $45 pitcher, 1/2 off bar snacks",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "American",
+   "approved": false
+  },
+  {
+   "name": "Ema",
+   "hood": "River North",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$7 snacks, $8 wine, $10 cocktails",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Meditteranean",
+   "approved": true
+  },
+  {
+   "name": "Eris Cidery",
+   "hood": "Irving Park",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$5 cider and beer, 1/2 off apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "",
+   "cuisine": "Cocktail Bar",
+   "approved": false
+  },
+  {
+   "name": "Estelle's",
+   "hood": "Wicker Park",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "1/2 off all drinks",
+   "specials": true,
+   "oysters": false,
+   "patio": "",
+   "gf": "Not gf/celiac safe",
+   "cuisine": "Dive Bar",
+   "approved": true
+  },
+  {
+   "name": "Estero",
+   "hood": "West Loop",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "3:00 PM",
+   "end": "6:00 PM",
+   "deal": "$10 cocktails",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "No hh apps",
+   "cuisine": "Cocktail Bar",
+   "approved": false
+  },
+  {
+   "name": "Estrella Negra",
+   "hood": "Bucktown",
+   "days": [
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "5:00 PM",
+   "end": "6:00 PM",
+   "deal": "$8 cocktails, $8 chips and guac, $4 empanadas",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Mexican",
+   "approved": false
+  },
+  {
+   "name": "Estrella Negra",
+   "hood": "Bucktown",
+   "days": [
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Monday"
+   ],
+   "start": "5:00 PM",
+   "end": "6:00 PM",
+   "deal": "$8 cocktails, $8 chips and guac",
+   "specials": true,
+   "oysters": false,
+   "patio": "",
+   "gf": "",
+   "cuisine": "Mexican",
+   "approved": false
+  },
+  {
+   "name": "Etc",
+   "hood": "Loop",
+   "days": [
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$5 beer, $8 wine, $10 cocktails",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "No hh apps",
+   "cuisine": "American",
+   "approved": false
+  },
+  {
+   "name": "Everything Bar",
+   "hood": "West Town",
+   "days": [
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday"
+   ],
+   "start": "5:00 PM",
+   "end": "7:00 PM",
+   "deal": "$6 High Noons, $7 espresso martini, $8 margarita, $8 wings, $8 food, $13 pizza",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Not gf/celiac safe",
+   "cuisine": "Dive Bar",
+   "approved": false
+  },
+  {
+   "name": "Everything Bar",
+   "hood": "West Town",
+   "days": [
+    "Thursday",
+    "Friday",
+    "Saturday"
+   ],
+   "start": "5:00 PM",
+   "end": "7:00 PM",
+   "deal": "$6 seltzer, $7 espresso martini, $8 margarita, $8 wings, burger",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Not gf/celiac safe",
+   "cuisine": "American",
+   "approved": false
+  },
+  {
+   "name": "EZ Inn",
+   "hood": "Humbolt Park",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Sunday"
+   ],
+   "start": "5:00 PM",
+   "end": "8:00 PM",
+   "deal": "$8 cocktails",
+   "specials": true,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Dive Bar",
+   "approved": false
+  },
+  {
+   "name": "Farm Bar",
+   "hood": "Lakeview",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "1/2 off wine, spirits, apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "Patio",
+   "gf": "Yes",
+   "cuisine": "American",
+   "approved": true
+  },
+  {
+   "name": "Farm Bar",
+   "hood": "Lakeview, Ravenswood",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "1/2 off wine, spirits, apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "Patio",
+   "gf": "Yes",
+   "cuisine": "American",
+   "approved": true
+  },
+  {
+   "name": "Fat Cat",
+   "hood": "Uptown",
+   "days": [
+    "Wednesday",
+    "Thursday"
+   ],
+   "start": "4:00 PM",
+   "end": "7:00 PM",
+   "deal": "$7 whiskey drinks (Wednesday), $7 martinis/cocktails (Thursdays)",
+   "specials": true,
+   "oysters": false,
+   "patio": "",
+   "gf": "",
+   "cuisine": "Cocktail Bar",
+   "approved": false
+  },
+  {
+   "name": "Federales",
+   "hood": "West Loop, Logan Square",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$9 margarita, $9-12 snacks",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Mexican",
+   "approved": false
+  },
+  {
+   "name": "Felix",
+   "hood": "Lakeview",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$5 beer, $7 wine, $10 cocktails, $6-15 apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "American",
+   "approved": true
+  },
+  {
+   "name": "Figo Wine Bar",
+   "hood": "Lakeview",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday"
+   ],
+   "start": "5:00 PM",
+   "end": "6:00 PM",
+   "deal": "$9 wine, $10 cocktails, $10 appetizers, $25 charcuterie board",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Wine Bar",
+   "approved": true
+  },
+  {
+   "name": "Figo Wine Bar",
+   "hood": "Lakeview",
+   "days": [
+    "Friday"
+   ],
+   "start": "4:00 PM",
+   "end": "5:00 PM",
+   "deal": "$9 wine, $10 cocktails, $10 appetizers, $25 charcuterie board",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Wine Bar",
+   "approved": true
+  },
+  {
+   "name": "Fireplace Inn",
+   "hood": "Old Town",
+   "days": [
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "4:30 PM",
+   "end": "6:30 PM",
+   "deal": "40% off all cocktails and wine, $5 drafts, 25% off all apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Not gf/celiac safe",
+   "cuisine": "American",
+   "approved": false
+  },
+  {
+   "name": "Fireside Restaurant",
+   "hood": "Ravenswood",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$6 wine, $6 sangria, $6 well drinks",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "",
+   "cuisine": "American",
+   "approved": false
+  },
+  {
+   "name": "First Draft",
+   "hood": "South Loop",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "4:00 PM",
+   "end": "7:00 PM",
+   "deal": "$5.50 well cocktails, $4 drafts, $25 bottles of wine, $10 cheese curds and pretzel bites",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Not gf/celiac safe",
+   "cuisine": "American",
+   "approved": false
+  },
+  {
+   "name": "First Draft",
+   "hood": "Printer's Row, Location",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "4:00 PM",
+   "end": "7:00 PM",
+   "deal": "$5.50 mixed drinks, $25 bottles of wine, $10 apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "",
+   "cuisine": "Sports Bar",
+   "approved": false
+  },
+  {
+   "name": "Fiya",
+   "hood": "Andersonville",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$7 wine, $8 cocktails, $8-12 apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "",
+   "cuisine": "Meditteranean",
+   "approved": false
+  },
+  {
+   "name": "Flight Club",
+   "hood": "Loop",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$8 cocktails, $9 wine",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "No hh apps",
+   "cuisine": "American",
+   "approved": false
+  },
+  {
+   "name": "Flo",
+   "hood": "West Town",
+   "days": [
+    "Friday",
+    "Saturday"
+   ],
+   "start": "4:00 PM",
+   "end": "7:00 PM",
+   "deal": "$4 tacos, $6 margs",
+   "specials": true,
+   "oysters": false,
+   "patio": "",
+   "gf": "",
+   "cuisine": "Mexican",
+   "approved": false
+  },
+  {
+   "name": "Fora",
+   "hood": "West Loop",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:30 PM",
+   "deal": "$4 beer, $7 wine, $8 cocktails, $6-9 snacks",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "",
+   "cuisine": "American",
+   "approved": false
+  },
+  {
+   "name": "Forbidden Root",
+   "hood": "Ravenswood, West Town",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$10 flights, 1/2 off apps",
+   "specials": false,
+   "oysters": true,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "American",
+   "approved": false
+  },
+  {
+   "name": "Formento's",
+   "hood": "West Loop",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "4:30 PM",
+   "end": "6:00 PM",
+   "deal": "$9 wine, $10 cocktails, $8 apps, $1 oysters",
+   "specials": false,
+   "oysters": true,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Italian",
+   "approved": false
+  },
+  {
+   "name": "Frasca",
+   "hood": "Lakeview",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$6 glasses of wine",
+   "specials": false,
+   "oysters": false,
+   "patio": "Sidewalk seating",
+   "gf": "No hh apps",
+   "cuisine": "American, Italian",
+   "approved": true
+  },
+  {
+   "name": "Frontier",
+   "hood": "West Town",
+   "days": [
+    "Wednesday"
+   ],
+   "start": "5:00 PM",
+   "end": "8:00 PM",
+   "deal": "$6 beer, $10 cocktails, $10 apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Not gf/celiac safe",
+   "cuisine": "Southern",
+   "approved": false
+  },
+  {
+   "name": "Frontier",
+   "hood": "West Town",
+   "days": [
+    "Thursday"
+   ],
+   "start": "5:00 PM",
+   "end": "7:00 PM",
+   "deal": "$6 beer, $10 cocktails, $10 apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Not gf/celiac safe",
+   "cuisine": "Southern",
+   "approved": false
+  },
+  {
+   "name": "Frontier",
+   "hood": "West Town",
+   "days": [
+    "Friday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$6 beer, $10 cocktails, $10 apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Not gf/celiac safe",
+   "cuisine": "Southern",
+   "approved": false
+  },
+  {
+   "name": "Fry the Coop",
+   "hood": "West Town",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+   ],
+   "start": "3:00 PM",
+   "end": "5:00 PM",
+   "deal": "1/2 off drinks",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "No hh apps",
+   "cuisine": "Southern",
+   "approved": false
+  },
+  {
+   "name": "Gaijin",
+   "hood": "West Loop",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$5 highball, $7 cocktails, $5-7 apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Asian",
+   "approved": false
+  },
+  {
+   "name": "Galit",
+   "hood": "Lincoln Park",
+   "days": [
+    "Tuesday",
+    "Wednesday",
+    "Thursday"
+   ],
+   "start": "5:00 PM",
+   "end": "6:00 PM",
+   "deal": "$6 beer, $10 wine, $10 cocktails, $10-18 apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "",
+   "cuisine": "Meditteranean",
+   "approved": false
+  },
+  {
+   "name": "Gannon's",
+   "hood": "North Center",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "5:00 PM",
+   "end": "7:00 PM",
+   "deal": "$5 draft beer and wine",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "",
+   "cuisine": "American",
+   "approved": false
+  },
+  {
+   "name": "Ghost Donkey",
+   "hood": "River North",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$6 margarita, $7 paloma, $8 wine, $2-10 apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Mexican",
+   "approved": true
+  },
+  {
+   "name": "Ghost Donkey",
+   "hood": "River North",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+   ],
+   "start": "All Day",
+   "end": "",
+   "deal": "$6 margarita, $7 paloma, $8 wine, $2-10 apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Mexican",
+   "approved": true
+  },
+  {
+   "name": "Gideon Welles",
+   "hood": "Lincoln Square",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday"
+   ],
+   "start": "3:00 PM",
+   "end": "6:00 PM",
+   "deal": "$6 beer, $7 wine, $8-9 cocktails, $7 apps, $10 burger",
+   "specials": false,
+   "oysters": false,
+   "patio": "Sidewalk seating",
+   "gf": "Yes",
+   "cuisine": "American",
+   "approved": true
+  },
+  {
+   "name": "Gilt Bar",
+   "hood": "River North",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+   ],
+   "start": "4:00 PM",
+   "end": "5:30 PM",
+   "deal": "$6 wine, $7 cocktails $7-11 apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Italian, American, Cocktail Bar",
+   "approved": true
+  },
+  {
+   "name": "Glunz Tavern",
+   "hood": "Old Town",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "4:00 PM",
+   "end": "7:00 PM",
+   "deal": "$8 well drinks, $10 aperol/hugo spritz, $5 fries or chips",
+   "specials": true,
+   "oysters": false,
+   "patio": "",
+   "gf": "Not gf/celiac safe",
+   "cuisine": "German",
+   "approved": true
+  },
+  {
+   "name": "Gold Hours",
+   "hood": "Ukranian Village",
+   "days": [
+    "Monday",
+    "Wednesday",
+    "Thursday",
+    "Sunday"
+   ],
+   "start": "5:00 PM",
+   "end": "8:00 PM",
+   "deal": "$2 off beer and wine, $8 old fashioned, $10 burger and fries",
+   "specials": false,
+   "oysters": false,
+   "patio": "Not gf/celiac safe",
+   "gf": "Dive Bar",
+   "cuisine": "",
+   "approved": false
+  },
+  {
+   "name": "Gold Hours",
+   "hood": "Ukranian Village",
+   "days": [
+    "Friday",
+    "Saturday"
+   ],
+   "start": "5:00 PM",
+   "end": "6:00 PM",
+   "deal": "$2 off beer and wine, $8 old fashioned, $10 burger and fries",
+   "specials": false,
+   "oysters": false,
+   "patio": "Not gf/celiac safe",
+   "gf": "Dive Bar",
+   "cuisine": "",
+   "approved": false
+  },
+  {
+   "name": "Grant Park Bistro",
+   "hood": "South Loop",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Sunday"
+   ],
+   "start": "4:00 PM",
+   "end": "5:00 PM",
+   "deal": "$7.50 wine, $7.50 cocktails, $3-7 snacks",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "",
+   "cuisine": "American",
+   "approved": false
+  },
+  {
+   "name": "Grapes and Grains",
+   "hood": "West Loop",
+   "days": [
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "6:00 PM",
+   "end": "8:00 PM",
+   "deal": "$11 cocktails",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "No hh apps",
+   "cuisine": "Wine Bar",
+   "approved": true
+  },
+  {
+   "name": "HaiSous",
+   "hood": "Pilsen",
+   "days": [
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+   ],
+   "start": "4:00 PM",
+   "end": "5:30 PM",
+   "deal": "$10 cocktails $10 food",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Vietnemese",
+   "approved": true
+  },
+  {
+   "name": "Half Shell Oysters",
+   "hood": "Lakeview East",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$6 wine, $7 margarita, $1 oysters",
+   "specials": false,
+   "oysters": true,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Seafood, Oyster Bar",
+   "approved": false
+  },
+  {
+   "name": "Hampton Social",
+   "hood": "River North, Streeterville",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "3:00 PM",
+   "end": "6:00 PM",
+   "deal": "$5 beer, $8 wine, 1/2 off pizza and margs, $9-15 apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Seafood, Pizza",
+   "approved": true
+  },
+  {
+   "name": "Happy Camper",
+   "hood": "Wrigleyville, Old Town",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "3:00 PM",
+   "end": "6:00 PM",
+   "deal": "$6 wine, $7 espresso martinis, $9 spritzes",
+   "specials": false,
+   "oysters": false,
+   "patio": "Patio",
+   "gf": "Yes",
+   "cuisine": "American",
+   "approved": false
+  },
+  {
+   "name": "Happy Camper",
+   "hood": "Wrigleyville, Old Town",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "3:00 PM",
+   "end": "6:00 PM",
+   "deal": "$6 wine,  $7 espresso martinis, $9 spritzes",
+   "specials": false,
+   "oysters": false,
+   "patio": "Patio",
+   "gf": "Yes",
+   "cuisine": "American",
+   "approved": false
+  },
+  {
+   "name": "Happy Day Tavern",
+   "hood": "Albany Park",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "6:00 PM",
+   "end": "9:00 PM",
+   "deal": "$5 mimosas, $1 off drafts, $5 mixed drinks",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "",
+   "cuisine": "Dive Bar",
+   "approved": false
+  },
+  {
+   "name": "Havana",
+   "hood": "River North",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Sunday"
+   ],
+   "start": "3:00 PM",
+   "end": "5:30 PM",
+   "deal": "$8 cocktails",
+   "specials": false,
+   "oysters": false,
+   "patio": "No hh apps",
+   "gf": "Latin American",
+   "cuisine": "412 N Clark St, Chicago, IL 60654",
+   "approved": false
+  },
+  {
+   "name": "Heritage Restaurant and Caviar Bar",
+   "hood": "Ukranian Village",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$7 wine, $2.50 oysters",
+   "specials": false,
+   "oysters": true,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "German",
+   "approved": true
+  },
+  {
+   "name": "Hide and Seek",
+   "hood": "West Loop",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$10 wine, $10 cocktails, $6-10 snacks",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "American",
+   "approved": false
+  },
+  {
+   "name": "Homeslide",
+   "hood": "Lincoln Park",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "3:00 PM",
+   "end": "6:00 PM",
+   "deal": "$6 wine,  $7 espresso martinis, $9 spritzes",
+   "specials": false,
+   "oysters": false,
+   "patio": "Patio",
+   "gf": "Yes",
+   "cuisine": "American",
+   "approved": false
+  },
+  {
+   "name": "Hubbard Inn",
+   "hood": "River North",
+   "days": [
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "4:00 PM",
+   "end": "7:00 PM",
+   "deal": "$7 wine, $9 cocktails, $2.50 oysters, $10 apps",
+   "specials": false,
+   "oysters": true,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Cocktail Bar",
+   "approved": false
+  },
+  {
+   "name": "Hugo's Frog Bar and Fish House",
+   "hood": "Gold Coast",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Sunday"
+   ],
+   "start": "3:00 PM",
+   "end": "6:00 PM",
+   "deal": "1/2 off bottles of wine, 1/2 off oysters, $5 beer, $5 snacks",
+   "specials": false,
+   "oysters": true,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Seafood",
+   "approved": false
+  },
+  {
+   "name": "Il girasole trattoria",
+   "hood": "Bucktown",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$8 wine, $10 cocktails, $10 apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "Not gf/celiac safe",
+   "gf": "Italian",
+   "cuisine": "",
+   "approved": false
+  },
+  {
+   "name": "Il Porcellino",
+   "hood": "River North",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$8 wine, $8 cocktails",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Italian",
+   "approved": false
+  },
+  {
+   "name": "Ila",
+   "hood": "River North",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "4:00 PM",
+   "end": "7:00 PM",
+   "deal": "$7 beer, $10 wine, $11 cocktails, $12 apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "American",
+   "approved": false
+  },
+  {
+   "name": "Ina Mae Tavern",
+   "hood": "Wicker Park",
+   "days": [
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$8 punch, $10 wine",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "",
+   "cuisine": "Southern",
+   "approved": false
+  },
+  {
+   "name": "Inkwell",
+   "hood": "West Loop",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$5 Bar Mix, $5 Olives, $12 Cocktails including Old Fashioned, Manhattan, Daiquiri, Moscow Mule, Irish Coffee, Margarita",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Cocktail Bar",
+   "approved": false
+  },
+  {
+   "name": "InnJoy",
+   "hood": "Wicker Park",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "6:00 PM",
+   "end": "8:00 PM",
+   "deal": "1/2 off drinks, $8 vodka cocktails",
+   "specials": true,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Dive Bar",
+   "approved": false
+  },
+  {
+   "name": "InnJoy",
+   "hood": "Wicker Park",
+   "days": [
+    "Sunday",
+    "Saturday"
+   ],
+   "start": "12:00 PM",
+   "end": "2:00 PM",
+   "deal": "1/2 off drinks, $8 vodka cocktails",
+   "specials": true,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Dive Bar",
+   "approved": false
+  },
+  {
+   "name": "IO Godfrey",
+   "hood": "River North",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday"
+   ],
+   "start": "2:00 PM",
+   "end": "5:00 PM",
+   "deal": "$7 wine, 1/2 off apps, $10 cocktails",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "American, Cocktail Bar",
+   "approved": false
+  },
+  {
+   "name": "Irazu",
+   "hood": "Wicker Park",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$4 beer, $6 cocktails, $6-13 apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Latin American",
+   "approved": false
+  },
+  {
+   "name": "Itoko",
+   "hood": "Lakeview",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday"
+   ],
+   "start": "4:30 PM",
+   "end": "6:00 PM",
+   "deal": "$12 cocktails\u2060, $10 sake\u2060, $3 nigiri, $7 robata, $14 ramen\u2060\u2060",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Sushi",
+   "approved": false
+  },
+  {
+   "name": "Jarabe",
+   "hood": "Little Italy",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$6 margaritas, $5 beer, $8 apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Mexican",
+   "approved": false
+  },
+  {
+   "name": "Joe's Seafood",
+   "hood": "Streeterville",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "2:00 PM",
+   "end": "5:00 PM",
+   "deal": "1/2 off oysters, wine, cocktails, $10 snacks",
+   "specials": false,
+   "oysters": true,
+   "patio": "",
+   "gf": "",
+   "cuisine": "Seafood",
+   "approved": false
+  },
+  {
+   "name": "Joto",
+   "hood": "West Loop",
+   "days": [
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$6 beer, $9 wine, $9-12 cocktails, $7 handrolls",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Sushi",
+   "approved": false
+  },
+  {
+   "name": "Kaiser Tiger",
+   "hood": "West Loop",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "3:00 PM",
+   "end": "5:00 PM",
+   "deal": "$5 drafts, $2 fries",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Not gf/celiac safe",
+   "cuisine": "American",
+   "approved": false
+  },
+  {
+   "name": "Kama",
+   "hood": "Wicker Park",
+   "days": [
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "5:00 PM",
+   "end": "6:00 PM",
+   "deal": "$10 cocktails, 1/2 off apps",
+   "specials": true,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Indian",
+   "approved": false
+  },
+  {
+   "name": "Kamehachi",
+   "hood": "Old Town",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "3:00 PM",
+   "end": "5:30 PM",
+   "deal": "$8 wine, $9 cocktail, $5 apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "",
+   "cuisine": "Sushi",
+   "approved": false
+  },
+  {
+   "name": "Kayao",
+   "hood": "Old Town",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "4:30 PM",
+   "end": "7:00 PM",
+   "deal": "$7 margarita, $10 wine, $10 cocktail, $6-12 apps, $2.50 oysters",
+   "specials": false,
+   "oysters": true,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Peruvian",
+   "approved": true
+  },
+  {
+   "name": "Kelli's",
+   "hood": "Bronzeville",
+   "days": [
+    "Thursday",
+    "Friday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:30 PM",
+   "deal": "$10 cocktails, $10 apps",
+   "specials": true,
+   "oysters": false,
+   "patio": "Not gf/celiac safe",
+   "gf": "American",
+   "cuisine": "",
+   "approved": false
+  },
+  {
+   "name": "Kelli's",
+   "hood": "Bronzeville",
+   "days": [
+    "Saturday"
+   ],
+   "start": "8:00 PM",
+   "end": "10:00 PM",
+   "deal": "$8 cocktails/apps from 8-9, $9 cocktails/apps from 9-10",
+   "specials": true,
+   "oysters": false,
+   "patio": "Not gf/celiac safe",
+   "gf": "American",
+   "cuisine": "",
+   "approved": false
+  },
+  {
+   "name": "Ken Kee",
+   "hood": "Chinatown",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "2:00 PM",
+   "end": "5:00 PM",
+   "deal": "$10 hot drink (non alc) and food item",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Not gf/celiac safe",
+   "cuisine": "Chinese",
+   "approved": false
+  },
+  {
+   "name": "Kennedy Rooftop",
+   "hood": "Wicker Park",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Sunday"
+   ],
+   "start": "4:00 PM",
+   "end": "7:00 PM",
+   "deal": "$8 wine, $10 apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Italian",
+   "approved": false
+  },
+  {
+   "name": "Kie Gol Lanee",
+   "hood": "Uptown",
+   "days": [
+    "Monday",
+    "Wednesday",
+    "Thursday"
+   ],
+   "start": "3:30 PM",
+   "end": "5:30 PM",
+   "deal": "$7 sangria, $8 margarita, wine, $4-10 snacks",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Mexican",
+   "approved": false
+  },
+  {
+   "name": "Kincades",
+   "hood": "Wrigleyville",
+   "days": [
+    "Friday",
+    "Saturday"
+   ],
+   "start": "5:00 PM",
+   "end": "9:00 PM",
+   "deal": "1/2 off cocktails and apps, free pool",
+   "specials": true,
+   "oysters": false,
+   "patio": "Yes",
+   "gf": "American",
+   "cuisine": "",
+   "approved": false
+  },
+  {
+   "name": "Kindling",
+   "hood": "Loop",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "3:00 PM",
+   "end": "5:30 PM",
+   "deal": "$3 oysters, $10-13 apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "American",
+   "approved": false
+  },
+  {
+   "name": "King of Cups",
+   "hood": "Lincoln Park",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+   ],
+   "start": "5:00 PM",
+   "end": "7:00 PM",
+   "deal": "$6 wine, $6-8 cocktails",
+   "specials": false,
+   "oysters": false,
+   "patio": "Sidewalk seating",
+   "gf": "No hh apps",
+   "cuisine": "Cocktail Bar",
+   "approved": true
+  },
+  {
+   "name": "Kirei",
+   "hood": "Gold Coast",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$8 wine, $8 cocktail, $12 apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "",
+   "cuisine": "Asian",
+   "approved": false
+  },
+  {
+   "name": "Kraken Sushi",
+   "hood": "North Center",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$6 wine, $9 cocktails, $3-10 apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Sushi",
+   "approved": false
+  },
+  {
+   "name": "L&M Fine Foods",
+   "hood": "Ravenswood",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "2:30 PM",
+   "end": "5:30 PM",
+   "deal": "$6 wine, $4 pints",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "",
+   "cuisine": "American",
+   "approved": false
+  },
+  {
+   "name": "La Bella Trattoria",
+   "hood": "Loop",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$7 wine, $8 martinis, $10 apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Not gf/celiac safe",
+   "cuisine": "Italian",
+   "approved": false
+  },
+  {
+   "name": "La Grande Boucherie",
+   "hood": "River North",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+   ],
+   "start": "2:00 PM",
+   "end": "7:00 PM",
+   "deal": "$7 beer, $10 wine, $11 cocktails, $15 1/2 dozen oysters, $8-15 apps",
+   "specials": false,
+   "oysters": true,
+   "patio": "",
+   "gf": "",
+   "cuisine": "French",
+   "approved": false
+  },
+  {
+   "name": "La Josie",
+   "hood": "West Loop",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$8 wine, $8 margarita, $7 tacos/snacks",
+   "specials": true,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Mexican",
+   "approved": true
+  },
+  {
+   "name": "La Josie",
+   "hood": "West Loop",
+   "days": [
+    "Friday"
+   ],
+   "start": "3:30 PM",
+   "end": "6:00 PM",
+   "deal": "$8 wine, $8 margarita, $7 tacos/snacks",
+   "specials": true,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Mexican",
+   "approved": true
+  },
+  {
+   "name": "La Licor",
+   "hood": "Logan Square",
+   "days": [
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:30 PM",
+   "deal": "$5 beer, $5 shots, $8 slushie cocktails, $10 wine, $5-12 apps, $2 oysters",
+   "specials": false,
+   "oysters": true,
+   "patio": "",
+   "gf": "",
+   "cuisine": "Latin American",
+   "approved": false
+  },
+  {
+   "name": "La Luna",
+   "hood": "Pilsen",
+   "days": [
+    "Tuesday",
+    "Wednesday",
+    "Thursday"
+   ],
+   "start": "5:00 PM",
+   "end": "7:00 PM",
+   "deal": "$10 cocktails, $5 tequlia shot, $3-12 apps",
+   "specials": true,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Mexican",
+   "approved": false
+  },
+  {
+   "name": "La Luna",
+   "hood": "Pilsen",
+   "days": [
+    "Friday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$10 cocktails, $5 tequlia shot, $3-12 apps",
+   "specials": true,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Mexican",
+   "approved": false
+  },
+  {
+   "name": "La Lunita",
+   "hood": "Logan Square",
+   "days": [
+    "Tuesday",
+    "Wednesday",
+    "Thursday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$8 cocktails, $4 beer, $10 wine, $8-10 apps",
+   "specials": true,
+   "oysters": false,
+   "patio": "",
+   "gf": "",
+   "cuisine": "Mexican",
+   "approved": false
+  },
+  {
+   "name": "La Lunita",
+   "hood": "Logan Square",
+   "days": [
+    "Friday"
+   ],
+   "start": "3:00 PM",
+   "end": "6:00 PM",
+   "deal": "$8 cocktails, $4 beer, $10 wine, $8-10 apps",
+   "specials": true,
+   "oysters": false,
+   "patio": "",
+   "gf": "",
+   "cuisine": "Mexican",
+   "approved": false
+  },
+  {
+   "name": "Lardon",
+   "hood": "Logan Square",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+   ],
+   "start": "3:00 PM",
+   "end": "5:00 PM",
+   "deal": "$8 cocktails, $8 small bites",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Wine Bar",
+   "approved": true
+  },
+  {
+   "name": "Lark",
+   "hood": "Lakeview East",
+   "days": [
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "5:00 PM",
+   "end": "7:00 PM",
+   "deal": "$6 wine, $7 cocktails, 25% off apps",
+   "specials": true,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "American",
+   "approved": false
+  },
+  {
+   "name": "Laurel",
+   "hood": "Gold Coast",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$10 wine, $10 cocktails, $6-10 apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "",
+   "cuisine": "American",
+   "approved": false
+  },
+  {
+   "name": "Le Petit Marcel",
+   "hood": "Lakeview East",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$6 wine, $11 cocktails, $32 3 charcuterie items and 2 glasses of wine",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "French",
+   "approved": true
+  },
+  {
+   "name": "Le Petit Marcel",
+   "hood": "Lakeview East",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$6 wine, $11 cocktails, $32 3 charcuterie items and 2 glasses of wine",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "French",
+   "approved": true
+  },
+  {
+   "name": "Le Sud",
+   "hood": "Roscoe Village",
+   "days": [
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+   ],
+   "start": "4:00 PM",
+   "end": "5:30 PM",
+   "deal": "$6 drinks, apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "Patio",
+   "gf": "Yes",
+   "cuisine": "French, Meditteranean",
+   "approved": true
+  },
+  {
+   "name": "Legal Seafood",
+   "hood": "Loop",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+   ],
+   "start": "3:00 PM",
+   "end": "6:00 PM",
+   "deal": "$1 oysters, $5 drafts, $8 old fashioned, $8 wine",
+   "specials": false,
+   "oysters": true,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Seafood",
+   "approved": false
+  },
+  {
+   "name": "LG's Bar",
+   "hood": "Old Town",
+   "days": [
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "5:00 PM",
+   "end": "7:00 PM",
+   "deal": "$8 cocktail, $8 apps",
+   "specials": true,
+   "oysters": false,
+   "patio": "",
+   "gf": "",
+   "cuisine": "American",
+   "approved": false
+  },
+  {
+   "name": "Lil BaBaReeba",
+   "hood": "River North",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$22 Sangria pitchers, $4 Estrella Damm bottles, $1.50 pintxos, $3 to $5 tapas, $7 wine",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Tapas",
+   "approved": true
+  },
+  {
+   "name": "Lilac Tiger",
+   "hood": "Wicker Park",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday"
+   ],
+   "start": "5:00 PM",
+   "end": "6:00 PM",
+   "deal": "$5 shots, $10 wine, $10 cocktails, $5-7 apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "",
+   "cuisine": "Asian",
+   "approved": false
+  },
+  {
+   "name": "Lilac Tiger",
+   "hood": "Wicker Park",
+   "days": [
+    "Sunday"
+   ],
+   "start": "5:00 PM",
+   "end": "10:00 PM",
+   "deal": "$5 shots, $10 wine, $10 cocktails, $5-7 apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "",
+   "cuisine": "Asian",
+   "approved": false
+  },
+  {
+   "name": "Little Lark",
+   "hood": "Avondale",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday"
+   ],
+   "start": "5:00 PM",
+   "end": "6:00 PM",
+   "deal": "$8 Pizza Negronis, $8 Cirelli Vino Rosso, and $4 Pipeworks Pizza Pils",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "No hh apps",
+   "cuisine": "Italian",
+   "approved": false
+  },
+  {
+   "name": "Little Madrid Tapas Cafe",
+   "hood": "Andersonville",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$3-5 beer, $6-7 wine, $8 sangria, 1/2 off pinxtos",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Tapas",
+   "approved": true
+  },
+  {
+   "name": "Little Wok",
+   "hood": "Wicker Park",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "3:00 PM",
+   "end": "6:00 PM",
+   "deal": "$5 beer, $6 wine, $8 cocktails, $5 snacks",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Asian",
+   "approved": false
+  },
+  {
+   "name": "Liva at Chicago Winery",
+   "hood": "River North",
+   "days": [
+    "Thursday",
+    "Friday"
+   ],
+   "start": "5:00 PM",
+   "end": "6:30 PM",
+   "deal": "$7 cocktails, $9 wine, $7-10 apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Wine Bar",
+   "approved": true
+  },
+  {
+   "name": "Lizzano",
+   "hood": "River North",
+   "days": [
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$9 wine, $9 spritz and negroni",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "",
+   "cuisine": "Italian",
+   "approved": false
+  },
+  {
+   "name": "Logan 11",
+   "hood": "Logan Square",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$7 drafts, $9 wine, $10 cocktails, $8-11 apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "Patio",
+   "gf": "Yes",
+   "cuisine": "American",
+   "approved": true
+  },
+  {
+   "name": "Lola's",
+   "hood": "West Loop",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$7 beer/selzers, $10 wine, $10 martinis, $12 cocktails, $10 bites",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "American",
+   "approved": false
+  },
+  {
+   "name": "Lonesome Rose",
+   "hood": "Logan Square, Andersonville",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$8 margaritas",
+   "specials": false,
+   "oysters": false,
+   "patio": "Patio",
+   "gf": "No hh apps",
+   "cuisine": "Mexican",
+   "approved": false
+  },
+  {
+   "name": "Lost Never Found",
+   "hood": "Wrigleyville",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Sunday",
+    "Friday"
+   ],
+   "start": "4:00 PM",
+   "end": "7:00 PM",
+   "deal": "$8 cocktails, 1/2 off apps, 1/2 off pizza",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "American",
+   "approved": false
+  },
+  {
+   "name": "Low Horse",
+   "hood": "Wicker Park",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+   ],
+   "start": "5:00 PM",
+   "end": "7:00 PM",
+   "deal": "$2 off beer, $9 old fashioned, $6 draft beer",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "",
+   "cuisine": "Cocktail Bar",
+   "approved": false
+  },
+  {
+   "name": "Ludlow Liquor",
+   "hood": "Avondale",
+   "days": [
+    "Monday",
+    "Wednesday",
+    "Tuesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "5:00 PM",
+   "end": "6:00 PM",
+   "deal": "$9 wine, $10 cocktails",
+   "specials": true,
+   "oysters": false,
+   "patio": "",
+   "gf": "No hh apps",
+   "cuisine": "Cocktail Bar",
+   "approved": false
+  },
+  {
+   "name": "Ludlow Liquor",
+   "hood": "Avondale",
+   "days": [
+    "Saturday",
+    "Sunday"
+   ],
+   "start": "3:00 PM",
+   "end": "4:00 PM",
+   "deal": "$9 wine, $10 cocktails",
+   "specials": true,
+   "oysters": false,
+   "patio": "",
+   "gf": "No hh apps",
+   "cuisine": "Cocktail Bar",
+   "approved": false
+  },
+  {
+   "name": "Lush Wine Bar",
+   "hood": "Roscoe Village",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday"
+   ],
+   "start": "3:30 PM",
+   "end": "6:00 PM",
+   "deal": "",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "",
+   "cuisine": "Wine Bar",
+   "approved": true
+  },
+  {
+   "name": "Lush Wine Bar",
+   "hood": "West Town",
+   "days": [
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday"
+   ],
+   "start": "3:30 PM",
+   "end": "6:00 PM",
+   "deal": "$7 wine, $15 wine flights, $10 sangria pitcher",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "No hh apps",
+   "cuisine": "Wine Bar",
+   "approved": true
+  },
+  {
+   "name": "Macello",
+   "hood": "West Loop",
+   "days": [
+    "Tuesday",
+    "Wednesday"
+   ],
+   "start": "3:00 PM",
+   "end": "6:00 PM",
+   "deal": "$6.50-8 cocktails, $7 wine",
+   "specials": false,
+   "oysters": false,
+   "patio": "No hh apps",
+   "gf": "Italian",
+   "cuisine": "",
+   "approved": false
+  },
+  {
+   "name": "Mama Delia's",
+   "hood": "Wicker Park",
+   "days": [
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$10 cocktails, $10 wine, $10 apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "Sidewalk seating",
+   "gf": "Yes",
+   "cuisine": "Tapas",
+   "approved": false
+  },
+  {
+   "name": "Mano a Mano",
+   "hood": "Logan Square",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$10 cocktails, $10 sandwich",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Not gf/celiac safe",
+   "cuisine": "Italian",
+   "approved": true
+  },
+  {
+   "name": "Matisse Tavern and Grill",
+   "hood": "Lincoln Park, Lakeview East",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$10 cocktails, $10 apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "Patio",
+   "gf": "Yes",
+   "cuisine": "American",
+   "approved": true
+  },
+  {
+   "name": "Matisse Tavern and Grill",
+   "hood": "Lincoln Park, Lakeview East",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$10 cocktails, $10 apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "Patio",
+   "gf": "Yes",
+   "cuisine": "American",
+   "approved": true
+  },
+  {
+   "name": "Medi Kitchen and Cocktail",
+   "hood": "Lincoln Park",
+   "days": [
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$8 wine, $8 spritz, $10 cocktail, $6-14 apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Meditteranean",
+   "approved": true
+  },
+  {
+   "name": "Mercat a la Planxa",
+   "hood": "South Loop",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+   ],
+   "start": "4:00 PM",
+   "end": "5:30 PM",
+   "deal": "$9 wine, $8 apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Tapas",
+   "approved": false
+  },
+  {
+   "name": "Mesler",
+   "hood": "Hyde Park",
+   "days": [
+    "Tuesday",
+    "Wednesday",
+    "Thursday"
+   ],
+   "start": "3:00 PM",
+   "end": "5:00 PM",
+   "deal": "$5 beer, $8 wine",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "No hh apps",
+   "cuisine": "Cocktail Bar",
+   "approved": false
+  },
+  {
+   "name": "Middlebrow",
+   "hood": "Logan Square",
+   "days": [
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$8 wine, $6-8 beer, $10-15 cocktails, $11 pizza, $9 bread plates",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Not gf/celiac safe",
+   "cuisine": "American, Wine Bar",
+   "approved": true
+  },
+  {
+   "name": "Miku Sushi",
+   "hood": "Lincoln Square",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$7 martinis, 1/2 off sushi",
+   "specials": false,
+   "oysters": false,
+   "patio": "Sidewalk seating",
+   "gf": "Yes",
+   "cuisine": "Sushi",
+   "approved": true
+  },
+  {
+   "name": "MingHin Cuisine",
+   "hood": "Lakeview East, Chinatown",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "2:30 PM",
+   "end": "5:00 PM",
+   "deal": "20% off dine-in orders",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Not gf/celiac safe",
+   "cuisine": "Chinese",
+   "approved": false
+  },
+  {
+   "name": "Minyoli",
+   "hood": "Andersonville",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+   ],
+   "start": "5:00 PM",
+   "end": "6:00 PM",
+   "deal": "$1 off beer, $2 off wine, $3 cocktails with order of a noodle entree (gf available)",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Asian",
+   "approved": false
+  },
+  {
+   "name": "Moe's Cantina",
+   "hood": "River North",
+   "days": [
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "5:00 PM",
+   "end": "7:00 PM",
+   "deal": "$8 cocktails, $7-10 apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "",
+   "cuisine": "Mexican",
+   "approved": false
+  },
+  {
+   "name": "Moneygun",
+   "hood": "West Loop",
+   "days": [
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "5:00 PM",
+   "end": "7:00 PM",
+   "deal": "$10 martinis and waffle fries",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "American",
+   "approved": true
+  },
+  {
+   "name": "Moonflower",
+   "hood": "Portage Park",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$5 cocktails, $10 burger/dog with fries",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Not gf/celiac safe",
+   "cuisine": "Cocktail Bar",
+   "approved": false
+  },
+  {
+   "name": "Mordecai",
+   "hood": "Wrigleyville",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "5:00 PM",
+   "end": "7:00 PM",
+   "deal": "$9 wine, $10 cocktails, $8 apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "American",
+   "approved": false
+  },
+  {
+   "name": "Mother's Ruin",
+   "hood": "Logan Square",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+   ],
+   "start": "4:00 PM",
+   "end": "7:00 PM",
+   "deal": "$5 beer and shot, $7 cocktails, $5-10 snacks",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "",
+   "cuisine": "Cocktail Bar",
+   "approved": false
+  },
+  {
+   "name": "Nic and Juniors",
+   "hood": "River North",
+   "days": [
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$7-9 cocktails, $9 wine, $5 beer, $7-15 apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Not gf/celiac safe",
+   "cuisine": "Brazilian",
+   "approved": true
+  },
+  {
+   "name": "Nick's Beer Garden",
+   "hood": "Wicker Park",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "4:00 PM",
+   "end": "7:00 PM",
+   "deal": "20% off drinks",
+   "specials": true,
+   "oysters": false,
+   "patio": "Patio",
+   "gf": "No hh apps",
+   "cuisine": "Dive Bar",
+   "approved": true
+  },
+  {
+   "name": "Nicos Prime",
+   "hood": "West Loop",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$7 wine, $9 cocktails, $1 oyster, $12 apps",
+   "specials": false,
+   "oysters": true,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "American",
+   "approved": false
+  },
+  {
+   "name": "No Vacancy",
+   "hood": "River North",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "4:30 PM",
+   "end": "6:30 PM",
+   "deal": "1/2 wine and apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Cocktail Bar",
+   "approved": false
+  },
+  {
+   "name": "Nonnina",
+   "hood": "River North",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "3:00 PM",
+   "end": "6:00 PM",
+   "deal": "$9 wine, $9 cocktails, $1 oysters",
+   "specials": true,
+   "oysters": true,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Italian",
+   "approved": true
+  },
+  {
+   "name": "Nonnina",
+   "hood": "River North",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "8:00 PM",
+   "end": "10:00 PM",
+   "deal": "$9 wine, $9 cocktails, $1 oysters, $9-15 apps",
+   "specials": true,
+   "oysters": true,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Italian",
+   "approved": true
+  },
+  {
+   "name": "Noodlebird",
+   "hood": "Logan Square",
+   "days": [
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "4:00 PM",
+   "end": "5:00 PM",
+   "deal": "$9 cocktails",
+   "specials": false,
+   "oysters": false,
+   "patio": "No hh apps",
+   "gf": "Asian",
+   "cuisine": "",
+   "approved": false
+  },
+  {
+   "name": "Noodlebird",
+   "hood": "Logan Square",
+   "days": [
+    "Saturday",
+    "Sunday"
+   ],
+   "start": "2:00 PM",
+   "end": "5:00 PM",
+   "deal": "$9 cocktails",
+   "specials": false,
+   "oysters": false,
+   "patio": "No hh apps",
+   "gf": "Asian",
+   "cuisine": "",
+   "approved": false
+  },
+  {
+   "name": "Old Pueblo",
+   "hood": "Lincoln Park",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+   ],
+   "start": "4:30 PM",
+   "end": "5:30 PM",
+   "deal": "$8 cocktails, $11 snacks",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "",
+   "cuisine": "Mexican",
+   "approved": false
+  },
+  {
+   "name": "Olio e Piu",
+   "hood": "River North",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+   ],
+   "start": "2:00 PM",
+   "end": "7:00 PM",
+   "deal": "$10 wine, $10 cocktails, $10 apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "",
+   "cuisine": "Italian",
+   "approved": false
+  },
+  {
+   "name": "Oliver's",
+   "hood": "South Loop",
+   "days": [
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "5:00 PM",
+   "end": "6:00 PM",
+   "deal": "$10 cocktails, $10 wine, $6 high life, $10-20 snacks",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "American",
+   "approved": false
+  },
+  {
+   "name": "Oliver's",
+   "hood": "South Loop",
+   "days": [
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday"
+   ],
+   "start": "9:00 PM",
+   "end": "10:00 PM",
+   "deal": "$9 mini cocktails, $9-13 dessert",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Not gf/celiac safe",
+   "cuisine": "American",
+   "approved": false
+  },
+  {
+   "name": "Osteria via Stato",
+   "hood": "River North",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Sunday"
+   ],
+   "start": "5:00 PM",
+   "end": "6:00 PM",
+   "deal": "1/2 price wine and pizza",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Not gf/celiac safe",
+   "cuisine": "Italian",
+   "approved": false
+  },
+  {
+   "name": "Osteria via Stato",
+   "hood": "River North",
+   "days": [
+    "Friday",
+    "Saturday"
+   ],
+   "start": "4:30 PM",
+   "end": "5:30 PM",
+   "deal": "1/2 price wine and pizza",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Not gf/celiac safe",
+   "cuisine": "Italian",
+   "approved": false
+  },
+  {
+   "name": "Outside Voices Wine Bar",
+   "hood": "Logan Square",
+   "days": [
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "5:00 PM",
+   "end": "6:00 PM",
+   "deal": "$8 wine, $50 charcuterie board and wine bottle",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "",
+   "cuisine": "Wine Bar",
+   "approved": false
+  },
+  {
+   "name": "Palilgu",
+   "hood": "Logan Square",
+   "days": [
+    "Tuesday",
+    "Wednesday",
+    "Thursday"
+   ],
+   "start": "5:00 PM",
+   "end": "7:00 PM",
+   "deal": "$6-8 drinks and apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "",
+   "cuisine": "Asian",
+   "approved": false
+  },
+  {
+   "name": "Pancho's Rooftop and Cantina",
+   "hood": "Loop",
+   "days": [
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "4:00 PM",
+   "end": "7:00 PM",
+   "deal": "$8 cocktails, $2 off apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Mexican",
+   "approved": false
+  },
+  {
+   "name": "Paradise Park",
+   "hood": "Wicker Park",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "3:00 PM",
+   "end": "6:00 PM",
+   "deal": "$6 wine,  $7 espresso martinis, $9 spritzes",
+   "specials": false,
+   "oysters": false,
+   "patio": "Patio",
+   "gf": "Yes",
+   "cuisine": "American",
+   "approved": true
+  },
+  {
+   "name": "Paradise Park",
+   "hood": "Wicker Park",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "3:00 PM",
+   "end": "6:00 PM",
+   "deal": "$6 wine,  $7 espresso martinis, $9 spritzes",
+   "specials": false,
+   "oysters": false,
+   "patio": "Patio",
+   "gf": "Yes",
+   "cuisine": "American",
+   "approved": true
+  },
+  {
+   "name": "Parlay",
+   "hood": "River North",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "4:00 PM",
+   "end": "7:00 PM",
+   "deal": "$7 wine, $9 cocktails, $6-10 apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "",
+   "cuisine": "Sports Bar",
+   "approved": false
+  },
+  {
+   "name": "Parlor Pizza",
+   "hood": "West Loop, River North",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$5 apps, BOGO pizza, $7 wine, $8 margs",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Italian",
+   "approved": false
+  },
+  {
+   "name": "Peanut Park Trattoria",
+   "hood": "Little Italy",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$7 wine, $10 cocktails, discount pizza, burger, fries",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Not gf/celiac safe",
+   "cuisine": "Italian, American",
+   "approved": false
+  },
+  {
+   "name": "Penelope's Vegan Taqueria",
+   "hood": "Pilsen",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday"
+   ],
+   "start": "4:00 PM",
+   "end": "7:00 PM",
+   "deal": "$5 beer, $7 paloma, $8 margaritas, $2-10 apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Vegan",
+   "approved": false
+  },
+  {
+   "name": "Penelope's Vegan Taqueria",
+   "hood": "Andersonville",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday"
+   ],
+   "start": "4:00 PM",
+   "end": "7:00 PM",
+   "deal": "$5 beer, $7 paloma, $8 margaritas, $2-10 apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "",
+   "cuisine": "Vegan",
+   "approved": false
+  },
+  {
+   "name": "Penelope's Vegan Taqueria",
+   "hood": "River North",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday"
+   ],
+   "start": "4:00 PM",
+   "end": "7:00 PM",
+   "deal": "$5 beer, $7 paloma, $8 margaritas, $2-10 apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "",
+   "cuisine": "Vegan",
+   "approved": false
+  },
+  {
+   "name": "Petterino's",
+   "hood": "Loop",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "3:00 PM",
+   "end": "5:00 PM",
+   "deal": "$9 wine, $9 cocktails, $1 oysters",
+   "specials": false,
+   "oysters": true,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Italian",
+   "approved": true
+  },
+  {
+   "name": "Petterino's",
+   "hood": "Loop",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "8:00 PM",
+   "end": "10:00 PM",
+   "deal": "$9 wine, $9 cocktails, $1 oysters",
+   "specials": false,
+   "oysters": true,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Italian",
+   "approved": true
+  },
+  {
+   "name": "Pilsen Yards",
+   "hood": "Pilsen",
+   "days": [
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "3:00 PM",
+   "end": "5:30 PM",
+   "deal": "1/2 off draft cocktails and drafts",
+   "specials": true,
+   "oysters": false,
+   "patio": "",
+   "gf": "No hh apps",
+   "cuisine": "Mexican, Asian",
+   "approved": true
+  },
+  {
+   "name": "Pilsen Yards",
+   "hood": "Pilsen",
+   "days": [
+    "Saturday",
+    "Sunday"
+   ],
+   "start": "3:00 PM",
+   "end": "4:30 PM",
+   "deal": "1/2 off draft cocktails and drafts",
+   "specials": true,
+   "oysters": false,
+   "patio": "",
+   "gf": "No hh apps",
+   "cuisine": "Mexican, Asian",
+   "approved": true
+  },
+  {
+   "name": "Pippin's Tavern",
+   "hood": "River North",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "3:00 PM",
+   "end": "6:00 PM",
+   "deal": "$6 wine, $1.50 oysters, BOGO apps",
+   "specials": false,
+   "oysters": true,
+   "patio": "",
+   "gf": "No hh apps",
+   "cuisine": "American",
+   "approved": false
+  },
+  {
+   "name": "Planta Queen",
+   "hood": "River North",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$6 beer, $8 wine, $9 martinis, $10 spritzes, $5-10 snacks",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "",
+   "cuisine": "Vegan",
+   "approved": false
+  },
+  {
+   "name": "Planta Queen",
+   "hood": "River North",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday"
+   ],
+   "start": "9:00 PM",
+   "end": "10:00 PM",
+   "deal": "$6 beer, $8 wine, $9 martinis, $10 spritzes, $5-10 snacks",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "",
+   "cuisine": "Vegan",
+   "approved": false
+  },
+  {
+   "name": "Pleasant House Pub",
+   "hood": "Chinatown",
+   "days": [
+    "Tuesday",
+    "Wednesday",
+    "Thursday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$8 cocktails, $5 snacks",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Not gf/celiac safe",
+   "cuisine": "British",
+   "approved": false
+  },
+  {
+   "name": "Pompette",
+   "hood": "Bucktown",
+   "days": [
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+   ],
+   "start": "3:00 PM",
+   "end": "6:00 PM",
+   "deal": "$10 wine, $10 cocktails, $5-15 apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Wine Bar",
+   "approved": false
+  },
+  {
+   "name": "Porkchop",
+   "hood": "Edgewater",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$5-6 cocktails, $2-5 apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Southern, Mexican",
+   "approved": false
+  },
+  {
+   "name": "Port and Park",
+   "hood": "Lakeview",
+   "days": [
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+   ],
+   "start": "4:30 PM",
+   "end": "6:30 PM",
+   "deal": "$8 cocktails, $7 wine, $8 cocktails",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "",
+   "cuisine": "American",
+   "approved": false
+  },
+  {
+   "name": "Porter Kitchen and Deck",
+   "hood": "Loop",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday"
+   ],
+   "start": "3:00 PM",
+   "end": "6:00 PM",
+   "deal": "$9 wine, $9 cocktail",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "No hh apps",
+   "cuisine": "American",
+   "approved": false
+  },
+  {
+   "name": "PR Italian Bistro",
+   "hood": "Buena Park",
+   "days": [
+    "Tuesday",
+    "Wednesday",
+    "Thursday"
+   ],
+   "start": "5:00 PM",
+   "end": "6:00 PM",
+   "deal": "$5 wine, $7 spritzes, $7-12 apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "Sidewalk seating",
+   "gf": "Yes",
+   "cuisine": "Italian",
+   "approved": true
+  },
+  {
+   "name": "Prime and Provisions",
+   "hood": "Loop",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$12 cocktails, $12 bites, $1.50 oysters",
+   "specials": false,
+   "oysters": true,
+   "patio": "",
+   "gf": "",
+   "cuisine": "Steakhouse",
+   "approved": false
+  },
+  {
+   "name": "Printer's Row Wine Shop",
+   "hood": "Printer's Row",
+   "days": [
+    "Tuesday"
+   ],
+   "start": "5:00 PM",
+   "end": "7:00 PM",
+   "deal": "$8 wine",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "",
+   "cuisine": "Wine Bar",
+   "approved": false
+  },
+  {
+   "name": "Privilege Bar",
+   "hood": "South Chicago",
+   "days": [
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+   ],
+   "start": "4:00 PM",
+   "end": "7:00 PM",
+   "deal": "$7 margaritas and martinis, $3 beer, 15% off apps and cocktails",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Not gf/celiac safe",
+   "cuisine": "Sports Bar",
+   "approved": false
+  },
+  {
+   "name": "Punch Bowl Social",
+   "hood": "West Loop",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "3:00 PM",
+   "end": "6:00 PM",
+   "deal": "$5 beer, $5 wine, $5 cocktails, $5-10 apps, 50% off games",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "",
+   "cuisine": "American",
+   "approved": false
+  },
+  {
+   "name": "Quality Time",
+   "hood": "Logan Square",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "4:00 PM",
+   "end": "7:00 PM",
+   "deal": "$8 wine, $8 cocktails",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Cocktail Bar",
+   "approved": false
+  },
+  {
+   "name": "R Public House",
+   "hood": "Rogers Park",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Sunday"
+   ],
+   "start": "3:00 PM",
+   "end": "5:00 PM",
+   "deal": "$5 wine, $1 off beer ciders, $2 off cocktails, discount apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "",
+   "cuisine": "Dive Bar",
+   "approved": false
+  },
+  {
+   "name": "Raiz Kitchen",
+   "hood": "Logan Square",
+   "days": [
+    "Tuesday",
+    "Wednesday",
+    "Thursday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$5-12 apps and rolls",
+   "specials": false,
+   "oysters": false,
+   "patio": "Yes",
+   "gf": "Sushi",
+   "cuisine": "3276 W Fullerton Ave, Chicago, IL 60647",
+   "approved": false
+  },
+  {
+   "name": "Ramova Tap Room",
+   "hood": "Bridgeport",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+   ],
+   "start": "8:00 PM",
+   "end": "10:00 PM",
+   "deal": "$2 off snacks, $5 off burgers, $10 cocktails, $4 beer",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "",
+   "cuisine": "American",
+   "approved": false
+  },
+  {
+   "name": "Recess",
+   "hood": "West Loop",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:30 PM",
+   "deal": "1/2 off beer, 1/2 off cocktails, $10 cocktails, $4 sliders",
+   "specials": false,
+   "oysters": false,
+   "patio": "Rooftop",
+   "gf": "Yes",
+   "cuisine": "Dive Bar",
+   "approved": false
+  },
+  {
+   "name": "Remedy",
+   "hood": "Bucktown",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "4:00 PM",
+   "end": "7:00 PM",
+   "deal": "1/2 off all drinks",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "",
+   "cuisine": "Cocktail Bar",
+   "approved": false
+  },
+  {
+   "name": "Reno",
+   "hood": "Logan Square",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$2 off drinks",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "",
+   "cuisine": "Italian",
+   "approved": false
+  },
+  {
+   "name": "River Roast",
+   "hood": "River North",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$3 beer, $8 wine, $7-11 snacks",
+   "specials": false,
+   "oysters": false,
+   "patio": "Patio",
+   "gf": "No hh apps",
+   "cuisine": "Southern",
+   "approved": false
+  },
+  {
+   "name": "Rizzo's",
+   "hood": "Wrigleyville",
+   "days": [
+    "Friday"
+   ],
+   "start": "4:00 PM",
+   "end": "7:00 PM",
+   "deal": "$7 cocktails, $6-8 apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Not gf/celiac safe",
+   "cuisine": "American",
+   "approved": false
+  },
+  {
+   "name": "RJ Grunts",
+   "hood": "Lincoln Park",
+   "days": [
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+   ],
+   "start": "8:00 PM",
+   "end": "10:00 PM",
+   "deal": "$5 cocktails, beer, wine",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "No hh apps",
+   "cuisine": "American",
+   "approved": true
+  },
+  {
+   "name": "Roanoke",
+   "hood": "Loop",
+   "days": [
+    "Monday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$10 cocktails, $8-10 bites, $7 beer",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Not gf/celiac safe",
+   "cuisine": "American",
+   "approved": false
+  },
+  {
+   "name": "Robert's Pizza and Dough Co.",
+   "hood": "Streeterville",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday"
+   ],
+   "start": "3:30 PM",
+   "end": "5:00 PM",
+   "deal": "$5 white claw, $9 wine, $6-12 snacks",
+   "specials": false,
+   "oysters": false,
+   "patio": "Patio",
+   "gf": "Yes",
+   "cuisine": "American",
+   "approved": false
+  },
+  {
+   "name": "Roger's Park Social",
+   "hood": "Rogers Park",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "4:00 PM",
+   "end": "7:00 PM",
+   "deal": "$7 wine, $2 off mules",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "No hh apps",
+   "cuisine": "Dive Bar",
+   "approved": false
+  },
+  {
+   "name": "Roger's Park Social",
+   "hood": "Rogers Park",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "4:00 PM",
+   "end": "7:00 PM",
+   "deal": "$7 wine, $2 off mules",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "No hh apps",
+   "cuisine": "Dive Bar",
+   "approved": false
+  },
+  {
+   "name": "Roof on the Wit",
+   "hood": "Loop",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$10 wine, $10 cocktails, $7-10 apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "No hh apps",
+   "cuisine": "American",
+   "approved": false
+  },
+  {
+   "name": "Royal Grocer",
+   "hood": "Bucktown",
+   "days": [
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "5:00 PM",
+   "end": "7:00 PM",
+   "deal": "$8 wine, $10 cocktails, $8-14 apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "Patio",
+   "gf": "Not gf/celiac safe",
+   "cuisine": "American",
+   "approved": true
+  },
+  {
+   "name": "RPM Italian",
+   "hood": "River North",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$8 wine, $8 cocktails, $8 snacks",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Italian",
+   "approved": false
+  },
+  {
+   "name": "RPM Seafood",
+   "hood": "River North",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "4:00 PM",
+   "end": "5:30 PM",
+   "deal": "$10 wine, $10 cocktails",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "No hh apps",
+   "cuisine": "Seafood",
+   "approved": false
+  },
+  {
+   "name": "RPM Steak",
+   "hood": "River North",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "4:00 PM",
+   "end": "5:30 PM",
+   "deal": "$10 wine, $10 cocktails",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "No hh apps",
+   "cuisine": "American",
+   "approved": false
+  },
+  {
+   "name": "Rye Deli and Drink",
+   "hood": "West Loop",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "4:30 PM",
+   "end": "6:00 PM",
+   "deal": "Food and drink specials",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "",
+   "cuisine": "American",
+   "approved": false
+  },
+  {
+   "name": "SABA Italian Bar + Kitchen",
+   "hood": "Logan Square",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$6 wine, $6 cocktails, discounted apps",
+   "specials": true,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Italian",
+   "approved": true
+  },
+  {
+   "name": "Scofflaw",
+   "hood": "Logan Square",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday"
+   ],
+   "start": "5:00 PM",
+   "end": "7:00 PM",
+   "deal": "$8 cocktails",
+   "specials": false,
+   "oysters": false,
+   "patio": "Patio",
+   "gf": "No hh apps",
+   "cuisine": "Cocktail Bar",
+   "approved": true
+  },
+  {
+   "name": "Scofflaw",
+   "hood": "Logan Square",
+   "days": [
+    "Friday",
+    "Saturday",
+    "Sunday"
+   ],
+   "start": "3:00 PM",
+   "end": "5:00 PM",
+   "deal": "$8 cocktails",
+   "specials": false,
+   "oysters": false,
+   "patio": "Patio",
+   "gf": "No hh apps",
+   "cuisine": "Cocktail Bar",
+   "approved": true
+  },
+  {
+   "name": "Scofflaw",
+   "hood": "Logan Square",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday"
+   ],
+   "start": "5:00 PM",
+   "end": "7:00 PM",
+   "deal": "$8 cocktails",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "",
+   "cuisine": "Cocktail Bar",
+   "approved": false
+  },
+  {
+   "name": "Segnatore",
+   "hood": "Humbolt Park",
+   "days": [
+    "Tuesday",
+    "Wednesday",
+    "Thursday"
+   ],
+   "start": "5:00 PM",
+   "end": "7:00 PM",
+   "deal": "$6 wine, $10 cocktails, $12 apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Italian",
+   "approved": false
+  },
+  {
+   "name": "Siena Tavern",
+   "hood": "River North",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "3:00 PM",
+   "end": "6:00 PM",
+   "deal": "$9 cocktails, $4 sliders, $3 arincini",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Not gf/celiac safe",
+   "cuisine": "Italian",
+   "approved": false
+  },
+  {
+   "name": "Sifr",
+   "hood": "River North",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Sunday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$6 wine, $9 cocktails, $6-8 apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Meditteranean",
+   "approved": true
+  },
+  {
+   "name": "Sifr",
+   "hood": "River North",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Sunday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$6 wine, $9 cocktails, $6-8 apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Meditteranean",
+   "approved": true
+  },
+  {
+   "name": "Signature Steak",
+   "hood": "South Loop",
+   "days": [
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$7.10 cocktails, wine, apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "",
+   "cuisine": "Steakhouse",
+   "approved": false
+  },
+  {
+   "name": "Small Bar",
+   "hood": "Logan Square",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "4:00 PM",
+   "end": "7:00 PM",
+   "deal": "$8 wine, $10 cocktails",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Dive Bar",
+   "approved": false
+  },
+  {
+   "name": "Solette",
+   "hood": "Loop",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "3:00 PM",
+   "end": "6:00 PM",
+   "deal": "$8 wine, cocktails, apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "Yes",
+   "gf": "American",
+   "cuisine": "",
+   "approved": false
+  },
+  {
+   "name": "Sophia Steak",
+   "hood": "River North",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+   ],
+   "start": "4:30 PM",
+   "end": "5:30 PM",
+   "deal": "$10 wine, $10 cocktails, $10 snacks",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Not gf/celiac safe",
+   "cuisine": "Steakhouse, American",
+   "approved": true
+  },
+  {
+   "name": "Spectrum",
+   "hood": "Greektown",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "4:00 PM",
+   "end": "7:00 PM",
+   "deal": "$5 martinis, beer, shots, food specials",
+   "specials": true,
+   "oysters": false,
+   "patio": "",
+   "gf": "",
+   "cuisine": "Dive Bar",
+   "approved": false
+  },
+  {
+   "name": "Spilt Milk",
+   "hood": "Logan Square",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday"
+   ],
+   "start": "4:00 PM",
+   "end": "7:00 PM",
+   "deal": "$7 wine, 1/2 off drafts",
+   "specials": true,
+   "oysters": false,
+   "patio": "Patio",
+   "gf": "No hh apps",
+   "cuisine": "Cocktail Bar",
+   "approved": true
+  },
+  {
+   "name": "Stolen Saddle",
+   "hood": "Wrigleyville",
+   "days": [
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+   ],
+   "start": "4:00 PM",
+   "end": "7:00 PM",
+   "deal": "$4 domestic beer, $6 margaritas, $2-5 apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Mexican",
+   "approved": false
+  },
+  {
+   "name": "Storyville",
+   "hood": "River North",
+   "days": [
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$6 wine, $6 cocktails, $6-9 apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "",
+   "cuisine": "Southern",
+   "approved": false
+  },
+  {
+   "name": "Summer House Santa Monica",
+   "hood": "Lincoln Park",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "3:00 PM",
+   "end": "5:00 PM",
+   "deal": "$5 wine, $10 cocktails, $6-12 food",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "American",
+   "approved": true
+  },
+  {
+   "name": "Sunda",
+   "hood": "River North",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$6 rolls, bar bites, $6 wine",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Asian, Sushi",
+   "approved": false
+  },
+  {
+   "name": "Sunda",
+   "hood": "River North",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$6 rolls, bar bites, $6 wine",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Asian, Sushi",
+   "approved": false
+  },
+  {
+   "name": "SunnyGun",
+   "hood": "West Loop",
+   "days": [
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+   ],
+   "start": "5:00 PM",
+   "end": "7:00 PM",
+   "deal": "$8 specialty margaritas, $8 beer and a bao",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Not gf/celiac safe",
+   "cuisine": "Cocktail Bar",
+   "approved": false
+  },
+  {
+   "name": "Sushi San",
+   "hood": "Lincoln Park, River North",
+   "days": [
+    "Friday",
+    "Saturday",
+    "Sunday"
+   ],
+   "start": "3:00 PM",
+   "end": "5:00 PM",
+   "deal": "$6 wine, $6 snacks, $10 cocktails",
+   "specials": false,
+   "oysters": false,
+   "patio": "Sidewalk seating",
+   "gf": "Yes",
+   "cuisine": "Sushi",
+   "approved": true
+  },
+  {
+   "name": "Sushi San",
+   "hood": "Lincoln Park, River North",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$6 wine, $6 snacks, $10 cocktails",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Sushi",
+   "approved": true
+  },
+  {
+   "name": "Sweethearts",
+   "hood": "Andersonville",
+   "days": [
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+   ],
+   "start": "5:00 PM",
+   "end": "7:00 PM",
+   "deal": "$5 martini, $2 tots",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Cocktail Bar",
+   "approved": true
+  },
+  {
+   "name": "Swift and Sons",
+   "hood": "Wrigleyville",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "4:30 PM",
+   "end": "6:30 PM",
+   "deal": "$6 wine, $8 cocktails, $2 oysters",
+   "specials": false,
+   "oysters": true,
+   "patio": "",
+   "gf": "Not gf/celiac safe",
+   "cuisine": "Oyster Bar, American",
+   "approved": false
+  },
+  {
+   "name": "Taco Maya",
+   "hood": "Lakeview, Logan Square, Streeterville, South Loop",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "4:00 PM",
+   "end": "7:00 PM",
+   "deal": "$8 margaritas, $5 shots",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "",
+   "cuisine": "Mexican",
+   "approved": false
+  },
+  {
+   "name": "Tallboy Taco",
+   "hood": "Streeterville",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+   ],
+   "start": "3:00 PM",
+   "end": "5:00 PM",
+   "deal": "$5 margaritas, $5 nachos",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "",
+   "cuisine": "Mexican",
+   "approved": false
+  },
+  {
+   "name": "Tama",
+   "hood": "Bucktown",
+   "days": [
+    "Tuesday",
+    "Wednesday",
+    "Thursday"
+   ],
+   "start": "5:00 PM",
+   "end": "6:30 PM",
+   "deal": "$9 cocktails, $7 wine, $5 beer, $3-10 apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Meditteranean",
+   "approved": true
+  },
+  {
+   "name": "Tanta",
+   "hood": "River North",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "5:00 PM",
+   "end": "7:00 PM",
+   "deal": "$10 wine, $10 cocktaikls, $9 apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Peruvian",
+   "approved": false
+  },
+  {
+   "name": "Tapas Valencia",
+   "hood": "South Loop",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+   ],
+   "start": "5:00 PM",
+   "end": "7:00 PM",
+   "deal": "$5 tapas",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Tapas",
+   "approved": false
+  },
+  {
+   "name": "Taste 222",
+   "hood": "Loop",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$5 beer, $7 wine, $10 cocktails, $4-10 apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "",
+   "cuisine": "American",
+   "approved": false
+  },
+  {
+   "name": "Texan Taco Bar",
+   "hood": "West Loop",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$7 wine, $8 margarita, $3 tacos, $5 starters",
+   "specials": false,
+   "oysters": false,
+   "patio": "Rooftop",
+   "gf": "Yes",
+   "cuisine": "Mexican",
+   "approved": false
+  },
+  {
+   "name": "The Avenue",
+   "hood": "Lakeview",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "5:00 PM",
+   "end": "7:00 PM",
+   "deal": "$3 domestics, $5 sangria, $10 burgers",
+   "specials": true,
+   "oysters": false,
+   "patio": "Sidewalk seating",
+   "gf": "Not gf/celiac safe",
+   "cuisine": "American, Sports Bar",
+   "approved": false
+  },
+  {
+   "name": "The Bad Apple",
+   "hood": "North Center, Lincoln Park",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "3:00 PM",
+   "end": "6:00 PM",
+   "deal": "$10 apps, $6 taps, $5 off cocktails, $3 off wine",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "",
+   "cuisine": "American",
+   "approved": false
+  },
+  {
+   "name": "The Bassment",
+   "hood": "River North",
+   "days": [
+    "Thursday"
+   ],
+   "start": "All Day",
+   "end": "",
+   "deal": "$7 wine, $5 beer, $12 cocktails",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "No hh apps",
+   "cuisine": "Cocktail Bar",
+   "approved": false
+  },
+  {
+   "name": "The Dandy Crown",
+   "hood": "West Town",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "3:00 PM",
+   "end": "6:00 PM",
+   "deal": "$8 wine, $10 cocktails",
+   "specials": false,
+   "oysters": false,
+   "patio": "Patio",
+   "gf": "No hh apps",
+   "cuisine": "American",
+   "approved": true
+  },
+  {
+   "name": "The Dandy Crown",
+   "hood": "West Town",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "3:00 PM",
+   "end": "6:00 PM",
+   "deal": "$8 wine, $10 cocktails",
+   "specials": false,
+   "oysters": false,
+   "patio": "Patio",
+   "gf": "No hh apps",
+   "cuisine": "American",
+   "approved": true
+  },
+  {
+   "name": "The Dawson",
+   "hood": "West Town",
+   "days": [
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$10 wine, $10 cocktails",
+   "specials": false,
+   "oysters": false,
+   "patio": "Patio",
+   "gf": "Yes",
+   "cuisine": "Cocktail Bar",
+   "approved": true
+  },
+  {
+   "name": "The Duplex",
+   "hood": "Logan Square",
+   "days": [
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+   ],
+   "start": "5:00 PM",
+   "end": "6:30 PM",
+   "deal": "$6 wine, $7 cocktails, $8 martinis, $7-10 apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Not gf/celiac safe",
+   "cuisine": "Southern",
+   "approved": false
+  },
+  {
+   "name": "The Duplex",
+   "hood": "Logan Square",
+   "days": [
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+   ],
+   "start": "5:00 PM",
+   "end": "6:30 PM",
+   "deal": "$6 wine, $7 cocktail, $7-12 apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Southern",
+   "approved": false
+  },
+  {
+   "name": "The Embassy",
+   "hood": "Little Italy",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "3:00 PM",
+   "end": "6:00 PM",
+   "deal": "$6 beer, $8 wine, $8 tito's cocktails, $9 mule, $6 food specials",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "",
+   "cuisine": "Sports Bar",
+   "approved": false
+  },
+  {
+   "name": "The Getaway",
+   "hood": "Lincoln Square",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$6 drafs, $8 wine, $10 cocktails",
+   "specials": false,
+   "oysters": false,
+   "patio": "Sidewalk seating",
+   "gf": "No hh apps",
+   "cuisine": "Cocktail Bar",
+   "approved": true
+  },
+  {
+   "name": "The Kitchen",
+   "hood": "River North",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+   ],
+   "start": "3:00 PM",
+   "end": "5:00 PM",
+   "deal": "$7.50 wine, $7.50 cocktail of the day",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "",
+   "cuisine": "American",
+   "approved": false
+  },
+  {
+   "name": "The Loyalist",
+   "hood": "West Loop, Albany Park",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday"
+   ],
+   "start": "5:00 PM",
+   "end": "6:00 PM",
+   "deal": "$11 cocktails, $7-11 snacks",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "",
+   "cuisine": "American",
+   "approved": false
+  },
+  {
+   "name": "The Moonlighter",
+   "hood": "Logan Square",
+   "days": [
+    "Tuesday",
+    "Wednesday",
+    "Thursday"
+   ],
+   "start": "5:00 PM",
+   "end": "6:00 PM",
+   "deal": "$4 beer, $2 High Life, $8 pina colada, $6-7 apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "",
+   "cuisine": "Cocktail Bar",
+   "approved": false
+  },
+  {
+   "name": "The Oakville Grill and Cellar",
+   "hood": "West Loop",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$6 wine, $7-8 cocktails, $6-8 apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "Sidewalk seating",
+   "gf": "Yes",
+   "cuisine": "American",
+   "approved": true
+  },
+  {
+   "name": "The Owl",
+   "hood": "Logan Square",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "5:00 PM",
+   "end": "8:00 PM",
+   "deal": "1/2 off all drinks",
+   "specials": true,
+   "oysters": false,
+   "patio": "",
+   "gf": "",
+   "cuisine": "Dive Bar",
+   "approved": false
+  },
+  {
+   "name": "The Press Room",
+   "hood": "West Loop",
+   "days": [
+    "Tuesday",
+    "Wednesday",
+    "Thursday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$8 cocktails, $10 wine, $2 oysters",
+   "specials": false,
+   "oysters": true,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Oyster Bar, Cocktail Bar",
+   "approved": true
+  },
+  {
+   "name": "The Publican",
+   "hood": "West Loop",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$12 cocktail, $25 bottle of wine, $2 oysters, $5-14 food",
+   "specials": false,
+   "oysters": true,
+   "patio": "Sidewalk seating",
+   "gf": "Yes",
+   "cuisine": "German",
+   "approved": false
+  },
+  {
+   "name": "The Rabbit Hole",
+   "hood": "Old Town",
+   "days": [
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "4:00 PM",
+   "end": "7:00 PM",
+   "deal": "$4 beer, $5 green tea, $5 well drinks, $9 burger and fries",
+   "specials": true,
+   "oysters": false,
+   "patio": "",
+   "gf": "",
+   "cuisine": "Sports Bar",
+   "approved": false
+  },
+  {
+   "name": "The Rambler",
+   "hood": "North Center",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "5:00 PM",
+   "end": "7:00 PM",
+   "deal": "$5 wine, 1/2 off wings, $4 shots",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "",
+   "cuisine": "American",
+   "approved": false
+  },
+  {
+   "name": "The Reservoir",
+   "hood": "Uptown",
+   "days": [
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "3:00 PM",
+   "end": "5:00 PM",
+   "deal": "$5-9 drink daily specials, $8-12 food specials (different daily)",
+   "specials": true,
+   "oysters": false,
+   "patio": "",
+   "gf": "",
+   "cuisine": "American",
+   "approved": false
+  },
+  {
+   "name": "The Staley",
+   "hood": "South Loop",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "3:00 PM",
+   "end": "6:00 PM",
+   "deal": "$4.71 drafts, $7.71 wine and well drinks, $4-10 apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Not gf/celiac safe",
+   "cuisine": "American",
+   "approved": false
+  },
+  {
+   "name": "The Vig",
+   "hood": "Old Town, West Loop",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday"
+   ],
+   "start": "5:00 PM",
+   "end": "7:00 PM",
+   "deal": "$8 cocktails and wine, $1.50 oysters, $8 snacks",
+   "specials": false,
+   "oysters": true,
+   "patio": "Sidewalk seating",
+   "gf": "Yes",
+   "cuisine": "American",
+   "approved": true
+  },
+  {
+   "name": "The Vig",
+   "hood": "Old Town, West Loop",
+   "days": [
+    "Friday"
+   ],
+   "start": "3:00 PM",
+   "end": "7:00 PM",
+   "deal": "$8 cocktails and wine, $1.50 oysters, $8 snacks",
+   "specials": false,
+   "oysters": true,
+   "patio": "Sidewalk seating",
+   "gf": "Yes",
+   "cuisine": "American",
+   "approved": true
+  },
+  {
+   "name": "The Village",
+   "hood": "Loop",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Friday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$5 Peroni, Sangria, prosecco",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "No hh apps",
+   "cuisine": "Italian",
+   "approved": false
+  },
+  {
+   "name": "The Walk-In",
+   "hood": "Logan Square",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Friday",
+    "Thursday",
+    "Saturday",
+    "Sunday"
+   ],
+   "start": "4:00 PM",
+   "end": "7:00 PM",
+   "deal": "$6 cocktails",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "No hh apps",
+   "cuisine": "Cocktail Bar",
+   "approved": true
+  },
+  {
+   "name": "The Whale",
+   "hood": "Logan Square",
+   "days": [
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "5:00 PM",
+   "end": "7:00 PM",
+   "deal": "$8 wine, cocktails, apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "Sidewalk seating",
+   "gf": "Yes",
+   "cuisine": "American",
+   "approved": false
+  },
+  {
+   "name": "Tortise Supper Club",
+   "hood": "River North",
+   "days": [
+    "Wednesday",
+    "Friday"
+   ],
+   "start": "4:30 PM",
+   "end": "6:30 PM",
+   "deal": "1/2 off cocktails, wines (On Wednesday), $1 oysters",
+   "specials": false,
+   "oysters": true,
+   "patio": "",
+   "gf": "",
+   "cuisine": "American",
+   "approved": false
+  },
+  {
+   "name": "Trivoli Tavern",
+   "hood": "West Loop",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "4:00 PM",
+   "end": "5:00 PM",
+   "deal": "$6 wine, martini, beer, apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "Patio",
+   "gf": "Yes",
+   "cuisine": "Italian",
+   "approved": false
+  },
+  {
+   "name": "Truth Be Told",
+   "hood": "Hyde Park",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday"
+   ],
+   "start": "3:00 PM",
+   "end": "5:00 PM",
+   "deal": "$10 cocktails",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "No hh apps",
+   "cuisine": "British",
+   "approved": false
+  },
+  {
+   "name": "Tuco and Blondie",
+   "hood": "Lakeview",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "3:00 PM",
+   "end": "5:00 PM",
+   "deal": "$6 Margaritas, Nachos, Beer, Froze",
+   "specials": false,
+   "oysters": false,
+   "patio": "Patio",
+   "gf": "Yes",
+   "cuisine": "Mexican",
+   "approved": true
+  },
+  {
+   "name": "Tuscony on Taylor",
+   "hood": "Little Italy",
+   "days": [
+    "Wednesday",
+    "Thursday",
+    "Sunday"
+   ],
+   "start": "4:00 PM",
+   "end": "7:00 PM",
+   "deal": "$7 wine, $9 cocktails, $4-10 apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Italian",
+   "approved": false
+  },
+  {
+   "name": "Upstairs at the Gwen",
+   "hood": "Loop",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday"
+   ],
+   "start": "4:00 PM",
+   "end": "5:30 PM",
+   "deal": "$6 bottled beer, $9 draft beer, $12 cocktails, $12 wine, $12 apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "",
+   "cuisine": "American",
+   "approved": false
+  },
+  {
+   "name": "Uptown Taproom",
+   "hood": "Uptown",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday"
+   ],
+   "start": "3:00 PM",
+   "end": "6:00 PM",
+   "deal": "20% off pints",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "",
+   "cuisine": "Dive Bar",
+   "approved": false
+  },
+  {
+   "name": "Uvae",
+   "hood": "Andersonville",
+   "days": [
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "5:00 PM",
+   "end": "6:30 PM",
+   "deal": "$5 wine, $2 oysters, $2 shrimp",
+   "specials": false,
+   "oysters": true,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Wine Bar, Oyster Bar",
+   "approved": true
+  },
+  {
+   "name": "Uvae",
+   "hood": "Andersonville",
+   "days": [
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+   ],
+   "start": "3:30 PM",
+   "end": "6:30 PM",
+   "deal": "$5 wine, $2 oysters, $2 shrimp",
+   "specials": false,
+   "oysters": true,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Wine Bar, Oyster Bar",
+   "approved": true
+  },
+  {
+   "name": "Valedor",
+   "hood": "Wicker Park",
+   "days": [
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+   ],
+   "start": "5:00 PM",
+   "end": "7:00 PM",
+   "deal": "$12 cocktail, $8 tapas",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Cocktail Bar",
+   "approved": false
+  },
+  {
+   "name": "Venteux",
+   "hood": "Loop",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday"
+   ],
+   "start": "4:00 PM",
+   "end": "7:00 PM",
+   "deal": "$10 wine, $10 well cocktail, $12 cocktail, $12 apps, $2 oysters",
+   "specials": true,
+   "oysters": true,
+   "patio": "",
+   "gf": "",
+   "cuisine": "French",
+   "approved": false
+  },
+  {
+   "name": "Vincent",
+   "hood": "Andersonville",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$8 beer, $10 cocktails, $6-20 snacks",
+   "specials": false,
+   "oysters": false,
+   "patio": "Sidewalk seating",
+   "gf": "Yes",
+   "cuisine": "American",
+   "approved": true
+  },
+  {
+   "name": "Virtue",
+   "hood": "Hyde Park",
+   "days": [
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "4:00 PM",
+   "end": "5:30 PM",
+   "deal": "$9 wine, $10 cocktails, $6-10 apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Southern",
+   "approved": true
+  },
+  {
+   "name": "Vitalogy",
+   "hood": "Printer's Row",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$12 cocktails, wine, $3-10 apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "",
+   "cuisine": "Cocktail Bar",
+   "approved": false
+  },
+  {
+   "name": "Volo Wine Bar",
+   "hood": "Roscoe Village",
+   "days": [
+    "Tuesday",
+    "Thursday",
+    "Wednesday",
+    "Friday",
+    "Saturday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$6 wine, $7 spritzes, $1 oysters",
+   "specials": false,
+   "oysters": true,
+   "patio": "Patio",
+   "gf": "Yes",
+   "cuisine": "Wine Bar",
+   "approved": true
+  },
+  {
+   "name": "Weather Mark Tavern",
+   "hood": "South Loop",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$5 wine, 1/2 off cocktails, $7-10 apps",
+   "specials": true,
+   "oysters": false,
+   "patio": "",
+   "gf": "",
+   "cuisine": "Sports Bar",
+   "approved": false
+  },
+  {
+   "name": "Webster's Wine Bar",
+   "hood": "Logan Square",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday"
+   ],
+   "start": "5:00 PM",
+   "end": "6:00 PM",
+   "deal": "$9 cocktails, $9 wine",
+   "specials": true,
+   "oysters": false,
+   "patio": "",
+   "gf": "",
+   "cuisine": "Wine Bar",
+   "approved": false
+  },
+  {
+   "name": "Webster's Wine Bar",
+   "hood": "Logan Square",
+   "days": [
+    "Friday",
+    "Saturday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$9 cocktails, $9 wine",
+   "specials": true,
+   "oysters": false,
+   "patio": "",
+   "gf": "",
+   "cuisine": "Wine Bar",
+   "approved": false
+  },
+  {
+   "name": "Welcome Back Lounge",
+   "hood": "Logan Square",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "5:00 PM",
+   "end": "7:00 PM",
+   "deal": "$6 cocktails, $12 burger and fries",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Not gf/celiac safe",
+   "cuisine": "American",
+   "approved": true
+  },
+  {
+   "name": "Wilde",
+   "hood": "Lakeview East",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$5 wine, $3 beer, $4 selzers, $8-10 apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "Yes",
+   "gf": "American",
+   "cuisine": "",
+   "approved": false
+  },
+  {
+   "name": "Whisky Girl Tavern",
+   "hood": "Edgewater",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$5 wine, $10 classics, $2 off drafts, $5 apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Not gf/celiac safe",
+   "cuisine": "American",
+   "approved": false
+  },
+  {
+   "name": "Wolcott Tap",
+   "hood": "Ravenswood",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "1/2 off drafts, $5 well drinks",
+   "specials": true,
+   "oysters": false,
+   "patio": "Sidewalk seating",
+   "gf": "No hh apps",
+   "cuisine": "American",
+   "approved": true
+  },
+  {
+   "name": "Wolcott Tap",
+   "hood": "Ravenswood",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday"
+   ],
+   "start": "9:00 PM",
+   "end": "11:00 PM",
+   "deal": "1/2 off all apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "Sidewalk seating",
+   "gf": "Yes",
+   "cuisine": "American",
+   "approved": true
+  },
+  {
+   "name": "Wood",
+   "hood": "Lakeview East",
+   "days": [
+    "Tuesday",
+    "Wednesday"
+   ],
+   "start": "5:00 PM",
+   "end": "6:00 PM",
+   "deal": "$9 cocktails, $7 wine",
+   "specials": false,
+   "oysters": false,
+   "patio": "Sidewalk seating",
+   "gf": "Not gf/celiac safe",
+   "cuisine": "American",
+   "approved": false
+  },
+  {
+   "name": "Wurst Behaivor",
+   "hood": "Irving Park",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$6 margaritas, $4-10 snacks",
+   "specials": false,
+   "oysters": false,
+   "patio": "Patio",
+   "gf": "Yes",
+   "cuisine": "German",
+   "approved": false
+  },
+  {
+   "name": "YardBird",
+   "hood": "Streeterville",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "3:00 PM",
+   "end": "6:00 PM",
+   "deal": "$6 wine, $6-10 cocktails, 1/2 off apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Southern",
+   "approved": false
+  },
+  {
+   "name": "Yasemi",
+   "hood": "River North",
+   "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+   ],
+   "start": "4:00 PM",
+   "end": "6:00 PM",
+   "deal": "$8 wine, $10 cocktails, $8-11 apps",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "",
+   "cuisine": "Meditteranean",
+   "approved": false
+  },
+  {
+   "name": "Yokocho",
+   "hood": "West Loop",
+   "days": [
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "5:00 PM",
+   "end": "7:00 PM",
+   "deal": "$6 handrolls, $7 wine, $7 cocktails",
+   "specials": false,
+   "oysters": false,
+   "patio": "Yes",
+   "gf": "Yes",
+   "cuisine": "Sushi",
+   "approved": false
+  },
+  {
+   "name": "Zizi's Cafe",
+   "hood": "Lincoln Park",
+   "days": [
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+   ],
+   "start": "3:00 PM",
+   "end": "6:00 PM",
+   "deal": "$4 beer, $7 cocktails, $6 bites",
+   "specials": false,
+   "oysters": false,
+   "patio": "",
+   "gf": "Yes",
+   "cuisine": "Meditteranean",
+   "approved": false
+  }
+ ]
+}

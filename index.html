@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>In and Around the West Loop | Community News</title>
+<link rel="stylesheet" href="css/style.css?v=20260703f">
+</head>
+<body class="home photo-banner" style="--banner-img: url('/images/mary-bartelme-park.jpg')">
+
+<header class="site-header">
+  <div class="header-inner">
+    <div class="brand">
+      <img class="brand-shield" src="images/shield-header.png" alt="34th Ward shield">
+      <div class="brand-text">
+        <h1>The Official 34th Ward Neighborhood Page</h1>
+        <p>Community News &amp; Civic Updates</p>
+      </div>
+    </div>
+    <nav class="main-nav">
+      <a href="index.html" class="active">Home</a>
+      <a href="map.html">Ward Map</a>
+      <a href="directory.html">Businesses</a>
+      <a href="happyhour.html">Happy Hours</a>
+      <a href="housing.html">Housing</a>
+      <a href="culture.html">Arts &amp; Culture</a>
+      <a href="resources.html">Resources</a>
+      <a href="#about">How This Works</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero hero-photo" style="--hero-img: url('/images/mary-bartelme-park.jpg')">
+  <div class="hero-inner">
+    <h2>Everything happening in and around the West Loop</h2>
+    <p>Updates from government offices, local businesses, civic groups, religious organizations, and community newsletters - gathered daily.</p>
+    <p class="last-updated">Last updated: <span id="last-updated-time">-</span></p>
+  </div>
+</section>
+
+<section class="race-section" id="mayor-race" hidden>
+  <div class="race-inner">
+    <div class="race-header">
+      <p class="spotlight-label">The 2027 Mayor's Race</p>
+      <p class="race-sub">Election day: <strong id="race-date"></strong> &middot; Updated <span id="race-updated"></span></p>
+    </div>
+    <div class="race-strip" id="race-strip"></div>
+  </div>
+</section>
+
+<main id="feed" class="feed-section">
+  <div class="np-banner">
+    <span class="np-rule"></span>
+    <h3>The Front Page</h3>
+    <span class="np-rule"></span>
+  </div>
+  <div class="np-grid" id="frontpage-grid">
+    <!-- Six stories, one per source - injected by js/app.js -->
+  </div>
+</main>
+
+<section class="spotlight-section" id="spotlight" hidden>
+  <div class="spotlight-inner">
+    <p class="spotlight-label">Today's Business Spotlight</p>
+    <div class="spotlight-card">
+      <img id="spotlight-img" src="" alt="">
+      <div class="spotlight-body">
+        <h3 id="spotlight-name"></h3>
+        <p class="spotlight-address" id="spotlight-address"></p>
+        <p id="spotlight-blurb"></p>
+        <a id="spotlight-link" class="spotlight-btn" href="#" target="_blank" rel="noopener">Visit their website &rarr;</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="signup" class="signup-section">
+  <div class="signup-inner">
+    <div class="signup-col">
+      <h3>Get the Daily Email</h3>
+      <p>The day's most important ward news and the week's upcoming events, in one short email each morning. No spam, no sharing your address, unsubscribe anytime.</p>
+      <form id="signup-form">
+        <input type="email" id="signup-email" placeholder="you@email.com" required aria-label="Your email address">
+        <label class="signup-check"><input type="checkbox" id="opt-daily" checked> Daily breaking news</label>
+        <label class="signup-check"><input type="checkbox" id="opt-weekly" checked> Weekly events digest</label>
+        <button type="submit" class="spotlight-btn">Sign me up</button>
+      </form>
+      <p class="signup-confirm" id="signup-confirm" hidden>Almost done - your email app just opened with a pre-filled signup message. Hit send and you're in.</p>
+    </div>
+    <div class="signup-col">
+      <h3>Feature Your Business</h3>
+      <p>Own a business in the ward? Get featured as a Business Spotlight on our homepage - free. Send us your name, website, and a great photo, and we'll add you to the rotation.</p>
+      <a class="spotlight-btn" href="mailto:chicagojustice@gmail.com?subject=Feature%20my%20business%20on%2034thward.com&body=Business%20name%3A%0AAddress%3A%0AWebsite%3A%0AWhat%20makes%20it%20special%3A%0A%0A(Attach%20a%20photo%20if%20you%20have%20one!)">Request a spotlight</a>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="about-section">
+  <div class="about-inner">
+    <h3>How this site works</h3>
+    <p>34thward.com collects public updates from elected officials, local businesses, civic organizations, religious organizations, and community newsletters that serve the 34th Ward. New items are gathered automatically each day from email newsletters and public feeds, summarized, and published here.</p>
+    <p>Items that name a specific person in connection with an allegation or dispute are held for a brief human review before publishing. Everything else publishes automatically. Every item links back to its original source.</p>
+    <p class="disclaimer">This site aggregates and summarizes third-party content. It is not the official site of any elected official, and inclusion of an organization does not imply endorsement.</p>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <p>&copy; <span id="year"></span> In and Around the West Loop &middot; 34thward.com</p>
+</footer>
+
+<script src="js/app.js?v=20260703f"></script>
+<script src="js/ticker.js?v=20260703f"></script>
+</body>
+</html>

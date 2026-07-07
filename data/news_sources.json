@@ -1,0 +1,59 @@
+{
+  "sources": [
+    {
+      "id": "politico",
+      "name": "Politico Illinois Playbook",
+      "editor": "Shia Kapos",
+      "editor_image": "images/sources/shia-kapos.jpg?v=fix2",
+      "logo": "images/sources/politico-logo.jpg?v=fix2",
+      "description": "Shia Kapos' must-read daily rundown of political news in the Land of Lincoln.",
+      "site": "https://www.politico.com/newsletters/illinois-playbook"
+    },
+    {
+      "id": "axios",
+      "name": "Axios Chicago",
+      "editor": "Monica Eng",
+      "editor_image": "images/sources/monica-eng.jpg?v=fix2",
+      "logo": "images/sources/axios-logo.jpg?v=fix2",
+      "description": "Smart brevity on the biggest stories in Chicago, every weekday morning.",
+      "site": "https://www.axios.com/local/chicago"
+    },
+    {
+      "id": "skyline",
+      "name": "Skyline",
+      "editor": "Thomas O'Gorman",
+      "editor_image": "images/sources/tom-ogorman.jpg?v=fix2",
+      "logo": "images/sources/skyline-logo.jpg?v=fix2",
+      "description": "Inside Publications' weekly paper for the Loop, River North, Gold Coast, and downtown neighborhoods.",
+      "site": "https://insideonline.com"
+    },
+    {
+      "id": "conway",
+      "name": "Conway's Corner",
+      "editor": "Ald. Bill Conway",
+      "editor_image": "images/sources/bill-conway.jpg?v=fix2",
+      "logo": "images/sources/conways-corner-logo.png?v=fix2",
+      "description": "The 34th Ward office newsletter: city services, infrastructure, and neighborhood events.",
+      "site": "https://www.ward34.org"
+    },
+    {
+      "id": "wca",
+      "name": "The WCA Weekly",
+      "editor": "West Central Association",
+      "editor_image": null,
+      "logo": null,
+      "monogram": "WCA",
+      "description": "The Chamber of Commerce for the West Loop, Greektown, Fulton Market, and the near west side - since 1918.",
+      "site": "https://www.wcachicago.org"
+    },
+    {
+      "id": "igwl",
+      "name": "Indivisible Greater West Loop",
+      "editor": "IGWL Leadership Team",
+      "editor_image": null,
+      "logo": "images/sources/igwl-logo.png?v=fix2",
+      "description": "The weekly Action Plan: civic events, volunteering, and democracy organizing in the West Loop.",
+      "site": "https://www.indivisiblegwlchi.org"
+    }
+  ]
+}
