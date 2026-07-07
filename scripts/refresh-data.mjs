@@ -38,17 +38,35 @@ async function refreshKalshi() {
     if (name && !Number.isNaN(price)) byName.set(name, Math.round(price * 1000) / 10);
   }
 
+  // Blend: average Kalshi (refreshed here) with the stored PredictionEdge
+  // reading (pe_raw, refreshed by the assisted daily task), floor candidates
+  // with no market at 1%, then normalize so the 13 tracked candidates sum
+  // to exactly 100%.
+  const FLOOR = 1.0;
   let changed = 0;
   for (const c of data.candidates) {
     const hit = byName.get((c.name || '').trim().toLowerCase());
-    if (hit != null && c.kalshi_pct !== hit) {
-      c.kalshi_pct = hit;
+    if (hit != null && c.kalshi_raw !== hit) {
+      c.kalshi_raw = hit;
       changed++;
     }
   }
+  const rawVals = data.candidates.map((c) => {
+    const sig = [c.kalshi_raw, c.pe_raw].filter((v) => typeof v === 'number');
+    return sig.length ? sig.reduce((a, b) => a + b, 0) / sig.length : FLOOR;
+  });
+  const total = rawVals.reduce((a, b) => a + b, 0);
+  data.candidates.forEach((c, i) => {
+    c.pct = Math.round((rawVals[i] * 100 / total) * 10) / 10;
+  });
+  // nudge the leader so displayed percentages sum to exactly 100.0
+  const sumPct = data.candidates.reduce((a, c) => a + c.pct, 0);
+  const leader = data.candidates.reduce((a, c) => (c.pct > a.pct ? c : a));
+  leader.pct = Math.round((leader.pct + (100 - sumPct)) * 10) / 10;
+
   data.updated_at = nowIso();
   await writeFile(path, JSON.stringify(data, null, 2) + '\n');
-  console.log(`Kalshi: ${markets.length} markets, ${changed} candidate odds changed.`);
+  console.log(`Kalshi: ${markets.length} markets, ${changed} raw odds changed; blended pct renormalized to 100.`);
 }
 
 // Minimal RFC-4180-ish CSV parser

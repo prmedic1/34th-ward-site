@@ -1,4 +1,4 @@
-const DATA_V = '20260707a';
+const DATA_V = '20260707d';
 
 document.getElementById('year').textContent = new Date().getFullYear();
 
@@ -16,9 +16,7 @@ fetch('data/mayor_race.json?d=' + DATA_V)
         const img = c.image
           ? `<img src="${escapeAttr(c.image)}" alt="${escapeAttr(c.name)}" loading="lazy" onerror="this.outerHTML='<span class=\\'race-avatar\\'>${c.name.charAt(0)}</span>'">`
           : `<span class="race-avatar">${escapeHtml(c.name.charAt(0))}</span>`;
-        const pct = c.kalshi_pct != null
-          ? `<span class="race-pct">${c.kalshi_pct}%</span>`
-          : `<span class="race-pct race-pct-none">no market<br>yet</span>`;
+        const pct = `<span class="race-pct">${c.pct != null ? c.pct : c.kalshi_pct}%</span>`;
         const badge = c.badge
           ? `<span class="race-badge race-badge-${c.badgeColor}">${escapeHtml(c.badge)}</span>`
           : '';

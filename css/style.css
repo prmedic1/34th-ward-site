@@ -1000,3 +1000,16 @@ body.photo-banner .hero {
 .map-pill {display:inline-block; padding:4px 12px; border-radius:999px; background:var(--navy); color:#fff !important; font-size:0.78rem; text-decoration:none; margin:6px 6px 0 0;}
 .map-pill:hover {background:var(--red);}
 @media (max-width: 560px) { .hh-controls select { max-width: 100%; flex: 1 1 100%; } }
+
+
+/* Centered header brand (2026-07-07) */
+.header-inner { flex-direction: column; justify-content: center; gap: 6px; padding: 20px 24px 12px; }
+.brand { justify-content: center; text-align: left; gap: 18px; }
+.brand-text h1 { font-size: 2.15rem !important; line-height: 1.1; }
+.brand-text p { font-size: 1.12rem; }
+.main-nav { display: flex; justify-content: center; flex-wrap: wrap; }
+.main-nav a { margin: 0 11px; }
+@media (max-width: 640px) {
+  .brand-text h1 { font-size: 1.4rem !important; }
+  .brand-text p { font-size: 0.95rem; }
+}

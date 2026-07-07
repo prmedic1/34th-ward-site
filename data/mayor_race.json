@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-07-07T18:04:17.116Z",
+  "updated_at": "2026-07-07T21:01:40.684Z",
   "election_date": "February 23, 2027",
   "kalshi_event": "KXMAYORCHI-27",
   "kalshi_url": "https://kalshi.com/markets/kxmayorchi",
-  "note": "Percentages are the last trade price on Kalshi's 'Chicago mayoral election winner?' market - a prediction market, not a poll. Trading is thin this far out; treat as a rough signal. Refreshed with the site's daily update.",
+  "note": "Blended win probabilities from the Kalshi prediction market and PredictionEdge, normalized to 100% across the 13 tracked candidates. Candidates without an active market are floored at about 1%. Prediction markets, not polls; treat as a rough signal.",
   "candidates": [
     {
       "name": "Alexi Giannoulias",
@@ -12,18 +12,22 @@
       "order": 1,
       "badge": "Favorite",
       "badgeColor": "blue",
-      "kalshi_pct": 47,
-      "image": "images/candidates/giannoulias.jpg"
+      "image": "images/candidates/giannoulias.jpg",
+      "pct": 43.8,
+      "kalshi_raw": 47,
+      "pe_raw": 43
     },
     {
       "name": "Matthew Brewer",
       "role": "Former CHA board chair",
       "status": "declared",
       "order": 2,
-      "kalshi_pct": null,
       "image": "images/candidates/brewer.jpg",
       "badge": "Underdog",
-      "badgeColor": "yellow"
+      "badgeColor": "yellow",
+      "pct": 22.4,
+      "kalshi_raw": null,
+      "pe_raw": 23
     },
     {
       "name": "Brandon Johnson",
@@ -32,40 +36,50 @@
       "order": 3,
       "badge": "Incumbent",
       "badgeColor": "green",
-      "kalshi_pct": 7,
-      "image": "images/candidates/johnson.jpg"
+      "image": "images/candidates/johnson.jpg",
+      "pct": 6.8,
+      "kalshi_raw": 7,
+      "pe_raw": null
     },
     {
       "name": "Susana Mendoza",
       "role": "Illinois Comptroller (outgoing)",
       "status": "declared",
       "order": 4,
-      "kalshi_pct": null,
-      "image": "images/candidates/mendoza.jpg"
+      "image": "images/candidates/mendoza.jpg",
+      "pct": 15.6,
+      "kalshi_raw": null,
+      "pe_raw": 16
     },
     {
       "name": "Maria Pappas",
       "role": "Cook County Treasurer",
       "status": "declared",
       "order": 5,
-      "kalshi_pct": 1,
-      "image": "images/candidates/pappas.jpg"
+      "image": "images/candidates/pappas.jpg",
+      "pct": 1,
+      "kalshi_raw": 1,
+      "pe_raw": null
     },
     {
       "name": "Mike Quigley",
       "role": "U.S. Representative (IL-5)",
       "status": "declared",
       "order": 6,
-      "kalshi_pct": null,
-      "image": "images/candidates/quigley.jpg"
+      "image": "images/candidates/quigley.jpg",
+      "pct": 1,
+      "kalshi_raw": null,
+      "pe_raw": null
     },
     {
       "name": "Willie Wilson",
       "role": "Businessman",
       "status": "rumored",
       "order": 7,
-      "kalshi_pct": null,
-      "image": "images/candidates/wilson.jpg"
+      "image": "images/candidates/wilson.jpg",
+      "pct": 1,
+      "kalshi_raw": null,
+      "pe_raw": null
     },
     {
       "name": "John Kelly",
@@ -74,50 +88,62 @@
       "order": 8,
       "badge": "Conservative",
       "badgeColor": "red",
-      "kalshi_pct": null,
-      "image": "images/candidates/kelly.jpg"
+      "image": "images/candidates/kelly.jpg",
+      "pct": 1,
+      "kalshi_raw": null,
+      "pe_raw": null
     },
     {
       "name": "Joe Holberg",
       "role": "Entrepreneur",
       "status": "declared",
       "order": 9,
-      "kalshi_pct": 3.5,
-      "image": "images/candidates/holberg.jpg"
+      "image": "images/candidates/holberg.jpg",
+      "pct": 3.4,
+      "kalshi_raw": 3.5,
+      "pe_raw": null
     },
     {
       "name": "George Cardenas",
       "role": "Cook County Board of Review",
       "status": "declared",
       "order": 10,
-      "kalshi_pct": null,
       "image": "images/candidates/cardenas.jpg",
       "badge": "Conservative",
-      "badgeColor": "red"
+      "badgeColor": "red",
+      "pct": 1,
+      "kalshi_raw": null,
+      "pe_raw": null
     },
     {
       "name": "Liam Stanton",
       "role": "Small business owner & entrepreneur",
       "status": "declared",
       "order": 11,
-      "kalshi_pct": null,
-      "image": "images/candidates/stanton.jpg"
+      "image": "images/candidates/stanton.jpg",
+      "pct": 1,
+      "kalshi_raw": null,
+      "pe_raw": null
     },
     {
       "name": "Dr. Lisa Nee",
       "role": "Cardiologist & VA whistleblower",
       "status": "rumored",
       "order": 12,
-      "kalshi_pct": null,
-      "image": "images/candidates/nee.webp"
+      "image": "images/candidates/nee.webp",
+      "pct": 1,
+      "kalshi_raw": null,
+      "pe_raw": null
     },
     {
       "name": "Bill Conway",
       "role": "Alderman, 34th Ward",
       "status": "rumored",
       "order": 13,
-      "kalshi_pct": null,
-      "image": "images/candidates/conway.jpg"
+      "image": "images/candidates/conway.jpg",
+      "pct": 1,
+      "kalshi_raw": null,
+      "pe_raw": null
     }
   ]
 }
