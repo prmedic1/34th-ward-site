@@ -13,7 +13,7 @@
 
   // Optional: paste a Google Maps API key here to show Street View photos in
   // business hover cards (Maps Platform > Street View Static API). Leave empty to skip photos.
-  var STREETVIEW_KEY = '';
+  var STREETVIEW_KEY = 'AIzaSyCawzarHisqLFJuUlPOBxt8CcfCwL6gJ4w';
 
   var map = new maplibregl.Map({
     container: 'ward-3d',
