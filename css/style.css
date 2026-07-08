@@ -1016,3 +1016,90 @@ body.photo-banner .hero {
   .brand-text h1 { font-size: 1.4rem !important; }
   .brand-text p { font-size: 0.95rem; }
 }
+
+/* Spotlight archive (2026-07-08) */
+.spotlight-btn-ghost {
+  margin-left: 10px;
+  background: transparent;
+  color: var(--navy);
+  border: 1px solid var(--navy);
+}
+.spotlight-btn-ghost:hover {
+  background: var(--navy);
+  color: #fff;
+}
+.spotlight-archive-list {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+.spotlight-archive-row {
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+}
+.spotlight-archive-thumb {
+  width: 72px;
+  height: 72px;
+  object-fit: cover;
+  border-radius: 8px;
+  flex-shrink: 0;
+}
+.spotlight-archive-body { flex: 1 1 auto; min-width: 0; }
+.spotlight-archive-body h4 {
+  font-family: var(--font-head);
+  color: var(--navy);
+  font-size: 1.1rem;
+  margin: 0;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+.spotlight-archive-body h4 a { color: var(--navy); text-decoration: none; }
+.spotlight-archive-body h4 a:hover { color: var(--red); }
+.spotlight-archive-badge {
+  display: inline-block;
+  font-size: 0.68rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  background: var(--red);
+  color: #fff;
+  border-radius: 999px;
+  padding: 2px 9px;
+}
+.spotlight-archive-date {
+  font-size: 0.8rem;
+  color: var(--muted);
+  white-space: nowrap;
+}
+.spotlight-archive-address { margin: 4px 0 0; }
+.spotlight-archive-blurb {
+  font-size: 0.9rem;
+  margin: 6px 0 0;
+}
+@media (max-width: 560px) {
+  .spotlight-archive-thumb { width: 56px; height: 56px; }
+}
+
+/* Mobile nav single row (2026-07-08) */
+@media (max-width: 700px) {
+  .main-nav {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    width: 100%;
+    padding-bottom: 2px;
+  }
+  .main-nav::-webkit-scrollbar { display: none; }
+  .main-nav a {
+    white-space: nowrap;
+    flex-shrink: 0;
+    font-size: 0.82rem;
+    margin: 0 8px;
+    padding: 6px 2px;
+  }
+}

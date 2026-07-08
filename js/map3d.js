@@ -47,6 +47,216 @@
     });
   }
 
+  // Touch devices have no real hover, skip the dwell-popup logic there.
+  // "No hover capability" is the right signal, not "has a touchscreen":
+  // touchscreen laptops with a mouse should still get hover popups.
+  var isTouchDevice = !!(window.matchMedia && window.matchMedia('(hover: none)').matches);
+
+  // Enumerate every fill-extrusion layer in the current style at call time,
+  // never hardcode a layer id, since the basemap may or may not ship its own.
+  function getExtrusionLayerIds() {
+    var styleLayers = (map.getStyle() && map.getStyle().layers) || [];
+    var ids = [];
+    for (var i = 0; i < styleLayers.length; i++) {
+      if (styleLayers[i].type === 'fill-extrusion') ids.push(styleLayers[i].id);
+    }
+    return ids;
+  }
+
+  function getBizLayerIds() {
+    var ids = [];
+    if (map.getLayer('biz-dots')) ids.push('biz-dots');
+    if (map.getLayer('biz-logos')) ids.push('biz-logos');
+    return ids;
+  }
+
+  // --- Chain logo matching (Task B) --------------------------------------
+  var CHAINS = [
+    { re: /starbucks/i, domain: 'starbucks.com' },
+    { re: /mc\s*donald'?s/i, domain: 'mcdonalds.com' },
+    { re: /dunkin/i, domain: 'dunkindonuts.com' },
+    { re: /subway/i, domain: 'subway.com' },
+    { re: /chipotle/i, domain: 'chipotle.com' },
+    { re: /potbelly/i, domain: 'potbelly.com' },
+    { re: /jimmy\s*john'?s/i, domain: 'jimmyjohns.com' },
+    { re: /7[\s-]*eleven/i, domain: '7-eleven.com' },
+    { re: /walgreens/i, domain: 'walgreens.com' },
+    { re: /\bcvs\b/i, domain: 'cvs.com' },
+    { re: /\btarget\b/i, domain: 'target.com' },
+    { re: /whole\s*foods/i, domain: 'wholefoodsmarket.com' },
+    { re: /mariano'?s/i, domain: 'marianos.com' },
+    { re: /portillo'?s/i, domain: 'portillos.com' },
+    { re: /panera/i, domain: 'panerabread.com' },
+    { re: /five\s*guys/i, domain: 'fiveguys.com' },
+    { re: /shake\s*shack/i, domain: 'shakeshack.com' },
+    { re: /sweetgreen/i, domain: 'sweetgreen.com' },
+    { re: /peet'?s/i, domain: 'peets.com' },
+    { re: /chick[\s-]*fil[\s-]*a/i, domain: 'chick-fil-a.com' },
+    { re: /wingstop/i, domain: 'wingstop.com' },
+    { re: /panda\s*express/i, domain: 'pandaexpress.com' },
+    { re: /nando'?s/i, domain: 'nandosperiperi.com' },
+    { re: /pret\s*a\s*manger/i, domain: 'pret.com' },
+    { re: /au\s*bon\s*pain/i, domain: 'aubonpain.com' },
+    { re: /\broti\b/i, domain: 'roti.com' },
+    { re: /naf\s*naf/i, domain: 'nafnafgrill.com' },
+    { re: /protein\s*bar/i, domain: 'theproteinbar.com' },
+    { re: /bank\s*of\s*america/i, domain: 'bankofamerica.com' },
+    { re: /\bchase bank\b|\bjpmorgan\b/i, domain: 'chase.com' },
+    { re: /fifth\s*third/i, domain: '53.com' },
+    { re: /pnc\s*bank/i, domain: 'pnc.com' },
+    { re: /fedex/i, domain: 'fedex.com' },
+    { re: /ups\s*store/i, domain: 'theupsstore.com' }
+  ];
+
+  function matchChainLogo(name) {
+    for (var i = 0; i < CHAINS.length; i++) {
+      if (CHAINS[i].re.test(name)) return CHAINS[i].domain;
+    }
+    return null;
+  }
+
+  // Once the chain logos finish loading (or fail to), swap the circle layer
+  // filter so logo'd businesses show their brand mark instead of a red dot.
+  function finalizeChainLogos(loadedDomains) {
+    if (!loadedDomains.length || !map.getLayer('biz-dots')) return;
+
+    map.setFilter('biz-dots', ['!', ['in', ['get', 'logo'], ['literal', loadedDomains]]]);
+
+    map.addLayer({
+      id: 'biz-logos',
+      type: 'symbol',
+      source: 'biz-points',
+      minzoom: 14.5,
+      filter: ['in', ['get', 'logo'], ['literal', loadedDomains]],
+      layout: {
+        'icon-image': ['get', 'logo'],
+        'icon-size': 0.45,
+        'icon-allow-overlap': true
+      }
+    });
+
+    map.on('mouseenter', 'biz-logos', function () {
+      map.getCanvas().style.cursor = 'pointer';
+    });
+    map.on('mouseleave', 'biz-logos', function () {
+      map.getCanvas().style.cursor = '';
+    });
+  }
+
+  function loadChainLogos(distinctDomains) {
+    if (!distinctDomains.length) return;
+    var loadedDomains = [];
+    var remaining = distinctDomains.length;
+
+    distinctDomains.forEach(function (domain) {
+      // Local copies (images/logos/, fetched from Google's favicon service at
+      // build time) - same-origin, so no CORS issues with the WebGL canvas.
+      // Domains with no local file simply stay red dots via the catch below.
+      var imgUrl = 'images/logos/' + domain + '.png';
+      map
+        .loadImage(imgUrl)
+        .then(function (image) {
+          remaining--;
+          try {
+            if (!map.hasImage(domain)) map.addImage(domain, image.data);
+            loadedDomains.push(domain);
+          } catch (addErr) {
+            console.warn('Could not add logo image for ' + domain, addErr);
+          }
+          if (remaining === 0) finalizeChainLogos(loadedDomains);
+        })
+        .catch(function () {
+          // CORS failure or 404, just leave this chain as a red dot.
+          remaining--;
+          if (remaining === 0) finalizeChainLogos(loadedDomains);
+        });
+    });
+  }
+
+  // --- Building hover address popup (Task A) ------------------------------
+  var geocodeCache = new Map();
+  var geocodePending = false;
+  var hoverPopup = null;
+  var hoverTimer = null;
+  var hoverId = 0;
+
+  function hideHoverPopup() {
+    hoverId++;
+    if (hoverTimer) {
+      clearTimeout(hoverTimer);
+      hoverTimer = null;
+    }
+    if (hoverPopup) {
+      hoverPopup.remove();
+      hoverPopup = null;
+    }
+  }
+
+  function geocodeCacheKey(lat, lng) {
+    return lat.toFixed(4) + ',' + lng.toFixed(4);
+  }
+
+  function addressFromResult(result) {
+    if (!result || !result.address) return null;
+    var addr = result.address;
+    var parts = [];
+    if (addr.house_number) parts.push(addr.house_number);
+    if (addr.road) parts.push(addr.road);
+    if (!parts.length) return null;
+    return parts.join(' ') + ', Chicago';
+  }
+
+  function reverseGeocode(lat, lng, callback) {
+    var key = geocodeCacheKey(lat, lng);
+    if (geocodeCache.has(key)) {
+      callback(geocodeCache.get(key));
+      return;
+    }
+    if (geocodePending) return; // never more than one request in flight
+    geocodePending = true;
+    var url =
+      'https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=' + lat +
+      '&lon=' + lng + '&zoom=18&addressdetails=1';
+    fetch(url)
+      .then(function (r) {
+        return r.json();
+      })
+      .then(function (result) {
+        geocodePending = false;
+        geocodeCache.set(key, result);
+        callback(result);
+      })
+      .catch(function () {
+        geocodePending = false;
+        geocodeCache.set(key, null);
+        callback(null);
+      });
+  }
+
+  function showHoverPopup(lngLat, addressLine) {
+    if (hoverPopup) {
+      hoverPopup.remove();
+      hoverPopup = null;
+    }
+
+    var label = addressLine || 'Address unavailable';
+    var zillowUrl = 'https://www.zillow.com/homes/' + encodeURIComponent(addressLine || label) + '_rb/';
+    var aptsUrl = 'https://www.apartments.com/chicago-il/?sk=' + encodeURIComponent(addressLine || label);
+
+    var html =
+      '<p style="font-size:0.82rem;font-weight:600;margin:0 0 3px;">' + esc(label) + '</p>' +
+      '<p style="font-size:0.72rem;margin:0;color:#5b6b7c;">Building info: ' +
+      '<a href="' + esc(zillowUrl) + '" target="_blank" rel="noopener">Zillow</a>' +
+      ' &middot; ' +
+      '<a href="' + esc(aptsUrl) + '" target="_blank" rel="noopener">Apartments.com</a>' +
+      '</p>';
+
+    hoverPopup = new maplibregl.Popup({ closeButton: false, closeOnClick: false, maxWidth: '240px' })
+      .setLngLat(lngLat)
+      .setHTML(html)
+      .addTo(map);
+  }
+
   map.on('load', function () {
     // 1. 3D buildings
     var hasExtrusion = false;
@@ -127,6 +337,7 @@
             return typeof b.lat === 'number' && typeof b.lng === 'number';
           })
           .map(function (b) {
+            var logo = matchChainLogo(b.name || '');
             return {
               type: 'Feature',
               geometry: { type: 'Point', coordinates: [b.lng, b.lat] },
@@ -135,10 +346,21 @@
                 address: b.address || '',
                 zip: b.zip || '',
                 lat: b.lat,
-                lng: b.lng
+                lng: b.lng,
+                logo: logo || ''
               }
             };
           });
+
+        var distinctDomains = [];
+        var domainSeen = {};
+        features.forEach(function (f) {
+          var d = f.properties.logo;
+          if (d && !domainSeen[d]) {
+            domainSeen[d] = true;
+            distinctDomains.push(d);
+          }
+        });
 
         map.addSource('biz-points', {
           type: 'geojson',
@@ -158,6 +380,8 @@
             'circle-opacity': 0.9
           }
         });
+
+        loadChainLogos(distinctDomains);
       })
       .catch(function (err) {
         console.warn('Failed to load business pins', err);
@@ -165,8 +389,11 @@
 
     // 4. Click handling
     map.on('click', function (e) {
-      var bizFeatures = map.getLayer('biz-dots')
-        ? map.queryRenderedFeatures(e.point, { layers: ['biz-dots'] })
+      hideHoverPopup(); // never let the hover popup linger under a click popup
+
+      var bizLayerIds = getBizLayerIds();
+      var bizFeatures = bizLayerIds.length
+        ? map.queryRenderedFeatures(e.point, { layers: bizLayerIds })
         : [];
       if (bizFeatures.length) {
         var props = bizFeatures[0].properties;
@@ -197,11 +424,7 @@
 
       // Query every fill-extrusion layer present (the basemap style ships its
       // own 3D buildings layer, so ours may not exist).
-      var styleLayers = (map.getStyle() && map.getStyle().layers) || [];
-      var extrusionIds = [];
-      for (var li = 0; li < styleLayers.length; li++) {
-        if (styleLayers[li].type === 'fill-extrusion') extrusionIds.push(styleLayers[li].id);
-      }
+      var extrusionIds = getExtrusionLayerIds();
       if (!extrusionIds.length) return;
 
       var buildingFeatures = map.queryRenderedFeatures(e.point, { layers: extrusionIds });
@@ -239,6 +462,41 @@
     map.on('mouseleave', 'biz-dots', function () {
       map.getCanvas().style.cursor = '';
     });
+
+    // 5. Building hover address popup, desktop only (no real hover on touch)
+    if (!isTouchDevice) {
+      map.on('mousemove', function (e) {
+        var extrusionIds = getExtrusionLayerIds();
+        if (!extrusionIds.length) {
+          hideHoverPopup();
+          return;
+        }
+
+        var buildingFeatures = map.queryRenderedFeatures(e.point, { layers: extrusionIds });
+        if (!buildingFeatures.length) {
+          hideHoverPopup();
+          return;
+        }
+
+        // Dwell debounce: keep pushing the timer out while the cursor keeps
+        // moving, only fire once it settles for ~450ms over a building.
+        if (hoverTimer) clearTimeout(hoverTimer);
+        var lngLat = e.lngLat;
+        var thisHoverId = ++hoverId;
+
+        hoverTimer = setTimeout(function () {
+          hoverTimer = null;
+          var lat = Math.round(lngLat.lat * 10000) / 10000;
+          var lng = Math.round(lngLat.lng * 10000) / 10000;
+          reverseGeocode(lat, lng, function (result) {
+            if (thisHoverId !== hoverId) return; // mouse moved off before this resolved
+            showHoverPopup(lngLat, addressFromResult(result));
+          });
+        }, 450);
+      });
+
+      map.getCanvas().addEventListener('mouseleave', hideHoverPopup);
+    }
   });
 
   // 6. Buttons

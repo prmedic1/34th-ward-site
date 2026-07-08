@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Business Spotlight Archive | In and Around the West Loop</title>
+<link rel="stylesheet" href="css/style.css?v=20260708b">
+</head>
+<body class="photo-banner" style="--banner-img: url('/images/west-loop.jpg')">
+
+<header class="site-header">
+  <div class="header-inner">
+    <div class="brand">
+      <img class="brand-shield" src="images/shield-header.png?v=20260708a" alt="34th Ward shield">
+      <div class="brand-text">
+        <h1>The Official 34th Ward Neighborhood Page</h1>
+        <p>Community News &amp; Civic Updates</p>
+      </div>
+    </div>
+    <nav class="main-nav">
+      <a href="index.html">Home</a>
+      <a href="map.html">Ward Map</a>
+      <a href="directory.html">Businesses</a>
+      <a href="happyhour.html">Happy Hours</a>
+      <a href="housing.html">Housing</a>
+      <a href="culture.html">Arts &amp; Culture</a>
+      <a href="resources.html">Resources</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero hero-compact">
+  <div class="hero-inner">
+    <h2>Business Spotlight Archive</h2>
+    <p>Every featured business, newest first.</p>
+  </div>
+</section>
+
+<main class="page-section">
+  <div class="spotlight-archive-list" id="archive-list">
+    <p class="empty-state">Loading past spotlights&hellip;</p>
+  </div>
+
+  <p class="disclaimer directory-note">
+    Want your business featured here? <a href="mailto:chicagojustice@gmail.com?subject=Feature%20my%20business%20on%2034thward.com&body=Business%20name%3A%0AAddress%3A%0AWebsite%3A%0AWhat%20makes%20it%20special%3A%0A%0A(Attach%20a%20photo%20if%20you%20have%20one!)">Request a spotlight</a>.
+  </p>
+</main>
+
+<footer class="site-footer">
+  <p>&copy; <span id="year"></span> In and Around the West Loop &middot; 34thward.com</p>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+
+  const ARCHIVE_DATA_V = '20260708b';
+
+  fetch('data/spotlight.json?d=' + ARCHIVE_DATA_V)
+    .then((r) => r.json())
+    .then((data) => {
+      const entries = [];
+      if (data.current && data.current.name) {
+        entries.push(Object.assign({}, data.current, { isToday: true }));
+      }
+      const history = Array.isArray(data.history) ? data.history.slice() : [];
+      history.sort((a, b) => new Date(b.date) - new Date(a.date));
+      history.forEach((h) => entries.push(h));
+
+      const list = document.getElementById('archive-list');
+      if (!entries.length) {
+        list.innerHTML = '<p class="empty-state">No past spotlights yet.</p>';
+        return;
+      }
+      list.innerHTML = entries.map(renderEntry).join('');
+    })
+    .catch((err) => {
+      console.error('Failed to load spotlight archive', err);
+      document.getElementById('archive-list').innerHTML =
+        '<p class="empty-state">Unable to load the spotlight archive right now.</p>';
+    });
+
+  function renderEntry(s) {
+    const dateLabel = formatDate(s.date);
+    const todayBadge = s.isToday ? '<span class="spotlight-archive-badge">Today</span>' : '';
+    const thumb = s.image
+      ? `<img class="spotlight-archive-thumb" src="${escapeAttr(s.image)}" alt="${escapeAttr(s.name)}" loading="lazy" onerror="this.remove()">`
+      : '';
+    const nameHtml = s.website
+      ? `<a href="${escapeAttr(s.website)}" target="_blank" rel="noopener">${escapeHtml(s.name)}</a>`
+      : escapeHtml(s.name);
+    const address = s.address
+      ? `<p class="biz-detail spotlight-archive-address">${escapeHtml(s.address)}</p>`
+      : '';
+    const blurb = s.blurb ? `<p class="spotlight-archive-blurb">${escapeHtml(s.blurb)}</p>` : '';
+
+    return `
+      <div class="biz-row spotlight-archive-row">
+        ${thumb}
+        <div class="spotlight-archive-body">
+          <div class="biz-main">
+            <h4>${todayBadge}${nameHtml}</h4>
+            <span class="spotlight-archive-date">${dateLabel}</span>
+          </div>
+          ${address}
+          ${blurb}
+        </div>
+      </div>`;
+  }
+
+  function formatDate(dateStr) {
+    if (!dateStr) return '';
+    const d = new Date(dateStr + 'T12:00:00');
+    if (isNaN(d)) return dateStr;
+    return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+  }
+
+  function escapeHtml(str) {
+    const div = document.createElement('div');
+    div.textContent = str;
+    return div.innerHTML;
+  }
+
+  function escapeAttr(str) {
+    return String(str).replace(/"/g, '&quot;');
+  }
+</script>
+<script src="js/ticker.js?v=20260708a"></script>
+</body>
+</html>

@@ -5,16 +5,19 @@
   "name": "Monteverde Restaurant & Pastificio",
   "address": "1020 W. Madison St, West Loop",
   "website": "https://www.monteverdechicago.com",
-  "blurb": "Chef Sarah Grueneberg, a James Beard Award winner for Best Chef: Great Lakes, turns out some of the country's most celebrated handmade pasta from an open pastificio counter on Madison Street. The cacio whey pepe and ragu alla napoletana are neighborhood legends, and the bar pours a deep Italian wine list. Reservations go fast, but the pasta bar seats are held for walk-ins."
+  "blurb": "Chef Sarah Grueneberg, a James Beard Award winner for Best Chef: Great Lakes, turns out some of the country's most celebrated handmade pasta from an open pastificio counter on Madison Street. The cacio whey pepe and ragu alla napoletana are neighborhood legends, and the bar pours a deep Italian wine list. Reservations go fast, but the pasta bar seats are held for walk-ins.",
+  "image": "https://monteverdechicago.com/wp-content/uploads/2023/09/Burrata-e-Ham-PB-4-scaled.jpg"
  },
  "history": [
   {
    "date": "2026-07-01",
-   "name": "The Original Pancake House"
+   "name": "The Original Pancake House",
+   "website": "https://www.originalpancakehouse.com"
   },
   {
    "date": "2026-07-07",
-   "name": "Green Street Smoked Meats"
+   "name": "Green Street Smoked Meats",
+   "website": "https://greenstreetmeats.com"
   }
  ]
 }
