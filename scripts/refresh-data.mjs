@@ -48,11 +48,28 @@ async function refreshKalshi() {
     if (name && !Number.isNaN(price) && price > 0) byName.set(name, Math.round(price * 1000) / 10);
   }
 
-  // Blend: average Kalshi (refreshed here) with the stored PredictionEdge
-  // reading (pe_raw, refreshed by the assisted daily task), floor candidates
-  // with no market at 0.5%, then normalize so the 13 tracked candidates sum
-  // to exactly 100%.
+  // Manifold Markets (play-money, thin volume - low weight sanity check)
+  const manifold = new Map();
+  try {
+    const mr = await fetch('https://api.manifold.markets/v0/slug/who-will-win-the-2027-chicago-mayor');
+    if (mr.ok) {
+      const md = await mr.json();
+      for (const ans of md.answers || []) {
+        let name = norm(ans.text);
+        if (ALIAS.has(name)) name = ALIAS.get(name);
+        const p = Math.round(ans.probability * 1000) / 10;
+        if (name && p > 0) manifold.set(name, p);
+      }
+    }
+  } catch { /* keep stored manifold_raw on network failure */ }
+
+  // Blend: weighted average of the win-probability sources. Kalshi gets 3x
+  // (real-money, freshest), PredictionEdge and Manifold 1x each. pe_raw is
+  // refreshed by the assisted daily task. Candidates with no market anywhere
+  // get a 0.5% floor, then everything is normalized so the 13 tracked
+  // candidates sum to exactly 100%.
   const FLOOR = 0.5;
+  const W_KALSHI = 3, W_PE = 1, W_MANIFOLD = 1;
   let changed = 0;
   for (const c of data.candidates) {
     const hit = byName.get(norm(c.name));
@@ -60,10 +77,15 @@ async function refreshKalshi() {
       c.kalshi_raw = hit;
       changed++;
     }
+    const mHit = manifold.get(norm(c.name));
+    if (mHit != null) c.manifold_raw = mHit;
   }
   const rawVals = data.candidates.map((c) => {
-    const sig = [c.kalshi_raw, c.pe_raw].filter((v) => typeof v === 'number');
-    return sig.length ? sig.reduce((a, b) => a + b, 0) / sig.length : FLOOR;
+    let sum = 0, w = 0;
+    if (typeof c.kalshi_raw === 'number') { sum += c.kalshi_raw * W_KALSHI; w += W_KALSHI; }
+    if (typeof c.pe_raw === 'number') { sum += c.pe_raw * W_PE; w += W_PE; }
+    if (typeof c.manifold_raw === 'number') { sum += c.manifold_raw * W_MANIFOLD; w += W_MANIFOLD; }
+    return w ? sum / w : FLOOR;
   });
   const total = rawVals.reduce((a, b) => a + b, 0);
   data.candidates.forEach((c, i) => {

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-08T18:03:59.379Z",
+  "updated_at": "2026-07-08T19:43:04.174Z",
   "election_date": "February 23, 2027",
   "kalshi_event": "KXCHICAGOMAYOR-27",
   "kalshi_url": "https://kalshi.com/markets/kxchicagomayor",
@@ -13,9 +13,10 @@
       "badge": "Favorite",
       "badgeColor": "blue",
       "image": "images/candidates/giannoulias.jpg",
-      "pct": 41.9,
+      "pct": 40.6,
       "kalshi_raw": 40,
-      "pe_raw": 43
+      "pe_raw": 43,
+      "manifold_raw": 32.6
     },
     {
       "name": "Matthew Brewer",
@@ -25,9 +26,10 @@
       "image": "images/candidates/brewer.jpg",
       "badge": "Underdog",
       "badgeColor": "yellow",
-      "pct": 23.1,
+      "pct": 20,
       "kalshi_raw": 23,
-      "pe_raw": 23
+      "pe_raw": 23,
+      "manifold_raw": 4.2
     },
     {
       "name": "Brandon Johnson",
@@ -37,9 +39,10 @@
       "badge": "Incumbent",
       "badgeColor": "green",
       "image": "images/candidates/johnson.jpg",
-      "pct": 5,
+      "pct": 6.4,
       "kalshi_raw": 5,
-      "pe_raw": null
+      "pe_raw": null,
+      "manifold_raw": 9.6
     },
     {
       "name": "Susana Mendoza",
@@ -47,9 +50,10 @@
       "status": "declared",
       "order": 4,
       "image": "images/candidates/mendoza.jpg",
-      "pct": 14.1,
+      "pct": 12.8,
       "kalshi_raw": 12,
-      "pe_raw": 16
+      "pe_raw": 16,
+      "manifold_raw": 9.5
     },
     {
       "name": "Maria Pappas",
@@ -57,9 +61,10 @@
       "status": "declared",
       "order": 5,
       "image": "images/candidates/pappas.jpg",
-      "pct": 0.2,
+      "pct": 1.4,
       "kalshi_raw": 0.2,
-      "pe_raw": null
+      "pe_raw": null,
+      "manifold_raw": 4.8
     },
     {
       "name": "Mike Quigley",
@@ -67,9 +72,10 @@
       "status": "declared",
       "order": 6,
       "image": "images/candidates/quigley.jpg",
-      "pct": 3,
+      "pct": 3.4,
       "kalshi_raw": 3,
-      "pe_raw": null
+      "pe_raw": null,
+      "manifold_raw": 3.9
     },
     {
       "name": "Willie Wilson",
@@ -77,9 +83,10 @@
       "status": "rumored",
       "order": 7,
       "image": "images/candidates/wilson.jpg",
-      "pct": 0.5,
+      "pct": 0.2,
       "kalshi_raw": null,
-      "pe_raw": null
+      "pe_raw": null,
+      "manifold_raw": 0.2
     },
     {
       "name": "John Kelly",
@@ -89,9 +96,10 @@
       "badge": "Conservative",
       "badgeColor": "red",
       "image": "images/candidates/kelly.jpg",
-      "pct": 0.5,
+      "pct": 1.4,
       "kalshi_raw": null,
-      "pe_raw": null
+      "pe_raw": null,
+      "manifold_raw": 1.3
     },
     {
       "name": "Joe Holberg",
@@ -99,9 +107,10 @@
       "status": "declared",
       "order": 9,
       "image": "images/candidates/holberg.jpg",
-      "pct": 1.7,
-      "kalshi_raw": 1.7,
-      "pe_raw": null
+      "pct": 3,
+      "kalshi_raw": 3,
+      "pe_raw": null,
+      "manifold_raw": 2.5
     },
     {
       "name": "George Cardenas",
@@ -111,9 +120,10 @@
       "image": "images/candidates/cardenas.jpg",
       "badge": "Conservative",
       "badgeColor": "red",
-      "pct": 1,
+      "pct": 1.7,
       "kalshi_raw": 1,
-      "pe_raw": null
+      "pe_raw": null,
+      "manifold_raw": 3.6
     },
     {
       "name": "Liam Stanton",
@@ -121,14 +131,15 @@
       "status": "declared",
       "order": 11,
       "image": "images/candidates/stanton.jpg",
-      "pct": 8,
+      "pct": 7,
       "kalshi_raw": 8,
-      "pe_raw": null
+      "pe_raw": null,
+      "manifold_raw": 2.9
     },
     {
       "name": "Dr. Lisa Nee",
       "role": "Cardiologist & VA whistleblower",
-      "status": "rumored",
+      "status": "declared",
       "order": 12,
       "image": "images/candidates/nee.webp",
       "pct": 0.5,
@@ -141,9 +152,10 @@
       "status": "rumored",
       "order": 13,
       "image": "images/candidates/conway.jpg",
-      "pct": 0.5,
+      "pct": 1.6,
       "kalshi_raw": null,
-      "pe_raw": null
+      "pe_raw": null,
+      "manifold_raw": 1.5
     }
   ]
 }

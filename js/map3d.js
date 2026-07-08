@@ -19,10 +19,25 @@
     pitch: DEFAULT_PITCH,
     bearing: DEFAULT_BEARING,
     maxPitch: 75,
-    antialias: true
+    antialias: true,
+    // Full 360 degree rotation and zoom, by mouse, touch, and keyboard.
+    dragRotate: true,
+    pitchWithRotate: true,
+    touchZoomRotate: true,
+    touchPitch: true,
+    keyboard: true
   });
 
-  map.addControl(new maplibregl.NavigationControl({ visualizePitch: true }), 'top-right');
+  // touchZoomRotate ships enabled by default, but make sure two finger
+  // rotation is on (not just pinch to zoom).
+  if (map.touchZoomRotate && typeof map.touchZoomRotate.enableRotation === 'function') {
+    map.touchZoomRotate.enableRotation();
+  }
+
+  map.addControl(
+    new maplibregl.NavigationControl({ visualizePitch: true, showZoom: true, showCompass: true }),
+    'top-right'
+  );
   map.addControl(new maplibregl.ScaleControl(), 'bottom-left');
   window._wardMap = map; // exposed for QA/diagnostics
 
@@ -230,6 +245,9 @@
   var birdsBtn = document.getElementById('view-birds');
   var streetBtn = document.getElementById('view-street');
   var resetBtn = document.getElementById('view-reset');
+  var rotateLeftBtn = document.getElementById('view-rotate-left');
+  var rotateRightBtn = document.getElementById('view-rotate-right');
+  var orbitBtn = document.getElementById('view-orbit');
 
   if (birdsBtn) {
     birdsBtn.addEventListener('click', function () {
@@ -252,4 +270,55 @@
       });
     });
   }
+
+  // 7. Rotate left / rotate right, 45 degree steps
+  if (rotateLeftBtn) {
+    rotateLeftBtn.addEventListener('click', function () {
+      stopOrbit();
+      map.easeTo({ bearing: map.getBearing() - 45, duration: 600 });
+    });
+  }
+  if (rotateRightBtn) {
+    rotateRightBtn.addEventListener('click', function () {
+      stopOrbit();
+      map.easeTo({ bearing: map.getBearing() + 45, duration: 600 });
+    });
+  }
+
+  // 8. Orbit toggle, slow continuous auto-rotate around the current center
+  var orbitFrameId = null;
+  var ORBIT_DEGREES_PER_FRAME = 0.15;
+
+  function orbitStep() {
+    map.setBearing(map.getBearing() + ORBIT_DEGREES_PER_FRAME);
+    orbitFrameId = window.requestAnimationFrame(orbitStep);
+  }
+
+  function startOrbit() {
+    if (orbitFrameId !== null) return;
+    orbitFrameId = window.requestAnimationFrame(orbitStep);
+    if (orbitBtn) orbitBtn.classList.add('active');
+  }
+
+  function stopOrbit() {
+    if (orbitFrameId === null) return;
+    window.cancelAnimationFrame(orbitFrameId);
+    orbitFrameId = null;
+    if (orbitBtn) orbitBtn.classList.remove('active');
+  }
+
+  if (orbitBtn) {
+    orbitBtn.addEventListener('click', function () {
+      if (orbitFrameId === null) {
+        startOrbit();
+      } else {
+        stopOrbit();
+      }
+    });
+  }
+
+  // Stop orbiting as soon as the user takes control of the map.
+  map.on('mousedown', stopOrbit);
+  map.on('touchstart', stopOrbit);
+  map.on('dragstart', stopOrbit);
 })();

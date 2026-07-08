@@ -5,7 +5,10 @@ name: Daily data refresh
 # then commits + pushes, which triggers Netlify to redeploy automatically.
 on:
   schedule:
-    - cron: '32 12 * * *' # 12:32 UTC = ~7:32 AM Central (shifts 1h with daylight saving)
+    # GitHub often delays scheduled runs, sometimes by hours, so we ask twice.
+    # The refresh script is idempotent, so a duplicate run is harmless.
+    - cron: '2 12 * * *'  # 12:02 UTC = ~7:02 AM Central (shifts 1h with daylight saving)
+    - cron: '32 12 * * *' # 12:32 UTC = ~7:32 AM Central
   workflow_dispatch: {}    # lets you also run it on demand from the Actions tab
 
 permissions:

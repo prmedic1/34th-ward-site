@@ -1,14 +1,20 @@
 {
-  "_rotation_note": "The daily job picks the next business each morning - rotating among ward businesses with priority to spotlight requests from owners and newly opened spots. Keep yesterday's entries in history.",
-  "current": {
-    "date": "2026-07-07",
-    "name": "Green Street Smoked Meats",
-    "address": "112 N. Green St, West Loop",
-    "website": "https://greenstreetmeats.com",
-    "image": "images/green-street-smoked-meats.jpg",
-    "blurb": "Tucked down an alley entrance in the heart of the West Loop, Green Street Smoked Meats serves Texas-style barbecue by the pound, brisket, ribs, and burnt ends, plus frozen drinks and cold beer at long communal tables. It's a Fulton Market-era classic that helped define the neighborhood's food scene."
+ "_rotation_note": "The daily job picks the next business each morning - rotating among ward businesses with priority to spotlight requests from owners and newly opened spots. Keep yesterday's entries in history.",
+ "current": {
+  "date": "2026-07-08",
+  "name": "Monteverde Restaurant & Pastificio",
+  "address": "1020 W. Madison St, West Loop",
+  "website": "https://www.monteverdechicago.com",
+  "blurb": "Chef Sarah Grueneberg, a James Beard Award winner for Best Chef: Great Lakes, turns out some of the country's most celebrated handmade pasta from an open pastificio counter on Madison Street. The cacio whey pepe and ragu alla napoletana are neighborhood legends, and the bar pours a deep Italian wine list. Reservations go fast, but the pasta bar seats are held for walk-ins."
+ },
+ "history": [
+  {
+   "date": "2026-07-01",
+   "name": "The Original Pancake House"
   },
-  "history": [
-    { "date": "2026-07-01", "name": "The Original Pancake House" }
-  ]
+  {
+   "date": "2026-07-07",
+   "name": "Green Street Smoked Meats"
+  }
+ ]
 }

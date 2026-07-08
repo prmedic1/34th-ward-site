@@ -1001,6 +1001,9 @@ body.photo-banner .hero {
 .map-pill:hover {background:var(--red);}
 @media (max-width: 560px) { .hh-controls select { max-width: 100%; flex: 1 1 100%; } }
 
+/* 3D ward explorer: rotate/orbit controls (added 2026-07-08) */
+.map3d-btn.active {background:var(--navy); color:#fff; border-color:var(--navy);}
+
 
 /* Centered header brand (2026-07-07) */
 .header-inner { flex-direction: column; justify-content: center; gap: 6px; padding: 20px 24px 12px; }

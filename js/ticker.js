@@ -1,5 +1,5 @@
 (function () {
-  const DATA_V = '20260707d';
+  const DATA_V = '20260708a';
   const REFRESH_MS = 15 * 60 * 1000; // refresh scores, weather, and drive times every 15 minutes
   const header = document.querySelector('.site-header');
   if (!header) return;

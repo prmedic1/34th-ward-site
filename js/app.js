@@ -1,4 +1,4 @@
-const DATA_V = '20260707d';
+const DATA_V = '20260708a';
 
 document.getElementById('year').textContent = new Date().getFullYear();
 
@@ -10,7 +10,7 @@ fetch('data/mayor_race.json?d=' + DATA_V)
       .toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
 
     const statusLabel = { declared: 'Declared', rumored: 'Rumored', incumbent: 'Incumbent' };
-    const sorted = [...data.candidates].sort((a, b) => (a.order ?? 99) - (b.order ?? 99));
+    const sorted = [...data.candidates].sort((a, b) => (b.pct ?? 0) - (a.pct ?? 0));
     document.getElementById('race-strip').innerHTML = sorted
       .map((c) => {
         const img = c.image

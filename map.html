@@ -5,14 +5,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Ward Map &amp; Neighborhoods | In and Around the West Loop</title>
 <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css">
-<link rel="stylesheet" href="css/style.css?v=20260707d">
+<link rel="stylesheet" href="css/style.css?v=20260708a">
 </head>
 <body class="photo-banner" style="--banner-img: url('/images/chicago-river.jpg')">
 
 <header class="site-header">
   <div class="header-inner">
     <div class="brand">
-      <img class="brand-shield" src="images/shield-header.png?v=20260707d" alt="34th Ward shield">
+      <img class="brand-shield" src="images/shield-header.png?v=20260708a" alt="34th Ward shield">
       <div class="brand-text">
         <h1>The Official 34th Ward Neighborhood Page</h1>
         <p>Community News &amp; Civic Updates</p>
@@ -42,9 +42,12 @@
     <button id="view-birds" class="map3d-btn">Bird's Eye</button>
     <button id="view-street" class="map3d-btn">Street Level</button>
     <button id="view-reset" class="map3d-btn">Reset View</button>
+    <button id="view-rotate-left" class="map3d-btn" title="Rotate left 45 degrees">&#8634; Rotate left</button>
+    <button id="view-rotate-right" class="map3d-btn" title="Rotate right 45 degrees">&#8635; Rotate right</button>
+    <button id="view-orbit" class="map3d-btn" title="Slowly auto-rotate the map">Orbit</button>
   </div>
   <div id="ward-3d" aria-label="3D interactive map of the 34th Ward"></div>
-  <p class="map-hint">Drag to move. Right-click and drag (or two fingers) to rotate and tilt. Scroll to zoom. Click any red dot for business info, or any building to see what's there.</p>
+  <p class="map-hint">Drag to pan. Right-click drag (or two fingers) to rotate and tilt. Scroll to zoom. Click any red dot for business info, or any building to see what's there.</p>
   <p class="map-credit">3D buildings and map data &copy; OpenStreetMap contributors, via OpenFreeMap and OpenMapTiles. Boundary: official 2023 ward map, City of Chicago Data Portal. Select neighborhood photography courtesy of Choose Chicago.</p>
 
   <h3 class="section-heading">Neighborhoods of the 34th Ward</h3>
@@ -160,7 +163,7 @@
 document.getElementById('year').textContent = new Date().getFullYear();
 </script>
 <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
-<script src="js/map3d.js?v=20260707c"></script>
-<script src="js/ticker.js?v=20260707d"></script>
+<script src="js/map3d.js?v=20260708a"></script>
+<script src="js/ticker.js?v=20260708a"></script>
 </body>
 </html>
