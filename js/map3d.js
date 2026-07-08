@@ -11,6 +11,10 @@
   var DEFAULT_PITCH = 58;
   var DEFAULT_BEARING = -18;
 
+  // Optional: paste a Google Maps API key here to show Street View photos in
+  // business hover cards (Maps Platform > Street View Static API). Leave empty to skip photos.
+  var STREETVIEW_KEY = '';
+
   var map = new maplibregl.Map({
     container: 'ward-3d',
     style: 'https://tiles.openfreemap.org/styles/liberty',
@@ -257,6 +261,55 @@
       .addTo(map);
   }
 
+  // --- Business hover card, takes priority over the building hover above ---
+  function showBizHoverPopup(coords, props) {
+    if (hoverPopup) {
+      hoverPopup.remove();
+      hoverPopup = null;
+    }
+
+    var name = props.name || 'Business';
+    var address = props.address || '';
+    var lat = props.lat;
+    var lng = props.lng;
+    var logo = props.logo || '';
+
+    var imgHtml = '';
+    if (STREETVIEW_KEY) {
+      var svImgUrl =
+        'https://maps.googleapis.com/maps/api/streetview?size=280x140&location=' +
+        lat + ',' + lng + '&fov=75&key=' + STREETVIEW_KEY;
+      imgHtml =
+        '<img src="' + esc(svImgUrl) + '" width="100%" height="auto" ' +
+        'style="border-radius:6px;display:block;margin:0 0 6px;" ' +
+        'onerror="this.style.display=\'none\'">';
+    }
+
+    var addressHtml = address
+      ? '<p style="font-size:0.72rem;margin:0 0 4px;color:#5b6b7c;">' + esc(address) + '</p>'
+      : '';
+
+    var websiteUrl = logo
+      ? 'https://' + logo
+      : 'https://www.google.com/search?q=' + encodeURIComponent(name + ' ' + address + ' Chicago website');
+    var svLinkUrl = 'https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=' + lat + ',' + lng;
+
+    var html =
+      imgHtml +
+      '<p style="font-size:0.82rem;font-weight:600;margin:0 0 3px;">' + esc(name) + '</p>' +
+      addressHtml +
+      '<p style="font-size:0.72rem;margin:0;">' +
+      '<a href="' + esc(websiteUrl) + '" target="_blank" rel="noopener">Website</a>' +
+      ' &middot; ' +
+      '<a href="' + esc(svLinkUrl) + '" target="_blank" rel="noopener">Street View</a>' +
+      '</p>';
+
+    hoverPopup = new maplibregl.Popup({ closeButton: false, closeOnClick: false, maxWidth: '260px' })
+      .setLngLat(coords)
+      .setHTML(html)
+      .addTo(map);
+  }
+
   map.on('load', function () {
     // 1. 3D buildings
     var hasExtrusion = false;
@@ -298,6 +351,59 @@
         );
       } catch (err) {
         console.warn('Could not add 3D buildings layer', err);
+      }
+    }
+
+    // 1b. More realistic buildings: vertical gradient (darker at the base,
+    // reads as ambient occlusion), full opacity, and a height-based color
+    // ramp, warm masonry tones low, cool glass tones for towers. Applies to
+    // every fill-extrusion layer present, ours and/or the basemap's own.
+    getExtrusionLayerIds().forEach(function (layerId) {
+      try {
+        map.setPaintProperty(layerId, 'fill-extrusion-vertical-gradient', true);
+      } catch (err) {
+        console.warn('Could not set fill-extrusion-vertical-gradient on ' + layerId, err);
+      }
+      try {
+        map.setPaintProperty(layerId, 'fill-extrusion-opacity', 1);
+      } catch (err) {
+        console.warn('Could not set fill-extrusion-opacity on ' + layerId, err);
+      }
+      try {
+        map.setPaintProperty(layerId, 'fill-extrusion-color', [
+          'interpolate',
+          ['linear'],
+          ['coalesce', ['get', 'render_height'], 0],
+          0, '#cfc4b4',
+          25, '#c2bab0',
+          60, '#aab3ba',
+          140, '#93a7b8',
+          250, '#7f9cb5'
+        ]);
+      } catch (err) {
+        console.warn('Could not set fill-extrusion-color on ' + layerId, err);
+      }
+    });
+
+    // Directional light for depth.
+    try {
+      map.setLight({ anchor: 'viewport', position: [1.3, 200, 35], intensity: 0.45 });
+    } catch (err) {
+      console.warn('Could not set map light', err);
+    }
+
+    // Sky, harmless no-op if this MapLibre build does not support it.
+    if (typeof map.setSky === 'function') {
+      try {
+        map.setSky({
+          'sky-color': '#9ec7e6',
+          'horizon-color': '#e6eef4',
+          'fog-color': '#e8eef2',
+          'sky-horizon-blend': 0.6,
+          'horizon-fog-blend': 0.7
+        });
+      } catch (err) {
+        console.warn('Could not set sky', err);
       }
     }
 
@@ -466,6 +572,31 @@
     // 5. Building hover address popup, desktop only (no real hover on touch)
     if (!isTouchDevice) {
       map.on('mousemove', function (e) {
+        // Business hover cards take priority over the building-address hover.
+        // Check them first; only fall through to the building logic when
+        // nothing business-related is under the cursor.
+        var bizLayerIds = getBizLayerIds();
+        var bizFeatures = bizLayerIds.length
+          ? map.queryRenderedFeatures(e.point, { layers: bizLayerIds })
+          : [];
+
+        if (bizFeatures.length) {
+          var bizProps = bizFeatures[0].properties;
+          var bizCoords = bizFeatures[0].geometry.coordinates.slice();
+
+          // Dwell debounce, snappier than the building hover since this is
+          // the primary interaction: settle for ~180ms, then show the card.
+          if (hoverTimer) clearTimeout(hoverTimer);
+          var thisBizHoverId = ++hoverId;
+
+          hoverTimer = setTimeout(function () {
+            hoverTimer = null;
+            if (thisBizHoverId !== hoverId) return; // mouse moved off before this fired
+            showBizHoverPopup(bizCoords, bizProps);
+          }, 180);
+          return;
+        }
+
         var extrusionIds = getExtrusionLayerIds();
         if (!extrusionIds.length) {
           hideHoverPopup();
