@@ -24,28 +24,38 @@ const nowIso = () => {
 async function refreshKalshi() {
   const path = join(ROOT, 'data', 'mayor_race.json');
   const data = JSON.parse(await readFile(path, 'utf8'));
+  // KXCHICAGOMAYOR-27 is the newer, higher-volume Kalshi event (15 candidate
+  // markets) - not the older thin KXMAYORCHI-27.
   const res = await fetch(
-    'https://api.elections.kalshi.com/trade-api/v2/markets?event_ticker=KXMAYORCHI-27&limit=100',
+    'https://api.elections.kalshi.com/trade-api/v2/markets?event_ticker=KXCHICAGOMAYOR-27&limit=100',
     { headers: { Accept: 'application/json' } }
   );
   if (!res.ok) throw new Error('Kalshi HTTP ' + res.status);
   const { markets = [] } = await res.json();
 
+  // Kalshi's names differ slightly from ours; normalize + alias.
+  const norm = (s) => (s || '').trim().toLowerCase().replace(/^dr\.\s+/, '');
+  const ALIAS = new Map([
+    ['matt brewer', 'matthew brewer'],
+    ['susan mendoza', 'susana mendoza']
+  ]);
   const byName = new Map();
   for (const m of markets) {
-    const name = (m.yes_sub_title || '').trim().toLowerCase();
+    let name = norm(m.yes_sub_title);
+    if (ALIAS.has(name)) name = ALIAS.get(name);
     const price = parseFloat(m.last_price_dollars);
-    if (name && !Number.isNaN(price)) byName.set(name, Math.round(price * 1000) / 10);
+    // price of exactly 0 means the market has never traded - not a real signal
+    if (name && !Number.isNaN(price) && price > 0) byName.set(name, Math.round(price * 1000) / 10);
   }
 
   // Blend: average Kalshi (refreshed here) with the stored PredictionEdge
   // reading (pe_raw, refreshed by the assisted daily task), floor candidates
-  // with no market at 1%, then normalize so the 13 tracked candidates sum
+  // with no market at 0.5%, then normalize so the 13 tracked candidates sum
   // to exactly 100%.
-  const FLOOR = 1.0;
+  const FLOOR = 0.5;
   let changed = 0;
   for (const c of data.candidates) {
-    const hit = byName.get((c.name || '').trim().toLowerCase());
+    const hit = byName.get(norm(c.name));
     if (hit != null && c.kalshi_raw !== hit) {
       c.kalshi_raw = hit;
       changed++;

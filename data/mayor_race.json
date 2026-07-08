@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-07-07T21:01:40.684Z",
+  "updated_at": "2026-07-08T15:27:57.943Z",
   "election_date": "February 23, 2027",
-  "kalshi_event": "KXMAYORCHI-27",
-  "kalshi_url": "https://kalshi.com/markets/kxmayorchi",
-  "note": "Blended win probabilities from the Kalshi prediction market and PredictionEdge, normalized to 100% across the 13 tracked candidates. Candidates without an active market are floored at about 1%. Prediction markets, not polls; treat as a rough signal.",
+  "kalshi_event": "KXCHICAGOMAYOR-27",
+  "kalshi_url": "https://kalshi.com/markets/kxchicagomayor",
+  "note": "Blended win probabilities from the Kalshi prediction market (event KXCHICAGOMAYOR-27) and PredictionEdge, normalized to 100% across the 13 tracked candidates. Candidates without an active market are floored at about 0.5%. Prediction markets, not polls.",
   "candidates": [
     {
       "name": "Alexi Giannoulias",
@@ -13,8 +13,8 @@
       "badge": "Favorite",
       "badgeColor": "blue",
       "image": "images/candidates/giannoulias.jpg",
-      "pct": 43.8,
-      "kalshi_raw": 47,
+      "pct": 41.9,
+      "kalshi_raw": 40,
       "pe_raw": 43
     },
     {
@@ -25,8 +25,8 @@
       "image": "images/candidates/brewer.jpg",
       "badge": "Underdog",
       "badgeColor": "yellow",
-      "pct": 22.4,
-      "kalshi_raw": null,
+      "pct": 23.1,
+      "kalshi_raw": 23,
       "pe_raw": 23
     },
     {
@@ -37,8 +37,8 @@
       "badge": "Incumbent",
       "badgeColor": "green",
       "image": "images/candidates/johnson.jpg",
-      "pct": 6.8,
-      "kalshi_raw": 7,
+      "pct": 5,
+      "kalshi_raw": 5,
       "pe_raw": null
     },
     {
@@ -47,8 +47,8 @@
       "status": "declared",
       "order": 4,
       "image": "images/candidates/mendoza.jpg",
-      "pct": 15.6,
-      "kalshi_raw": null,
+      "pct": 14.1,
+      "kalshi_raw": 12,
       "pe_raw": 16
     },
     {
@@ -57,8 +57,8 @@
       "status": "declared",
       "order": 5,
       "image": "images/candidates/pappas.jpg",
-      "pct": 1,
-      "kalshi_raw": 1,
+      "pct": 0.2,
+      "kalshi_raw": 0.2,
       "pe_raw": null
     },
     {
@@ -67,8 +67,8 @@
       "status": "declared",
       "order": 6,
       "image": "images/candidates/quigley.jpg",
-      "pct": 1,
-      "kalshi_raw": null,
+      "pct": 3,
+      "kalshi_raw": 3,
       "pe_raw": null
     },
     {
@@ -77,7 +77,7 @@
       "status": "rumored",
       "order": 7,
       "image": "images/candidates/wilson.jpg",
-      "pct": 1,
+      "pct": 0.5,
       "kalshi_raw": null,
       "pe_raw": null
     },
@@ -89,7 +89,7 @@
       "badge": "Conservative",
       "badgeColor": "red",
       "image": "images/candidates/kelly.jpg",
-      "pct": 1,
+      "pct": 0.5,
       "kalshi_raw": null,
       "pe_raw": null
     },
@@ -99,8 +99,8 @@
       "status": "declared",
       "order": 9,
       "image": "images/candidates/holberg.jpg",
-      "pct": 3.4,
-      "kalshi_raw": 3.5,
+      "pct": 1.7,
+      "kalshi_raw": 1.7,
       "pe_raw": null
     },
     {
@@ -112,7 +112,7 @@
       "badge": "Conservative",
       "badgeColor": "red",
       "pct": 1,
-      "kalshi_raw": null,
+      "kalshi_raw": 1,
       "pe_raw": null
     },
     {
@@ -121,8 +121,8 @@
       "status": "declared",
       "order": 11,
       "image": "images/candidates/stanton.jpg",
-      "pct": 1,
-      "kalshi_raw": null,
+      "pct": 8,
+      "kalshi_raw": 8,
       "pe_raw": null
     },
     {
@@ -131,7 +131,7 @@
       "status": "rumored",
       "order": 12,
       "image": "images/candidates/nee.webp",
-      "pct": 1,
+      "pct": 0.5,
       "kalshi_raw": null,
       "pe_raw": null
     },
@@ -141,7 +141,7 @@
       "status": "rumored",
       "order": 13,
       "image": "images/candidates/conway.jpg",
-      "pct": 1,
+      "pct": 0.5,
       "kalshi_raw": null,
       "pe_raw": null
     }
