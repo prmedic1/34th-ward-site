@@ -1160,3 +1160,14 @@ body.photo-banner .hero {
 @media (max-width: 700px) {
   .map-legend { width: 178px; font-size: 12px; top: 8px; left: 8px; }
 }
+
+/* Mobile scroll hardening (2026-07-09): a grid blowout on the Front Page was
+   pushing the page ~18px wider than the screen, which makes iOS Safari feel
+   like it will not scroll. Constrain grid tracks and clip any stray overflow. */
+@media (max-width: 900px) {
+  .np-grid { grid-template-columns: minmax(0, 1fr); }
+  .np-story { min-width: 0; overflow-wrap: anywhere; }
+}
+@media (max-width: 820px) {
+  html, body { overflow-x: hidden; max-width: 100%; }
+}

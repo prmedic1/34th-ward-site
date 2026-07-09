@@ -125,7 +125,46 @@
       .catch(function () { /* boundary is optional */ });
   }
 
-  // Business, church, transit, and arts markers with click-to-see-info.
+  // Same chain list as the vector map, so brands show their logo here too.
+  var CHAINS = [
+    [/starbucks/i, 'starbucks.com'], [/mc\s*donald'?s/i, 'mcdonalds.com'], [/dunkin/i, 'dunkindonuts.com'],
+    [/subway/i, 'subway.com'], [/chipotle/i, 'chipotle.com'], [/potbelly/i, 'potbelly.com'],
+    [/jimmy\s*john'?s/i, 'jimmyjohns.com'], [/7[\s-]*eleven/i, '7-eleven.com'], [/walgreens/i, 'walgreens.com'],
+    [/\bcvs\b/i, 'cvs.com'], [/\btarget\b/i, 'target.com'], [/whole\s*foods/i, 'wholefoodsmarket.com'],
+    [/mariano'?s/i, 'marianos.com'], [/portillo'?s/i, 'portillos.com'], [/panera/i, 'panerabread.com'],
+    [/five\s*guys/i, 'fiveguys.com'], [/shake\s*shack/i, 'shakeshack.com'], [/sweetgreen/i, 'sweetgreen.com'],
+    [/peet'?s/i, 'peets.com'], [/chick[\s-]*fil[\s-]*a/i, 'chick-fil-a.com'], [/wingstop/i, 'wingstop.com'],
+    [/panda\s*express/i, 'pandaexpress.com'], [/nando'?s/i, 'nandosperiperi.com'], [/pret\s*a\s*manger/i, 'pret.com'],
+    [/\broti\b/i, 'roti.com'], [/naf\s*naf/i, 'nafnafgrill.com'], [/protein\s*bar/i, 'theproteinbar.com'],
+    [/\bchase bank\b|\bjpmorgan\b/i, 'chase.com'], [/fifth\s*third/i, '53.com'], [/pnc\s*bank/i, 'pnc.com'],
+    [/fedex/i, 'fedex.com'], [/ups\s*store/i, 'theupsstore.com']
+  ];
+  function matchChainLogo(name) {
+    for (var i = 0; i < CHAINS.length; i++) { if (CHAINS[i][0].test(name)) return CHAINS[i][1]; }
+    return null;
+  }
+
+  // Same category groups and labels as the vector map's filter panel.
+  var PCAT_META = {
+    restaurant: { e: '🍽️', l: 'Restaurants', g: 'Food & Drink' },
+    bar: { e: '🍸', l: 'Bars', g: 'Food & Drink' },
+    cafe: { e: '☕', l: 'Cafes', g: 'Food & Drink' },
+    liquor: { e: '🍷', l: 'Liquor stores', g: 'Food & Drink' },
+    grocery: { e: '🛒', l: 'Grocery', g: 'Food & Drink' },
+    salon: { e: '✂️', l: 'Salons & barbers', g: 'Shops & Services' },
+    cleaners: { e: '👕', l: 'Dry cleaners', g: 'Shops & Services' },
+    fitness: { e: '🏋️', l: 'Gyms & fitness', g: 'Shops & Services' },
+    health: { e: '🩺', l: 'Health & medical', g: 'Shops & Services' },
+    hotel: { e: '🛏️', l: 'Hotels', g: 'Shops & Services' },
+    entertainment: { e: '🎭', l: 'Arts & entertainment', g: 'Community & Culture' },
+    worship: { e: '🛐', l: 'Places of worship', g: 'Community & Culture' },
+    transit: { e: '🚉', l: 'Train & bus', g: 'Getting Around' }
+  };
+  var PGROUPS = ['Food & Drink', 'Shops & Services', 'Community & Culture', 'Getting Around'];
+
+  var entitiesByKind = {}; // kind ("chain","other", or a category) -> [entities]
+
+  // Business, church, transit, and arts markers with icons + click info.
   function addBusinessPoints() {
     Promise.all([
       fetch('data/businesses_geo.json?d=20260709b').then(function (r) { return r.json(); }),
@@ -134,26 +173,52 @@
       var biz = (res[0] && res[0].businesses) ? res[0].businesses : [];
       var extra = Array.isArray(res[1]) ? res[1] : [];
       var all = biz.concat(extra);
+      var counts = { cats: {}, chains: 0, other: 0 };
+
       all.forEach(function (b) {
         if (typeof b.lat !== 'number' || typeof b.lng !== 'number') return;
         var site = b.website ||
           'https://www.google.com/search?q=' + encodeURIComponent((b.name || '') + ' Chicago ' + (b.address || ''));
-        viewer.entities.add({
-          position: Cesium.Cartesian3.fromDegrees(b.lng, b.lat),
-          point: {
-            pixelSize: 9,
-            color: Cesium.Color.fromCssColorString('#da1933'),
-            outlineColor: Cesium.Color.WHITE,
-            outlineWidth: 1.5,
-            heightReference: Cesium.HeightReference.CLAMP_TO_GROUND,
-            disableDepthTestDistance: Number.POSITIVE_INFINITY
-          },
-          properties: { name: b.name || 'Business', address: b.address || '', site: site }
-        });
+        var logo = matchChainLogo(b.name || '');
+        var props = { name: b.name || 'Business', address: b.address || '', site: site };
+        var kind, ent;
+
+        if (logo) {
+          kind = 'chain'; counts.chains++;
+          ent = viewer.entities.add({
+            position: Cesium.Cartesian3.fromDegrees(b.lng, b.lat),
+            billboard: iconBillboard('images/logos/' + logo + '.png', 0.5),
+            properties: props
+          });
+        } else if (b.category) {
+          kind = b.category; counts.cats[kind] = (counts.cats[kind] || 0) + 1;
+          ent = viewer.entities.add({
+            position: Cesium.Cartesian3.fromDegrees(b.lng, b.lat),
+            billboard: iconBillboard('images/icons/' + b.category + '.png?v=20260709b', 0.55),
+            properties: props
+          });
+        } else {
+          kind = 'other'; counts.other++;
+          ent = viewer.entities.add({
+            position: Cesium.Cartesian3.fromDegrees(b.lng, b.lat),
+            point: {
+              pixelSize: 8,
+              color: Cesium.Color.fromCssColorString('#da1933'),
+              outlineColor: Cesium.Color.WHITE,
+              outlineWidth: 1.5,
+              heightReference: Cesium.HeightReference.CLAMP_TO_GROUND,
+              disableDepthTestDistance: Number.POSITIVE_INFINITY
+            },
+            properties: props
+          });
+        }
+        (entitiesByKind[kind] = entitiesByKind[kind] || []).push(ent);
       });
+
+      buildPhotoPanel(counts);
     }).catch(function () { /* points are optional */ });
 
-    // Simple click-to-info: show a small card for the nearest marker clicked.
+    // Click a marker to see its info card; click empty space to dismiss.
     var handler = new Cesium.ScreenSpaceEventHandler(viewer.scene.canvas);
     handler.setInputAction(function (click) {
       var picked = viewer.scene.pick(click.position);
@@ -164,6 +229,92 @@
         hidePhotoCard();
       }
     }, Cesium.ScreenSpaceEventType.LEFT_CLICK);
+  }
+
+  function iconBillboard(image, scale) {
+    return {
+      image: image,
+      scale: scale,
+      verticalOrigin: Cesium.VerticalOrigin.CENTER,
+      heightReference: Cesium.HeightReference.CLAMP_TO_GROUND,
+      disableDepthTestDistance: Number.POSITIVE_INFINITY
+    };
+  }
+
+  function setKindVisible(kind, on) {
+    var list = entitiesByKind[kind] || [];
+    for (var i = 0; i < list.length; i++) list[i].show = on;
+  }
+
+  // Filter panel identical in spirit to the vector map's, toggling entities.
+  function buildPhotoPanel(counts) {
+    if (photoEl.querySelector('.map-legend')) return;
+    var panel = document.createElement('div');
+    panel.className = 'map-legend';
+    if (window.innerWidth < 760) panel.className += ' collapsed';
+
+    var head = document.createElement('div');
+    head.className = 'map-legend-head';
+    head.innerHTML = '<span>Show on map</span><span class="map-legend-chev">▼</span>';
+    head.addEventListener('click', function () { panel.classList.toggle('collapsed'); });
+    panel.appendChild(head);
+
+    var body = document.createElement('div');
+    body.className = 'map-legend-body';
+    var allRow = document.createElement('label');
+    allRow.className = 'map-legend-all';
+    allRow.innerHTML = '<input type="checkbox" data-role="all" checked> <strong>All categories</strong>';
+    body.appendChild(allRow);
+
+    function row(kind, emoji, label, count) {
+      if (!count) return;
+      var el = document.createElement('label');
+      el.innerHTML = '<input type="checkbox" data-role="item" data-kind="' + kind + '" checked> ' +
+        '<span class="lg-emoji">' + emoji + '</span> <span>' + label + '</span>' +
+        '<span class="lg-count">' + count + '</span>';
+      body.appendChild(el);
+    }
+
+    PGROUPS.forEach(function (group) {
+      var items = [];
+      Object.keys(PCAT_META).forEach(function (c) {
+        if (PCAT_META[c].g === group && counts.cats[c]) items.push([c, PCAT_META[c].e, PCAT_META[c].l, counts.cats[c]]);
+      });
+      var specials = [];
+      if (group === 'Shops & Services') {
+        if (counts.chains) specials.push(['chain', '🏷️', 'Chain brands', counts.chains]);
+        if (counts.other) specials.push(['other', '📍', 'Other businesses', counts.other]);
+      }
+      if (!items.length && !specials.length) return;
+      var gh = document.createElement('div');
+      gh.className = 'map-legend-group';
+      gh.textContent = group;
+      body.appendChild(gh);
+      items.forEach(function (r) { row(r[0], r[1], r[2], r[3]); });
+      specials.forEach(function (r) { row(r[0], r[1], r[2], r[3]); });
+    });
+
+    panel.appendChild(body);
+    body.addEventListener('change', function (e) {
+      var t = e.target;
+      if (t.getAttribute('data-role') === 'all') {
+        var on = t.checked;
+        body.querySelectorAll('input[data-role="item"]').forEach(function (b) {
+          b.checked = on;
+          setKindVisible(b.getAttribute('data-kind'), on);
+        });
+      } else if (t.getAttribute('data-role') === 'item') {
+        setKindVisible(t.getAttribute('data-kind'), t.checked);
+        var boxes = body.querySelectorAll('input[data-role="item"]');
+        var all = true;
+        for (var i = 0; i < boxes.length; i++) { if (!boxes[i].checked) { all = false; break; } }
+        var master = body.querySelector('input[data-role="all"]');
+        if (master) master.checked = all;
+      }
+      if (viewer) viewer.scene.requestRender();
+    });
+
+    photoEl.appendChild(panel);
   }
 
   var photoCard = null;

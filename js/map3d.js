@@ -24,6 +24,9 @@
     bearing: DEFAULT_BEARING,
     maxPitch: 75,
     antialias: true,
+    // On touch devices, require two fingers to move the map so a one-finger
+    // swipe scrolls the PAGE instead of getting trapped panning the map.
+    cooperativeGestures: !!(window.matchMedia && window.matchMedia('(hover: none)').matches),
     // Full 360 degree rotation and zoom, by mouse, touch, and keyboard.
     dragRotate: true,
     pitchWithRotate: true,
