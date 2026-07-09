@@ -47,8 +47,7 @@
     <button id="view-orbit" class="map3d-btn" title="Slowly auto-rotate the map">Orbit</button>
   </div>
   <div id="ward-3d" aria-label="3D interactive map of the 34th Ward"></div>
-  <p class="map-hint">Drag to pan. Right-click drag (or two fingers) to rotate and tilt. Scroll to zoom. Click any red dot for business info, or any building to see what's there.</p>
-  <p class="map-credit">3D buildings and map data &copy; OpenStreetMap contributors, via OpenFreeMap and OpenMapTiles. Boundary: official 2023 ward map, City of Chicago Data Portal. Select neighborhood photography courtesy of Choose Chicago.</p>
+  <p class="map-hint">Drag to pan. Right-click drag (or two fingers) to rotate and tilt. Scroll to zoom.</p>
 
   <h3 class="section-heading">Neighborhoods of the 34th Ward</h3>
   <div class="neighborhood-grid">
@@ -60,6 +59,7 @@
     </article>
 
     <article class="card">
+      <img class="card-img" src="images/greektown.jpg" alt="The National Hellenic Museum in Greektown">
       <h4>Greektown</h4>
       <p class="summary">Centered on Halsted Street, Greektown is one of Chicago's most storied ethnic enclaves, anchored by classic Greek restaurants and the National Hellenic Museum at 333 S. Halsted. The neighborhood hosts cultural celebrations year-round and sits at the western gateway to downtown.</p>
     </article>
@@ -77,6 +77,7 @@
     </article>
 
     <article class="card">
+      <img class="card-img" src="images/printers-row.jpg" alt="The landmark Franklin Building on Printers Row">
       <h4>Printers Row</h4>
       <p class="summary">Named for the printing and publishing houses that filled its landmark loft buildings a century ago, Printers Row is a compact, historic South Loop enclave along Dearborn Street, known for its annual Lit Fest, Printers Row Park, and some of the city's earliest loft conversions.</p>
     </article>
@@ -163,7 +164,8 @@
 document.getElementById('year').textContent = new Date().getFullYear();
 </script>
 <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
-<script src="js/map3d.js?v=20260708e"></script>
+<script src="js/map3d.js?v=20260708f"></script>
+<script src="js/photoreal.js?v=20260708f"></script>
 <script src="js/ticker.js?v=20260708a"></script>
 </body>
 </html>

@@ -71,6 +71,7 @@
     var ids = [];
     if (map.getLayer('biz-dots')) ids.push('biz-dots');
     if (map.getLayer('biz-logos')) ids.push('biz-logos');
+    if (map.getLayer('biz-cats')) ids.push('biz-cats');
     return ids;
   }
 
@@ -119,31 +120,107 @@
     return null;
   }
 
-  // Once the chain logos finish loading (or fail to), swap the circle layer
-  // filter so logo'd businesses show their brand mark instead of a red dot.
-  function finalizeChainLogos(loadedDomains) {
-    if (!loadedDomains.length || !map.getLayer('biz-dots')) return;
+  // Business marker precedence: chain brand logo > category icon > red dot.
+  // Logos and category icons load asynchronously and can finish in either
+  // order, so both completion paths funnel into applyBizFilters(), which
+  // (re)builds the layer filters from whatever has actually loaded so far.
+  var loadedChainDomains = [];
+  var loadedCatIcons = [];
 
-    map.setFilter('biz-dots', ['!', ['in', ['get', 'logo'], ['literal', loadedDomains]]]);
-
-    map.addLayer({
-      id: 'biz-logos',
-      type: 'symbol',
-      source: 'biz-points',
-      minzoom: 14.5,
-      filter: ['in', ['get', 'logo'], ['literal', loadedDomains]],
-      layout: {
-        'icon-image': ['get', 'logo'],
-        'icon-size': 0.45,
-        'icon-allow-overlap': true
-      }
-    });
-
-    map.on('mouseenter', 'biz-logos', function () {
+  function bizCursorHandlers(layerId) {
+    map.on('mouseenter', layerId, function () {
       map.getCanvas().style.cursor = 'pointer';
     });
-    map.on('mouseleave', 'biz-logos', function () {
+    map.on('mouseleave', layerId, function () {
       map.getCanvas().style.cursor = '';
+    });
+  }
+
+  function applyBizFilters() {
+    if (!map.getLayer('biz-dots')) return;
+    var domains = ['literal', loadedChainDomains];
+    var cats = ['literal', loadedCatIcons];
+
+    map.setFilter('biz-dots', ['all',
+      ['!', ['in', ['get', 'logo'], domains]],
+      ['!', ['in', ['get', 'category'], cats]]
+    ]);
+
+    if (loadedChainDomains.length) {
+      if (!map.getLayer('biz-logos')) {
+        map.addLayer({
+          id: 'biz-logos',
+          type: 'symbol',
+          source: 'biz-points',
+          minzoom: 14.5,
+          filter: ['in', ['get', 'logo'], domains],
+          layout: {
+            'icon-image': ['get', 'logo'],
+            'icon-size': 0.45,
+            'icon-allow-overlap': true
+          }
+        });
+        bizCursorHandlers('biz-logos');
+      } else {
+        map.setFilter('biz-logos', ['in', ['get', 'logo'], domains]);
+      }
+    }
+
+    if (loadedCatIcons.length) {
+      var catFilter = ['all',
+        ['in', ['get', 'category'], cats],
+        ['!', ['in', ['get', 'logo'], domains]]
+      ];
+      if (!map.getLayer('biz-cats')) {
+        map.addLayer({
+          id: 'biz-cats',
+          type: 'symbol',
+          source: 'biz-points',
+          minzoom: 14.5,
+          filter: catFilter,
+          layout: {
+            'icon-image': ['concat', 'cat-', ['get', 'category']],
+            'icon-size': 0.42,
+            'icon-allow-overlap': true
+          }
+        });
+        bizCursorHandlers('biz-cats');
+      } else {
+        map.setFilter('biz-cats', catFilter);
+      }
+    }
+  }
+
+  function finalizeChainLogos(loadedDomains) {
+    loadedChainDomains = loadedDomains;
+    applyBizFilters();
+  }
+
+  // Category icon badges (martini glass for bars, fork and knife for
+  // restaurants, etc.) from images/icons/<category>.png. Any icon that fails
+  // to load simply leaves those businesses as red dots.
+  var CATEGORY_ICONS = ['bar', 'restaurant', 'cafe', 'grocery', 'liquor',
+    'salon', 'cleaners', 'health', 'fitness', 'hotel'];
+
+  function loadCategoryIcons() {
+    var ok = [];
+    var remaining = CATEGORY_ICONS.length;
+    CATEGORY_ICONS.forEach(function (cat) {
+      map.loadImage('images/icons/' + cat + '.png')
+        .then(function (image) {
+          remaining--;
+          try {
+            if (!map.hasImage('cat-' + cat)) map.addImage('cat-' + cat, image.data);
+            ok.push(cat);
+          } catch (addErr) {
+            console.warn('Could not add category icon ' + cat, addErr);
+          }
+          if (remaining === 0) { loadedCatIcons = ok; applyBizFilters(); }
+        })
+        .catch(function () {
+          remaining--;
+          if (remaining === 0) { loadedCatIcons = ok; applyBizFilters(); }
+        });
     });
   }
 
@@ -183,9 +260,14 @@
   var hoverPopup = null;
   var hoverTimer = null;
   var hoverId = 0;
+  // What the cursor is currently over (business key or building cell). When
+  // this changes, the old popup is dismissed immediately so stale info never
+  // follows the mouse around.
+  var lastHoverAnchor = null;
 
   function hideHoverPopup() {
     hoverId++;
+    lastHoverAnchor = null;
     if (hoverTimer) {
       clearTimeout(hoverTimer);
       hoverTimer = null;
@@ -247,7 +329,23 @@
     var zillowUrl = 'https://www.zillow.com/homes/' + encodeURIComponent(addressLine || label) + '_rb/';
     var aptsUrl = 'https://www.apartments.com/chicago-il/?sk=' + encodeURIComponent(addressLine || label);
 
+    var imgHtml = '';
+    if (STREETVIEW_KEY) {
+      try {
+        var svImgUrl =
+          'https://maps.googleapis.com/maps/api/streetview?size=280x140&location=' +
+          lngLat.lat + ',' + lngLat.lng + '&fov=75&key=' + STREETVIEW_KEY;
+        imgHtml =
+          '<img src="' + esc(svImgUrl) + '" width="100%" height="auto" ' +
+          'style="border-radius:6px;display:block;margin:0 0 6px;" ' +
+          'onerror="this.style.display=\'none\'">';
+      } catch (err) {
+        imgHtml = '';
+      }
+    }
+
     var html =
+      imgHtml +
       '<p style="font-size:0.82rem;font-weight:600;margin:0 0 3px;">' + esc(label) + '</p>' +
       '<p style="font-size:0.72rem;margin:0;color:#5b6b7c;">Building info: ' +
       '<a href="' + esc(zillowUrl) + '" target="_blank" rel="noopener">Zillow</a>' +
@@ -289,9 +387,12 @@
       ? '<p style="font-size:0.72rem;margin:0 0 4px;color:#5b6b7c;">' + esc(address) + '</p>'
       : '';
 
-    var websiteUrl = logo
-      ? 'https://' + logo
-      : 'https://www.google.com/search?q=' + encodeURIComponent(name + ' ' + address + ' Chicago website');
+    // Real website when we know it, then chain domain, then a search fallback.
+    var websiteUrl = props.website
+      ? String(props.website)
+      : logo
+        ? 'https://' + logo
+        : 'https://www.google.com/search?q=' + encodeURIComponent(name + ' ' + address + ' Chicago website');
     var svLinkUrl = 'https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=' + lat + ',' + lng;
 
     var html =
@@ -407,6 +508,34 @@
       }
     }
 
+    // 1c. Landscape realism: deeper water, natural greens for parks and
+    // trees, asphalt-toned streets. Conservative id/type heuristics against
+    // the basemap's layers; anything unrecognized is left exactly as-is.
+    (function paintLandscape() {
+      var styleLayers = (map.getStyle() && map.getStyle().layers) || [];
+      styleLayers.forEach(function (l) {
+        var id = l.id || '';
+        if (/casing|outline|label|shield|oneway|pattern|dash/i.test(id)) return;
+        try {
+          if (l.type === 'fill' && /water|river|ocean|lake/i.test(id)) {
+            map.setPaintProperty(id, 'fill-color', '#3f8fc0');
+          } else if (l.type === 'fill' && /wood|forest|tree|scrub/i.test(id)) {
+            map.setPaintProperty(id, 'fill-color', '#8fbf85');
+          } else if (l.type === 'fill' && /park|grass|golf|cemetery|meadow|garden/i.test(id)) {
+            map.setPaintProperty(id, 'fill-color', '#a8cf9a');
+          } else if (l.type === 'fill' && /sand|beach/i.test(id)) {
+            map.setPaintProperty(id, 'fill-color', '#e8ddb5');
+          } else if (l.type === 'line' && /motorway|trunk|primary|highway/i.test(id)) {
+            map.setPaintProperty(id, 'line-color', '#8f9aa3');
+          } else if (l.type === 'line' && /street|minor|secondary|tertiary|residential|service|link/i.test(id)) {
+            map.setPaintProperty(id, 'line-color', '#aab4bc');
+          } else if (l.type === 'line' && /path|pedestrian|footway|cycleway/i.test(id)) {
+            map.setPaintProperty(id, 'line-color', '#cfd6da');
+          }
+        } catch (err) { /* leave this layer as-is */ }
+      });
+    })();
+
     // 2. Ward boundary
     fetch('data/ward34_boundary.geojson')
       .then(function (r) {
@@ -432,7 +561,7 @@
       });
 
     // 3. Business pins
-    fetch('data/businesses_geo.json?d=20260707c')
+    fetch('data/businesses_geo.json?d=20260708f')
       .then(function (r) {
         return r.json();
       })
@@ -453,7 +582,9 @@
                 zip: b.zip || '',
                 lat: b.lat,
                 lng: b.lng,
-                logo: logo || ''
+                logo: logo || '',
+                category: b.category || '',
+                website: b.website || ''
               }
             };
           });
@@ -488,6 +619,7 @@
         });
 
         loadChainLogos(distinctDomains);
+        loadCategoryIcons();
       })
       .catch(function (err) {
         console.warn('Failed to load business pins', err);
@@ -510,9 +642,13 @@
         var lat = props.lat;
         var lng = props.lng;
 
-        var searchUrl =
-          'https://www.google.com/search?q=' +
-          encodeURIComponent(name + ' Chicago ' + address);
+        var searchUrl = props.website
+          ? String(props.website)
+          : props.logo
+            ? 'https://' + props.logo
+            : 'https://www.google.com/search?q=' +
+              encodeURIComponent(name + ' Chicago ' + address);
+        var websiteLabel = (props.website || props.logo) ? 'Website' : 'Find their website';
         var streetViewUrl =
           'https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=' + lat + ',' + lng;
 
@@ -521,7 +657,7 @@
           '<p style="font-size:0.8rem;color:#5b6b7c;margin:0 0 4px;">' +
           esc(address) + (zip ? ', ' + esc(zip) : '') +
           '</p>' +
-          '<a class="map-pill" href="' + esc(searchUrl) + '" target="_blank" rel="noopener">Find their website</a>' +
+          '<a class="map-pill" href="' + esc(searchUrl) + '" target="_blank" rel="noopener">' + websiteLabel + '</a>' +
           '<a class="map-pill" href="' + esc(streetViewUrl) + '" target="_blank" rel="noopener">Street View</a>';
 
         new maplibregl.Popup({ maxWidth: '300px' }).setLngLat(coords).setHTML(html).addTo(map);
@@ -584,6 +720,16 @@
           var bizProps = bizFeatures[0].properties;
           var bizCoords = bizFeatures[0].geometry.coordinates.slice();
 
+          // Dismiss the previous popup the moment the cursor is over a
+          // DIFFERENT business; keep it (no flicker) while over the same one.
+          var bizAnchor = 'biz:' + (bizProps.name || '') + '|' + (bizProps.address || '');
+          if (lastHoverAnchor !== bizAnchor) {
+            hideHoverPopup();
+            lastHoverAnchor = bizAnchor;
+          } else if (hoverPopup) {
+            return; // card for this business is already up
+          }
+
           // Dwell debounce, snappier than the building hover since this is
           // the primary interaction: settle for ~180ms, then show the card.
           if (hoverTimer) clearTimeout(hoverTimer);
@@ -609,10 +755,21 @@
           return;
         }
 
+        // Dismiss the previous popup as soon as the cursor moves to a
+        // different building cell (about a house-lot of movement); keep the
+        // popup steady while hovering the same spot.
+        var lngLat = e.lngLat;
+        var bldAnchor = 'bld:' + geocodeCacheKey(lngLat.lat, lngLat.lng);
+        if (lastHoverAnchor !== bldAnchor) {
+          hideHoverPopup();
+          lastHoverAnchor = bldAnchor;
+        } else if (hoverPopup) {
+          return; // popup for this spot is already up
+        }
+
         // Dwell debounce: keep pushing the timer out while the cursor keeps
         // moving, only fire once it settles for ~450ms over a building.
         if (hoverTimer) clearTimeout(hoverTimer);
-        var lngLat = e.lngLat;
         var thisHoverId = ++hoverId;
 
         hoverTimer = setTimeout(function () {
