@@ -1,6 +1,54 @@
 {
- "generated_at": "2026-07-08T11:15:00-05:00",
+ "generated_at": "2026-07-09T14:35:00-05:00",
  "items": [
+  {
+   "id": "politico-20260709-health-commissioner",
+   "category": "elected_official",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Mayor names new city public health commissioner",
+   "summary": "Mayor Brandon Johnson has tapped Dr. Garth Walker, chief medical officer at Rush Health, to lead the Chicago Department of Public Health. Walker would replace Dr. Olusimbo Ige, who resigned in May. The appointment requires City Council approval.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-07-09T07:01:00-05:00",
+   "flagged_for_review": false
+  },
+  {
+   "id": "axios-20260709-torture-memorial",
+   "category": "civic_org",
+   "source_id": "axios",
+   "source_name": "Axios Chicago",
+   "source_type": "email_newsletter",
+   "title": "Ground broken on Chicago Torture Justice Memorial",
+   "summary": "Survivors, advocates, Mayor Johnson and Ald. Jeanette Taylor broke ground in Washington Park on the future Chicago Torture Justice Memorial, honoring victims of police torture under Commander Jon Burge and his 'Midnight Crew' from 1972 to 1991. The 2015 city reparations package that recognized the torture included a formal apology, a $5.5 million victims fund, and a CPS curriculum.",
+   "url": "https://www.axios.com/local/chicago",
+   "published_at": "2026-07-09T06:29:00-05:00",
+   "flagged_for_review": false
+  },
+  {
+   "id": "axios-20260709-cyclospora",
+   "category": "civic_org",
+   "source_id": "axios",
+   "source_name": "Axios Chicago",
+   "source_type": "email_newsletter",
+   "title": "Illinois health officials track a stomach-bug outbreak",
+   "summary": "State health officials are investigating an outbreak of cyclosporiasis, a gastrointestinal illness caused by a microscopic parasite spread through contaminated food. As of Tuesday, 141 cases had been reported. Past outbreaks have been linked to raspberries, basil, salad mixes and cilantro, so experts recommend washing produce under running water before eating.",
+   "url": "https://www.axios.com/local/chicago",
+   "published_at": "2026-07-09T06:29:00-05:00",
+   "flagged_for_review": false
+  },
+  {
+   "id": "politico-20260709-cta-crime",
+   "category": "civic_org",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "CTA reports crime down six months in a row",
+   "summary": "Crime on the CTA has dropped for six consecutive months amid a security surge, the agency's leadership says, per the Sun-Times. The trend covers the transit lines and stations that serve the West Loop, Loop and South Loop.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-07-09T07:01:00-05:00",
+   "flagged_for_review": false
+  },
   {
    "id": "politico-20260708-nee-declares",
    "category": "elected_official",
