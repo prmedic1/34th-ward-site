@@ -1114,3 +1114,13 @@ body.photo-banner .hero {
     padding: 6px 2px;
   }
 }
+
+/* Mobile scroll fix (2026-07-08): background-attachment: fixed freezes or
+   janks page scrolling on iOS Safari and many Android browsers. On small
+   screens let the banner photo scroll with the page instead. */
+@media (max-width: 820px) {
+  body.photo-banner .site-header,
+  body.photo-banner .hero {
+    background-attachment: scroll, scroll;
+  }
+}
