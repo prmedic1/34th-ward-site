@@ -127,6 +127,10 @@
   var loadedChainDomains = [];
   var loadedCatIcons = [];
 
+  // What the user has toggled on in the left-side filter panel. Everything
+  // starts visible; the panel flips these and calls applyBizFilters().
+  var filterState = { cats: {}, chains: true, other: true };
+
   function bizCursorHandlers(layerId) {
     map.on('mouseenter', layerId, function () {
       map.getCanvas().style.cursor = 'pointer';
@@ -136,15 +140,26 @@
     });
   }
 
+  function setVisible(layerId, on) {
+    if (map.getLayer(layerId)) {
+      map.setLayoutProperty(layerId, 'visibility', on ? 'visible' : 'none');
+    }
+  }
+
   function applyBizFilters() {
     if (!map.getLayer('biz-dots')) return;
     var domains = ['literal', loadedChainDomains];
-    var cats = ['literal', loadedCatIcons];
+    var allCats = ['literal', loadedCatIcons];
+    // Categories the user currently wants shown (default true).
+    var enabled = loadedCatIcons.filter(function (c) { return filterState.cats[c] !== false; });
+    var enabledLit = ['literal', enabled];
 
+    // Red dots: uncategorized, non-chain businesses.
     map.setFilter('biz-dots', ['all',
       ['!', ['in', ['get', 'logo'], domains]],
-      ['!', ['in', ['get', 'category'], cats]]
+      ['!', ['in', ['get', 'category'], allCats]]
     ]);
+    setVisible('biz-dots', filterState.other);
 
     if (loadedChainDomains.length) {
       if (!map.getLayer('biz-logos')) {
@@ -164,11 +179,13 @@
       } else {
         map.setFilter('biz-logos', ['in', ['get', 'logo'], domains]);
       }
+      setVisible('biz-logos', filterState.chains);
     }
 
     if (loadedCatIcons.length) {
+      // Only the enabled categories, and never a chain (logo wins over icon).
       var catFilter = ['all',
-        ['in', ['get', 'category'], cats],
+        ['in', ['get', 'category'], enabledLit],
         ['!', ['in', ['get', 'logo'], domains]]
       ];
       if (!map.getLayer('biz-cats')) {
@@ -191,6 +208,119 @@
     }
   }
 
+  // --- Left-side category filter panel -----------------------------------
+  // Ordered category metadata: emoji, label, and the group heading it sits
+  // under. "chains" and "other" are special (they toggle whole layers).
+  var CAT_META = {
+    restaurant: { e: '🍽️', l: 'Restaurants', g: 'Food & Drink' },
+    bar: { e: '🍸', l: 'Bars', g: 'Food & Drink' },
+    cafe: { e: '☕', l: 'Cafes', g: 'Food & Drink' },
+    liquor: { e: '🍷', l: 'Liquor stores', g: 'Food & Drink' },
+    grocery: { e: '🛒', l: 'Grocery', g: 'Food & Drink' },
+    salon: { e: '✂️', l: 'Salons & barbers', g: 'Shops & Services' },
+    cleaners: { e: '👕', l: 'Dry cleaners', g: 'Shops & Services' },
+    fitness: { e: '🏋️', l: 'Gyms & fitness', g: 'Shops & Services' },
+    health: { e: '🩺', l: 'Health & medical', g: 'Shops & Services' },
+    hotel: { e: '🛏️', l: 'Hotels', g: 'Shops & Services' },
+    entertainment: { e: '🎭', l: 'Arts & entertainment', g: 'Community & Culture' },
+    worship: { e: '🛐', l: 'Places of worship', g: 'Community & Culture' },
+    transit: { e: '🚉', l: 'Train & bus', g: 'Getting Around' }
+  };
+  var GROUP_ORDER = ['Food & Drink', 'Shops & Services', 'Community & Culture', 'Getting Around'];
+
+  function syncAllCheckbox(panel) {
+    var boxes = panel.querySelectorAll('input[data-role="item"]');
+    var all = true;
+    for (var i = 0; i < boxes.length; i++) { if (!boxes[i].checked) { all = false; break; } }
+    var master = panel.querySelector('input[data-role="all"]');
+    if (master) master.checked = all;
+  }
+
+  function buildFilterPanel(counts) {
+    Object.keys(CAT_META).forEach(function (c) {
+      if (filterState.cats[c] === undefined) filterState.cats[c] = true;
+    });
+    if (document.querySelector('.map-legend')) return;
+
+    var panel = document.createElement('div');
+    panel.className = 'map-legend';
+    if (window.innerWidth < 760) panel.className += ' collapsed';
+
+    var head = document.createElement('div');
+    head.className = 'map-legend-head';
+    head.innerHTML = '<span>Show on map</span><span class="map-legend-chev">▼</span>';
+    head.addEventListener('click', function () { panel.classList.toggle('collapsed'); });
+    panel.appendChild(head);
+
+    var body = document.createElement('div');
+    body.className = 'map-legend-body';
+
+    // Master "All" toggle.
+    var allRow = document.createElement('label');
+    allRow.className = 'map-legend-all';
+    allRow.innerHTML = '<input type="checkbox" data-role="all" checked> <strong>All categories</strong>';
+    body.appendChild(allRow);
+
+    function addRow(key, emoji, label, count, special) {
+      if (!count) return;
+      var row = document.createElement('label');
+      var attr = special ? ' data-special="' + special + '"' : ' data-cat="' + key + '"';
+      row.innerHTML = '<input type="checkbox" data-role="item"' + attr + ' checked> ' +
+        '<span class="lg-emoji">' + emoji + '</span> <span>' + label + '</span>' +
+        '<span class="lg-count">' + count + '</span>';
+      body.appendChild(row);
+    }
+
+    GROUP_ORDER.forEach(function (group) {
+      var rows = [];
+      Object.keys(CAT_META).forEach(function (c) {
+        if (CAT_META[c].g === group && counts.cats[c]) {
+          rows.push({ k: c, e: CAT_META[c].e, l: CAT_META[c].l, n: counts.cats[c] });
+        }
+      });
+      // Chains and Other live in the Shops & Services group.
+      var specials = [];
+      if (group === 'Shops & Services') {
+        if (counts.chains) specials.push({ sp: 'chains', e: '🏷️', l: 'Chain brands', n: counts.chains });
+        if (counts.other) specials.push({ sp: 'other', e: '📍', l: 'Other businesses', n: counts.other });
+      }
+      if (!rows.length && !specials.length) return;
+      var gh = document.createElement('div');
+      gh.className = 'map-legend-group';
+      gh.textContent = group;
+      body.appendChild(gh);
+      rows.forEach(function (r) { addRow(r.k, r.e, r.l, r.n); });
+      specials.forEach(function (s) { addRow(s.sp, s.e, s.l, s.n, s.sp); });
+    });
+
+    panel.appendChild(body);
+
+    body.addEventListener('change', function (e) {
+      var t = e.target;
+      if (t.getAttribute('data-role') === 'all') {
+        var on = t.checked;
+        body.querySelectorAll('input[data-role="item"]').forEach(function (b) {
+          b.checked = on;
+          var cat = b.getAttribute('data-cat');
+          var sp = b.getAttribute('data-special');
+          if (cat) filterState.cats[cat] = on;
+          else if (sp === 'chains') filterState.chains = on;
+          else if (sp === 'other') filterState.other = on;
+        });
+      } else if (t.getAttribute('data-role') === 'item') {
+        var cat2 = t.getAttribute('data-cat');
+        var sp2 = t.getAttribute('data-special');
+        if (cat2) filterState.cats[cat2] = t.checked;
+        else if (sp2 === 'chains') filterState.chains = t.checked;
+        else if (sp2 === 'other') filterState.other = t.checked;
+        syncAllCheckbox(panel);
+      }
+      applyBizFilters();
+    });
+
+    container.appendChild(panel);
+  }
+
   function finalizeChainLogos(loadedDomains) {
     loadedChainDomains = loadedDomains;
     applyBizFilters();
@@ -200,7 +330,8 @@
   // restaurants, etc.) from images/icons/<category>.png. Any icon that fails
   // to load simply leaves those businesses as red dots.
   var CATEGORY_ICONS = ['bar', 'restaurant', 'cafe', 'grocery', 'liquor',
-    'salon', 'cleaners', 'health', 'fitness', 'hotel'];
+    'salon', 'cleaners', 'health', 'fitness', 'hotel',
+    'entertainment', 'worship', 'transit'];
 
   function loadCategoryIcons() {
     var ok = [];
@@ -560,12 +691,14 @@
         console.warn('Failed to load ward boundary', err);
       });
 
-    // 3. Business pins
-    fetch('data/businesses_geo.json?d=20260708f')
-      .then(function (r) {
-        return r.json();
-      })
-      .then(function (data) {
+    // 3. Business pins, plus churches, transit, and arts venues from OSM.
+    Promise.all([
+      fetch('data/businesses_geo.json?d=20260709a').then(function (r) { return r.json(); }),
+      fetch('data/ward_extra_geo.json?d=20260709a').then(function (r) { return r.json(); }).catch(function () { return []; })
+    ])
+      .then(function (results) {
+        var data = results[0];
+        var extra = Array.isArray(results[1]) ? results[1] : [];
         var businesses = data && data.businesses ? data.businesses : [];
         var features = businesses
           .filter(function (b) {
@@ -589,13 +722,37 @@
             };
           });
 
+        // Merge the OSM-sourced community places (no chain logos).
+        extra.forEach(function (b) {
+          if (typeof b.lat !== 'number' || typeof b.lng !== 'number') return;
+          features.push({
+            type: 'Feature',
+            geometry: { type: 'Point', coordinates: [b.lng, b.lat] },
+            properties: {
+              name: b.name || '',
+              address: b.address || '',
+              zip: '',
+              lat: b.lat,
+              lng: b.lng,
+              logo: '',
+              category: b.category || '',
+              website: b.website || ''
+            }
+          });
+        });
+
         var distinctDomains = [];
         var domainSeen = {};
+        var counts = { cats: {}, chains: 0, other: 0 };
         features.forEach(function (f) {
-          var d = f.properties.logo;
-          if (d && !domainSeen[d]) {
-            domainSeen[d] = true;
-            distinctDomains.push(d);
+          var p = f.properties;
+          if (p.logo) {
+            counts.chains++;
+            if (!domainSeen[p.logo]) { domainSeen[p.logo] = true; distinctDomains.push(p.logo); }
+          } else if (p.category) {
+            counts.cats[p.category] = (counts.cats[p.category] || 0) + 1;
+          } else {
+            counts.other++;
           }
         });
 
@@ -618,6 +775,7 @@
           }
         });
 
+        buildFilterPanel(counts);
         loadChainLogos(distinctDomains);
         loadCategoryIcons();
       })

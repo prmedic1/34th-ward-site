@@ -1124,3 +1124,39 @@ body.photo-banner .hero {
     background-attachment: scroll, scroll;
   }
 }
+
+/* Left-side map category filter panel (2026-07-09) */
+.map-legend {
+  position: absolute; top: 12px; left: 12px; z-index: 5;
+  background: rgba(255,255,255,0.95);
+  border: 1px solid #cdd6dd; border-radius: 10px;
+  box-shadow: 0 2px 12px rgba(6,48,63,0.20);
+  font: 13px/1.3 'Inter', sans-serif;
+  width: 210px; max-height: calc(100% - 24px);
+  display: flex; flex-direction: column; overflow: hidden;
+}
+.map-legend-head {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 9px 11px; cursor: pointer; font-weight: 600; color: var(--navy);
+  border-bottom: 1px solid #e3e9ee; user-select: none;
+}
+.map-legend-chev { transition: transform 0.2s; font-size: 11px; color: #7a8894; }
+.map-legend.collapsed .map-legend-chev { transform: rotate(-90deg); }
+.map-legend.collapsed { width: auto; }
+.map-legend-body { overflow-y: auto; padding: 4px 11px 10px; }
+.map-legend.collapsed .map-legend-body { display: none; }
+.map-legend-group {
+  margin: 10px 0 3px; font-size: 10.5px; text-transform: uppercase;
+  letter-spacing: 0.5px; color: #7a8894; font-weight: 700;
+}
+.map-legend label {
+  display: flex; align-items: center; gap: 7px; padding: 3px 0;
+  cursor: pointer; color: #243b4a;
+}
+.map-legend label input { margin: 0; flex: none; accent-color: var(--navy); }
+.map-legend .lg-emoji { flex: none; width: 18px; text-align: center; }
+.map-legend .lg-count { margin-left: auto; color: #97a3ad; font-size: 11px; }
+.map-legend-all { border-bottom: 1px solid #e3e9ee; padding-bottom: 7px; margin-bottom: 2px; }
+@media (max-width: 700px) {
+  .map-legend { width: 178px; font-size: 12px; top: 8px; left: 8px; }
+}

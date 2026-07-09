@@ -1,0 +1,317 @@
+[
+ {
+  "name": "UIC-Halsted",
+  "lat": 41.8754875,
+  "lng": -87.6496998,
+  "category": "transit",
+  "website": "https://www.transitchicago.com/station/uich/"
+ },
+ {
+  "name": "Racine",
+  "lat": 41.8758936,
+  "lng": -87.6594131,
+  "category": "transit",
+  "website": "https://www.transitchicago.com/station/racn/"
+ },
+ {
+  "name": "Clinton",
+  "lat": 41.8756041,
+  "lng": -87.6410008,
+  "category": "transit",
+  "website": "https://www.transitchicago.com/station/clib/"
+ },
+ {
+  "name": "Jackson",
+  "lat": 41.878227,
+  "lng": -87.627698,
+  "category": "transit",
+  "website": "https://www.transitchicago.com/station/jacr/"
+ },
+ {
+  "name": "Monroe",
+  "lat": 41.8807789,
+  "lng": -87.6277387,
+  "category": "transit",
+  "website": "https://www.transitchicago.com/station/monr/"
+ },
+ {
+  "name": "Washington/Wells",
+  "lat": 41.8824096,
+  "lng": -87.6338517,
+  "category": "transit",
+  "website": "https://www.transitchicago.com/station/wasw/"
+ },
+ {
+  "name": "LaSalle/Van Buren",
+  "lat": 41.8768826,
+  "lng": -87.6313905,
+  "category": "transit",
+  "website": "https://www.transitchicago.com/station/lasv/"
+ },
+ {
+  "name": "Adams/Wabash",
+  "lat": 41.8796269,
+  "lng": -87.6261185,
+  "category": "transit",
+  "website": "https://www.transitchicago.com/station/adam/"
+ },
+ {
+  "name": "Clinton",
+  "lat": 41.8857256,
+  "lng": -87.6418654,
+  "category": "transit",
+  "website": "https://www.transitchicago.com/station/clil/"
+ },
+ {
+  "name": "Storefront Theater",
+  "lat": 41.8848116,
+  "lng": -87.6255101,
+  "category": "entertainment",
+  "website": ""
+ },
+ {
+  "name": "Monroe",
+  "lat": 41.8807318,
+  "lng": -87.6293863,
+  "category": "transit",
+  "website": "https://www.transitchicago.com/station/monb/"
+ },
+ {
+  "name": "Jackson",
+  "lat": 41.8781861,
+  "lng": -87.6293041,
+  "category": "transit",
+  "website": "https://www.transitchicago.com/station/jacb/"
+ },
+ {
+  "name": "LaSalle",
+  "lat": 41.8756145,
+  "lng": -87.6312402,
+  "category": "transit",
+  "website": "https://www.transitchicago.com/station/lasa/"
+ },
+ {
+  "name": "Bert Green Fine Art",
+  "lat": 41.8819299,
+  "lng": -87.6247089,
+  "category": "entertainment",
+  "website": "https://bgfa.us/"
+ },
+ {
+  "name": "Washington/Wabash",
+  "lat": 41.8825121,
+  "lng": -87.6262113,
+  "category": "transit",
+  "website": "https://www.transitchicago.com/station/wawa/"
+ },
+ {
+  "name": "AMC Dine-In Block 37",
+  "lat": 41.8836842,
+  "lng": -87.6282717,
+  "category": "entertainment",
+  "website": "https://www.amctheatres.com/movie-theatres/chicago/amc-dine-in-block-37"
+ },
+ {
+  "name": "American Writers Museum",
+  "lat": 41.8855608,
+  "lng": -87.6249909,
+  "category": "entertainment",
+  "website": "https://americanwritersmuseum.org/"
+ },
+ {
+  "name": "Expo 72",
+  "lat": 41.8846303,
+  "lng": -87.6253558,
+  "category": "entertainment",
+  "website": ""
+ },
+ {
+  "name": "Roosevelt",
+  "lat": 41.8674355,
+  "lng": -87.6266528,
+  "category": "transit",
+  "website": "https://www.transitchicago.com/station/roos/"
+ },
+ {
+  "name": "LaSalle Street Station",
+  "lat": 41.8753148,
+  "lng": -87.6322173,
+  "category": "transit",
+  "website": "https://metra.com/train-lines/stations/lasalle-street-station"
+ },
+ {
+  "name": "Soul City Church",
+  "lat": 41.879223,
+  "lng": -87.6566067,
+  "category": "worship",
+  "website": "https://soulcitychurch.com/"
+ },
+ {
+  "name": "Museum of Illusions",
+  "lat": 41.8830605,
+  "lng": -87.626843,
+  "category": "entertainment",
+  "website": "https://moichicago.com/"
+ },
+ {
+  "name": "Iarca",
+  "lat": 41.8801592,
+  "lng": -87.6246747,
+  "category": "entertainment",
+  "website": ""
+ },
+ {
+  "name": "Pritzker Military Museum & Library",
+  "lat": 41.8806197,
+  "lng": -87.6246632,
+  "category": "entertainment",
+  "website": "https://www.pritzkermilitary.org/"
+ },
+ {
+  "name": "Madison/Wells",
+  "lat": 41.8816591,
+  "lng": -87.6338392,
+  "category": "transit",
+  "website": ""
+ },
+ {
+  "name": "WNDR Museum",
+  "lat": 41.880525,
+  "lng": -87.6559982,
+  "category": "entertainment",
+  "website": "https://wndrmuseum.com"
+ },
+ {
+  "name": "Garcia's Chicago",
+  "lat": 41.8828425,
+  "lng": -87.6522805,
+  "category": "entertainment",
+  "website": "https://garciaschicago.live"
+ },
+ {
+  "name": "Chicago Board of Trade Building Museum",
+  "lat": 41.8779887,
+  "lng": -87.6320684,
+  "category": "entertainment",
+  "website": "https://www.cbotbuilding.com/chicago-board-of-trade-building-museum/"
+ },
+ {
+  "name": "First United Methodist Church of Chicago",
+  "lat": 41.8828592,
+  "lng": -87.6306146,
+  "category": "worship",
+  "website": ""
+ },
+ {
+  "name": "Holy Family Church",
+  "lat": 41.8674848,
+  "lng": -87.6547007,
+  "category": "worship",
+  "website": ""
+ },
+ {
+  "name": "St. Peter's Church",
+  "lat": 41.8823251,
+  "lng": -87.6314804,
+  "category": "worship",
+  "website": ""
+ },
+ {
+  "name": "Loop Synagogue",
+  "lat": 41.8815892,
+  "lng": -87.6312602,
+  "category": "worship",
+  "website": ""
+ },
+ {
+  "name": "Symphony Center",
+  "lat": 41.8789834,
+  "lng": -87.6250964,
+  "category": "entertainment",
+  "website": "https://cso.org/"
+ },
+ {
+  "name": "I Am Temple",
+  "lat": 41.8834765,
+  "lng": -87.6333632,
+  "category": "worship",
+  "website": ""
+ },
+ {
+  "name": "Downtown Islamic Center",
+  "lat": 41.8786982,
+  "lng": -87.6272677,
+  "category": "worship",
+  "website": "https://www.dtislamiccenter.org/"
+ },
+ {
+  "name": "Old Saint Patrick's Church",
+  "lat": 41.8794496,
+  "lng": -87.6444925,
+  "category": "worship",
+  "website": "https://www.oldstpats.org"
+ },
+ {
+  "name": "Jane Addams Hull-House Museum",
+  "lat": 41.8716506,
+  "lng": -87.647398,
+  "category": "entertainment",
+  "website": "http://www.uic.edu/jaddams/hull/hull_house.html"
+ },
+ {
+  "name": "UIC Theatre",
+  "lat": 41.8745869,
+  "lng": -87.6533233,
+  "category": "entertainment",
+  "website": "https://theatreandmusic.uic.edu/"
+ },
+ {
+  "name": "Notre Dame Roman Catholic Church",
+  "lat": 41.873492,
+  "lng": -87.6605473,
+  "category": "worship",
+  "website": ""
+ },
+ {
+  "name": "National Hellenic Museum",
+  "lat": 41.8770017,
+  "lng": -87.6468455,
+  "category": "entertainment",
+  "website": ""
+ },
+ {
+  "name": "John Paul II Roman Catholic Center",
+  "lat": 41.8725984,
+  "lng": -87.651548,
+  "category": "worship",
+  "website": ""
+ },
+ {
+  "name": "Our Lady of Pompeii Roman Catholic Church",
+  "lat": 41.8725434,
+  "lng": -87.6581262,
+  "category": "worship",
+  "website": ""
+ },
+ {
+  "name": "CIBC Theatre",
+  "lat": 41.881079,
+  "lng": -87.6285852,
+  "category": "entertainment",
+  "website": ""
+ },
+ {
+  "name": "Play Street Meuseum",
+  "lat": 41.8693291,
+  "lng": -87.6322904,
+  "category": "entertainment",
+  "website": ""
+ },
+ {
+  "name": "AMC Roosevelt Collection 16",
+  "lat": 41.8696741,
+  "lng": -87.6327551,
+  "category": "entertainment",
+  "website": "https://www.amctheatres.com/movie-theatres/chicago/amc-roosevelt-collection-16"
+ }
+]
