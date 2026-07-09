@@ -83,6 +83,8 @@
       ).then(function (tileset) {
         viewer.scene.primitives.add(tileset);
         flyHome();
+        addWardBoundary();
+        addBusinessPoints();
         loading = false;
       }).catch(function () {
         note('Photoreal mode is almost ready. It needs one more Google setting: enable the ' +
@@ -94,6 +96,101 @@
       note('This browser could not start the photoreal 3D engine.');
       loading = false;
     }
+  }
+
+  // Red outline of the 34th Ward, draped on the photoreal terrain.
+  function addWardBoundary() {
+    fetch('data/ward34_boundary.geojson')
+      .then(function (r) { return r.json(); })
+      .then(function (geo) {
+        var feats = geo.type === 'FeatureCollection' ? geo.features : [geo];
+        feats.forEach(function (f) {
+          var g = f.geometry || f;
+          var polys = g.type === 'MultiPolygon' ? g.coordinates : [g.coordinates];
+          polys.forEach(function (poly) {
+            var ring = poly[0];
+            var coords = [];
+            ring.forEach(function (c) { coords.push(c[0], c[1]); });
+            viewer.entities.add({
+              polyline: {
+                positions: Cesium.Cartesian3.fromDegreesArray(coords),
+                width: 4,
+                material: Cesium.Color.fromCssColorString('#da1933'),
+                clampToGround: true
+              }
+            });
+          });
+        });
+      })
+      .catch(function () { /* boundary is optional */ });
+  }
+
+  // Business, church, transit, and arts markers with click-to-see-info.
+  function addBusinessPoints() {
+    Promise.all([
+      fetch('data/businesses_geo.json?d=20260709b').then(function (r) { return r.json(); }),
+      fetch('data/ward_extra_geo.json?d=20260709b').then(function (r) { return r.json(); }).catch(function () { return []; })
+    ]).then(function (res) {
+      var biz = (res[0] && res[0].businesses) ? res[0].businesses : [];
+      var extra = Array.isArray(res[1]) ? res[1] : [];
+      var all = biz.concat(extra);
+      all.forEach(function (b) {
+        if (typeof b.lat !== 'number' || typeof b.lng !== 'number') return;
+        var site = b.website ||
+          'https://www.google.com/search?q=' + encodeURIComponent((b.name || '') + ' Chicago ' + (b.address || ''));
+        viewer.entities.add({
+          position: Cesium.Cartesian3.fromDegrees(b.lng, b.lat),
+          point: {
+            pixelSize: 9,
+            color: Cesium.Color.fromCssColorString('#da1933'),
+            outlineColor: Cesium.Color.WHITE,
+            outlineWidth: 1.5,
+            heightReference: Cesium.HeightReference.CLAMP_TO_GROUND,
+            disableDepthTestDistance: Number.POSITIVE_INFINITY
+          },
+          properties: { name: b.name || 'Business', address: b.address || '', site: site }
+        });
+      });
+    }).catch(function () { /* points are optional */ });
+
+    // Simple click-to-info: show a small card for the nearest marker clicked.
+    var handler = new Cesium.ScreenSpaceEventHandler(viewer.scene.canvas);
+    handler.setInputAction(function (click) {
+      var picked = viewer.scene.pick(click.position);
+      if (picked && picked.id && picked.id.properties) {
+        var p = picked.id.properties;
+        showPhotoCard(p.name.getValue(), p.address.getValue(), p.site.getValue());
+      } else {
+        hidePhotoCard();
+      }
+    }, Cesium.ScreenSpaceEventType.LEFT_CLICK);
+  }
+
+  var photoCard = null;
+  function showPhotoCard(name, address, site) {
+    hidePhotoCard();
+    photoCard = document.createElement('div');
+    photoCard.style.cssText =
+      'position:absolute; left:12px; bottom:12px; z-index:6; max-width:260px;' +
+      'background:rgba(255,255,255,0.96); border:1px solid #cdd6dd; border-radius:10px;' +
+      'box-shadow:0 2px 12px rgba(6,48,63,0.25); padding:11px 13px; font:13px/1.35 Inter,sans-serif; color:#243b4a;';
+    photoCard.innerHTML =
+      '<div style="font-weight:700; margin-bottom:3px;">' + escapeHtml(name) + '</div>' +
+      (address ? '<div style="color:#5b6b7c; font-size:12px; margin-bottom:6px;">' + escapeHtml(address) + '</div>' : '') +
+      '<a href="' + escapeHtml(site) + '" target="_blank" rel="noopener" style="color:#0a5a78; font-weight:600;">Website</a>' +
+      '<span style="float:right; cursor:pointer; color:#97a3ad;" id="photo-card-x">Close</span>';
+    photoEl.appendChild(photoCard);
+    var x = photoCard.querySelector('#photo-card-x');
+    if (x) x.addEventListener('click', hidePhotoCard);
+  }
+  function hidePhotoCard() {
+    if (photoCard && photoCard.parentNode) photoCard.parentNode.removeChild(photoCard);
+    photoCard = null;
+  }
+  function escapeHtml(s) {
+    return String(s == null ? '' : s).replace(/[&<>"']/g, function (ch) {
+      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[ch];
+    });
   }
 
   function flyHome() {

@@ -294,7 +294,8 @@
    "address": "155 N Michigan Ave 2Nd 204",
    "zip": "60601",
    "lat": 41.884636,
-   "lng": -87.624314
+   "lng": -87.624314,
+   "category": "salon"
   },
   {
    "name": "A&A Watch Repair Inc.",
@@ -514,7 +515,7 @@
    "zip": "60605",
    "lat": 41.866724,
    "lng": -87.625961,
-   "category": "restaurant"
+   "category": "grocery"
   },
   {
    "name": "Afc Sushi@Jewel-Osco #3376",
@@ -522,7 +523,7 @@
    "zip": "60661",
    "lat": 41.888918,
    "lng": -87.644478,
-   "category": "restaurant"
+   "category": "grocery"
   },
   {
    "name": "After School Matters",
@@ -2013,7 +2014,7 @@
    "zip": "60601",
    "lat": 41.885212,
    "lng": -87.624339,
-   "category": "restaurant"
+   "category": "cafe"
   },
   {
    "name": "Buck Development Llc",
@@ -2814,7 +2815,7 @@
    "zip": "60603",
    "lat": 41.879616,
    "lng": -87.626642,
-   "category": "restaurant"
+   "category": "grocery"
   },
   {
    "name": "Chiya Chai Cafe",
@@ -4478,7 +4479,7 @@
    "zip": "60661",
    "lat": 41.88559,
    "lng": -87.643903,
-   "category": "salon"
+   "category": ""
   },
   {
    "name": "Eyelines",
@@ -4776,7 +4777,8 @@
    "address": "212 W Van Buren St 6 6N",
    "zip": "60607",
    "lat": 41.87695,
-   "lng": -87.634104
+   "lng": -87.634104,
+   "category": "grocery"
   },
   {
    "name": "Fooda, Inc.",
@@ -4942,7 +4944,8 @@
    "address": "17 N State St 4 400",
    "zip": "60603",
    "lat": 41.882457,
-   "lng": -87.6277
+   "lng": -87.6277,
+   "category": "salon"
   },
   {
    "name": "G3 Jewelers",
@@ -5280,7 +5283,7 @@
    "zip": "60604",
    "lat": 41.877988,
    "lng": -87.62446,
-   "category": "cleaners"
+   "category": ""
   },
   {
    "name": "Great Arc Technologies Inc",
@@ -5384,7 +5387,7 @@
    "zip": "60606",
    "lat": 41.877792,
    "lng": -87.636524,
-   "category": "salon"
+   "category": ""
   },
   {
    "name": "Ground Up Cafe",
@@ -5465,7 +5468,7 @@
    "zip": "60661",
    "lat": 41.877872,
    "lng": -87.644509,
-   "category": "liquor"
+   "category": "grocery"
   },
   {
    "name": "H Watson Jewelry Engraving Co",
@@ -5688,7 +5691,8 @@
    "address": "1016 W Jackson Blvd 1 110",
    "zip": "60607",
    "lat": 41.877968,
-   "lng": -87.652643
+   "lng": -87.652643,
+   "category": "grocery"
   },
   {
    "name": "Hillary Alexandria",
@@ -5882,7 +5886,7 @@
    "zip": "60603",
    "lat": 41.880805,
    "lng": -87.630929,
-   "category": "restaurant"
+   "category": "hotel"
   },
   {
    "name": "Hyatt House Chicago West Loop / Fulton Market",
@@ -5890,7 +5894,7 @@
    "zip": "60607",
    "lat": 41.883176,
    "lng": -87.655425,
-   "category": "liquor"
+   "category": "hotel"
   },
   {
    "name": "I & A Jeweler",
@@ -6517,7 +6521,7 @@
    "zip": "60605",
    "lat": 41.866724,
    "lng": -87.625961,
-   "category": "restaurant"
+   "category": "grocery"
   },
   {
    "name": "Jewel Food Store #3376",
@@ -6525,7 +6529,7 @@
    "zip": "60661",
    "lat": 41.888918,
    "lng": -87.644478,
-   "category": "restaurant"
+   "category": "grocery"
   },
   {
    "name": "Jewel nail spa on Adams",
@@ -6833,7 +6837,7 @@
    "zip": "60603",
    "lat": 41.880589,
    "lng": -87.63071,
-   "category": "restaurant"
+   "category": "grocery"
   },
   {
    "name": "Just Design LLC",
@@ -7947,7 +7951,7 @@
    "zip": "60602",
    "lat": 41.883423,
    "lng": -87.628022,
-   "category": "restaurant"
+   "category": "cafe"
   },
   {
    "name": "Mainstreet Advisors",
@@ -8014,7 +8018,7 @@
    "zip": "60605",
    "lat": 41.876359,
    "lng": -87.630881,
-   "category": "liquor"
+   "category": "grocery"
   },
   {
    "name": "Manny Jewelry &  Design",
@@ -8036,7 +8040,7 @@
    "zip": "60661",
    "lat": 41.880554,
    "lng": -87.64747,
-   "category": "liquor"
+   "category": "grocery"
   },
   {
    "name": "Mariela",
@@ -8363,7 +8367,7 @@
    "zip": "60661",
    "lat": 41.879763,
    "lng": -87.642446,
-   "category": "restaurant"
+   "category": "grocery"
   },
   {
    "name": "Metropolitan Diversified Services Corporation",
@@ -9001,7 +9005,7 @@
    "zip": "60602",
    "lat": 41.8831,
    "lng": -87.630147,
-   "category": "restaurant"
+   "category": "grocery"
   },
   {
    "name": "Nds Llc",
@@ -9132,7 +9136,8 @@
    "address": "215 N Desplaines St  1",
    "zip": "60661",
    "lat": 41.88623,
-   "lng": -87.644114
+   "lng": -87.644114,
+   "category": "grocery"
   },
   {
    "name": "Norc",
@@ -9466,7 +9471,7 @@
    "zip": "60603",
    "lat": 41.880665,
    "lng": -87.627089,
-   "category": "restaurant"
+   "category": "grocery"
   },
   {
    "name": "Palmer House Hilton",
@@ -9474,7 +9479,7 @@
    "zip": "60603",
    "lat": 41.880665,
    "lng": -87.627089,
-   "category": "restaurant"
+   "category": "hotel"
   },
   {
    "name": "Panda Express #591",
@@ -10152,7 +10157,7 @@
    "zip": "60661",
    "lat": 41.885595,
    "lng": -87.643023,
-   "category": "restaurant"
+   "category": "grocery"
   },
   {
    "name": "Primera Engineers, Ltd.",
@@ -10387,7 +10392,7 @@
    "zip": "60605",
    "lat": 41.870804,
    "lng": -87.632639,
-   "category": "restaurant"
+   "category": "grocery"
   },
   {
    "name": "Quriosity Productions Llc",
@@ -10649,7 +10654,8 @@
    "address": "155 N Michigan Ave  622",
    "zip": "60601",
    "lat": 41.884636,
-   "lng": -87.624314
+   "lng": -87.624314,
+   "category": "salon"
   },
   {
    "name": "Rgp",
@@ -10907,7 +10913,7 @@
    "zip": "60603",
    "lat": 41.879436,
    "lng": -87.624854,
-   "category": "restaurant"
+   "category": "cafe"
   },
   {
    "name": "RW Ventures LLC",
@@ -11216,7 +11222,7 @@
    "zip": "60602",
    "lat": 41.881841,
    "lng": -87.633255,
-   "category": "restaurant"
+   "category": "cafe"
   },
   {
    "name": "Seeskin Law LLC",
@@ -11554,7 +11560,7 @@
    "zip": "60606",
    "lat": 41.883319,
    "lng": -87.634435,
-   "category": "restaurant"
+   "category": "cafe"
   },
   {
    "name": "Smart Technology Services, Incorporated",
@@ -12122,7 +12128,7 @@
    "zip": "60603",
    "lat": 41.879989,
    "lng": -87.630689,
-   "category": "restaurant"
+   "category": "grocery"
   },
   {
    "name": "Steve and Kate's Camp",
@@ -12360,7 +12366,7 @@
    "zip": "60603",
    "lat": 41.880221,
    "lng": -87.626301,
-   "category": "restaurant"
+   "category": "cafe"
   },
   {
    "name": "Sugar Pop, Sugar Pop Salon",
@@ -12571,7 +12577,7 @@
    "zip": "60603",
    "lat": 41.881995,
    "lng": -87.627647,
-   "category": "liquor"
+   "category": "grocery"
   },
   {
    "name": "Target Optical #4914",
@@ -12587,7 +12593,7 @@
    "zip": "60605",
    "lat": 41.867571,
    "lng": -87.630586,
-   "category": "liquor"
+   "category": "grocery"
   },
   {
    "name": "Target Store T2781",
@@ -12595,7 +12601,7 @@
    "zip": "60607",
    "lat": 41.87772,
    "lng": -87.65469,
-   "category": "liquor"
+   "category": "grocery"
   },
   {
    "name": "Taste 222",
@@ -12697,7 +12703,7 @@
    "zip": "60602",
    "lat": 41.883423,
    "lng": -87.628022,
-   "category": "restaurant"
+   "category": "cafe"
   },
   {
    "name": "Techlaw",
@@ -13815,7 +13821,8 @@
    "address": "16 S Halsted St First Floor",
    "zip": "60661",
    "lat": 41.881285,
-   "lng": -87.647491
+   "lng": -87.647491,
+   "category": "salon"
   },
   {
    "name": "Umai",
@@ -13831,7 +13838,7 @@
    "zip": "60604",
    "lat": 41.877988,
    "lng": -87.62446,
-   "category": "restaurant"
+   "category": "cafe"
   },
   {
    "name": "Unicef Usa",
@@ -13927,7 +13934,7 @@
    "zip": "60605",
    "lat": 41.872781,
    "lng": -87.630772,
-   "category": "liquor"
+   "category": "grocery"
   },
   {
    "name": "Urban Relocation Services",
@@ -14049,7 +14056,8 @@
    "address": "70 W Madison St 1 B100",
    "zip": "60602",
    "lat": 41.882093,
-   "lng": -87.630392
+   "lng": -87.630392,
+   "category": "grocery"
   },
   {
    "name": "VDF FutureCeuticals",
@@ -14340,7 +14348,7 @@
    "zip": "60607",
    "lat": 41.874243,
    "lng": -87.633477,
-   "category": "liquor"
+   "category": "grocery"
   },
   {
    "name": "Wells Public Parking",
@@ -14436,7 +14444,7 @@
    "zip": "60661",
    "lat": 41.881816,
    "lng": -87.647215,
-   "category": "liquor"
+   "category": "grocery"
   },
   {
    "name": "Wigglyville",
@@ -14465,7 +14473,7 @@
    "zip": "60661",
    "lat": 41.880426,
    "lng": -87.647467,
-   "category": "restaurant"
+   "category": "grocery"
   },
   {
    "name": "William Levine Fine Jewels,Llc",

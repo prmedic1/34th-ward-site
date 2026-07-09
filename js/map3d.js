@@ -337,7 +337,7 @@
     var ok = [];
     var remaining = CATEGORY_ICONS.length;
     CATEGORY_ICONS.forEach(function (cat) {
-      map.loadImage('images/icons/' + cat + '.png')
+      map.loadImage('images/icons/' + cat + '.png?v=20260709b')
         .then(function (image) {
           remaining--;
           try {
@@ -693,8 +693,8 @@
 
     // 3. Business pins, plus churches, transit, and arts venues from OSM.
     Promise.all([
-      fetch('data/businesses_geo.json?d=20260709a').then(function (r) { return r.json(); }),
-      fetch('data/ward_extra_geo.json?d=20260709a').then(function (r) { return r.json(); }).catch(function () { return []; })
+      fetch('data/businesses_geo.json?d=20260709b').then(function (r) { return r.json(); }),
+      fetch('data/ward_extra_geo.json?d=20260709b').then(function (r) { return r.json(); }).catch(function () { return []; })
     ])
       .then(function (results) {
         var data = results[0];
@@ -783,10 +783,17 @@
         console.warn('Failed to load business pins', err);
       });
 
-    // 4. Click handling
-    map.on('click', function (e) {
-      hideHoverPopup(); // never let the hover popup linger under a click popup
+    // 4. Click handling. Info boxes open on CLICK only, never on hover, so
+    //    nothing pops up while you are just moving across the map.
+    function streetViewImg(lat, lng) {
+      if (!STREETVIEW_KEY) return '';
+      var u = 'https://maps.googleapis.com/maps/api/streetview?size=300x150&location=' +
+        lat + ',' + lng + '&fov=75&key=' + STREETVIEW_KEY;
+      return '<img src="' + esc(u) + '" alt="" style="width:100%;height:auto;' +
+        'border-radius:6px;display:block;margin:0 0 7px;" onerror="this.style.display=\'none\'">';
+    }
 
+    map.on('click', function (e) {
       var bizLayerIds = getBizLayerIds();
       var bizFeatures = bizLayerIds.length
         ? map.queryRenderedFeatures(e.point, { layers: bizLayerIds })
@@ -810,11 +817,10 @@
         var streetViewUrl =
           'https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=' + lat + ',' + lng;
 
-        var html =
+        var html = streetViewImg(lat, lng) +
           '<h4>' + esc(name) + '</h4>' +
-          '<p style="font-size:0.8rem;color:#5b6b7c;margin:0 0 4px;">' +
-          esc(address) + (zip ? ', ' + esc(zip) : '') +
-          '</p>' +
+          (address ? '<p style="font-size:0.8rem;color:#5b6b7c;margin:0 0 6px;">' +
+            esc(address) + (zip ? ', ' + esc(zip) : '') + '</p>' : '') +
           '<a class="map-pill" href="' + esc(searchUrl) + '" target="_blank" rel="noopener">' + websiteLabel + '</a>' +
           '<a class="map-pill" href="' + esc(streetViewUrl) + '" target="_blank" rel="noopener">Street View</a>';
 
@@ -836,7 +842,7 @@
       var storiesHtml = '';
       if (renderHeight > 0) {
         var stories = Math.round(renderHeight / 3.2);
-        storiesHtml = '<p style="font-size:0.8rem;color:#5b6b7c;margin:0 0 4px;">~' + stories + ' stories</p>';
+        storiesHtml = '<p style="font-size:0.8rem;color:#5b6b7c;margin:0 0 6px;">~' + stories + ' stories</p>';
       }
 
       var clickLat = e.lngLat.lat;
@@ -846,14 +852,27 @@
       var gmapsUrl =
         'https://www.google.com/maps/search/?api=1&query=' + clickLat + ',' + clickLng;
 
-      var bHtml =
-        "<h4>What's here?</h4>" +
-        '<p style="font-size:0.8rem;color:#5b6b7c;margin:0 0 4px;">' + esc(buildingName) + '</p>' +
-        storiesHtml +
-        '<a class="map-pill" href="' + esc(svUrl) + '" target="_blank" rel="noopener">Street View</a>' +
-        '<a class="map-pill" href="' + esc(gmapsUrl) + '" target="_blank" rel="noopener">Open in Google Maps</a>';
+      function buildBuildingHtml(addressLine) {
+        var zillowUrl = 'https://www.zillow.com/homes/' +
+          encodeURIComponent(addressLine || (clickLat + ',' + clickLng)) + '_rb/';
+        return streetViewImg(clickLat, clickLng) +
+          '<h4>' + esc(addressLine || buildingName) + '</h4>' +
+          storiesHtml +
+          '<a class="map-pill" href="' + esc(svUrl) + '" target="_blank" rel="noopener">Street View</a>' +
+          '<a class="map-pill" href="' + esc(gmapsUrl) + '" target="_blank" rel="noopener">Google Maps</a>' +
+          '<a class="map-pill" href="' + esc(zillowUrl) + '" target="_blank" rel="noopener">Zillow</a>';
+      }
 
-      new maplibregl.Popup({ maxWidth: '300px' }).setLngLat(e.lngLat).setHTML(bHtml).addTo(map);
+      var bPopup = new maplibregl.Popup({ maxWidth: '300px' })
+        .setLngLat(e.lngLat).setHTML(buildBuildingHtml(null)).addTo(map);
+
+      // Fill in the real street address once reverse geocoding resolves.
+      var glat = Math.round(clickLat * 10000) / 10000;
+      var glng = Math.round(clickLng * 10000) / 10000;
+      reverseGeocode(glat, glng, function (result) {
+        var line = addressFromResult(result);
+        if (line && bPopup.isOpen()) bPopup.setHTML(buildBuildingHtml(line));
+      });
     });
 
     map.on('mouseenter', 'biz-dots', function () {
@@ -862,87 +881,6 @@
     map.on('mouseleave', 'biz-dots', function () {
       map.getCanvas().style.cursor = '';
     });
-
-    // 5. Building hover address popup, desktop only (no real hover on touch)
-    if (!isTouchDevice) {
-      map.on('mousemove', function (e) {
-        // Business hover cards take priority over the building-address hover.
-        // Check them first; only fall through to the building logic when
-        // nothing business-related is under the cursor.
-        var bizLayerIds = getBizLayerIds();
-        var bizFeatures = bizLayerIds.length
-          ? map.queryRenderedFeatures(e.point, { layers: bizLayerIds })
-          : [];
-
-        if (bizFeatures.length) {
-          var bizProps = bizFeatures[0].properties;
-          var bizCoords = bizFeatures[0].geometry.coordinates.slice();
-
-          // Dismiss the previous popup the moment the cursor is over a
-          // DIFFERENT business; keep it (no flicker) while over the same one.
-          var bizAnchor = 'biz:' + (bizProps.name || '') + '|' + (bizProps.address || '');
-          if (lastHoverAnchor !== bizAnchor) {
-            hideHoverPopup();
-            lastHoverAnchor = bizAnchor;
-          } else if (hoverPopup) {
-            return; // card for this business is already up
-          }
-
-          // Dwell debounce, snappier than the building hover since this is
-          // the primary interaction: settle for ~180ms, then show the card.
-          if (hoverTimer) clearTimeout(hoverTimer);
-          var thisBizHoverId = ++hoverId;
-
-          hoverTimer = setTimeout(function () {
-            hoverTimer = null;
-            if (thisBizHoverId !== hoverId) return; // mouse moved off before this fired
-            showBizHoverPopup(bizCoords, bizProps);
-          }, 180);
-          return;
-        }
-
-        var extrusionIds = getExtrusionLayerIds();
-        if (!extrusionIds.length) {
-          hideHoverPopup();
-          return;
-        }
-
-        var buildingFeatures = map.queryRenderedFeatures(e.point, { layers: extrusionIds });
-        if (!buildingFeatures.length) {
-          hideHoverPopup();
-          return;
-        }
-
-        // Dismiss the previous popup as soon as the cursor moves to a
-        // different building cell (about a house-lot of movement); keep the
-        // popup steady while hovering the same spot.
-        var lngLat = e.lngLat;
-        var bldAnchor = 'bld:' + geocodeCacheKey(lngLat.lat, lngLat.lng);
-        if (lastHoverAnchor !== bldAnchor) {
-          hideHoverPopup();
-          lastHoverAnchor = bldAnchor;
-        } else if (hoverPopup) {
-          return; // popup for this spot is already up
-        }
-
-        // Dwell debounce: keep pushing the timer out while the cursor keeps
-        // moving, only fire once it settles for ~450ms over a building.
-        if (hoverTimer) clearTimeout(hoverTimer);
-        var thisHoverId = ++hoverId;
-
-        hoverTimer = setTimeout(function () {
-          hoverTimer = null;
-          var lat = Math.round(lngLat.lat * 10000) / 10000;
-          var lng = Math.round(lngLat.lng * 10000) / 10000;
-          reverseGeocode(lat, lng, function (result) {
-            if (thisHoverId !== hoverId) return; // mouse moved off before this resolved
-            showHoverPopup(lngLat, addressFromResult(result));
-          });
-        }, 450);
-      });
-
-      map.getCanvas().addEventListener('mouseleave', hideHoverPopup);
-    }
   });
 
   // 6. Buttons
