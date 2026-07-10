@@ -13,6 +13,7 @@ on:
 
 permissions:
   contents: write
+  models: read   # lets the built-in GITHUB_TOKEN call GitHub Models (free AI)
 
 jobs:
   refresh:
@@ -29,6 +30,16 @@ jobs:
 
       - name: Refresh news from public local feeds + rotate spotlight
         run: node scripts/refresh-news.mjs
+
+      - name: Install newsletter dependencies
+        run: npm install --no-save imapflow mailparser
+
+      - name: Summarize email newsletters (Gmail + free GitHub Models AI)
+        env:
+          GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/refresh-newsletters.mjs
 
       - name: Commit and push if anything changed
         run: |
