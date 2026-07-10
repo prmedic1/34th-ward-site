@@ -187,8 +187,16 @@ a { color: var(--sky); }
 .ticker-item strong { color: #fff; font-weight: 800; }
 .ticker-sep { color: var(--sky); margin: 0 14px; }
 @media (prefers-reduced-motion: reduce) {
-  .ticker-track.scrolling { animation: none; }
-  .ticker-viewport { overflow-x: auto; }
+  /* The owner wants the news ticker to keep scrolling even for visitors who
+     have Reduce Motion enabled (that phone setting was freezing it). The
+     !important beats the global reduced-motion animation reset further down. */
+  .ticker-track.scrolling {
+    animation-name: ticker-scroll !important;
+    animation-duration: 55s !important;
+    animation-timing-function: linear !important;
+    animation-iteration-count: infinite !important;
+  }
+  .ticker-viewport { overflow: hidden !important; }
 }
 
 /* Signup */
