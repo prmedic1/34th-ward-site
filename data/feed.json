@@ -1,6 +1,42 @@
 {
- "generated_at": "2026-07-09T14:35:00-05:00",
+ "generated_at": "2026-07-10T13:20:00-05:00",
  "items": [
+  {
+   "id": "axios-20260710-live-launch",
+   "category": "business",
+   "source_id": "axios",
+   "source_name": "Axios Chicago",
+   "source_type": "email_newsletter",
+   "title": "'Live Launch' brings a modern mall to the West Loop",
+   "summary": "A new retail concept called Live Launch has opened at 810 W. Washington Blvd, blending online and in-person shopping. Eleven storefronts of online-based brands share a warehouse-like space where you can touch, try on, and check products, then scan a QR code to buy. Current tenants include the Chicago Sky's first standalone shop, Lux & Nyx handbags, and Surreal Cycling.",
+   "url": "https://www.axios.com/local/chicago",
+   "published_at": "2026-07-10T06:29:00-05:00",
+   "flagged_for_review": false
+  },
+  {
+   "id": "politico-20260710-millionaire-tax",
+   "category": "elected_official",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "City Council panel rejects millionaire-tax ballot question",
+   "summary": "The City Council Rules Committee advanced seven non-binding referendum questions for the November and February ballots but turned down Mayor Brandon Johnson's bid to ask voters about a 3 percent tax on millionaires, per the Tribune. The advisory questions let voters weigh in without changing law directly.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-07-10T07:01:00-05:00",
+   "flagged_for_review": false
+  },
+  {
+   "id": "axios-20260710-mail-ballots",
+   "category": "civic_org",
+   "source_id": "axios",
+   "source_name": "Axios Chicago",
+   "source_type": "email_newsletter",
+   "title": "Illinois officials watch mail-ballot rules ahead of 2026 vote",
+   "summary": "Illinois Democrats and Attorney General Kwame Raoul are pressing the U.S. Postal Service over proposed changes to mail-in voting, after a federal judge blocked parts of a Trump executive order on elections. Mail ballots made up roughly 30 percent of votes cast in 2024, so any change to processing timelines could affect voters before the 2026 midterms.",
+   "url": "https://www.axios.com/local/chicago",
+   "published_at": "2026-07-10T06:29:00-05:00",
+   "flagged_for_review": false
+  },
   {
    "id": "politico-20260709-health-commissioner",
    "category": "elected_official",

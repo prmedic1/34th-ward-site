@@ -1,12 +1,12 @@
 {
  "_rotation_note": "The daily job picks the next business each morning - rotating among ward businesses with priority to spotlight requests from owners and newly opened spots. Keep yesterday's entries in history.",
  "current": {
-  "date": "2026-07-09",
-  "name": "Lou Mitchell's",
-  "address": "565 W. Jackson Blvd, West Loop",
-  "website": "https://www.loumitchells.com",
-  "image": "images/lou-mitchells.jpg",
-  "blurb": "A Chicago breakfast landmark at the original starting line of Route 66, serving since 1923. Lou Mitchell's is famous for double-yolk eggs, fluffy skillet omelettes served in the pan, and the free Milk Duds and donut holes handed out while you wait for a table."
+  "date": "2026-07-10",
+  "name": "Mario's Italian Lemonade",
+  "address": "1068 W. Taylor St, Little Italy",
+  "website": "https://www.facebook.com/MariosItalianLemonade/",
+  "image": "images/marios-italian-lemonade.webp",
+  "blurb": "A Taylor Street summer institution since 1954, Mario's is the little red-and-green stand where Chicagoans line up for hand-shaved Italian lemonade in flavors from lemon and cantaloupe to peach and watermelon. Cash only, open only in the warm months, and worth every minute of the wait."
  },
  "history": [
   {
@@ -26,6 +26,14 @@
    "website": "https://www.monteverdechicago.com",
    "blurb": "Chef Sarah Grueneberg, a James Beard Award winner for Best Chef: Great Lakes, turns out some of the country's most celebrated handmade pasta from an open pastificio counter on Madison Street. The cacio whey pepe and ragu alla napoletana are neighborhood legends, and the bar pours a deep Italian wine list. Reservations go fast, but the pasta bar seats are held for walk-ins.",
    "image": "https://monteverdechicago.com/wp-content/uploads/2023/09/Burrata-e-Ham-PB-4-scaled.jpg"
+  },
+  {
+   "date": "2026-07-09",
+   "name": "Lou Mitchell's",
+   "address": "565 W. Jackson Blvd, West Loop",
+   "website": "https://www.loumitchells.com",
+   "image": "images/lou-mitchells.jpg",
+   "blurb": "A Chicago breakfast landmark at the original starting line of Route 66, serving since 1923. Lou Mitchell's is famous for double-yolk eggs, fluffy skillet omelettes served in the pan, and the free Milk Duds and donut holes handed out while you wait for a table."
   }
  ]
 }
