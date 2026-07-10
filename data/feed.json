@@ -1,6 +1,54 @@
 {
- "generated_at": "2026-07-10T23:22:38.677Z",
+ "generated_at": "2026-07-10T23:27:43.506Z",
  "items": [
+  {
+   "id": "blockclub-20260708-jesse-white-tumblers-stun-judges-on-amer",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Jesse White Tumblers Stun Judges On America’s Got Talent,' Even Simon Cowell",
+   "summary": "The youth tumbling team started by former Illinois Secretary of State Jesse White impressed the judges on the reality TV competition Tuesday.",
+   "url": "https://blockclubchicago.org/2026/07/08/jesse-white-tumblers-stun-judges-on-americas-got-talent-even-simon-cowell/",
+   "published_at": "2026-07-08T13:24:00.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260708-upon-his-return-to-the-goodman-nick-offe",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Upon His Return To The Goodman, Nick Offerman Reflects On His Early Days In Chicago Theater",
+   "summary": "The Chicago-area native stars in “Iceboy!” with his wife, Megan Mullally, and performs a one-night solo show Monday at the Ramova in Bridgeport.",
+   "url": "https://blockclubchicago.org/2026/07/08/upon-his-return-to-the-goodman-nick-offerman-reflects-on-his-early-days-in-chicago-theater/",
+   "published_at": "2026-07-08T12:36:00.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260708-chicago-sky-dj-ca-hera-is-making-it-big-",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Chicago Sky DJ Ca$hEra Is Making It Big By Staying True To Herself",
+   "summary": "CaSera Heining, a queer Black female DJ in a male-dominated industry, is in her second full season as the Sky's DJ and spins records at Bulls games and Nike HQ. \"She definitely has an energy about her that commands attention.\"",
+   "url": "https://blockclubchicago.org/2026/07/08/chicago-sky-dj-cahera-is-making-it-big-by-staying-true-to-herself/",
+   "published_at": "2026-07-08T12:22:00.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260707-mubi-fest-returns-with-screenings-at-3-i",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "MUBI Fest Returns With Screenings At 3 Iconic Chicago Theaters",
+   "summary": "Tickets for the July 10-12 movie festival are on sale now. The movie lineup includes \"The Substance,\" \"Sleepaway Camp\" and more.",
+   "url": "https://blockclubchicago.org/2026/07/07/mubi-fest-returns-with-screenings-at-3-iconic-chicago-theaters/",
+   "published_at": "2026-07-07T12:00:00.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "blockclub-20260708-fine-arts-building-welcomes-groundswell-",
    "category": "business",

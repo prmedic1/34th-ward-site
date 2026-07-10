@@ -2,11 +2,11 @@
  "_rotation_note": "The daily job picks the next business each morning - rotating among ward businesses with priority to spotlight requests from owners and newly opened spots. Keep yesterday's entries in history.",
  "current": {
   "date": "2026-07-10",
-  "name": "Sepia",
-  "address": "123 N. Jefferson St, West Loop",
-  "website": "https://www.sepiachicago.com/",
+  "name": "The Publican",
+  "address": "837 W. Fulton Market, Fulton Market",
+  "website": "https://www.thepublicanrestaurant.com/",
   "image": "",
-  "blurb": "Set in a restored 1890s print shop, this Michelin-starred West Loop mainstay pairs refined American cooking with a warm, timeless room. It has been a special-occasion favorite in the neighborhood for well over a decade."
+  "blurb": "A beer-hall-style anchor of Fulton Market, The Publican built its name on oysters, house charcuterie, and pork served at long communal tables. It helped put the neighborhood on the map as a dining destination."
  },
  "history": [
   {
@@ -42,6 +42,14 @@
    "website": "https://www.facebook.com/MariosItalianLemonade/",
    "image": "images/marios-italian-lemonade.webp",
    "blurb": "A Taylor Street summer institution since 1954, Mario's is the little red-and-green stand where Chicagoans line up for hand-shaved Italian lemonade in flavors from lemon and cantaloupe to peach and watermelon. Cash only, open only in the warm months, and worth every minute of the wait."
+  },
+  {
+   "date": "2026-07-10",
+   "name": "Sepia",
+   "address": "123 N. Jefferson St, West Loop",
+   "website": "https://www.sepiachicago.com/",
+   "image": "",
+   "blurb": "Set in a restored 1890s print shop, this Michelin-starred West Loop mainstay pairs refined American cooking with a warm, timeless room. It has been a special-occasion favorite in the neighborhood for well over a decade."
   }
  ]
 }

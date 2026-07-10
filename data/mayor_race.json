@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-10T18:10:30.115Z",
+  "updated_at": "2026-07-10T23:27:41.048Z",
   "election_date": "February 23, 2027",
   "kalshi_event": "KXCHICAGOMAYOR-27",
   "kalshi_url": "https://kalshi.com/markets/kxchicagomayor",
@@ -13,7 +13,7 @@
       "badge": "Favorite",
       "badgeColor": "blue",
       "image": "images/candidates/giannoulias.jpg",
-      "pct": 37.2,
+      "pct": 38.5,
       "kalshi_raw": 47,
       "pe_raw": 43,
       "manifold_raw": 32.6
@@ -26,8 +26,8 @@
       "image": "images/candidates/brewer.jpg",
       "badge": "Underdog",
       "badgeColor": "yellow",
-      "pct": 17,
-      "kalshi_raw": 24,
+      "pct": 14.4,
+      "kalshi_raw": 18,
       "pe_raw": 23,
       "manifold_raw": 4.2
     },
@@ -39,7 +39,7 @@
       "badge": "Incumbent",
       "badgeColor": "green",
       "image": "images/candidates/johnson.jpg",
-      "pct": 9.2,
+      "pct": 9.4,
       "kalshi_raw": 11,
       "pe_raw": null,
       "manifold_raw": 9.6
@@ -50,7 +50,7 @@
       "status": "declared",
       "order": 4,
       "image": "images/candidates/mendoza.jpg",
-      "pct": 20.9,
+      "pct": 21.5,
       "kalshi_raw": 32,
       "pe_raw": 16,
       "manifold_raw": 9.5
@@ -72,7 +72,7 @@
       "status": "declared",
       "order": 6,
       "image": "images/candidates/quigley.jpg",
-      "pct": 3.8,
+      "pct": 3.9,
       "kalshi_raw": 4.6,
       "pe_raw": null,
       "manifold_raw": 3.9
@@ -96,7 +96,7 @@
       "badge": "Conservative",
       "badgeColor": "red",
       "image": "images/candidates/kelly.jpg",
-      "pct": 1.1,
+      "pct": 1.2,
       "kalshi_raw": null,
       "pe_raw": null,
       "manifold_raw": 1.3
@@ -120,7 +120,7 @@
       "image": "images/candidates/cardenas.jpg",
       "badge": "Conservative",
       "badgeColor": "red",
-      "pct": 1.4,
+      "pct": 1.5,
       "kalshi_raw": 1,
       "pe_raw": null,
       "manifold_raw": 3.6
@@ -131,7 +131,7 @@
       "status": "declared",
       "order": 11,
       "image": "images/candidates/stanton.jpg",
-      "pct": 3.8,
+      "pct": 4,
       "kalshi_raw": 5,
       "pe_raw": null,
       "manifold_raw": 2.9
