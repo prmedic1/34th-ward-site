@@ -1,4 +1,4 @@
-const DATA_V = '20260710a';
+const DATA_V = '20260710b';
 
 document.getElementById('year').textContent = new Date().getFullYear();
 
@@ -57,7 +57,7 @@ fetch('data/spotlight.json?d=' + DATA_V)
   .catch((err) => console.error('Failed to load spotlight', err));
 
 // The Front Page: six stories, one per source, newspaper style
-const FRONT_ORDER = ['blockclub', 'axios', 'politico', 'conway', 'cbs', 'abc7'];
+const FRONT_ORDER = ['blockclub', 'eater', 'axios', 'politico', 'cbs', 'abc7'];
 
 Promise.all([
   fetch('data/news_sources.json?d=' + DATA_V).then((r) => r.json()),
@@ -72,12 +72,16 @@ Promise.all([
       feedData.generated_at
     ).toLocaleString('en-US', { dateStyle: 'medium', timeStyle: 'short' });
 
+    // Lead each source with its most neighborhood-focused recent story, and
+    // fall back to the newest if none of them mention the ward directly.
+    const wardKw = /west loop|greektown|fulton market|fulton river|printers row|south loop|near west side|little italy|taylor street|\bthe loop\b|34th ward|randolph|w\.? madison|halsted|west town|wacker|willis tower|union station/i;
     const grid = document.getElementById('frontpage-grid');
     grid.innerHTML = FRONT_ORDER.map((sid) => {
       const src = sources[sid];
-      const story = items.find((it) => it.source_id === sid && !it.flagged_for_review && !it.front_exclude);
+      const eligible = items.filter((it) => it.source_id === sid && !it.flagged_for_review && !it.front_exclude);
+      const story = eligible.find((it) => wardKw.test(it.title + ' ' + (it.summary || ''))) || eligible[0];
       if (!src || !story) return '';
-      return renderFrontStory(src, story, items.filter((it) => it.source_id === sid).length);
+      return renderFrontStory(src, story, eligible.length);
     }).join('');
   })
   .catch((err) => {

@@ -78,6 +78,14 @@
    "monogram": "7",
    "description": "Local Chicago news from ABC7 / WLS-TV.",
    "site": "https://abc7chicago.com/"
+  },
+  {
+   "id": "eater",
+   "name": "Eater Chicago",
+   "editor": "Dining News",
+   "monogram": "E",
+   "description": "Chicago restaurant news, openings, and closings, with heavy West Loop and Fulton Market coverage.",
+   "site": "https://chicago.eater.com/"
   }
  ]
 }

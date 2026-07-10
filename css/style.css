@@ -1179,3 +1179,15 @@ body.photo-banner .hero {
 @media (max-width: 820px) {
   html, body { overflow-x: hidden; max-width: 100%; }
 }
+
+/* Front Page masthead fix (2026-07-10): the mobile grid fix's overflow-wrap:
+   anywhere was breaking source/editor names one letter per line on phones. */
+.np-masthead-text { flex: 1 1 auto; min-width: 0; }
+.np-source-name, .np-editor-name { overflow-wrap: normal; word-break: normal; hyphens: none; }
+@media (max-width: 700px) {
+  .np-masthead { gap: 8px; }
+  .np-logo { max-width: 118px; height: 42px; }
+  .np-editor { width: 46px; height: 46px; }
+  .np-source-name { font-size: 0.82rem; }
+  .np-editor-name { font-size: 0.7rem; }
+}

@@ -2,11 +2,11 @@
  "_rotation_note": "The daily job picks the next business each morning - rotating among ward businesses with priority to spotlight requests from owners and newly opened spots. Keep yesterday's entries in history.",
  "current": {
   "date": "2026-07-10",
-  "name": "The Publican",
-  "address": "837 W. Fulton Market, Fulton Market",
-  "website": "https://www.thepublicanrestaurant.com/",
-  "image": "",
-  "blurb": "A beer-hall-style anchor of Fulton Market, The Publican built its name on oysters, house charcuterie, and pork served at long communal tables. It helped put the neighborhood on the map as a dining destination."
+  "name": "Monteverde Restaurant & Pastificio",
+  "address": "1020 W. Madison St, West Loop",
+  "website": "https://www.monteverdechicago.com/",
+  "image": "images/spotlight/monteverde.jpg",
+  "blurb": "Chef Sarah Grueneberg, a James Beard Award winner, turns out some of the country's most celebrated handmade pasta from an open pastificio counter on Madison Street. The cacio whey pepe and the ragu alla napoletana are neighborhood legends, and the bar pours a deep Italian wine list."
  },
  "history": [
   {
@@ -50,6 +50,14 @@
    "website": "https://www.sepiachicago.com/",
    "image": "",
    "blurb": "Set in a restored 1890s print shop, this Michelin-starred West Loop mainstay pairs refined American cooking with a warm, timeless room. It has been a special-occasion favorite in the neighborhood for well over a decade."
+  },
+  {
+   "date": "2026-07-10",
+   "name": "The Publican",
+   "address": "837 W. Fulton Market, Fulton Market",
+   "website": "https://www.thepublicanrestaurant.com/",
+   "image": "",
+   "blurb": "A beer-hall-style anchor of Fulton Market, The Publican built its name on oysters, house charcuterie, and pork served at long communal tables. It helped put the neighborhood on the map as a dining destination."
   }
  ]
 }

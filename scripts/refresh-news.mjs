@@ -30,14 +30,15 @@ const FEEDS = [
   { source_id: 'blockclub', url: 'https://blockclubchicago.org/category/near-west-side/feed/', local: true },
   { source_id: 'blockclub', url: 'https://blockclubchicago.org/category/downtown/feed/', local: true },
   { source_id: 'cbs', url: 'https://www.cbsnews.com/chicago/latest/rss/main', local: false },
-  { source_id: 'abc7', url: 'https://abc7chicago.com/feed/', local: false }
+  { source_id: 'abc7', url: 'https://abc7chicago.com/feed/', local: false },
+  { source_id: 'eater', url: 'https://chicago.eater.com/rss/index.xml', local: false }
 ];
 
 const SOURCE_NAMES = {
   blockclub: 'Block Club Chicago',
-  wttw: 'WTTW News',
   cbs: 'CBS News Chicago',
-  abc7: 'ABC7 Chicago'
+  abc7: 'ABC7 Chicago',
+  eater: 'Eater Chicago'
 };
 
 // Ward relevance for the citywide outlets.
@@ -51,19 +52,15 @@ const WARD_KEYWORDS = [
 
 const ALLEGATION = /\b(arrest|charged|indict|lawsuit|sued|convicted|accused|alleged|fraud|assault|guilty|felony)\b/i;
 
-// Curated spotlight rotation with a fallback photo and a ready blurb each, so
-// the spotlight never depends on any outside service.
+// Curated spotlight rotation. Every entry has a real, verified local photo so
+// the spotlight ALWAYS shows a picture, with no dependency on a live fetch.
 const SPOTLIGHT_POOL = [
-  { name: 'Monteverde Restaurant & Pastificio', address: '1020 W. Madison St, West Loop', website: 'https://www.monteverdechicago.com/', image: 'https://monteverdechicago.com/wp-content/uploads/2023/09/Burrata-e-Ham-PB-4-scaled.jpg', blurb: 'Chef Sarah Grueneberg, a James Beard Award winner, turns out some of the country\'s most celebrated handmade pasta from an open pastificio counter on Madison Street. The cacio whey pepe and the ragu alla napoletana are neighborhood legends, and the bar pours a deep Italian wine list.' },
-  { name: 'Sepia', address: '123 N. Jefferson St, West Loop', website: 'https://www.sepiachicago.com/', blurb: 'Set in a restored 1890s print shop, this Michelin-starred West Loop mainstay pairs refined American cooking with a warm, timeless room. It has been a special-occasion favorite in the neighborhood for well over a decade.' },
-  { name: 'The Publican', address: '837 W. Fulton Market, Fulton Market', website: 'https://www.thepublicanrestaurant.com/', blurb: 'A beer-hall-style anchor of Fulton Market, The Publican built its name on oysters, house charcuterie, and pork served at long communal tables. It helped put the neighborhood on the map as a dining destination.' },
+  { name: 'Monteverde Restaurant & Pastificio', address: '1020 W. Madison St, West Loop', website: 'https://www.monteverdechicago.com/', image: 'images/spotlight/monteverde.jpg', blurb: 'Chef Sarah Grueneberg, a James Beard Award winner, turns out some of the country\'s most celebrated handmade pasta from an open pastificio counter on Madison Street. The cacio whey pepe and the ragu alla napoletana are neighborhood legends, and the bar pours a deep Italian wine list.' },
+  { name: 'Sepia', address: '123 N. Jefferson St, West Loop', website: 'https://www.sepiachicago.com/', image: 'images/spotlight/sepia.jpg', blurb: 'Set in a restored 1890s print shop, this Michelin-starred West Loop mainstay pairs refined American cooking with a warm, timeless room. It has been a special-occasion favorite in the neighborhood for well over a decade.' },
   { name: "Lou Mitchell's", address: '565 W. Jackson Blvd, West Loop', website: 'https://www.loumitchells.com/', image: 'images/lou-mitchells.jpg', blurb: 'A Chicago breakfast landmark at the original starting line of Route 66, serving since 1923. Lou Mitchell\'s is famous for double-yolk eggs, skillet omelettes served in the pan, and the free Milk Duds and donut holes handed out while you wait.' },
   { name: 'Green Street Smoked Meats', address: '112 N. Green St, West Loop', website: 'https://greenstreetmeats.com/', image: 'images/green-street-smoked-meats.jpg', blurb: 'Tucked down an alley off Green Street, this rollicking barbecue joint serves Texas-style brisket, ribs, and burnt ends by the pound on butcher paper. Cold beer, picnic tables, and a lively bar make it a West Loop staple.' },
-  { name: "Formento's", address: '925 W. Randolph St, West Loop', website: 'https://www.formentos.com/', blurb: 'A love letter to Italian-American red-sauce classics on Randolph Street\'s Restaurant Row. Expect Sunday gravy, house pastas, and a chicken Parm that regulars swear by, all in a handsome, old-school room.' },
-  { name: 'El Che Steakhouse & Bar', address: '845 W. Washington Blvd, West Loop', website: 'https://www.elchechicago.com/', blurb: 'An Argentine-inspired steakhouse where nearly everything touches the open hearth. The wood-fired grill, empanadas, and Malbec-heavy list have made it one of the West Loop\'s most distinctive rooms.' },
   { name: 'The Original Pancake House', address: '1124 W. Madison St, West Loop', website: 'https://ophchicagoland.com/', image: 'images/original-pancake-house.jpg', blurb: 'A breakfast institution since 1953, famous for the oven-baked Dutch Baby and apple pancakes. The West Loop location on Madison fills its striped-awning patio all summer long.' },
-  { name: 'Bar Siena', address: '832 W. Randolph St, West Loop', website: 'https://www.barsiena.com/', blurb: 'A bustling Randolph Street trattoria known for wood-fired pizzas, house pastas, and a lively bar scene. Its patio is one of Restaurant Row\'s favorite warm-weather perches.' },
-  { name: 'Gibsons Italia', address: '233 N. Canal St, Fulton River District', website: 'https://gibsonssteakhouse.com/italia/', blurb: 'The Italian-leaning riverside sibling of the classic Chicago steakhouse, with sweeping views of the Chicago River from the Fulton River District. Prime steaks, fresh pasta, and a see-and-be-seen patio.' }
+  { name: "Mario's Italian Lemonade", address: '1068 W. Taylor St, Little Italy', website: 'https://www.facebook.com/MariosItalianLemonade/', image: 'images/marios-italian-lemonade.webp', blurb: 'A Taylor Street summer institution since 1954, Mario\'s is the little red-and-green stand where Chicagoans line up for hand-shaved Italian lemonade in flavors from lemon and cantaloupe to peach and watermelon. Cash only, open only in the warm months, and worth every minute of the wait.' }
 ];
 
 function decode(s) {
