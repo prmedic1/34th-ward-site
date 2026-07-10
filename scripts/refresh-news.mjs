@@ -1,256 +1,214 @@
 #!/usr/bin/env node
 /**
- * Cloud news refresh for 34thward.com, run by GitHub Actions every morning
- * (works even when the owner's computer is off - that was the whole point).
+ * Free cloud news refresh for 34thward.com, run by GitHub Actions every
+ * morning (works even when the owner's computer is off, which was the point).
  *
- * It reads the day's newsletters straight from Gmail over IMAP, has Claude
- * summarize them into feed items following the site's editorial rules, merges
- * them into data/feed.json, and rotates the daily Business Spotlight.
+ * It pulls public local-news RSS feeds - Block Club Chicago's ward-neighborhood
+ * feeds plus WTTW, CBS, and ABC7 - filters for 34th Ward relevance, cleans the
+ * summaries, merges them into data/feed.json, and rotates the daily Business
+ * Spotlight. No Gmail, no API keys, no secrets, no cost. Pure fetch + Node.
  *
- * Needs three GitHub repository secrets (Settings > Secrets and variables >
- * Actions):
- *   GMAIL_ADDRESS       - chicagojustice@gmail.com
- *   GMAIL_APP_PASSWORD  - a Google "app password" (needs 2-Step Verification on)
- *   ANTHROPIC_API_KEY   - a key from console.anthropic.com
+ * Politico Playbook and Axios Chicago are not here because their sites block
+ * automated access; those come in through the newsletter route when set up.
  *
- * If any secret is missing the script logs a note and exits cleanly, so the
- * rest of the daily refresh (odds, happy hours) still runs.
- *
- * Node 20+, deps: imapflow, mailparser (installed by the workflow).
+ * Node 20+ (built-in fetch). No npm install required.
  */
 import { readFile, writeFile } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
-import { ImapFlow } from 'imapflow';
-import { simpleParser } from 'mailparser';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
-const GMAIL = process.env.GMAIL_ADDRESS || 'chicagojustice@gmail.com';
-const APP_PW = process.env.GMAIL_APP_PASSWORD || '';
-const ANTHROPIC_KEY = process.env.ANTHROPIC_API_KEY || '';
-const MODEL = 'claude-haiku-4-5-20251001';
+const UA = 'Mozilla/5.0 (compatible; 34thward-bot/1.0; +https://34thward.com)';
 
-// Each newsletter sender maps to a source_id + display name + canonical link.
-const SOURCES = {
-  'illinoisplaybook@email.politico.com': { id: 'politico', name: 'POLITICO Illinois Playbook', url: 'https://www.politico.com/newsletters/illinois-playbook' },
-  'chicago@axios.com': { id: 'axios', name: 'Axios Chicago', url: 'https://www.axios.com/local/chicago' },
-  'bill@ward34.org': { id: 'conway', name: "Conway's Corner (34th Ward Office Newsletter)", url: 'https://www.ward34.org/' },
-  'info@indivisiblegwlchi.org': { id: 'igwl', name: 'Indivisible Greater West Loop', url: 'https://www.indivisiblegwlchi.org/' },
-  'info@wcachicago.org': { id: 'wca', name: 'The WCA Weekly', url: 'https://www.wcachicago.org/' },
-  'marketing@westloop.org': { id: 'wlco', name: 'West Loop Community Organization', url: 'https://www.westloop.org/' },
-  'tog515@gmail.com': { id: 'skyline', name: 'Skyline (Inside Publications)', url: 'https://insideonline.com/' }
+// RSS feeds. Block Club neighborhood feeds are already ward-local (no keyword
+// filter). Citywide outlets are filtered to ward-relevant items by keyword.
+const FEEDS = [
+  { source_id: 'blockclub', url: 'https://blockclubchicago.org/category/west-loop/feed/', local: true },
+  { source_id: 'blockclub', url: 'https://blockclubchicago.org/category/loop/feed/', local: true },
+  { source_id: 'blockclub', url: 'https://blockclubchicago.org/category/fulton-market/feed/', local: true },
+  { source_id: 'blockclub', url: 'https://blockclubchicago.org/category/south-loop/feed/', local: true },
+  { source_id: 'blockclub', url: 'https://blockclubchicago.org/category/near-west-side/feed/', local: true },
+  { source_id: 'blockclub', url: 'https://blockclubchicago.org/category/downtown/feed/', local: true },
+  { source_id: 'cbs', url: 'https://www.cbsnews.com/chicago/latest/rss/main', local: false },
+  { source_id: 'abc7', url: 'https://abc7chicago.com/feed/', local: false }
+];
+
+const SOURCE_NAMES = {
+  blockclub: 'Block Club Chicago',
+  wttw: 'WTTW News',
+  cbs: 'CBS News Chicago',
+  abc7: 'ABC7 Chicago'
 };
 
-// Curated spotlight rotation of well-known ward businesses. The script picks
-// the next one not seen recently and has Claude write a fresh blurb.
-// Each entry has a fallback "image" for when the site has no og:image, so a
-// spotlight is never photo-less. The script still prefers a live og:image.
-const SPOTLIGHT_POOL = [
-  { name: 'Monteverde Restaurant & Pastificio', address: '1020 W. Madison St, West Loop', website: 'https://www.monteverdechicago.com/', image: 'https://monteverdechicago.com/wp-content/uploads/2023/09/Burrata-e-Ham-PB-4-scaled.jpg' },
-  { name: 'Sepia', address: '123 N. Jefferson St, West Loop', website: 'https://www.sepiachicago.com/' },
-  { name: 'The Publican', address: '837 W. Fulton Market, Fulton Market', website: 'https://www.thepublicanrestaurant.com/' },
-  { name: "Lou Mitchell's", address: '565 W. Jackson Blvd, West Loop', website: 'https://www.loumitchells.com/', image: 'images/lou-mitchells.jpg' },
-  { name: 'Green Street Smoked Meats', address: '112 N. Green St, West Loop', website: 'https://greenstreetmeats.com/', image: 'images/green-street-smoked-meats.jpg' },
-  { name: "Formento's", address: '925 W. Randolph St, West Loop', website: 'https://www.formentos.com/' },
-  { name: 'El Che Steakhouse & Bar', address: '845 W. Washington Blvd, West Loop', website: 'https://www.elchechicago.com/' },
-  { name: 'The Original Pancake House', address: '1124 W. Madison St, West Loop', website: 'https://ophchicagoland.com/', image: 'images/original-pancake-house.jpg' },
-  { name: 'Bar Siena', address: '832 W. Randolph St, West Loop', website: 'https://www.barsiena.com/' },
-  { name: 'Gibsons Italia', address: '233 N. Canal St, Fulton River District', website: 'https://gibsonssteakhouse.com/italia/' }
+// Ward relevance for the citywide outlets.
+const WARD_KEYWORDS = [
+  'west loop', 'greektown', 'fulton market', 'fulton river', 'printers row',
+  'south loop', 'near west side', 'west town', 'university village',
+  'little italy', 'taylor street', 'randolph street', 'restaurant row',
+  'willis tower', 'sears tower', 'union station', 'ogilvie', 'mary bartelme',
+  'national hellenic', 'the loop', 'downtown chicago', '34th ward', 'wacker drive'
 ];
+
+const ALLEGATION = /\b(arrest|charged|indict|lawsuit|sued|convicted|accused|alleged|fraud|assault|guilty|felony)\b/i;
+
+// Curated spotlight rotation with a fallback photo and a ready blurb each, so
+// the spotlight never depends on any outside service.
+const SPOTLIGHT_POOL = [
+  { name: 'Monteverde Restaurant & Pastificio', address: '1020 W. Madison St, West Loop', website: 'https://www.monteverdechicago.com/', image: 'https://monteverdechicago.com/wp-content/uploads/2023/09/Burrata-e-Ham-PB-4-scaled.jpg', blurb: 'Chef Sarah Grueneberg, a James Beard Award winner, turns out some of the country\'s most celebrated handmade pasta from an open pastificio counter on Madison Street. The cacio whey pepe and the ragu alla napoletana are neighborhood legends, and the bar pours a deep Italian wine list.' },
+  { name: 'Sepia', address: '123 N. Jefferson St, West Loop', website: 'https://www.sepiachicago.com/', blurb: 'Set in a restored 1890s print shop, this Michelin-starred West Loop mainstay pairs refined American cooking with a warm, timeless room. It has been a special-occasion favorite in the neighborhood for well over a decade.' },
+  { name: 'The Publican', address: '837 W. Fulton Market, Fulton Market', website: 'https://www.thepublicanrestaurant.com/', blurb: 'A beer-hall-style anchor of Fulton Market, The Publican built its name on oysters, house charcuterie, and pork served at long communal tables. It helped put the neighborhood on the map as a dining destination.' },
+  { name: "Lou Mitchell's", address: '565 W. Jackson Blvd, West Loop', website: 'https://www.loumitchells.com/', image: 'images/lou-mitchells.jpg', blurb: 'A Chicago breakfast landmark at the original starting line of Route 66, serving since 1923. Lou Mitchell\'s is famous for double-yolk eggs, skillet omelettes served in the pan, and the free Milk Duds and donut holes handed out while you wait.' },
+  { name: 'Green Street Smoked Meats', address: '112 N. Green St, West Loop', website: 'https://greenstreetmeats.com/', image: 'images/green-street-smoked-meats.jpg', blurb: 'Tucked down an alley off Green Street, this rollicking barbecue joint serves Texas-style brisket, ribs, and burnt ends by the pound on butcher paper. Cold beer, picnic tables, and a lively bar make it a West Loop staple.' },
+  { name: "Formento's", address: '925 W. Randolph St, West Loop', website: 'https://www.formentos.com/', blurb: 'A love letter to Italian-American red-sauce classics on Randolph Street\'s Restaurant Row. Expect Sunday gravy, house pastas, and a chicken Parm that regulars swear by, all in a handsome, old-school room.' },
+  { name: 'El Che Steakhouse & Bar', address: '845 W. Washington Blvd, West Loop', website: 'https://www.elchechicago.com/', blurb: 'An Argentine-inspired steakhouse where nearly everything touches the open hearth. The wood-fired grill, empanadas, and Malbec-heavy list have made it one of the West Loop\'s most distinctive rooms.' },
+  { name: 'The Original Pancake House', address: '1124 W. Madison St, West Loop', website: 'https://ophchicagoland.com/', image: 'images/original-pancake-house.jpg', blurb: 'A breakfast institution since 1953, famous for the oven-baked Dutch Baby and apple pancakes. The West Loop location on Madison fills its striped-awning patio all summer long.' },
+  { name: 'Bar Siena', address: '832 W. Randolph St, West Loop', website: 'https://www.barsiena.com/', blurb: 'A bustling Randolph Street trattoria known for wood-fired pizzas, house pastas, and a lively bar scene. Its patio is one of Restaurant Row\'s favorite warm-weather perches.' },
+  { name: 'Gibsons Italia', address: '233 N. Canal St, Fulton River District', website: 'https://gibsonssteakhouse.com/italia/', blurb: 'The Italian-leaning riverside sibling of the classic Chicago steakhouse, with sweeping views of the Chicago River from the Fulton River District. Prime steaks, fresh pasta, and a see-and-be-seen patio.' }
+];
+
+function decode(s) {
+  return String(s || '')
+    .replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, '$1')
+    // Some feeds entity-encode (or double-encode) their HTML markup inside the
+    // field, so turn &lt;tag&gt; (and &amp;lt;) back into real tags, then strip.
+    .replace(/&amp;lt;/g, '<').replace(/&amp;gt;/g, '>')
+    .replace(/&lt;/g, '<').replace(/&gt;/g, '>')
+    .replace(/<[^>]+>/g, ' ')
+    .replace(/&#8217;|&#039;|&#39;|&rsquo;|&lsquo;/g, "'")
+    .replace(/&#8220;|&#8221;|&ldquo;|&rdquo;|&quot;/g, '"')
+    .replace(/&#8211;|&ndash;|&#8212;|&mdash;|—|–/g, ' - ')
+    .replace(/&amp;/g, '&').replace(/&nbsp;/g, ' ')
+    .replace(/&#\d+;|&[a-z]+;/gi, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+function tag(block, name) {
+  const m = block.match(new RegExp('<' + name + '[^>]*>([\\s\\S]*?)</' + name + '>', 'i'));
+  return m ? m[1] : '';
+}
+
+function firstSentences(text, max) {
+  const clean = text.replace(/The post .*? appeared first on .*?\.?$/i, '').trim();
+  if (clean.length <= max) return clean;
+  const cut = clean.slice(0, max);
+  const lastStop = Math.max(cut.lastIndexOf('. '), cut.lastIndexOf('! '), cut.lastIndexOf('? '));
+  return (lastStop > 80 ? cut.slice(0, lastStop + 1) : cut).trim() + (lastStop > 80 ? '' : '...');
+}
+
+function categoryOf(text) {
+  const t = text.toLowerCase();
+  if (/\b(restaurant|bar |cafe|coffee|bakery|shop|store|opens|opening|closing|closed|brewery|market|boutique|business)\b/.test(t)) return 'business';
+  if (/\b(alderman|city council|mayor|ward|ordinance|zoning|budget|election|candidate|referendum)\b/.test(t)) return 'elected_official';
+  return 'civic_org';
+}
 
 function slug(s) {
   return String(s).toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '').slice(0, 40);
 }
 
-async function fetchNewsletters() {
-  const client = new ImapFlow({
-    host: 'imap.gmail.com', port: 993, secure: true,
-    auth: { user: GMAIL, pass: APP_PW }, logger: false
-  });
-  await client.connect();
-  const out = [];
-  const lock = await client.getMailboxLock('INBOX');
+async function fetchFeed(feed) {
   try {
-    const since = new Date(Date.now() - 2 * 24 * 3600 * 1000);
-    for (const [addr, meta] of Object.entries(SOURCES)) {
-      let uids;
-      try { uids = await client.search({ since, from: addr }); }
-      catch { uids = []; }
-      if (!uids || !uids.length) continue;
-      // Newest 1-2 per sender is plenty.
-      const pick = uids.slice(-2);
-      for await (const msg of client.fetch(pick, { source: true })) {
-        try {
-          const p = await simpleParser(msg.source);
-          const text = (p.text || p.html || '').replace(/\s+\n/g, '\n').slice(0, 7000);
-          out.push({
-            source_id: meta.id, source_name: meta.name, source_url: meta.url,
-            subject: p.subject || '', date: (p.date || new Date()).toISOString(),
-            text
-          });
-        } catch { /* skip unparseable */ }
-      }
+    const r = await fetch(feed.url, { headers: { 'User-Agent': UA, Accept: 'application/rss+xml, application/xml, text/xml' } });
+    if (!r.ok) return [];
+    const xml = await r.text();
+    const items = xml.split(/<item[\s>]/i).slice(1).map((chunk) => '<item ' + chunk);
+    const out = [];
+    for (const block of items) {
+      const title = decode(tag(block, 'title'));
+      const link = decode(tag(block, 'link')).trim();
+      const desc = decode(tag(block, 'description'));
+      const pub = tag(block, 'pubDate').trim();
+      if (!title || !link) continue;
+      out.push({ source_id: feed.source_id, local: feed.local, title, link, desc, pub });
     }
-  } finally {
-    lock.release();
+    return out;
+  } catch {
+    return [];
   }
-  await client.logout();
-  return out;
-}
-
-async function askClaude(emails, spotlightCandidate, recentTitles) {
-  const today = new Date().toISOString().slice(0, 10);
-  const emailBlocks = emails.map((e, i) =>
-    `--- EMAIL ${i + 1} ---\nsource_id: ${e.source_id}\nsource: ${e.source_name}\nsubject: ${e.subject}\ndate: ${e.date}\n${e.text}`
-  ).join('\n\n');
-
-  const prompt = `You are the daily editor for 34thward.com, a community news site for Chicago's 34th Ward (the West Loop, Greektown, the Loop, Printers Row, South Loop). Today is ${today}.
-
-From the newsletters below, extract the news items most relevant to 34th Ward residents (local government, local businesses, community events, civic organizations, neighborhood happenings). Prefer local Chicago and ward-specific stories over national politics.
-
-STRICT EDITORIAL RULES:
-1. No em dashes anywhere. Use commas, hyphens, or separate sentences.
-2. Do NOT center coverage on Ald. Bill Conway personally. Report the community impact; his newsletter is just a source.
-3. Never include an event whose date has already passed relative to ${today}. Drop it entirely.
-4. If an item names a specific person alongside an allegation, lawsuit, arrest, or dispute, set "flagged_for_review": true (still include it).
-5. Summaries are factual, specific (addresses, dates, dollar amounts, program names), and 2 to 4 sentences.
-6. Skip pure administrative content (e.g. "no newsletter next week").
-
-Also write a fresh 2 to 3 sentence Business Spotlight blurb for this ward business (warm, factual, no em dashes): ${spotlightCandidate.name} at ${spotlightCandidate.address}.
-
-Do not repeat any of these already-published headlines: ${recentTitles.slice(0, 20).join(' | ')}
-
-Return ONLY valid JSON, no prose, in exactly this shape:
-{
-  "items": [
-    { "source_id": "politico|axios|conway|igwl|wca|wlco|skyline", "category": "elected_official|business|civic_org|religious_org|newsletter", "title": "Headline, no em dashes", "summary": "2-4 sentences, no em dashes", "flagged_for_review": false }
-  ],
-  "spotlight_blurb": "2-3 sentence blurb"
-}`;
-
-  const res = await fetch('https://api.anthropic.com/v1/messages', {
-    method: 'POST',
-    headers: {
-      'x-api-key': ANTHROPIC_KEY,
-      'anthropic-version': '2023-06-01',
-      'content-type': 'application/json'
-    },
-    body: JSON.stringify({
-      model: MODEL,
-      max_tokens: 2500,
-      messages: [{ role: 'user', content: prompt + '\n\nNEWSLETTERS:\n' + emailBlocks }]
-    })
-  });
-  if (!res.ok) throw new Error('Anthropic HTTP ' + res.status + ' ' + (await res.text()).slice(0, 200));
-  const data = await res.json();
-  const raw = (data.content && data.content[0] && data.content[0].text) || '';
-  const jsonStart = raw.indexOf('{');
-  const jsonEnd = raw.lastIndexOf('}');
-  if (jsonStart < 0 || jsonEnd < 0) throw new Error('No JSON in model reply');
-  return JSON.parse(raw.slice(jsonStart, jsonEnd + 1));
-}
-
-async function ogImage(url) {
-  try {
-    const r = await fetch(url, { headers: { 'User-Agent': 'Mozilla/5.0 (34thward-bot)' }, redirect: 'follow' });
-    if (!r.ok) return '';
-    const html = await r.text();
-    const m = html.match(/<meta[^>]+property=["']og:image["'][^>]+content=["']([^"']+)["']/i) ||
-      html.match(/<meta[^>]+content=["']([^"']+)["'][^>]+property=["']og:image["']/i);
-    return m ? m[1] : '';
-  } catch { return ''; }
 }
 
 async function main() {
-  if (!APP_PW || !ANTHROPIC_KEY) {
-    console.log('News refresh skipped: set GMAIL_APP_PASSWORD and ANTHROPIC_API_KEY repo secrets to enable it.');
-    return;
-  }
-
   const feedPath = join(ROOT, 'data', 'feed.json');
   const spotPath = join(ROOT, 'data', 'spotlight.json');
   const feed = JSON.parse(await readFile(feedPath, 'utf8'));
   const spot = JSON.parse(await readFile(spotPath, 'utf8'));
 
-  const emails = await fetchNewsletters();
-  if (!emails.length) {
-    console.log('No newsletters found in the last 2 days; nothing to add.');
-    return;
+  const results = await Promise.all(FEEDS.map(fetchFeed));
+  const raw = results.flat();
+
+  const cutoff = Date.now() - 6 * 24 * 3600 * 1000;
+  const seenTitle = new Set();
+  const candidates = [];
+  for (const it of raw) {
+    const key = it.title.toLowerCase();
+    if (seenTitle.has(key)) continue;
+    seenTitle.add(key);
+    const when = it.pub ? new Date(it.pub).getTime() : Date.now();
+    if (isFinite(when) && when < cutoff) continue;
+    const hay = (it.title + ' ' + it.desc).toLowerCase();
+    if (!it.local && !WARD_KEYWORDS.some((k) => hay.includes(k))) continue;
+    // Unattended automation must not publish accusations or legal claims as
+    // fact (owner rule). When in doubt, leave it out - so skip, don't flag.
+    if (ALLEGATION.test(it.title + ' ' + it.desc)) continue;
+    const wardHit = WARD_KEYWORDS.some((k) => hay.includes(k)) ? 1 : 0;
+    candidates.push({ ...it, when: isFinite(when) ? when : Date.now(), wardHit });
   }
+  // Ward-specific stories lead; then most recent. Keeps the feed local-first.
+  candidates.sort((a, b) => (b.wardHit - a.wardHit) || (b.when - a.when));
 
-  // Choose the next spotlight business not used in the recent history.
-  const recentNames = new Set([
-    spot.current && spot.current.name,
-    ...(spot.history || []).slice(-Math.min(30, SPOTLIGHT_POOL.length - 1)).map((h) => h.name)
-  ].filter(Boolean));
-  const candidate = SPOTLIGHT_POOL.find((b) => !recentNames.has(b.name)) || SPOTLIGHT_POOL[0];
-
-  const recentTitles = (feed.items || []).slice(0, 25).map((it) => it.title);
-  const result = await askClaude(emails, candidate, recentTitles);
-
-  // Merge feed items.
   const existingIds = new Set((feed.items || []).map((it) => it.id));
-  const existingTK = new Set((feed.items || []).map((it) => it.source_id + '|' + (it.title || '').toLowerCase()));
-  const byId = Object.fromEntries(Object.values(SOURCES).map((s) => [s.id, s]));
-  const emailBySource = {};
-  emails.forEach((e) => { emailBySource[e.source_id] = e; });
+  const existingTK = new Set((feed.items || []).map((it) => (it.title || '').toLowerCase()));
+  const existingUrl = new Set((feed.items || []).map((it) => it.url));
 
   let added = 0;
   const fresh = [];
-  for (const it of (result.items || [])) {
-    const src = byId[it.source_id];
-    if (!src || !it.title || !it.summary) continue;
-    const dateStr = (emailBySource[it.source_id] || {}).date || new Date().toISOString();
-    const ymd = dateStr.slice(0, 10).replace(/-/g, '');
-    const id = `${it.source_id}-${ymd}-${slug(it.title)}`;
-    const tk = it.source_id + '|' + it.title.toLowerCase();
-    if (existingIds.has(id) || existingTK.has(tk)) continue;
-    existingIds.add(id); existingTK.add(tk);
+  for (const c of candidates) {
+    if (added >= 8) break;
+    const id = `${c.source_id}-${new Date(c.when).toISOString().slice(0, 10).replace(/-/g, '')}-${slug(c.title)}`;
+    if (existingIds.has(id) || existingTK.has(c.title.toLowerCase()) || existingUrl.has(c.link)) continue;
+    existingIds.add(id); existingTK.add(c.title.toLowerCase()); existingUrl.add(c.link);
+    const summary = firstSentences(c.desc || c.title, 300);
     fresh.push({
       id,
-      category: it.category || 'newsletter',
-      source_id: it.source_id,
-      source_name: src.name,
-      source_type: 'email_newsletter',
-      title: it.title,
-      summary: it.summary,
-      url: src.url,
-      published_at: dateStr,
-      flagged_for_review: !!it.flagged_for_review
+      category: categoryOf(c.title + ' ' + c.desc),
+      source_id: c.source_id,
+      source_name: SOURCE_NAMES[c.source_id] || c.source_id,
+      source_type: 'web_feed',
+      title: c.title,
+      summary: summary || c.title,
+      url: c.link,
+      published_at: new Date(c.when).toISOString(),
+      flagged_for_review: false
     });
     added++;
   }
 
   if (added) {
     feed.items = fresh.concat(feed.items || []);
-    // Trim items older than 21 days if the list gets long.
-    if (feed.items.length > 60) {
-      const cutoff = Date.now() - 21 * 24 * 3600 * 1000;
-      feed.items = feed.items.filter((it) => new Date(it.published_at).getTime() > cutoff || feed.items.indexOf(it) < 40);
+    if (feed.items.length > 70) {
+      const old = Date.now() - 21 * 24 * 3600 * 1000;
+      feed.items = feed.items.filter((it, i) => i < 45 || new Date(it.published_at).getTime() > old);
     }
     feed.generated_at = new Date().toISOString();
     await writeFile(feedPath, JSON.stringify(feed, null, 1) + '\n');
   }
 
-  // Rotate spotlight.
-  if (result.spotlight_blurb) {
-    const img = (await ogImage(candidate.website)) || candidate.image || '';
-    if (spot.current) {
-      spot.history = spot.history || [];
-      spot.history.push(spot.current);
-    }
-    spot.current = {
-      date: new Date().toISOString().slice(0, 10),
-      name: candidate.name,
-      address: candidate.address,
-      website: candidate.website,
-      image: img || (spot.current && spot.current.image) || '',
-      blurb: result.spotlight_blurb
-    };
-    await writeFile(spotPath, JSON.stringify(spot, null, 1) + '\n');
-  }
+  // Rotate the spotlight (curated pool, skipping the recent ones).
+  const recent = new Set([
+    spot.current && spot.current.name,
+    ...(spot.history || []).slice(-Math.min(30, SPOTLIGHT_POOL.length - 1)).map((h) => h.name)
+  ].filter(Boolean));
+  const pick = SPOTLIGHT_POOL.find((b) => !recent.has(b.name)) || SPOTLIGHT_POOL[0];
+  if (spot.current) { spot.history = spot.history || []; spot.history.push(spot.current); }
+  spot.current = {
+    date: new Date().toISOString().slice(0, 10),
+    name: pick.name, address: pick.address, website: pick.website,
+    image: pick.image || '', blurb: pick.blurb
+  };
+  await writeFile(spotPath, JSON.stringify(spot, null, 1) + '\n');
 
-  console.log(`News refresh: added ${added} feed item(s) from ${emails.length} newsletter(s); spotlight -> ${candidate.name}.`);
+  console.log(`News refresh: added ${added} item(s) from ${raw.length} feed entries; spotlight -> ${pick.name}.`);
 }
 
 main().catch((e) => {

@@ -2,11 +2,11 @@
  "_rotation_note": "The daily job picks the next business each morning - rotating among ward businesses with priority to spotlight requests from owners and newly opened spots. Keep yesterday's entries in history.",
  "current": {
   "date": "2026-07-10",
-  "name": "Mario's Italian Lemonade",
-  "address": "1068 W. Taylor St, Little Italy",
-  "website": "https://www.facebook.com/MariosItalianLemonade/",
-  "image": "images/marios-italian-lemonade.webp",
-  "blurb": "A Taylor Street summer institution since 1954, Mario's is the little red-and-green stand where Chicagoans line up for hand-shaved Italian lemonade in flavors from lemon and cantaloupe to peach and watermelon. Cash only, open only in the warm months, and worth every minute of the wait."
+  "name": "Sepia",
+  "address": "123 N. Jefferson St, West Loop",
+  "website": "https://www.sepiachicago.com/",
+  "image": "",
+  "blurb": "Set in a restored 1890s print shop, this Michelin-starred West Loop mainstay pairs refined American cooking with a warm, timeless room. It has been a special-occasion favorite in the neighborhood for well over a decade."
  },
  "history": [
   {
@@ -34,6 +34,14 @@
    "website": "https://www.loumitchells.com",
    "image": "images/lou-mitchells.jpg",
    "blurb": "A Chicago breakfast landmark at the original starting line of Route 66, serving since 1923. Lou Mitchell's is famous for double-yolk eggs, fluffy skillet omelettes served in the pan, and the free Milk Duds and donut holes handed out while you wait for a table."
+  },
+  {
+   "date": "2026-07-10",
+   "name": "Mario's Italian Lemonade",
+   "address": "1068 W. Taylor St, Little Italy",
+   "website": "https://www.facebook.com/MariosItalianLemonade/",
+   "image": "images/marios-italian-lemonade.webp",
+   "blurb": "A Taylor Street summer institution since 1954, Mario's is the little red-and-green stand where Chicagoans line up for hand-shaved Italian lemonade in flavors from lemon and cantaloupe to peach and watermelon. Cash only, open only in the warm months, and worth every minute of the wait."
   }
  ]
 }
