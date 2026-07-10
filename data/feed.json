@@ -1,6 +1,102 @@
 {
- "generated_at": "2026-07-10T23:27:43.506Z",
+ "generated_at": "2026-07-10T23:56:32.403Z",
  "items": [
+  {
+   "id": "wca-20260710-west-loop-art-fest-mark-your-calendar-fo",
+   "category": "civic_org",
+   "source_id": "wca",
+   "source_name": "The WCA Weekly",
+   "source_type": "email_newsletter",
+   "title": "West Loop Art Fest: Mark Your Calendar for August 22 & 23",
+   "summary": "Join us August 22 & 23 as Fulton Street between Carpenter and Green Street transforms into a vibrant outdoor art experience in the heart of Chicago's West Loop. Explore original artwork from talented artists, watch live art demonstrations, discover interactive experiences, and support the creative community that makes our neighborhood so unique.",
+   "url": "https://www.wcachicago.org/",
+   "published_at": "2026-07-10T11:30:40.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "wca-20260710-new-member-spotlight-fred-astaire-dance-",
+   "category": "business",
+   "source_id": "wca",
+   "source_name": "The WCA Weekly",
+   "source_type": "email_newsletter",
+   "title": "New Member Spotlight: Fred Astaire Dance Studio West Loop",
+   "summary": "Located at 943 W Randolph Street, Fred Astaire Dance Studio West Loop offers ballroom and Latin dance instruction for individuals and couples. Their programs include private lessons, group classes, and social dance opportunities, helping students of all experience levels learn something new and connect through dance.",
+   "url": "https://www.wcachicago.org/",
+   "published_at": "2026-07-10T11:30:40.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "wca-20260710-new-member-spotlight-stepping-stones-nur",
+   "category": "business",
+   "source_id": "wca",
+   "source_name": "The WCA Weekly",
+   "source_type": "email_newsletter",
+   "title": "New Member Spotlight: Stepping Stones Nursery School West Loop",
+   "summary": "Stepping Stones Nursery School West Loop, located at 1025 W Van Buren Street, is a Reggio-inspired early childhood education center serving children from 6 weeks to 5 years old. Their curriculum emphasizes language-rich learning and sensory exploration, providing a nurturing environment for children's growth.",
+   "url": "https://www.wcachicago.org/",
+   "published_at": "2026-07-10T11:30:40.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "politico-20260710-aldermen-reject-mayor-brandon-johnson-s-",
+   "category": "elected_official",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Aldermen reject Mayor Brandon Johnson’s move to ask voters if millionaires should be taxed",
+   "summary": "The City Council Rules Committee advanced four non-binding referendum proposals for the November ballot, but turned down Mayor Brandon Johnson’s bid to gauge voter support for a 3 percent tax on millionaires. This decision reflects ongoing debates about taxation and funding in Chicago.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-07-10T11:59:36.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "wca-20260710-hunt-for-good-raises-over-41-000-to-supp",
+   "category": "civic_org",
+   "source_id": "wca",
+   "source_name": "The WCA Weekly",
+   "source_type": "email_newsletter",
+   "title": "Hunt for Good Raises Over $41,000 to Support Chicago Youth",
+   "summary": "The WCA supported The Simple Good's 11th Annual Hunt for Good Chicago Art Scavenger Hunt, raising $41,120 for arts-based social-emotional learning programs. The event engaged 160 participants and completed 430 acts of kindness across seven neighborhoods.",
+   "url": "https://www.wcachicago.org/",
+   "published_at": "2026-07-10T11:30:40.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "wca-20260710-formento-s-summer-private-dining-offer",
+   "category": "business",
+   "source_id": "wca",
+   "source_name": "The WCA Weekly",
+   "source_type": "email_newsletter",
+   "title": "Formento's Summer Private Dining Offer",
+   "summary": "Enjoy 15% off all food and beverage for any event booked and consumed in July at Formento's. This offer is valid for corporate gatherings, birthday celebrations, and other special occasions, providing elegant private dining spaces and customizable menus.",
+   "url": "https://www.wcachicago.org/",
+   "published_at": "2026-07-10T11:30:40.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "wca-20260710-get-your-cycling-relay-team-ready",
+   "category": "civic_org",
+   "source_id": "wca",
+   "source_name": "The WCA Weekly",
+   "source_type": "email_newsletter",
+   "title": "Get Your Cycling Relay Team Ready!",
+   "summary": "The Charity Divvy Relay during the xXx Racing Fulton Market Grand Prix invites teams of one to four riders to cycle through Fulton Market while raising funds for bike safety and community programs. Sign up your team today to participate in this unique event.",
+   "url": "https://www.wcachicago.org/",
+   "published_at": "2026-07-10T11:30:40.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "wca-20260710-project-windows-2026-now-on-display-acro",
+   "category": "civic_org",
+   "source_id": "wca",
+   "source_name": "The WCA Weekly",
+   "source_type": "email_newsletter",
+   "title": "Project Windows 2026 Now on Display Across Chicago",
+   "summary": "Project Windows 2026 transforms storefronts into vibrant public art installations inspired by the Art Institute of Chicago's exhibition. This year's program features over 100 participating window displays, including several in the West Loop, encouraging community engagement and artistic appreciation.",
+   "url": "https://www.wcachicago.org/",
+   "published_at": "2026-07-10T11:30:40.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "blockclub-20260708-jesse-white-tumblers-stun-judges-on-amer",
    "category": "civic_org",
