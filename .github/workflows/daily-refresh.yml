@@ -27,6 +27,16 @@ jobs:
       - name: Refresh public data (Kalshi odds + happy-hour sheet)
         run: node scripts/refresh-data.mjs
 
+      - name: Install news-refresh dependencies
+        run: npm install --no-save imapflow mailparser
+
+      - name: Refresh news from Gmail newsletters + rotate spotlight
+        env:
+          GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: node scripts/refresh-news.mjs
+
       - name: Commit and push if anything changed
         run: |
           git config user.name "34thward-bot"
