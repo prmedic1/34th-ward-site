@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-09T19:01:23.337Z",
+  "updated_at": "2026-07-10T18:08:53.474Z",
   "election_date": "February 23, 2027",
   "kalshi_event": "KXCHICAGOMAYOR-27",
   "kalshi_url": "https://kalshi.com/markets/kxchicagomayor",
@@ -13,7 +13,7 @@
       "badge": "Favorite",
       "badgeColor": "blue",
       "image": "images/candidates/giannoulias.jpg",
-      "pct": 36.5,
+      "pct": 37.2,
       "kalshi_raw": 47,
       "pe_raw": 43,
       "manifold_raw": 32.6
@@ -26,7 +26,7 @@
       "image": "images/candidates/brewer.jpg",
       "badge": "Underdog",
       "badgeColor": "yellow",
-      "pct": 16.7,
+      "pct": 17,
       "kalshi_raw": 24,
       "pe_raw": 23,
       "manifold_raw": 4.2
@@ -39,7 +39,7 @@
       "badge": "Incumbent",
       "badgeColor": "green",
       "image": "images/candidates/johnson.jpg",
-      "pct": 9,
+      "pct": 9.2,
       "kalshi_raw": 11,
       "pe_raw": null,
       "manifold_raw": 9.6
@@ -50,7 +50,7 @@
       "status": "declared",
       "order": 4,
       "image": "images/candidates/mendoza.jpg",
-      "pct": 20.5,
+      "pct": 20.9,
       "kalshi_raw": 32,
       "pe_raw": 16,
       "manifold_raw": 9.5
@@ -61,7 +61,7 @@
       "status": "declared",
       "order": 5,
       "image": "images/candidates/pappas.jpg",
-      "pct": 1.1,
+      "pct": 1.2,
       "kalshi_raw": 0.2,
       "pe_raw": null,
       "manifold_raw": 4.8
@@ -72,7 +72,7 @@
       "status": "declared",
       "order": 6,
       "image": "images/candidates/quigley.jpg",
-      "pct": 3.7,
+      "pct": 3.8,
       "kalshi_raw": 4.6,
       "pe_raw": null,
       "manifold_raw": 3.9
@@ -107,7 +107,7 @@
       "status": "declared",
       "order": 9,
       "image": "images/candidates/holberg.jpg",
-      "pct": 2.4,
+      "pct": 2.5,
       "kalshi_raw": 3,
       "pe_raw": null,
       "manifold_raw": 2.5
@@ -131,8 +131,8 @@
       "status": "declared",
       "order": 11,
       "image": "images/candidates/stanton.jpg",
-      "pct": 5.7,
-      "kalshi_raw": 8,
+      "pct": 3.8,
+      "kalshi_raw": 5,
       "pe_raw": null,
       "manifold_raw": 2.9
     },
