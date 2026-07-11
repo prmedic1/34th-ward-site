@@ -1191,3 +1191,20 @@ body.photo-banner .hero {
   .np-source-name { font-size: 0.82rem; }
   .np-editor-name { font-size: 0.7rem; }
 }
+
+/* Mayor race: clickable candidate cards + Kalshi predict button (2026-07-11) */
+a.race-card { text-decoration: none; color: inherit; cursor: pointer; }
+a.race-card:hover { transform: translateY(-3px); box-shadow: 0 6px 18px rgba(6,48,63,0.16); }
+.race-kalshi-btn {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 9px 18px;
+  background: var(--navy);
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.9rem;
+  border-radius: 999px;
+  text-decoration: none;
+  transition: background 200ms var(--ease-out), transform 200ms var(--ease-out);
+}
+.race-kalshi-btn:hover { background: #14bef1; color: #06303f; transform: translateY(-1px); }

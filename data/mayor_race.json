@@ -16,7 +16,8 @@
       "pct": 38.5,
       "kalshi_raw": 47,
       "pe_raw": 43,
-      "manifold_raw": 32.6
+      "manifold_raw": 32.6,
+      "campaign_url": "https://www.ilsos.gov/"
     },
     {
       "name": "Matthew Brewer",
@@ -42,7 +43,8 @@
       "pct": 9.4,
       "kalshi_raw": 11,
       "pe_raw": null,
-      "manifold_raw": 9.6
+      "manifold_raw": 9.6,
+      "campaign_url": "https://www.chicago.gov/city/en/depts/mayor.html"
     },
     {
       "name": "Susana Mendoza",
@@ -53,7 +55,8 @@
       "pct": 21.5,
       "kalshi_raw": 32,
       "pe_raw": 16,
-      "manifold_raw": 9.5
+      "manifold_raw": 9.5,
+      "campaign_url": "https://susanamendoza.com/"
     },
     {
       "name": "Maria Pappas",
@@ -64,7 +67,8 @@
       "pct": 1.2,
       "kalshi_raw": 0.2,
       "pe_raw": null,
-      "manifold_raw": 4.8
+      "manifold_raw": 4.8,
+      "campaign_url": "https://www.cookcountytreasurer.com/"
     },
     {
       "name": "Mike Quigley",
@@ -75,7 +79,8 @@
       "pct": 3.9,
       "kalshi_raw": 4.6,
       "pe_raw": null,
-      "manifold_raw": 3.9
+      "manifold_raw": 3.9,
+      "campaign_url": "https://quigley.house.gov/"
     },
     {
       "name": "Willie Wilson",
@@ -86,7 +91,8 @@
       "pct": 0.2,
       "kalshi_raw": null,
       "pe_raw": null,
-      "manifold_raw": 0.2
+      "manifold_raw": 0.2,
+      "campaign_url": "https://drwilliewilson.com/"
     },
     {
       "name": "John Kelly",
@@ -110,7 +116,8 @@
       "pct": 2.5,
       "kalshi_raw": 3,
       "pe_raw": null,
-      "manifold_raw": 2.5
+      "manifold_raw": 2.5,
+      "campaign_url": "https://www.joeforchicago.com/"
     },
     {
       "name": "George Cardenas",
@@ -134,7 +141,8 @@
       "pct": 4,
       "kalshi_raw": 5,
       "pe_raw": null,
-      "manifold_raw": 2.9
+      "manifold_raw": 2.9,
+      "campaign_url": "https://www.stantonforchicago.com/"
     },
     {
       "name": "Dr. Lisa Nee",
@@ -144,7 +152,8 @@
       "image": "images/candidates/nee.webp",
       "pct": 0.4,
       "kalshi_raw": null,
-      "pe_raw": null
+      "pe_raw": null,
+      "campaign_url": "https://www.lisaneeforchicago.com/"
     },
     {
       "name": "Bill Conway",
@@ -155,7 +164,8 @@
       "pct": 1.3,
       "kalshi_raw": null,
       "pe_raw": null,
-      "manifold_raw": 1.5
+      "manifold_raw": 1.5,
+      "campaign_url": "https://www.ward34.org/"
     }
   ]
 }

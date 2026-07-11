@@ -1,4 +1,4 @@
-const DATA_V = '20260711b';
+const DATA_V = '20260711c';
 
 document.getElementById('year').textContent = new Date().getFullYear();
 
@@ -21,17 +21,28 @@ fetch('data/mayor_race.json?d=' + DATA_V)
           ? `<span class="race-badge race-badge-${c.badgeColor}">${escapeHtml(c.badge)}</span>`
           : '';
         const badgeClass = c.badgeColor ? ` badge-${c.badgeColor}` : '';
-        return `
-          <div class="race-card${badgeClass}">
+        const inner = `
             ${badge}
             ${img}
             ${pct}
             <strong>${escapeHtml(c.name)}</strong>
             <span class="race-role">${escapeHtml(c.role)}</span>
-            <span class="race-status race-status-${c.status}">${statusLabel[c.status] || c.status}</span>
-          </div>`;
+            <span class="race-status race-status-${c.status}">${statusLabel[c.status] || c.status}</span>`;
+        // Link the card to the candidate's campaign or official political site.
+        return c.campaign_url
+          ? `<a class="race-card${badgeClass}" href="${escapeAttr(c.campaign_url)}" target="_blank" rel="noopener" title="${escapeAttr(c.name)} website">${inner}</a>`
+          : `<div class="race-card${badgeClass}">${inner}</div>`;
       })
       .join('');
+
+    // "Predict the winner" button linking to the Kalshi market.
+    if (data.kalshi_url) {
+      const header = document.querySelector('.race-header');
+      if (header && !header.querySelector('.race-kalshi-btn')) {
+        header.insertAdjacentHTML('beforeend',
+          `<a class="race-kalshi-btn" href="${escapeAttr(data.kalshi_url)}" target="_blank" rel="noopener">Predict the winner on Kalshi &rarr;</a>`);
+      }
+    }
     document.getElementById('mayor-race').hidden = false;
   })
   .catch((err) => console.error('Failed to load mayor race', err));
