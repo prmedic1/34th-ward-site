@@ -1,4 +1,4 @@
-const DATA_V = '20260710b';
+const DATA_V = '20260711a';
 
 document.getElementById('year').textContent = new Date().getFullYear();
 
@@ -57,7 +57,7 @@ fetch('data/spotlight.json?d=' + DATA_V)
   .catch((err) => console.error('Failed to load spotlight', err));
 
 // The Front Page: six stories, one per source, newspaper style
-const FRONT_ORDER = ['blockclub', 'eater', 'axios', 'politico', 'cbs', 'abc7'];
+const FRONT_ORDER = ['blockclub', 'eater', 'wca', 'axios', 'politico', 'conway'];
 
 Promise.all([
   fetch('data/news_sources.json?d=' + DATA_V).then((r) => r.json()),
