@@ -114,10 +114,32 @@
 
   </div>
 
+  <h3 class="section-heading">Agent Spotlight</h3>
+  <section class="spotlight-section" id="agent-spotlight" hidden style="margin-top:0;">
+    <div class="spotlight-inner">
+      <div class="spotlight-card">
+        <img id="agent-img" src="" alt="">
+        <div class="spotlight-body">
+          <h3 id="agent-name"></h3>
+          <p class="spotlight-address" id="agent-brokerage"></p>
+          <p id="agent-blurb"></p>
+          <p id="agent-phone" class="spotlight-address"></p>
+          <a id="agent-link" class="spotlight-btn" href="#" target="_blank" rel="noopener">Visit their site &rarr;</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <h3 class="section-heading">West Loop Realtors</h3>
+  <div class="neighborhood-grid" id="agents-grid"></div>
+
+  <h3 class="section-heading">Brokerages Serving the Ward</h3>
+  <div class="neighborhood-grid" id="brokerages-grid"></div>
+
   <p class="disclaimer directory-note">
-    These links go to independent listing services; 34thward.com has no affiliation with them and receives nothing from
-    clicks or leases. Listings, prices, and availability are managed entirely by those sites. Searches are pre-set to the
-    West Loop - from any of them you can widen to Greektown, the Loop, Printers Row, or the South Loop.
+    These links go to independent listing services and brokerages; 34thward.com has no affiliation with them and receives
+    nothing from clicks, leases, or referrals. Listings, prices, and availability are managed entirely by those sites.
+    Are you a West Loop agent who should be featured here? <a href="mailto:chicagojustice@gmail.com?subject=Add%20me%20to%20the%2034thward.com%20realtor%20list&body=Name%3A%0ABrokerage%3A%0AWebsite%3A%0APhone%3A%0AWhy%20the%20West%20Loop%3A">Send your info</a> and we will add you.
   </p>
 </main>
 
@@ -125,7 +147,53 @@
   <p>&copy; <span id="year"></span> In and Around the West Loop &middot; 34thward.com</p>
 </footer>
 
-<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+
+  function esc(str) { const d = document.createElement('div'); d.textContent = str == null ? '' : str; return d.innerHTML; }
+  function escA(str) { return String(str == null ? '' : str).replace(/"/g, '&quot;'); }
+
+  fetch('data/agents.json?d=20260711c')
+    .then((r) => r.json())
+    .then((data) => {
+      const agents = data.agents || [];
+      if (agents.length) {
+        // Rotate the featured agent by day so it changes on its own.
+        const day = Math.floor(Date.now() / 86400000);
+        const feat = agents[day % agents.length];
+        const img = document.getElementById('agent-img');
+        if (feat.image) { img.src = feat.image; img.onerror = () => { img.style.display = 'none'; }; }
+        else { img.style.display = 'none'; }
+        document.getElementById('agent-name').textContent = feat.name;
+        document.getElementById('agent-brokerage').textContent = feat.brokerage || '';
+        document.getElementById('agent-blurb').textContent = feat.blurb || '';
+        document.getElementById('agent-phone').textContent = feat.phone || '';
+        document.getElementById('agent-link').href = feat.url || '#';
+        document.getElementById('agent-spotlight').hidden = false;
+      }
+
+      document.getElementById('agents-grid').innerHTML = agents.map((a) => {
+        const pic = a.image
+          ? `<img class="card-img" src="${escA(a.image)}" alt="${escA(a.name)}" onerror="this.remove()">`
+          : '';
+        const phone = a.phone ? ` &middot; ${esc(a.phone)}` : '';
+        return `<article class="card">
+          ${pic}
+          <h4>${esc(a.name)}</h4>
+          <p class="summary">${esc(a.brokerage)}${phone}. ${esc((a.blurb || '').split('. ')[0])}.</p>
+          <a class="read-more" href="${escA(a.url)}" target="_blank" rel="noopener">Visit their site &rarr;</a>
+        </article>`;
+      }).join('');
+
+      document.getElementById('brokerages-grid').innerHTML = (data.brokerages || []).map((b) => `
+        <article class="card">
+          <h4>${esc(b.name)}</h4>
+          <p class="summary">${esc(b.note)}</p>
+          <a class="read-more" href="${escA(b.url)}" target="_blank" rel="noopener">Visit website &rarr;</a>
+        </article>`).join('');
+    })
+    .catch((err) => console.error('Failed to load agents', err));
+</script>
 <script src="js/ticker.js?v=20260708a"></script>
 </body>
 </html>

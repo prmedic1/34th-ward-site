@@ -1,0 +1,53 @@
+{
+ "note": "Curated West Loop / 34th Ward real estate agents. The Agent Spotlight rotates through this list by day. Add agents here as they are confirmed.",
+ "agents": [
+  {
+   "name": "Stephanie Fedor",
+   "brokerage": "LAKE Group at Compass",
+   "image": "images/agents/stephanie-fedor.jpg",
+   "url": "https://www.compass.com/agents/stephanie-fedor/",
+   "phone": "(312) 618-1251",
+   "blurb": "A licensed Chicago broker since 2018 and part of Compass's LAKE Group, a Top Producing team with more than $650 million in sales. Stephanie has lived downtown for nearly two decades and knows the West Loop intimately, having helped open neighborhood restaurants like Girl & the Goat and Aba before real estate. She writes a dedicated West Loop real estate blog and works with both buyers and sellers."
+  },
+  {
+   "name": "Ilsa Conover",
+   "brokerage": "Jameson Sotheby's International Realty",
+   "image": "images/agents/ilsa-conover.jpg",
+   "url": "https://www.ilsaconover.com/",
+   "phone": "",
+   "blurb": "A Chicago real estate broker with more than 16 years of experience, Ilsa focuses on the West Loop along with Lincoln Park, River North, and the Gold Coast. She works with first-time and repeat buyers and sellers on everything from condo conversions to new-construction and luxury properties, and is known for hands-on, client-first communication."
+  }
+ ],
+ "brokerages": [
+  {
+   "name": "The West Loop Team (Keller Williams)",
+   "note": "A West Loop and Fulton Market focused team with 20-plus years of combined experience.",
+   "url": "https://westlooprealestateteam.com/"
+  },
+  {
+   "name": "Compass Chicago",
+   "note": "Large national brokerage with deep West Loop and Fulton Market inventory.",
+   "url": "https://www.compass.com/"
+  },
+  {
+   "name": "@properties Christie's International",
+   "note": "Chicago's largest independent brokerage, strong across the ward.",
+   "url": "https://www.atproperties.com/"
+  },
+  {
+   "name": "Jameson Sotheby's International Realty",
+   "note": "Luxury-focused brokerage covering the West Loop and downtown.",
+   "url": "https://www.jamesonsir.com/"
+  },
+  {
+   "name": "Dream Town Real Estate",
+   "note": "Chicago-based brokerage with neighborhood specialists.",
+   "url": "https://www.dreamtown.com/"
+  },
+  {
+   "name": "Baird & Warner",
+   "note": "One of the oldest family-owned brokerages in the country, active downtown.",
+   "url": "https://www.bairdwarner.com/"
+  }
+ ]
+}
