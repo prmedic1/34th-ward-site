@@ -2,31 +2,13 @@
  "_rotation_note": "The daily job picks the next business each morning - rotating among ward businesses with priority to spotlight requests from owners and newly opened spots. Keep yesterday's entries in history.",
  "current": {
   "date": "2026-07-11",
-  "name": "Lou Mitchell's",
-  "address": "565 W. Jackson Blvd, West Loop",
-  "website": "https://www.loumitchells.com/",
-  "image": "images/lou-mitchells.jpg",
-  "blurb": "A Chicago breakfast landmark at the original starting line of Route 66, serving since 1923. Lou Mitchell's is famous for double-yolk eggs, skillet omelettes served in the pan, and the free Milk Duds and donut holes handed out while you wait."
+  "name": "Au Cheval",
+  "address": "800 W. Randolph St, West Loop",
+  "website": "https://www.auchevalchicago.com/",
+  "image": "images/spotlight/au-cheval.jpg",
+  "blurb": "The dark, clubby diner behind what many call the best cheeseburger in America. The wait on Randolph Street is legendary, the bologna sandwich and the eggs are worth it, and the whole room hums well past midnight."
  },
  "history": [
-  {
-   "date": "2026-07-01",
-   "name": "The Original Pancake House",
-   "website": "https://www.originalpancakehouse.com"
-  },
-  {
-   "date": "2026-07-07",
-   "name": "Green Street Smoked Meats",
-   "website": "https://greenstreetmeats.com"
-  },
-  {
-   "date": "2026-07-08",
-   "name": "Monteverde Restaurant & Pastificio",
-   "address": "1020 W. Madison St, West Loop",
-   "website": "https://www.monteverdechicago.com",
-   "blurb": "Chef Sarah Grueneberg, a James Beard Award winner for Best Chef: Great Lakes, turns out some of the country's most celebrated handmade pasta from an open pastificio counter on Madison Street. The cacio whey pepe and ragu alla napoletana are neighborhood legends, and the bar pours a deep Italian wine list. Reservations go fast, but the pasta bar seats are held for walk-ins.",
-   "image": "https://monteverdechicago.com/wp-content/uploads/2023/09/Burrata-e-Ham-PB-4-scaled.jpg"
-  },
   {
    "date": "2026-07-09",
    "name": "Lou Mitchell's",
@@ -34,6 +16,22 @@
    "website": "https://www.loumitchells.com",
    "image": "images/lou-mitchells.jpg",
    "blurb": "A Chicago breakfast landmark at the original starting line of Route 66, serving since 1923. Lou Mitchell's is famous for double-yolk eggs, fluffy skillet omelettes served in the pan, and the free Milk Duds and donut holes handed out while you wait for a table."
+  },
+  {
+   "date": "2026-07-10",
+   "name": "Green Street Smoked Meats",
+   "address": "112 N. Green St, West Loop",
+   "website": "https://greenstreetmeats.com/",
+   "image": "images/green-street-smoked-meats.jpg",
+   "blurb": "Tucked down an alley off Green Street, this rollicking barbecue joint serves Texas-style brisket, ribs, and burnt ends by the pound on butcher paper. Cold beer, picnic tables, and a lively bar make it a West Loop staple."
+  },
+  {
+   "date": "2026-07-10",
+   "name": "Monteverde Restaurant & Pastificio",
+   "address": "1020 W. Madison St, West Loop",
+   "website": "https://www.monteverdechicago.com/",
+   "image": "images/spotlight/monteverde.jpg",
+   "blurb": "Chef Sarah Grueneberg, a James Beard Award winner, turns out some of the country's most celebrated handmade pasta from an open pastificio counter on Madison Street. The cacio whey pepe and the ragu alla napoletana are neighborhood legends, and the bar pours a deep Italian wine list."
   },
   {
    "date": "2026-07-10",
@@ -60,28 +58,20 @@
    "blurb": "A beer-hall-style anchor of Fulton Market, The Publican built its name on oysters, house charcuterie, and pork served at long communal tables. It helped put the neighborhood on the map as a dining destination."
   },
   {
-   "date": "2026-07-10",
-   "name": "Monteverde Restaurant & Pastificio",
-   "address": "1020 W. Madison St, West Loop",
-   "website": "https://www.monteverdechicago.com/",
-   "image": "images/spotlight/monteverde.jpg",
-   "blurb": "Chef Sarah Grueneberg, a James Beard Award winner, turns out some of the country's most celebrated handmade pasta from an open pastificio counter on Madison Street. The cacio whey pepe and the ragu alla napoletana are neighborhood legends, and the bar pours a deep Italian wine list."
-  },
-  {
-   "date": "2026-07-10",
-   "name": "Green Street Smoked Meats",
-   "address": "112 N. Green St, West Loop",
-   "website": "https://greenstreetmeats.com/",
-   "image": "images/green-street-smoked-meats.jpg",
-   "blurb": "Tucked down an alley off Green Street, this rollicking barbecue joint serves Texas-style brisket, ribs, and burnt ends by the pound on butcher paper. Cold beer, picnic tables, and a lively bar make it a West Loop staple."
-  },
-  {
    "date": "2026-07-11",
    "name": "The Original Pancake House",
    "address": "1124 W. Madison St, West Loop",
    "website": "https://ophchicagoland.com/",
    "image": "images/original-pancake-house.jpg",
    "blurb": "A breakfast institution since 1953, famous for the oven-baked Dutch Baby and apple pancakes. The West Loop location on Madison fills its striped-awning patio all summer long."
+  },
+  {
+   "date": "2026-07-11",
+   "name": "Lou Mitchell's",
+   "address": "565 W. Jackson Blvd, West Loop",
+   "website": "https://www.loumitchells.com/",
+   "image": "images/lou-mitchells.jpg",
+   "blurb": "A Chicago breakfast landmark at the original starting line of Route 66, serving since 1923. Lou Mitchell's is famous for double-yolk eggs, skillet omelettes served in the pan, and the free Milk Duds and donut holes handed out while you wait."
   }
  ]
 }

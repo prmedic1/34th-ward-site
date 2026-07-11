@@ -65,18 +65,26 @@
 <script>
   document.getElementById('year').textContent = new Date().getFullYear();
 
-  const ARCHIVE_DATA_V = '20260708b';
+  const ARCHIVE_DATA_V = '20260711b';
 
   fetch('data/spotlight.json?d=' + ARCHIVE_DATA_V)
     .then((r) => r.json())
     .then((data) => {
       const entries = [];
+      const seen = new Set();
       if (data.current && data.current.name) {
         entries.push(Object.assign({}, data.current, { isToday: true }));
+        seen.add(data.current.name);
       }
       const history = Array.isArray(data.history) ? data.history.slice() : [];
       history.sort((a, b) => new Date(b.date) - new Date(a.date));
-      history.forEach((h) => entries.push(h));
+      // Show each business only once (its most recent appearance).
+      history.forEach((h) => {
+        if (h && h.name && !seen.has(h.name)) {
+          seen.add(h.name);
+          entries.push(h);
+        }
+      });
 
       const list = document.getElementById('archive-list');
       if (!entries.length) {

@@ -1,4 +1,4 @@
-const DATA_V = '20260711a';
+const DATA_V = '20260711b';
 
 document.getElementById('year').textContent = new Date().getFullYear();
 
@@ -56,8 +56,10 @@ fetch('data/spotlight.json?d=' + DATA_V)
   })
   .catch((err) => console.error('Failed to load spotlight', err));
 
-// The Front Page: six stories, one per source, newspaper style
-const FRONT_ORDER = ['blockclub', 'eater', 'wca', 'axios', 'politico', 'conway'];
+// The Front Page: six stories, newspaper style. One story per source first
+// (for variety), then backfill from productive sources so it always fills six.
+const FRONT_ORDER = ['blockclub', 'wca', 'axios', 'politico', 'conway', 'igwl', 'eater', 'cbs', 'abc7'];
+const FRONT_COUNT = 6;
 
 Promise.all([
   fetch('data/news_sources.json?d=' + DATA_V).then((r) => r.json()),
@@ -75,14 +77,34 @@ Promise.all([
     // Lead each source with its most neighborhood-focused recent story, and
     // fall back to the newest if none of them mention the ward directly.
     const wardKw = /west loop|greektown|fulton market|fulton river|printers row|south loop|near west side|little italy|taylor street|\bthe loop\b|34th ward|randolph|w\.? madison|halsted|west town|wacker|willis tower|union station/i;
-    const grid = document.getElementById('frontpage-grid');
-    grid.innerHTML = FRONT_ORDER.map((sid) => {
+    const publishable = (it) => !it.flagged_for_review && !it.front_exclude;
+    const countFor = (sid) => items.filter((it) => it.source_id === sid).length;
+    const used = new Set();
+    const picks = [];
+
+    // Pass 1: the most ward-relevant recent story from each source, in order.
+    FRONT_ORDER.forEach((sid) => {
+      if (picks.length >= FRONT_COUNT) return;
       const src = sources[sid];
-      const eligible = items.filter((it) => it.source_id === sid && !it.flagged_for_review && !it.front_exclude);
+      const eligible = items.filter((it) => it.source_id === sid && publishable(it) && !used.has(it.id));
+      if (!src || !eligible.length) return;
       const story = eligible.find((it) => wardKw.test(it.title + ' ' + (it.summary || ''))) || eligible[0];
-      if (!src || !story) return '';
-      return renderFrontStory(src, story, eligible.length);
-    }).join('');
+      used.add(story.id);
+      picks.push({ src, story, count: countFor(sid) });
+    });
+
+    // Pass 2: backfill to six with the next newest stories from any listed source.
+    for (const it of items) {
+      if (picks.length >= FRONT_COUNT) break;
+      if (used.has(it.id) || !publishable(it) || !FRONT_ORDER.includes(it.source_id)) continue;
+      const src = sources[it.source_id];
+      if (!src) continue;
+      used.add(it.id);
+      picks.push({ src, story: it, count: countFor(it.source_id) });
+    }
+
+    document.getElementById('frontpage-grid').innerHTML =
+      picks.map((p) => renderFrontStory(p.src, p.story, p.count)).join('');
   })
   .catch((err) => {
     console.error('Failed to load front page', err);

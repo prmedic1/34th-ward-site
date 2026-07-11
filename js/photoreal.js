@@ -71,7 +71,7 @@
         sceneModePicker: false,
         homeButton: false,
         navigationHelpButton: false,
-        fullscreenButton: false,
+        fullscreenButton: true,
         infoBox: false,
         selectionIndicator: false,
         requestRenderMode: true

@@ -45,6 +45,10 @@
     new maplibregl.NavigationControl({ visualizePitch: true, showZoom: true, showCompass: true }),
     'top-right'
   );
+  // Fullscreen button (top-right, above zoom) so the map can fill the screen.
+  if (maplibregl.FullscreenControl) {
+    map.addControl(new maplibregl.FullscreenControl({ container: container }), 'top-right');
+  }
   map.addControl(new maplibregl.ScaleControl(), 'bottom-left');
   window._wardMap = map; // exposed for QA/diagnostics
 
