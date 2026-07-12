@@ -2,11 +2,11 @@
  "_rotation_note": "The daily job picks the next business each morning - rotating among ward businesses with priority to spotlight requests from owners and newly opened spots. Keep yesterday's entries in history.",
  "current": {
   "date": "2026-07-12",
-  "name": "Girl & the Goat",
-  "address": "809 W. Randolph St, West Loop",
-  "website": "https://www.girlandthegoat.com/chicago/",
-  "image": "images/spotlight/girl-and-the-goat.jpg",
-  "blurb": "Chef Stephanie Izard's flagship put Randolph Street's Restaurant Row on the national map. The wood-fired, globally-spiced small plates, from the famous goat empanadas to the pan-fried shishito peppers, still pack the room nightly."
+  "name": "Bavette's Bar & Boeuf",
+  "address": "218 W. Kinzie St, River North edge",
+  "website": "https://www.bavetteschicago.com/",
+  "image": "images/spotlight/bavettes.jpg",
+  "blurb": "A candlelit, 1920s-style steakhouse just north of the ward with a jazz soundtrack and deep leather booths. The dry-aged steaks, roasted bone marrow, and towering chocolate cake keep it perennially hard to book."
  },
  "history": [
   {
@@ -80,6 +80,14 @@
    "website": "https://www.auchevalchicago.com/",
    "image": "images/spotlight/au-cheval.jpg",
    "blurb": "The dark, clubby diner behind what many call the best cheeseburger in America. The wait on Randolph Street is legendary, the bologna sandwich and the eggs are worth it, and the whole room hums well past midnight."
+  },
+  {
+   "date": "2026-07-12",
+   "name": "Girl & the Goat",
+   "address": "809 W. Randolph St, West Loop",
+   "website": "https://www.girlandthegoat.com/chicago/",
+   "image": "images/spotlight/girl-and-the-goat.jpg",
+   "blurb": "Chef Stephanie Izard's flagship put Randolph Street's Restaurant Row on the national map. The wood-fired, globally-spiced small plates, from the famous goat empanadas to the pan-fried shishito peppers, still pack the room nightly."
   }
  ]
 }
