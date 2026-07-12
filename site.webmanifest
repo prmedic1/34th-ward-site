@@ -1,0 +1,16 @@
+{
+  "name": "The Official 34th Ward Neighborhood Page",
+  "short_name": "34th Ward",
+  "description": "Community news and civic updates for Chicago's 34th Ward: the West Loop, Greektown, the Loop, Printers Row, and South Loop.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f7f9fa",
+  "theme_color": "#14bef1",
+  "icons": [
+    { "src": "/images/app-icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/images/app-icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/images/app-icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
+    { "src": "/images/app-icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
