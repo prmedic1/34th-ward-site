@@ -1,6 +1,66 @@
 {
- "generated_at": "2026-07-11T19:22:59.346Z",
+ "generated_at": "2026-07-12T13:37:23.448Z",
  "items": [
+  {
+   "id": "cbs-20260712-2-women-man-shot-on-chicago-s-near-west-",
+   "category": "civic_org",
+   "source_id": "cbs",
+   "source_name": "CBS News Chicago",
+   "source_type": "web_feed",
+   "title": "2 women, man shot on Chicago's Near West Side",
+   "summary": "Three people were wounded early Sunday morning in a shooting on Chicago's Near West Side.",
+   "url": "https://www.cbsnews.com/chicago/news/2-women-man-shot-chicago-near-west-side/",
+   "published_at": "2026-07-12T12:12:57.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "cbs-20260712-2-women-shot-in-head-man-shot-in-leg-on-",
+   "category": "civic_org",
+   "source_id": "cbs",
+   "source_name": "CBS News Chicago",
+   "source_type": "web_feed",
+   "title": "2 women shot in head, man shot in leg on Chicago's Near West Side",
+   "summary": "Three people were wounded early Sunday morning in a shooting on Chicago's Near West Side.",
+   "url": "https://www.cbsnews.com/chicago/video/2-women-shot-in-head-man-shot-in-leg-on-chicagos-near-west-side/",
+   "published_at": "2026-07-12T12:09:00.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "cbs-20260712-chicago-police-investigate-gunfire-invol",
+   "category": "civic_org",
+   "source_id": "cbs",
+   "source_name": "CBS News Chicago",
+   "source_type": "web_feed",
+   "title": "Chicago police investigate gunfire involving officers in Grant Park",
+   "summary": "Chicago police early Sunday were investigating gunfire involving one of their own officers in Grant Park in downtown Chicago.",
+   "url": "https://www.cbsnews.com/chicago/news/chicago-police-investigate-gunfire-involving-officers-grant-park/",
+   "published_at": "2026-07-12T11:32:13.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "cbs-20260712-copa-investigates-shooting-involving-cpd",
+   "category": "civic_org",
+   "source_id": "cbs",
+   "source_name": "CBS News Chicago",
+   "source_type": "web_feed",
+   "title": "COPA investigates shooting involving CPD officers in Chicago's Grant Park",
+   "summary": "Chicago police early Sunday were investigating gunfire involving one of their own officers in Grant Park in downtown Chicago. Asal Rezaei reports.",
+   "url": "https://www.cbsnews.com/chicago/video/copa-investigates-shooting-involving-cpd-officers-in-chicagos-grant-park/",
+   "published_at": "2026-07-12T11:23:00.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "cbs-20260712-my-block-my-hood-my-city-holds-4th-downt",
+   "category": "civic_org",
+   "source_id": "cbs",
+   "source_name": "CBS News Chicago",
+   "source_type": "web_feed",
+   "title": "My Block My Hood My City holds 4th Downtown Day for hundreds of teens",
+   "summary": "Each teenager received a Downtown Day T-shirt, a $50 prepaid debit card to support local businesses and access to dozens of destinations across the loop and other downtown neighborhoods.",
+   "url": "https://www.cbsnews.com/chicago/video/my-block-my-hood-my-city-holds-4th-downtown-day-for-hundreds-of-teens/",
+   "published_at": "2026-07-12T03:49:00.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "wca-20260710-west-loop-art-fest-mark-your-calendar-fo",
    "category": "civic_org",
