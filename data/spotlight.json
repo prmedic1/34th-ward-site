@@ -1,12 +1,12 @@
 {
  "_rotation_note": "The daily job picks the next business each morning - rotating among ward businesses with priority to spotlight requests from owners and newly opened spots. Keep yesterday's entries in history.",
  "current": {
-  "date": "2026-07-12",
-  "name": "Bavette's Bar & Boeuf",
-  "address": "218 W. Kinzie St, River North edge",
-  "website": "https://www.bavetteschicago.com/",
-  "image": "images/spotlight/bavettes.jpg",
-  "blurb": "A candlelit, 1920s-style steakhouse just north of the ward with a jazz soundtrack and deep leather booths. The dry-aged steaks, roasted bone marrow, and towering chocolate cake keep it perennially hard to book."
+  "date": "2026-07-13",
+  "name": "Little Goat Diner",
+  "address": "820 W. Randolph St, West Loop",
+  "website": "https://www.littlegoatchicago.com/",
+  "image": "images/spotlight/little-goat.jpg",
+  "blurb": "Stephanie Izard's all-day diner across the street from Girl & the Goat, serving playful takes on comfort food from morning pancakes to late-night burgers. Spin the counter stools and settle in."
  },
  "history": [
   {
@@ -88,6 +88,14 @@
    "website": "https://www.girlandthegoat.com/chicago/",
    "image": "images/spotlight/girl-and-the-goat.jpg",
    "blurb": "Chef Stephanie Izard's flagship put Randolph Street's Restaurant Row on the national map. The wood-fired, globally-spiced small plates, from the famous goat empanadas to the pan-fried shishito peppers, still pack the room nightly."
+  },
+  {
+   "date": "2026-07-12",
+   "name": "Bavette's Bar & Boeuf",
+   "address": "218 W. Kinzie St, River North edge",
+   "website": "https://www.bavetteschicago.com/",
+   "image": "images/spotlight/bavettes.jpg",
+   "blurb": "A candlelit, 1920s-style steakhouse just north of the ward with a jazz soundtrack and deep leather booths. The dry-aged steaks, roasted bone marrow, and towering chocolate cake keep it perennially hard to book."
   }
  ]
 }

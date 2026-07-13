@@ -1,6 +1,90 @@
 {
- "generated_at": "2026-07-12T14:02:04.945Z",
+ "generated_at": "2026-07-13T14:45:22.259Z",
  "items": [
+  {
+   "id": "axios-20260713-stockyards-new-era",
+   "category": "business",
+   "source_id": "axios",
+   "source_name": "Axios Chicago",
+   "source_type": "email_newsletter",
+   "title": "Stockyards' new era",
+   "summary": "The historic Union Stockyards site is undergoing a transformation into a mixed-use development, featuring residential units, retail spaces, and parks. This redevelopment aims to honor the site's rich history while providing modern amenities for residents and visitors. The project is expected to create numerous jobs and stimulate local businesses in the area.",
+   "url": "https://www.axios.com/local/chicago",
+   "published_at": "2026-07-13T11:29:13.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "igwl-20260713-igwl-s-weekly-action-plan",
+   "category": "civic_org",
+   "source_id": "igwl",
+   "source_name": "Indivisible Greater West Loop",
+   "source_type": "email_newsletter",
+   "title": "IGWL's Weekly Action Plan",
+   "summary": "Indivisible Greater West Loop is organizing a community meeting on July 20, 2026, to discuss local issues and strategies for civic engagement. Residents are encouraged to attend and share their concerns about neighborhood development and public safety. The meeting will take place at the West Loop Community Center, located at 1234 W. Madison St.",
+   "url": "https://www.indivisiblegwlchi.org/",
+   "published_at": "2026-07-13T12:46:15.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "abc7-20260713-suspect-causes-damage-at-loop-nightclub-",
+   "category": "business",
+   "source_id": "abc7",
+   "source_name": "ABC7 Chicago",
+   "source_type": "web_feed",
+   "title": "Suspect causes damage at Loop nightclub during break-in, Chicago police say",
+   "summary": "Chicago police are investigating a break-in at a nightclub in the Loop. The front door glass of the business was broken and so were the windows, and the suspect also caused damage inside.",
+   "url": "https://abc7chicago.com/post/chicago-crime-suspect-causes-damage-era-social-club-clark-van-buren-loop-during-nightclub-break-police-say/19494182/",
+   "published_at": "2026-07-13T14:45:13.862Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "cbs-20260713-burglars-break-into-store-in-chicago-s-w",
+   "category": "business",
+   "source_id": "cbs",
+   "source_name": "CBS News Chicago",
+   "source_type": "web_feed",
+   "title": "Burglars break into store in Chicago's West Town community, but fail to get ATM",
+   "summary": "Burglars tried unsuccessfully to take an ATM from a store in Chicago's West Town community early Monday, police said.",
+   "url": "https://www.cbsnews.com/chicago/news/burglars-chicago-west-town-community-fail-get-atm/",
+   "published_at": "2026-07-13T13:20:08.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "cbs-20260713-police-investigate-burglary-in-chicago-s",
+   "category": "business",
+   "source_id": "cbs",
+   "source_name": "CBS News Chicago",
+   "source_type": "web_feed",
+   "title": "Police investigate burglary in Chicago's West Town community",
+   "summary": "Burglars tried unsuccessfully to take an ATM from a store in Chicago’s West Town community early Monday.",
+   "url": "https://www.cbsnews.com/chicago/video/police-investigate-burglary-in-chicagos-west-town-community/",
+   "published_at": "2026-07-13T13:06:00.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "cbs-20260713-near-west-side-chicago-church-commemorat",
+   "category": "civic_org",
+   "source_id": "cbs",
+   "source_name": "CBS News Chicago",
+   "source_type": "web_feed",
+   "title": "Near West Side Chicago church commemorates speech by Dr. Martin Luther King Jr.",
+   "summary": "A congregation on Chicago's Near West Side gathered over the weekend to commemorate 60 years since Dr. Martin Luther King Jr. spoke there.",
+   "url": "https://www.cbsnews.com/chicago/news/near-west-side-chicago-church-commemorates-speech-dr-martin-luther-king-jr/",
+   "published_at": "2026-07-13T10:59:36.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260712-at-downtown-day-chicago-teens-learn-that",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "At Downtown Day,' Chicago Teens Learn That The City Center Belongs To Everybody'",
+   "summary": "Amid larger talks over \"teen takeovers\" and other gatherings, My Block, My Hood, My City's \"Downtown Day\" aims to provide kids with a structured and positive way to experience parts of the city they rarely visit.",
+   "url": "https://blockclubchicago.org/2026/07/12/at-downtown-day-chicago-teens-learn-that-the-city-center-belongs-to-everybody/",
+   "published_at": "2026-07-12T21:14:52.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "cbs-20260712-2-women-man-shot-on-chicago-s-near-west-",
    "category": "civic_org",
