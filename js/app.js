@@ -1,4 +1,4 @@
-const DATA_V = '20260711c';
+const DATA_V = '20260713a';
 
 document.getElementById('year').textContent = new Date().getFullYear();
 
@@ -85,21 +85,30 @@ Promise.all([
       feedData.generated_at
     ).toLocaleString('en-US', { dateStyle: 'medium', timeStyle: 'short' });
 
-    // Lead each source with its most neighborhood-focused recent story, and
-    // fall back to the newest if none of them mention the ward directly.
+    // Lead each source with its FRESHEST story; ward-relevance only breaks
+    // ties among stories from the last two days, so the page always feels
+    // current instead of surfacing an old-but-local story.
     const wardKw = /west loop|greektown|fulton market|fulton river|printers row|south loop|near west side|little italy|taylor street|\bthe loop\b|34th ward|randolph|w\.? madison|halsted|west town|wacker|willis tower|union station/i;
     const publishable = (it) => !it.flagged_for_review && !it.front_exclude;
     const countFor = (sid) => items.filter((it) => it.source_id === sid).length;
+    const twoDaysAgo = Date.now() - 2 * 24 * 3600 * 1000;
+    const score = (it) => {
+      const recent = new Date(it.published_at).getTime() >= twoDaysAgo;
+      const ward = wardKw.test(it.title + ' ' + (it.summary || ''));
+      return (recent ? 2 : 0) + (ward ? 1 : 0); // recency outranks ward relevance
+    };
+    const bestOf = (list) => list.slice().sort((a, b) =>
+      (score(b) - score(a)) || (new Date(b.published_at) - new Date(a.published_at)))[0];
     const used = new Set();
     const picks = [];
 
-    // Pass 1: the most ward-relevant recent story from each source, in order.
+    // Pass 1: the best (freshest, then most local) story from each source.
     FRONT_ORDER.forEach((sid) => {
       if (picks.length >= FRONT_COUNT) return;
       const src = sources[sid];
       const eligible = items.filter((it) => it.source_id === sid && publishable(it) && !used.has(it.id));
       if (!src || !eligible.length) return;
-      const story = eligible.find((it) => wardKw.test(it.title + ' ' + (it.summary || ''))) || eligible[0];
+      const story = bestOf(eligible);
       used.add(story.id);
       picks.push({ src, story, count: countFor(sid) });
     });

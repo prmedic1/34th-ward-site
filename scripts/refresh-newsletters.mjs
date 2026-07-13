@@ -87,7 +87,7 @@ async function summarize(emails) {
   ).join('\n\n');
 
   const system = 'You are the daily editor for 34thward.com, a community news site for Chicago\'s 34th Ward (West Loop, Greektown, the Loop, Printers Row, South Loop). You return ONLY valid JSON, no prose.';
-  const user = `Today is ${today}. From the newsletters below, extract the items most relevant to 34th Ward residents (local government, local businesses, community events, neighborhood happenings). Prefer local Chicago and ward-specific stories over national politics. Aim for 1 to 3 items per newsletter, up to 8 total.
+  const user = `Today is ${today}. From the newsletters below, extract the items most relevant to 34th Ward residents (local government, local businesses, community events, neighborhood happenings). Prefer local Chicago and ward-specific stories over national politics. Take 1 to 3 items from EACH newsletter that has any relevant content, so every source is represented. Do not skip a newsletter just to stay under a total; there is no total cap.
 
 STRICT RULES:
 1. No em dashes anywhere. Use commas or hyphens.
@@ -107,7 +107,7 @@ ${blocks}`;
     method: 'POST',
     headers: { Authorization: 'Bearer ' + GH_TOKEN, 'Content-Type': 'application/json' },
     body: JSON.stringify({
-      model: MODEL, temperature: 0.2, max_tokens: 2000,
+      model: MODEL, temperature: 0.2, max_tokens: 3500,
       messages: [{ role: 'system', content: system }, { role: 'user', content: user }]
     })
   });

@@ -1,6 +1,18 @@
 {
- "generated_at": "2026-07-13T15:19:22.041Z",
+ "generated_at": "2026-07-13T15:30:00-05:00",
  "items": [
+  {
+   "id": "politico-20260713-cha-board",
+   "category": "elected_official",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Mayor moves to reclaim control of the CHA board",
+   "summary": "Mayor Brandon Johnson is moving to reassert control over the Chicago Housing Authority board after a stretch of independence, per Crain's. The CHA oversees public housing across the city, and the shake-up lands as former CHA board chair Matt Brewer runs against Johnson for mayor.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-07-13T07:01:00-05:00",
+   "flagged_for_review": false
+  },
   {
    "id": "axios-20260713-stockyards-new-era",
    "category": "business",
