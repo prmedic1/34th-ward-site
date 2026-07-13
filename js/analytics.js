@@ -17,6 +17,31 @@
     navigator.serviceWorker.register('/sw.js').catch(function () {});
   }
 
+  // Share button: opens the phone's native share sheet (Messages, Messenger,
+  // WhatsApp, email, etc.). On a desktop with no share support, it copies the
+  // link instead and briefly confirms.
+  var shareBtn = document.getElementById('share-site');
+  if (shareBtn) {
+    var shareData = {
+      title: 'The Official 34th Ward Neighborhood Page',
+      text: 'Daily news and happenings in Chicago\'s 34th Ward - the West Loop, Greektown, the Loop, and more. Add it to your phone:',
+      url: 'https://34thward.com/'
+    };
+    shareBtn.addEventListener('click', function () {
+      if (navigator.share) {
+        navigator.share(shareData).catch(function () {});
+      } else if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText('https://34thward.com/').then(function () {
+          var t = shareBtn.textContent;
+          shareBtn.textContent = 'Link copied!';
+          setTimeout(function () { shareBtn.textContent = t; }, 1800);
+        }).catch(function () {});
+      } else {
+        window.prompt('Copy this link to share:', 'https://34thward.com/');
+      }
+    });
+  }
+
   if (isLocal) return; // never count our own previews
 
   var NS = 'https://abacus.jasoncameron.dev/hit/34thward-com/';

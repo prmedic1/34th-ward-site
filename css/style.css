@@ -1208,3 +1208,20 @@ a.race-card:hover { transform: translateY(-3px); box-shadow: 0 6px 18px rgba(6,4
   transition: background 200ms var(--ease-out), transform 200ms var(--ease-out);
 }
 .race-kalshi-btn:hover { background: #14bef1; color: #06303f; transform: translateY(-1px); }
+
+/* Share button in the footer (2026-07-12) */
+.share-btn {
+  display: inline-block;
+  margin-top: 6px;
+  padding: 10px 20px;
+  background: var(--sky);
+  color: #06303f;
+  font-family: var(--font-body);
+  font-weight: 700;
+  font-size: 0.92rem;
+  border: none;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: transform 200ms var(--ease-out), background 200ms var(--ease-out);
+}
+.share-btn:hover { background: #3fd0ff; transform: translateY(-1px); }
