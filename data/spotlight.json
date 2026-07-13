@@ -2,11 +2,11 @@
  "_rotation_note": "The daily job picks the next business each morning - rotating among ward businesses with priority to spotlight requests from owners and newly opened spots. Keep yesterday's entries in history.",
  "current": {
   "date": "2026-07-13",
-  "name": "Little Goat Diner",
-  "address": "820 W. Randolph St, West Loop",
-  "website": "https://www.littlegoatchicago.com/",
-  "image": "images/spotlight/little-goat.jpg",
-  "blurb": "Stephanie Izard's all-day diner across the street from Girl & the Goat, serving playful takes on comfort food from morning pancakes to late-night burgers. Spin the counter stools and settle in."
+  "name": "Formento's",
+  "address": "925 W. Randolph St, West Loop",
+  "website": "https://www.formentos.com/",
+  "image": "images/spotlight/formentos.jpg",
+  "blurb": "A love letter to Italian-American red-sauce classics on Restaurant Row. Sunday gravy, house pastas, and a chicken Parm that regulars swear by, all in a handsome, old-school room."
  },
  "history": [
   {
@@ -96,6 +96,14 @@
    "website": "https://www.bavetteschicago.com/",
    "image": "images/spotlight/bavettes.jpg",
    "blurb": "A candlelit, 1920s-style steakhouse just north of the ward with a jazz soundtrack and deep leather booths. The dry-aged steaks, roasted bone marrow, and towering chocolate cake keep it perennially hard to book."
+  },
+  {
+   "date": "2026-07-13",
+   "name": "Little Goat Diner",
+   "address": "820 W. Randolph St, West Loop",
+   "website": "https://www.littlegoatchicago.com/",
+   "image": "images/spotlight/little-goat.jpg",
+   "blurb": "Stephanie Izard's all-day diner across the street from Girl & the Goat, serving playful takes on comfort food from morning pancakes to late-night burgers. Spin the counter stools and settle in."
   }
  ]
 }
