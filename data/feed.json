@@ -1,6 +1,78 @@
 {
- "generated_at": "2026-07-13T15:30:00-05:00",
+ "generated_at": "2026-07-14T13:55:26.006Z",
  "items": [
+  {
+   "id": "politico-20260714-trade-conflict-poses-challenges-for-illi",
+   "category": "elected_official",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Trade conflict poses challenges for Illinois businesses",
+   "summary": "A trade conflict between the U.S. and the EU could impact Illinois businesses that rely on European trade. European companies have invested over $100 billion in Illinois, and the uncertainty introduced by tariffs is a major concern for companies planning future investments.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-07-14T12:02:20.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "axios-20260714-assault-weapons-ban-discussions-continue",
+   "category": "elected_official",
+   "source_id": "axios",
+   "source_name": "Axios Chicago",
+   "source_type": "email_newsletter",
+   "title": "Assault weapons ban discussions continue",
+   "summary": "The ongoing discussions about assault weapons bans in Illinois are significant for community safety. Local leaders are considering various measures to address gun violence, which remains a pressing issue for residents.",
+   "url": "https://www.axios.com/local/chicago",
+   "published_at": "2026-07-14T11:28:28.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "skyline-20260714-garden-exhibit-and-new-paintings-this-we",
+   "category": "civic_org",
+   "source_id": "skyline",
+   "source_name": "Skyline (Inside Publications)",
+   "source_type": "email_newsletter",
+   "title": "Garden exhibit and new paintings this weekend",
+   "summary": "A garden exhibit featuring new paintings will take place on July 18th and 19th at 1059 N. Winchester from 11 AM to 4 PM. Visitors can park on Thomas St. or on the garage apron and enter through the garden gate.",
+   "url": "https://insideonline.com/",
+   "published_at": "2026-07-14T13:50:27.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260714-plan-for-loop-s-2nd-weed-dispensary-coul",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Plan For Loop’s 2nd Weed Dispensary Could Go Up In Smoke",
+   "summary": "Contra LLC's plans to open in the Loop is facing obstacles, including a missed community meeting requirement and a court ruling over the state’s 1,500-foot distancing rule.",
+   "url": "https://blockclubchicago.org/2026/07/14/plan-for-loops-2nd-weed-dispensary-could-go-up-in-smoke/",
+   "published_at": "2026-07-14T12:32:00.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260714-octet-raven-theatre-s-musical-about-8-in",
+   "category": "business",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Octet,' Raven Theatre’s Musical About 8 Internet-Addicted Adults, Is Headed To The Goodman",
+   "summary": "The Edgewater theater's popular a cappella musical opens Wednesday on the Goodman's Owen Stage Downtown.",
+   "url": "https://blockclubchicago.org/2026/07/14/octet-raven-theatres-musical-about-8-internet-addicted-adults-is-headed-to-the-goodman/",
+   "published_at": "2026-07-14T12:56:52.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260713-42-parks-on-south-west-sides-getting-imp",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "42 Parks On South, West Sides Getting Improved Air Conditioning To Help Battle Heat Waves",
+   "summary": "The park fieldhouses set to get additional or improved air conditioning systems were chosen using the Chicago Heat Vulnerability Index to identify areas that suffer the most during heat waves.",
+   "url": "https://blockclubchicago.org/2026/07/13/42-park-fieldhouses-on-south-west-sides-getting-improved-air-conditioning-to-help-battle-heat-waves/",
+   "published_at": "2026-07-13T19:52:55.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "politico-20260713-cha-board",
    "category": "elected_official",
@@ -771,18 +843,6 @@
    "summary": "Hope's Table, sponsored by First United Methodist Church at the Chicago Temple, serves Chicagoans who are homeless or hungry. Saturday morning services include hot meals, food to go, clothing distribution, and legal support through DePaul's Neighborhood Legal Assistance Program, with Grace Episcopal Church providing space at 637 S. Dearborn.",
    "url": "https://www.ward34.org",
    "published_at": "2026-06-25T17:53:00-05:00",
-   "flagged_for_review": false,
-   "source_id": "conway"
-  },
-  {
-   "id": "conway-20260619-council-greyhound",
-   "category": "elected_official",
-   "source_name": "Conway's Corner (34th Ward Office Newsletter)",
-   "source_type": "email_newsletter",
-   "title": "City Council approves acquisition of Greyhound station at 630 W. Harrison",
-   "summary": "City Council approved the City's acquisition of the Greyhound station, which serves nearly half a million travelers a year. The move preserves affordable intercity bus service, and City departments are expected to address the station's persistent public-safety problems before the City takes ownership in August - an issue neighbors have raised for years.",
-   "url": "https://www.ward34.org",
-   "published_at": "2026-06-19T12:05:00-05:00",
    "flagged_for_review": false,
    "source_id": "conway"
   },
