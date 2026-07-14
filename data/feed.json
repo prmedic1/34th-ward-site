@@ -1,6 +1,90 @@
 {
- "generated_at": "2026-07-14T13:55:26.006Z",
+ "generated_at": "2026-07-14T14:22:28.833Z",
  "items": [
+  {
+   "id": "politico-20260714-illinois-lawmakers-face-challenges-durin",
+   "category": "elected_official",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Illinois lawmakers face challenges during summer session",
+   "summary": "Illinois lawmakers are navigating significant issues this summer, including a federal investigation involving state Rep. Carol Ammons. This situation has led to increased scrutiny and discussions about legislative ethics, which could impact local governance and community trust.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-07-14T12:02:20.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "axios-20260714-chicago-s-assault-weapons-ban-update",
+   "category": "elected_official",
+   "source_id": "axios",
+   "source_name": "Axios Chicago",
+   "source_type": "email_newsletter",
+   "title": "Chicago's assault weapons ban update",
+   "summary": "The Chicago City Council is set to discuss updates to the assault weapons ban, which could affect local gun regulations. This discussion comes amid ongoing debates about public safety and community protection in the city.",
+   "url": "https://www.axios.com/local/chicago",
+   "published_at": "2026-07-14T11:28:28.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "axios-20260714-local-businesses-brace-for-trade-tariff-",
+   "category": "business",
+   "source_id": "axios",
+   "source_name": "Axios Chicago",
+   "source_type": "email_newsletter",
+   "title": "Local businesses brace for trade tariff impacts",
+   "summary": "Chicago businesses are preparing for potential challenges due to ongoing trade conflicts, particularly with European partners. The uncertainty surrounding tariffs could affect local industries that rely on international trade, highlighting the need for stable economic policies.",
+   "url": "https://www.axios.com/local/chicago",
+   "published_at": "2026-07-14T11:28:28.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "conway-20260714-34th-ward-community-cleanup-scheduled",
+   "category": "community_event",
+   "source_id": "conway",
+   "source_name": "Conway's Corner (34th Ward Office Newsletter)",
+   "source_type": "email_newsletter",
+   "title": "34th Ward community cleanup scheduled",
+   "summary": "A community cleanup event is planned for July 20, 2026, in the 34th Ward. Residents are encouraged to participate in beautifying local parks and streets, fostering community spirit and environmental responsibility.",
+   "url": "https://www.ward34.org/",
+   "published_at": "2026-07-14T14:22:28.833Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "wca-20260714-34th-ward-neighborhood-association-meeti",
+   "category": "civic_org",
+   "source_id": "wca",
+   "source_name": "The WCA Weekly",
+   "source_type": "email_newsletter",
+   "title": "34th Ward Neighborhood Association meeting",
+   "summary": "The 34th Ward Neighborhood Association will hold its monthly meeting on July 25, 2026, at the Greektown Community Center. Residents are invited to discuss local issues, upcoming events, and community initiatives.",
+   "url": "https://www.wcachicago.org/",
+   "published_at": "2026-07-14T14:22:28.833Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "wlco-20260714-new-restaurant-opening-in-greektown",
+   "category": "business",
+   "source_id": "wlco",
+   "source_name": "West Loop Community Organization",
+   "source_type": "email_newsletter",
+   "title": "New restaurant opening in Greektown",
+   "summary": "A new Mediterranean restaurant is set to open in Greektown on July 30, 2026. The establishment aims to bring fresh dining options to the area, contributing to the local economy and culinary scene.",
+   "url": "https://www.westloop.org/",
+   "published_at": "2026-07-14T14:22:28.833Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "skyline-20260714-summer-festival-in-printers-row",
+   "category": "community_event",
+   "source_id": "skyline",
+   "source_name": "Skyline (Inside Publications)",
+   "source_type": "email_newsletter",
+   "title": "Summer festival in Printers Row",
+   "summary": "The Printers Row Summer Festival will take place on August 5-6, 2026, featuring local artists, food vendors, and live music. This event aims to celebrate community culture and support local businesses.",
+   "url": "https://insideonline.com/",
+   "published_at": "2026-07-14T14:22:28.833Z",
+   "flagged_for_review": false
+  },
   {
    "id": "politico-20260714-trade-conflict-poses-challenges-for-illi",
    "category": "elected_official",

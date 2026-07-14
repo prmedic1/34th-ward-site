@@ -2,11 +2,11 @@
  "_rotation_note": "The daily job picks the next business each morning - rotating among ward businesses with priority to spotlight requests from owners and newly opened spots. Keep yesterday's entries in history.",
  "current": {
   "date": "2026-07-14",
-  "name": "El Che Steakhouse & Bar",
-  "address": "845 W. Washington Blvd, West Loop",
-  "website": "https://www.elchechicago.com/",
-  "image": "images/spotlight/el-che.jpg",
-  "blurb": "An Argentine-inspired steakhouse where nearly everything touches the open hearth. The wood-fired grill, empanadas, and Malbec-heavy list make it one of the West Loop's most distinctive rooms."
+  "name": "Bar Siena",
+  "address": "832 W. Randolph St, West Loop",
+  "website": "https://www.barsiena.com/",
+  "image": "images/spotlight/bar-siena.jpg",
+  "blurb": "A bustling Randolph Street trattoria known for wood-fired pizzas, house pastas, and a lively bar. Its patio is one of Restaurant Row's favorite warm-weather perches."
  },
  "history": [
   {
@@ -112,6 +112,14 @@
    "website": "https://www.formentos.com/",
    "image": "images/spotlight/formentos.jpg",
    "blurb": "A love letter to Italian-American red-sauce classics on Restaurant Row. Sunday gravy, house pastas, and a chicken Parm that regulars swear by, all in a handsome, old-school room."
+  },
+  {
+   "date": "2026-07-14",
+   "name": "El Che Steakhouse & Bar",
+   "address": "845 W. Washington Blvd, West Loop",
+   "website": "https://www.elchechicago.com/",
+   "image": "images/spotlight/el-che.jpg",
+   "blurb": "An Argentine-inspired steakhouse where nearly everything touches the open hearth. The wood-fired grill, empanadas, and Malbec-heavy list make it one of the West Loop's most distinctive rooms."
   }
  ]
 }
