@@ -2,11 +2,11 @@
  "_rotation_note": "The daily job picks the next business each morning - rotating among ward businesses with priority to spotlight requests from owners and newly opened spots. Keep yesterday's entries in history.",
  "current": {
   "date": "2026-07-15",
-  "name": "Gibsons Italia",
-  "address": "233 N. Canal St, Fulton River District",
-  "website": "https://gibsonssteakhouse.com/italia/",
-  "image": "images/spotlight/gibsons-italia.jpg",
-  "blurb": "The Italian-leaning riverside sibling of the classic Chicago steakhouse, with sweeping views of the Chicago River. Prime steaks, fresh pasta, and a see-and-be-seen patio."
+  "name": "J.P. Graziano Grocery",
+  "address": "901 W. Randolph St, West Loop",
+  "website": "https://www.jpgraziano.com/",
+  "image": "images/spotlight/jp-graziano.jpg",
+  "blurb": "A century-old Italian importer and sandwich counter on Randolph Street. The Mr. G, a stacked Italian sub with sharp provolone and hot giardiniera, has a devoted citywide following."
  },
  "history": [
   {
@@ -128,6 +128,14 @@
    "website": "https://www.barsiena.com/",
    "image": "images/spotlight/bar-siena.jpg",
    "blurb": "A bustling Randolph Street trattoria known for wood-fired pizzas, house pastas, and a lively bar. Its patio is one of Restaurant Row's favorite warm-weather perches."
+  },
+  {
+   "date": "2026-07-15",
+   "name": "Gibsons Italia",
+   "address": "233 N. Canal St, Fulton River District",
+   "website": "https://gibsonssteakhouse.com/italia/",
+   "image": "images/spotlight/gibsons-italia.jpg",
+   "blurb": "The Italian-leaning riverside sibling of the classic Chicago steakhouse, with sweeping views of the Chicago River. Prime steaks, fresh pasta, and a see-and-be-seen patio."
   }
  ]
 }

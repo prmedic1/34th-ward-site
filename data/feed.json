@@ -1,6 +1,42 @@
 {
- "generated_at": "2026-07-15T13:52:48.114Z",
+ "generated_at": "2026-07-15T14:18:52.291Z",
  "items": [
+  {
+   "id": "politico-20260715-illinois-lawmakers-face-data-center-scru",
+   "category": "elected_official",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Illinois lawmakers face data center scrutiny",
+   "summary": "As data centers expand, Illinois Governor JB Pritzker has halted new tax incentive agreements to address concerns about their impact on local communities. This move aims to balance economic growth with the responsibility to protect residents from rising utility costs and resource strain. Pritzker's administration is pushing for a regulatory framework to ensure that the growth of this industry does not come at the expense of local communities.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-07-15T12:02:36.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "axios-20260715-pritzker-signs-bill-for-exoneree-compens",
+   "category": "elected_official",
+   "source_id": "axios",
+   "source_name": "Axios Chicago",
+   "source_type": "email_newsletter",
+   "title": "Pritzker signs bill for exoneree compensation",
+   "summary": "Governor JB Pritzker has signed a new law that will provide exonerees with up to $50,000 per year for wrongful imprisonment. This includes compensation for time spent in pretrial detention or juvenile facilities. The legislation aims to support those who have been wrongfully convicted and help them reintegrate into society.",
+   "url": "https://www.axios.com/local/chicago",
+   "published_at": "2026-07-15T11:28:20.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "cbs-20260715-magnolia-bakery-at-chicago-s-block-37-sh",
+   "category": "business",
+   "source_id": "cbs",
+   "source_name": "CBS News Chicago",
+   "source_type": "web_feed",
+   "title": "Magnolia Bakery at Chicago's Block 37 shut down due to cockroaches",
+   "summary": "The Magnolia Bakery location in downtown Chicago was shut down this week due to a cockroach infestation.",
+   "url": "https://www.cbsnews.com/chicago/news/magnolia-bakery-chicago-block-37-shut-down-cockroaches/",
+   "published_at": "2026-07-15T13:56:01.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "politico-20260715-pritzker-signs-bill-improving-compensati",
    "category": "elected_official",
