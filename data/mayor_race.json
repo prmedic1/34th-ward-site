@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-14T14:22:07.763Z",
+  "updated_at": "2026-07-15T13:52:23.633Z",
   "election_date": "February 23, 2027",
   "kalshi_event": "KXCHICAGOMAYOR-27",
   "kalshi_url": "https://kalshi.com/markets/kxchicagomayor",
@@ -13,8 +13,8 @@
       "badge": "Favorite",
       "badgeColor": "blue",
       "image": "images/candidates/giannoulias.jpg",
-      "pct": 40.1,
-      "kalshi_raw": 47,
+      "pct": 38,
+      "kalshi_raw": 43,
       "pe_raw": 43,
       "manifold_raw": 32.6,
       "campaign_url": "https://www.ilsos.gov/"
@@ -52,8 +52,8 @@
       "status": "declared",
       "order": 4,
       "image": "images/candidates/mendoza.jpg",
-      "pct": 16.9,
-      "kalshi_raw": 22,
+      "pct": 14.1,
+      "kalshi_raw": 17,
       "pe_raw": 16,
       "manifold_raw": 9.5,
       "campaign_url": "https://susanamendoza.com/"
@@ -138,8 +138,8 @@
       "status": "declared",
       "order": 11,
       "image": "images/candidates/stanton.jpg",
-      "pct": 4.1,
-      "kalshi_raw": 5,
+      "pct": 9,
+      "kalshi_raw": 12,
       "pe_raw": null,
       "manifold_raw": 2.9,
       "campaign_url": "https://www.stantonforchicago.com/"

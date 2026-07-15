@@ -1,12 +1,12 @@
 {
  "_rotation_note": "The daily job picks the next business each morning - rotating among ward businesses with priority to spotlight requests from owners and newly opened spots. Keep yesterday's entries in history.",
  "current": {
-  "date": "2026-07-14",
-  "name": "Bar Siena",
-  "address": "832 W. Randolph St, West Loop",
-  "website": "https://www.barsiena.com/",
-  "image": "images/spotlight/bar-siena.jpg",
-  "blurb": "A bustling Randolph Street trattoria known for wood-fired pizzas, house pastas, and a lively bar. Its patio is one of Restaurant Row's favorite warm-weather perches."
+  "date": "2026-07-15",
+  "name": "Gibsons Italia",
+  "address": "233 N. Canal St, Fulton River District",
+  "website": "https://gibsonssteakhouse.com/italia/",
+  "image": "images/spotlight/gibsons-italia.jpg",
+  "blurb": "The Italian-leaning riverside sibling of the classic Chicago steakhouse, with sweeping views of the Chicago River. Prime steaks, fresh pasta, and a see-and-be-seen patio."
  },
  "history": [
   {
@@ -120,6 +120,14 @@
    "website": "https://www.elchechicago.com/",
    "image": "images/spotlight/el-che.jpg",
    "blurb": "An Argentine-inspired steakhouse where nearly everything touches the open hearth. The wood-fired grill, empanadas, and Malbec-heavy list make it one of the West Loop's most distinctive rooms."
+  },
+  {
+   "date": "2026-07-14",
+   "name": "Bar Siena",
+   "address": "832 W. Randolph St, West Loop",
+   "website": "https://www.barsiena.com/",
+   "image": "images/spotlight/bar-siena.jpg",
+   "blurb": "A bustling Randolph Street trattoria known for wood-fired pizzas, house pastas, and a lively bar. Its patio is one of Restaurant Row's favorite warm-weather perches."
   }
  ]
 }

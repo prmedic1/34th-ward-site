@@ -1,6 +1,78 @@
 {
- "generated_at": "2026-07-14T14:22:28.833Z",
+ "generated_at": "2026-07-15T13:52:48.114Z",
  "items": [
+  {
+   "id": "politico-20260715-pritzker-signs-bill-improving-compensati",
+   "category": "elected_official",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Pritzker signs bill improving compensation for exonerees",
+   "summary": "Governor JB Pritzker has signed a new law that will provide exonerees with up to $50,000 per year for wrongful imprisonment. This compensation includes time spent in pretrial detention or juvenile detention facilities before exoneration, aiming to support those who have suffered due to wrongful convictions.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-07-15T12:02:36.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "axios-20260715-chicago-mayoral-candidate-raises-over-1-",
+   "category": "elected_official",
+   "source_id": "axios",
+   "source_name": "Axios Chicago",
+   "source_type": "email_newsletter",
+   "title": "Chicago mayoral candidate raises over $1 million",
+   "summary": "Mayoral candidate Joe Holberg has announced that his campaign has raised $330,000 in the second quarter of 2026, bringing his total cash on hand to $1.03 million. This significant fundraising effort highlights the competitive nature of the upcoming mayoral race in Chicago.",
+   "url": "https://www.axios.com/local/chicago",
+   "published_at": "2026-07-15T11:28:20.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "skyline-20260714-garden-exhibit-this-weekend",
+   "category": "civic_org",
+   "source_id": "skyline",
+   "source_name": "Skyline (Inside Publications)",
+   "source_type": "email_newsletter",
+   "title": "Garden exhibit this weekend",
+   "summary": "A garden exhibit will take place on Saturday and Sunday, July 18th and 19th, from 11 AM to 4 PM at 1059 N. Winchester. Visitors can enjoy new paintings and the garden itself, with parking available on Thomas Street or on the garage apron.",
+   "url": "https://insideonline.com/",
+   "published_at": "2026-07-14T14:05:49.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "cbs-20260715-chicago-s-magnolia-bakery-shut-down-over",
+   "category": "business",
+   "source_id": "cbs",
+   "source_name": "CBS News Chicago",
+   "source_type": "web_feed",
+   "title": "Chicago's Magnolia Bakery shut down over cockroach infestation",
+   "summary": "The Magnolia Bakery location in downtown Chicago has been closed over a cockroach infestation.",
+   "url": "https://www.cbsnews.com/chicago/video/chicagos-magnolia-bakery-shut-down-over-cockroach-infestation/",
+   "published_at": "2026-07-15T13:39:00.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260715-printers-row-sports-bar-faces-eviction-a",
+   "category": "business",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Printers Row Sports Bar Faces Eviction Amid Noise Complaints, Wage Theft Allegations",
+   "summary": "Since February, neighbors have decried noise and rowdiness at Reserv. The business owner is due at a Thursday Business Affairs and Consumer Protection hearing over a list of changes demanded by the city.",
+   "url": "https://blockclubchicago.org/2026/07/15/printers-row-sports-bar-faces-eviction-amid-noise-complaints-wage-theft-allegations/",
+   "published_at": "2026-07-15T13:12:00.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260714-sprawling-woodlawn-central-development-d",
+   "category": "elected_official",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Sprawling Woodlawn Central Development, Daily News Building Landmarking Get Zoning Approval",
+   "summary": "The City Council's zoning committee also advanced a community center plan in Altgeld Gardens, a large mixed-use project in North Lawndale and various North Side apartment buildings.",
+   "url": "https://blockclubchicago.org/2026/07/14/sprawling-woodlawn-central-development-daily-news-building-landmarking-get-zoning-approval/",
+   "published_at": "2026-07-14T18:37:27.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "politico-20260714-illinois-lawmakers-face-challenges-durin",
    "category": "elected_official",
