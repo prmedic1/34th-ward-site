@@ -1,6 +1,30 @@
 {
- "generated_at": "2026-07-16T14:04:29.369Z",
+ "generated_at": "2026-07-16T14:31:27.986Z",
  "items": [
+  {
+   "id": "politico-20260716-gov-pritzker-signs-bills-to-support-law-",
+   "category": "elected_official",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Gov. Pritzker signs bills to support law enforcement",
+   "summary": "Governor JB Pritzker signed two bills aimed at addressing staffing shortages in law enforcement. One bill lowers age restrictions for sheriff's department hires, allowing individuals as young as 20 to serve as county police officers. The second bill expands penalties for violations of Illinois' Move Over Law, making it more difficult for drivers convicted of causing injury or death to regain their driving privileges.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-07-16T12:02:09.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "axios-20260716-beard-awards-future-uncertain",
+   "category": "business",
+   "source_id": "axios",
+   "source_name": "Axios Chicago",
+   "source_type": "email_newsletter",
+   "title": "Beard Awards' future uncertain",
+   "summary": "The James Beard Foundation is considering changes to its awards program, which has been a significant event for Chicago's culinary scene. Local chefs and restaurants are closely watching the developments, as the awards have historically highlighted the city's vibrant food culture.",
+   "url": "https://www.axios.com/local/chicago",
+   "published_at": "2026-07-16T11:28:31.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "politico-20260716-governor-signs-bills-to-support-law-enfo",
    "category": "elected_official",

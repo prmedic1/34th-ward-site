@@ -2,11 +2,11 @@
  "_rotation_note": "The daily job picks the next business each morning - rotating among ward businesses with priority to spotlight requests from owners and newly opened spots. Keep yesterday's entries in history.",
  "current": {
   "date": "2026-07-16",
-  "name": "Publican Quality Meats",
-  "address": "825 W. Fulton Market, Fulton Market",
-  "website": "https://www.publicanqualitymeats.com/",
-  "image": "images/spotlight/publican-quality-meats.jpg",
-  "blurb": "The butcher shop, bakery, and sandwich cafe next to The Publican. Grab a pastrami or porchetta sandwich, a loaf of bread, and house-cured meats to take home."
+  "name": "Swift & Sons",
+  "address": "1000 W. Fulton Market, Fulton Market",
+  "website": "https://www.swiftandsonschicago.com/",
+  "image": "images/spotlight/swift-and-sons.jpg",
+  "blurb": "A grand, brass-and-leather steakhouse in a former cold-storage building, anchoring the Fulton Market dining scene. Dry-aged steaks, a raw bar, and a soaring room built for a night out."
  },
  "history": [
   {
@@ -144,6 +144,14 @@
    "website": "https://www.jpgraziano.com/",
    "image": "images/spotlight/jp-graziano.jpg",
    "blurb": "A century-old Italian importer and sandwich counter on Randolph Street. The Mr. G, a stacked Italian sub with sharp provolone and hot giardiniera, has a devoted citywide following."
+  },
+  {
+   "date": "2026-07-16",
+   "name": "Publican Quality Meats",
+   "address": "825 W. Fulton Market, Fulton Market",
+   "website": "https://www.publicanqualitymeats.com/",
+   "image": "images/spotlight/publican-quality-meats.jpg",
+   "blurb": "The butcher shop, bakery, and sandwich cafe next to The Publican. Grab a pastrami or porchetta sandwich, a loaf of bread, and house-cured meats to take home."
   }
  ]
 }
