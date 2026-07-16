@@ -1,12 +1,12 @@
 {
  "_rotation_note": "The daily job picks the next business each morning - rotating among ward businesses with priority to spotlight requests from owners and newly opened spots. Keep yesterday's entries in history.",
  "current": {
-  "date": "2026-07-15",
-  "name": "J.P. Graziano Grocery",
-  "address": "901 W. Randolph St, West Loop",
-  "website": "https://www.jpgraziano.com/",
-  "image": "images/spotlight/jp-graziano.jpg",
-  "blurb": "A century-old Italian importer and sandwich counter on Randolph Street. The Mr. G, a stacked Italian sub with sharp provolone and hot giardiniera, has a devoted citywide following."
+  "date": "2026-07-16",
+  "name": "Publican Quality Meats",
+  "address": "825 W. Fulton Market, Fulton Market",
+  "website": "https://www.publicanqualitymeats.com/",
+  "image": "images/spotlight/publican-quality-meats.jpg",
+  "blurb": "The butcher shop, bakery, and sandwich cafe next to The Publican. Grab a pastrami or porchetta sandwich, a loaf of bread, and house-cured meats to take home."
  },
  "history": [
   {
@@ -136,6 +136,14 @@
    "website": "https://gibsonssteakhouse.com/italia/",
    "image": "images/spotlight/gibsons-italia.jpg",
    "blurb": "The Italian-leaning riverside sibling of the classic Chicago steakhouse, with sweeping views of the Chicago River. Prime steaks, fresh pasta, and a see-and-be-seen patio."
+  },
+  {
+   "date": "2026-07-15",
+   "name": "J.P. Graziano Grocery",
+   "address": "901 W. Randolph St, West Loop",
+   "website": "https://www.jpgraziano.com/",
+   "image": "images/spotlight/jp-graziano.jpg",
+   "blurb": "A century-old Italian importer and sandwich counter on Randolph Street. The Mr. G, a stacked Italian sub with sharp provolone and hot giardiniera, has a devoted citywide following."
   }
  ]
 }

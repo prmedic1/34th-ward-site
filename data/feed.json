@@ -1,6 +1,90 @@
 {
- "generated_at": "2026-07-15T14:18:52.291Z",
+ "generated_at": "2026-07-16T14:04:29.369Z",
  "items": [
+  {
+   "id": "politico-20260716-governor-signs-bills-to-support-law-enfo",
+   "category": "elected_official",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Governor signs bills to support law enforcement",
+   "summary": "Governor JB Pritzker is set to sign two bills aimed at addressing staffing shortages in law enforcement. One bill will lower the age for certain sheriff's department hires to 20, while another will increase penalties for violations of Illinois' Move Over Law, making it tougher for drivers to regain their licenses after causing injury or death.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-07-16T12:02:09.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "axios-20260716-chicago-s-restaurant-scene-adapts-to-cha",
+   "category": "business",
+   "source_id": "axios",
+   "source_name": "Axios Chicago",
+   "source_type": "email_newsletter",
+   "title": "Chicago's restaurant scene adapts to challenges",
+   "summary": "Local restaurants are innovating to cope with rising costs and changing consumer preferences. Many are focusing on sustainability and community engagement, with some businesses offering new menu items and experiences to attract customers. This shift is crucial for maintaining the vibrancy of Chicago's dining landscape.",
+   "url": "https://www.axios.com/local/chicago",
+   "published_at": "2026-07-16T11:28:31.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260716-27-things-to-do-in-chicago-this-weekend-",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "27 Things To Do In Chicago This Weekend: West Fest, Tacos Y Tamales And Chicago Climate Week",
+   "summary": "Bevapalooza, Colombian Fest, Taste of River North and sidewalk sales from Avondale to Hyde Park are also on deck.",
+   "url": "https://blockclubchicago.org/2026/07/16/27-things-to-do-in-chicago-this-weekend-west-fest-tacos-y-tamales-and-chicago-climate-week/",
+   "published_at": "2026-07-16T12:03:51.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260715-magnolia-bakery-temporarily-closes-downt",
+   "category": "business",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Magnolia Bakery Temporarily Closes Downtown After Inspectors Find Live Roaches, Fly Infestation",
+   "summary": "The popular New York-based chain's State Street location has failed three health inspections in the last year, including on Monday.",
+   "url": "https://blockclubchicago.org/2026/07/15/magnolia-bakery-temporarily-closes-downtown-after-inspectors-find-live-roaches-fly-infestation/",
+   "published_at": "2026-07-15T20:59:52.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260715-chicago-daily-news-building-is-now-offic",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Chicago Daily News Building Is Now Officially A Landmark",
+   "summary": "The landmark status will allow the building's owner to apply for city incentives for rehabilitation projects.",
+   "url": "https://blockclubchicago.org/2026/07/15/chicago-daily-news-building-is-now-officially-a-landmark/",
+   "published_at": "2026-07-15T19:43:29.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260715-council-oks-424-million-in-public-funds-",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Council OKs $424 Million In Public Funds For Parking And More Near New Fire Stadium",
+   "summary": "The plan to use $250 million of that money on the garage and other improvements to benefit The 78 mega-development sparked lengthy debate this week but was ultimately OK'd.",
+   "url": "https://blockclubchicago.org/2026/07/15/city-council-approves-424-million-in-public-money-for-parking-garage-other-infrastructure-near-new-fire-soccer-stadium/",
+   "published_at": "2026-07-15T19:00:00.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260715-james-beard-awards-launch-national-searc",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "James Beard Awards Launch National Search For New Host City",
+   "summary": "Chicago has hosted the culinary awards since 2015 and will continue to do so through 2028. The process to find a new location opened Wednesday.",
+   "url": "https://blockclubchicago.org/2026/07/15/james-beard-awards-launch-national-search-for-new-host-city/",
+   "published_at": "2026-07-15T16:06:40.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "politico-20260715-illinois-lawmakers-face-data-center-scru",
    "category": "elected_official",
