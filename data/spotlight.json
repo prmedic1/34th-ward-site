@@ -2,11 +2,11 @@
  "_rotation_note": "The daily job picks the next business each morning - rotating among ward businesses with priority to spotlight requests from owners and newly opened spots. Keep yesterday's entries in history.",
  "current": {
   "date": "2026-07-17",
-  "name": "RM Champagne Salon",
-  "address": "116 N. Green St, West Loop",
-  "website": "https://www.rmchampagnesalon.com/",
-  "image": "images/spotlight/rm-champagne.jpg",
-  "blurb": "A hidden, cobblestone-courtyard Champagne bar off Green Street, romantic and candlelit, pouring bubbles and French-leaning small plates. One of the West Loop's most charming date spots."
+  "name": "Monteverde Restaurant & Pastificio",
+  "address": "1020 W. Madison St, West Loop",
+  "website": "https://www.monteverdechicago.com/",
+  "image": "images/spotlight/monteverde.jpg",
+  "blurb": "Chef Sarah Grueneberg, a James Beard Award winner, turns out some of the country's most celebrated handmade pasta from an open pastificio counter on Madison Street. The cacio whey pepe and the ragu alla napoletana are neighborhood legends, and the bar pours a deep Italian wine list."
  },
  "history": [
   {
@@ -160,6 +160,14 @@
    "website": "https://www.swiftandsonschicago.com/",
    "image": "images/spotlight/swift-and-sons.jpg",
    "blurb": "A grand, brass-and-leather steakhouse in a former cold-storage building, anchoring the Fulton Market dining scene. Dry-aged steaks, a raw bar, and a soaring room built for a night out."
+  },
+  {
+   "date": "2026-07-17",
+   "name": "RM Champagne Salon",
+   "address": "116 N. Green St, West Loop",
+   "website": "https://www.rmchampagnesalon.com/",
+   "image": "images/spotlight/rm-champagne.jpg",
+   "blurb": "A hidden, cobblestone-courtyard Champagne bar off Green Street, romantic and candlelit, pouring bubbles and French-leaning small plates. One of the West Loop's most charming date spots."
   }
  ]
 }
