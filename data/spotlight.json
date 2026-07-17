@@ -1,12 +1,12 @@
 {
  "_rotation_note": "The daily job picks the next business each morning - rotating among ward businesses with priority to spotlight requests from owners and newly opened spots. Keep yesterday's entries in history.",
  "current": {
-  "date": "2026-07-16",
-  "name": "Swift & Sons",
-  "address": "1000 W. Fulton Market, Fulton Market",
-  "website": "https://www.swiftandsonschicago.com/",
-  "image": "images/spotlight/swift-and-sons.jpg",
-  "blurb": "A grand, brass-and-leather steakhouse in a former cold-storage building, anchoring the Fulton Market dining scene. Dry-aged steaks, a raw bar, and a soaring room built for a night out."
+  "date": "2026-07-17",
+  "name": "RM Champagne Salon",
+  "address": "116 N. Green St, West Loop",
+  "website": "https://www.rmchampagnesalon.com/",
+  "image": "images/spotlight/rm-champagne.jpg",
+  "blurb": "A hidden, cobblestone-courtyard Champagne bar off Green Street, romantic and candlelit, pouring bubbles and French-leaning small plates. One of the West Loop's most charming date spots."
  },
  "history": [
   {
@@ -152,6 +152,14 @@
    "website": "https://www.publicanqualitymeats.com/",
    "image": "images/spotlight/publican-quality-meats.jpg",
    "blurb": "The butcher shop, bakery, and sandwich cafe next to The Publican. Grab a pastrami or porchetta sandwich, a loaf of bread, and house-cured meats to take home."
+  },
+  {
+   "date": "2026-07-16",
+   "name": "Swift & Sons",
+   "address": "1000 W. Fulton Market, Fulton Market",
+   "website": "https://www.swiftandsonschicago.com/",
+   "image": "images/spotlight/swift-and-sons.jpg",
+   "blurb": "A grand, brass-and-leather steakhouse in a former cold-storage building, anchoring the Fulton Market dining scene. Dry-aged steaks, a raw bar, and a soaring room built for a night out."
   }
  ]
 }
