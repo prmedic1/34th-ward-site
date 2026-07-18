@@ -1,12 +1,12 @@
 {
  "_rotation_note": "The daily job picks the next business each morning - rotating among ward businesses with priority to spotlight requests from owners and newly opened spots. Keep yesterday's entries in history.",
  "current": {
-  "date": "2026-07-17",
-  "name": "Monteverde Restaurant & Pastificio",
-  "address": "1020 W. Madison St, West Loop",
-  "website": "https://www.monteverdechicago.com/",
-  "image": "images/spotlight/monteverde.jpg",
-  "blurb": "Chef Sarah Grueneberg, a James Beard Award winner, turns out some of the country's most celebrated handmade pasta from an open pastificio counter on Madison Street. The cacio whey pepe and the ragu alla napoletana are neighborhood legends, and the bar pours a deep Italian wine list."
+  "date": "2026-07-18",
+  "name": "Green Street Smoked Meats",
+  "address": "112 N. Green St, West Loop",
+  "website": "https://greenstreetmeats.com/",
+  "image": "images/green-street-smoked-meats.jpg",
+  "blurb": "Tucked down an alley off Green Street, this rollicking barbecue joint serves Texas-style brisket, ribs, and burnt ends by the pound on butcher paper. Cold beer, picnic tables, and a lively bar make it a West Loop staple."
  },
  "history": [
   {
@@ -168,6 +168,14 @@
    "website": "https://www.rmchampagnesalon.com/",
    "image": "images/spotlight/rm-champagne.jpg",
    "blurb": "A hidden, cobblestone-courtyard Champagne bar off Green Street, romantic and candlelit, pouring bubbles and French-leaning small plates. One of the West Loop's most charming date spots."
+  },
+  {
+   "date": "2026-07-17",
+   "name": "Monteverde Restaurant & Pastificio",
+   "address": "1020 W. Madison St, West Loop",
+   "website": "https://www.monteverdechicago.com/",
+   "image": "images/spotlight/monteverde.jpg",
+   "blurb": "Chef Sarah Grueneberg, a James Beard Award winner, turns out some of the country's most celebrated handmade pasta from an open pastificio counter on Madison Street. The cacio whey pepe and the ragu alla napoletana are neighborhood legends, and the bar pours a deep Italian wine list."
   }
  ]
 }

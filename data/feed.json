@@ -1,6 +1,18 @@
 {
- "generated_at": "2026-07-17T14:11:19.456Z",
+ "generated_at": "2026-07-18T13:25:47.179Z",
  "items": [
+  {
+   "id": "blockclub-20260717-pizza-5k-s-last-minute-date-change-leave",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Pizza 5K’s Last-Minute Date Change Leaves Some Runners Fuming",
+   "summary": "The inaugural Slice of Chicago run was set for July 12 at Soldier Field but rescheduled to Oct. 3 - when other races are taking place - because its pizza-shaped medals are stuck in customs, organizers said.",
+   "url": "https://blockclubchicago.org/2026/07/17/pizza-5ks-last-minute-date-change-leaves-some-runners-fuming/",
+   "published_at": "2026-07-17T23:04:07.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "abc7-20260717-3-cta-bus-passengers-injured-in-west-tow",
    "category": "civic_org",

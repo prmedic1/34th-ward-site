@@ -40,5 +40,12 @@
   "visitors": 49,
   "views": 8,
   "verdict": "usual"
+ },
+ {
+  "date": "2026-07-18",
+  "total": 79,
+  "visitors": 54,
+  "views": 5,
+  "verdict": "bad"
  }
 ]
