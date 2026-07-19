@@ -1,6 +1,18 @@
 {
- "generated_at": "2026-07-19T13:27:23.521Z",
+ "generated_at": "2026-07-19T13:59:50.187Z",
  "items": [
+  {
+   "id": "wca-20260717-new-member-spotlight-blind-barber",
+   "category": "business",
+   "source_id": "wca",
+   "source_name": "The WCA Weekly",
+   "source_type": "email_newsletter",
+   "title": "New Member Spotlight: Blind Barber",
+   "summary": "Blind Barber, located at 948 W Fulton Market, offers a unique blend of grooming and nightlife. By day, it provides barber services, and by night, it transforms into a cocktail lounge, enhancing the neighborhood's vibrant atmosphere.",
+   "url": "https://www.wcachicago.org/",
+   "published_at": "2026-07-17T11:30:29.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "politico-20260717-bank-of-america-exits-chicago-plan-to-se",
    "category": "elected_official",
