@@ -1,12 +1,12 @@
 {
  "_rotation_note": "The daily job picks the next business each morning - rotating among ward businesses with priority to spotlight requests from owners and newly opened spots. Keep yesterday's entries in history.",
  "current": {
-  "date": "2026-07-18",
-  "name": "Monteverde Restaurant & Pastificio",
-  "address": "1020 W. Madison St, West Loop",
-  "website": "https://www.monteverdechicago.com/",
-  "image": "images/spotlight/monteverde.jpg",
-  "blurb": "Chef Sarah Grueneberg, a James Beard Award winner, turns out some of the country's most celebrated handmade pasta from an open pastificio counter on Madison Street. The cacio whey pepe and the ragu alla napoletana are neighborhood legends, and the bar pours a deep Italian wine list."
+  "date": "2026-07-19",
+  "name": "Mario's Italian Lemonade",
+  "address": "1068 W. Taylor St, Little Italy",
+  "website": "https://www.facebook.com/MariosItalianLemonade/",
+  "image": "images/marios-italian-lemonade.webp",
+  "blurb": "A Taylor Street summer institution since 1954, Mario's is the little red-and-green stand where Chicagoans line up for hand-shaved Italian lemonade. Cash only, open only in the warm months, and worth every minute of the wait."
  },
  "history": [
   {
@@ -184,6 +184,14 @@
    "website": "https://greenstreetmeats.com/",
    "image": "images/green-street-smoked-meats.jpg",
    "blurb": "Tucked down an alley off Green Street, this rollicking barbecue joint serves Texas-style brisket, ribs, and burnt ends by the pound on butcher paper. Cold beer, picnic tables, and a lively bar make it a West Loop staple."
+  },
+  {
+   "date": "2026-07-18",
+   "name": "Monteverde Restaurant & Pastificio",
+   "address": "1020 W. Madison St, West Loop",
+   "website": "https://www.monteverdechicago.com/",
+   "image": "images/spotlight/monteverde.jpg",
+   "blurb": "Chef Sarah Grueneberg, a James Beard Award winner, turns out some of the country's most celebrated handmade pasta from an open pastificio counter on Madison Street. The cacio whey pepe and the ragu alla napoletana are neighborhood legends, and the bar pours a deep Italian wine list."
   }
  ]
 }

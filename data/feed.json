@@ -1,6 +1,54 @@
 {
- "generated_at": "2026-07-18T13:55:36.928Z",
+ "generated_at": "2026-07-19T13:27:23.521Z",
  "items": [
+  {
+   "id": "politico-20260717-bank-of-america-exits-chicago-plan-to-se",
+   "category": "elected_official",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Bank of America exits Chicago plan to sell overdue parking debt",
+   "summary": "Chicago's administration is actively evaluating alternative options after Bank of America withdrew from a plan to sell about $1 billion in overdue parking tickets. This decision comes as the City Council faces a deadline to accept or reject a parking meter deal, which has been extended until September 30.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-07-17T12:00:52.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "axios-20260717-chicago-artisan-market-on-july-19",
+   "category": "civic_org",
+   "source_id": "axios",
+   "source_name": "Axios Chicago",
+   "source_type": "email_newsletter",
+   "title": "Chicago Artisan Market on July 19",
+   "summary": "The Chicago Artisan Market will take place at Morgan MFG on Sunday, July 19, from 11:00 AM to 5:00 PM. The event features over 110 local artisans showcasing food, fashion, home goods, and art in a family-friendly environment.",
+   "url": "https://www.axios.com/local/chicago",
+   "published_at": "2026-07-17T11:27:22.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "wca-20260717-west-loop-art-fest-on-august-22-23",
+   "category": "community_event",
+   "source_id": "wca",
+   "source_name": "The WCA Weekly",
+   "source_type": "email_newsletter",
+   "title": "West Loop Art Fest on August 22 & 23",
+   "summary": "The West Loop Art Fest is set for August 22 and 23, transforming Fulton Street between Carpenter and Green into a vibrant outdoor art experience. Attendees can explore original artwork, watch live demonstrations, and support local artists.",
+   "url": "https://www.wcachicago.org/",
+   "published_at": "2026-07-17T11:30:29.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "wca-20260717-wca-s-annual-beers-bites-fundraiser-on-s",
+   "category": "community_event",
+   "source_id": "wca",
+   "source_name": "The WCA Weekly",
+   "source_type": "email_newsletter",
+   "title": "WCA's Annual Beers & Bites Fundraiser on September 10",
+   "summary": "Join the West Central Association for their annual Beers & Bites Fundraiser on Thursday, September 10, at Haymarket Brewery. The event will feature chef-curated tasting bites, craft beer pairings, and raffle prizes, supporting local businesses and the Near West Side community.",
+   "url": "https://www.wcachicago.org/",
+   "published_at": "2026-07-17T11:30:29.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "blockclub-20260717-pizza-5k-s-last-minute-date-change-leave",
    "category": "civic_org",
