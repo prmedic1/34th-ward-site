@@ -1,6 +1,54 @@
 {
- "generated_at": "2026-07-19T13:59:50.187Z",
+ "generated_at": "2026-07-20T14:17:28.265Z",
  "items": [
+  {
+   "id": "politico-20260720-governor-s-race-heats-up-with-urban-outr",
+   "category": "elected_official",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Governor's race heats up with urban outreach",
+   "summary": "Republican candidate Darren Bailey is making efforts to connect with Chicago voters, hosting a meet-and-greet in Pilsen. This event is part of his strategy to broaden his appeal beyond his rural base, focusing on issues like affordability and housing costs.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-07-20T12:02:13.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "axios-20260720-air-quality-alert-issued-for-chicago",
+   "category": "civic_org",
+   "source_id": "axios",
+   "source_name": "Axios Chicago",
+   "source_type": "email_newsletter",
+   "title": "Air quality alert issued for Chicago",
+   "summary": "The Chicago Department of Public Health has issued an air quality alert due to elevated pollution levels. Residents are advised to limit outdoor activities, especially those with respiratory issues, as the alert is expected to remain in effect throughout the day.",
+   "url": "https://www.axios.com/local/chicago",
+   "published_at": "2026-07-20T11:28:12.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "igwl-20260720-community-engagement-opportunities-in-th",
+   "category": "civic_org",
+   "source_id": "igwl",
+   "source_name": "Indivisible Greater West Loop",
+   "source_type": "email_newsletter",
+   "title": "Community engagement opportunities in the West Loop",
+   "summary": "Indivisible Greater West Loop is encouraging residents to participate in local community meetings and volunteer opportunities. These initiatives aim to foster community involvement and address local issues, providing a platform for residents to voice their concerns.",
+   "url": "https://www.indivisiblegwlchi.org/",
+   "published_at": "2026-07-20T12:46:13.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260720-chicago-s-concrete-beach-is-going-viral-",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Chicago's Concrete Beach' Is Going Viral On Social Media. Here's Why Locals Love It",
+   "summary": "The internet is roasting Chicagoans for their love of the \"concrete beach.\" Despite the flak, many residents said they prefer the concrete over the city's many sandy beaches.",
+   "url": "https://blockclubchicago.org/2026/07/20/chicagos-concrete-beach-is-going-viral-on-social-media-heres-why-locals-love-it/",
+   "published_at": "2026-07-20T13:42:00.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "wca-20260717-new-member-spotlight-blind-barber",
    "category": "business",
