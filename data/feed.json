@@ -1,6 +1,18 @@
 {
- "generated_at": "2026-07-20T14:17:28.265Z",
+ "generated_at": "2026-07-20T14:37:12.959Z",
  "items": [
+  {
+   "id": "igwl-20260720-community-meeting-on-local-safety-initia",
+   "category": "civic_org",
+   "source_id": "igwl",
+   "source_name": "Indivisible Greater West Loop",
+   "source_type": "email_newsletter",
+   "title": "Community meeting on local safety initiatives",
+   "summary": "Indivisible Greater West Loop is hosting a community meeting on July 25, 2026, to discuss local safety initiatives and gather resident feedback. The meeting will take place at the West Loop Community Center, starting at 6 PM. Residents are encouraged to attend and share their thoughts on improving neighborhood safety.",
+   "url": "https://www.indivisiblegwlchi.org/",
+   "published_at": "2026-07-20T12:46:13.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "politico-20260720-governor-s-race-heats-up-with-urban-outr",
    "category": "elected_official",

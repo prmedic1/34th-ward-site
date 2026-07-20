@@ -2,11 +2,11 @@
  "_rotation_note": "The daily job picks the next business each morning - rotating among ward businesses with priority to spotlight requests from owners and newly opened spots. Keep yesterday's entries in history.",
  "current": {
   "date": "2026-07-20",
-  "name": "The Publican",
-  "address": "837 W. Fulton Market, Fulton Market",
-  "website": "https://www.thepublicanrestaurant.com/",
-  "image": "images/spotlight/the-publican.jpg",
-  "blurb": "A beer-hall-style anchor of Fulton Market built on oysters, house charcuterie, and pork served at long communal tables. Its farm-focused cooking helped turn the old meatpacking district into a dining destination."
+  "name": "The Original Pancake House",
+  "address": "1124 W. Madison St, West Loop",
+  "website": "https://ophchicagoland.com/",
+  "image": "images/original-pancake-house.jpg",
+  "blurb": "A breakfast institution since 1953, famous for the oven-baked Dutch Baby and apple pancakes. The West Loop location on Madison fills its striped-awning patio all summer long."
  },
  "history": [
   {
@@ -208,6 +208,14 @@
    "website": "https://www.sepiachicago.com/",
    "image": "images/spotlight/sepia.jpg",
    "blurb": "Set in a restored 1890s print shop, this Michelin-starred West Loop mainstay pairs refined American cooking with a warm, timeless room. It has been a special-occasion favorite in the neighborhood for well over a decade."
+  },
+  {
+   "date": "2026-07-20",
+   "name": "The Publican",
+   "address": "837 W. Fulton Market, Fulton Market",
+   "website": "https://www.thepublicanrestaurant.com/",
+   "image": "images/spotlight/the-publican.jpg",
+   "blurb": "A beer-hall-style anchor of Fulton Market built on oysters, house charcuterie, and pork served at long communal tables. Its farm-focused cooking helped turn the old meatpacking district into a dining destination."
   }
  ]
 }
