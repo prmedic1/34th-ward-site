@@ -1,6 +1,90 @@
 {
- "generated_at": "2026-07-21T14:04:01.106Z",
+ "generated_at": "2026-07-21T14:32:46.480Z",
  "items": [
+  {
+   "id": "politico-20260721-chicago-fire-stadium-development",
+   "category": "elected_official",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Chicago Fire Stadium Development",
+   "summary": "The Chicago Fire soccer club is moving forward with a privately financed $750 million stadium in the South Loop, supported by a $425 million tax subsidy for surrounding infrastructure approved by the City Council. The team aims to strengthen community connections and engage local neighborhoods as part of its development strategy.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-07-21T12:02:11.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "axios-20260721-renters-rights-advocacy",
+   "category": "civic_org",
+   "source_id": "axios",
+   "source_name": "Axios Chicago",
+   "source_type": "email_newsletter",
+   "title": "Renters' Rights Advocacy",
+   "summary": "A coalition of Chicago renters is advocating for stronger protections against eviction and rent increases. The group is pushing for legislation that would provide more security for tenants, particularly in light of rising housing costs in the city.",
+   "url": "https://www.axios.com/local/chicago",
+   "published_at": "2026-07-21T11:28:18.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "axios-20260721-local-business-spotlight-new-restaurant-",
+   "category": "business",
+   "source_id": "axios",
+   "source_name": "Axios Chicago",
+   "source_type": "email_newsletter",
+   "title": "Local Business Spotlight: New Restaurant Openings",
+   "summary": "Several new restaurants have opened in the West Loop, adding to the vibrant dining scene. Notable mentions include a new Italian eatery on Randolph Street and a modern taco shop that aims to bring a fresh twist to traditional recipes.",
+   "url": "https://www.axios.com/local/chicago",
+   "published_at": "2026-07-21T11:28:18.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "conway-20260721-34th-ward-community-clean-up-day",
+   "category": "community_event",
+   "source_id": "conway",
+   "source_name": "Conway's Corner (34th Ward Office Newsletter)",
+   "source_type": "email_newsletter",
+   "title": "34th Ward Community Clean-Up Day",
+   "summary": "Join the 34th Ward Community Clean-Up Day on August 5, 2026, from 9 AM to 1 PM. Volunteers will meet at the corner of Halsted and Madison to help beautify local parks and streets, with supplies provided by the ward office.",
+   "url": "https://www.ward34.org/",
+   "published_at": "2026-07-21T14:32:46.480Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "wca-20260721-west-loop-community-association-meeting",
+   "category": "civic_org",
+   "source_id": "wca",
+   "source_name": "The WCA Weekly",
+   "source_type": "email_newsletter",
+   "title": "West Loop Community Association Meeting",
+   "summary": "The West Loop Community Association will hold its monthly meeting on July 28, 2026, at 6 PM at the local community center. Residents are encouraged to attend to discuss neighborhood issues and upcoming events.",
+   "url": "https://www.wcachicago.org/",
+   "published_at": "2026-07-21T14:32:46.480Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "wlco-20260721-new-farmers-market-launch",
+   "category": "business",
+   "source_id": "wlco",
+   "source_name": "West Loop Community Organization",
+   "source_type": "email_newsletter",
+   "title": "New Farmers Market Launch",
+   "summary": "A new farmers market will launch in Greektown on August 12, 2026, featuring local produce, artisanal goods, and live music. The market aims to support local farmers and provide fresh food options to the community.",
+   "url": "https://www.westloop.org/",
+   "published_at": "2026-07-21T14:32:46.480Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "skyline-20260721-chicago-sky-all-star-weekend",
+   "category": "community_event",
+   "source_id": "skyline",
+   "source_name": "Skyline (Inside Publications)",
+   "source_type": "email_newsletter",
+   "title": "Chicago Sky All-Star Weekend",
+   "summary": "The Chicago Sky will host their All-Star Weekend from July 21-24, 2026, at Wintrust Arena. The event will feature various activities, including a skills challenge and the All-Star Game, celebrating women's basketball and community engagement.",
+   "url": "https://insideonline.com/",
+   "published_at": "2026-07-21T14:32:46.480Z",
+   "flagged_for_review": false
+  },
   {
    "id": "politico-20260721-chicago-fire-moves-forward-with-new-stad",
    "category": "business",
