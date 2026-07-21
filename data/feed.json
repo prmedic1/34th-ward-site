@@ -1,6 +1,54 @@
 {
- "generated_at": "2026-07-20T14:37:12.959Z",
+ "generated_at": "2026-07-21T14:04:01.106Z",
  "items": [
+  {
+   "id": "politico-20260721-chicago-fire-moves-forward-with-new-stad",
+   "category": "business",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Chicago Fire moves forward with new stadium",
+   "summary": "The Chicago Fire soccer club is advancing plans for a $750 million stadium in the South Loop, supported by a $425 million tax subsidy for surrounding infrastructure approved by the City Council. This initiative aims to strengthen community ties and enhance youth development in soccer, reflecting a growing interest in the sport among diverse Chicago audiences.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-07-21T12:02:11.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "axios-20260721-renters-rights-fight-continues-in-chicag",
+   "category": "civic_org",
+   "source_id": "axios",
+   "source_name": "Axios Chicago",
+   "source_type": "email_newsletter",
+   "title": "Renters' rights fight continues in Chicago",
+   "summary": "A coalition of Chicago renters is advocating for stronger protections against eviction and rent hikes, emphasizing the need for comprehensive tenant rights legislation. The movement is gaining traction as housing costs continue to rise, impacting many residents in the 34th Ward and beyond.",
+   "url": "https://www.axios.com/local/chicago",
+   "published_at": "2026-07-21T11:28:18.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "axios-20260721-upcoming-community-meeting-on-local-deve",
+   "category": "community_event",
+   "source_id": "axios",
+   "source_name": "Axios Chicago",
+   "source_type": "email_newsletter",
+   "title": "Upcoming community meeting on local development",
+   "summary": "A community meeting is scheduled for July 28, 2026, at the South Loop Community Center to discuss upcoming development projects in the area. Residents are encouraged to attend to voice their opinions and learn about how these projects may affect their neighborhoods.",
+   "url": "https://www.axios.com/local/chicago",
+   "published_at": "2026-07-21T11:28:18.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260721-goose-island-s-2026-bourbon-county-lineu",
+   "category": "business",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Goose Island’s 2026 Bourbon County Lineup Revealed",
+   "summary": "The brewery's annual Black Friday release of barrel-aged stouts will make barleywine fans happy, while this year's swings include apple crisp and pineapple upside down cake riffs.",
+   "url": "https://blockclubchicago.org/2026/07/21/goose-islands-2026-bourbon-county-lineup-revealed/",
+   "published_at": "2026-07-21T14:00:00.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "igwl-20260720-community-meeting-on-local-safety-initia",
    "category": "civic_org",

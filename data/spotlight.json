@@ -1,12 +1,12 @@
 {
  "_rotation_note": "The daily job picks the next business each morning - rotating among ward businesses with priority to spotlight requests from owners and newly opened spots. Keep yesterday's entries in history.",
  "current": {
-  "date": "2026-07-20",
-  "name": "The Original Pancake House",
-  "address": "1124 W. Madison St, West Loop",
-  "website": "https://ophchicagoland.com/",
-  "image": "images/original-pancake-house.jpg",
-  "blurb": "A breakfast institution since 1953, famous for the oven-baked Dutch Baby and apple pancakes. The West Loop location on Madison fills its striped-awning patio all summer long."
+  "date": "2026-07-21",
+  "name": "Lou Mitchell's",
+  "address": "565 W. Jackson Blvd, West Loop",
+  "website": "https://www.loumitchells.com/",
+  "image": "images/lou-mitchells.jpg",
+  "blurb": "A Chicago breakfast landmark at the original starting line of Route 66, serving since 1923. Lou Mitchell's is famous for double-yolk eggs, skillet omelettes served in the pan, and the free Milk Duds and donut holes handed out while you wait."
  },
  "history": [
   {
@@ -216,6 +216,14 @@
    "website": "https://www.thepublicanrestaurant.com/",
    "image": "images/spotlight/the-publican.jpg",
    "blurb": "A beer-hall-style anchor of Fulton Market built on oysters, house charcuterie, and pork served at long communal tables. Its farm-focused cooking helped turn the old meatpacking district into a dining destination."
+  },
+  {
+   "date": "2026-07-20",
+   "name": "The Original Pancake House",
+   "address": "1124 W. Madison St, West Loop",
+   "website": "https://ophchicagoland.com/",
+   "image": "images/original-pancake-house.jpg",
+   "blurb": "A breakfast institution since 1953, famous for the oven-baked Dutch Baby and apple pancakes. The West Loop location on Madison fills its striped-awning patio all summer long."
   }
  ]
 }
