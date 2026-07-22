@@ -31,14 +31,21 @@ const FEEDS = [
   { source_id: 'blockclub', url: 'https://blockclubchicago.org/category/downtown/feed/', local: true },
   { source_id: 'cbs', url: 'https://www.cbsnews.com/chicago/latest/rss/main', local: false },
   { source_id: 'abc7', url: 'https://abc7chicago.com/feed/', local: false },
-  { source_id: 'eater', url: 'https://chicago.eater.com/rss/index.xml', local: false }
+  { source_id: 'eater', url: 'https://chicago.eater.com/rss/index.xml', local: false },
+  // Ward Watch: a daily Google News sweep of the wider web for anything that
+  // mentions the 34th Ward by name, whatever outlet wrote it. The when:7d is
+  // required - without it Google returns relevance-ranked articles from years
+  // ago. local:false so the ward-keyword filter below still applies: Google's
+  // phrase matching is loose, and unattended publishing should stay strict.
+  { source_id: 'wardwatch', url: 'https://news.google.com/rss/search?q=%2234th+Ward%22+Chicago+when%3A7d&hl=en-US&gl=US&ceid=US:en', local: false }
 ];
 
 const SOURCE_NAMES = {
   blockclub: 'Block Club Chicago',
   cbs: 'CBS News Chicago',
   abc7: 'ABC7 Chicago',
-  eater: 'Eater Chicago'
+  eater: 'Eater Chicago',
+  wardwatch: 'Ward Watch'
 };
 
 // Ward relevance for the citywide outlets.
@@ -74,7 +81,12 @@ const SPOTLIGHT_POOL = [
   { name: "Mario's Italian Lemonade", address: '1068 W. Taylor St, Little Italy', website: 'https://www.facebook.com/MariosItalianLemonade/', image: 'images/marios-italian-lemonade.webp', blurb: 'A Taylor Street summer institution since 1954, Mario\'s is the little red-and-green stand where Chicagoans line up for hand-shaved Italian lemonade. Cash only, open only in the warm months, and worth every minute of the wait.' },
   { name: 'Publican Quality Meats', address: '825 W. Fulton Market, Fulton Market', website: 'https://www.publicanqualitymeats.com/', image: 'images/spotlight/publican-quality-meats.jpg', blurb: 'The butcher shop, bakery, and sandwich cafe next to The Publican. Grab a pastrami or porchetta sandwich, a loaf of bread, and house-cured meats to take home.' },
   { name: 'Swift & Sons', address: '1000 W. Fulton Market, Fulton Market', website: 'https://www.swiftandsonschicago.com/', image: 'images/spotlight/swift-and-sons.jpg', blurb: 'A grand, brass-and-leather steakhouse in a former cold-storage building, anchoring the Fulton Market dining scene. Dry-aged steaks, a raw bar, and a soaring room built for a night out.' },
-  { name: 'RM Champagne Salon', address: '116 N. Green St, West Loop', website: 'https://www.rmchampagnesalon.com/', image: 'images/spotlight/rm-champagne.jpg', blurb: 'A hidden, cobblestone-courtyard Champagne bar off Green Street, romantic and candlelit, pouring bubbles and French-leaning small plates. One of the West Loop\'s most charming date spots.' }
+  { name: 'RM Champagne Salon', address: '116 N. Green St, West Loop', website: 'https://www.rmchampagnesalon.com/', image: 'images/spotlight/rm-champagne.jpg', blurb: 'A hidden, cobblestone-courtyard Champagne bar off Green Street, romantic and candlelit, pouring bubbles and French-leaning small plates. One of the West Loop\'s most charming date spots.' },
+  { name: 'H Mart West Loop', address: '711 W. Jackson Blvd, West Loop', website: 'https://www.hmart.com/', image: 'images/spotlight/h-mart.jpg', blurb: 'The beloved Korean-American grocery chain\'s downtown Chicago store, stocking fresh produce, seafood, kimchi, and hard-to-find pantry staples from across Asia. The food hall upstairs draws a lunch crowd from all over the Loop.' },
+  { name: 'Open Books West Loop', address: '651 W. Lake St, West Loop', website: 'https://www.open-books.org/', image: 'images/spotlight/open-books.jpg', blurb: 'A nonprofit used bookstore where every purchase funds literacy programs for Chicago students. Tens of thousands of donated titles line the shelves, and volunteers keep the mission running.' },
+  { name: 'CrossTown Fitness', address: '1031 W. Madison St, West Loop', website: 'https://www.crosstownfitness.com/', image: 'images/spotlight/crosstown-fitness.jpg', blurb: 'A locally owned gym on Madison Street known for high-energy group classes, personal training, and a neighborhood feel that big chains cannot match. A West Loop fixture for over a decade.' },
+  { name: 'Madison Street Books', address: '1127 W. Madison St, West Loop', website: 'https://www.madstreetbooks.com/', image: 'images/spotlight/madison-street-books.jpg', blurb: 'The West Loop\'s independent bookstore, with a thoughtfully curated selection, a resident shop dog, and a steady calendar of author events and book clubs. A cozy neighborhood anchor on Madison Street.' },
+  { name: 'Capitol Hill Cleaners', address: '305 S. Desplaines St, West Loop', website: 'https://www.yelp.com/biz/capitol-hill-cleaners-chicago', image: 'images/spotlight/capitol-hill-cleaners.jpg', blurb: 'A family-run dry cleaner that West Loop and Greektown neighbors have trusted for years with everything from suits to wedding dresses. Friendly counter service and quick turnarounds keep the regulars loyal.' }
 ];
 
 function decode(s) {
@@ -207,21 +219,35 @@ async function main() {
   feed.generated_at = new Date().toISOString();
   await writeFile(feedPath, JSON.stringify(feed, null, 1) + '\n');
 
-  // Rotate the spotlight (curated pool, skipping the recent ones).
-  const recent = new Set([
-    spot.current && spot.current.name,
-    ...(spot.history || []).slice(-Math.min(30, SPOTLIGHT_POOL.length - 1)).map((h) => h.name)
-  ].filter(Boolean));
-  const pick = SPOTLIGHT_POOL.find((b) => !recent.has(b.name)) || SPOTLIGHT_POOL[0];
-  if (spot.current) { spot.history = spot.history || []; spot.history.push(spot.current); }
-  spot.current = {
-    date: new Date().toISOString().slice(0, 10),
-    name: pick.name, address: pick.address, website: pick.website,
-    image: pick.image || '', blurb: pick.blurb
-  };
-  await writeFile(spotPath, JSON.stringify(spot, null, 1) + '\n');
+  // Rotate the spotlight - AT MOST ONCE PER CHICAGO DAY, never repeating a
+  // business until every one in the pool has had its turn.
+  //
+  // Two bugs used to cause repeats: this ran on whatever schedule fired (the
+  // workflow can run more than once a day, which chewed through the pool at
+  // double speed), and the date was read in UTC, which rolls over at 7pm
+  // Chicago time. Both are fixed here: the day is Chicago's, and a business
+  // is only eligible if it has never been featured, falling back to the
+  // least-recently-featured one once the whole pool has been used.
+  const todayStr = new Date().toLocaleDateString('en-CA', { timeZone: 'America/Chicago' });
+  if (spot.current && spot.current.date === todayStr) {
+    console.log(`Spotlight already set today (${spot.current.name}); not rotating again.`);
+  } else {
+    const past = [...(spot.history || []), spot.current].filter(Boolean);
+    const lastSeen = new Map();
+    past.forEach((h, i) => { if (h.name) lastSeen.set(h.name, i); });
+    const pick =
+      SPOTLIGHT_POOL.find((b) => !lastSeen.has(b.name)) ||
+      SPOTLIGHT_POOL.slice().sort((a, b) => lastSeen.get(a.name) - lastSeen.get(b.name))[0];
+    if (spot.current) { spot.history = spot.history || []; spot.history.push(spot.current); }
+    spot.current = {
+      date: todayStr,
+      name: pick.name, address: pick.address, website: pick.website,
+      image: pick.image || '', blurb: pick.blurb
+    };
+    await writeFile(spotPath, JSON.stringify(spot, null, 1) + '\n');
+  }
 
-  console.log(`News refresh: added ${added} item(s) from ${raw.length} feed entries; spotlight -> ${pick.name}.`);
+  console.log(`News refresh: added ${added} item(s) from ${raw.length} feed entries; spotlight -> ${spot.current.name}.`);
 }
 
 main().catch((e) => {

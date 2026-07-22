@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-07-21T14:32:18.791Z",
+  "updated_at": "2026-07-22T01:34:30.501Z",
   "election_date": "February 23, 2027",
   "kalshi_event": "KXCHICAGOMAYOR-27",
   "kalshi_url": "https://kalshi.com/markets/kxchicagomayor",
-  "note": "Blended win probabilities from the Kalshi prediction market (event KXCHICAGOMAYOR-27) and PredictionEdge, normalized to 100% across the 13 tracked candidates. Candidates without an active market are floored at about 0.5%. Prediction markets, not polls.",
+  "note": "Blended win probabilities from the Kalshi prediction market (event KXCHICAGOMAYOR-27) and PredictionEdge, normalized to 100% across the 14 tracked candidates. Candidates without an active market are floored at about 0.5%. Prediction markets, not polls.",
   "candidates": [
     {
       "name": "Alexi Giannoulias",
@@ -13,8 +13,8 @@
       "badge": "Favorite",
       "badgeColor": "blue",
       "image": "images/candidates/giannoulias.jpg",
-      "pct": 41.4,
-      "kalshi_raw": 53,
+      "pct": 41.8,
+      "kalshi_raw": 55,
       "pe_raw": 43,
       "manifold_raw": 32.6,
       "campaign_url": "https://www.ilsos.gov/"
@@ -27,7 +27,7 @@
       "image": "images/candidates/brewer.jpg",
       "badge": "Underdog",
       "badgeColor": "yellow",
-      "pct": 11.2,
+      "pct": 11,
       "kalshi_raw": 12,
       "pe_raw": 23,
       "manifold_raw": 4.2
@@ -40,7 +40,7 @@
       "badge": "Incumbent",
       "badgeColor": "green",
       "image": "images/candidates/johnson.jpg",
-      "pct": 9.4,
+      "pct": 9.3,
       "kalshi_raw": 11,
       "pe_raw": null,
       "manifold_raw": 9.6,
@@ -52,7 +52,7 @@
       "status": "declared",
       "order": 4,
       "image": "images/candidates/mendoza.jpg",
-      "pct": 14.6,
+      "pct": 14.4,
       "kalshi_raw": 19,
       "pe_raw": 16,
       "manifold_raw": 9.5,
@@ -113,7 +113,7 @@
       "status": "declared",
       "order": 9,
       "image": "images/candidates/holberg.jpg",
-      "pct": 3.9,
+      "pct": 3.8,
       "kalshi_raw": 5,
       "pe_raw": null,
       "manifold_raw": 2.5,
@@ -127,7 +127,7 @@
       "image": "images/candidates/cardenas.jpg",
       "badge": "Conservative",
       "badgeColor": "red",
-      "pct": 1.5,
+      "pct": 1.4,
       "kalshi_raw": 1,
       "pe_raw": null,
       "manifold_raw": 3.6
@@ -138,7 +138,7 @@
       "status": "declared",
       "order": 11,
       "image": "images/candidates/stanton.jpg",
-      "pct": 9.9,
+      "pct": 9.8,
       "kalshi_raw": 14,
       "pe_raw": null,
       "manifold_raw": 2.9,
@@ -166,6 +166,19 @@
       "pe_raw": null,
       "manifold_raw": 1.5,
       "campaign_url": "https://www.ward34.org/"
+    },
+    {
+      "name": "Danielle Carter-Walters",
+      "role": "Chicago Flips Red vice president",
+      "status": "declared",
+      "order": 14,
+      "badge": "Conservative",
+      "badgeColor": "red",
+      "image": "images/candidates/carter-walters.jpg",
+      "pct": 0.4,
+      "kalshi_raw": null,
+      "pe_raw": null,
+      "campaign_url": "https://www.dannicformayor.com/"
     }
   ]
 }

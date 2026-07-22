@@ -86,6 +86,14 @@
    "monogram": "E",
    "description": "Chicago restaurant news, openings, and closings, with heavy West Loop and Fulton Market coverage.",
    "site": "https://chicago.eater.com/"
+  },
+  {
+   "id": "wardwatch",
+   "name": "Ward Watch",
+   "editor": "Around the Web",
+   "monogram": "WW",
+   "description": "A daily sweep of news outlets everywhere for stories that mention Chicago's 34th Ward.",
+   "site": "https://news.google.com/search?q=%2234th%20Ward%22%20Chicago"
   }
  ]
 }

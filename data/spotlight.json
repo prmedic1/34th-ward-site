@@ -2,11 +2,11 @@
  "_rotation_note": "The daily job picks the next business each morning - rotating among ward businesses with priority to spotlight requests from owners and newly opened spots. Keep yesterday's entries in history.",
  "current": {
   "date": "2026-07-21",
-  "name": "Au Cheval",
-  "address": "800 W. Randolph St, West Loop",
-  "website": "https://www.auchevalchicago.com/",
-  "image": "images/spotlight/au-cheval.jpg",
-  "blurb": "The dark, clubby diner behind what many call the best cheeseburger in America. The wait on Randolph Street is legendary, the bologna sandwich and the eggs are worth it, and the whole room hums well past midnight."
+  "name": "H Mart West Loop",
+  "address": "711 W. Jackson Blvd, West Loop",
+  "website": "https://www.hmart.com/",
+  "image": "images/spotlight/h-mart.jpg",
+  "blurb": "The beloved Korean-American grocery chain's downtown Chicago store, stocking fresh produce, seafood, kimchi, and hard-to-find pantry staples from across Asia. The food hall upstairs draws a lunch crowd from all over the Loop."
  },
  "history": [
   {
@@ -232,6 +232,14 @@
    "website": "https://www.loumitchells.com/",
    "image": "images/lou-mitchells.jpg",
    "blurb": "A Chicago breakfast landmark at the original starting line of Route 66, serving since 1923. Lou Mitchell's is famous for double-yolk eggs, skillet omelettes served in the pan, and the free Milk Duds and donut holes handed out while you wait."
+  },
+  {
+   "date": "2026-07-21",
+   "name": "Au Cheval",
+   "address": "800 W. Randolph St, West Loop",
+   "website": "https://www.auchevalchicago.com/",
+   "image": "images/spotlight/au-cheval.jpg",
+   "blurb": "The dark, clubby diner behind what many call the best cheeseburger in America. The wait on Randolph Street is legendary, the bologna sandwich and the eggs are worth it, and the whole room hums well past midnight."
   }
  ]
 }

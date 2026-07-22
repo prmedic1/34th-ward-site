@@ -159,14 +159,14 @@
   function esc(str) { const d = document.createElement('div'); d.textContent = str == null ? '' : str; return d.innerHTML; }
   function escA(str) { return String(str == null ? '' : str).replace(/"/g, '&quot;'); }
 
-  fetch('data/agents.json?d=20260711c')
+  fetch('data/agents.json?d=20260721a')
     .then((r) => r.json())
     .then((data) => {
       const agents = data.agents || [];
       if (agents.length) {
-        // Rotate the featured agent by day so it changes on its own.
-        const day = Math.floor(Date.now() / 86400000);
-        const feat = agents[day % agents.length];
+        // Rotate the featured agent WEEKLY so each one gets a full week.
+        const week = Math.floor(Date.now() / (86400000 * 7));
+        const feat = agents[week % agents.length];
         const img = document.getElementById('agent-img');
         if (feat.image) { img.src = feat.image; img.onerror = () => { img.style.display = 'none'; }; }
         else { img.style.display = 'none'; }

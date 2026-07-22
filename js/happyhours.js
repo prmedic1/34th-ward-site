@@ -54,7 +54,7 @@ function init() {
   ['hh-search', 'hh-hood', 'hh-cuisine', 'hh-day'].forEach((id) =>
     document.getElementById(id).addEventListener('input', apply)
   );
-  ['hh-now', 'hh-approved', 'hh-oysters', 'hh-patio'].forEach((id) =>
+  ['hh-now', 'hh-approved', 'hh-oysters', 'hh-beer', 'hh-wings', 'hh-patio'].forEach((id) =>
     document.getElementById(id).addEventListener('change', apply)
   );
   document.getElementById('hh-more').addEventListener('click', renderMore);
@@ -93,6 +93,8 @@ function apply() {
   const onNow = document.getElementById('hh-now').checked;
   const approved = document.getElementById('hh-approved').checked;
   const oysters = document.getElementById('hh-oysters').checked;
+  const beer = document.getElementById('hh-beer').checked;
+  const wings = document.getElementById('hh-wings').checked;
   const patio = document.getElementById('hh-patio').checked;
   const todayName = DAYS[new Date().getDay()];
 
@@ -103,6 +105,8 @@ function apply() {
     if (cuisine && !(d.cuisine || '').includes(cuisine)) return false;
     if (approved && !d.approved) return false;
     if (oysters && !d.oysters) return false;
+    if (beer && !isBeer(d)) return false;
+    if (wings && !isWings(d)) return false;
     if (patio && !isPatio(d)) return false;
     const days = d.days || [];
     if (day === 'today' && !days.includes(todayName)) return false;
@@ -131,6 +135,20 @@ function renderMore() {
   filtered.slice(shown, shown + PAGE).forEach((d) => list.insertAdjacentHTML('beforeend', renderDeal(d)));
   shown += Math.min(PAGE, filtered.length - shown);
   document.getElementById('hh-more').hidden = shown >= filtered.length;
+}
+
+
+// Beer and wing specials are detected from the deal text itself (the sheet
+// has no dedicated columns for them, unlike oysters). The word boundaries
+// matter: without them "ale" would match inside "Chalet" and mislabel a bar.
+function dealText(d) {
+  return (d.deal || '') + ' ' + (d.specials || '');
+}
+function isBeer(d) {
+  return /\b(beers?|drafts?|draughts?|pints?|ipa|lagers?|ales?|stouts?|pilsners?|high life|pbr|brews?|miller lite|bud light|modelo|coors)\b/i.test(dealText(d));
+}
+function isWings(d) {
+  return /\bwings?\b/i.test(dealText(d));
 }
 
 function isPatio(d) {
@@ -172,6 +190,8 @@ function renderDeal(d) {
   if (now) badges.push('<span class="hh-badge hh-now-badge">On now</span>');
   if (d.approved) badges.push('<span class="hh-badge hh-approved-badge">&#9733; Approved</span>');
   if (d.oysters) badges.push('<span class="hh-badge">Oysters</span>');
+  if (isBeer(d)) badges.push('<span class="hh-badge">Beer</span>');
+  if (isWings(d)) badges.push('<span class="hh-badge">Wings</span>');
   if (isPatio(d)) badges.push('<span class="hh-badge">Patio</span>');
   const maps = 'https://www.google.com/maps/search/' + encodeURIComponent(`${d.name} ${d.hood} Chicago`);
   return `
