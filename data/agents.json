@@ -4,7 +4,7 @@
   {
    "name": "Stephanie Fedor",
    "brokerage": "LAKE Group at Compass",
-   "image": "images/agents/stephanie-fedor.jpg",
+   "image": "images/agents/stephanie-fedor.jpg?v=20260721d",
    "url": "https://www.compass.com/agents/stephanie-fedor/",
    "phone": "(312) 618-1251",
    "blurb": "A licensed Chicago broker since 2018 and part of Compass's LAKE Group, a Top Producing team with more than $650 million in sales. Stephanie has lived downtown for nearly two decades and knows the West Loop intimately, having helped open neighborhood restaurants like Girl & the Goat and Aba before real estate. She writes a dedicated West Loop real estate blog and works with both buyers and sellers.",
@@ -15,7 +15,7 @@
   {
    "name": "Ilsa Conover",
    "brokerage": "Jameson Sotheby's International Realty",
-   "image": "images/agents/ilsa-conover.jpg",
+   "image": "images/agents/ilsa-conover.jpg?v=20260721d",
    "url": "https://www.ilsaconover.com/",
    "phone": "",
    "blurb": "A Chicago real estate broker with more than 16 years of experience, Ilsa focuses on the West Loop along with Lincoln Park, River North, and the Gold Coast. She works with first-time and repeat buyers and sellers on everything from condo conversions to new-construction and luxury properties, and is known for hands-on, client-first communication.",
@@ -26,7 +26,7 @@
   {
    "name": "Stephanie Turner",
    "brokerage": "Jameson Sotheby's International Realty, CS Collective",
-   "image": "images/agents/stephanie-turner.jpg",
+   "image": "images/agents/stephanie-turner.jpg?v=20260721d",
    "url": "https://stephanieturnerchicago.com/",
    "phone": "",
    "blurb": "A West Loop resident since 1999 who specializes in luxury condos and single-family homes, typically in the $600,000 to $3 million range. Real estate runs in her family: her father has run a commercial and residential appraisal firm for over 50 years and her mother has been a Realtor for nearly 30. She partners with Christine Egly Rashkow as the CS Collective.",
@@ -34,6 +34,19 @@
     "facebook": "https://www.facebook.com/realtorstephturnerchicago",
     "instagram": "https://www.instagram.com/realtorstephturner",
     "linkedin": "https://www.linkedin.com/in/stephanie-turner-a6a8696"
+   }
+  },
+  {
+   "name": "Armando Chacon",
+   "brokerage": "Century 21 S.G.R., West Loop office",
+   "image": "images/agents/armando-chacon.jpg?v=20260721d",
+   "url": "https://acgroupchicago.com/",
+   "phone": "",
+   "blurb": "Principal and managing partner of Century 21 S.G.R.'s West Loop office and a longtime West Loop resident, Armando has been recognized as a Chicago Association of Realtors Top Producer and among the top 1 percent of Chicago agents. Before residential real estate he managed major commercial portfolios, and he leads The Armando Chacon Group serving buyers and sellers across the ward.",
+   "social": {
+    "instagram": "https://www.instagram.com/armandochacongroup/",
+    "facebook": "https://www.facebook.com/acgroupchicago",
+    "linkedin": "https://www.linkedin.com/in/armando-chacon-774a979"
    }
   }
  ],

@@ -994,6 +994,38 @@ body.photo-banner .hero {
 .hh-meta { font-size: 0.8rem; color: var(--muted); margin: 4px 0 2px; }
 .hh-when { font-size: 0.85rem; color: var(--navy); margin: 0 0 6px; }
 .hh-deal { font-size: 0.9rem; color: var(--text); margin: 0 0 8px; }
+/* Realtor headshots. Business photos are wide storefront banners; a square
+   headshot forced into one gets its forehead and chin sliced off. These are
+   explicit squares that match the source's own shape, so nothing is cropped.
+   The !important flags beat .spotlight-card img's min-height and .card-img's
+   full-bleed negative margins, which are right for storefronts, not faces. */
+.agent-photo {
+  width: 240px !important;
+  height: 240px !important;
+  min-height: 0 !important;
+  max-height: none !important;
+  object-fit: cover;
+  object-position: 50% 15%;
+  border-radius: var(--radius);
+  margin: 24px auto !important;
+  justify-self: center;
+  align-self: start;
+  background: #eef2f6;
+}
+.agent-card-img {
+  width: 150px !important;
+  height: 150px !important;
+  max-height: none !important;
+  margin: 4px auto 12px !important;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: 50% 15%;
+  display: block;
+}
+@media (max-width: 700px) {
+  .agent-photo { width: 200px !important; height: 200px !important; margin: 18px auto !important; }
+}
+
 .agent-socials { display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 0.4rem 0 0.6rem; }
 .agent-social-link { font-size: 0.78rem; font-weight: 600; color: var(--navy); text-decoration: none;
   border: 1px solid var(--border); border-radius: 999px; padding: 0.18rem 0.7rem; background: #fff; }

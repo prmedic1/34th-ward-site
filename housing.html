@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Find a Home | In and Around the West Loop</title>
-<link rel="stylesheet" href="css/style.css?v=20260721b">
+<link rel="stylesheet" href="css/style.css?v=20260721d">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="34thward.com">
 <meta property="og:title" content="The Official 34th Ward Neighborhood Page">
@@ -123,7 +123,7 @@
   <section class="spotlight-section" id="agent-spotlight" hidden style="margin-top:0;">
     <div class="spotlight-inner">
       <div class="spotlight-card">
-        <img id="agent-img" src="" alt="">
+        <img id="agent-img" class="agent-photo" src="" alt="">
         <div class="spotlight-body">
           <h3 id="agent-name"></h3>
           <p class="spotlight-address" id="agent-brokerage"></p>
@@ -170,7 +170,7 @@
       .join('');
   }
 
-  fetch('data/agents.json?d=20260721c')
+  fetch('data/agents.json?d=20260721e')
     .then((r) => r.json())
     .then((data) => {
       // Only agents with a real photo are listed or featured (owner rule).
@@ -195,7 +195,7 @@
 
       document.getElementById('agents-grid').innerHTML = agents.map((a) => {
         const pic = a.image
-          ? `<img class="card-img" src="${escA(a.image)}" alt="${escA(a.name)}" onerror="this.remove()">`
+          ? `<img class="card-img agent-card-img" src="${escA(a.image)}" alt="${escA(a.name)}" onerror="this.remove()">`
           : '';
         const phone = a.phone ? ` &middot; ${esc(a.phone)}` : '';
         return `<article class="card">
