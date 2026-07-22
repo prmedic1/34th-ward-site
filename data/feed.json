@@ -1,6 +1,54 @@
 {
- "generated_at": "2026-07-21T14:32:46.480Z",
+ "generated_at": "2026-07-22T14:07:31.091Z",
  "items": [
+  {
+   "id": "politico-20260722-governor-pritzker-addresses-data-center-",
+   "category": "elected_official",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Governor Pritzker addresses data center regulations",
+   "summary": "Governor JB Pritzker emphasized the need for data centers to provide their own clean energy and not burden residents with higher utility bills. Speaking at the Aspen Ideas: Climate conference, he announced a pause on state tax incentives for new data centers until they can demonstrate energy self-sufficiency. This move aims to balance economic development with consumer protection.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-07-22T12:03:17.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "axios-20260722-local-businesses-adapt-to-summer-hiring-",
+   "category": "business",
+   "source_id": "axios",
+   "source_name": "Axios Chicago",
+   "source_type": "email_newsletter",
+   "title": "Local businesses adapt to summer hiring trends",
+   "summary": "As summer progresses, local businesses in Chicago are adjusting their hiring practices to attract teen workers. Many establishments are offering flexible schedules and competitive wages to meet the demand for summer help. This trend is particularly relevant for businesses in the 34th Ward, where youth employment opportunities are crucial for community engagement.",
+   "url": "https://www.axios.com/local/chicago",
+   "published_at": "2026-07-22T11:27:26.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "skyline-20260721-community-events-to-beat-the-summer-heat",
+   "category": "civic_org",
+   "source_id": "skyline",
+   "source_name": "Skyline (Inside Publications)",
+   "source_type": "email_newsletter",
+   "title": "Community events to beat the summer heat",
+   "summary": "Skyline highlights various community events happening in the West Loop and surrounding areas aimed at bringing residents together during the hot summer months. These events include outdoor movie nights and local food festivals, providing opportunities for residents to connect and enjoy the vibrant community atmosphere.",
+   "url": "https://insideonline.com/",
+   "published_at": "2026-07-21T19:37:51.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260721-shedd-aquarium-receives-4-rescued-beluga",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Shedd Aquarium Receives 4 Rescued Belugas From Canadian Park, With More On The Way",
+   "summary": "The first four of 10 belugas, who were rescued from a shuttered Canadian zoo, are all female and were chosen to travel together because of their preexisting bond, according to the Shedd.",
+   "url": "https://blockclubchicago.org/2026/07/21/shedd-aquarium-receives-4-rescued-belugas-from-canadian-park-with-more-on-the-way/",
+   "published_at": "2026-07-21T20:09:01.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "politico-20260721-chicago-fire-stadium-development",
    "category": "elected_official",
@@ -1284,67 +1332,6 @@
    "url": "https://www.ward34.org",
    "published_at": "2026-07-02T15:07:00-05:00",
    "flagged_for_review": false
-  },
-  {
-   "id": "axios-20260701-snelling",
-   "category": "newsletter",
-   "source_id": "axios",
-   "source_name": "Axios Chicago",
-   "source_type": "email_newsletter",
-   "image": "images/snelling.jpg",
-   "title": "Police Superintendent Larry Snelling announces retirement",
-   "summary": "CPD Superintendent Larry Snelling will retire July 15 after more than three decades with the department. Mayor Johnson's first pick to lead CPD, Snelling oversaw a historic drop in homicides and closer collaboration with violence-prevention groups. Fred Waller will serve as interim superintendent, reprising the role he held after David Brown's 2023 exit.",
-   "url": "https://www.axios.com/local/chicago/2026/07/01/chicago-police-superintendent-larry-snelling-retire-mayor-johnson",
-   "published_at": "2026-07-01T09:00:00-05:00",
-   "flagged_for_review": false
-  },
-  {
-   "id": "skyline-20260630-july1-edition",
-   "category": "newsletter",
-   "source_id": "skyline",
-   "source_name": "Skyline (Inside Publications)",
-   "source_type": "email_newsletter",
-   "title": "The July 1 Skyline is out: heat wave edition heads into the holiday weekend",
-   "summary": "Thomas O'Gorman's latest Skyline arrived ahead of Independence Day, with the editor riding out the tropical heat wave 'in front of the air conditioner, set on 67 degrees.' The weekly covers the Loop, River North, Streeterville, Gold Coast, and Old Town; the full paper is available from Inside Publications.",
-   "url": "https://insideonline.com",
-   "published_at": "2026-06-30T12:25:00-05:00",
-   "flagged_for_review": false
-  },
-  {
-   "id": "politico-il-20260701-birthright",
-   "category": "newsletter",
-   "source_name": "POLITICO Illinois Playbook",
-   "source_type": "email_newsletter",
-   "title": "Raoul praises Supreme Court ruling upholding birthright citizenship",
-   "summary": "Illinois AG Kwame Raoul, part of the multistate suit against the executive order denying citizenship to many born to non-citizens, called the ruling legally significant and personally resonant - he was born in Chicago to a Haitian mother not yet naturalized. Rep. Delia Ramirez praised the decision; Gov. Pritzker and Sen. Durbin warned of continued challenges to immigration policy.",
-   "url": "https://www.politico.com/newsletters/illinois-playbook",
-   "published_at": "2026-07-01T07:02:00-05:00",
-   "flagged_for_review": false,
-   "source_id": "politico"
-  },
-  {
-   "id": "politico-il-20260701-cook-county-guns",
-   "category": "newsletter",
-   "source_name": "POLITICO Illinois Playbook",
-   "source_type": "email_newsletter",
-   "title": "Supreme Court takes up challenge to Cook County's assault weapons ordinance",
-   "summary": "The U.S. Supreme Court agreed to hear a challenge to Cook County's 1996 ordinance banning the sale, possession, and transfer of assault weapons and large-capacity magazines. State's Attorney Eileen O'Neill Burke said the county 'will not back down' from defending the law. Briefing is expected during the 2026 term.",
-   "url": "https://www.politico.com/newsletters/illinois-playbook",
-   "published_at": "2026-07-01T07:02:00-05:00",
-   "flagged_for_review": false,
-   "source_id": "politico"
-  },
-  {
-   "id": "politico-il-20260701-min-wage",
-   "category": "newsletter",
-   "source_name": "POLITICO Illinois Playbook",
-   "source_type": "email_newsletter",
-   "title": "Chicago and Cook County minimum wage increases take effect July 1",
-   "summary": "The annual Chicago and Cook County minimum wage hikes took effect today, July 1. Also in the roundup: Pritzker issued a disaster proclamation for 11 storm-hit counties including Cook, and a bill on the governor's desk would raise state payments to the wrongfully convicted to $50,000 per year incarcerated.",
-   "url": "https://www.politico.com/newsletters/illinois-playbook",
-   "published_at": "2026-07-01T07:02:00-05:00",
-   "flagged_for_review": false,
-   "source_id": "politico"
   }
  ]
 }

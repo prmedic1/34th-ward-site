@@ -1,12 +1,12 @@
 {
  "_rotation_note": "The daily job picks the next business each morning - rotating among ward businesses with priority to spotlight requests from owners and newly opened spots. Keep yesterday's entries in history.",
  "current": {
-  "date": "2026-07-21",
-  "name": "H Mart West Loop",
-  "address": "711 W. Jackson Blvd, West Loop",
-  "website": "https://www.hmart.com/",
-  "image": "images/spotlight/h-mart.jpg",
-  "blurb": "The beloved Korean-American grocery chain's downtown Chicago store, stocking fresh produce, seafood, kimchi, and hard-to-find pantry staples from across Asia. The food hall upstairs draws a lunch crowd from all over the Loop."
+  "date": "2026-07-22",
+  "name": "Open Books West Loop",
+  "address": "651 W. Lake St, West Loop",
+  "website": "https://www.open-books.org/",
+  "image": "images/spotlight/open-books.jpg",
+  "blurb": "A nonprofit used bookstore where every purchase funds literacy programs for Chicago students. Tens of thousands of donated titles line the shelves, and volunteers keep the mission running."
  },
  "history": [
   {
@@ -240,6 +240,14 @@
    "website": "https://www.auchevalchicago.com/",
    "image": "images/spotlight/au-cheval.jpg",
    "blurb": "The dark, clubby diner behind what many call the best cheeseburger in America. The wait on Randolph Street is legendary, the bologna sandwich and the eggs are worth it, and the whole room hums well past midnight."
+  },
+  {
+   "date": "2026-07-21",
+   "name": "H Mart West Loop",
+   "address": "711 W. Jackson Blvd, West Loop",
+   "website": "https://www.hmart.com/",
+   "image": "images/spotlight/h-mart.jpg",
+   "blurb": "The beloved Korean-American grocery chain's downtown Chicago store, stocking fresh produce, seafood, kimchi, and hard-to-find pantry staples from across Asia. The food hall upstairs draws a lunch crowd from all over the Loop."
   }
  ]
 }
