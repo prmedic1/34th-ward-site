@@ -157,8 +157,48 @@ async function refreshHappyHours() {
   console.log(`Happy hours: snapshot refreshed with ${deals.length} venues.`);
 }
 
+// Agent Spotlight: rotates ONCE A WEEK (owner rule). The script owns the
+// rotation rather than the browser computing it, so the archive is a real
+// record and does not shift when the agent list changes. An agent is only
+// eligible if they have not been featured yet; once everyone has had a turn
+// the least-recently-featured comes back around.
+async function refreshAgentSpotlight() {
+  const path = join(ROOT, 'data', 'agents.json');
+  const data = JSON.parse(await readFile(path, 'utf8'));
+  const agents = (data.agents || []).filter((a) => a.image); // no photo, no feature
+  if (!agents.length) { console.log('Agent spotlight: no agents with photos, skipped.'); return; }
+
+  const now = new Date();
+  const chicagoDay = now.toLocaleDateString('en-CA', { timeZone: 'America/Chicago' });
+  // Monday-start week key, e.g. "2026-W30"
+  const d = new Date(chicagoDay + 'T12:00:00Z');
+  const day = (d.getUTCDay() + 6) % 7;
+  d.setUTCDate(d.getUTCDate() - day);
+  const weekKey = d.toISOString().slice(0, 10);
+
+  data.spotlight = data.spotlight || { current: null, history: [] };
+  const sp = data.spotlight;
+  sp.history = sp.history || [];
+
+  if (sp.current && sp.current.week === weekKey) {
+    console.log(`Agent spotlight: already set for week of ${weekKey} (${sp.current.name}).`);
+    return;
+  }
+  const past = [...sp.history, sp.current].filter(Boolean);
+  const lastSeen = new Map();
+  past.forEach((h, i) => { if (h.name) lastSeen.set(h.name, i); });
+  const pick =
+    agents.find((a) => !lastSeen.has(a.name)) ||
+    agents.slice().sort((a, b) => lastSeen.get(a.name) - lastSeen.get(b.name))[0];
+
+  if (sp.current) sp.history.push(sp.current);
+  sp.current = { week: weekKey, date: chicagoDay, name: pick.name };
+  await writeFile(path, JSON.stringify(data, null, 1) + '\n');
+  console.log(`Agent spotlight: week of ${weekKey} -> ${pick.name}.`);
+}
+
 let failed = false;
-for (const [label, fn] of [['Kalshi', refreshKalshi], ['HappyHours', refreshHappyHours]]) {
+for (const [label, fn] of [['Kalshi', refreshKalshi], ['HappyHours', refreshHappyHours], ['AgentSpotlight', refreshAgentSpotlight]]) {
   try { await fn(); }
   catch (e) { failed = true; console.error(`${label} failed:`, e.message); }
 }

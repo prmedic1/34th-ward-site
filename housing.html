@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Find a Home | In and Around the West Loop</title>
-<link rel="stylesheet" href="css/style.css?v=20260712a">
+<link rel="stylesheet" href="css/style.css?v=20260721b">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="34thward.com">
 <meta property="og:title" content="The Official 34th Ward Neighborhood Page">
@@ -129,7 +129,9 @@
           <p class="spotlight-address" id="agent-brokerage"></p>
           <p id="agent-blurb"></p>
           <p id="agent-phone" class="spotlight-address"></p>
+          <p id="agent-social" class="agent-socials"></p>
           <a id="agent-link" class="spotlight-btn" href="#" target="_blank" rel="noopener">Visit their site &rarr;</a>
+          <a class="spotlight-btn spotlight-btn-ghost" href="agent-archive.html">Past agent spotlights &rarr;</a>
         </div>
       </div>
     </div>
@@ -159,22 +161,35 @@
   function esc(str) { const d = document.createElement('div'); d.textContent = str == null ? '' : str; return d.innerHTML; }
   function escA(str) { return String(str == null ? '' : str).replace(/"/g, '&quot;'); }
 
-  fetch('data/agents.json?d=20260721a')
+  function socialLinks(a) {
+    const s = a.social || {};
+    const label = { instagram: 'Instagram', facebook: 'Facebook', linkedin: 'LinkedIn' };
+    return ['instagram', 'facebook', 'linkedin']
+      .filter((k) => s[k])
+      .map((k) => `<a class="agent-social-link" href="${escA(s[k])}" target="_blank" rel="noopener">${label[k]}</a>`)
+      .join('');
+  }
+
+  fetch('data/agents.json?d=20260721c')
     .then((r) => r.json())
     .then((data) => {
-      const agents = data.agents || [];
-      if (agents.length) {
-        // Rotate the featured agent WEEKLY so each one gets a full week.
-        const week = Math.floor(Date.now() / (86400000 * 7));
-        const feat = agents[week % agents.length];
+      // Only agents with a real photo are listed or featured (owner rule).
+      const agents = (data.agents || []).filter((a) => a.image);
+      // The weekly pick is recorded by scripts/refresh-data.mjs so the archive
+      // is a real record; fall back to the first agent if it has not run yet.
+      const picked = data.spotlight && data.spotlight.current && data.spotlight.current.name;
+      const feat = agents.find((a) => a.name === picked) || agents[0];
+      if (feat) {
         const img = document.getElementById('agent-img');
-        if (feat.image) { img.src = feat.image; img.onerror = () => { img.style.display = 'none'; }; }
-        else { img.style.display = 'none'; }
+        img.src = feat.image;
+        img.alt = feat.name;
+        img.onerror = () => { img.style.display = 'none'; };
         document.getElementById('agent-name').textContent = feat.name;
         document.getElementById('agent-brokerage').textContent = feat.brokerage || '';
         document.getElementById('agent-blurb').textContent = feat.blurb || '';
         document.getElementById('agent-phone').textContent = feat.phone || '';
         document.getElementById('agent-link').href = feat.url || '#';
+        document.getElementById('agent-social').innerHTML = socialLinks(feat);
         document.getElementById('agent-spotlight').hidden = false;
       }
 
@@ -187,6 +202,7 @@
           ${pic}
           <h4>${esc(a.name)}</h4>
           <p class="summary">${esc(a.brokerage)}${phone}. ${esc((a.blurb || '').split('. ')[0])}.</p>
+          <p class="agent-socials">${socialLinks(a)}</p>
           <a class="read-more" href="${escA(a.url)}" target="_blank" rel="noopener">Visit their site &rarr;</a>
         </article>`;
       }).join('');

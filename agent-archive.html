@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Business Spotlight Archive | In and Around the West Loop</title>
+<title>Agent Spotlight Archive | In and Around the West Loop</title>
 <link rel="stylesheet" href="css/style.css?v=20260721b">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="34thward.com">
@@ -48,19 +48,22 @@
 
 <section class="hero hero-compact">
   <div class="hero-inner">
-    <h2>Business Spotlight Archive</h2>
-    <p>Every featured business, newest first.</p>
+    <h2>Agent Spotlight Archive</h2>
+    <p>Every featured West Loop realtor, newest first. A new agent is featured each week.</p>
   </div>
 </section>
 
 <main class="page-section">
   <div class="spotlight-archive-list" id="archive-list">
-    <p class="empty-state">Loading past spotlights&hellip;</p>
+    <p class="empty-state">Loading past agent spotlights&hellip;</p>
   </div>
 
   <p class="disclaimer directory-note">
-    Want your business featured here? <a href="mailto:chicagojustice@gmail.com?subject=Feature%20my%20business%20on%2034thward.com&body=Business%20name%3A%0AAddress%3A%0AWebsite%3A%0AWhat%20makes%20it%20special%3A%0A%0A(Attach%20a%20photo%20if%20you%20have%20one!)">Request a spotlight</a>.
+    Are you a West Loop agent who should be featured here?
+    <a href="mailto:chicagojustice@gmail.com?subject=Add%20me%20to%20the%2034thward.com%20realtor%20list&body=Name%3A%0ABrokerage%3A%0AWebsite%3A%0APhone%3A%0AInstagram%2FFacebook%2FLinkedIn%3A%0AWhy%20the%20West%20Loop%3A%0A%0A(Please%20attach%20a%20headshot%20-%20we%20only%20feature%20agents%20with%20a%20photo.)">Send your info</a>
+    and we will add you. Please include a headshot: we only feature agents with a photo.
   </p>
+  <p class="disclaimer directory-note"><a href="housing.html">&larr; Back to Housing</a></p>
 </main>
 
 <footer class="site-footer">
@@ -71,66 +74,70 @@
 <script>
   document.getElementById('year').textContent = new Date().getFullYear();
 
-  const ARCHIVE_DATA_V = '20260711b';
+  const ARCHIVE_DATA_V = '20260721c';
 
-  fetch('data/spotlight.json?d=' + ARCHIVE_DATA_V)
+  fetch('data/agents.json?d=' + ARCHIVE_DATA_V)
     .then((r) => r.json())
     .then((data) => {
+      const byName = {};
+      (data.agents || []).forEach((a) => { byName[a.name] = a; });
+      const sp = data.spotlight || {};
       const entries = [];
       const seen = new Set();
-      if (data.current && data.current.name) {
-        entries.push(Object.assign({}, data.current, { isToday: true }));
-        seen.add(data.current.name);
+      if (sp.current && sp.current.name) {
+        entries.push(Object.assign({}, sp.current, { isCurrent: true }));
+        seen.add(sp.current.name);
       }
-      const history = Array.isArray(data.history) ? data.history.slice() : [];
+      const history = Array.isArray(sp.history) ? sp.history.slice() : [];
       history.sort((a, b) => new Date(b.date) - new Date(a.date));
-      // Show each business only once (its most recent appearance).
+      // Each agent appears once, at their most recent turn.
       history.forEach((h) => {
-        if (h && h.name && !seen.has(h.name)) {
-          seen.add(h.name);
-          entries.push(h);
-        }
+        if (h && h.name && !seen.has(h.name)) { seen.add(h.name); entries.push(h); }
       });
 
       const list = document.getElementById('archive-list');
       if (!entries.length) {
-        list.innerHTML = '<p class="empty-state">No past spotlights yet.</p>';
+        list.innerHTML = '<p class="empty-state">No agent spotlights yet. Check back next week.</p>';
         return;
       }
-      list.innerHTML = entries.map(renderEntry).join('');
+      list.innerHTML = entries.map((e) => renderEntry(e, byName[e.name])).join('');
     })
     .catch((err) => {
-      console.error('Failed to load spotlight archive', err);
+      console.error('Failed to load agent archive', err);
       document.getElementById('archive-list').innerHTML =
-        '<p class="empty-state">Unable to load the spotlight archive right now.</p>';
+        '<p class="empty-state">Unable to load the agent archive right now.</p>';
     });
 
-  function renderEntry(s) {
-    const dateLabel = formatDate(s.date);
-    const todayBadge = s.isToday ? '<span class="spotlight-archive-badge">Today</span>' : '';
-    const thumb = s.image
-      ? `<img class="spotlight-archive-thumb" src="${escapeAttr(s.image)}" alt="${escapeAttr(s.name)}" loading="lazy" onerror="this.remove()">`
+  function renderEntry(e, agent) {
+    const a = agent || {};
+    const badge = e.isCurrent ? '<span class="spotlight-archive-badge">This week</span>' : '';
+    const thumb = a.image
+      ? `<img class="spotlight-archive-thumb" src="${escapeAttr(a.image)}" alt="${escapeAttr(e.name)}" loading="lazy" onerror="this.remove()">`
       : '';
-    const nameHtml = s.website
-      ? `<a href="${escapeAttr(s.website)}" target="_blank" rel="noopener">${escapeHtml(s.name)}</a>`
-      : escapeHtml(s.name);
-    const address = s.address
-      ? `<p class="biz-detail spotlight-archive-address">${escapeHtml(s.address)}</p>`
-      : '';
-    const blurb = s.blurb ? `<p class="spotlight-archive-blurb">${escapeHtml(s.blurb)}</p>` : '';
-
+    const nameHtml = a.url
+      ? `<a href="${escapeAttr(a.url)}" target="_blank" rel="noopener">${escapeHtml(e.name)}</a>`
+      : escapeHtml(e.name);
+    const socials = socialLinks(a);
     return `
-      <div class="biz-row spotlight-archive-row">
+      <article class="spotlight-archive-item">
         ${thumb}
         <div class="spotlight-archive-body">
-          <div class="biz-main">
-            <h4>${todayBadge}${nameHtml}</h4>
-            <span class="spotlight-archive-date">${dateLabel}</span>
-          </div>
-          ${address}
-          ${blurb}
+          <p class="spotlight-archive-date">Week of ${formatDate(e.week || e.date)} ${badge}</p>
+          <h3>${nameHtml}</h3>
+          <p class="spotlight-archive-address">${escapeHtml(a.brokerage || '')}</p>
+          <p>${escapeHtml(a.blurb || '')}</p>
+          ${socials ? `<p class="agent-socials">${socials}</p>` : ''}
         </div>
-      </div>`;
+      </article>`;
+  }
+
+  function socialLinks(a) {
+    const s = a.social || {};
+    const label = { instagram: 'Instagram', facebook: 'Facebook', linkedin: 'LinkedIn' };
+    return ['instagram', 'facebook', 'linkedin']
+      .filter((k) => s[k])
+      .map((k) => `<a class="agent-social-link" href="${escapeAttr(s[k])}" target="_blank" rel="noopener">${label[k]}</a>`)
+      .join('');
   }
 
   function formatDate(dateStr) {
@@ -142,12 +149,12 @@
 
   function escapeHtml(str) {
     const div = document.createElement('div');
-    div.textContent = str;
+    div.textContent = str == null ? '' : str;
     return div.innerHTML;
   }
 
   function escapeAttr(str) {
-    return String(str).replace(/"/g, '&quot;');
+    return String(str == null ? '' : str).replace(/"/g, '&quot;');
   }
 </script>
 <script src="js/ticker.js?v=20260708a"></script>

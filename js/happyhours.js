@@ -6,6 +6,7 @@ const PAGE = 40;
 const DAYS = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
 let allDeals = [];
 let wardArea = [];
+let venueLinks = {};
 let filtered = [];
 let shown = 0;
 
@@ -37,6 +38,13 @@ fetch(SHEET_CSV)
           '<p class="empty-state">Unable to load deals right now.</p>';
       });
   });
+
+// Venue websites and happy-hour/menu pages (see scripts/refresh-venue-links.mjs).
+// Loaded separately so a failure here never blocks the deals from rendering.
+fetch('data/venue_links.json?d=' + DATA_V)
+  .then((r) => r.json())
+  .then((d) => { venueLinks = d.links || {}; if (allDeals.length) apply(); })
+  .catch(() => {});
 
 // Ward-area neighborhoods for the default filter (from the snapshot; hard-coded fallback)
 fetch('data/happy_hours_sheet.json?d=' + DATA_V)
@@ -194,6 +202,13 @@ function renderDeal(d) {
   if (isWings(d)) badges.push('<span class="hh-badge">Wings</span>');
   if (isPatio(d)) badges.push('<span class="hh-badge">Patio</span>');
   const maps = 'https://www.google.com/maps/search/' + encodeURIComponent(`${d.name} ${d.hood} Chicago`);
+  // Their own site first (the happy-hour or menu page when we found one), with
+  // the map as a separate link. Venues we have no verified website for just
+  // get the map - better than a link that guesses and sends people wrong.
+  const link = venueLinks[d.name];
+  const siteLink = link
+    ? `<a class="hh-site" href="${escapeAttr(link.menu || link.site)}" target="_blank" rel="noopener">${link.menu ? (/happy/i.test(link.menu) ? 'Happy hour menu' : 'See their menu') : 'Visit their website'} &rarr;</a>`
+    : '';
   return `
     <article class="hh-item${now ? ' is-now' : ''}">
       <div class="hh-item-head">
@@ -203,7 +218,7 @@ function renderDeal(d) {
       <p class="hh-meta">${escapeHtml(d.hood)}${d.cuisine ? ' &middot; ' + escapeHtml(d.cuisine) : ''}</p>
       <p class="hh-when"><strong>${escapeHtml(shortDays(d.days))}</strong>${time ? ' &middot; ' + escapeHtml(time) : ''}</p>
       <p class="hh-deal">${escapeHtml(d.deal)}</p>
-      <a class="hh-map" href="${maps}" target="_blank" rel="noopener">Map &amp; details &rarr;</a>
+      <p class="hh-links">${siteLink}<a class="hh-map" href="${maps}" target="_blank" rel="noopener">Map &amp; directions &rarr;</a></p>
     </article>`;
 }
 
