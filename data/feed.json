@@ -1,6 +1,78 @@
 {
- "generated_at": "2026-07-22T14:33:01.441Z",
+ "generated_at": "2026-07-23T14:14:44.976Z",
  "items": [
+  {
+   "id": "politico-20260723-illinois-lands-quantum-technology-compan",
+   "category": "elected_official",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Illinois lands quantum technology company",
+   "summary": "Zero Point Cryogenics, a Canadian-based company, will open its first U.S. operation at the Illinois Quantum and Microelectronics Park on Chicago's South Side. This initiative, supported by the state's MICRO incentive program, is expected to create over 20 specialized jobs and enhance the local quantum technology ecosystem.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-07-23T12:02:11.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "axios-20260723-community-survey-results-reveal-local-pr",
+   "category": "civic_org",
+   "source_id": "axios",
+   "source_name": "Axios Chicago",
+   "source_type": "email_newsletter",
+   "title": "Community survey results reveal local preferences",
+   "summary": "A recent community survey conducted in the West Loop and surrounding areas has highlighted residents' preferences for local businesses and community events. The survey results will be used to guide future initiatives aimed at improving neighborhood engagement and supporting local enterprises.",
+   "url": "https://www.axios.com/local/chicago",
+   "published_at": "2026-07-23T11:27:15.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "skyline-20260721-local-restaurant-piccolo-sogno-remains-a",
+   "category": "business",
+   "source_id": "skyline",
+   "source_name": "Skyline (Inside Publications)",
+   "source_type": "email_newsletter",
+   "title": "Local restaurant Piccolo Sogno remains a favorite",
+   "summary": "Despite the summer heat, Piccolo Sogno continues to impress with its high-quality cuisine. The restaurant, located in the West Loop, has been a staple for residents looking for exceptional dining experiences in the neighborhood.",
+   "url": "https://insideonline.com/",
+   "published_at": "2026-07-21T19:37:51.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "cbs-20260723-magnolia-bakery-in-the-loop-reopens-afte",
+   "category": "business",
+   "source_id": "cbs",
+   "source_name": "CBS News Chicago",
+   "source_type": "web_feed",
+   "title": "Magnolia Bakery in the Loop reopens after failed health inspection",
+   "summary": "The bakery, located on State Street in the Block 37 mall, saw the return of customers after being closed for about a week.",
+   "url": "https://www.cbsnews.com/chicago/video/magnolia-bakery-in-the-loop-reopens-after-failed-health-inspection/",
+   "published_at": "2026-07-23T00:18:00.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260723-30-things-to-do-in-chicago-this-weekend-",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "30 Things To Do In Chicago This Weekend: Gospel Fest, Taste Of Bronzeville, Wicker Park Fest",
+   "summary": "Also check out Festival del Sol in Pilsen, Taste of Lincoln Avenue and the Chinatown Summer Fair as well as live music, block parties and thrift events.",
+   "url": "https://blockclubchicago.org/2026/07/23/30-things-to-do-in-chicago-this-weekend-gospel-fest-taste-of-bronzeville-wicker-park-fest/",
+   "published_at": "2026-07-23T12:55:00.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260723-second-city-sisters-to-bless-the-fleet-a",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Second City Sisters To Bless The Fleet At Rainbow Races' Annual Regatta",
+   "summary": "Rainbow Races, which aims to boost LGBTQ+ participation and representation in sailing, is partnering with the local chapter of the Sisters of Perpetual Indulgence for this year's race and fundraiser.",
+   "url": "https://blockclubchicago.org/2026/07/23/second-city-sisters-to-bless-the-fleet-at-rainbow-races-annual-regatta/",
+   "published_at": "2026-07-23T12:47:00.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "skyline-20260721-piccolo-sogno-remains-a-local-favorite",
    "category": "business",

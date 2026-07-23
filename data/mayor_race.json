@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-22T14:32:34.736Z",
+  "updated_at": "2026-07-23T14:14:20.609Z",
   "election_date": "February 23, 2027",
   "kalshi_event": "KXCHICAGOMAYOR-27",
   "kalshi_url": "https://kalshi.com/markets/kxchicagomayor",
@@ -13,7 +13,7 @@
       "badge": "Favorite",
       "badgeColor": "blue",
       "image": "images/candidates/giannoulias.jpg",
-      "pct": 41.8,
+      "pct": 42.2,
       "kalshi_raw": 55,
       "pe_raw": 43,
       "manifold_raw": 32.6,
@@ -27,7 +27,7 @@
       "image": "images/candidates/brewer.jpg",
       "badge": "Underdog",
       "badgeColor": "yellow",
-      "pct": 11,
+      "pct": 11.1,
       "kalshi_raw": 12,
       "pe_raw": 23,
       "manifold_raw": 4.2
@@ -52,8 +52,8 @@
       "status": "declared",
       "order": 4,
       "image": "images/candidates/mendoza.jpg",
-      "pct": 14.4,
-      "kalshi_raw": 19,
+      "pct": 13.9,
+      "kalshi_raw": 18,
       "pe_raw": 16,
       "manifold_raw": 9.5,
       "campaign_url": "https://susanamendoza.com/"
