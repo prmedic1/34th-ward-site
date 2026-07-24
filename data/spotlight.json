@@ -1,12 +1,12 @@
 {
  "_rotation_note": "The daily job picks the next business each morning - rotating among ward businesses with priority to spotlight requests from owners and newly opened spots. Keep yesterday's entries in history.",
  "current": {
-  "date": "2026-07-23",
-  "name": "CrossTown Fitness",
-  "address": "1031 W. Madison St, West Loop",
-  "website": "https://www.crosstownfitness.com/",
-  "image": "images/spotlight/crosstown-fitness.jpg",
-  "blurb": "A locally owned gym on Madison Street known for high-energy group classes, personal training, and a neighborhood feel that big chains cannot match. A West Loop fixture for over a decade."
+  "date": "2026-07-24",
+  "name": "Madison Street Books",
+  "address": "1127 W. Madison St, West Loop",
+  "website": "https://www.madstreetbooks.com/",
+  "image": "images/spotlight/madison-street-books.jpg",
+  "blurb": "The West Loop's independent bookstore, with a thoughtfully curated selection, a resident shop dog, and a steady calendar of author events and book clubs. A cozy neighborhood anchor on Madison Street."
  },
  "history": [
   {
@@ -256,6 +256,14 @@
    "website": "https://www.open-books.org/",
    "image": "images/spotlight/open-books.jpg",
    "blurb": "A nonprofit used bookstore where every purchase funds literacy programs for Chicago students. Tens of thousands of donated titles line the shelves, and volunteers keep the mission running."
+  },
+  {
+   "date": "2026-07-23",
+   "name": "CrossTown Fitness",
+   "address": "1031 W. Madison St, West Loop",
+   "website": "https://www.crosstownfitness.com/",
+   "image": "images/spotlight/crosstown-fitness.jpg",
+   "blurb": "A locally owned gym on Madison Street known for high-energy group classes, personal training, and a neighborhood feel that big chains cannot match. A West Loop fixture for over a decade."
   }
  ]
 }

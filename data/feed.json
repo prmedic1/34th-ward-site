@@ -1,6 +1,90 @@
 {
- "generated_at": "2026-07-23T14:39:59.609Z",
+ "generated_at": "2026-07-24T13:54:25.024Z",
  "items": [
+  {
+   "id": "politico-20260724-illinois-to-annually-honor-emmett-till",
+   "category": "elected_official",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Illinois to annually honor Emmett Till",
+   "summary": "Illinois will establish an annual observance to honor Emmett Till, the Chicago teen whose 1955 murder became a pivotal moment in the Civil Rights Movement. This initiative aims to educate future generations about the impact of racial violence and the importance of social justice.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-07-24T12:01:56.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "axios-20260724-chicago-s-first-in-the-nation-cryptocurr",
+   "category": "business",
+   "source_id": "axios",
+   "source_name": "Axios Chicago",
+   "source_type": "email_newsletter",
+   "title": "Chicago's first-in-the-nation cryptocurrency tax faces legal challenge",
+   "summary": "A digital asset industry group has filed a lawsuit to block Illinois' cryptocurrency tax, which is the first of its kind in the nation. The outcome of this case could have significant implications for local businesses and investors in the cryptocurrency market.",
+   "url": "https://www.axios.com/local/chicago",
+   "published_at": "2026-07-24T11:27:09.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "wca-20260724-junior-chef-s-kitchen-opens-in-west-loop",
+   "category": "civic_org",
+   "source_id": "wca",
+   "source_name": "The WCA Weekly",
+   "source_type": "email_newsletter",
+   "title": "Junior Chef's Kitchen opens in West Loop",
+   "summary": "Junior Chef's Kitchen has officially opened at 1061 W. Van Buren Street, offering hands-on cooking classes for kids. The facility also hosts birthday parties and camps, aiming to inspire the next generation of young chefs in the community.",
+   "url": "https://www.wcachicago.org/",
+   "published_at": "2026-07-24T11:30:39.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "wca-20260724-west-loop-art-fest-scheduled-for-august-",
+   "category": "civic_org",
+   "source_id": "wca",
+   "source_name": "The WCA Weekly",
+   "source_type": "email_newsletter",
+   "title": "West Loop Art Fest scheduled for August 22-23",
+   "summary": "The West Loop Art Fest will take place on August 22 and 23, transforming Fulton Street between Carpenter and Green into an outdoor art experience. Attendees can explore original artwork, watch live demonstrations, and support local artists.",
+   "url": "https://www.wcachicago.org/",
+   "published_at": "2026-07-24T11:30:39.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "wca-20260724-fulton-market-grand-prix-street-closures",
+   "category": "civic_org",
+   "source_id": "wca",
+   "source_name": "The WCA Weekly",
+   "source_type": "email_newsletter",
+   "title": "Fulton Market Grand Prix street closures on July 26",
+   "summary": "Street closures will occur on July 26 for the Fulton Market Grand Prix, part of the Chicago Grit cycling series. Affected streets include Fulton Street, Lake Street, Racine Avenue, and Sangamon Street, prompting residents and visitors to plan alternate routes.",
+   "url": "https://www.wcachicago.org/",
+   "published_at": "2026-07-24T11:30:39.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "cbs-20260724-south-loop-restaurant-and-bar-reserv-try",
+   "category": "business",
+   "source_id": "cbs",
+   "source_name": "CBS News Chicago",
+   "source_type": "web_feed",
+   "title": "South Loop restaurant and bar Reserv trying to keep the peace amid neighbors' noise complaints",
+   "summary": "Residents in Chicago's South Loop say a new business is too noisy and too many of their customers are hanging out after leaving the restaurant and bar. The owner of Reserv said he's trying to keep the peace and keep his business open.",
+   "url": "https://www.cbsnews.com/chicago/news/reserv-south-loop-printers-row-restaurant-bar-noise-complaints/",
+   "published_at": "2026-07-24T03:26:29.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "cbs-20260724-printers-row-bar-tries-to-keep-the-peace",
+   "category": "business",
+   "source_id": "cbs",
+   "source_name": "CBS News Chicago",
+   "source_type": "web_feed",
+   "title": "Printers Row bar tries to keep the peace amid neighbors' noise complaints",
+   "summary": "Residents in Chicago's South Loop say a new business is too noisy and too many of their customers are hanging out after leaving the restaurant and bar. The owner of Reserv said he's trying to keep the peace and keep his business open.",
+   "url": "https://www.cbsnews.com/chicago/video/printers-row-bar-tries-to-keep-the-peace-amid-neighbors-noise-complaints/",
+   "published_at": "2026-07-24T03:21:00.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "politico-20260723-illinois-lands-quantum-technology-compan",
    "category": "elected_official",
@@ -1391,30 +1475,6 @@
    "summary": "Upcoming with Indivisible Greater West Loop: Book Club (July 8), volunteering at the Greater Chicago Food Depository (Fri, July 10, 12:45-3:30pm), a family-friendly Popsicle & Ice Cream Social (Sat, July 11, 11am-1pm), the July Chapter Meetup with guest speaker Nick Uniejewski (Mon, July 13, 6-8pm), and Drinks for Democracy postcard writing (Wed, July 15). IGWL also tables at the West Loop Farmers Market on Saturdays, 8-11:30am.",
    "url": "https://www.indivisiblegwlchi.org",
    "published_at": "2026-07-06T07:45:00-05:00",
-   "flagged_for_review": false
-  },
-  {
-   "id": "conway-20260702-taste",
-   "category": "elected_official",
-   "source_id": "conway",
-   "source_name": "Conway's Corner (34th Ward Office Newsletter)",
-   "source_type": "email_newsletter",
-   "title": "Taste of Chicago returns to Grant Park, July 8-12",
-   "summary": "Taste of Chicago is back in Grant Park (Columbus Drive from Balbo to Monroe) July 8-12, with dozens of food vendors, nationally recognized musical performances, local artists, family attractions, and culinary demonstrations across the festival grounds.",
-   "url": "https://www.ward34.org",
-   "published_at": "2026-07-02T15:08:00-05:00",
-   "flagged_for_review": false
-  },
-  {
-   "id": "conway-20260702-youth-summit",
-   "category": "elected_official",
-   "source_id": "conway",
-   "source_name": "Conway's Corner (34th Ward Office Newsletter)",
-   "source_type": "email_newsletter",
-   "title": "'Youth Voice, Real Change' Summit at UIC, July 25",
-   "summary": "Registration is open through July 17 for the Chicago Youth Summit on Saturday, July 25 at 11am at UIC Student Center East (750 S. Halsted). The afternoon focuses on youth leadership, creativity, and community impact, with space for young people to connect with peers and explore ways to lead change in their communities.",
-   "url": "https://www.ward34.org",
-   "published_at": "2026-07-02T15:07:00-05:00",
    "flagged_for_review": false
   }
  ]
