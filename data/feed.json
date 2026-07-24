@@ -1,6 +1,42 @@
 {
- "generated_at": "2026-07-24T13:54:25.024Z",
+ "generated_at": "2026-07-24T14:19:39.191Z",
  "items": [
+  {
+   "id": "axios-20260724-new-greek-frozen-yogurt-shop-opens-in-we",
+   "category": "business",
+   "source_id": "axios",
+   "source_name": "Axios Chicago",
+   "source_type": "email_newsletter",
+   "title": "New Greek Frozen Yogurt Shop Opens in West Loop",
+   "summary": "A new self-serve Greek frozen yogurt shop has opened in the West Loop, offering a variety of flavors and toppings. This addition aims to enhance the local dining scene and provide residents with a unique dessert option.",
+   "url": "https://www.axios.com/local/chicago",
+   "published_at": "2026-07-24T11:27:09.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "wca-20260724-junior-chef-s-kitchen-grand-opening-in-w",
+   "category": "civic_org",
+   "source_id": "wca",
+   "source_name": "The WCA Weekly",
+   "source_type": "email_newsletter",
+   "title": "Junior Chef's Kitchen Grand Opening in West Loop",
+   "summary": "Junior Chef's Kitchen has officially opened at 1061 W. Van Buren Street, offering hands-on cooking classes for children. The facility will also host birthday parties and camps, aiming to inspire the next generation of young chefs.",
+   "url": "https://www.wcachicago.org/",
+   "published_at": "2026-07-24T11:30:39.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "wca-20260724-street-closures-for-fulton-market-grand-",
+   "category": "civic_org",
+   "source_id": "wca",
+   "source_name": "The WCA Weekly",
+   "source_type": "email_newsletter",
+   "title": "Street Closures for Fulton Market Grand Prix on July 26",
+   "summary": "Street closures will be in effect on July 26 for the Fulton Market Grand Prix, part of the Chicago Grit cycling series. Residents and visitors are advised to plan ahead and use alternate routes due to closures on several streets in the area.",
+   "url": "https://www.wcachicago.org/",
+   "published_at": "2026-07-24T11:30:39.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "politico-20260724-illinois-to-annually-honor-emmett-till",
    "category": "elected_official",
