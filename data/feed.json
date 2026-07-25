@@ -1,6 +1,42 @@
 {
- "generated_at": "2026-07-24T14:19:39.191Z",
+ "generated_at": "2026-07-25T13:44:55.832Z",
  "items": [
+  {
+   "id": "abc7-20260725-5-year-old-boy-shot-critically-injured-m",
+   "category": "civic_org",
+   "source_id": "abc7",
+   "source_name": "ABC7 Chicago",
+   "source_type": "web_feed",
+   "title": "5-year-old boy shot, critically injured, man also wounded in Little Italy: Chicago police",
+   "summary": "A 5-year-old boy was critically injured in a shooting that also wounded a man early Saturday morning in Chicago's Little Italy neighborhood, Chicago police said.",
+   "url": "https://abc7chicago.com/post/chicago-shooting-critically-injured-5-year-old-boy-man-wounded-west-14th-street-little-italy-cpd/19573694/",
+   "published_at": "2026-07-25T13:44:55.831Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "abc7-20260725-suspect-wanted-in-attack-on-cta-green-li",
+   "category": "civic_org",
+   "source_id": "abc7",
+   "source_name": "ABC7 Chicago",
+   "source_type": "web_feed",
+   "title": "Suspect wanted in attack on CTA Green Line train, police say",
+   "summary": "Chicago police are looking for a suspect in an attack that happened on a CTA Green Line train on the city's Near West Side earlier this month.",
+   "url": "https://abc7chicago.com/post/chicago-crime-suspect-wanted-attack-cta-green-line-train-damen-stop-police-department-says/19570846/",
+   "published_at": "2026-07-25T13:44:55.831Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "cbs-20260725-5-year-old-boy-man-injured-in-drive-by-s",
+   "category": "civic_org",
+   "source_id": "cbs",
+   "source_name": "CBS News Chicago",
+   "source_type": "web_feed",
+   "title": "5-year-old boy, man injured in drive-by shooting on Chicago's Near West Side",
+   "summary": "A 5-year-old boy and a man were injured during a drive-by shooting on Chicago's Near West Side overnight.",
+   "url": "https://www.cbsnews.com/chicago/news/drive-by-shooting-chicago-near-west-side/",
+   "published_at": "2026-07-25T12:16:21.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "axios-20260724-new-greek-frozen-yogurt-shop-opens-in-we",
    "category": "business",

@@ -89,5 +89,12 @@
   "visitors": 110,
   "views": 20,
   "verdict": "good"
+ },
+ {
+  "date": "2026-07-25",
+  "total": 200,
+  "visitors": 114,
+  "views": 25,
+  "verdict": "good"
  }
 ]
