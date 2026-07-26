@@ -1,12 +1,12 @@
 {
  "_rotation_note": "The daily job picks the next business each morning - rotating among ward businesses with priority to spotlight requests from owners and newly opened spots. Keep yesterday's entries in history.",
  "current": {
-  "date": "2026-07-25",
-  "name": "Capitol Hill Cleaners",
-  "address": "305 S. Desplaines St, West Loop",
-  "website": "https://www.yelp.com/biz/capitol-hill-cleaners-chicago",
-  "image": "images/spotlight/capitol-hill-cleaners.jpg",
-  "blurb": "A family-run dry cleaner that West Loop and Greektown neighbors have trusted for years with everything from suits to wedding dresses. Friendly counter service and quick turnarounds keep the regulars loyal."
+  "date": "2026-07-26",
+  "name": "Girl & the Goat",
+  "address": "809 W. Randolph St, West Loop",
+  "website": "https://www.girlandthegoat.com/chicago/",
+  "image": "images/spotlight/girl-and-the-goat.jpg",
+  "blurb": "Chef Stephanie Izard's flagship put Randolph Street's Restaurant Row on the national map. The wood-fired, globally-spiced small plates, from the famous goat empanadas to the pan-fried shishito peppers, still pack the room nightly."
  },
  "history": [
   {
@@ -272,6 +272,14 @@
    "website": "https://www.madstreetbooks.com/",
    "image": "images/spotlight/madison-street-books.jpg",
    "blurb": "The West Loop's independent bookstore, with a thoughtfully curated selection, a resident shop dog, and a steady calendar of author events and book clubs. A cozy neighborhood anchor on Madison Street."
+  },
+  {
+   "date": "2026-07-25",
+   "name": "Capitol Hill Cleaners",
+   "address": "305 S. Desplaines St, West Loop",
+   "website": "https://www.yelp.com/biz/capitol-hill-cleaners-chicago",
+   "image": "images/spotlight/capitol-hill-cleaners.jpg",
+   "blurb": "A family-run dry cleaner that West Loop and Greektown neighbors have trusted for years with everything from suits to wedding dresses. Friendly counter service and quick turnarounds keep the regulars loyal."
   }
  ]
 }
