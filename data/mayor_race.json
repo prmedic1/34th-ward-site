@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-26T14:06:10.234Z",
+  "updated_at": "2026-07-27T14:46:20.124Z",
   "election_date": "February 23, 2027",
   "kalshi_event": "KXCHICAGOMAYOR-27",
   "kalshi_url": "https://kalshi.com/markets/kxchicagomayor",
@@ -16,7 +16,7 @@
       "pct": 40.9,
       "kalshi_raw": 47,
       "pe_raw": 43,
-      "manifold_raw": 32.6,
+      "manifold_raw": 28.1,
       "campaign_url": "https://www.ilsos.gov/"
     },
     {
@@ -27,10 +27,10 @@
       "image": "images/candidates/brewer.jpg",
       "badge": "Underdog",
       "badgeColor": "yellow",
-      "pct": 12,
+      "pct": 12.3,
       "kalshi_raw": 12,
       "pe_raw": 23,
-      "manifold_raw": 4.2
+      "manifold_raw": 4.4
     },
     {
       "name": "Brandon Johnson",
@@ -40,10 +40,10 @@
       "badge": "Incumbent",
       "badgeColor": "green",
       "image": "images/candidates/johnson.jpg",
-      "pct": 10.1,
-      "kalshi_raw": 11,
+      "pct": 10,
+      "kalshi_raw": 10,
       "pe_raw": null,
-      "manifold_raw": 9.6,
+      "manifold_raw": 11,
       "campaign_url": "https://www.chicago.gov/city/en/depts/mayor.html"
     },
     {
@@ -52,10 +52,10 @@
       "status": "declared",
       "order": 4,
       "image": "images/candidates/mendoza.jpg",
-      "pct": 15.6,
+      "pct": 16.2,
       "kalshi_raw": 19,
       "pe_raw": 16,
-      "manifold_raw": 9.5,
+      "manifold_raw": 10.5,
       "campaign_url": "https://susanamendoza.com/"
     },
     {
@@ -64,10 +64,10 @@
       "status": "declared",
       "order": 5,
       "image": "images/candidates/pappas.jpg",
-      "pct": 1.3,
+      "pct": 1.4,
       "kalshi_raw": 0.2,
       "pe_raw": null,
-      "manifold_raw": 4.8,
+      "manifold_raw": 5.2,
       "campaign_url": "https://www.cookcountytreasurer.com/"
     },
     {
@@ -76,10 +76,10 @@
       "status": "declared",
       "order": 6,
       "image": "images/candidates/quigley.jpg",
-      "pct": 4.2,
-      "kalshi_raw": 4.6,
+      "pct": 2.5,
+      "kalshi_raw": 2,
       "pe_raw": null,
-      "manifold_raw": 3.9,
+      "manifold_raw": 4.2,
       "campaign_url": "https://quigley.house.gov/"
     },
     {
@@ -102,7 +102,7 @@
       "badge": "Conservative",
       "badgeColor": "red",
       "image": "images/candidates/kelly.jpg",
-      "pct": 1.2,
+      "pct": 1.3,
       "kalshi_raw": null,
       "pe_raw": null,
       "manifold_raw": 1.3
@@ -113,10 +113,10 @@
       "status": "declared",
       "order": 9,
       "image": "images/candidates/holberg.jpg",
-      "pct": 4.1,
+      "pct": 4.3,
       "kalshi_raw": 5,
       "pe_raw": null,
-      "manifold_raw": 2.5,
+      "manifold_raw": 2.6,
       "campaign_url": "https://www.joeforchicago.com/"
     },
     {
@@ -127,10 +127,10 @@
       "image": "images/candidates/cardenas.jpg",
       "badge": "Conservative",
       "badgeColor": "red",
-      "pct": 1.6,
+      "pct": 1.7,
       "kalshi_raw": 1,
       "pe_raw": null,
-      "manifold_raw": 3.6
+      "manifold_raw": 3.8
     },
     {
       "name": "Liam Stanton",
@@ -138,10 +138,10 @@
       "status": "declared",
       "order": 11,
       "image": "images/candidates/stanton.jpg",
-      "pct": 6.4,
+      "pct": 6.6,
       "kalshi_raw": 8,
       "pe_raw": null,
-      "manifold_raw": 2.9,
+      "manifold_raw": 3,
       "campaign_url": "https://www.stantonforchicago.com/"
     },
     {
@@ -161,10 +161,10 @@
       "status": "rumored",
       "order": 13,
       "image": "images/candidates/conway.jpg",
-      "pct": 1.4,
+      "pct": 1.6,
       "kalshi_raw": null,
       "pe_raw": null,
-      "manifold_raw": 1.5,
+      "manifold_raw": 1.6,
       "campaign_url": "https://www.ward34.org/"
     },
     {

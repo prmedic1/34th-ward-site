@@ -1,6 +1,30 @@
 {
- "generated_at": "2026-07-26T14:06:13.486Z",
+ "generated_at": "2026-07-27T14:46:33.620Z",
  "items": [
+  {
+   "id": "politico-20260727-chicago-hosts-national-conference-of-sta",
+   "category": "elected_official",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Chicago hosts National Conference of State Legislatures Legislative Summit",
+   "summary": "Chicago is hosting the National Conference of State Legislatures Legislative Summit at McCormick Place, bringing together around 7,500 lawmakers and policy experts. The conference will address critical issues such as budget management and energy demands, particularly in light of the growing need for data centers. Governor JB Pritzker is expected to participate in discussions about energy policy and state responsibilities.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-07-27T12:02:44.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "axios-20260727-street-vendor-regulations-under-review",
+   "category": "business",
+   "source_id": "axios",
+   "source_name": "Axios Chicago",
+   "source_type": "email_newsletter",
+   "title": "Street vendor regulations under review",
+   "summary": "Chicago officials are reviewing regulations affecting street vendors following recent concerns about safety and compliance. The city aims to balance the needs of vendors with public safety and order, especially in busy areas. This review could impact local businesses and the vibrant street vendor scene in neighborhoods like Greektown and the Loop.",
+   "url": "https://www.axios.com/local/chicago",
+   "published_at": "2026-07-27T11:25:13.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "blockclub-20260723-blackhawks-fans-celebrate-franchise-lege",
    "category": "civic_org",
@@ -1298,30 +1322,6 @@
    "flagged_for_review": false
   },
   {
-   "id": "blockclub-20260706-meet-the-man-behind-the-sky-ride-tap-the",
-   "category": "business",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Meet The Man Behind The Sky Ride Tap, The Loop's Last Real Dive Bar",
-   "summary": "THE LOOP - If you've ever been to the Sky Ride Tap, you've undoubtedly seen Kyriakos \"Carl\" Damianides. Since he bought the bar in 1972, he's been a near-constant presence inside. \"For the first 25 years, I worked from 7 a.m. to 2 a.m., seven days a week,\" he said.",
-   "url": "https://blockclubchicago.org/2026/07/06/meet-the-man-behind-the-sky-ride-tap-the-loops-last-real-dive-bar/",
-   "published_at": "2026-07-06T13:22:00.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260706-chicago-vegan-farmers-market-moving-to-w",
-   "category": "business",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Chicago Vegan Farmers Market Moving To West Loop",
-   "summary": "WEST LOOP - Chicago's only all-vegan farmers market is moving to the West Loop, with weekly markets starting Friday in Skinner Park. The Chicago Vegan Farmers Market launched last year in West Town and is relocating to Skinner Park, 1331 W. Monroe St., organizers announced in a news release.",
-   "url": "https://blockclubchicago.org/2026/07/06/chicago-vegan-farmers-market-moving-to-west-loop/",
-   "published_at": "2026-07-06T12:42:00.000Z",
-   "flagged_for_review": false
-  },
-  {
    "id": "blockclub-20260709-shedd-aquarium-rescuing-10-beluga-whales",
    "category": "civic_org",
    "source_id": "blockclub",
@@ -1535,30 +1535,6 @@
    "summary": "Gov. JB Pritzker signed the Artificial Intelligence Safety Measures Act, which supporters call the nation's strongest state-level AI safety law. It requires the largest AI developers (frontier labs with more than $500 million in revenue) to publish risk frameworks, undergo annual third-party audits, and report serious safety incidents within 72 hours. Attorney General Kwame Raoul's office will enforce it, with penalties up to $1 million for a first violation. The bill passed the House 110-0 and the Senate 52-5.",
    "url": "https://www.politico.com/newsletters/illinois-playbook",
    "published_at": "2026-07-07T07:01:00-05:00",
-   "flagged_for_review": false
-  },
-  {
-   "id": "igwl-20260706-good-trouble",
-   "category": "civic_org",
-   "source_id": "igwl",
-   "source_name": "Indivisible Greater West Loop (Weekly Action Plan)",
-   "source_type": "email_newsletter",
-   "title": "'Good Trouble Lives On' weekend of action, July 17-19",
-   "summary": "Indivisible Greater West Loop is joining a national weekend honoring the late Rep. John Lewis and voting rights, July 17-19. Local events include a candlelight vigil near Buckingham Fountain (Fri, July 17), plus a voter registration table at Mary Bartelme Park and a volunteer shift at State Sen. Lakesia Collins' Summer Block Party in North Lawndale (Sat, July 18).",
-   "url": "https://www.indivisiblegwlchi.org",
-   "published_at": "2026-07-06T07:46:00-05:00",
-   "flagged_for_review": false
-  },
-  {
-   "id": "igwl-20260706-july-events",
-   "category": "civic_org",
-   "source_id": "igwl",
-   "source_name": "Indivisible Greater West Loop (Weekly Action Plan)",
-   "source_type": "email_newsletter",
-   "title": "IGWL mid-July calendar: book club, food depository, ice cream social and more",
-   "summary": "Upcoming with Indivisible Greater West Loop: Book Club (July 8), volunteering at the Greater Chicago Food Depository (Fri, July 10, 12:45-3:30pm), a family-friendly Popsicle & Ice Cream Social (Sat, July 11, 11am-1pm), the July Chapter Meetup with guest speaker Nick Uniejewski (Mon, July 13, 6-8pm), and Drinks for Democracy postcard writing (Wed, July 15). IGWL also tables at the West Loop Farmers Market on Saturdays, 8-11:30am.",
-   "url": "https://www.indivisiblegwlchi.org",
-   "published_at": "2026-07-06T07:45:00-05:00",
    "flagged_for_review": false
   }
  ]

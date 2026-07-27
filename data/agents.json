@@ -83,11 +83,17 @@
   }
  ],
  "spotlight": {
-  "history": [],
+  "history": [
+   {
+    "week": "2026-07-20",
+    "date": "2026-07-21",
+    "name": "Stephanie Fedor"
+   }
+  ],
   "current": {
-   "week": "2026-07-20",
-   "date": "2026-07-21",
-   "name": "Stephanie Fedor"
+   "week": "2026-07-27",
+   "date": "2026-07-27",
+   "name": "Ilsa Conover"
   }
  }
 }
