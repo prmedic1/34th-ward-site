@@ -1,6 +1,18 @@
 {
- "generated_at": "2026-07-28T14:20:36.008Z",
+ "generated_at": "2026-07-28T14:57:53.973Z",
  "items": [
+  {
+   "id": "igwl-20260727-igwl-weekly-action-plan",
+   "category": "civic_org",
+   "source_id": "igwl",
+   "source_name": "Indivisible Greater West Loop",
+   "source_type": "email_newsletter",
+   "title": "IGWL Weekly Action Plan",
+   "summary": "Indivisible Greater West Loop is mobilizing community members to participate in local advocacy efforts. Residents are encouraged to engage in discussions about neighborhood issues and attend upcoming meetings to voice their concerns and ideas.",
+   "url": "https://www.indivisiblegwlchi.org/",
+   "published_at": "2026-07-27T12:46:04.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "politico-20260728-chicago-s-2027-election-cycle-begins",
    "category": "elected_official",
