@@ -1,6 +1,66 @@
 {
- "generated_at": "2026-07-27T15:21:56.631Z",
+ "generated_at": "2026-07-28T14:20:36.008Z",
  "items": [
+  {
+   "id": "politico-20260728-chicago-s-2027-election-cycle-begins",
+   "category": "elected_official",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Chicago's 2027 election cycle begins",
+   "summary": "Petition season for the 2027 election cycle in Chicago has officially started as of July 28, 2026. This marks the beginning of months filled with signature gathering and potential legal challenges regarding ballot access. Local residents should be aware of the upcoming candidates and issues that will shape their community.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-07-28T12:02:20.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "axios-20260728-the-606-heads-east",
+   "category": "civic_org",
+   "source_id": "axios",
+   "source_name": "Axios Chicago",
+   "source_type": "email_newsletter",
+   "title": "The 606 heads east",
+   "summary": "The 606, a popular elevated park and trail system, is expanding eastward, enhancing connectivity for local neighborhoods. This development aims to improve access to green spaces and recreational areas for residents in the surrounding communities, including those in the 34th Ward.",
+   "url": "https://www.axios.com/local/chicago",
+   "published_at": "2026-07-28T11:27:20.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "igwl-20260727-community-engagement-initiatives",
+   "category": "civic_org",
+   "source_id": "igwl",
+   "source_name": "Indivisible Greater West Loop",
+   "source_type": "email_newsletter",
+   "title": "Community engagement initiatives",
+   "summary": "Indivisible Greater West Loop is promoting community engagement initiatives aimed at increasing local participation in civic activities. Residents are encouraged to join upcoming meetings and events to discuss pressing issues and collaborate on community projects.",
+   "url": "https://www.indivisiblegwlchi.org/",
+   "published_at": "2026-07-27T12:46:04.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260728-city-presses-west-loop-restaurant-habibt",
+   "category": "business",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "City Presses West Loop Restaurant Habibti To Address Noise, Late-Night Complaints",
+   "summary": "City officials gave the restaurant more time to comply with corrective measures, but owner Fadi Akileh said his business is the victim of an “all-out attack.”",
+   "url": "https://blockclubchicago.org/2026/07/28/city-presses-west-loop-restaurant-habibti-to-address-noise-late-night-complaints/",
+   "published_at": "2026-07-28T12:51:57.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260728-check-out-smashing-pumpkins-case-oats-wh",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Check Out Smashing Pumpkins, Case Oats, Whethan And Other Local Acts At Lollapalooza 2026",
+   "summary": "Musical acts from the Chicago area performing at Lollapalooza this year include South Side rapper Ric Wilson, house music star John Summit, up-and-coming country artist Stella Lefty and more.",
+   "url": "https://blockclubchicago.org/2026/07/28/check-out-smashing-pumpkins-case-oats-whethan-and-other-local-acts-at-lollapalooza-2026/",
+   "published_at": "2026-07-28T13:59:04.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "blockclub-20260727-this-city-mushroom-farm-grows-fungi-for-",
    "category": "civic_org",
@@ -1298,18 +1358,6 @@
    "flagged_for_review": false
   },
   {
-   "id": "blockclub-20260707-mubi-fest-returns-with-screenings-at-3-i",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "MUBI Fest Returns With Screenings At 3 Iconic Chicago Theaters",
-   "summary": "Tickets for the July 10-12 movie festival are on sale now. The movie lineup includes \"The Substance,\" \"Sleepaway Camp\" and more.",
-   "url": "https://blockclubchicago.org/2026/07/07/mubi-fest-returns-with-screenings-at-3-iconic-chicago-theaters/",
-   "published_at": "2026-07-07T12:00:00.000Z",
-   "flagged_for_review": false
-  },
-  {
    "id": "blockclub-20260708-fine-arts-building-welcomes-groundswell-",
    "category": "business",
    "source_id": "blockclub",
@@ -1331,18 +1379,6 @@
    "summary": "Fans from all over the world have been flocking to the West Loop bar, with its massive patio and jumbotron screens, despite the lines that stretch around the block. The bar's guest count is up 300 percent.",
    "url": "https://blockclubchicago.org/2026/07/08/want-to-watch-the-world-cup-at-recess-get-in-line/",
    "published_at": "2026-07-08T12:33:00.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260707-bud-rita-s-opens-loop-s-first-weed-shop-",
-   "category": "business",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Bud Rita's Opens Loop's First Weed Shop As City Eases Restrictions For Downtown Dispensaries",
-   "summary": "LOOP - The Loop’s first legal cannabis dispensary is now open, two years after Downtown Ald. Bill Conway (34th) changed city rules to make it easier for weed shops to fill vacant storefronts in the Central Business District. Bud & Rita’s, located inside a former Bank of America at 105 W.",
-   "url": "https://blockclubchicago.org/2026/07/07/bud-ritas-opens-loops-first-weed-shop-as-city-eases-restrictions-for-downtown-dispensaries/",
-   "published_at": "2026-07-07T12:48:00.000Z",
    "flagged_for_review": false
   },
   {
@@ -1523,42 +1559,6 @@
    "summary": "Navy Pier is giving away free Centennial Wheel rides to make up for the July 4th fireworks show that fog largely obscured. Free-ride tickets are available through Navy Pier while the offer lasts.",
    "url": "https://navypier.org",
    "published_at": "2026-07-08T07:01:00-05:00",
-   "flagged_for_review": false
-  },
-  {
-   "id": "axios-20260707-storms",
-   "category": "newsletter",
-   "source_id": "axios",
-   "source_name": "Axios Chicago",
-   "source_type": "email_newsletter",
-   "title": "Storm cleanup: what Chicago homeowners and drivers need to know",
-   "summary": "Heavy July Fourth weekend storms knocked out power for nearly 300,000 ComEd customers, flooded homes and CTA buses, and downed trees across the city, and Chicago's Deep Tunnel floodwater system came close to full for the first time in its history. Axios rounds up the insurance basics: if a tree hits your house or car, contact your insurer promptly and document the damage with photos, and remember property insurance typically covers removal and repair only when a structure is actually hit.",
-   "url": "https://www.axios.com/local/chicago",
-   "published_at": "2026-07-07T06:28:00-05:00",
-   "flagged_for_review": false
-  },
-  {
-   "id": "axios-20260707-giannoulias-plates",
-   "category": "newsletter",
-   "source_id": "axios",
-   "source_name": "Axios Chicago",
-   "source_type": "email_newsletter",
-   "title": "Giannoulias urges residents to report license-plate tampering by federal agents",
-   "summary": "Illinois Secretary of State Alexi Giannoulias is asking residents to report immigration agents who remove or obscure vehicle license plates, after a video appearing to show an agent with a plateless SUV went viral. He said operating a vehicle without the required plates is illegal in Illinois for everyone, and pointed residents to a tip line at 312-814-1730 and platewatch@ilsos.gov.",
-   "url": "https://www.axios.com/local/chicago",
-   "published_at": "2026-07-07T06:27:00-05:00",
-   "flagged_for_review": false
-  },
-  {
-   "id": "politico-il-20260707-ai-law",
-   "category": "newsletter",
-   "source_id": "politico",
-   "source_name": "POLITICO Illinois Playbook",
-   "source_type": "email_newsletter",
-   "title": "Illinois becomes the first state to require independent AI safety audits",
-   "summary": "Gov. JB Pritzker signed the Artificial Intelligence Safety Measures Act, which supporters call the nation's strongest state-level AI safety law. It requires the largest AI developers (frontier labs with more than $500 million in revenue) to publish risk frameworks, undergo annual third-party audits, and report serious safety incidents within 72 hours. Attorney General Kwame Raoul's office will enforce it, with penalties up to $1 million for a first violation. The bill passed the House 110-0 and the Senate 52-5.",
-   "url": "https://www.politico.com/newsletters/illinois-playbook",
-   "published_at": "2026-07-07T07:01:00-05:00",
    "flagged_for_review": false
   }
  ]
