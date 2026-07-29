@@ -1,6 +1,66 @@
 {
- "generated_at": "2026-07-28T14:57:53.973Z",
+ "generated_at": "2026-07-29T14:21:03.386Z",
  "items": [
+  {
+   "id": "politico-20260729-housing-challenges-discussed-at-national",
+   "category": "elected_official",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Housing challenges discussed at national summit",
+   "summary": "At the National Conference of State Legislatures summit, lawmakers highlighted the ongoing housing crisis affecting many families. Rising costs and restrictive zoning laws were identified as significant barriers to building affordable housing. This discussion aligns with Illinois Governor JB Pritzker's stalled BUILD plan aimed at increasing housing supply by reforming zoning rules and cutting red tape.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-07-29T12:01:51.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "axios-20260729-cook-county-offers-free-job-skills-train",
+   "category": "business",
+   "source_id": "axios",
+   "source_name": "Axios Chicago",
+   "source_type": "email_newsletter",
+   "title": "Cook County offers free job skills training",
+   "summary": "Cook County residents can access free job skills training through scholarships for Google Career Certificates. This initiative aims to equip community members with the necessary skills to enhance their career opportunities in a competitive job market.",
+   "url": "https://www.axios.com/local/chicago",
+   "published_at": "2026-07-29T11:27:21.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260728-team-behind-hyde-park-s-virtue-opening-r",
+   "category": "business",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Team Behind Hyde Park's Virtue Opening Restaurant In West Loop",
+   "summary": "The yet-to-be-named restaurant on Elizabeth Street will be led by Virtue's chef de cuisine Damarr Brown, a James Beard Award winner and former “Top Chef” contestant.",
+   "url": "https://blockclubchicago.org/2026/07/28/team-behind-hyde-parks-virtue-opening-restaurant-in-west-loop/",
+   "published_at": "2026-07-28T19:28:25.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260729-drivers-have-run-over-flipped-off-and-cu",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Drivers Have Run Over, Flipped Off And Cursed Out Chicago’s Traffic Aides For Doing Their Jobs",
+   "summary": "CHICAGO - Michelle DiCola has been spit on, screamed at and nearly run over more times than she can count in her nearly 30-year stint working in traffic safety.",
+   "url": "https://blockclubchicago.org/2026/07/29/drivers-have-run-over-flipped-off-and-cursed-out-chicagos-traffic-aides-for-doing-their-jobs/",
+   "published_at": "2026-07-29T13:12:00.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260728-smashing-pumpkins-celebrate-homecoming-l",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Smashing Pumpkins Celebrate Homecoming Lolla Performance With ‘Pumpkinpalooza’",
+   "summary": "The rock band will have events throughout the city all week, including a merch pop-up and special performances.",
+   "url": "https://blockclubchicago.org/2026/07/28/smashing-pumpkins-celebrate-homecoming-lolla-performance-with-pumpkinpalooza/",
+   "published_at": "2026-07-28T21:25:18.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "igwl-20260727-igwl-weekly-action-plan",
    "category": "civic_org",
@@ -1334,66 +1394,6 @@
    "flagged_for_review": false
   },
   {
-   "id": "blockclub-20260708-jesse-white-tumblers-stun-judges-on-amer",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Jesse White Tumblers Stun Judges On America’s Got Talent,' Even Simon Cowell",
-   "summary": "The youth tumbling team started by former Illinois Secretary of State Jesse White impressed the judges on the reality TV competition Tuesday.",
-   "url": "https://blockclubchicago.org/2026/07/08/jesse-white-tumblers-stun-judges-on-americas-got-talent-even-simon-cowell/",
-   "published_at": "2026-07-08T13:24:00.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260708-upon-his-return-to-the-goodman-nick-offe",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Upon His Return To The Goodman, Nick Offerman Reflects On His Early Days In Chicago Theater",
-   "summary": "The Chicago-area native stars in “Iceboy!” with his wife, Megan Mullally, and performs a one-night solo show Monday at the Ramova in Bridgeport.",
-   "url": "https://blockclubchicago.org/2026/07/08/upon-his-return-to-the-goodman-nick-offerman-reflects-on-his-early-days-in-chicago-theater/",
-   "published_at": "2026-07-08T12:36:00.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260708-chicago-sky-dj-ca-hera-is-making-it-big-",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Chicago Sky DJ Ca$hEra Is Making It Big By Staying True To Herself",
-   "summary": "CaSera Heining, a queer Black female DJ in a male-dominated industry, is in her second full season as the Sky's DJ and spins records at Bulls games and Nike HQ. \"She definitely has an energy about her that commands attention.\"",
-   "url": "https://blockclubchicago.org/2026/07/08/chicago-sky-dj-cahera-is-making-it-big-by-staying-true-to-herself/",
-   "published_at": "2026-07-08T12:22:00.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260708-fine-arts-building-welcomes-groundswell-",
-   "category": "business",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Fine Arts Building Welcomes Groundswell Coffee In Space Next To Former Artist’s Cafe",
-   "summary": "DOWNTOWN - Chicago-based Groundswell Coffee Roasters is opening inside the Fine Arts Building this month, seven years after the building's original cafe closed. Located at 410 S.",
-   "url": "https://blockclubchicago.org/2026/07/08/fine-arts-building-welcomes-groundswell-coffee-in-space-next-to-former-artists-cafe/",
-   "published_at": "2026-07-08T12:38:45.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260708-want-to-watch-the-world-cup-at-recess-ge",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Want To Watch The World Cup At Recess? Get In Line",
-   "summary": "Fans from all over the world have been flocking to the West Loop bar, with its massive patio and jumbotron screens, despite the lines that stretch around the block. The bar's guest count is up 300 percent.",
-   "url": "https://blockclubchicago.org/2026/07/08/want-to-watch-the-world-cup-at-recess-get-in-line/",
-   "published_at": "2026-07-08T12:33:00.000Z",
-   "flagged_for_review": false
-  },
-  {
    "id": "blockclub-20260709-shedd-aquarium-rescuing-10-beluga-whales",
    "category": "civic_org",
    "source_id": "blockclub",
@@ -1511,66 +1511,6 @@
    "summary": "Crime on the CTA has dropped for six consecutive months amid a security surge, the agency's leadership says, per the Sun-Times. The trend covers the transit lines and stations that serve the West Loop, Loop and South Loop.",
    "url": "https://www.politico.com/newsletters/illinois-playbook",
    "published_at": "2026-07-09T07:01:00-05:00",
-   "flagged_for_review": false
-  },
-  {
-   "id": "politico-20260708-nee-declares",
-   "category": "elected_official",
-   "source_id": "politico",
-   "source_name": "POLITICO Illinois Playbook",
-   "source_type": "email_newsletter",
-   "title": "Dr. Lisa Nee makes her run for mayor official",
-   "summary": "Cardiologist and VA whistleblower Dr. Lisa Nee formally announced her 2027 mayoral campaign. While working at Hines VA Hospital she spoke out about unnecessary procedures, delays in care and mismanagement, and says she faced retaliation for doing so. She joins a crowded field that already includes Alexi Giannoulias, Matthew Brewer, Susana Mendoza and Mike Quigley.",
-   "url": "https://www.politico.com/newsletters/illinois-playbook",
-   "published_at": "2026-07-08T07:01:00-05:00",
-   "flagged_for_review": false
-  },
-  {
-   "id": "axios-20260708-lead-lines",
-   "category": "civic_org",
-   "source_id": "axios",
-   "source_name": "Axios Chicago",
-   "source_type": "email_newsletter",
-   "title": "Chicago pays double the suburbs to remove lead water lines",
-   "summary": "An Axios analysis finds Chicago pays about $31,000 to replace a single lead service line while Evanston spends under $15,000, Elgin $10,950 and a Riverside bid came in at $9,200, all using the same local contractors. Chicagoans will shoulder much of the estimated $12 billion cost of removing a record 400,000 lead lines over the next two decades. City water officials did not respond to requests for an explanation of the gap.",
-   "url": "https://www.axios.com/local/chicago",
-   "published_at": "2026-07-08T06:29:00-05:00",
-   "flagged_for_review": false
-  },
-  {
-   "id": "politico-20260708-budget-gap",
-   "category": "elected_official",
-   "source_id": "politico",
-   "source_name": "POLITICO Illinois Playbook",
-   "source_type": "email_newsletter",
-   "title": "City budget fight sharpens over $130 million gap claim",
-   "summary": "Mayor Brandon Johnson says the alternative budget provisions pushed by a group of aldermen he calls the 'corporate caucus' come up $130 million short. Ald. Matt O'Shea countered that the administration is sabotaging the alternative plan. The dispute sets the tone for a contentious fall budget season at City Hall.",
-   "url": "https://www.politico.com/newsletters/illinois-playbook",
-   "published_at": "2026-07-08T07:01:00-05:00",
-   "flagged_for_review": false
-  },
-  {
-   "id": "axios-20260708-cpd-overspend",
-   "category": "civic_org",
-   "source_id": "axios",
-   "source_name": "Axios Chicago",
-   "source_type": "email_newsletter",
-   "title": "Police department blows past budget for fifth straight year",
-   "summary": "The Chicago Police Department overspent its 2025 budget by $162.5 million, the fifth consecutive year of overruns, with more than $120 million of the overage going to personnel costs, per WTTW. The Obama Presidential Center also releases a new batch of tickets today.",
-   "url": "https://www.axios.com/local/chicago",
-   "published_at": "2026-07-08T06:29:00-05:00",
-   "flagged_for_review": false
-  },
-  {
-   "id": "politico-20260708-navy-pier-wheel",
-   "category": "business",
-   "source_id": "politico",
-   "source_name": "POLITICO Illinois Playbook",
-   "source_type": "email_newsletter",
-   "title": "Navy Pier offers free Centennial Wheel rides after foggy Fourth",
-   "summary": "Navy Pier is giving away free Centennial Wheel rides to make up for the July 4th fireworks show that fog largely obscured. Free-ride tickets are available through Navy Pier while the offer lasts.",
-   "url": "https://navypier.org",
-   "published_at": "2026-07-08T07:01:00-05:00",
    "flagged_for_review": false
   }
  ]
