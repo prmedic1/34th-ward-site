@@ -1,6 +1,30 @@
 {
- "generated_at": "2026-07-29T14:21:03.386Z",
+ "generated_at": "2026-07-29T14:39:19.485Z",
  "items": [
+  {
+   "id": "axios-20260729-chicago-immigration-court-faces-challeng",
+   "category": "civic_org",
+   "source_id": "axios",
+   "source_name": "Axios Chicago",
+   "source_type": "email_newsletter",
+   "title": "Chicago immigration court faces challenges with new mega hearings",
+   "summary": "Chicago's immigration court is experiencing significant challenges due to new 'mega master' hearings that can involve as many as 185 immigrants in a single courtroom. This situation is leading to record deportation orders and highlights the pressing issues surrounding immigration enforcement in the city.",
+   "url": "https://www.axios.com/local/chicago",
+   "published_at": "2026-07-29T11:27:21.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "igwl-20260727-indivisible-greater-west-loop-promotes-c",
+   "category": "civic_org",
+   "source_id": "igwl",
+   "source_name": "Indivisible Greater West Loop",
+   "source_type": "email_newsletter",
+   "title": "Indivisible Greater West Loop promotes community engagement",
+   "summary": "Indivisible Greater West Loop is encouraging residents to participate in local civic activities and stay informed about community issues. Their weekly action plan includes opportunities for residents to engage with local government and support initiatives that benefit the West Loop community.",
+   "url": "https://www.indivisiblegwlchi.org/",
+   "published_at": "2026-07-27T12:46:04.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "politico-20260729-housing-challenges-discussed-at-national",
    "category": "elected_official",
