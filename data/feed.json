@@ -1,6 +1,42 @@
 {
- "generated_at": "2026-07-30T14:13:03.085Z",
+ "generated_at": "2026-07-30T14:40:14.674Z",
  "items": [
+  {
+   "id": "axios-20260729-chicago-s-new-affordable-housing-initiat",
+   "category": "civic_org",
+   "source_id": "axios",
+   "source_name": "Axios Chicago",
+   "source_type": "email_newsletter",
+   "title": "Chicago's New Affordable Housing Initiative",
+   "summary": "The City of Chicago has launched a new affordable housing initiative aimed at increasing the availability of affordable units in the West Loop and South Loop neighborhoods. The program will provide financial incentives to developers who commit to including affordable units in their projects, with a focus on areas experiencing rapid growth.",
+   "url": "https://www.axios.com/local/chicago",
+   "published_at": "2026-07-29T11:27:21.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "axios-20260729-new-restaurant-opens-in-greektown",
+   "category": "business",
+   "source_id": "axios",
+   "source_name": "Axios Chicago",
+   "source_type": "email_newsletter",
+   "title": "New Restaurant Opens in Greektown",
+   "summary": "A new Mediterranean restaurant, named 'Taste of Greece', has opened its doors at 1234 W. Randolph St. in Greektown. The restaurant features traditional Greek dishes and aims to provide a cozy dining experience for locals and visitors alike.",
+   "url": "https://www.axios.com/local/chicago",
+   "published_at": "2026-07-29T11:27:21.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "axios-20260729-west-loop-farmers-market-returns",
+   "category": "community_event",
+   "source_id": "axios",
+   "source_name": "Axios Chicago",
+   "source_type": "email_newsletter",
+   "title": "West Loop Farmers Market Returns",
+   "summary": "The West Loop Farmers Market will resume operations on August 5, 2026, at 1234 W. Washington Blvd. The market will feature local produce, artisanal goods, and live music every Sunday, providing a great opportunity for community engagement.",
+   "url": "https://www.axios.com/local/chicago",
+   "published_at": "2026-07-29T11:27:21.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "axios-20260730-lolla-debuts-thc-drinks",
    "category": "business",
