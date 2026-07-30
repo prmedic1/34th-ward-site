@@ -44,6 +44,15 @@
 
   if (isLocal) return; // never count our own previews
 
+  // Owner opt-out: loading any page with ?notrack=1 permanently stops this
+  // device/browser from being counted (a flag saved in the browser). Use
+  // ?notrack=0 to start counting again. Clearing Safari website data resets it.
+  try {
+    if (/[?&]notrack=1/.test(location.search)) { localStorage.setItem('w34_notrack', '1'); }
+    else if (/[?&]notrack=0/.test(location.search)) { localStorage.removeItem('w34_notrack'); }
+    if (localStorage.getItem('w34_notrack') === '1') return; // don't count the owner
+  } catch (e) { /* storage blocked: just count normally */ }
+
   var NS = 'https://abacus.jasoncameron.dev/hit/34thward-com/';
   function bump(key) {
     try {
