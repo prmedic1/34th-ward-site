@@ -3,7 +3,7 @@
   "election_date": "February 23, 2027",
   "kalshi_event": "KXCHICAGOMAYOR-27",
   "kalshi_url": "https://kalshi.com/markets/kxchicagomayor",
-  "note": "Blended win probabilities from the Kalshi prediction market (event KXCHICAGOMAYOR-27) and PredictionEdge, normalized to 100% across the 14 tracked candidates. Candidates without an active market are floored at about 0.5%. Prediction markets, not polls.",
+  "note": "Blended win probabilities from the Kalshi prediction market (event KXCHICAGOMAYOR-27) and PredictionEdge, normalized to 100% across the 13 tracked candidates. Candidates without an active market are floored at about 0.5%. Prediction markets, not polls.",
   "candidates": [
     {
       "name": "Alexi Giannoulias",
@@ -97,7 +97,7 @@
     {
       "name": "John Kelly",
       "role": "Lobbyist & City Hall power broker",
-      "status": "rumored",
+      "status": "declared",
       "order": 8,
       "badge": "Conservative",
       "badgeColor": "red",
@@ -154,18 +154,6 @@
       "kalshi_raw": null,
       "pe_raw": null,
       "campaign_url": "https://www.lisaneeforchicago.com/"
-    },
-    {
-      "name": "Bill Conway",
-      "role": "Alderman, 34th Ward",
-      "status": "rumored",
-      "order": 13,
-      "image": "images/candidates/conway.jpg",
-      "pct": 1.5,
-      "kalshi_raw": null,
-      "pe_raw": null,
-      "manifold_raw": 1.6,
-      "campaign_url": "https://www.ward34.org/"
     },
     {
       "name": "Danielle Carter-Walters",

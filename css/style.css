@@ -887,6 +887,65 @@ body.photo-banner .hero {
 }
 .np-more:hover { text-decoration: underline; }
 
+/* Featured lead story at the top of the Front Page */
+.np-lead {
+  border: 1px solid var(--border);
+  border-top: 4px solid var(--red);
+  background: var(--card-bg);
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--shadow-2);
+  margin: 0 0 30px;
+}
+.np-lead-img { display: block; width: 100%; height: auto; }
+.np-lead-body { padding: 22px 26px 26px; }
+.np-lead-kicker {
+  font-family: var(--font-body);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--red);
+  margin: 0 0 8px;
+}
+.np-lead-headline {
+  font-family: var(--font-head);
+  font-size: 2rem;
+  line-height: 1.15;
+  font-weight: 700;
+  color: var(--text);
+  margin: 0 0 14px;
+}
+.np-lead-intro {
+  font-size: 0.95rem;
+  color: var(--muted);
+  font-style: italic;
+  margin: 0 0 16px;
+}
+.np-lead-statement {
+  margin: 0;
+  padding-left: 18px;
+  border-left: 3px solid var(--sky);
+}
+.np-lead-statement p {
+  font-family: var(--font-head);
+  font-size: 1.05rem;
+  line-height: 1.6;
+  color: var(--text);
+  margin: 0 0 12px;
+}
+.np-lead-statement p:last-child { margin-bottom: 0; }
+.np-lead-attr {
+  margin: 16px 0 0;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--navy);
+}
+@media (max-width: 700px) {
+  .np-lead-headline { font-size: 1.55rem; }
+  .np-lead-body { padding: 18px 18px 20px; }
+}
+
 /* Source section pages */
 .np-section-masthead {
   display: flex;
