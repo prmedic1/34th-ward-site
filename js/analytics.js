@@ -47,9 +47,25 @@
   // Owner opt-out: loading any page with ?notrack=1 permanently stops this
   // device/browser from being counted (a flag saved in the browser). Use
   // ?notrack=0 to start counting again. Clearing Safari website data resets it.
+  // A brief on-screen banner confirms the change so the owner can see it took.
+  function showNotice(text) {
+    try {
+      var el = document.createElement('div');
+      el.textContent = text;
+      el.setAttribute('role', 'status');
+      el.style.cssText = 'position:fixed;left:50%;bottom:22px;transform:translateX(-50%);z-index:9999;background:#0a5a78;color:#fff;font:600 14px/1.4 Inter,system-ui,sans-serif;padding:12px 18px;border-radius:8px;box-shadow:0 6px 18px rgba(10,35,64,.28);max-width:88%;text-align:center';
+      (document.body || document.documentElement).appendChild(el);
+      setTimeout(function () { el.style.transition = 'opacity .5s'; el.style.opacity = '0'; setTimeout(function () { el.remove(); }, 500); }, 4500);
+    } catch (e) { /* never break the page over a banner */ }
+  }
   try {
-    if (/[?&]notrack=1/.test(location.search)) { localStorage.setItem('w34_notrack', '1'); }
-    else if (/[?&]notrack=0/.test(location.search)) { localStorage.removeItem('w34_notrack'); }
+    if (/[?&]notrack=1/.test(location.search)) {
+      localStorage.setItem('w34_notrack', '1');
+      showNotice('Got it - this device will not be counted in the visit stats.');
+    } else if (/[?&]notrack=0/.test(location.search)) {
+      localStorage.removeItem('w34_notrack');
+      showNotice('Visit counting is turned back on for this device.');
+    }
     if (localStorage.getItem('w34_notrack') === '1') return; // don't count the owner
   } catch (e) { /* storage blocked: just count normally */ }
 
