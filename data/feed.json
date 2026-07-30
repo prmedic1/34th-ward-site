@@ -1,6 +1,102 @@
 {
- "generated_at": "2026-07-29T14:39:19.485Z",
+ "generated_at": "2026-07-30T14:13:03.085Z",
  "items": [
+  {
+   "id": "axios-20260730-lolla-debuts-thc-drinks",
+   "category": "business",
+   "source_id": "axios",
+   "source_name": "Axios Chicago",
+   "source_type": "email_newsletter",
+   "title": "Lolla debuts THC drinks",
+   "summary": "Lollapalooza has introduced a line of THC-infused beverages at this year's festival. The drinks are available at various vendor locations throughout Grant Park, providing a new option for festival-goers. This initiative reflects a growing trend in the beverage industry, catering to the evolving preferences of consumers.",
+   "url": "https://www.axios.com/local/chicago",
+   "published_at": "2026-07-30T11:27:20.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260730-south-loop-neighbors-pitch-new-bus-conne",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "South Loop Neighbors Pitch New Bus Connector As Development Booms In Area",
+   "summary": "The proposed rapid bus line could get commuters around the South Loop with less hassle while leaving traffic and bike lanes untouched, according to South Loop Neighbors.",
+   "url": "https://blockclubchicago.org/2026/07/30/south-loop-neighbors-pitch-new-bus-connector-as-development-booms-in-area/",
+   "published_at": "2026-07-30T13:00:00.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260730-soul-city-church-expansion-faces-pushbac",
+   "category": "elected_official",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Soul City Church Expansion Faces Pushback From Neighbors Over Years Of Noise Complaints",
+   "summary": "WEST LOOP - A prominent West Loop church wants to build an expansion, saying its soundproof design will provide more room for worship while reducing noise for neighbors. But neighbors who say they’ve endured years of pounding bass and shaking walls aren’t convinced.",
+   "url": "https://blockclubchicago.org/2026/07/30/soul-city-church-expansion-faces-pushback-from-neighbors-over-years-of-noise-complaints/",
+   "published_at": "2026-07-30T12:44:00.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260730-can-states-come-together-to-hold-ice-age",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Can States Come Together To Hold ICE Agents Accountable? Illinois Joins Others To Try",
+   "summary": "The effort - involving lawmakers from Illinois, Minnesota, Colorado and other states - aims to use local laws to allow people to file civil lawsuits and seek compensation for damages.",
+   "url": "https://blockclubchicago.org/2026/07/30/can-states-come-together-to-hold-ice-agents-accountable-illinois-joins-others-to-try/",
+   "published_at": "2026-07-30T13:28:00.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260730-more-than-300-apartments-coming-to-forme",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "More Than 300 Apartments Coming To Former Mag Mile Office Building As Work Gets Underway",
+   "summary": "DOWNTOWN - A vacant Michigan Avenue office building is being transformed into more than 300 apartments, the latest major conversion aimed at bringing residents and investment Downtown. Connecticut-based Commonwealth Development broke ground Wednesday on the conversion of 500 N.",
+   "url": "https://blockclubchicago.org/2026/07/30/more-than-300-apartments-coming-to-former-mag-mile-office-building-as-work-gets-underway/",
+   "published_at": "2026-07-30T13:00:00.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260730-23-things-to-do-in-chicago-this-weekend-",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "23 Things To Do In Chicago This Weekend: Lollapalooza, Italian Beef Fest And More",
+   "summary": "Vinyl dance parties, a Back of the Yards block party, a dim sum 5K and the Bronzeville Smooth Jazz Festival are also on deck.",
+   "url": "https://blockclubchicago.org/2026/07/30/23-things-to-do-in-chicago-this-weekend-lollapalooza-italian-beef-fest-and-more/",
+   "published_at": "2026-07-30T12:23:19.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260729-are-sewer-geysers-the-new-norm-in-chicag",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Are Sewer Geysers The New Norm In Chicago? Exploding Manholes Raise Alarm",
+   "summary": "Chicagoans reported seeing water gushing from the city's sewers after heavy rains Monday. The phenomenon has become increasingly common as heavier rainfall due to climate change stresses aging infrastructure.",
+   "url": "https://blockclubchicago.org/2026/07/29/are-sewer-geysers-the-new-norm-in-chicago-exploding-manholes-raise-alarm/",
+   "published_at": "2026-07-29T20:40:24.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260729-it-ll-be-a-soggy-lollapalooza-with-storm",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "It’ll Be A Soggy Lollapalooza With Storms In Forecast",
+   "summary": "Rainfall is expected Friday and Saturday - but here are tips for how to make it through Lolla when it storms.",
+   "url": "https://blockclubchicago.org/2026/07/29/itll-be-a-soggy-lollapalooza-with-storms-in-forecast/",
+   "published_at": "2026-07-29T16:22:47.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "axios-20260729-chicago-immigration-court-faces-challeng",
    "category": "civic_org",
@@ -1430,30 +1526,6 @@
    "flagged_for_review": false
   },
   {
-   "id": "blockclub-20260709-30-things-to-do-in-chicago-this-weekend-",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "30 Things To Do In Chicago This Weekend: Taste Of Chicago, Square Roots, Chosen Few DJs And More",
-   "summary": "Windy City Smokeout, MUBI Fest, the Beverly-Morgan Park Garden Walk and multiple markets are also on deck.",
-   "url": "https://blockclubchicago.org/2026/07/09/30-things-to-do-in-chicago-this-weekend-taste-of-chicago-square-roots-chosen-few-djs-and-more/",
-   "published_at": "2026-07-09T12:31:00.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260708-chief-keef-will-perform-in-chicago-for-1",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Chief Keef Will Perform In Chicago For 1st Time In 14 Years With Show At Northerly Island",
-   "summary": "After effectively being blacklisted from performing in the city for over a decade, the South Side rapper will return to Chicago on Sep. 12 as part of his nationwide tour for his latest mixtape, \"Skeletor.\"",
-   "url": "https://blockclubchicago.org/2026/07/08/chief-keef-will-perform-in-chicago-for-1st-time-in-14-years-with-september-show-at-northerly-island/",
-   "published_at": "2026-07-08T17:38:26.000Z",
-   "flagged_for_review": false
-  },
-  {
    "id": "axios-20260710-live-launch",
    "category": "business",
    "source_id": "axios",
@@ -1487,54 +1559,6 @@
    "summary": "Illinois Democrats and Attorney General Kwame Raoul are pressing the U.S. Postal Service over proposed changes to mail-in voting, after a federal judge blocked parts of a Trump executive order on elections. Mail ballots made up roughly 30 percent of votes cast in 2024, so any change to processing timelines could affect voters before the 2026 midterms.",
    "url": "https://www.axios.com/local/chicago",
    "published_at": "2026-07-10T06:29:00-05:00",
-   "flagged_for_review": false
-  },
-  {
-   "id": "politico-20260709-health-commissioner",
-   "category": "elected_official",
-   "source_id": "politico",
-   "source_name": "POLITICO Illinois Playbook",
-   "source_type": "email_newsletter",
-   "title": "Mayor names new city public health commissioner",
-   "summary": "Mayor Brandon Johnson has tapped Dr. Garth Walker, chief medical officer at Rush Health, to lead the Chicago Department of Public Health. Walker would replace Dr. Olusimbo Ige, who resigned in May. The appointment requires City Council approval.",
-   "url": "https://www.politico.com/newsletters/illinois-playbook",
-   "published_at": "2026-07-09T07:01:00-05:00",
-   "flagged_for_review": false
-  },
-  {
-   "id": "axios-20260709-torture-memorial",
-   "category": "civic_org",
-   "source_id": "axios",
-   "source_name": "Axios Chicago",
-   "source_type": "email_newsletter",
-   "title": "Ground broken on Chicago Torture Justice Memorial",
-   "summary": "Survivors, advocates, Mayor Johnson and Ald. Jeanette Taylor broke ground in Washington Park on the future Chicago Torture Justice Memorial, honoring victims of police torture under Commander Jon Burge and his 'Midnight Crew' from 1972 to 1991. The 2015 city reparations package that recognized the torture included a formal apology, a $5.5 million victims fund, and a CPS curriculum.",
-   "url": "https://www.axios.com/local/chicago",
-   "published_at": "2026-07-09T06:29:00-05:00",
-   "flagged_for_review": false
-  },
-  {
-   "id": "axios-20260709-cyclospora",
-   "category": "civic_org",
-   "source_id": "axios",
-   "source_name": "Axios Chicago",
-   "source_type": "email_newsletter",
-   "title": "Illinois health officials track a stomach-bug outbreak",
-   "summary": "State health officials are investigating an outbreak of cyclosporiasis, a gastrointestinal illness caused by a microscopic parasite spread through contaminated food. As of Tuesday, 141 cases had been reported. Past outbreaks have been linked to raspberries, basil, salad mixes and cilantro, so experts recommend washing produce under running water before eating.",
-   "url": "https://www.axios.com/local/chicago",
-   "published_at": "2026-07-09T06:29:00-05:00",
-   "flagged_for_review": false
-  },
-  {
-   "id": "politico-20260709-cta-crime",
-   "category": "civic_org",
-   "source_id": "politico",
-   "source_name": "POLITICO Illinois Playbook",
-   "source_type": "email_newsletter",
-   "title": "CTA reports crime down six months in a row",
-   "summary": "Crime on the CTA has dropped for six consecutive months amid a security surge, the agency's leadership says, per the Sun-Times. The trend covers the transit lines and stations that serve the West Loop, Loop and South Loop.",
-   "url": "https://www.politico.com/newsletters/illinois-playbook",
-   "published_at": "2026-07-09T07:01:00-05:00",
    "flagged_for_review": false
   }
  ]

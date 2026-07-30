@@ -124,5 +124,12 @@
   "visitors": 127,
   "views": 7,
   "verdict": "bad"
+ },
+ {
+  "date": "2026-07-30",
+  "total": 230,
+  "visitors": 127,
+  "views": 0,
+  "verdict": "bad"
  }
 ]
