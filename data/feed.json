@@ -1,6 +1,54 @@
 {
- "generated_at": "2026-07-31T14:55:44.480Z",
+ "generated_at": "2026-08-01T13:37:25.767Z",
  "items": [
+  {
+   "id": "cbs-20260801-little-joe-s-bar-in-little-italy-respond",
+   "category": "business",
+   "source_id": "cbs",
+   "source_name": "CBS News Chicago",
+   "source_type": "web_feed",
+   "title": "Little Joe's bar in Little Italy responds to break-in with mock 0-star review for burglars",
+   "summary": "A popular Little Italy neighborhood bar was the target of an early morning break-in this week. While the owners said they are upset, they are responding with some levity.",
+   "url": "https://www.cbsnews.com/chicago/news/little-joes-bar-in-little-italy-responds-to-break-in-with-mock-0-star-review-for-burglars/",
+   "published_at": "2026-08-01T03:17:37.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "cbs-20260801-noisy-motorcycle-caravans-creating-chaos",
+   "category": "civic_org",
+   "source_id": "cbs",
+   "source_name": "CBS News Chicago",
+   "source_type": "web_feed",
+   "title": "Noisy motorcycle caravans creating chaos downtown, raising safety concerns from neighbors",
+   "summary": "A caravan of hundreds of motorcycles created a loud, chaotic, and potentially dangerous situation on the Dan Ryan Expressway and in the South Loop and downtown Chicago late Thursday night.",
+   "url": "https://www.cbsnews.com/chicago/news/motorcycle-caravans-dan-ryan-expressway-south-loop-downtown/",
+   "published_at": "2026-08-01T03:14:16.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "cbs-20260801-little-italy-bar-responds-to-break-in-wi",
+   "category": "business",
+   "source_id": "cbs",
+   "source_name": "CBS News Chicago",
+   "source_type": "web_feed",
+   "title": "Little Italy bar responds to break-in with levity",
+   "summary": "A popular Little Italy neighborhood bar was the target of an early morning break-in this week. While the owners said they are upset, they are responding with some levity.",
+   "url": "https://www.cbsnews.com/chicago/video/little-italy-bar-responds-to-break-in-with-levity/",
+   "published_at": "2026-08-01T03:12:00.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "cbs-20260801-motorcycle-caravans-causing-chaos-on-dan",
+   "category": "civic_org",
+   "source_id": "cbs",
+   "source_name": "CBS News Chicago",
+   "source_type": "web_feed",
+   "title": "Motorcycle caravans causing chaos on Dan Ryan and downtown",
+   "summary": "A caravan of hundreds of motorcycles created a loud, chaotic, and potentially dangerous situation on the Dan Ryan Expressway and in the South Loop and downtown Chicago late Thursday night.",
+   "url": "https://www.cbsnews.com/chicago/video/motorcycle-caravans-causing-chaos-on-dan-ryan-and-downtown/",
+   "published_at": "2026-08-01T03:08:00.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "abc7-20260731-crash-and-grab-suspects-target-loop-sand",
    "category": "business",
