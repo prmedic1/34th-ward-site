@@ -1,6 +1,18 @@
 {
- "generated_at": "2026-08-01T14:04:33.856Z",
+ "generated_at": "2026-08-02T13:38:09.717Z",
  "items": [
+  {
+   "id": "blockclub-20260801-lollapalooza-extends-delay-due-to-rain-r",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Lollapalooza Extends Delay Due To Rain, Releases New Saturday Schedule",
+   "summary": "An updated announcement from the fest states that the doors will open at 3 p.m.",
+   "url": "https://blockclubchicago.org/2026/08/01/lollapalooza-delayed-saturday-due-to-rain/",
+   "published_at": "2026-08-01T14:55:36.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "blockclub-20260801-lollapalooza-continues-with-rain-schedul",
    "category": "civic_org",
@@ -1511,66 +1523,6 @@
    "summary": "Amid larger talks over \"teen takeovers\" and other gatherings, My Block, My Hood, My City's \"Downtown Day\" aims to provide kids with a structured and positive way to experience parts of the city they rarely visit.",
    "url": "https://blockclubchicago.org/2026/07/12/at-downtown-day-chicago-teens-learn-that-the-city-center-belongs-to-everybody/",
    "published_at": "2026-07-12T21:14:52.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "cbs-20260712-2-women-man-shot-on-chicago-s-near-west-",
-   "category": "civic_org",
-   "source_id": "cbs",
-   "source_name": "CBS News Chicago",
-   "source_type": "web_feed",
-   "title": "2 women, man shot on Chicago's Near West Side",
-   "summary": "Three people were wounded early Sunday morning in a shooting on Chicago's Near West Side.",
-   "url": "https://www.cbsnews.com/chicago/news/2-women-man-shot-chicago-near-west-side/",
-   "published_at": "2026-07-12T12:12:57.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "cbs-20260712-2-women-shot-in-head-man-shot-in-leg-on-",
-   "category": "civic_org",
-   "source_id": "cbs",
-   "source_name": "CBS News Chicago",
-   "source_type": "web_feed",
-   "title": "2 women shot in head, man shot in leg on Chicago's Near West Side",
-   "summary": "Three people were wounded early Sunday morning in a shooting on Chicago's Near West Side.",
-   "url": "https://www.cbsnews.com/chicago/video/2-women-shot-in-head-man-shot-in-leg-on-chicagos-near-west-side/",
-   "published_at": "2026-07-12T12:09:00.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "cbs-20260712-chicago-police-investigate-gunfire-invol",
-   "category": "civic_org",
-   "source_id": "cbs",
-   "source_name": "CBS News Chicago",
-   "source_type": "web_feed",
-   "title": "Chicago police investigate gunfire involving officers in Grant Park",
-   "summary": "Chicago police early Sunday were investigating gunfire involving one of their own officers in Grant Park in downtown Chicago.",
-   "url": "https://www.cbsnews.com/chicago/news/chicago-police-investigate-gunfire-involving-officers-grant-park/",
-   "published_at": "2026-07-12T11:32:13.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "cbs-20260712-copa-investigates-shooting-involving-cpd",
-   "category": "civic_org",
-   "source_id": "cbs",
-   "source_name": "CBS News Chicago",
-   "source_type": "web_feed",
-   "title": "COPA investigates shooting involving CPD officers in Chicago's Grant Park",
-   "summary": "Chicago police early Sunday were investigating gunfire involving one of their own officers in Grant Park in downtown Chicago. Asal Rezaei reports.",
-   "url": "https://www.cbsnews.com/chicago/video/copa-investigates-shooting-involving-cpd-officers-in-chicagos-grant-park/",
-   "published_at": "2026-07-12T11:23:00.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "cbs-20260712-my-block-my-hood-my-city-holds-4th-downt",
-   "category": "civic_org",
-   "source_id": "cbs",
-   "source_name": "CBS News Chicago",
-   "source_type": "web_feed",
-   "title": "My Block My Hood My City holds 4th Downtown Day for hundreds of teens",
-   "summary": "Each teenager received a Downtown Day T-shirt, a $50 prepaid debit card to support local businesses and access to dozens of destinations across the loop and other downtown neighborhoods.",
-   "url": "https://www.cbsnews.com/chicago/video/my-block-my-hood-my-city-holds-4th-downtown-day-for-hundreds-of-teens/",
-   "published_at": "2026-07-12T03:49:00.000Z",
    "flagged_for_review": false
   }
  ]
