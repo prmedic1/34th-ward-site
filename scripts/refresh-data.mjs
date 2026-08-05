@@ -28,7 +28,7 @@ async function refreshKalshi() {
   // markets) - not the older thin KXMAYORCHI-27.
   const res = await fetch(
     'https://api.elections.kalshi.com/trade-api/v2/markets?event_ticker=KXCHICAGOMAYOR-27&limit=100',
-    { headers: { Accept: 'application/json' } }
+    { headers: { Accept: 'application/json', 'User-Agent': 'Mozilla/5.0 (34thward.com daily data refresh)' } }
   );
   if (!res.ok) throw new Error('Kalshi HTTP ' + res.status);
   const { markets = [] } = await res.json();
@@ -202,4 +202,8 @@ for (const [label, fn] of [['Kalshi', refreshKalshi], ['HappyHours', refreshHapp
   try { await fn(); }
   catch (e) { failed = true; console.error(`${label} failed:`, e.message); }
 }
-process.exit(failed ? 1 : 0);
+// A single source failing (e.g. Kalshi blocking cloud IPs) must NOT abort the
+// whole daily run - the news and newsletter steps still need to run. Failures
+// are logged above; that section just keeps its last good data.
+if (failed) console.warn('One or more data sources failed; continuing so news and newsletters still refresh.');
+process.exit(0);
