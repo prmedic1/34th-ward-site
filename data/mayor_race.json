@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-04T14:58:10.014Z",
+  "updated_at": "2026-08-05T08:02:32.933Z",
   "election_date": "February 23, 2027",
   "kalshi_event": "KXCHICAGOMAYOR-27",
   "kalshi_url": "https://kalshi.com/markets/kxchicagomayor",
@@ -13,10 +13,10 @@
       "badge": "Favorite",
       "badgeColor": "blue",
       "image": "images/candidates/giannoulias.jpg",
-      "pct": 53.5,
-      "kalshi_raw": 69,
+      "pct": 52.5,
+      "kalshi_raw": 68,
       "pe_raw": 43,
-      "manifold_raw": 34.9,
+      "manifold_raw": 34.8,
       "campaign_url": "https://www.ilsos.gov/"
     },
     {
@@ -27,7 +27,7 @@
       "image": "images/candidates/brewer.jpg",
       "badge": "Underdog",
       "badgeColor": "yellow",
-      "pct": 11.3,
+      "pct": 11.2,
       "kalshi_raw": 11,
       "pe_raw": 23,
       "manifold_raw": 4.1
@@ -40,10 +40,10 @@
       "badge": "Incumbent",
       "badgeColor": "green",
       "image": "images/candidates/johnson.jpg",
-      "pct": 8.2,
-      "kalshi_raw": 8.6,
+      "pct": 9.1,
+      "kalshi_raw": 10,
       "pe_raw": null,
-      "manifold_raw": 8.9,
+      "manifold_raw": 9.1,
       "campaign_url": "https://www.chicago.gov/city/en/depts/mayor.html"
     },
     {
@@ -52,8 +52,8 @@
       "status": "declared",
       "order": 4,
       "image": "images/candidates/mendoza.jpg",
-      "pct": 12.1,
-      "kalshi_raw": 13,
+      "pct": 12.5,
+      "kalshi_raw": 14,
       "pe_raw": 16,
       "manifold_raw": 9,
       "campaign_url": "https://susanamendoza.com/"
@@ -64,10 +64,10 @@
       "status": "declared",
       "order": 5,
       "image": "images/candidates/pappas.jpg",
-      "pct": 1.7,
+      "pct": 1.6,
       "kalshi_raw": 0.8,
       "pe_raw": null,
-      "manifold_raw": 4.7,
+      "manifold_raw": 4.6,
       "campaign_url": "https://www.cookcountytreasurer.com/"
     },
     {
@@ -127,10 +127,10 @@
       "image": "images/candidates/cardenas.jpg",
       "badge": "Conservative",
       "badgeColor": "red",
-      "pct": 1.6,
+      "pct": 1.5,
       "kalshi_raw": 1,
       "pe_raw": null,
-      "manifold_raw": 3.6
+      "manifold_raw": 3.5
     },
     {
       "name": "Liam Stanton",

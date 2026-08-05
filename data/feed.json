@@ -1,6 +1,66 @@
 {
- "generated_at": "2026-08-05T00:28:30.445Z",
+ "generated_at": "2026-08-05T08:02:46.534Z",
  "items": [
+  {
+   "id": "wlco-20260804-400-n-morgan-community-meeting",
+   "category": "civic_org",
+   "source_id": "wlco",
+   "source_name": "West Loop Community Organization",
+   "source_type": "email_newsletter",
+   "title": "400 N Morgan Community Meeting",
+   "summary": "The West Loop Community Organization is hosting a community meeting on August 10th at 6 pm to discuss the development at 400 N Morgan. The project has undergone updates, including earlier open space delivery, reduced residential density, and reduced building height. The meeting will be held via Google Meet, and attendees can RSVP ahead of time.",
+   "url": "https://www.westloop.org/",
+   "published_at": "2026-08-04T18:45:23.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "axios-20260804-school-shopping-holiday",
+   "category": "business",
+   "source_id": "axios",
+   "source_name": "Axios Chicago",
+   "source_type": "email_newsletter",
+   "title": "School Shopping Holiday",
+   "summary": "Although the newsletter does not provide specific information about the school shopping holiday, it is likely related to the upcoming school year and potential sales tax holidays. The state of Illinois may offer a sales tax holiday for school supplies, which could impact residents in the 34th Ward.",
+   "url": "https://www.axios.com/local/chicago",
+   "published_at": "2026-08-04T11:27:15.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "politico-20260804-governor-signs-bills-to-protect-consumer",
+   "category": "elected_official",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Governor Signs Bills to Protect Consumers",
+   "summary": "Governor JB will sign bills HB 4273 and SB 714 into law at 555 W Monroe at 10 am, which aim to protect consumers from unfair home and auto insurance rates. This legislation could have a positive impact on residents in the 34th Ward by providing them with more affordable insurance options.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-08-04T12:01:07.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "abc7-20260805-car-removed-from-west-town-home-after-in",
+   "category": "civic_org",
+   "source_id": "abc7",
+   "source_name": "ABC7 Chicago",
+   "source_type": "web_feed",
+   "title": "Car removed from West Town home after inspection, allowing repairs to begin",
+   "summary": "After sitting since early Sunday morning, a crashed car was finally removed from a West Town condo.",
+   "url": "https://abc7chicago.com/post/west-town-chicago-car-crash-vehicle-finally-removed-townhome-collision-mallory-john-baquero-say/19625486/",
+   "published_at": "2026-08-05T08:02:37.100Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260804-5-must-see-theater-shows-to-check-out-in",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "5 Must-See Theater Shows To Check Out In August",
+   "summary": "As summer wanes, Chicago stages have it all: revivals of popular musicals, new dramas and sleight-of-hand artists.",
+   "url": "https://blockclubchicago.org/2026/08/04/5-must-see-theater-shows-to-check-out-in-august-2/",
+   "published_at": "2026-08-04T18:36:53.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "wlco-20260804-west-loop-meeting-set-for-the-400-n-morgan-development",
    "category": "civic_org",
