@@ -1,0 +1,39 @@
+{
+ "_note": "The pinned Top Story on the homepage. 'current' shows at the top of the news area; move the old one into 'history' (newest first) when you swap it. type 'story' = a news writeup with a source link; type 'statement' = a released statement shown as a quote.",
+ "current": {
+  "type": "story",
+  "kicker": "Top Story · West Loop",
+  "headline": "Soul City Church's West Loop expansion divides the neighborhood",
+  "image": "images/soul-city-church.jpg?v=20260805",
+  "image_alt": "Soul City Church at 1150 W. Adams St in the West Loop",
+  "summary": "Soul City Church wants to build a four-story addition at 1150 W. Adams Street, including a 1,500-seat auditorium, children's classrooms, and community space, to fit a Sunday congregation of about 2,200. The plan needs a zoning change and has drawn pushback from neighbors who cite years of noise, bass, and parking complaints. The church says the new auditorium would use masonry walls and thick concrete to contain the sound.",
+  "source_name": "Block Club Chicago",
+  "url": "https://blockclubchicago.org/2026/07/30/soul-city-church-expansion-faces-pushback-from-neighbors-over-years-of-noise-complaints/",
+  "date": "2026-07-30",
+  "date_label": "July 30, 2026"
+ },
+ "history": [
+  {
+   "type": "statement",
+   "kicker": "34th Ward · July 30, 2026",
+   "headline": "Ald. Bill Conway announces run for reelection in the 34th Ward",
+   "image": "images/conway-reelection.jpg",
+   "image_alt": "Ald. Bill Conway, 34th Ward Alderman",
+   "intro": "Ald. Bill Conway will not run for mayor and will instead seek reelection to represent the 34th Ward. He released the following statement:",
+   "paragraphs": [
+    "I'm proud to announce that I'm running for reelection as Alderman of the 34th Ward.",
+    "This morning I walked my three daughters to camp, saying hello to neighbors and snapping photos of issues to send to the 34th Ward team.",
+    "It reminded me why I love this job.",
+    "I have the incredible privilege of working every day to make our neighborhoods safer, stronger, and more prosperous.",
+    "Over several months, I've reflected on how I can best serve Chicago. After serious consideration, I've decided my place is here in the 34th Ward.",
+    "Chicago is at a critical juncture.",
+    "If we don't confront our financial challenges and debt with urgency and discipline, they'll eventually overwhelm every priority we care about: safer streets, good jobs, affordable housing, growth.",
+    "I'll continue to be an independent voice, supporting good ideas regardless of where they come from & speaking up when I believe we're on the wrong path.",
+    "I'm honored by the trust my neighbors have put in me. There's much more work to do & I'm excited for what's ahead."
+   ],
+   "attribution": "Ald. Bill Conway, 34th Ward",
+   "date": "2026-07-30",
+   "date_label": "July 30, 2026"
+  }
+ ]
+}

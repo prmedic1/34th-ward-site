@@ -941,6 +941,14 @@ body.photo-banner .hero {
   font-weight: 600;
   color: var(--navy);
 }
+.np-lead-summary {
+  font-family: var(--font-head);
+  font-size: 1.05rem;
+  line-height: 1.6;
+  color: var(--text);
+  margin: 0 0 14px;
+}
+.np-archive-link { text-align: center; margin: 6px 0 30px; }
 @media (max-width: 700px) {
   .np-lead-headline { font-size: 1.55rem; }
   .np-lead-body { padding: 18px 18px 20px; }

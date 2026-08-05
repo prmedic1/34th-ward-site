@@ -1,4 +1,4 @@
-const DATA_V = '20260805a';
+const DATA_V = '20260805b';
 
 document.getElementById('year').textContent = new Date().getFullYear();
 
@@ -66,6 +66,17 @@ fetch('data/spotlight.json?d=' + DATA_V)
     document.getElementById('spotlight').hidden = false;
   })
   .catch((err) => console.error('Failed to load spotlight', err));
+
+// Pinned Top Story (data/featured.json): the single most interesting thing in
+// the ward right now. Swap it any time by editing that file.
+fetch('data/featured.json?d=' + DATA_V)
+  .then((r) => r.json())
+  .then((data) => {
+    if (data && data.current) {
+      document.getElementById('top-story').innerHTML = renderTopStory(data.current);
+    }
+  })
+  .catch((err) => console.error('Failed to load top story', err));
 
 // The Front Page: six stories, newspaper style. One story per source first
 // (for variety), then backfill from productive sources so it always fills six.
@@ -140,12 +151,59 @@ Promise.all([
 
     document.getElementById('frontpage-grid').innerHTML =
       picks.map((p) => renderFrontStory(p.src, p.story, p.count)).join('');
+
+    // "What Happened Recently": the next newest stories from the last two weeks
+    // that did not make the six-story front page.
+    const recentCut = Date.now() - 14 * 24 * 3600 * 1000;
+    const recent = [];
+    for (const it of items) {
+      if (recent.length >= 6) break;
+      if (used.has(it.id) || !publishable(it) || !FRONT_ORDER.includes(it.source_id)) continue;
+      if (new Date(it.published_at).getTime() < recentCut) continue;
+      const src = sources[it.source_id];
+      if (!src) continue;
+      used.add(it.id);
+      recent.push({ src, story: it, count: countFor(it.source_id) });
+    }
+    if (recent.length) {
+      document.getElementById('recent-banner').hidden = false;
+      document.getElementById('recent-grid').innerHTML =
+        recent.map((p) => renderFrontStory(p.src, p.story, p.count)).join('');
+    }
   })
   .catch((err) => {
     console.error('Failed to load front page', err);
     document.getElementById('frontpage-grid').innerHTML =
       '<p class="empty-state">Unable to load updates right now.</p>';
   });
+
+function renderTopStory(s) {
+  const img = s.image
+    ? `<img class="np-lead-img" src="${escapeAttr(s.image)}" alt="${escapeAttr(s.image_alt || '')}" onerror="this.remove()">`
+    : '';
+  let body;
+  if (s.type === 'statement') {
+    const paras = (s.paragraphs || []).map((p) => `<p>${escapeHtml(p)}</p>`).join('');
+    body = `
+      ${s.intro ? `<p class="np-lead-intro">${escapeHtml(s.intro)}</p>` : ''}
+      <blockquote class="np-lead-statement">${paras}</blockquote>
+      ${s.attribution ? `<p class="np-lead-attr">${escapeHtml(s.attribution)}</p>` : ''}`;
+  } else {
+    const read = s.url
+      ? `<p class="np-lead-attr">Read the full story at <a href="${escapeAttr(s.url)}" target="_blank" rel="noopener">${escapeHtml(s.source_name || 'the source')}</a></p>`
+      : '';
+    body = `<p class="np-lead-summary">${escapeHtml(s.summary || '')}</p>${read}`;
+  }
+  return `
+    <article class="np-lead">
+      ${img}
+      <div class="np-lead-body">
+        <p class="np-lead-kicker">${escapeHtml(s.kicker || 'Top Story')}</p>
+        <h4 class="np-lead-headline">${escapeHtml(s.headline || '')}</h4>
+        ${body}
+      </div>
+    </article>`;
+}
 
 function sourceMasthead(src, small) {
   const logo = src.logo

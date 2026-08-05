@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>34th Ward Top Stories - West Loop Chicago</title>
+<meta name="description" content="An archive of the biggest 34th Ward stories we have featured at the top of 34thward.com: development, elections, and the news shaping the West Loop.">
+<link rel="canonical" href="https://34thward.com/top-stories.html">
+<link rel="stylesheet" href="css/style.css?v=20260805a">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="34thward.com">
+<meta property="og:title" content="34th Ward Top Stories">
+<meta property="og:description" content="An archive of the biggest 34th Ward stories we have featured at the top of 34thward.com.">
+<meta property="og:image" content="https://34thward.com/images/og-share.jpg?v=20260709">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://34thward.com/top-stories.html">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="34th Ward Top Stories">
+<meta name="twitter:description" content="An archive of the biggest 34th Ward stories from 34thward.com.">
+<meta name="twitter:image" content="https://34thward.com/images/og-share.jpg?v=20260709">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="theme-color" content="#14bef1">
+<link rel="apple-touch-icon" href="/images/app-icon-180.png">
+<meta name="apple-mobile-web-app-title" content="34th Ward">
+<meta name="mobile-web-app-capable" content="yes">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"NewsMediaOrganization","name":"34thward.com","alternateName":"The Official 34th Ward Neighborhood Page","url":"https://34thward.com/","logo":"https://34thward.com/images/app-icon-512.png","description":"Community news and civic updates for Chicago's 34th Ward: the West Loop, Greektown, the Loop, Printers Row, and South Loop.","areaServed":{"@type":"AdministrativeArea","name":"34th Ward, Chicago, Illinois"}}
+</script>
+</head>
+<body class="photo-banner" style="--banner-img: url('/images/west-loop.jpg')">
+
+<header class="site-header">
+  <div class="header-inner">
+    <div class="brand">
+      <img class="brand-shield" src="images/shield-header.png?v=20260708a" alt="34th Ward shield">
+      <div class="brand-text">
+        <h1>The Official 34th Ward Neighborhood Page</h1>
+        <p>Community News &amp; Civic Updates</p>
+      </div>
+    </div>
+    <nav class="main-nav">
+      <a href="index.html">Home</a>
+      <a href="map.html">Ward Map</a>
+      <a href="directory.html">Businesses</a>
+      <a href="happyhour.html">Happy Hours</a>
+      <a href="housing.html">Housing</a>
+      <a href="culture.html">Arts &amp; Culture</a>
+      <a href="resources.html">Resources</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero hero-compact">
+  <div class="hero-inner">
+    <h2>Top Stories</h2>
+    <p>The biggest 34th Ward stories, newest first.</p>
+  </div>
+</section>
+
+<main class="page-section">
+  <div id="top-stories-list">
+    <p class="empty-state">Loading top stories&hellip;</p>
+  </div>
+  <p class="np-archive-link"><a class="spotlight-btn spotlight-btn-ghost" href="index.html">&larr; Back to the Front Page</a></p>
+</main>
+
+<footer class="site-footer">
+  <p>&copy; <span id="year"></span> In and Around the West Loop &middot; 34thward.com</p>
+  <p><button id="share-site" class="share-btn" type="button">Share 34thward.com &#128228;</button></p>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+  const TS_DATA_V = '20260805a';
+
+  fetch('data/featured.json?d=' + TS_DATA_V)
+    .then((r) => r.json())
+    .then((data) => {
+      const entries = [];
+      if (data.current) entries.push(data.current);
+      if (Array.isArray(data.history)) entries.push(...data.history);
+      const list = document.getElementById('top-stories-list');
+      if (!entries.length) {
+        list.innerHTML = '<p class="empty-state">No top stories yet.</p>';
+        return;
+      }
+      list.innerHTML = entries.map(renderEntry).join('');
+    })
+    .catch((err) => {
+      console.error('Failed to load top stories', err);
+      document.getElementById('top-stories-list').innerHTML =
+        '<p class="empty-state">Unable to load top stories right now.</p>';
+    });
+
+  function renderEntry(s) {
+    const img = s.image
+      ? `<img class="np-lead-img" src="${escapeAttr(s.image)}" alt="${escapeAttr(s.image_alt || '')}" loading="lazy" onerror="this.remove()">`
+      : '';
+    let body;
+    if (s.type === 'statement') {
+      const paras = (s.paragraphs || []).map((p) => `<p>${escapeHtml(p)}</p>`).join('');
+      body = `${s.intro ? `<p class="np-lead-intro">${escapeHtml(s.intro)}</p>` : ''}` +
+        `<blockquote class="np-lead-statement">${paras}</blockquote>` +
+        `${s.attribution ? `<p class="np-lead-attr">${escapeHtml(s.attribution)}</p>` : ''}`;
+    } else {
+      const read = s.url
+        ? `<p class="np-lead-attr">Read the full story at <a href="${escapeAttr(s.url)}" target="_blank" rel="noopener">${escapeHtml(s.source_name || 'the source')}</a></p>`
+        : '';
+      body = `<p class="np-lead-summary">${escapeHtml(s.summary || '')}</p>${read}`;
+    }
+    const kicker = s.date_label ? escapeHtml(s.date_label) : escapeHtml(s.kicker || 'Top Story');
+    return `<article class="np-lead">${img}<div class="np-lead-body">` +
+      `<p class="np-lead-kicker">${kicker}</p>` +
+      `<h4 class="np-lead-headline">${escapeHtml(s.headline || '')}</h4>${body}</div></article>`;
+  }
+
+  function escapeHtml(str) {
+    const div = document.createElement('div');
+    div.textContent = str;
+    return div.innerHTML;
+  }
+  function escapeAttr(str) {
+    return String(str).replace(/"/g, '&quot;');
+  }
+</script>
+<script src="js/ticker.js?v=20260708a"></script>
+<script src="js/analytics.js?v=20260730b" defer></script>
+</body>
+</html>
