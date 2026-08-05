@@ -1,6 +1,54 @@
 {
- "generated_at": "2026-08-04T14:58:12.300Z",
+ "generated_at": "2026-08-05T00:28:30.445Z",
  "items": [
+  {
+   "id": "wlco-20260804-west-loop-meeting-set-for-the-400-n-morgan-development",
+   "category": "civic_org",
+   "source_id": "wlco",
+   "source_name": "West Loop Community Organization",
+   "source_type": "email_newsletter",
+   "title": "West Loop meeting set for the 400 N. Morgan development",
+   "summary": "The West Loop Community Organization will host a community meeting on Monday, August 10 at 6 pm about the 400 N. Morgan development. The latest plans add 403 N. Carpenter Street to the site, cut the residential count from 478 to 430 units, lower the building height from 478 feet to 285 feet, and move the planned public open space earlier, to Phase 2 at Morgan and Kinzie. Residents can RSVP through WLCO for a Google Meet link.",
+   "url": "https://www.westloop.org/",
+   "published_at": "2026-08-04T18:45:23Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "axios-20260804-illinois-back-to-school-sales-tax-holiday-starts-aug-7",
+   "category": "newsletter",
+   "source_id": "axios",
+   "source_name": "Axios Chicago",
+   "source_type": "email_newsletter",
+   "title": "Illinois back-to-school sales tax holiday starts Aug. 7",
+   "summary": "Illinois brings back its 10-day back-to-school sales tax holiday from August 7 to 16, cutting the state sales tax on qualifying clothing and school supplies from 6.25% to 1.25%. Local sales taxes still apply, and the break comes just after Chicago and parts of Cook County saw their combined sales tax rise to 10.5%, among the highest in the nation. Gov. JB Pritzker promoted the break, which lawmakers approved in the spring state budget.",
+   "url": "https://www.axios.com/local/chicago",
+   "published_at": "2026-08-04T11:27:15Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "axios-20260804-chicago-pays-the-nations-highest-price-to-remove-lead-water-lines",
+   "category": "newsletter",
+   "source_id": "axios",
+   "source_name": "Axios Chicago",
+   "source_type": "email_newsletter",
+   "title": "Chicago pays the nation's highest price to remove lead water lines",
+   "summary": "Chicago pays two to three times what nearby suburbs pay to remove toxic lead water lines, about $33,784 per line compared with $10,950 in Elgin, according to Axios Chicago. At that rate the city faces roughly $13.5 billion to replace its 400,000 lead lines over two decades, a cost that will fall heavily on taxpayers. City officials have not identified concrete plans to lower the charges, even as a federal rule will require removing 20,000 lines a year.",
+   "url": "https://www.axios.com/local/chicago",
+   "published_at": "2026-08-04T11:27:15Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "politico-20260803-giannoulias-officially-enters-the-2027-mayors-race",
+   "category": "elected_official",
+   "source_id": "politico",
+   "source_name": "Politico Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Giannoulias officially enters the 2027 Chicago mayor's race",
+   "summary": "Illinois Secretary of State Alexi Giannoulias has made his 2027 Chicago mayoral bid official, POLITICO's Illinois Playbook and Axios Chicago reported this week. Giannoulias, a statewide elected official and former state treasurer, joins a growing field ahead of the February 2027 election.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-08-03T12:02:14Z",
+   "flagged_for_review": false
+  },
   {
    "id": "abc7-20260804-longtime-west-loop-restaurant-wishbone-t",
    "category": "business",

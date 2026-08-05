@@ -1,4 +1,4 @@
-const DATA_V = '20260804a';
+const DATA_V = '20260805a';
 
 document.getElementById('year').textContent = new Date().getFullYear();
 
@@ -95,35 +95,43 @@ Promise.all([
     const publishable = (it) => !it.flagged_for_review && !it.front_exclude;
     const countFor = (sid) => items.filter((it) => it.source_id === sid).length;
     const twoDaysAgo = Date.now() - 2 * 24 * 3600 * 1000;
+    const sevenDaysAgo = Date.now() - 7 * 24 * 3600 * 1000;
     const score = (it) => {
       const t = it.title + ' ' + (it.summary || '');
-      const recent = new Date(it.published_at).getTime() >= twoDaysAgo;
-      const ward = wardKw.test(t);
-      const resident = residentKw.test(t);
-      // West Loop relevance leads; a citywide story that affects all residents
-      // (schools, crime, taxes, etc.) is the fallback; recency breaks ties.
-      return (ward ? 4 : 0) + (resident ? 2 : 0) + (recent ? 2 : 0);
+      const ts = new Date(it.published_at).getTime();
+      // Freshness is the gate so the front page is always today's news, not an
+      // old but on-topic story. Among recent items, West Loop relevance leads
+      // and a citywide resident-impact story (schools, crime, taxes) is the
+      // fallback.
+      const fresh = ts >= twoDaysAgo ? 6 : ts >= sevenDaysAgo ? 2 : 0;
+      const ward = wardKw.test(t) ? 2 : 0;
+      const resident = residentKw.test(t) ? 1 : 0;
+      return fresh + ward + resident;
     };
     const bestOf = (list) => list.slice().sort((a, b) =>
       (score(b) - score(a)) || (new Date(b.published_at) - new Date(a.published_at)))[0];
     const used = new Set();
     const picks = [];
+    const isFresh = (it) => new Date(it.published_at).getTime() >= sevenDaysAgo;
 
-    // Pass 1: the best (freshest, then most local) story from each source.
+    // Pass 1: the best RECENT story from each source, for variety. Sources with
+    // nothing from the last week are skipped so the page never shows a stale
+    // (or leftover placeholder) story just to represent a quiet source.
     FRONT_ORDER.forEach((sid) => {
       if (picks.length >= FRONT_COUNT) return;
       const src = sources[sid];
-      const eligible = items.filter((it) => it.source_id === sid && publishable(it) && !used.has(it.id));
+      const eligible = items.filter((it) => it.source_id === sid && publishable(it) && !used.has(it.id) && isFresh(it));
       if (!src || !eligible.length) return;
       const story = bestOf(eligible);
       used.add(story.id);
       picks.push({ src, story, count: countFor(sid) });
     });
 
-    // Pass 2: backfill to six with the next newest stories from any listed source.
+    // Pass 2: fill any remaining slots with the next newest stories from any
+    // listed source (recent only), so the grid is always current news.
     for (const it of items) {
       if (picks.length >= FRONT_COUNT) break;
-      if (used.has(it.id) || !publishable(it) || !FRONT_ORDER.includes(it.source_id)) continue;
+      if (used.has(it.id) || !publishable(it) || !FRONT_ORDER.includes(it.source_id) || !isFresh(it)) continue;
       const src = sources[it.source_id];
       if (!src) continue;
       used.add(it.id);
