@@ -967,6 +967,38 @@ body.photo-banner .hero {
 .agent-cta-inner h4 { margin: 0 0 8px; font-family: var(--font-head); font-size: 1.25rem; color: var(--navy); }
 .agent-cta-inner p { margin: 0 0 14px; color: var(--text); font-size: 0.95rem; }
 
+/* Compact listing-provider cards on the housing page (less white space) */
+.provider-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 12px;
+  margin-bottom: 10px;
+}
+.provider-card {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 14px 16px;
+  text-decoration: none;
+  box-shadow: var(--shadow-1);
+  transition: box-shadow .15s ease, transform .15s ease;
+}
+.provider-card:hover { box-shadow: var(--shadow-2); transform: translateY(-2px); }
+.provider-name { font-family: var(--font-head); font-weight: 700; font-size: 1.1rem; color: var(--navy); }
+.provider-desc { font-size: 0.85rem; color: var(--text); line-height: 1.4; }
+.provider-go { font-size: 0.8rem; font-weight: 700; color: var(--red); margin-top: 2px; }
+/* Highlighted "Featured Realtor" band */
+.featured-agent {
+  background: var(--green-soft);
+  border-left: 5px solid var(--red);
+  border-radius: var(--radius);
+  padding: 8px 16px 16px;
+  margin: 0 0 24px;
+}
+
 /* Source section pages */
 .np-section-masthead {
   display: flex;

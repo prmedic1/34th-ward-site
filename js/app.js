@@ -1,4 +1,4 @@
-const DATA_V = '20260805b';
+const DATA_V = '20260805c';
 
 document.getElementById('year').textContent = new Date().getFullYear();
 
@@ -74,6 +74,13 @@ fetch('data/featured.json?d=' + DATA_V)
   .then((data) => {
     if (data && data.current) {
       document.getElementById('top-story').innerHTML = renderTopStory(data.current);
+    }
+    // "What Happened Recently" = the previous Top Story (the last big story in
+    // the neighborhood), not a repeat of the front page.
+    const prev = data && Array.isArray(data.history) && data.history[0];
+    if (prev) {
+      document.getElementById('recent-banner').hidden = false;
+      document.getElementById('recent-grid').innerHTML = renderTopStory(prev);
     }
   })
   .catch((err) => console.error('Failed to load top story', err));
@@ -151,25 +158,6 @@ Promise.all([
 
     document.getElementById('frontpage-grid').innerHTML =
       picks.map((p) => renderFrontStory(p.src, p.story, p.count)).join('');
-
-    // "What Happened Recently": the next newest stories from the last two weeks
-    // that did not make the six-story front page.
-    const recentCut = Date.now() - 14 * 24 * 3600 * 1000;
-    const recent = [];
-    for (const it of items) {
-      if (recent.length >= 6) break;
-      if (used.has(it.id) || !publishable(it) || !FRONT_ORDER.includes(it.source_id)) continue;
-      if (new Date(it.published_at).getTime() < recentCut) continue;
-      const src = sources[it.source_id];
-      if (!src) continue;
-      used.add(it.id);
-      recent.push({ src, story: it, count: countFor(it.source_id) });
-    }
-    if (recent.length) {
-      document.getElementById('recent-banner').hidden = false;
-      document.getElementById('recent-grid').innerHTML =
-        recent.map((p) => renderFrontStory(p.src, p.story, p.count)).join('');
-    }
   })
   .catch((err) => {
     console.error('Failed to load front page', err);
