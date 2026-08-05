@@ -2,30 +2,6 @@
  "generated_at": "2026-08-05T08:02:46.534Z",
  "items": [
   {
-   "id": "wlco-20260804-400-n-morgan-community-meeting",
-   "category": "civic_org",
-   "source_id": "wlco",
-   "source_name": "West Loop Community Organization",
-   "source_type": "email_newsletter",
-   "title": "400 N Morgan Community Meeting",
-   "summary": "The West Loop Community Organization is hosting a community meeting on August 10th at 6 pm to discuss the development at 400 N Morgan. The project has undergone updates, including earlier open space delivery, reduced residential density, and reduced building height. The meeting will be held via Google Meet, and attendees can RSVP ahead of time.",
-   "url": "https://www.westloop.org/",
-   "published_at": "2026-08-04T18:45:23.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "axios-20260804-school-shopping-holiday",
-   "category": "business",
-   "source_id": "axios",
-   "source_name": "Axios Chicago",
-   "source_type": "email_newsletter",
-   "title": "School Shopping Holiday",
-   "summary": "Although the newsletter does not provide specific information about the school shopping holiday, it is likely related to the upcoming school year and potential sales tax holidays. The state of Illinois may offer a sales tax holiday for school supplies, which could impact residents in the 34th Ward.",
-   "url": "https://www.axios.com/local/chicago",
-   "published_at": "2026-08-04T11:27:15.000Z",
-   "flagged_for_review": false
-  },
-  {
    "id": "politico-20260804-governor-signs-bills-to-protect-consumer",
    "category": "elected_official",
    "source_id": "politico",

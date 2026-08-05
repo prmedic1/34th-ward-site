@@ -94,6 +94,8 @@ STRICT RULES:
 4. OMIT entirely any item that names a specific person alongside an allegation, lawsuit, arrest, or accusation. Do not include it at all.
 5. Summaries: factual, specific (addresses, dates, dollar amounts, program names), 2 to 4 sentences.
 6. Skip administrative filler (e.g. "no newsletter next week").
+7. OMIT any item you cannot summarize with concrete facts actually stated in the newsletter. Never speculate or pad. Do not use hedging words like "likely", "probably", "may", or phrases like "the newsletter does not say". If unsure, leave the item out.
+8. Do not output two items about the same event; pick the single best one.
 
 Return ONLY this JSON:
 {"items":[{"source_id":"politico|axios|igwl|conway|wca|wlco|skyline","category":"elected_official|business|civic_org|religious_org|newsletter","title":"headline, no em dashes","summary":"2-4 sentences, no em dashes"}]}
