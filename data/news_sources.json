@@ -56,6 +56,16 @@
    "site": "https://www.indivisiblegwlchi.org"
   },
   {
+   "id": "wlco",
+   "name": "West Loop Community Organization",
+   "editor": "WLCO Neighbors",
+   "editor_image": null,
+   "logo": null,
+   "monogram": "WLCO",
+   "description": "The West Loop's neighborhood association: development, events, public safety, and quality-of-life news for residents.",
+   "site": "https://www.westloop.org/"
+  },
+  {
    "id": "blockclub",
    "name": "Block Club Chicago",
    "editor": "Neighborhood News",

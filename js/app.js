@@ -1,4 +1,4 @@
-const DATA_V = '20260730a';
+const DATA_V = '20260804a';
 
 document.getElementById('year').textContent = new Date().getFullYear();
 
@@ -40,7 +40,7 @@ fetch('data/mayor_race.json?d=' + DATA_V)
       const header = document.querySelector('.race-header');
       if (header && !header.querySelector('.race-kalshi-btn')) {
         header.insertAdjacentHTML('beforeend',
-          `<a class="race-kalshi-btn" href="${escapeAttr(data.kalshi_url)}" target="_blank" rel="noopener">Predict the winner on Kalshi &rarr;</a>`);
+          `<a class="race-kalshi-btn" href="${escapeAttr(data.kalshi_url)}" target="_blank" rel="noopener">Predict the winner &rarr;</a>`);
       }
     }
     document.getElementById('mayor-race').hidden = false;
@@ -69,7 +69,7 @@ fetch('data/spotlight.json?d=' + DATA_V)
 
 // The Front Page: six stories, newspaper style. One story per source first
 // (for variety), then backfill from productive sources so it always fills six.
-const FRONT_ORDER = ['blockclub', 'wca', 'axios', 'politico', 'conway', 'igwl', 'wardwatch', 'eater', 'cbs', 'abc7'];
+const FRONT_ORDER = ['blockclub', 'wlco', 'wca', 'axios', 'politico', 'conway', 'igwl', 'wardwatch', 'eater', 'cbs', 'abc7'];
 const FRONT_COUNT = 6;
 
 Promise.all([
@@ -89,13 +89,20 @@ Promise.all([
     // ties among stories from the last two days, so the page always feels
     // current instead of surfacing an old-but-local story.
     const wardKw = /west loop|greektown|fulton market|fulton river|printers row|south loop|near west side|little italy|taylor street|\bthe loop\b|34th ward|randolph|w\.? madison|halsted|west town|wacker|willis tower|union station/i;
+    // Citywide issues that affect every Chicago resident, used as the fallback
+    // when a source has nothing directly about the ward.
+    const residentKw = /\bschools?\b|\bcps\b|chicago public schools|\bcrime\b|\bpolice\b|shooting|public safety|\btax(es|ed)?\b|property tax|\bbudget\b|\bpension\b|\bcta\b|\btransit\b|\bmigrant|\brent\b|\bhousing\b|city council|ordinance|\bcomed\b|utilit/i;
     const publishable = (it) => !it.flagged_for_review && !it.front_exclude;
     const countFor = (sid) => items.filter((it) => it.source_id === sid).length;
     const twoDaysAgo = Date.now() - 2 * 24 * 3600 * 1000;
     const score = (it) => {
+      const t = it.title + ' ' + (it.summary || '');
       const recent = new Date(it.published_at).getTime() >= twoDaysAgo;
-      const ward = wardKw.test(it.title + ' ' + (it.summary || ''));
-      return (recent ? 2 : 0) + (ward ? 1 : 0); // recency outranks ward relevance
+      const ward = wardKw.test(t);
+      const resident = residentKw.test(t);
+      // West Loop relevance leads; a citywide story that affects all residents
+      // (schools, crime, taxes, etc.) is the fallback; recency breaks ties.
+      return (ward ? 4 : 0) + (resident ? 2 : 0) + (recent ? 2 : 0);
     };
     const bestOf = (list) => list.slice().sort((a, b) =>
       (score(b) - score(a)) || (new Date(b.published_at) - new Date(a.published_at)))[0];

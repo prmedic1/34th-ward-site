@@ -87,7 +87,7 @@ async function summarize(emails) {
   ).join('\n\n');
 
   const system = 'You are the daily editor for 34thward.com, a community news site for Chicago\'s 34th Ward (West Loop, Greektown, the Loop, Printers Row, South Loop). You return ONLY valid JSON, no prose.';
-  const user = `Today is ${today}. From the newsletters below, extract the items most relevant to 34th Ward residents (local government, local businesses, community events, neighborhood happenings). Prefer local Chicago and ward-specific stories over national politics. Take 1 to 3 items from EACH newsletter that has any relevant content, so every source is represented. Do not skip a newsletter just to stay under a total; there is no total cap.
+  const user = `Today is ${today}. From the newsletters below, pick the item(s) most pertinent to the West Loop and the 34th Ward (its neighborhoods: West Loop, Greektown, Fulton Market, Printers Row, South Loop, the near west side, and the Loop). If a newsletter has nothing directly about the ward, then choose the single most important citywide Chicago item that affects all residents (schools and CPS, crime and public safety, taxes and the city budget, housing, transit). Avoid national politics. Take 1 to 3 items from EACH newsletter that has any relevant content, so every source is represented. Do not skip a newsletter just to stay under a total; there is no total cap.
 
 STRICT RULES:
 1. No em dashes anywhere. Use commas or hyphens.

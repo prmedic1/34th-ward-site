@@ -897,7 +897,7 @@ body.photo-banner .hero {
   box-shadow: var(--shadow-2);
   margin: 0 0 30px;
 }
-.np-lead-img { display: block; width: 100%; height: auto; }
+.np-lead-img { display: block; width: 100%; max-width: 700px; height: auto; margin: 0 auto; }
 .np-lead-body { padding: 22px 26px 26px; }
 .np-lead-kicker {
   font-family: var(--font-body);
@@ -945,6 +945,19 @@ body.photo-banner .hero {
   .np-lead-headline { font-size: 1.55rem; }
   .np-lead-body { padding: 18px 18px 20px; }
 }
+
+/* "Get featured" call-to-action for realtors on the housing page */
+.agent-cta { margin: 6px 0 28px; }
+.agent-cta-inner {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-left: 5px solid var(--sky);
+  border-radius: var(--radius);
+  padding: 20px 24px;
+  box-shadow: var(--shadow-1);
+}
+.agent-cta-inner h4 { margin: 0 0 8px; font-family: var(--font-head); font-size: 1.25rem; color: var(--navy); }
+.agent-cta-inner p { margin: 0 0 14px; color: var(--text); font-size: 0.95rem; }
 
 /* Source section pages */
 .np-section-masthead {
