@@ -4,7 +4,7 @@
  *
  * Reads the owner's email newsletters (Politico Illinois Playbook, Axios
  * Chicago, Indivisible Greater West Loop, Conway's Corner, WCA, Skyline) over
- * Gmail IMAP, then summarizes the ward-relevant items with Google Gemini
+ * Gmail IMAP, then summarizes the ward-relevant items with Groq
  * (free tier, no cost), and merges them into data/feed.json.
  *
  * This runs alongside refresh-news.mjs (public RSS feeds). The RSS script is
@@ -12,7 +12,7 @@
  *
  * Needs TWO GitHub repository secrets:
  *   GMAIL_APP_PASSWORD  - a Google "app password" (requires 2-Step Verification)
- *   GEMINI_API_KEY      - a free Google AI Studio key (aistudio.google.com/apikey)
+ *   GROQ_API_KEY        - a free Groq API key (console.groq.com, starts with gsk_)
  * Optional: GMAIL_ADDRESS (defaults to chicagojustice@gmail.com).
  *
  * If the secret or token is missing it exits cleanly (nothing breaks).
@@ -28,8 +28,8 @@ import { simpleParser } from 'mailparser';
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const GMAIL = process.env.GMAIL_ADDRESS || 'chicagojustice@gmail.com';
 const APP_PW = process.env.GMAIL_APP_PASSWORD || '';
-const GEMINI_KEY = process.env.GEMINI_API_KEY || '';
-const MODEL = 'gemini-2.0-flash';
+const GROQ_KEY = process.env.GROQ_API_KEY || '';
+const MODEL = 'llama-3.3-70b-versatile';
 
 const SOURCES = {
   'illinoisplaybook@email.politico.com': { id: 'politico', name: 'POLITICO Illinois Playbook', url: 'https://www.politico.com/newsletters/illinois-playbook' },
@@ -101,21 +101,18 @@ Return ONLY this JSON:
 NEWSLETTERS:
 ${blocks}`;
 
-  const res = await fetch(
-    `https://generativelanguage.googleapis.com/v1beta/models/${MODEL}:generateContent?key=${GEMINI_KEY}`, {
+  const res = await fetch('https://api.groq.com/openai/v1/chat/completions', {
     method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
+    headers: { Authorization: 'Bearer ' + GROQ_KEY, 'Content-Type': 'application/json' },
     body: JSON.stringify({
-      systemInstruction: { parts: [{ text: system }] },
-      contents: [{ role: 'user', parts: [{ text: user }] }],
-      generationConfig: { temperature: 0.2, maxOutputTokens: 3500, responseMimeType: 'application/json' }
+      model: MODEL, temperature: 0.2, max_tokens: 3500,
+      response_format: { type: 'json_object' },
+      messages: [{ role: 'system', content: system }, { role: 'user', content: user }]
     })
   });
-  if (!res.ok) throw new Error('Gemini HTTP ' + res.status + ' ' + (await res.text()).slice(0, 200));
+  if (!res.ok) throw new Error('Groq HTTP ' + res.status + ' ' + (await res.text()).slice(0, 200));
   const data = await res.json();
-  const raw = (data.candidates && data.candidates[0] && data.candidates[0].content
-    && data.candidates[0].content.parts && data.candidates[0].content.parts[0]
-    && data.candidates[0].content.parts[0].text) || '';
+  const raw = (data.choices && data.choices[0] && data.choices[0].message && data.choices[0].message.content) || '';
   const a = raw.indexOf('{'); const b = raw.lastIndexOf('}');
   if (a < 0 || b < 0) throw new Error('No JSON in model reply');
   return JSON.parse(raw.slice(a, b + 1));
@@ -126,8 +123,8 @@ async function main() {
     console.log('Newsletter refresh skipped: set the GMAIL_APP_PASSWORD repo secret to enable it.');
     return;
   }
-  if (!GEMINI_KEY) {
-    console.log('Newsletter refresh skipped: set the GEMINI_API_KEY repo secret to enable it.');
+  if (!GROQ_KEY) {
+    console.log('Newsletter refresh skipped: set the GROQ_API_KEY repo secret to enable it.');
     return;
   }
 
