@@ -1,6 +1,54 @@
 {
- "generated_at": "2026-08-05T08:02:46.534Z",
+ "generated_at": "2026-08-05T14:20:06.740Z",
  "items": [
+  {
+   "id": "wlco-20260804-400-n-morgan-community-meeting",
+   "category": "civic_org",
+   "source_id": "wlco",
+   "source_name": "West Loop Community Organization",
+   "source_type": "email_newsletter",
+   "title": "400 N Morgan Community Meeting",
+   "summary": "A community meeting is scheduled for August 10th at 6 pm to discuss the development at 400 N Morgan. The project has been updated to include earlier open space delivery, reduced residential density, and reduced building height. The meeting will be held via Google Meet, and attendees can RSVP online.",
+   "url": "https://www.westloop.org/",
+   "published_at": "2026-08-04T18:45:23.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "politico-20260805-chicago-mayoral-race-resign-to-run-law",
+   "category": "elected_official",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Chicago Mayoral Race, Resign to Run Law",
+   "summary": "The Chicago mayoral race has sparked debate over the practice of running for one office while simultaneously running for another. Some candidates are criticizing the practice, while others argue it is like interviewing for a job and does not require resignation from the current position. There have been calls for a 'resign to run' law, which would require officeholders to give up their current positions before seeking another office.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-08-05T12:01:44.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "axios-20260805-durbin-duckworth-vs-faa",
+   "category": "business",
+   "source_id": "axios",
+   "source_name": "Axios Chicago",
+   "source_type": "email_newsletter",
+   "title": "Durbin, Duckworth vs FAA",
+   "summary": "No specific information is available in the provided text to create a summary.",
+   "url": "https://www.axios.com/local/chicago",
+   "published_at": "2026-08-05T11:27:20.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260805-new-river-north-podcasting-studio-link-l",
+   "category": "business",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "New River North Podcasting Studio Link Label Aims To Be One-Stop Shop For Content Creation",
+   "summary": "The studio offers recording space with editing, social media and marketing services for new and established content creators.",
+   "url": "https://blockclubchicago.org/2026/08/05/new-river-north-podcasting-studio-link-label-aims-to-be-one-stop-shop-for-content-creation/",
+   "published_at": "2026-08-05T13:49:00.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "politico-20260804-governor-signs-bills-to-protect-consumer",
    "category": "elected_official",
@@ -791,54 +839,6 @@
    "summary": "Chicago has hosted the culinary awards since 2015 and will continue to do so through 2028. The process to find a new location opened Wednesday.",
    "url": "https://blockclubchicago.org/2026/07/15/james-beard-awards-launch-national-search-for-new-host-city/",
    "published_at": "2026-07-15T16:06:40.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "cbs-20260715-magnolia-bakery-at-chicago-s-block-37-sh",
-   "category": "business",
-   "source_id": "cbs",
-   "source_name": "CBS News Chicago",
-   "source_type": "web_feed",
-   "title": "Magnolia Bakery at Chicago's Block 37 shut down due to cockroaches",
-   "summary": "The Magnolia Bakery location in downtown Chicago was shut down this week due to a cockroach infestation.",
-   "url": "https://www.cbsnews.com/chicago/news/magnolia-bakery-chicago-block-37-shut-down-cockroaches/",
-   "published_at": "2026-07-15T13:56:01.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "cbs-20260715-chicago-s-magnolia-bakery-shut-down-over",
-   "category": "business",
-   "source_id": "cbs",
-   "source_name": "CBS News Chicago",
-   "source_type": "web_feed",
-   "title": "Chicago's Magnolia Bakery shut down over cockroach infestation",
-   "summary": "The Magnolia Bakery location in downtown Chicago has been closed over a cockroach infestation.",
-   "url": "https://www.cbsnews.com/chicago/video/chicagos-magnolia-bakery-shut-down-over-cockroach-infestation/",
-   "published_at": "2026-07-15T13:39:00.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260715-printers-row-sports-bar-faces-eviction-a",
-   "category": "business",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Printers Row Sports Bar Faces Eviction Amid Noise Complaints, Wage Theft Allegations",
-   "summary": "Since February, neighbors have decried noise and rowdiness at Reserv. The business owner is due at a Thursday Business Affairs and Consumer Protection hearing over a list of changes demanded by the city.",
-   "url": "https://blockclubchicago.org/2026/07/15/printers-row-sports-bar-faces-eviction-amid-noise-complaints-wage-theft-allegations/",
-   "published_at": "2026-07-15T13:12:00.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260714-sprawling-woodlawn-central-development-d",
-   "category": "elected_official",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Sprawling Woodlawn Central Development, Daily News Building Landmarking Get Zoning Approval",
-   "summary": "The City Council's zoning committee also advanced a community center plan in Altgeld Gardens, a large mixed-use project in North Lawndale and various North Side apartment buildings.",
-   "url": "https://blockclubchicago.org/2026/07/14/sprawling-woodlawn-central-development-daily-news-building-landmarking-get-zoning-approval/",
-   "published_at": "2026-07-14T18:37:27.000Z",
    "flagged_for_review": false
   }
  ]
