@@ -4,18 +4,16 @@
  *
  * Reads the owner's email newsletters (Politico Illinois Playbook, Axios
  * Chicago, Indivisible Greater West Loop, Conway's Corner, WCA, Skyline) over
- * Gmail IMAP, then summarizes the ward-relevant items with GitHub Models
- * (free, using the workflow's built-in GITHUB_TOKEN - no paid API key), and
- * merges them into data/feed.json.
+ * Gmail IMAP, then summarizes the ward-relevant items with Google Gemini
+ * (free tier, no cost), and merges them into data/feed.json.
  *
  * This runs alongside refresh-news.mjs (public RSS feeds). The RSS script is
  * the always-on backbone; this adds the email-only sources on top.
  *
- * Needs ONE GitHub repository secret:
+ * Needs TWO GitHub repository secrets:
  *   GMAIL_APP_PASSWORD  - a Google "app password" (requires 2-Step Verification)
+ *   GEMINI_API_KEY      - a free Google AI Studio key (aistudio.google.com/apikey)
  * Optional: GMAIL_ADDRESS (defaults to chicagojustice@gmail.com).
- * GITHUB_TOKEN is provided automatically by Actions; the workflow grants it
- * "models: read" so it can call GitHub Models.
  *
  * If the secret or token is missing it exits cleanly (nothing breaks).
  *
@@ -30,8 +28,8 @@ import { simpleParser } from 'mailparser';
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const GMAIL = process.env.GMAIL_ADDRESS || 'chicagojustice@gmail.com';
 const APP_PW = process.env.GMAIL_APP_PASSWORD || '';
-const GH_TOKEN = process.env.GITHUB_TOKEN || process.env.MODELS_TOKEN || '';
-const MODEL = 'openai/gpt-4o-mini';
+const GEMINI_KEY = process.env.GEMINI_API_KEY || '';
+const MODEL = 'gemini-2.0-flash';
 
 const SOURCES = {
   'illinoisplaybook@email.politico.com': { id: 'politico', name: 'POLITICO Illinois Playbook', url: 'https://www.politico.com/newsletters/illinois-playbook' },
@@ -103,17 +101,21 @@ Return ONLY this JSON:
 NEWSLETTERS:
 ${blocks}`;
 
-  const res = await fetch('https://models.github.ai/inference/chat/completions', {
+  const res = await fetch(
+    `https://generativelanguage.googleapis.com/v1beta/models/${MODEL}:generateContent?key=${GEMINI_KEY}`, {
     method: 'POST',
-    headers: { Authorization: 'Bearer ' + GH_TOKEN, 'Content-Type': 'application/json' },
+    headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({
-      model: MODEL, temperature: 0.2, max_tokens: 3500,
-      messages: [{ role: 'system', content: system }, { role: 'user', content: user }]
+      systemInstruction: { parts: [{ text: system }] },
+      contents: [{ role: 'user', parts: [{ text: user }] }],
+      generationConfig: { temperature: 0.2, maxOutputTokens: 3500, responseMimeType: 'application/json' }
     })
   });
-  if (!res.ok) throw new Error('GitHub Models HTTP ' + res.status + ' ' + (await res.text()).slice(0, 200));
+  if (!res.ok) throw new Error('Gemini HTTP ' + res.status + ' ' + (await res.text()).slice(0, 200));
   const data = await res.json();
-  const raw = (data.choices && data.choices[0] && data.choices[0].message && data.choices[0].message.content) || '';
+  const raw = (data.candidates && data.candidates[0] && data.candidates[0].content
+    && data.candidates[0].content.parts && data.candidates[0].content.parts[0]
+    && data.candidates[0].content.parts[0].text) || '';
   const a = raw.indexOf('{'); const b = raw.lastIndexOf('}');
   if (a < 0 || b < 0) throw new Error('No JSON in model reply');
   return JSON.parse(raw.slice(a, b + 1));
@@ -124,8 +126,8 @@ async function main() {
     console.log('Newsletter refresh skipped: set the GMAIL_APP_PASSWORD repo secret to enable it.');
     return;
   }
-  if (!GH_TOKEN) {
-    console.log('Newsletter refresh skipped: no GITHUB_TOKEN (grant the workflow models: read).');
+  if (!GEMINI_KEY) {
+    console.log('Newsletter refresh skipped: set the GEMINI_API_KEY repo secret to enable it.');
     return;
   }
 
