@@ -1,6 +1,30 @@
 {
- "generated_at": "2026-08-06T14:23:25.153Z",
+ "generated_at": "2026-08-06T14:44:01.934Z",
  "items": [
+  {
+   "id": "axios-20260806-cops-and-ice",
+   "category": "business",
+   "source_id": "axios",
+   "source_name": "Axios Chicago",
+   "source_type": "email_newsletter",
+   "title": "Cops and ICE",
+   "summary": "No specific information about the West Loop or 34th Ward is available in this newsletter. However, as the most important citywide item, it is worth noting that the newsletter discusses the relationship between the Chicago Police Department and ICE, but the details are not provided in the given text.",
+   "url": "https://www.axios.com/local/chicago",
+   "published_at": "2026-08-06T11:27:19.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "politico-20260806-welch-regrets-handling-of-harassment-cas",
+   "category": "elected_official",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Welch Regrets Handling of Harassment Case",
+   "summary": "House Speaker Emanuel Chris Welch expressed regret over the handling of a sexual harassment case involving former state Rep Harry Benton. Welch has created a House Culture and Accountability Working Group to recommend changes to how harassment complaints are handled. The group will start work next week and will look at best practices from across the country.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-08-06T12:01:57.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "politico-20260806-house-speaker-emanuel-chris-welch-regret",
    "category": "elected_official",
