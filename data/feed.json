@@ -1,6 +1,78 @@
 {
- "generated_at": "2026-08-05T14:44:22.340Z",
+ "generated_at": "2026-08-06T14:23:25.153Z",
  "items": [
+  {
+   "id": "politico-20260806-house-speaker-emanuel-chris-welch-regret",
+   "category": "elected_official",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "House Speaker Emanuel Chris Welch Regrets Handling of Sexual Harassment Case",
+   "summary": "House Speaker Emanuel Chris Welch expressed regret over the handling of a sexual harassment case involving former state Rep. Harry Benton. Welch has created a House Culture and Accountability Working Group to recommend changes to how harassment complaints are handled. The group will start work next week and will look at best practices from across the country.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-08-06T12:01:57.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "axios-20260806-alexi-giannoulias-spending-six-figures-o",
+   "category": "business",
+   "source_id": "axios",
+   "source_name": "Axios Chicago",
+   "source_type": "email_newsletter",
+   "title": "Alexi Giannoulias Spending Six Figures on TV Ads for Mayoral Campaign",
+   "summary": "Alexi Giannoulias is spending six figures on TV and cable advertising across Chicago as part of his mayoral campaign. The ads focus on affordability and will run on broadcast, cable, digital, and streaming platforms. The campaign has also released a 30-second spot called 'Greatest Days Ahead'.",
+   "url": "https://www.axios.com/local/chicago",
+   "published_at": "2026-08-06T11:27:19.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260806-restaurant-owner-moonlights-as-an-advoca",
+   "category": "business",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Restaurant Owner Moonlights As An Advocate For Somali Asylum Seekers. He's Never Been Busier",
+   "summary": "Abdninasir Kahin co-owns a Somali restaurant in Rogers Park with his wife but spends most of his time as a volunteer advocate for East African immigrants. As their cases get fast-tracked, this year has been his busiest ever.",
+   "url": "https://blockclubchicago.org/2026/08/06/rogers-park-restaurant-owner-moonlights-as-advocate-for-somali-asylum-seekers-hes-never-been-busier/",
+   "published_at": "2026-08-06T13:55:00.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260806-26-things-to-do-in-chicago-this-weekend-",
+   "category": "business",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "26 Things To Do In Chicago This Weekend: Bud Billiken Parade, Market Days, Cat Tour And More",
+   "summary": "A festival in Ravenswood, a weekend-long Ecuadorian fest and a nature field day are also on deck.",
+   "url": "https://blockclubchicago.org/2026/08/06/26-things-to-do-in-chicago-this-weekend-bud-billiken-parade-market-days-cat-tour-and-more/",
+   "published_at": "2026-08-06T11:58:43.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260805-chicago-house-music-festival-and-confere",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Chicago House Music Festival And Conference Returns In August",
+   "summary": "The four-day festival Aug. 27-30 brings performances, panels and lots of dancing to house music's birthplace.",
+   "url": "https://blockclubchicago.org/2026/08/05/chicago-house-music-festival-and-conference-returns-in-august/",
+   "published_at": "2026-08-05T21:31:08.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260805-adriel-favela-mi-banda-el-mexicano-and-m",
+   "category": "business",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Adriel Favela, Mi Banda El Mexicano And Mariachi Herencia De México To Headline El Grito Fest 2026",
+   "summary": "The two-day festival will also feature local food vendors Cafe Tola, Xurro, El Taconazo Express and more.",
+   "url": "https://blockclubchicago.org/2026/08/05/adriel-favela-mi-banda-el-mexicano-and-mariachi-herencia-de-mexico-to-headline-el-grito-fest-2026/",
+   "published_at": "2026-08-05T18:49:38.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "wlco-20260804-400-n-morgan-community-meeting",
    "category": "civic_org",
@@ -779,66 +851,6 @@
    "summary": "\"Souvenirs\" will run Oct. 7-11 and include concerts, film screenings, tours and more at various venues across the city.",
    "url": "https://blockclubchicago.org/2026/07/16/chicago-to-honor-folk-legend-john-prine-with-5-day-festival/",
    "published_at": "2026-07-16T19:50:14.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260716-27-things-to-do-in-chicago-this-weekend-",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "27 Things To Do In Chicago This Weekend: West Fest, Tacos Y Tamales And Chicago Climate Week",
-   "summary": "Bevapalooza, Colombian Fest, Taste of River North and sidewalk sales from Avondale to Hyde Park are also on deck.",
-   "url": "https://blockclubchicago.org/2026/07/16/27-things-to-do-in-chicago-this-weekend-west-fest-tacos-y-tamales-and-chicago-climate-week/",
-   "published_at": "2026-07-16T12:03:51.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260715-magnolia-bakery-temporarily-closes-downt",
-   "category": "business",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Magnolia Bakery Temporarily Closes Downtown After Inspectors Find Live Roaches, Fly Infestation",
-   "summary": "The popular New York-based chain's State Street location has failed three health inspections in the last year, including on Monday.",
-   "url": "https://blockclubchicago.org/2026/07/15/magnolia-bakery-temporarily-closes-downtown-after-inspectors-find-live-roaches-fly-infestation/",
-   "published_at": "2026-07-15T20:59:52.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260715-chicago-daily-news-building-is-now-offic",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Chicago Daily News Building Is Now Officially A Landmark",
-   "summary": "The landmark status will allow the building's owner to apply for city incentives for rehabilitation projects.",
-   "url": "https://blockclubchicago.org/2026/07/15/chicago-daily-news-building-is-now-officially-a-landmark/",
-   "published_at": "2026-07-15T19:43:29.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260715-council-oks-424-million-in-public-funds-",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Council OKs $424 Million In Public Funds For Parking And More Near New Fire Stadium",
-   "summary": "The plan to use $250 million of that money on the garage and other improvements to benefit The 78 mega-development sparked lengthy debate this week but was ultimately OK'd.",
-   "url": "https://blockclubchicago.org/2026/07/15/city-council-approves-424-million-in-public-money-for-parking-garage-other-infrastructure-near-new-fire-soccer-stadium/",
-   "published_at": "2026-07-15T19:00:00.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260715-james-beard-awards-launch-national-searc",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "James Beard Awards Launch National Search For New Host City",
-   "summary": "Chicago has hosted the culinary awards since 2015 and will continue to do so through 2028. The process to find a new location opened Wednesday.",
-   "url": "https://blockclubchicago.org/2026/07/15/james-beard-awards-launch-national-search-for-new-host-city/",
-   "published_at": "2026-07-15T16:06:40.000Z",
    "flagged_for_review": false
   }
  ]
