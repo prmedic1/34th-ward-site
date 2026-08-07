@@ -1,6 +1,18 @@
 {
- "generated_at": "2026-08-06T14:44:01.934Z",
+ "generated_at": "2026-08-07T13:14:01.304Z",
  "items": [
+  {
+   "id": "blockclub-20260807-5-art-exhibits-to-check-out-in-august",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "5 Art Exhibits To Check Out In August",
+   "summary": "Chicago artists with international roots draw on their experiences in Mexico, China and elsewhere to create new works, on display this month across the city.",
+   "url": "https://blockclubchicago.org/2026/08/07/5-art-exhibits-to-check-out-in-august/",
+   "published_at": "2026-08-07T12:45:00.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "axios-20260806-cops-and-ice",
    "category": "business",
@@ -863,18 +875,6 @@
    "summary": "Three people on a CTA bus were injured in a hit-and-run crash in West Town Friday morning, Chicago police said.",
    "url": "https://abc7chicago.com/post/3-cta-bus-passengers-injured-west-town-hit-run-chicago-police-say/19525451/",
    "published_at": "2026-07-17T13:48:17.046Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260716-chicago-to-honor-folk-legend-john-prine-",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Chicago To Honor Folk Legend John Prine With 5-Day Festival",
-   "summary": "\"Souvenirs\" will run Oct. 7-11 and include concerts, film screenings, tours and more at various venues across the city.",
-   "url": "https://blockclubchicago.org/2026/07/16/chicago-to-honor-folk-legend-john-prine-with-5-day-festival/",
-   "published_at": "2026-07-16T19:50:14.000Z",
    "flagged_for_review": false
   }
  ]

@@ -1,12 +1,12 @@
 {
  "_rotation_note": "The daily job picks the next business each morning - rotating among ward businesses with priority to spotlight requests from owners and newly opened spots. Keep yesterday's entries in history.",
  "current": {
-  "date": "2026-08-06",
-  "name": "Green Street Smoked Meats",
-  "address": "112 N. Green St, West Loop",
-  "website": "https://greenstreetmeats.com/",
-  "image": "images/green-street-smoked-meats.jpg",
-  "blurb": "Tucked down an alley off Green Street, this rollicking barbecue joint serves Texas-style brisket, ribs, and burnt ends by the pound on butcher paper. Cold beer, picnic tables, and a lively bar make it a West Loop staple."
+  "date": "2026-08-07",
+  "name": "Monteverde Restaurant & Pastificio",
+  "address": "1020 W. Madison St, West Loop",
+  "website": "https://www.monteverdechicago.com/",
+  "image": "images/spotlight/monteverde.jpg",
+  "blurb": "Chef Sarah Grueneberg, a James Beard Award winner, turns out some of the country's most celebrated handmade pasta from an open pastificio counter on Madison Street. The cacio whey pepe and the ragu alla napoletana are neighborhood legends, and the bar pours a deep Italian wine list."
  },
  "history": [
   {
@@ -352,6 +352,14 @@
    "website": "https://www.girlandthegoat.com/chicago/",
    "image": "images/spotlight/girl-and-the-goat.jpg",
    "blurb": "Chef Stephanie Izard's flagship put Randolph Street's Restaurant Row on the national map. The wood-fired, globally-spiced small plates, from the famous goat empanadas to the pan-fried shishito peppers, still pack the room nightly."
+  },
+  {
+   "date": "2026-08-06",
+   "name": "Green Street Smoked Meats",
+   "address": "112 N. Green St, West Loop",
+   "website": "https://greenstreetmeats.com/",
+   "image": "images/green-street-smoked-meats.jpg",
+   "blurb": "Tucked down an alley off Green Street, this rollicking barbecue joint serves Texas-style brisket, ribs, and burnt ends by the pound on butcher paper. Cold beer, picnic tables, and a lively bar make it a West Loop staple."
   }
  ]
 }
