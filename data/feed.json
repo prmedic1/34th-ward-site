@@ -1,6 +1,90 @@
 {
- "generated_at": "2026-08-08T13:25:24.094Z",
+ "generated_at": "2026-08-09T13:00:15.492Z",
  "items": [
+  {
+   "id": "politico-20260807-chicago-public-schools-budget-amendment-",
+   "category": "elected_official",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Chicago Public Schools Budget Amendment Vote",
+   "summary": "Chicago Board of Education member Che Rhymefest Smith voted against a budget amendment that counted on an additional $150 million from Springfield. Smith argued that the choice was straightforward, to trust Superintendent Macquline King or approve a budget built around money that state leaders had given little indication they would provide. The vote has become a dividing line on the board, with Smith saying the district needs stronger relationships in Springfield to persuade lawmakers and Gov. JB Pritzker to send more money to CPS.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-08-07T12:00:44.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "politico-20260807-governor-pritzker-signs-memorandum-of-un",
+   "category": "elected_official",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Governor Pritzker Signs Memorandum of Understanding with Indonesia",
+   "summary": "Governor JB Pritzker signed a memorandum of understanding with Indonesia to expand trade and cooperation in agriculture, business, education, and workforce development. The agreement aims to grow soybean exports as Illinois producers look to diversify markets amid tariff uncertainty. Indonesia has become an increasingly important market for U.S. soybeans, ranking among the top destinations for American exports.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-08-07T12:00:44.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "axios-20260807-no-relevant-content",
+   "category": "business",
+   "source_id": "axios",
+   "source_name": "Axios Chicago",
+   "source_type": "email_newsletter",
+   "title": "No Relevant Content",
+   "summary": "No relevant content found in the Axios newsletter for the 34th Ward.",
+   "url": "https://www.axios.com/local/chicago",
+   "published_at": "2026-08-07T11:27:22.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "wca-20260807-west-loop-art-fest",
+   "category": "civic_org",
+   "source_id": "wca",
+   "source_name": "The WCA Weekly",
+   "source_type": "email_newsletter",
+   "title": "West Loop Art Fest",
+   "summary": "The West Loop Art Fest will take place on August 22-23, featuring original artwork from talented artists, live art demonstrations, and interactive experiences. The event will transform Fulton Street between Carpenter and Green Street into a vibrant outdoor art experience. The West Central Association is hosting the event, which aims to support the creative community in the West Loop.",
+   "url": "https://www.wcachicago.org/",
+   "published_at": "2026-08-07T11:31:14.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "wca-20260807-west-loop-street-closures",
+   "category": "civic_org",
+   "source_id": "wca",
+   "source_name": "The WCA Weekly",
+   "source_type": "email_newsletter",
+   "title": "West Loop Street Closures",
+   "summary": "West Loop street closures will occur from August 21-24 for the West Loop Art Fest. W. Fulton St. from N. Aberdeen St. to N. Peoria St. will be closed, along with cross streets at N. Morgan St., N. Carpenter St., N. Sangamon St., and N. Peoria St. The West Central Association advises travelers to plan ahead and use alternate routes if traveling through the area.",
+   "url": "https://www.wcachicago.org/",
+   "published_at": "2026-08-07T11:31:14.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "wca-20260807-west-loop-wellness-fest",
+   "category": "civic_org",
+   "source_id": "wca",
+   "source_name": "The WCA Weekly",
+   "source_type": "email_newsletter",
+   "title": "West Loop Wellness Fest",
+   "summary": "The West Loop Wellness Fest will take place on September 19 at Union Padel Club, featuring local health and wellness businesses, instructor-led fitness and wellness classes, and interactive vendor experiences. A portion of every ticket sold will benefit Mercy Home for Boys & Girls, supporting youth in the community. Space is limited, and registration is required.",
+   "url": "https://www.wcachicago.org/",
+   "published_at": "2026-08-07T11:31:14.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260808-22-years-later-dave-matthews-bus-poop-in",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "22 Years Later, Dave Matthews Bus Poop Incident Makes Chicagoans Laugh - And Groan",
+   "summary": "Dave Matthews’ tour bus emptied its 800-pound septic tank on people taking a cruise 22 years ago this week. The DMB poop incident is \"now old enough to drink,\" one social media post pointed out.",
+   "url": "https://blockclubchicago.org/2026/08/08/21-years-later-dave-matthews-bus-poop-incident-makes-chicagoans-laugh-and-groan/",
+   "published_at": "2026-08-08T15:49:19.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "blockclub-20260807-5-art-exhibits-to-check-out-in-august",
    "category": "civic_org",
@@ -851,30 +935,6 @@
    "summary": "The internet is roasting Chicagoans for their love of the \"concrete beach.\" Despite the flak, many residents said they prefer the concrete over the city's many sandy beaches.",
    "url": "https://blockclubchicago.org/2026/07/20/chicagos-concrete-beach-is-going-viral-on-social-media-heres-why-locals-love-it/",
    "published_at": "2026-07-20T13:42:00.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260717-pizza-5k-s-last-minute-date-change-leave",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Pizza 5K’s Last-Minute Date Change Leaves Some Runners Fuming",
-   "summary": "The inaugural Slice of Chicago run was set for July 12 at Soldier Field but rescheduled to Oct. 3 - when other races are taking place - because its pizza-shaped medals are stuck in customs, organizers said.",
-   "url": "https://blockclubchicago.org/2026/07/17/pizza-5ks-last-minute-date-change-leaves-some-runners-fuming/",
-   "published_at": "2026-07-17T23:04:07.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "abc7-20260717-3-cta-bus-passengers-injured-in-west-tow",
-   "category": "civic_org",
-   "source_id": "abc7",
-   "source_name": "ABC7 Chicago",
-   "source_type": "web_feed",
-   "title": "3 CTA bus passengers injured in West Town hit-and-run, Chicago police say",
-   "summary": "Three people on a CTA bus were injured in a hit-and-run crash in West Town Friday morning, Chicago police said.",
-   "url": "https://abc7chicago.com/post/3-cta-bus-passengers-injured-west-town-hit-run-chicago-police-say/19525451/",
-   "published_at": "2026-07-17T13:48:17.046Z",
    "flagged_for_review": false
   }
  ]
