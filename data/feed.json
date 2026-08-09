@@ -1,6 +1,30 @@
 {
- "generated_at": "2026-08-09T13:00:15.492Z",
+ "generated_at": "2026-08-09T13:29:36.591Z",
  "items": [
+  {
+   "id": "politico-20260807-governor-jb-pritzker-trade-agreement",
+   "category": "elected_official",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Governor JB Pritzker Trade Agreement",
+   "summary": "Governor JB Pritzker and Senator Tammy Duckworth are working with Indonesian officials on a new trade agreement aimed at opening more doors for Illinois farmers. The agreement includes a memorandum of understanding with Indonesia to expand trade and cooperation in agriculture, business, education, and workforce development, with a focus on growing soybean exports.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-08-07T12:00:44.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "axios-20260807-no-relevant-information",
+   "category": "business",
+   "source_id": "axios",
+   "source_name": "Axios Chicago",
+   "source_type": "email_newsletter",
+   "title": "No Relevant Information",
+   "summary": "No relevant information was found in the Axios newsletter.",
+   "url": "https://www.axios.com/local/chicago",
+   "published_at": "2026-08-07T11:27:22.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "politico-20260807-chicago-public-schools-budget-amendment-",
    "category": "elected_official",
