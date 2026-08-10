@@ -1,6 +1,30 @@
 {
- "generated_at": "2026-08-09T13:29:36.591Z",
+ "generated_at": "2026-08-10T13:18:29.368Z",
  "items": [
+  {
+   "id": "politico-20260810-chicago-mayor-brandon-johnson-gov-jb-pri",
+   "category": "elected_official",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Chicago Mayor Brandon Johnson, Gov. JB Pritzker Watch Michigan, Wisconsin Races",
+   "summary": "Illinois Democrats are watching Michigan and Wisconsin for clues about the party's direction. Abdul El-Sayed's victory in Michigan's Democratic Senate primary could offer hope for like-minded candidates. The Wisconsin governor's race is shaping up as a contest between traditional Democrats and candidates appealing to the party's activist left.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-08-10T12:02:14.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "axios-20260810-e-scooter-access",
+   "category": "business",
+   "source_id": "axios",
+   "source_name": "Axios Chicago",
+   "source_type": "email_newsletter",
+   "title": "E-scooter Access",
+   "summary": "No specific information is provided in the given text about e-scooter access in Chicago or the 34th Ward. However, e-scooter access can impact transportation and traffic in the area.",
+   "url": "https://www.axios.com/local/chicago",
+   "published_at": "2026-08-10T11:28:36.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "politico-20260807-governor-jb-pritzker-trade-agreement",
    "category": "elected_official",
