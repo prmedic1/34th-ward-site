@@ -1,6 +1,30 @@
 {
- "generated_at": "2026-08-10T13:18:29.368Z",
+ "generated_at": "2026-08-10T13:52:14.112Z",
  "items": [
+  {
+   "id": "axios-20260810-e-scooter-access-chicago-updates",
+   "category": "business",
+   "source_id": "axios",
+   "source_name": "Axios Chicago",
+   "source_type": "email_newsletter",
+   "title": "E-scooter access, Chicago updates",
+   "summary": "Chicago is working to improve e-scooter access across the city. The city aims to make e-scooters a more viable transportation option for residents.",
+   "url": "https://www.axios.com/local/chicago",
+   "published_at": "2026-08-10T11:28:36.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "politico-20260810-mayor-brandon-johnson-s-rebuild-program",
+   "category": "elected_official",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Mayor Brandon Johnson's Rebuild program",
+   "summary": "Mayor Brandon Johnson is set to give remarks at a ribbon cutting for two homes rehabbed through the Rebuild program in Englewood. The program aims to provide affordable housing options for Chicago residents.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-08-10T12:02:14.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "politico-20260810-chicago-mayor-brandon-johnson-gov-jb-pri",
    "category": "elected_official",
@@ -971,18 +995,6 @@
    "summary": "The brewery's annual Black Friday release of barrel-aged stouts will make barleywine fans happy, while this year's swings include apple crisp and pineapple upside down cake riffs.",
    "url": "https://blockclubchicago.org/2026/07/21/goose-islands-2026-bourbon-county-lineup-revealed/",
    "published_at": "2026-07-21T14:00:00.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260720-chicago-s-concrete-beach-is-going-viral-",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Chicago's Concrete Beach' Is Going Viral On Social Media. Here's Why Locals Love It",
-   "summary": "The internet is roasting Chicagoans for their love of the \"concrete beach.\" Despite the flak, many residents said they prefer the concrete over the city's many sandy beaches.",
-   "url": "https://blockclubchicago.org/2026/07/20/chicagos-concrete-beach-is-going-viral-on-social-media-heres-why-locals-love-it/",
-   "published_at": "2026-07-20T13:42:00.000Z",
    "flagged_for_review": false
   }
  ]
