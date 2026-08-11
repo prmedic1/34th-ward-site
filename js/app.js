@@ -37,9 +37,9 @@ fetch('data/mayor_race.json?d=' + DATA_V)
 
     // "Predict the winner" button linking to the Kalshi market.
     if (data.kalshi_url) {
-      const header = document.querySelector('.race-header');
-      if (header && !header.querySelector('.race-kalshi-btn')) {
-        header.insertAdjacentHTML('beforeend',
+      const actions = document.querySelector('.race-actions');
+      if (actions && !actions.querySelector('.race-kalshi-btn')) {
+        actions.insertAdjacentHTML('beforeend',
           `<a class="race-kalshi-btn" href="${escapeAttr(data.kalshi_url)}" target="_blank" rel="noopener">Predict the winner &rarr;</a>`);
       }
     }
