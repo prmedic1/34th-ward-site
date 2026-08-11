@@ -7,7 +7,7 @@
 <title>34th Ward Chicago News - West Loop, Loop &amp; South Loop</title>
 <meta name="description" content="Daily community news for Chicago's 34th Ward: the West Loop, Greektown, the Loop, and South Loop, plus the 2027 mayor's race and local businesses.">
 <link rel="canonical" href="https://34thward.com/">
-<link rel="stylesheet" href="css/style.css?v=20260805c">
+<link rel="stylesheet" href="css/style.css?v=20260811a">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="34thward.com">
 <meta property="og:title" content="The Official 34th Ward Neighborhood Page">
@@ -89,8 +89,19 @@
 <section class="race-section" id="mayor-race" hidden>
   <div class="race-inner">
     <div class="race-header">
-      <p class="spotlight-label">The 2027 Mayor's Race</p>
-      <p class="race-sub">Election day: <strong id="race-date"></strong> &middot; Odds based on published sources and polling &middot; Updated <span id="race-updated"></span></p>
+      <svg class="race-bunting" width="100%" height="22" aria-hidden="true" focusable="false">
+        <defs>
+          <pattern id="ward-bunting" width="44" height="22" patternUnits="userSpaceOnUse">
+            <polygon points="0,3 22,3 11,20" fill="#14bef1"></polygon>
+            <polygon points="22,3 44,3 33,20" fill="#da1933"></polygon>
+          </pattern>
+        </defs>
+        <rect width="100%" height="3" fill="#0a5a78"></rect>
+        <rect width="100%" height="22" fill="url(#ward-bunting)"></rect>
+      </svg>
+      <p class="spotlight-label race-title">The 2027 Chicago Mayor's Race</p>
+      <p class="race-sub">Election day: <strong id="race-date"></strong> &middot; Live odds from prediction markets &middot; Updated <span id="race-updated"></span></p>
+      <a class="race-register-btn" href="https://ova.elections.il.gov/" target="_blank" rel="noopener">&#128499;&#65039; Register to vote &rarr;</a>
     </div>
     <div class="race-strip" id="race-strip"></div>
   </div>
@@ -167,7 +178,7 @@
   <p><button id="share-site" class="share-btn" type="button">Share 34thward.com &#128228;</button></p>
 </footer>
 
-<script src="js/app.js?v=20260805c"></script>
+<script src="js/app.js?v=20260811a"></script>
 <script src="js/ticker.js?v=20260708a"></script>
 <script src="js/analytics.js?v=20260730b" defer></script>
 </body>

@@ -3,7 +3,7 @@
   "election_date": "February 23, 2027",
   "kalshi_event": "KXCHICAGOMAYOR-27",
   "kalshi_url": "https://kalshi.com/markets/kxchicagomayor",
-  "note": "Blended win probabilities from the Kalshi prediction market (event KXCHICAGOMAYOR-27) and PredictionEdge, normalized to 100% across the 13 tracked candidates. Candidates without an active market are floored at about 0.5%. Prediction markets, not polls.",
+  "note": "Blended win probabilities from the Kalshi prediction market (event KXCHICAGOMAYOR-27) and PredictionEdge, normalized to 100% across the 12 tracked candidates. Candidates without an active market are floored at about 0.5%. Prediction markets, not polls.",
   "candidates": [
     {
       "name": "Alexi Giannoulias",
@@ -85,7 +85,7 @@
     {
       "name": "Willie Wilson",
       "role": "Businessman",
-      "status": "rumored",
+      "status": "declared",
       "order": 7,
       "image": "images/candidates/wilson.jpg",
       "pct": 0.8,
@@ -131,18 +131,6 @@
       "kalshi_raw": 1,
       "pe_raw": null,
       "manifold_raw": 3.5
-    },
-    {
-      "name": "Liam Stanton",
-      "role": "Small business owner & entrepreneur",
-      "status": "declared",
-      "order": 11,
-      "image": "images/candidates/stanton.jpg",
-      "pct": 1.4,
-      "kalshi_raw": 1,
-      "pe_raw": null,
-      "manifold_raw": 2.8,
-      "campaign_url": "https://www.stantonforchicago.com/"
     },
     {
       "name": "Dr. Lisa Nee",
