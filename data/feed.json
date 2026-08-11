@@ -1,6 +1,78 @@
 {
- "generated_at": "2026-08-10T13:52:14.112Z",
+ "generated_at": "2026-08-11T13:15:38.462Z",
  "items": [
+  {
+   "id": "politico-20260811-chicago-school-board-to-weigh-adding-bal",
+   "category": "elected_official",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Chicago School Board To Weigh Adding Ballot Questions",
+   "summary": "The Chicago school board is considering adding ballot questions about new revenue sources, including a millionaires tax to increase funding for schools. The board will discuss the proposal at an upcoming meeting. Illinois school districts are falling short of state funding targets, and the proposed ballot questions could provide a solution.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-08-11T12:01:45.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "politico-20260811-illinois-school-districts-falling-short-",
+   "category": "elected_official",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Illinois School Districts Falling Short Of State Funding Targets",
+   "summary": "Illinois school districts are struggling to meet state funding targets, with many districts facing significant shortfalls. The state's education funding formula has been criticized for being inadequate, and lawmakers are exploring solutions to address the issue. The funding shortfalls could have significant impacts on schools and students across the state.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-08-11T12:01:45.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "axios-20260811-vertical-farming-comes-to-downtown-chica",
+   "category": "business",
+   "source_id": "axios",
+   "source_name": "Axios Chicago",
+   "source_type": "email_newsletter",
+   "title": "Vertical Farming Comes To Downtown Chicago",
+   "summary": "A new vertical farm is being built in downtown Chicago, bringing fresh produce to the area. The farm will utilize advanced hydroponic systems to grow a variety of crops, including leafy greens and herbs. The project aims to increase food accessibility and reduce the city's carbon footprint.",
+   "url": "https://www.axios.com/local/chicago",
+   "published_at": "2026-08-11T11:28:26.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "igwl-20260810-igwl-s-weekly-action-plan",
+   "category": "civic_org",
+   "source_id": "igwl",
+   "source_name": "Indivisible Greater West Loop",
+   "source_type": "email_newsletter",
+   "title": "IGWL's Weekly Action Plan",
+   "summary": "Indivisible Greater West Loop has released its weekly action plan, outlining key issues and actions for community members to take. The plan includes information on upcoming events, advocacy opportunities, and ways to get involved in local politics. Community members can view the full plan by clicking on the provided link.",
+   "url": "https://www.indivisiblegwlchi.org/",
+   "published_at": "2026-08-10T13:24:58.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260810-bally-s-to-pause-building-parts-of-chica",
+   "category": "business",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Bally’s To Pause Building Parts Of Chicago Casino Project Amid Fight Over Video Gambling Expansion",
+   "summary": "Construction on some hotel, restaurant and event spaces will stop because Bally’s believes that the move to allow video gambling citywide could undercut revenue from the $1.8 billion development.",
+   "url": "https://blockclubchicago.org/2026/08/10/ballys-to-pause-building-parts-of-chicago-casino-project-amid-fight-over-video-gambling-expansion/",
+   "published_at": "2026-08-10T21:40:27.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260810-20-chicago-pools-staying-open-through-la",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "20 Chicago Pools Staying Open Through Labor Day To Help Combat Extreme Heat'",
+   "summary": "Thirteen of the 20 pools staying open through Labor Day are in neighborhoods that score high on the city's Heat Vulnerability Index.",
+   "url": "https://blockclubchicago.org/2026/08/10/20-chicago-pools-staying-open-through-labor-day-to-help-combat-extreme-heat/",
+   "published_at": "2026-08-10T19:48:26.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "axios-20260810-e-scooter-access-chicago-updates",
    "category": "business",
