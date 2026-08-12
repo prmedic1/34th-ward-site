@@ -2,11 +2,11 @@
  "_rotation_note": "The daily job picks the next business each morning - rotating among ward businesses with priority to spotlight requests from owners and newly opened spots. Keep yesterday's entries in history.",
  "current": {
   "date": "2026-08-12",
-  "name": "Lou Mitchell's",
-  "address": "565 W. Jackson Blvd, West Loop",
-  "website": "https://www.loumitchells.com/",
-  "image": "images/lou-mitchells.jpg",
-  "blurb": "A Chicago breakfast landmark at the original starting line of Route 66, serving since 1923. Lou Mitchell's is famous for double-yolk eggs, skillet omelettes served in the pan, and the free Milk Duds and donut holes handed out while you wait."
+  "name": "Duck Duck Goat",
+  "address": "857 W. Fulton Market, Fulton Market",
+  "website": "https://www.duckduckgoatchicago.com/",
+  "image": "images/spotlight/duck-duck-goat.jpg",
+  "blurb": "Stephanie Izard's playful Chinese restaurant, with hand-pulled noodles, dim sum, and Peking duck in a bustling, mural-lined room."
  },
  "history": [
   {
