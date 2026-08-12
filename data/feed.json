@@ -1,6 +1,66 @@
 {
- "generated_at": "2026-08-11T13:51:55.564Z",
+ "generated_at": "2026-08-12T13:19:35.360Z",
  "items": [
+  {
+   "id": "politico-20260812-mayor-johnson-signs-executive-order-for-",
+   "category": "elected_official",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Mayor Johnson Signs Executive Order For Data Center Review",
+   "summary": "Mayor Brandon Johnson signed an executive order creating enhanced regulatory review for data centers, calling for a temporary moratorium on new facilities. The order directs city agencies to examine factors like electricity demand, water use, and pollution. Johnson aims to protect communities, utility bills, air, water, and quality of life. Chicago has approximately 39 data centers, most built under outdated rules.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-08-12T12:01:41.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "axios-20260812-data-center-halt",
+   "category": "business",
+   "source_id": "axios",
+   "source_name": "Axios Chicago",
+   "source_type": "email_newsletter",
+   "title": "Data Center Halt",
+   "summary": "Mayor Brandon Johnson has halted data center development in Chicago, citing concerns over their environmental impact. The move comes as data centers require large amounts of electricity and water to operate, prompting worries about their effects on the city's infrastructure and residents.",
+   "url": "https://www.axios.com/local/chicago",
+   "published_at": "2026-08-12T11:27:19.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "politico-20260812-dnc-to-host-midwest-nextwave-regional-bo",
+   "category": "elected_official",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "DNC To Host Midwest NextWave Regional Bootcamp In Chicago",
+   "summary": "The Democratic National Committee will hold its Midwest NextWave Regional Bootcamp in Chicago from August 26-28. The event aims to train aspiring and current Democratic campaign staffers in organizing, voter registration, fundraising, data, and communications. This is part of a seven-figure investment by the DNC to develop campaign talent across the country.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-08-12T12:01:41.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260812-case-oats-lolla-debut-was-a-full-circle-",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Case Oats’ Lolla Debut Was A Full-Circle Moment For Chicago Musician Casey Gomez Walker",
+   "summary": "The lead singer of the Chicago-based band went to Lollapalooza as a teen and studied creative writing at Columbia College. Case Oats is now preparing for a fall tour.",
+   "url": "https://blockclubchicago.org/2026/08/12/case-oats-lolla-debut-was-a-full-circle-moment-for-chicago-musician-casey-gomez-walker/",
+   "published_at": "2026-08-12T13:18:53.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260811-alface-the-shedd-s-new-2-toed-sloth-is-r",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Alface, The Shedd's New 2-Toed Sloth, Is Ready To Meet Chicagoans",
+   "summary": "After exploring her new habitat since her arrival at the Shedd almost a year ago, Alface is now making public appearances at aquarium pop-ups and after-hours events.",
+   "url": "https://blockclubchicago.org/2026/08/11/alface-the-shedds-new-2-toed-sloth-is-ready-to-meet-chicagoans/",
+   "published_at": "2026-08-11T20:11:33.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "axios-20260811-vertical-farming-downtown",
    "category": "business",
@@ -1055,30 +1115,6 @@
    "summary": "Rainbow Races, which aims to boost LGBTQ+ participation and representation in sailing, is partnering with the local chapter of the Sisters of Perpetual Indulgence for this year's race and fundraiser.",
    "url": "https://blockclubchicago.org/2026/07/23/second-city-sisters-to-bless-the-fleet-at-rainbow-races-annual-regatta/",
    "published_at": "2026-07-23T12:47:00.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260721-shedd-aquarium-receives-4-rescued-beluga",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Shedd Aquarium Receives 4 Rescued Belugas From Canadian Park, With More On The Way",
-   "summary": "The first four of 10 belugas, who were rescued from a shuttered Canadian zoo, are all female and were chosen to travel together because of their preexisting bond, according to the Shedd.",
-   "url": "https://blockclubchicago.org/2026/07/21/shedd-aquarium-receives-4-rescued-belugas-from-canadian-park-with-more-on-the-way/",
-   "published_at": "2026-07-21T20:09:01.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260721-goose-island-s-2026-bourbon-county-lineu",
-   "category": "business",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Goose Island’s 2026 Bourbon County Lineup Revealed",
-   "summary": "The brewery's annual Black Friday release of barrel-aged stouts will make barleywine fans happy, while this year's swings include apple crisp and pineapple upside down cake riffs.",
-   "url": "https://blockclubchicago.org/2026/07/21/goose-islands-2026-bourbon-county-lineup-revealed/",
-   "published_at": "2026-07-21T14:00:00.000Z",
    "flagged_for_review": false
   }
  ]
