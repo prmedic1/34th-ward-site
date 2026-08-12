@@ -823,6 +823,8 @@ body.photo-banner .hero {
   .np-grid { grid-template-columns: 1fr; }
   .np-story { border-right: none !important; border-bottom: 1px solid var(--border) !important; }
   .np-story:last-child { border-bottom: none !important; }
+  /* On phones the biggest local story jumps to the top of the feed. */
+  .np-story--lead { order: -1; }
 }
 .np-masthead {
   display: flex;

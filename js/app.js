@@ -1,4 +1,4 @@
-const DATA_V = '20260811d';
+const DATA_V = '20260811h';
 
 document.getElementById('year').textContent = new Date().getFullYear();
 
@@ -114,50 +114,68 @@ Promise.all([
     const countFor = (sid) => items.filter((it) => it.source_id === sid).length;
     const twoDaysAgo = Date.now() - 2 * 24 * 3600 * 1000;
     const sevenDaysAgo = Date.now() - 7 * 24 * 3600 * 1000;
-    const score = (it) => {
-      const t = it.title + ' ' + (it.summary || '');
-      const ts = new Date(it.published_at).getTime();
-      // Freshness is the gate so the front page is always today's news, not an
-      // old but on-topic story. Among recent items, West Loop relevance leads
-      // and a citywide resident-impact story (schools, crime, taxes) is the
-      // fallback.
-      const fresh = ts >= twoDaysAgo ? 6 : ts >= sevenDaysAgo ? 2 : 0;
-      const ward = wardKw.test(t) ? 2 : 0;
-      const resident = residentKw.test(t) ? 1 : 0;
-      return fresh + ward + resident;
-    };
-    const bestOf = (list) => list.slice().sort((a, b) =>
-      (score(b) - score(a)) || (new Date(b.published_at) - new Date(a.published_at)))[0];
-    const used = new Set();
-    const picks = [];
     const isFresh = (it) => new Date(it.published_at).getTime() >= sevenDaysAgo;
+    const byDate = (a, b) => new Date(b.published_at) - new Date(a.published_at);
+    // The center "lead" is the biggest LOCAL story: most about the 34th Ward,
+    // else a West Loop or citywide resident-impact story; recency breaks ties.
+    const roundupKw = /weekly action plan|weekly round-?up|weekly update|weekly digest|action plan/i;
+    const localScore = (it) => {
+      const t = it.title + ' ' + (it.summary || '');
+      const recentBonus = new Date(it.published_at).getTime() >= twoDaysAgo ? 2 : 0;
+      // De-prioritize recurring newsletter roundups as the lead; the center
+      // should be a real story, not a "weekly action plan" digest.
+      const roundup = roundupKw.test(it.title || '') ? 4 : 0;
+      return (wardKw.test(t) ? 4 : 0) + (residentKw.test(t) ? 2 : 0) + recentBonus - roundup;
+    };
+    const fresh = items.filter((it) => publishable(it) && FRONT_ORDER.includes(it.source_id) && isFresh(it));
+    const freshestOf = (sid) => fresh.filter((it) => it.source_id === sid).sort(byDate)[0];
 
-    // Pass 1: the best RECENT story from each source, for variety. Sources with
-    // nothing from the last week are skipped so the page never shows a stale
-    // (or leftover placeholder) story just to represent a quiet source.
-    FRONT_ORDER.forEach((sid) => {
-      if (picks.length >= FRONT_COUNT) return;
-      const src = sources[sid];
-      const eligible = items.filter((it) => it.source_id === sid && publishable(it) && !used.has(it.id) && isFresh(it));
-      if (!src || !eligible.length) return;
-      const story = bestOf(eligible);
-      used.add(story.id);
-      picks.push({ src, story, count: countFor(sid) });
-    });
+    // Center = the biggest local story (from any source, even Politico/Axios).
+    // Politico and Axios are the other two of the top-two; if the lead is
+    // already one of them, or one has nothing fresh (weekends), the next
+    // freshest story fills that flank. The lead is centered on desktop and
+    // jumps to the top of the feed on mobile.
+    const lead = fresh.slice().sort((a, b) => (localScore(b) - localScore(a)) || byDate(a, b))[0];
+    const leadId = lead ? lead.id : null;
+    const seen = new Set();
+    const top = [];
+    const addUniq = (s) => { if (s && !seen.has(s.id)) { seen.add(s.id); top.push(s); } };
+    addUniq(lead);
+    if (!lead || lead.source_id !== 'politico') addUniq(freshestOf('politico'));
+    if (!lead || lead.source_id !== 'axios') addUniq(freshestOf('axios'));
+    // Fill the top row to three, preferring a source not already up top so the
+    // row never doubles up (e.g. two Axios stories).
+    while (top.length < 3) {
+      const usedSrc = new Set(top.map((s) => s.source_id));
+      const n = fresh.find((it) => !seen.has(it.id) && !usedSrc.has(it.source_id))
+        || fresh.find((it) => !seen.has(it.id));
+      if (!n) break;
+      addUniq(n);
+    }
+    const flanks = top.filter((s) => s.id !== leadId);
+    const topRow = lead ? [flanks[0], lead, flanks[1]] : flanks.slice(0, 3);
 
-    // Pass 2: fill any remaining slots with the next newest stories from any
-    // listed source (recent only), so the grid is always current news.
-    for (const it of items) {
+    // Dedupe near-identical stories (titles sharing 3+ significant words).
+    const sigOf = (it) => (it.title || '').toLowerCase().replace(/[^a-z0-9 ]/g, ' ').split(/\s+/).filter((w) => w.length > 3);
+    const picks = [];
+    const used = new Set();
+    const sigs = [];
+    const isDup = (words) => sigs.some((prev) => words.filter((w) => prev.includes(w)).length >= 3);
+    const add = (story, isLead) => {
+      if (!story || used.has(story.id)) return;
+      const words = sigOf(story);
+      if (isDup(words)) return;
+      used.add(story.id); sigs.push(words);
+      picks.push({ src: sources[story.source_id], story, count: countFor(story.source_id), isLead: !!isLead });
+    };
+    topRow.forEach((s) => add(s, s && s.id === leadId));
+    for (const it of fresh.slice().sort(byDate)) {
       if (picks.length >= FRONT_COUNT) break;
-      if (used.has(it.id) || !publishable(it) || !FRONT_ORDER.includes(it.source_id) || !isFresh(it)) continue;
-      const src = sources[it.source_id];
-      if (!src) continue;
-      used.add(it.id);
-      picks.push({ src, story: it, count: countFor(it.source_id) });
+      add(it);
     }
 
     document.getElementById('frontpage-grid').innerHTML =
-      picks.map((p) => renderFrontStory(p.src, p.story, p.count)).join('');
+      picks.map((p) => renderFrontStory(p.src, p.story, p.count, p.isLead)).join('');
   })
   .catch((err) => {
     console.error('Failed to load front page', err);
@@ -211,7 +229,7 @@ function sourceMasthead(src, small) {
     </div>`;
 }
 
-function renderFrontStory(src, story, count) {
+function renderFrontStory(src, story, count, isLead) {
   const date = new Date(story.published_at).toLocaleDateString('en-US', {
     month: 'short',
     day: 'numeric'
@@ -223,7 +241,7 @@ function renderFrontStory(src, story, count) {
     ? `<a class="np-more" href="source.html?s=${src.id}">More from ${escapeHtml(src.name)} (${count}) &rarr;</a>`
     : `<a class="np-more" href="source.html?s=${src.id}">Section page &rarr;</a>`;
   return `
-    <article class="np-story">
+    <article class="np-story${isLead ? ' np-story--lead' : ''}">
       ${sourceMasthead(src)}
       ${img}
       <h4><a href="source.html?s=${src.id}">${escapeHtml(story.title)}</a></h4>
