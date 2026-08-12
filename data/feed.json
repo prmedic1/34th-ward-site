@@ -1,6 +1,30 @@
 {
- "generated_at": "2026-08-12T13:19:35.360Z",
+ "generated_at": "2026-08-12T13:54:38.090Z",
  "items": [
+  {
+   "id": "blockclub-20260812-immigrant-children-with-little-legal-sup",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Immigrant Children With Little Legal Support Under Trump Changes Face Higher Risk Of Deportation, Experts Say",
+   "summary": "After a contract funding legal services for unaccompanied immigrant children expired, children could be navigating their cases on their own. Meanwhile, immigration courts are calling more children and teens into court.",
+   "url": "https://blockclubchicago.org/2026/08/12/immigrant-children-with-little-legal-support-under-trump-changes-face-higher-risk-of-deportation-experts-say/",
+   "published_at": "2026-08-12T13:21:00.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260811-how-nathaniel-mary-quinn-went-from-rober",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "How Nathaniel Mary Quinn Went From Robert Taylor Homes To Designing Art For Rolling Stones",
+   "summary": "The artist behind the Stones’ 25th album cover also has a debut Chicago exhibit, “A Love Letter to My Mother,” which runs through Aug. 23 at the National Public Housing Museum.",
+   "url": "https://blockclubchicago.org/2026/08/11/how-nathaniel-mary-quinn-went-from-robert-taylor-homes-to-designing-art-for-rolling-stones/",
+   "published_at": "2026-08-11T13:45:20.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "politico-20260812-mayor-johnson-signs-executive-order-for-",
    "category": "elected_official",
