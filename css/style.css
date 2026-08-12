@@ -116,7 +116,7 @@ a { color: var(--sky); }
 .hero {
   background: linear-gradient(135deg, var(--navy) 0%, #14345c 100%);
   color: #fff;
-  padding: 40px 24px 56px;
+  padding: 22px 24px 22px;
 }
 .hero-photo {
   background:
@@ -133,7 +133,7 @@ a { color: var(--sky); }
 .last-updated {
   font-size: 0.85rem;
   color: var(--sky);
-  margin-top: 16px !important;
+  margin-top: 8px !important;
 }
 
 /* Ticker */
@@ -240,7 +240,7 @@ a { color: var(--sky); }
 /* Mayor's race */
 .race-section {
   max-width: 1100px;
-  margin: 24px auto 0;
+  margin: 14px auto 0;
   padding: 0 24px;
 }
 .race-sub {
@@ -253,7 +253,7 @@ a { color: var(--sky); }
   display: flex;
   gap: 14px;
   overflow-x: auto;
-  padding: 20px 2px 14px;
+  padding: 8px 2px 12px;
   scroll-snap-type: x mandatory;
 }
 .race-card {
@@ -1007,11 +1007,24 @@ body.photo-banner .hero {
   overflow: hidden;
   box-shadow: var(--shadow-2);
   text-align: center;
-  padding-bottom: 16px;
-  margin: 0 auto 14px;
-  max-width: 760px;
+  padding-bottom: 8px;
+  margin: 0 0 8px;
 }
-.race-bunting2 { display: block; width: 100%; height: 56px; }
+.race-bunting2 {
+  display: block;
+  width: 104%;
+  margin-left: -2%;
+  height: 56px;
+  transform-origin: 50% 0;
+  filter: drop-shadow(0 3px 2px rgba(0, 0, 0, 0.22));
+}
+@media (prefers-reduced-motion: no-preference) {
+  .race-bunting2 { animation: buntSway 6s ease-in-out infinite alternate; }
+}
+@keyframes buntSway {
+  from { transform: rotate(-0.5deg); }
+  to { transform: rotate(0.5deg); }
+}
 .race-banner-title {
   font-family: 'Anton', 'Newsreader', Impact, sans-serif;
   text-transform: uppercase;
@@ -1020,7 +1033,7 @@ body.photo-banner .hero {
   line-height: 1.02;
   letter-spacing: 1px;
   color: var(--navy);
-  margin: 14px 14px 6px;
+  margin: 8px 14px 2px;
   text-shadow: 2px 2px 0 rgba(10, 90, 120, 0.12);
 }
 .race-banner-sub {
@@ -1032,11 +1045,12 @@ body.photo-banner .hero {
   color: var(--red);
   margin: 0;
 }
-.race-actions { text-align: center; margin: 4px 0 0; }
-.race-odds-note { text-align: center; font-size: 0.78rem; color: var(--muted); margin: 10px 0 0; }
+.race-actions { text-align: center; margin: 0; }
+.race-actions a { margin-top: 8px; }
+.race-odds-note { text-align: center; font-size: 0.78rem; color: var(--muted); margin: 6px 0 0; }
 .race-register-btn {
   display: inline-block;
-  margin: 12px 6px 0;
+  margin: 8px 6px 0;
   padding: 9px 18px;
   background: var(--red);
   color: #fff;
