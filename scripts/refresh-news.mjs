@@ -245,6 +245,27 @@ async function main() {
     await writeFile(spotPath, JSON.stringify(spot, null, 1) + '\n');
   }
 
+  // Retire the pinned Top Story after a week: move it into the archive and
+  // clear the top slot (back to front-page defaults) until a new one is set
+  // by hand. Age is measured from pinned_at (when it went up), not the
+  // article date.
+  try {
+    const featuredPath = join(ROOT, 'data', 'featured.json');
+    const featured = JSON.parse(await readFile(featuredPath, 'utf8'));
+    const cur = featured.current;
+    const pinned = cur && (cur.pinned_at || cur.date);
+    if (cur && pinned) {
+      const ageDays = (Date.now() - new Date(pinned + 'T12:00:00').getTime()) / 86400000;
+      if (ageDays >= 7) {
+        featured.history = featured.history || [];
+        featured.history.unshift(cur);
+        featured.current = null;
+        await writeFile(featuredPath, JSON.stringify(featured, null, 1) + '\n');
+        console.log(`Top story "${cur.headline}" retired to the archive after ${Math.round(ageDays)} days.`);
+      }
+    }
+  } catch (e) { console.error('Top-story retire skipped:', e.message); }
+
   console.log(`News refresh: added ${added} item(s) from ${raw.length} feed entries; spotlight -> ${spot.current.name}.`);
 }
 
