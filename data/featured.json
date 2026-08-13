@@ -1,19 +1,20 @@
 {
  "_note": "The pinned Top Story on the homepage. 'current' shows at the top of the news area; move the old one into 'history' (newest first) when you swap it. type 'story' = a news writeup with a source link; type 'statement' = a released statement shown as a quote.",
- "current": {
-  "type": "story",
-  "kicker": "Top Story · West Loop",
-  "headline": "Soul City Church's West Loop expansion divides the neighborhood",
-  "image": "images/soul-city-church.jpg?v=20260805",
-  "image_alt": "Soul City Church at 1150 W. Adams St in the West Loop",
-  "summary": "Soul City Church wants to build a four-story addition at 1150 W. Adams Street, including a 1,500-seat auditorium, children's classrooms, and community space, to fit a Sunday congregation of about 2,200. The plan needs a zoning change and has drawn pushback from neighbors who cite years of noise, bass, and parking complaints. The church says the new auditorium would use masonry walls and thick concrete to contain the sound.",
-  "source_name": "Block Club Chicago",
-  "url": "https://blockclubchicago.org/2026/07/30/soul-city-church-expansion-faces-pushback-from-neighbors-over-years-of-noise-complaints/",
-  "date": "2026-07-30",
-  "date_label": "July 30, 2026",
-  "pinned_at": "2026-08-05"
- },
+ "current": null,
  "history": [
+  {
+   "type": "story",
+   "kicker": "Top Story · West Loop",
+   "headline": "Soul City Church's West Loop expansion divides the neighborhood",
+   "image": "images/soul-city-church.jpg?v=20260805",
+   "image_alt": "Soul City Church at 1150 W. Adams St in the West Loop",
+   "summary": "Soul City Church wants to build a four-story addition at 1150 W. Adams Street, including a 1,500-seat auditorium, children's classrooms, and community space, to fit a Sunday congregation of about 2,200. The plan needs a zoning change and has drawn pushback from neighbors who cite years of noise, bass, and parking complaints. The church says the new auditorium would use masonry walls and thick concrete to contain the sound.",
+   "source_name": "Block Club Chicago",
+   "url": "https://blockclubchicago.org/2026/07/30/soul-city-church-expansion-faces-pushback-from-neighbors-over-years-of-noise-complaints/",
+   "date": "2026-07-30",
+   "date_label": "July 30, 2026",
+   "pinned_at": "2026-08-05"
+  },
   {
    "type": "statement",
    "kicker": "34th Ward · July 30, 2026",
