@@ -1,6 +1,42 @@
 {
- "generated_at": "2026-08-13T13:22:11.266Z",
+ "generated_at": "2026-08-13T13:54:53.851Z",
  "items": [
+  {
+   "id": "politico-20260813-chicago-school-board-races-tornado-recor",
+   "category": "elected_official",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Chicago School Board Races, Tornado Records",
+   "summary": "Four final school board candidates have survived petition challenges and are on the ballot. Additionally, Illinois is set to shatter tornado records as the storm season continues.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-08-13T12:02:38.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "skyline-20260811-tornado-warnings",
+   "category": "civic_org",
+   "source_id": "skyline",
+   "source_name": "Skyline (Inside Publications)",
+   "source_type": "email_newsletter",
+   "title": "Tornado Warnings",
+   "summary": "The newsletter mentions tornado warnings interrupting everything, emphasizing the need for safety during the stormy weather in Chicago.",
+   "url": "https://insideonline.com/",
+   "published_at": "2026-08-11T15:49:42.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260813-26-things-to-do-in-chicago-this-weekend-",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "26 Things To Do In Chicago This Weekend: Air And Water Show, Little Italy Fest And More",
+   "summary": "The Glenwood Avenue Arts Festival, South Side Zine Fest, Sonido Music Festival and back-to-school events are also on deck.",
+   "url": "https://blockclubchicago.org/2026/08/13/26-things-to-do-in-chicago-this-weekend-air-and-water-show-little-italy-fest-and-more/",
+   "published_at": "2026-08-13T12:52:33.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "politico-20260813-chicago-school-board-races-endorsements",
    "category": "elected_official",
