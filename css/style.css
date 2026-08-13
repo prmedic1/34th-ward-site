@@ -148,8 +148,8 @@ a { color: var(--sky); }
 .ai-search-box select {
   border: none;
   border-right: 1px solid var(--border);
-  background: #f2f4f6;
-  color: var(--navy);
+  background: #000;
+  color: #fff;
   font-weight: 600;
   font-size: 0.85rem;
   padding: 0 8px;
@@ -167,14 +167,14 @@ a { color: var(--sky); }
 }
 .ai-ask {
   border: none;
-  background: #ffd21e;
-  color: #1a1a1a;
+  background: var(--sky);
+  color: #06303f;
   font-size: 1.15rem;
   line-height: 1;
   padding: 0 16px;
   cursor: pointer;
 }
-.ai-ask:hover { background: #f5c400; }
+.ai-ask:hover { background: #0fb3e6; }
 .ai-search-note { color: var(--sky); font-size: 0.82rem; margin: 8px 0 0; text-align: center; }
 
 /* Ticker */
