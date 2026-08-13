@@ -7,7 +7,7 @@
 <title>34th Ward Chicago News - West Loop, Loop &amp; South Loop</title>
 <meta name="description" content="Daily community news for Chicago's 34th Ward: the West Loop, Greektown, the Loop, and South Loop, plus the 2027 mayor's race and local businesses.">
 <link rel="canonical" href="https://34thward.com/">
-<link rel="stylesheet" href="css/style.css?v=20260812a">
+<link rel="stylesheet" href="css/style.css?v=20260812b">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="34thward.com">
 <meta property="og:title" content="The Official 34th Ward Neighborhood Page">
@@ -84,13 +84,15 @@
     <p>Updates from government offices, local businesses, civic groups, religious organizations, and community newsletters - gathered daily.</p>
     <p class="last-updated">Last updated: <span id="last-updated-time">-</span></p>
     <form class="ai-search" id="ai-search" role="search">
-      <input type="text" id="ai-q" name="q" placeholder="Ask AI about the West Loop, or anything..." aria-label="Ask an AI a question" autocomplete="off">
-      <select id="ai-engine" aria-label="Choose an AI">
-        <option value="claude">Claude</option>
-        <option value="chatgpt">ChatGPT</option>
-        <option value="gemini">Gemini</option>
-      </select>
-      <button type="submit">Ask</button>
+      <div class="ai-search-box">
+        <select id="ai-engine" aria-label="Choose an AI">
+          <option value="claude">Claude</option>
+          <option value="chatgpt">ChatGPT</option>
+          <option value="gemini">Gemini</option>
+        </select>
+        <input type="text" id="ai-q" name="q" placeholder="Ask AI about the West Loop, or anything..." aria-label="Ask an AI a question" autocomplete="off">
+        <button type="submit" class="ai-ask" aria-label="Ask" title="Ask">&#128161;</button>
+      </div>
     </form>
     <p class="ai-search-note" id="ai-search-note" hidden></p>
   </div>

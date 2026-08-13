@@ -135,44 +135,46 @@ a { color: var(--sky); }
   color: var(--sky);
   margin-top: 8px !important;
 }
-/* AI search box in the hero (Claude / ChatGPT / Gemini) */
-.ai-search {
+/* AI search box in the hero: engine dropdown + question + lightbulb button */
+.ai-search { max-width: 560px; margin: 12px auto 0; }
+.ai-search-box {
   display: flex;
-  gap: 8px;
-  max-width: 560px;
-  margin: 12px auto 0;
-  flex-wrap: wrap;
-  justify-content: center;
+  align-items: stretch;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: var(--shadow-1);
 }
-.ai-search input {
-  flex: 1 1 240px;
-  min-width: 180px;
-  padding: 10px 14px;
+.ai-search-box select {
   border: none;
-  border-radius: 8px;
+  border-right: 1px solid var(--border);
+  background: #f2f4f6;
+  color: var(--navy);
+  font-weight: 600;
+  font-size: 0.85rem;
+  padding: 0 8px;
+  cursor: pointer;
+  outline: none;
+}
+.ai-search-box input {
+  flex: 1;
+  min-width: 0;
+  border: none;
+  outline: none;
+  padding: 11px 14px;
   font-size: 0.95rem;
   color: var(--text);
 }
-.ai-search select {
-  padding: 10px 12px;
+.ai-ask {
   border: none;
-  border-radius: 8px;
-  font-size: 0.9rem;
-  background: #fff;
-  color: var(--text);
+  background: #ffd21e;
+  color: #1a1a1a;
+  font-size: 1.15rem;
+  line-height: 1;
+  padding: 0 16px;
   cursor: pointer;
 }
-.ai-search button {
-  padding: 10px 20px;
-  border: none;
-  border-radius: 8px;
-  background: var(--red);
-  color: #fff;
-  font-weight: 700;
-  font-size: 0.9rem;
-  cursor: pointer;
-}
-.ai-search button:hover { opacity: 0.92; }
+.ai-ask:hover { background: #f5c400; }
 .ai-search-note { color: var(--sky); font-size: 0.82rem; margin: 8px 0 0; text-align: center; }
 
 /* Ticker */
