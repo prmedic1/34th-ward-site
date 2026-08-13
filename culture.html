@@ -6,7 +6,7 @@
 <title>West Loop Arts &amp; Culture - Museums &amp; Theaters</title>
 <meta name="description" content="Arts and culture in Chicago's 34th Ward: museums, theaters, galleries, and live music across the West Loop, Greektown, and the Loop.">
 <link rel="canonical" href="https://34thward.com/culture.html">
-<link rel="stylesheet" href="css/style.css?v=20260721d">
+<link rel="stylesheet" href="css/style.css?v=20260813b">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="34thward.com">
 <meta property="og:title" content="The Official 34th Ward Neighborhood Page">
@@ -59,6 +59,10 @@
 </section>
 
 <main class="page-section">
+  <h3 class="section-heading">Upcoming Shows</h3>
+  <p class="directory-note" style="margin: 0 0 14px;">Concerts and comedy just announced at ward-area stages. Hunt for discounted tickets on <a href="https://www.bucketlisters.com/" target="_blank" rel="noopener">Bucketlisters</a> (pick Chicago).</p>
+  <div class="neighborhood-grid" id="shows-grid"></div>
+
   <h3 class="section-heading">Museums &amp; Galleries</h3>
   <div class="neighborhood-grid">
 
@@ -151,7 +155,34 @@
   <p><button id="share-site" class="share-btn" type="button">Share 34thward.com &#128228;</button></p>
 </footer>
 
-<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+
+  fetch('data/shows.json?d=20260813a')
+    .then((r) => r.json())
+    .then((data) => {
+      const today = new Date().toISOString().slice(0, 10);
+      const shows = (data.shows || [])
+        .filter((s) => s.date >= today)
+        .sort((a, b) => a.date.localeCompare(b.date));
+      const grid = document.getElementById('shows-grid');
+      if (!grid) return;
+      if (!shows.length) { grid.innerHTML = '<p class="empty-state">No upcoming shows announced right now.</p>'; return; }
+      grid.innerHTML = shows.map((s) => {
+        const loc = [s.venue, s.address].filter(Boolean).map(esc).join(', ');
+        return '<article class="card show-card">' +
+          '<p class="show-date">' + esc(s.date_label || s.date) + '</p>' +
+          '<h4>' + esc(s.title) + '</h4>' +
+          '<p class="summary">' + loc + '</p>' +
+          '<a class="read-more" href="' + escA(s.url) + '" target="_blank" rel="noopener">Tickets &amp; details &rarr;</a>' +
+          '</article>';
+      }).join('');
+    })
+    .catch((err) => console.error('Failed to load shows', err));
+
+  function esc(str) { const d = document.createElement('div'); d.textContent = str == null ? '' : str; return d.innerHTML; }
+  function escA(str) { return String(str == null ? '' : str).replace(/"/g, '&quot;'); }
+</script>
 <script src="js/ticker.js?v=20260708a"></script>
 <script src="js/analytics.js?v=20260730b" defer></script>
 </body>

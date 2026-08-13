@@ -1,0 +1,38 @@
+{
+ "_note": "Upcoming shows at ward-area stages, pulled from venue email announcements. The culture page shows only future dates and drops them once they pass.",
+ "updated_at": "2026-08-13",
+ "shows": [
+  {
+   "title": "Adrian Uribe: 50 y Pico",
+   "venue": "The Chicago Theatre",
+   "address": "175 N. State St",
+   "date": "2026-09-11",
+   "date_label": "Friday, September 11",
+   "url": "https://www.msg.com/the-chicago-theatre"
+  },
+  {
+   "title": "Bert Kreischer",
+   "venue": "The Chicago Theatre",
+   "address": "175 N. State St",
+   "date": "2026-11-06",
+   "date_label": "November 6 & 7",
+   "url": "https://www.msg.com/the-chicago-theatre"
+  },
+  {
+   "title": "Nurse John: Against Medical Advice Tour",
+   "venue": "The Chicago Theatre",
+   "address": "175 N. State St",
+   "date": "2026-11-20",
+   "date_label": "Friday, November 20",
+   "url": "https://www.msg.com/the-chicago-theatre"
+  },
+  {
+   "title": "Seth Meyers",
+   "venue": "The Chicago Theatre",
+   "address": "175 N. State St",
+   "date": "2027-01-16",
+   "date_label": "Saturday, January 16",
+   "url": "https://www.msg.com/the-chicago-theatre"
+  }
+ ]
+}
