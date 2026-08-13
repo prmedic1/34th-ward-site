@@ -1,4 +1,4 @@
-const DATA_V = '20260811h';
+const DATA_V = '20260812a';
 
 document.getElementById('year').textContent = new Date().getFullYear();
 
@@ -249,6 +249,36 @@ function renderFrontStory(src, story, count, isLead) {
       <p class="np-dateline">${date} &middot; <a href="${escapeAttr(story.url)}" target="_blank" rel="noopener">Read original &rarr;</a></p>
       ${more}
     </article>`;
+}
+
+// AI search box: opens the chosen assistant with the typed question. Gemini
+// has no URL to pre-fill, so we copy the question and open the app.
+const aiForm = document.getElementById('ai-search');
+if (aiForm) {
+  aiForm.addEventListener('submit', function (e) {
+    e.preventDefault();
+    const q = document.getElementById('ai-q').value.trim();
+    if (!q) return;
+    const engine = document.getElementById('ai-engine').value;
+    const enc = encodeURIComponent(q);
+    const note = document.getElementById('ai-search-note');
+    if (note) note.hidden = true;
+    if (engine === 'claude') {
+      window.open('https://claude.ai/new?q=' + enc, '_blank', 'noopener');
+    } else if (engine === 'chatgpt') {
+      window.open('https://chatgpt.com/?q=' + enc, '_blank', 'noopener');
+    } else {
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(q).catch(function () {});
+      }
+      window.open('https://gemini.google.com/app', '_blank', 'noopener');
+      if (note) {
+        note.textContent = 'Your question was copied - paste it into Gemini (Ctrl+V or Cmd+V).';
+        note.hidden = false;
+        setTimeout(function () { note.hidden = true; }, 7000);
+      }
+    }
+  });
 }
 
 const signupForm = document.getElementById('signup-form');
