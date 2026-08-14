@@ -1,6 +1,54 @@
 {
- "generated_at": "2026-08-14T13:16:18.725Z",
+ "generated_at": "2026-08-14T13:50:53.388Z",
  "items": [
+  {
+   "id": "blockclub-20260813-shedd-aquarium-takes-in-4-more-rescued-b",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Shedd Aquarium Takes In 4 More Rescued Beluga Whales From Shuttered Canadian Marine Park",
+   "summary": "The four belugas arrived at the Shedd Thursday morning, doubling the number of white whales the aquarium has taken in as part of an unprecedented rescue effort.",
+   "url": "https://blockclubchicago.org/2026/08/13/shedd-aquarium-takes-in-4-more-rescued-beluga-whales-from-shuttered-canadian-marine-park/",
+   "published_at": "2026-08-13T22:48:38.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260813-oh-mary-starring-j-harrison-ghee-coming-",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Oh, Mary!' Starring J. Harrison Ghee Coming To Chicago In January",
+   "summary": "The Ticketmaster website has a countdown to Nov. 12, the day local \"Oh, Mary!\" tickets will be available for purchase.",
+   "url": "https://blockclubchicago.org/2026/08/13/oh-mary-starring-j-harrison-ghee-coming-to-chicago-in-january/",
+   "published_at": "2026-08-13T21:41:05.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260813-the-no-news-bears-chicago-fans-are-fed-u",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "The No News Bears'? Chicago Fans Are Fed Up With Team's Stadium Drama",
+   "summary": "The Bears say they're inching closer to a decision, but Thursday's news conference left fans with few answers after years of shifting stadium plans.",
+   "url": "https://blockclubchicago.org/2026/08/13/the-no-news-bears-chicago-fans-are-fed-up-with-teams-stadium-drama/",
+   "published_at": "2026-08-13T19:39:11.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260813-riot-fest-releases-aftershow-lineup-blac",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Riot Fest Releases Aftershow Lineup: Black Flag, Alkaline Trio, Shatner And More",
+   "summary": "The 21st Riot Fest will keep the party going with an aftershow lineup featuring Yard Act at Cobra Lounge, Chat Pile at Empty Bottle and Mom Jeans at Bottom Lounge.",
+   "url": "https://blockclubchicago.org/2026/08/13/riot-fest-releases-aftershow-lineup-black-flag-alkaline-trio-shatner-and-more/",
+   "published_at": "2026-08-13T19:07:22.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "abc7-20260814-vehicle-catches-fire-on-dusable-lake-sho",
    "category": "civic_org",
