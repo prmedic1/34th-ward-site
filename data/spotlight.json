@@ -1,12 +1,12 @@
 {
  "_rotation_note": "The daily job picks the next business each morning - rotating among ward businesses with priority to spotlight requests from owners and newly opened spots. Keep yesterday's entries in history.",
  "current": {
-  "date": "2026-08-13",
-  "name": "Avec",
-  "address": "615 W. Randolph St, West Loop",
-  "website": "https://www.avecrestaurant.com/",
-  "image": "images/spotlight/avec.jpg?v=2",
-  "blurb": "One of Restaurant Row's originals, a warm cedar-lined room serving Mediterranean small plates from a wood oven at long communal tables. The chorizo-stuffed dates are a Chicago rite of passage."
+  "date": "2026-08-14",
+  "name": "Cruz Blanca Brewery & Taqueria",
+  "address": "904 W. Randolph St, West Loop",
+  "website": "https://www.cruzblanca.com/",
+  "image": "images/spotlight/cruz-blanca.jpg",
+  "blurb": "Rick Bayless's West Loop taqueria and brewery, pairing wood-grilled tacos and Oaxacan flavors with house-brewed beer and agave cocktails."
  },
  "history": [
   {
@@ -408,6 +408,14 @@
    "website": "https://www.duckduckgoatchicago.com/",
    "image": "images/spotlight/duck-duck-goat.jpg",
    "blurb": "Stephanie Izard's playful Chinese restaurant, with hand-pulled noodles, dim sum, and Peking duck in a bustling, mural-lined room."
+  },
+  {
+   "date": "2026-08-13",
+   "name": "Avec",
+   "address": "615 W. Randolph St, West Loop",
+   "website": "https://www.avecrestaurant.com/",
+   "image": "images/spotlight/avec.jpg?v=2",
+   "blurb": "One of Restaurant Row's originals, a warm cedar-lined room serving Mediterranean small plates from a wood oven at long communal tables. The chorizo-stuffed dates are a Chicago rite of passage."
   }
  ]
 }
