@@ -1,6 +1,42 @@
 {
- "generated_at": "2026-08-14T13:50:53.388Z",
+ "generated_at": "2026-08-15T12:45:01.238Z",
  "items": [
+  {
+   "id": "blockclub-20260814-museum-that-will-house-little-italy-s-co",
+   "category": "business",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Museum That Will House Little Italy’s Columbus Statue Readies For Opening As Taylor St. Fest Kicks Off",
+   "summary": "The oft-vandalized monument will be back on display for the first time since its controversial removal in 2020 after an Italian American advocacy group made a deal with the Park District.",
+   "url": "https://blockclubchicago.org/2026/08/14/museum-that-will-house-little-italys-columbus-statue-readies-for-opening-as-taylor-st-fest-kicks-off/",
+   "published_at": "2026-08-14T20:15:20.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260814-new-f1-arcade-brings-formula-1-glam-to-r",
+   "category": "business",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "New F1 Arcade Brings Formula 1 Glam To River North",
+   "summary": "The multi-level space with dozens of racing simulators and an upscale menu opened in the old Rock Bottom Brewery at State and Grand Friday.",
+   "url": "https://blockclubchicago.org/2026/08/14/new-f1-arcade-brings-formula-1-glam-to-river-north/",
+   "published_at": "2026-08-14T13:24:08.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260814-juvenile-detention-center-s-3k-race-allo",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Juvenile Detention Center’s 3K Race Allows ‘Youth To Be Youth, Regardless Of Their Crime’",
+   "summary": "The Cook County Juvenile Temporary Detention Center teamed up with nonprofit Chicago Run to lead boys in the facility in a day of fun, teamwork and reflection.",
+   "url": "https://blockclubchicago.org/2026/08/14/juvenile-detention-centers-first-ever-3k-race-allows-youth-to-be-youth-regardless-of-their-crime/",
+   "published_at": "2026-08-14T13:00:00.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "blockclub-20260813-shedd-aquarium-takes-in-4-more-rescued-b",
    "category": "civic_org",
@@ -1211,18 +1247,6 @@
    "summary": "Chicago police are looking for a suspect in an attack that happened on a CTA Green Line train on the city's Near West Side earlier this month.",
    "url": "https://abc7chicago.com/post/chicago-crime-suspect-wanted-attack-cta-green-line-train-damen-stop-police-department-says/19570846/",
    "published_at": "2026-07-25T13:44:55.831Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "cbs-20260725-5-year-old-boy-man-injured-in-drive-by-s",
-   "category": "civic_org",
-   "source_id": "cbs",
-   "source_name": "CBS News Chicago",
-   "source_type": "web_feed",
-   "title": "5-year-old boy, man injured in drive-by shooting on Chicago's Near West Side",
-   "summary": "A 5-year-old boy and a man were injured during a drive-by shooting on Chicago's Near West Side overnight.",
-   "url": "https://www.cbsnews.com/chicago/news/drive-by-shooting-chicago-near-west-side/",
-   "published_at": "2026-07-25T12:16:21.000Z",
    "flagged_for_review": false
   }
  ]
