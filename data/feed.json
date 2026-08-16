@@ -1,6 +1,66 @@
 {
- "generated_at": "2026-08-16T12:47:45.310Z",
+ "generated_at": "2026-08-16T13:08:21.604Z",
  "items": [
+  {
+   "id": "politico-20260814-bears-stadium-update-chicago-bears",
+   "category": "elected_official",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Bears Stadium Update, Chicago Bears",
+   "summary": "The Chicago Bears are considering a new stadium in Indiana, but Illinois leaders say conversations are still happening. The team's president and CEO, Kevin Warren, said the Bears remain fixed on Hammond, Indiana, but have had occasional meetings with the state of Illinois. The Bears' chairman, George McCaskey, acknowledged that some fans are frustrated about the idea of the Bears playing in Indiana, but insisted that the team will remain the Chicago Bears regardless of the location.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-08-14T11:59:01.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "politico-20260814-cta-deploying-violence-interrupters-ment",
+   "category": "elected_official",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "CTA Deploying Violence Interrupters, Mental Health Clinicians",
+   "summary": "The Chicago Transit Authority (CTA) will deploy violence interrupters and mental health clinicians on trains this fall. The move is aimed at addressing safety concerns and providing support to passengers. The CTA will work with community organizations to provide training and resources for the violence interrupters and mental health clinicians.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-08-14T11:59:01.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "wca-20260814-west-loop-art-fest-august-22-23",
+   "category": "civic_org",
+   "source_id": "wca",
+   "source_name": "The WCA Weekly",
+   "source_type": "email_newsletter",
+   "title": "West Loop Art Fest, August 22-23",
+   "summary": "The West Loop Art Fest will take place on August 22-23, featuring original artwork from talented artists, live art demonstrations, and interactive experiences. The event will transform Fulton Street into a vibrant outdoor art experience in the heart of Chicago's West Loop. The fest is free and open to the public, and will include food, drinks, and music.",
+   "url": "https://www.wcachicago.org/",
+   "published_at": "2026-08-14T11:31:50.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "wca-20260814-west-loop-networking-event-august-19",
+   "category": "civic_org",
+   "source_id": "wca",
+   "source_name": "The WCA Weekly",
+   "source_type": "email_newsletter",
+   "title": "West Loop Networking Event, August 19",
+   "summary": "The West Central Association (WCA) will host a networking event on August 19 at the MillerKnoll Brand Collective Showroom. The event will provide an opportunity for WCA members, local business leaders, and community partners to connect and network in a relaxed setting. The event will include light refreshments and a chance to explore the MillerKnoll showroom.",
+   "url": "https://www.wcachicago.org/",
+   "published_at": "2026-08-14T11:31:50.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "wca-20260814-madison-row-fest-september-12",
+   "category": "civic_org",
+   "source_id": "wca",
+   "source_name": "The WCA Weekly",
+   "source_type": "email_newsletter",
+   "title": "Madison Row Fest, September 12",
+   "summary": "The Madison Row Fest will take place on September 12, featuring live entertainment, food and drinks, local vendors, kids' activities, and neighborhood traditions. The event is a family-friendly community block party celebrating the best of the West Loop. Sponsorship opportunities are available for businesses of all sizes looking to connect with the community and increase their visibility.",
+   "url": "https://www.wcachicago.org/",
+   "published_at": "2026-08-14T11:31:50.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "politico-20260814-chicago-bears-stadium-update-bears-to-ke",
    "category": "elected_official",
