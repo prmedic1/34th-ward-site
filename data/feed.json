@@ -1,6 +1,114 @@
 {
- "generated_at": "2026-08-15T13:06:02.977Z",
+ "generated_at": "2026-08-16T12:47:45.310Z",
  "items": [
+  {
+   "id": "politico-20260814-chicago-bears-stadium-update-bears-to-ke",
+   "category": "elected_official",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Chicago Bears Stadium Update, Bears to Keep Name",
+   "summary": "The Chicago Bears are focused on building a new stadium in Hammond, Indiana, but have not completely shut the door on Illinois. The team will keep the 'Chicago Bears' name regardless of the stadium location. The Bears are in regular contact with Indiana state leaders as they work through financing, environmental reviews, and site evaluations.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-08-14T11:59:01.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "politico-20260814-cta-deploying-violence-interrupters-and-",
+   "category": "elected_official",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "CTA Deploying Violence Interrupters and Mental Health Clinicians",
+   "summary": "The Chicago Transit Authority (CTA) will deploy violence interrupters and mental health clinicians on trains this fall. This effort aims to improve safety and provide support to passengers. The program is part of a broader initiative to address violence and mental health issues in Chicago.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-08-14T11:59:01.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "axios-20260814-bears-stadium-update",
+   "category": "business",
+   "source_id": "axios",
+   "source_name": "Axios Chicago",
+   "source_type": "email_newsletter",
+   "title": "Bears Stadium Update",
+   "summary": "The Chicago Bears are considering a new stadium in Hammond, Indiana. The team has not ruled out staying in Illinois, but Indiana officials have been more receptive to their proposals. The Bears' decision will have significant implications for the city of Chicago and the NFL.",
+   "url": "https://www.axios.com/local/chicago",
+   "published_at": "2026-08-14T11:28:22.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "wca-20260814-west-loop-art-fest-on-august-22-and-23",
+   "category": "civic_org",
+   "source_id": "wca",
+   "source_name": "The WCA Weekly",
+   "source_type": "email_newsletter",
+   "title": "West Loop Art Fest on August 22 and 23",
+   "summary": "The West Loop Art Fest will take place on August 22 and 23, featuring original artwork from talented artists, live art demonstrations, and interactive experiences. The event will transform Fulton Street into a vibrant outdoor art experience. The West Central Association is hosting the event, which will support the local creative community.",
+   "url": "https://www.wcachicago.org/",
+   "published_at": "2026-08-14T11:31:50.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "wca-20260814-west-loop-street-closures-for-art-fest",
+   "category": "civic_org",
+   "source_id": "wca",
+   "source_name": "The WCA Weekly",
+   "source_type": "email_newsletter",
+   "title": "West Loop Street Closures for Art Fest",
+   "summary": "West Loop streets will be closed from August 21 to 24 for the West Loop Art Fest. The closures will affect W. Fulton St. from N. Aberdeen St. to N. Peoria St. and cross streets at N. Morgan St., N. Carpenter St., N. Sangamon St., and N. Peoria St. Residents and visitors should plan ahead and use alternate routes.",
+   "url": "https://www.wcachicago.org/",
+   "published_at": "2026-08-14T11:31:50.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "wca-20260814-west-loop-wellness-fest-on-september-19",
+   "category": "civic_org",
+   "source_id": "wca",
+   "source_name": "The WCA Weekly",
+   "source_type": "email_newsletter",
+   "title": "West Loop Wellness Fest on September 19",
+   "summary": "The West Loop Wellness Fest will take place on September 19 at Union Padel Club. The event will feature local health and wellness businesses, instructor-led fitness and wellness classes, and interactive vendor experiences. A portion of the ticket sales will benefit Mercy Home for Boys and Girls, supporting youth in the community.",
+   "url": "https://www.wcachicago.org/",
+   "published_at": "2026-08-14T11:31:50.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "abc7-20260816-woman-shot-to-death-in-near-west-side-ch",
+   "category": "civic_org",
+   "source_id": "abc7",
+   "source_name": "ABC7 Chicago",
+   "source_type": "web_feed",
+   "title": "Woman shot to death in Near West Side, Chicago police say",
+   "summary": "A woman died after being shot in the Near West Side neighborhood, Chicago police said.",
+   "url": "https://abc7chicago.com/post/chicago-shooting-today-woman-shot-death-west-side-13th-street-throop-police-say/19687020/",
+   "published_at": "2026-08-16T12:47:37.460Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "cbs-20260816-woman-dead-after-shooting-on-chicago-s-n",
+   "category": "civic_org",
+   "source_id": "cbs",
+   "source_name": "CBS News Chicago",
+   "source_type": "web_feed",
+   "title": "Woman dead after shooting on Chicago's Near West Side",
+   "summary": "A woman was killed in a shooting on Chicago's Near West Side early Sunday morning.",
+   "url": "https://www.cbsnews.com/chicago/news/woman-dead-shooting-chicago-near-west-side/",
+   "published_at": "2026-08-16T12:31:06.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "cbs-20260816-woman-killed-after-quarrel-leads-to-shoo",
+   "category": "civic_org",
+   "source_id": "cbs",
+   "source_name": "CBS News Chicago",
+   "source_type": "web_feed",
+   "title": "Woman killed after quarrel leads to shooting on Chicago's Near West Side",
+   "summary": "A woman was killed in a shooting on Chicago’s Near West Side early Sunday morning.",
+   "url": "https://www.cbsnews.com/chicago/video/woman-killed-after-quarrel-leads-to-shooting-on-chicagos-near-west-side/",
+   "published_at": "2026-08-16T12:27:00.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "blockclub-20260814-museum-that-will-house-little-italy-s-co",
    "category": "business",
@@ -1223,30 +1331,6 @@
    "summary": "The two-tier, hot-dog-lined confetti cake marks the Wienermobile’s 90th birthday. It's available Friday-Sunday for $90 at Milk Bar in Fulton Market.",
    "url": "https://blockclubchicago.org/2026/07/27/the-oscar-mayer-wiener-cake-exists-heres-how-to-get-one/",
    "published_at": "2026-07-27T12:17:33.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "abc7-20260725-5-year-old-boy-shot-critically-injured-m",
-   "category": "civic_org",
-   "source_id": "abc7",
-   "source_name": "ABC7 Chicago",
-   "source_type": "web_feed",
-   "title": "5-year-old boy shot, critically injured, man also wounded in Little Italy: Chicago police",
-   "summary": "A 5-year-old boy was critically injured in a shooting that also wounded a man early Saturday morning in Chicago's Little Italy neighborhood, Chicago police said.",
-   "url": "https://abc7chicago.com/post/chicago-shooting-critically-injured-5-year-old-boy-man-wounded-west-14th-street-little-italy-cpd/19573694/",
-   "published_at": "2026-07-25T13:44:55.831Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "abc7-20260725-suspect-wanted-in-attack-on-cta-green-li",
-   "category": "civic_org",
-   "source_id": "abc7",
-   "source_name": "ABC7 Chicago",
-   "source_type": "web_feed",
-   "title": "Suspect wanted in attack on CTA Green Line train, police say",
-   "summary": "Chicago police are looking for a suspect in an attack that happened on a CTA Green Line train on the city's Near West Side earlier this month.",
-   "url": "https://abc7chicago.com/post/chicago-crime-suspect-wanted-attack-cta-green-line-train-damen-stop-police-department-says/19570846/",
-   "published_at": "2026-07-25T13:44:55.831Z",
    "flagged_for_review": false
   }
  ]

@@ -1,12 +1,12 @@
 {
  "_rotation_note": "The daily job picks the next business each morning - rotating among ward businesses with priority to spotlight requests from owners and newly opened spots. Keep yesterday's entries in history.",
  "current": {
-  "date": "2026-08-15",
-  "name": "Rose Mary",
-  "address": "932 W. Fulton Market, Fulton Market",
-  "website": "https://www.rosemarychicago.com/",
-  "image": "images/spotlight/rose-mary.jpg",
-  "blurb": "Top Chef winner Joe Flamm's Adriatic cooking, a lively mash-up of Italian and Croatian, from handmade pastas to wood-grilled meats on Fulton Market."
+  "date": "2026-08-16",
+  "name": "The Aviary",
+  "address": "955 W. Fulton Market, Fulton Market",
+  "website": "https://www.theaviary.com/",
+  "image": "images/spotlight/the-aviary.jpg",
+  "blurb": "The Alinea Group's avant-garde cocktail lounge, where drinks arrive as edible art and the menu of cocktails is unlike anywhere else in the city."
  },
  "history": [
   {
@@ -424,6 +424,14 @@
    "website": "https://www.cruzblanca.com/",
    "image": "images/spotlight/cruz-blanca.jpg",
    "blurb": "Rick Bayless's West Loop taqueria and brewery, pairing wood-grilled tacos and Oaxacan flavors with house-brewed beer and agave cocktails."
+  },
+  {
+   "date": "2026-08-15",
+   "name": "Rose Mary",
+   "address": "932 W. Fulton Market, Fulton Market",
+   "website": "https://www.rosemarychicago.com/",
+   "image": "images/spotlight/rose-mary.jpg",
+   "blurb": "Top Chef winner Joe Flamm's Adriatic cooking, a lively mash-up of Italian and Croatian, from handmade pastas to wood-grilled meats on Fulton Market."
   }
  ]
 }
