@@ -1,6 +1,18 @@
 {
- "generated_at": "2026-08-16T13:08:21.604Z",
+ "generated_at": "2026-08-17T12:52:14.129Z",
  "items": [
+  {
+   "id": "abc7-20260817-chicago-officials-investigating-2-suspic",
+   "category": "business",
+   "source_id": "abc7",
+   "source_name": "ABC7 Chicago",
+   "source_type": "web_feed",
+   "title": "Chicago officials investigating 2 suspicious fires at business in West Loop",
+   "summary": "The Chicago Fire Department is investigating two suspicious fires at a business that operates as a museum and a Mediterranean restaurant in the West Loop.",
+   "url": "https://abc7chicago.com/post/chicago-officials-investigating-2-suspicious-fires-museum-holography-habibti-mediterranean-restaurant-west-loop/19689796/",
+   "published_at": "2026-08-17T12:52:14.128Z",
+   "flagged_for_review": false
+  },
   {
    "id": "politico-20260814-bears-stadium-update-chicago-bears",
    "category": "elected_official",
@@ -1379,18 +1391,6 @@
    "summary": "Four Star Mushrooms in the West Loop supplies to grocery stores and some of Chicago's most acclaimed restaurants. Its mushrooms have also appeared on the hit FX series.",
    "url": "https://blockclubchicago.org/2026/07/27/this-city-mushroom-farm-grows-fungi-for-chicagos-top-chefs-and-the-bear/",
    "published_at": "2026-07-27T13:25:00.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260727-the-oscar-mayer-wiener-cake-exists-here-",
-   "category": "business",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "The Oscar Mayer Wiener Cake' Exists. Here’s How To Get One",
-   "summary": "The two-tier, hot-dog-lined confetti cake marks the Wienermobile’s 90th birthday. It's available Friday-Sunday for $90 at Milk Bar in Fulton Market.",
-   "url": "https://blockclubchicago.org/2026/07/27/the-oscar-mayer-wiener-cake-exists-heres-how-to-get-one/",
-   "published_at": "2026-07-27T12:17:33.000Z",
    "flagged_for_review": false
   }
  ]
