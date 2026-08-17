@@ -6,7 +6,7 @@
 <title>West Loop Arts &amp; Culture - Museums &amp; Theaters</title>
 <meta name="description" content="Arts and culture in Chicago's 34th Ward: museums, theaters, galleries, and live music across the West Loop, Greektown, and the Loop.">
 <link rel="canonical" href="https://34thward.com/culture.html">
-<link rel="stylesheet" href="css/style.css?v=20260813b">
+<link rel="stylesheet" href="css/style.css?v=20260817b">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="34thward.com">
 <meta property="og:title" content="The Official 34th Ward Neighborhood Page">
@@ -62,6 +62,18 @@
   <h3 class="section-heading">Upcoming Shows</h3>
   <p class="directory-note" style="margin: 0 0 14px;">Concerts and comedy just announced at ward-area stages. Hunt for discounted tickets on <a href="https://www.bucketlisters.com/" target="_blank" rel="noopener">Bucketlisters</a> (pick Chicago).</p>
   <div class="neighborhood-grid" id="shows-grid"></div>
+
+  <h3 class="section-heading">Chicago Street Festivals</h3>
+  <p class="directory-note" style="margin: 0 0 14px;">The season's festivals across the city, with the ones in and around the West Loop highlighted. Dates from the <a href="https://www.choosechicago.com/articles/festivals-special-events/chicago-festival-event-guide/" target="_blank" rel="noopener">city's festival guide</a>; each drops off once it passes.</p>
+  <div id="fest-local-wrap" hidden>
+    <p class="fest-group-label">In &amp; around the West Loop</p>
+    <div class="neighborhood-grid fest-grid" id="fest-local"></div>
+  </div>
+  <div id="fest-city-wrap" hidden>
+    <p class="fest-group-label">Across the city</p>
+    <div class="neighborhood-grid fest-grid" id="fest-city"></div>
+  </div>
+  <p class="empty-state" id="fest-empty" hidden>No festivals coming up right now.</p>
 
   <h3 class="section-heading">Museums &amp; Galleries</h3>
   <div class="neighborhood-grid">
@@ -186,6 +198,34 @@
       }).join('');
     })
     .catch((err) => console.error('Failed to load shows', err));
+
+  fetch('data/festivals.json?d=20260817a')
+    .then((r) => r.json())
+    .then((data) => {
+      const today = new Date().toISOString().slice(0, 10);
+      const upcoming = (data.festivals || [])
+        .filter((f) => (f.date_end || f.date_start) >= today)
+        .sort((a, b) => a.date_start.localeCompare(b.date_start));
+      const card = (f) =>
+        '<article class="card fest-card' + (f.local ? ' fest-card--local' : '') + '">' +
+          '<p class="fest-date">' + esc(f.date_label || f.date_start) + '</p>' +
+          '<h4>' + esc(f.name) + '</h4>' +
+          '<p class="fest-where">' + [f.neighborhood, f.location].filter(Boolean).map(esc).join(' &middot; ') + '</p>' +
+          (f.url ? '<a class="read-more" href="' + escA(f.url) + '" target="_blank" rel="noopener">Details &amp; tickets &rarr;</a>' : '') +
+        '</article>';
+      const local = upcoming.filter((f) => f.local);
+      const city = upcoming.filter((f) => !f.local);
+      if (local.length) {
+        document.getElementById('fest-local').innerHTML = local.map(card).join('');
+        document.getElementById('fest-local-wrap').hidden = false;
+      }
+      if (city.length) {
+        document.getElementById('fest-city').innerHTML = city.map(card).join('');
+        document.getElementById('fest-city-wrap').hidden = false;
+      }
+      if (!upcoming.length) document.getElementById('fest-empty').hidden = false;
+    })
+    .catch((err) => console.error('Failed to load festivals', err));
 
   function esc(str) { const d = document.createElement('div'); d.textContent = str == null ? '' : str; return d.innerHTML; }
   function escA(str) { return String(str == null ? '' : str).replace(/"/g, '&quot;'); }

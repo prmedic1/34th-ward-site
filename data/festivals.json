@@ -1,0 +1,187 @@
+{
+ "_note": "Chicago street-festival guide for the culture page. Sourced from the city's festival guide (choosechicago.com) and each festival's own page; ward-area highlights verified individually. 'local: true' festivals are in or around the West Loop and its neighbors and get highlighted. The page shows only festivals whose date_end is today or later and drops them once they pass. Refresh seasonally.",
+ "updated_at": "2026-08-17",
+ "guide_url": "https://www.choosechicago.com/articles/festivals-special-events/chicago-festival-event-guide/",
+ "festivals": [
+  {
+   "name": "West Loop Art Fest",
+   "neighborhood": "West Loop",
+   "location": "Fulton Market, along Fulton Street",
+   "date_start": "2026-08-22",
+   "date_end": "2026-08-23",
+   "date_label": "Aug 22-23",
+   "url": "https://www.choosechicago.com/event/west-loop-art-fest-2/",
+   "local": true
+  },
+  {
+   "name": "Taste of Greektown",
+   "neighborhood": "Greektown",
+   "location": "Halsted St, Adams to Van Buren",
+   "date_start": "2026-08-28",
+   "date_end": "2026-08-30",
+   "date_label": "Aug 28-30",
+   "url": "https://greektownchicago.org/taste-of-greektown/",
+   "local": true
+  },
+  {
+   "name": "Chicago Jazz Festival",
+   "neighborhood": "The Loop",
+   "location": "Millennium Park and neighborhood stages",
+   "date_start": "2026-09-03",
+   "date_end": "2026-09-06",
+   "date_label": "Sept 3-6",
+   "url": null,
+   "local": true
+  },
+  {
+   "name": "El Grito Chicago",
+   "neighborhood": "The Loop",
+   "location": "Grant Park",
+   "date_start": "2026-09-12",
+   "date_end": "2026-09-13",
+   "date_label": "Sept 12-13",
+   "url": null,
+   "local": true
+  },
+  {
+   "name": "Printers Row Lit Fest",
+   "neighborhood": "Printers Row",
+   "location": "S. Dearborn St, Ida B. Wells to Polk",
+   "date_start": "2026-09-12",
+   "date_end": "2026-09-13",
+   "date_label": "Sept 12-13",
+   "url": "https://printersrowlitfest.org/",
+   "local": true
+  },
+  {
+   "name": "Lakeview Taco Fest",
+   "neighborhood": "Lakeview",
+   "location": "Southport Corridor",
+   "date_start": "2026-08-21",
+   "date_end": "2026-08-23",
+   "date_label": "Aug 21-23",
+   "url": null,
+   "local": false
+  },
+  {
+   "name": "Villapalooza",
+   "neighborhood": "Little Village",
+   "location": "26th Street",
+   "date_start": "2026-08-22",
+   "date_end": "2026-08-22",
+   "date_label": "Aug 22",
+   "url": null,
+   "local": false
+  },
+  {
+   "name": "Edison Park Fest",
+   "neighborhood": "Edison Park",
+   "location": "Northwest Side",
+   "date_start": "2026-08-28",
+   "date_end": "2026-08-30",
+   "date_label": "Aug 28-30",
+   "url": null,
+   "local": false
+  },
+  {
+   "name": "Edgewater Music Fest",
+   "neighborhood": "Edgewater",
+   "location": "Far North Side",
+   "date_start": "2026-08-28",
+   "date_end": "2026-08-30",
+   "date_label": "Aug 28-30",
+   "url": null,
+   "local": false
+  },
+  {
+   "name": "Taste of Polonia",
+   "neighborhood": "Jefferson Park",
+   "location": "Copernicus Center",
+   "date_start": "2026-09-04",
+   "date_end": "2026-09-07",
+   "date_label": "Sept 4-7",
+   "url": null,
+   "local": false
+  },
+  {
+   "name": "Great American Lobster Fest",
+   "neighborhood": "Streeterville",
+   "location": "Navy Pier",
+   "date_start": "2026-09-05",
+   "date_end": "2026-09-06",
+   "date_label": "Sept 5-6",
+   "url": null,
+   "local": false
+  },
+  {
+   "name": "German American Oktoberfest",
+   "neighborhood": "Lincoln Square",
+   "location": "Western & Leland",
+   "date_start": "2026-09-11",
+   "date_end": "2026-09-13",
+   "date_label": "Sept 11-13",
+   "url": null,
+   "local": false
+  },
+  {
+   "name": "Ravenswood Art Walk",
+   "neighborhood": "Ravenswood",
+   "location": "Ravenswood Corridor",
+   "date_start": "2026-09-12",
+   "date_end": "2026-09-13",
+   "date_label": "Sept 12-13",
+   "url": null,
+   "local": false
+  },
+  {
+   "name": "Retro on Roscoe",
+   "neighborhood": "Roscoe Village",
+   "location": "Roscoe St",
+   "date_start": "2026-09-18",
+   "date_end": "2026-09-20",
+   "date_label": "Sept 18-20",
+   "url": null,
+   "local": false
+  },
+  {
+   "name": "Old Town Oktoberfest",
+   "neighborhood": "Old Town",
+   "location": "North & Wells",
+   "date_start": "2026-09-18",
+   "date_end": "2026-09-20",
+   "date_label": "Sept 18-20",
+   "url": null,
+   "local": false
+  },
+  {
+   "name": "Riot Fest & Carnival",
+   "neighborhood": "North Lawndale",
+   "location": "Douglass Park",
+   "date_start": "2026-09-18",
+   "date_end": "2026-09-20",
+   "date_label": "Sept 18-20",
+   "url": "https://riotfest.org/",
+   "local": false
+  },
+  {
+   "name": "Lakeview East Festival of the Arts",
+   "neighborhood": "Lakeview",
+   "location": "Broadway, Belmont to Hawthorne",
+   "date_start": "2026-09-19",
+   "date_end": "2026-09-20",
+   "date_label": "Sept 19-20",
+   "url": null,
+   "local": false
+  },
+  {
+   "name": "Hyde Park Jazz Festival",
+   "neighborhood": "Hyde Park",
+   "location": "Midway Plaisance & venues",
+   "date_start": "2026-09-26",
+   "date_end": "2026-09-27",
+   "date_label": "Sept 26-27",
+   "url": null,
+   "local": false
+  }
+ ]
+}
