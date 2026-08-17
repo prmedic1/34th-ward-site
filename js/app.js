@@ -1,4 +1,4 @@
-const DATA_V = '20260812a';
+const DATA_V = '20260817a';
 
 document.getElementById('year').textContent = new Date().getFullYear();
 
@@ -75,12 +75,13 @@ fetch('data/featured.json?d=' + DATA_V)
     if (data && data.current) {
       document.getElementById('top-story').innerHTML = renderTopStory(data.current);
     }
-    // "What Happened Recently" = the previous Top Story (the last big story in
-    // the neighborhood), not a repeat of the front page.
-    const prev = data && Array.isArray(data.history) && data.history[0];
-    if (prev) {
+    // "What Happened Recently" = the last few Top Stories, as compact teaser
+    // cards (thumbnail + one-line synopsis), not the full old articles. The full
+    // write-ups live on the Top Stories archive page.
+    const recent = (data && Array.isArray(data.history)) ? data.history.slice(0, 3) : [];
+    if (recent.length) {
       document.getElementById('recent-banner').hidden = false;
-      document.getElementById('recent-grid').innerHTML = renderTopStory(prev);
+      document.getElementById('recent-grid').innerHTML = recent.map(renderRecentCard).join('');
     }
   })
   .catch((err) => console.error('Failed to load top story', err));
@@ -209,6 +210,25 @@ function renderTopStory(s) {
         ${body}
       </div>
     </article>`;
+}
+
+// Compact teaser for the "What Happened Recently" strip: a small thumbnail and a
+// one-line synopsis. The whole card links to the Top Stories archive, where the
+// full old write-ups live.
+function renderRecentCard(s) {
+  const img = s.image
+    ? `<img class="np-recent-img" src="${escapeAttr(s.image)}" alt="${escapeAttr(s.image_alt || '')}" onerror="this.remove()">`
+    : '';
+  const synopsis = s.type === 'statement' ? (s.intro || '') : (s.summary || '');
+  return `
+    <a class="np-recent-card" href="top-stories.html">
+      ${img}
+      <div class="np-recent-body">
+        <p class="np-recent-kicker">${escapeHtml(s.kicker || 'Top Story')}</p>
+        <h4 class="np-recent-headline">${escapeHtml(s.headline || '')}</h4>
+        <p class="np-recent-synopsis">${escapeHtml(synopsis)}</p>
+      </div>
+    </a>`;
 }
 
 function sourceMasthead(src, small) {
