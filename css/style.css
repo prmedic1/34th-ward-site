@@ -885,11 +885,11 @@ body.photo-banner .hero {
 .wk-today .wk-dh { background: var(--sky); }
 .wk-today .wk-dow, .wk-today .wk-dh b { color: #fff; }
 .wk-evs { padding: 6px; display: flex; flex-direction: column; gap: 6px; flex: 1; }
-.wk-ev { width: 100%; text-align: left; background: #fff; border: 1px solid var(--border); border-left: 3px solid var(--sky); border-radius: 0 7px 7px 0; padding: 5px 6px; cursor: pointer; font: inherit; }
+.wk-ev { position: relative; width: 100%; text-align: left; background: #fff; border: 1px solid var(--border); border-left: 3px solid var(--sky); border-radius: 0 7px 7px 0; padding: 5px 16px 5px 6px; cursor: pointer; font: inherit; }
 .wk-ev:hover { border-color: var(--sky); }
-.wk-ev--fest { border-left-color: var(--red); }
-.wk-ev--local { background: #f2fbfe; }
-.wk-ev--fest.wk-ev--local { background: #fef3f4; }
+.wk-ev--fest { border-left-color: #2f9e44; }
+.wk-ev--fest:hover { border-color: #2f9e44; }
+.wk-star { position: absolute; top: 3px; right: 5px; color: #e0a400; font-size: 0.74rem; line-height: 1; }
 .wk-ev-t { display: block; font-size: 0.68rem; font-weight: 700; color: var(--muted); }
 .wk-ev-n { display: block; font-size: 0.8rem; line-height: 1.25; color: var(--text); }
 .wk-ev-v { display: block; font-size: 0.68rem; color: var(--muted); }
@@ -909,6 +909,7 @@ body.photo-banner .hero {
 .ev-row dt { flex: 0 0 62px; color: var(--muted); font-size: 0.82rem; }
 .ev-row dd { margin: 0; color: var(--text); font-size: 0.9rem; }
 .ev-cta { display: inline-block; }
+.ev-cta[hidden] { display: none; }
 body.modal-open { overflow: hidden; }
 @media (max-width: 760px) {
   .week-cal { grid-template-columns: 1fr; gap: 6px; }
