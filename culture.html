@@ -6,7 +6,7 @@
 <title>Museums, Theaters &amp; Festivals - West Loop Chicago</title>
 <meta name="description" content="Arts and culture in Chicago's 34th Ward: museums, theaters, galleries, and live music across the West Loop, Greektown, and the Loop.">
 <link rel="canonical" href="https://34thward.com/culture.html">
-<link rel="stylesheet" href="css/style.css?v=20260817d">
+<link rel="stylesheet" href="css/style.css?v=20260817e">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="34thward.com">
 <meta property="og:title" content="The Official 34th Ward Neighborhood Page">
@@ -60,7 +60,7 @@
 
 <main class="page-section">
   <h3 class="section-heading">What's Going On This Week</h3>
-  <p class="directory-note" style="margin: 0 0 4px;">Shows and street festivals in and around the West Loop this week, Monday through Sunday. Tap any event for the time, address, and tickets. Blue is a concert, green is a festival, and a gold star marks a West Loop event. Hunt for discounted tickets on <a href="https://www.bucketlisters.com/" target="_blank" rel="noopener">Bucketlisters</a> (pick Chicago).</p>
+  <p class="directory-note" style="margin: 0 0 4px;">Shows and street festivals in and around the West Loop this week, Monday through Sunday. Tap any event for the time, address, and tickets. Concerts are blue, festivals green, the Riverwalk series deep blue, and each Chicago team wears its own colors. A gold star marks a West Loop event. Hunt for discounted tickets on <a href="https://www.bucketlisters.com/" target="_blank" rel="noopener">Bucketlisters</a> (pick Chicago).</p>
   <p class="wk-range" id="wk-range"></p>
   <div class="week-cal" id="week-cal" aria-live="polite"></div>
   <p class="wk-venues">Featured local venues: <a href="https://garciaschicago.live/shows" target="_blank" rel="noopener">Garcia's</a>, <a href="https://citywinery.com/pages/events/chicago" target="_blank" rel="noopener">City Winery</a>, and <a href="https://www.msg.com/the-chicago-theatre" target="_blank" rel="noopener">The Chicago Theatre</a>.</p>
@@ -182,14 +182,15 @@
   const MON = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
   function esc(s) { const d = document.createElement('div'); d.textContent = s == null ? '' : s; return d.innerHTML; }
   function ymd(d) { const y = d.getFullYear(), m = String(d.getMonth() + 1).padStart(2, '0'), a = String(d.getDate()).padStart(2, '0'); return y + '-' + m + '-' + a; }
+  function tmin(t) { if (!t) return -1; const m = String(t).match(/(\d+):(\d+)\s*(AM|PM)/i); if (!m) return 9999; let h = (+m[1]) % 12; if (/pm/i.test(m[3])) h += 12; return h * 60 + (+m[2]); }
 
   Promise.all([
-    fetch('data/events_week.json?d=20260817d').then((r) => r.json()).catch(() => ({ shows: [] })),
-    fetch('data/festivals.json?d=20260817d').then((r) => r.json()).catch(() => ({ festivals: [] }))
+    fetch('data/events_week.json?d=20260817e').then((r) => r.json()).catch(() => ({ shows: [] })),
+    fetch('data/festivals.json?d=20260817e').then((r) => r.json()).catch(() => ({ festivals: [] }))
   ]).then(([sv, fv]) => {
     const EV = [];
-    (sv.shows || []).forEach((s) => EV.push({ kind: 'show', title: s.title, where: s.venue, address: s.address || '', time: s.time || '', note: s.note || '', url: s.url || '', start: s.date, end: s.date, local: !!s.local }));
-    (fv.festivals || []).forEach((f) => EV.push({ kind: 'fest', title: f.name, where: f.neighborhood || '', address: f.location || '', hours: f.hours || '', dateLabel: f.date_label || '', url: f.url || '', start: f.date_start, end: f.date_end || f.date_start, local: !!f.local }));
+    (sv.shows || []).forEach((s) => EV.push({ kind: 'show', cat: s.cat || 'concert', title: s.title, where: s.venue, address: s.address || '', time: s.time || '', note: s.note || '', url: s.url || '', start: s.date, end: s.date, local: !!s.local }));
+    (fv.festivals || []).forEach((f) => EV.push({ kind: 'fest', cat: 'fest', title: f.name, where: f.neighborhood || '', address: f.location || '', hours: f.hours || '', dateLabel: f.date_label || '', url: f.url || '', start: f.date_start, end: f.date_end || f.date_start, local: !!f.local }));
     EV.forEach((e, i) => { e.id = i; });
 
     const now = new Date();
@@ -201,11 +202,11 @@
     document.getElementById('week-cal').innerHTML = days.map((d) => {
       const ds = ymd(d);
       const evs = EV.filter((e) => e.start <= ds && e.end >= ds)
-        .sort((a, b) => (a.kind === b.kind ? String(a.time).localeCompare(String(b.time)) : (a.kind === 'fest' ? -1 : 1)));
+        .sort((a, b) => tmin(a.time) - tmin(b.time));
       const chips = evs.length ? evs.map((e) => {
-        const lab = e.kind === 'fest' ? 'Festival' : (e.time || 'Show');
+        const lab = e.cat === 'fest' ? 'Festival' : (e.time || 'Show');
         const star = e.local ? '<span class="wk-star" title="West Loop event" aria-label="West Loop event">&#9733;</span>' : '';
-        return '<button class="wk-ev wk-ev--' + e.kind + (e.local ? ' wk-ev--local' : '') + '" data-id="' + e.id + '">' + star +
+        return '<button class="wk-ev wk-ev--' + e.cat + '" data-id="' + e.id + '">' + star +
           '<span class="wk-ev-t">' + esc(lab) + '</span>' +
           '<span class="wk-ev-n">' + esc(e.title) + '</span>' +
           '<span class="wk-ev-v">' + esc(e.where) + '</span></button>';
