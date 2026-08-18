@@ -1,6 +1,30 @@
 {
- "generated_at": "2026-08-18T12:54:14.119Z",
+ "generated_at": "2026-08-18T13:22:01.666Z",
  "items": [
+  {
+   "id": "cbs-20260818-man-shot-critically-wounded-on-street-on",
+   "category": "civic_org",
+   "source_id": "cbs",
+   "source_name": "CBS News Chicago",
+   "source_type": "web_feed",
+   "title": "Man shot, critically wounded on street on Chicago's Near West Side",
+   "summary": "A man was left in critical condition early Tuesday after being shot on Chicago's Near West Side.",
+   "url": "https://www.cbsnews.com/chicago/news/man-shot-critically-wounded-street-chicago-near-west-side/",
+   "published_at": "2026-08-18T13:04:42.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260818-louie-and-todd-chicago-s-internet-famous",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Louie And Todd, Chicago's Internet-Famous Cats, Are Living Their Best Lives On The Road",
+   "summary": "British Shorthairs Louie and Todd have visited 18 countries and counting with their owner Lazar Joksimovic and his wife, amassing more than 1.7 million followers online.",
+   "url": "https://blockclubchicago.org/2026/08/18/louie-and-todd-chicagos-internet-famous-cats-are-living-their-best-lives-on-the-road/",
+   "published_at": "2026-08-18T13:00:00.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "abc7-20260818-chopper-7-over-serious-crash-in-south-lo",
    "category": "civic_org",
