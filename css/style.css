@@ -1156,9 +1156,11 @@ body.modal-open { overflow: hidden; }
 @media (max-width: 700px) {
   .np-lead-headline { font-size: 1.55rem; }
   .np-lead-body { padding: 18px 18px 20px; }
-  .np-recent-img { flex-basis: 92px; width: 92px; }
-  .np-recent-headline { font-size: 0.98rem; }
-  .np-recent-body { padding: 10px 12px; }
+  .np-recent-card { flex-direction: column; }
+  .np-recent-img { flex: 0 0 auto; width: 100%; height: 120px; }
+  .np-recent-headline { font-size: 1.02rem; }
+  .np-recent-body { padding: 11px 14px 13px; }
+  .np-recent-synopsis { -webkit-line-clamp: 3; }
 }
 
 /* "Get featured" call-to-action for realtors on the housing page */
