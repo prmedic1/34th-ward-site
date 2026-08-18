@@ -6,7 +6,7 @@
 <title>Museums, Theaters &amp; Festivals - West Loop Chicago</title>
 <meta name="description" content="Arts and culture in Chicago's 34th Ward: museums, theaters, galleries, and live music across the West Loop, Greektown, and the Loop.">
 <link rel="canonical" href="https://34thward.com/culture.html">
-<link rel="stylesheet" href="css/style.css?v=20260818b">
+<link rel="stylesheet" href="css/style.css?v=20260818c">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="34thward.com">
 <meta property="og:title" content="The Official 34th Ward Neighborhood Page">
@@ -199,28 +199,33 @@
     const sun = days[6], todayS = ymd(now);
     document.getElementById('wk-range').textContent = MON[mon.getMonth()] + ' ' + mon.getDate() + ' to ' + MON[sun.getMonth()] + ' ' + sun.getDate() + ', ' + sun.getFullYear();
 
-    document.getElementById('week-cal').innerHTML = days.map((d) => {
-      const ds = ymd(d);
-      const evs = EV.filter((e) => e.start <= ds && e.end >= ds)
-        .sort((a, b) => tmin(a.time) - tmin(b.time));
-      const chipsHtml = evs.length ? evs.map((e) => {
-        const lab = e.range || e.time || 'All day';
-        const star = e.local ? '<span class="wk-star" title="West Loop event" aria-label="West Loop event">&#9733;</span>' : '';
-        const logo = SPORTS.indexOf(e.cat) >= 0 ? '<img class="wk-logo" src="images/teams/' + e.cat + '.png" alt="" aria-hidden="true">' : '';
-        return '<button class="wk-ev wk-ev--' + e.cat + '" data-id="' + e.id + '">' + star + logo +
-          '<span class="wk-ev-t">' + esc(lab) + '</span>' +
-          '<span class="wk-ev-n">' + esc(e.title) + '</span>' +
-          '<span class="wk-ev-v">' + esc(e.where) + '</span></button>';
-      }).join('') : '<span class="wk-empty">&middot;</span>';
-      let inner = chipsHtml;
-      if (evs.length) {
-        const firstTimed = evs.find((e) => tmin(e.time) >= 0);
-        const frac = firstTimed ? Math.max(0, Math.min(1, (tmin(firstTimed.time) - 600) / 780)) : 0;
-        inner = '<div class="wk-spacer" style="flex-grow:' + frac.toFixed(3) + '"></div>' + chipsHtml + '<div class="wk-spacer" style="flex-grow:' + (1 - frac).toFixed(3) + '"></div>';
-      }
-      const cls = 'wk-day' + (ds === todayS ? ' wk-today' : '') + (evs.length ? '' : ' wk-day--empty');
-      return '<div class="' + cls + '"><div class="wk-dh"><span class="wk-dow">' + DOW[d.getDay()] + '</span><b>' + d.getDate() + '</b></div><div class="wk-evs">' + inner + '</div></div>';
-    }).join('');
+    const cal = document.getElementById('week-cal');
+    function bandKey(e) { const t = tmin(e.time); return t < 0 ? -1 : Math.floor(t / 30) * 30; }
+    function chip(e) {
+      const lab = e.range || e.time || 'All day';
+      const star = e.local ? '<span class="wk-star" title="West Loop event" aria-label="West Loop event">&#9733;</span>' : '';
+      const logo = SPORTS.indexOf(e.cat) >= 0 ? '<img class="wk-logo" src="images/teams/' + e.cat + '.png" alt="" aria-hidden="true">' : '';
+      return '<button class="wk-ev wk-ev--' + e.cat + '" data-id="' + e.id + '">' + star + logo +
+        '<span class="wk-ev-t">' + esc(lab) + '</span>' +
+        '<span class="wk-ev-n">' + esc(e.title) + '</span>' +
+        '<span class="wk-ev-v">' + esc(e.where) + '</span></button>';
+    }
+    const perDay = days.map((d) => { const ds = ymd(d); return EV.filter((e) => e.start <= ds && e.end >= ds).sort((a, b) => tmin(a.time) - tmin(b.time)); });
+    const bands = [...new Set([].concat.apply([], perDay).map(bandKey))].sort((a, b) => a - b);
+    const bandRow = {}; bands.forEach((b, i) => { bandRow[b] = i + 2; });
+    let html = '';
+    days.forEach((d, di) => { html += '<div class="wk-col' + (ymd(d) === todayS ? ' wk-today' : '') + '" style="grid-column:' + (di + 1) + ';grid-row:1 / -1"></div>'; });
+    days.forEach((d, di) => {
+      html += '<div class="wk-dh' + (ymd(d) === todayS ? ' wk-today' : '') + '" style="grid-column:' + (di + 1) + ';grid-row:1"><span class="wk-dow">' + DOW[d.getDay()] + '</span><b>' + d.getDate() + '</b></div>';
+      const byBand = {};
+      perDay[di].forEach((e) => { const k = bandKey(e); (byBand[k] = byBand[k] || []).push(e); });
+      Object.keys(byBand).forEach((k) => {
+        html += '<div class="wk-cell" style="grid-column:' + (di + 1) + ';grid-row:' + bandRow[k] + '">' + byBand[k].map(chip).join('') + '</div>';
+      });
+    });
+    cal.style.gridTemplateColumns = 'repeat(7, minmax(0, 1fr))';
+    cal.style.gridTemplateRows = 'auto repeat(' + bands.length + ', auto)';
+    cal.innerHTML = html;
 
     const modal = document.getElementById('ev-modal');
     function fmtWhen(ds, time) { const p = ds.split('-'); const d = new Date(+p[0], +p[1] - 1, +p[2]); const base = DOW[d.getDay()] + ', ' + MON[d.getMonth()] + ' ' + d.getDate(); return time ? base + ' at ' + time : base; }
