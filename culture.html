@@ -6,7 +6,7 @@
 <title>Museums, Theaters &amp; Festivals - West Loop Chicago</title>
 <meta name="description" content="Arts and culture in Chicago's 34th Ward: museums, theaters, galleries, and live music across the West Loop, Greektown, and the Loop.">
 <link rel="canonical" href="https://34thward.com/culture.html">
-<link rel="stylesheet" href="css/style.css?v=20260817f">
+<link rel="stylesheet" href="css/style.css?v=20260818b">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="34thward.com">
 <meta property="og:title" content="The Official 34th Ward Neighborhood Page">
@@ -45,7 +45,7 @@
       <a href="directory.html">Businesses</a>
       <a href="happyhour.html">Happy Hours</a>
       <a href="housing.html">Housing</a>
-      <a href="culture.html" class="active">Arts &amp; Culture</a>
+      <a href="culture.html" class="active">Events</a>
       <a href="resources.html">Resources</a>
     </nav>
   </div>
@@ -170,7 +170,7 @@
 </main>
 
 <footer class="site-footer">
-  <p>&copy; <span id="year"></span> In and Around the West Loop &middot; 34thward.com</p>
+  <p>&copy; <span id="year"></span> 34thward.com</p>
   <p><button id="share-site" class="share-btn" type="button">Share 34thward.com &#128228;</button></p>
 </footer>
 
@@ -185,12 +185,12 @@
   function tmin(t) { if (!t) return -1; const m = String(t).match(/(\d+):(\d+)\s*(AM|PM)/i); if (!m) return 9999; let h = (+m[1]) % 12; if (/pm/i.test(m[3])) h += 12; return h * 60 + (+m[2]); }
 
   Promise.all([
-    fetch('data/events_week.json?d=20260818a').then((r) => r.json()).catch(() => ({ shows: [] })),
-    fetch('data/festivals.json?d=20260818a').then((r) => r.json()).catch(() => ({ festivals: [] }))
+    fetch('data/events_week.json?d=20260818b').then((r) => r.json()).catch(() => ({ shows: [] })),
+    fetch('data/festivals.json?d=20260818b').then((r) => r.json()).catch(() => ({ festivals: [] }))
   ]).then(([sv, fv]) => {
     const EV = [];
     (sv.shows || []).forEach((s) => EV.push({ kind: 'show', cat: s.cat || 'concert', title: s.title, where: s.venue, address: s.address || '', time: s.time || '', note: s.note || '', url: s.url || '', start: s.date, end: s.date, local: !!s.local }));
-    (fv.festivals || []).forEach((f) => EV.push({ kind: 'fest', cat: 'fest', title: f.name, where: f.neighborhood || '', address: f.location || '', time: f.time || '', hours: f.hours || '', dateLabel: f.date_label || '', url: f.url || '', start: f.date_start, end: f.date_end || f.date_start, local: !!f.local }));
+    (fv.festivals || []).forEach((f) => EV.push({ kind: 'fest', cat: 'fest', title: f.name, where: f.neighborhood || '', address: f.location || '', time: f.time || '', range: f.range || '', hours: f.hours || '', dateLabel: f.date_label || '', url: f.url || '', start: f.date_start, end: f.date_end || f.date_start, local: !!f.local }));
     EV.forEach((e, i) => { e.id = i; });
 
     const now = new Date();
@@ -203,8 +203,8 @@
       const ds = ymd(d);
       const evs = EV.filter((e) => e.start <= ds && e.end >= ds)
         .sort((a, b) => tmin(a.time) - tmin(b.time));
-      const chips = evs.length ? evs.map((e) => {
-        const lab = e.time || 'All day';
+      const chipsHtml = evs.length ? evs.map((e) => {
+        const lab = e.range || e.time || 'All day';
         const star = e.local ? '<span class="wk-star" title="West Loop event" aria-label="West Loop event">&#9733;</span>' : '';
         const logo = SPORTS.indexOf(e.cat) >= 0 ? '<img class="wk-logo" src="images/teams/' + e.cat + '.png" alt="" aria-hidden="true">' : '';
         return '<button class="wk-ev wk-ev--' + e.cat + '" data-id="' + e.id + '">' + star + logo +
@@ -212,8 +212,14 @@
           '<span class="wk-ev-n">' + esc(e.title) + '</span>' +
           '<span class="wk-ev-v">' + esc(e.where) + '</span></button>';
       }).join('') : '<span class="wk-empty">&middot;</span>';
+      let inner = chipsHtml;
+      if (evs.length) {
+        const firstTimed = evs.find((e) => tmin(e.time) >= 0);
+        const frac = firstTimed ? Math.max(0, Math.min(1, (tmin(firstTimed.time) - 600) / 780)) : 0;
+        inner = '<div class="wk-spacer" style="flex-grow:' + frac.toFixed(3) + '"></div>' + chipsHtml + '<div class="wk-spacer" style="flex-grow:' + (1 - frac).toFixed(3) + '"></div>';
+      }
       const cls = 'wk-day' + (ds === todayS ? ' wk-today' : '') + (evs.length ? '' : ' wk-day--empty');
-      return '<div class="' + cls + '"><div class="wk-dh"><span class="wk-dow">' + DOW[d.getDay()] + '</span><b>' + d.getDate() + '</b></div><div class="wk-evs">' + chips + '</div></div>';
+      return '<div class="' + cls + '"><div class="wk-dh"><span class="wk-dow">' + DOW[d.getDay()] + '</span><b>' + d.getDate() + '</b></div><div class="wk-evs">' + inner + '</div></div>';
     }).join('');
 
     const modal = document.getElementById('ev-modal');
