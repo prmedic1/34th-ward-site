@@ -1,12 +1,12 @@
 {
  "_rotation_note": "The daily job picks the next business each morning - rotating among ward businesses with priority to spotlight requests from owners and newly opened spots. Keep yesterday's entries in history.",
  "current": {
-  "date": "2026-08-17",
-  "name": "City Winery",
-  "address": "1200 W. Randolph St, West Loop",
-  "website": "https://citywinery.com/chicago/",
-  "image": "images/spotlight/city-winery.jpg",
-  "blurb": "An urban winery, restaurant, and intimate live-music venue on Randolph Street, making wine on site and hosting concerts on the riverfront patio."
+  "date": "2026-08-18",
+  "name": "Greek Islands",
+  "address": "200 S. Halsted St, Greektown",
+  "website": "https://www.greekislands.net/",
+  "image": "images/spotlight/greek-islands.jpg",
+  "blurb": "A Greektown institution since 1971, packed nightly for flaming saganaki, roast lamb, and warm hospitality across a big, bustling dining room."
  },
  "history": [
   {
@@ -440,6 +440,14 @@
    "website": "https://www.theaviary.com/",
    "image": "images/spotlight/the-aviary.jpg",
    "blurb": "The Alinea Group's avant-garde cocktail lounge, where drinks arrive as edible art and the menu of cocktails is unlike anywhere else in the city."
+  },
+  {
+   "date": "2026-08-17",
+   "name": "City Winery",
+   "address": "1200 W. Randolph St, West Loop",
+   "website": "https://citywinery.com/chicago/",
+   "image": "images/spotlight/city-winery.jpg",
+   "blurb": "An urban winery, restaurant, and intimate live-music venue on Randolph Street, making wine on site and hosting concerts on the riverfront patio."
   }
  ]
 }

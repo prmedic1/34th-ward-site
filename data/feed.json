@@ -1,6 +1,42 @@
 {
- "generated_at": "2026-08-17T13:14:14.333Z",
+ "generated_at": "2026-08-18T12:54:14.119Z",
  "items": [
+  {
+   "id": "abc7-20260818-chopper-7-over-serious-crash-in-south-lo",
+   "category": "civic_org",
+   "source_id": "abc7",
+   "source_name": "ABC7 Chicago",
+   "source_type": "web_feed",
+   "title": "Chopper 7 over serious crash in South Loop",
+   "summary": "Chopper 7 over serious crash in South Loop on Tuesday morning.",
+   "url": "https://abc7chicago.com/post/chicago-traffic-chopper-7-serious-crash-south-loop-roosevelt-road-state-street-police-fire-dept-scene/19696854/",
+   "published_at": "2026-08-18T12:54:14.117Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260817-suspected-arson-being-investigated-at-em",
+   "category": "business",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Suspected Arson Being Investigated At Embattled West Loop Restaurant Habibti",
+   "summary": "Security footage shared with Block Club shows two people get out of a silver SUV and smash a window to gain entry to the business, which has been subject of a series of complaints from neighbors.",
+   "url": "https://blockclubchicago.org/2026/08/17/suspected-arson-being-investigated-at-embattled-west-loop-restaurant-habibti/",
+   "published_at": "2026-08-17T22:43:42.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260817-amara-coming-to-fulton-market-this-fall-",
+   "category": "business",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "AMARA, Coming To Fulton Market This Fall, Will Span Balkans In Mezze-Style Menu",
+   "summary": "The restaurant replacing Gino Marty’s is a tribute to chef Nemanja Milunovic’s upbringing in Belgrade. His brother Marko Milunovic will lead the bar program.",
+   "url": "https://blockclubchicago.org/2026/08/17/amara-coming-to-fulton-market-this-fall-will-span-balkans-in-mezze-style-menu/",
+   "published_at": "2026-08-17T15:01:02.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "abc7-20260817-chicago-officials-investigating-2-suspic",
    "category": "business",
@@ -1358,18 +1394,6 @@
    "flagged_for_review": false
   },
   {
-   "id": "blockclub-20260728-city-presses-west-loop-restaurant-habibt",
-   "category": "business",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "City Presses West Loop Restaurant Habibti To Address Noise, Late-Night Complaints",
-   "summary": "City officials gave the restaurant more time to comply with corrective measures, but owner Fadi Akileh said his business is the victim of an “all-out attack.”",
-   "url": "https://blockclubchicago.org/2026/07/28/city-presses-west-loop-restaurant-habibti-to-address-noise-late-night-complaints/",
-   "published_at": "2026-07-28T12:51:57.000Z",
-   "flagged_for_review": false
-  },
-  {
    "id": "blockclub-20260728-check-out-smashing-pumpkins-case-oats-wh",
    "category": "civic_org",
    "source_id": "blockclub",
@@ -1379,18 +1403,6 @@
    "summary": "Musical acts from the Chicago area performing at Lollapalooza this year include South Side rapper Ric Wilson, house music star John Summit, up-and-coming country artist Stella Lefty and more.",
    "url": "https://blockclubchicago.org/2026/07/28/check-out-smashing-pumpkins-case-oats-whethan-and-other-local-acts-at-lollapalooza-2026/",
    "published_at": "2026-07-28T13:59:04.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260727-this-city-mushroom-farm-grows-fungi-for-",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "This City Mushroom Farm Grows Fungi For Chicago’s Top Chefs - And The Bear'",
-   "summary": "Four Star Mushrooms in the West Loop supplies to grocery stores and some of Chicago's most acclaimed restaurants. Its mushrooms have also appeared on the hit FX series.",
-   "url": "https://blockclubchicago.org/2026/07/27/this-city-mushroom-farm-grows-fungi-for-chicagos-top-chefs-and-the-bear/",
-   "published_at": "2026-07-27T13:25:00.000Z",
    "flagged_for_review": false
   }
  ]
