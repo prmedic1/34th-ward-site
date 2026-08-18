@@ -874,6 +874,51 @@ body.photo-banner .hero {
   background: linear-gradient(180deg, rgba(20, 190, 241, 0.07), var(--card-bg) 62%);
 }
 
+/* "What's Going On This Week" calendar (culture page) */
+.wk-range { font-size: 0.85rem; color: var(--muted); margin: 0 0 12px; font-weight: 600; }
+.week-cal { display: grid; grid-template-columns: repeat(7, 1fr); gap: 8px; margin: 0 0 10px; }
+.wk-day { min-width: 0; border: 1px solid var(--border); border-radius: 10px; background: var(--card-bg); overflow: hidden; display: flex; flex-direction: column; }
+.wk-today { border-color: var(--sky); box-shadow: 0 0 0 1px var(--sky); }
+.wk-dh { text-align: center; padding: 6px 2px; border-bottom: 1px solid var(--border); background: #eef3f6; }
+.wk-dow { display: block; font-size: 0.66rem; letter-spacing: 0.5px; text-transform: uppercase; color: var(--muted); }
+.wk-dh b { font-size: 1.05rem; color: var(--text); }
+.wk-today .wk-dh { background: var(--sky); }
+.wk-today .wk-dow, .wk-today .wk-dh b { color: #fff; }
+.wk-evs { padding: 6px; display: flex; flex-direction: column; gap: 6px; flex: 1; }
+.wk-ev { width: 100%; text-align: left; background: #fff; border: 1px solid var(--border); border-left: 3px solid var(--sky); border-radius: 0 7px 7px 0; padding: 5px 6px; cursor: pointer; font: inherit; }
+.wk-ev:hover { border-color: var(--sky); }
+.wk-ev--fest { border-left-color: var(--red); }
+.wk-ev--local { background: #f2fbfe; }
+.wk-ev--fest.wk-ev--local { background: #fef3f4; }
+.wk-ev-t { display: block; font-size: 0.68rem; font-weight: 700; color: var(--muted); }
+.wk-ev-n { display: block; font-size: 0.8rem; line-height: 1.25; color: var(--text); }
+.wk-ev-v { display: block; font-size: 0.68rem; color: var(--muted); }
+.wk-tag { display: inline-block; margin-top: 3px; font-size: 0.58rem; font-weight: 700; letter-spacing: 0.4px; text-transform: uppercase; color: var(--red); background: #fde7e9; padding: 1px 5px; border-radius: 3px; }
+.wk-empty { display: block; text-align: center; color: var(--border); padding: 8px 0; }
+.wk-venues { font-size: 0.85rem; color: var(--muted); margin: 2px 0 26px; }
+.wk-venues a { color: var(--navy); font-weight: 600; }
+.ev-modal { position: fixed; inset: 0; z-index: 1000; display: flex; align-items: center; justify-content: center; padding: 18px; }
+.ev-modal[hidden] { display: none; }
+.ev-modal-bg { position: absolute; inset: 0; background: rgba(6, 43, 58, 0.55); }
+.ev-modal-card { position: relative; z-index: 1; background: var(--card-bg); border-radius: 14px; max-width: 460px; width: 100%; padding: 22px 24px; box-shadow: var(--shadow-3); }
+.ev-modal-x { position: absolute; top: 6px; right: 12px; background: none; border: none; font-size: 1.7rem; line-height: 1; color: var(--muted); cursor: pointer; }
+.ev-kind { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.8px; text-transform: uppercase; color: var(--sky); margin: 0 0 4px; }
+.ev-title { font-family: var(--font-head); font-size: 1.4rem; line-height: 1.2; color: var(--text); margin: 0 0 14px; }
+.ev-rows { margin: 0 0 16px; }
+.ev-row { display: flex; gap: 10px; padding: 6px 0; border-top: 1px solid var(--border); }
+.ev-row dt { flex: 0 0 62px; color: var(--muted); font-size: 0.82rem; }
+.ev-row dd { margin: 0; color: var(--text); font-size: 0.9rem; }
+.ev-cta { display: inline-block; }
+body.modal-open { overflow: hidden; }
+@media (max-width: 760px) {
+  .week-cal { grid-template-columns: 1fr; gap: 6px; }
+  .wk-day { flex-direction: row; }
+  .wk-day--empty { display: none; }
+  .wk-dh { flex: 0 0 56px; border-bottom: none; border-right: 1px solid var(--border); display: flex; flex-direction: column; justify-content: center; }
+  .wk-evs { flex-direction: row; flex-wrap: wrap; gap: 6px; }
+  .wk-ev { width: auto; flex: 1 1 45%; }
+}
+
 
 /* ---- The Front Page (newspaper) ---- */
 .np-banner {

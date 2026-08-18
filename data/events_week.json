@@ -1,0 +1,34 @@
+{
+ "_note": "Live shows at the featured local venues (Garcia's, City Winery, The Chicago Theatre) for the culture page's weekly calendar. The calendar merges these with data/festivals.json and shows only the current Monday-Sunday week. Times/urls verified from each venue's site; refresh weekly (Garcia's + Chicago Theatre sell via Ticketmaster; City Winery via tickets.citywinery.com). Winery tours and wine tastings are intentionally excluded. Blank time = venue had not posted a set time.",
+ "updated_at": "2026-08-17",
+ "shows": [
+  {"title": "Monkeys On Ecstasy", "venue": "Garcia's Chicago", "date": "2026-08-17", "time": "7:00 PM", "address": "1001 W. Washington Blvd, West Loop", "url": "https://www.ticketmaster.com/monkeys-on-ecstasy-chicago-illinois-08-17-2026/event/04006507B6F2F6B5"},
+  {"title": "Trouble Ahead (Grateful Dead Tribute)", "venue": "Garcia's Chicago", "date": "2026-08-21", "time": "8:00 PM", "address": "1001 W. Washington Blvd, West Loop", "url": "https://www.ticketmaster.com/trouble-ahead-chicago-illinois-08-21-2026/event/040064BBB4CEE3DC"},
+  {"title": "Garaj Mahal with Norside", "venue": "Garcia's Chicago", "date": "2026-08-22", "time": "8:00 PM", "address": "1001 W. Washington Blvd, West Loop", "url": "https://www.ticketmaster.com/garaj-mahal-chicago-illinois-08-22-2026/event/04006496A1A99377"},
+  {"title": "Bluegrass Brunch with Mudflapps", "venue": "Garcia's Chicago", "date": "2026-08-23", "time": "12:00 PM", "address": "1001 W. Washington Blvd, West Loop", "url": "https://www.ticketmaster.com/bluegrass-brunch-with-mudflapps-chicago-illinois-08-23-2026/event/04006502E8384408"},
+  {"title": "Liquid Soul with DJ Jesse De La Pena and DJ Dirty Donuts", "venue": "Garcia's Chicago", "date": "2026-08-28", "time": "8:00 PM", "address": "1001 W. Washington Blvd, West Loop", "url": "https://www.ticketmaster.com/liquid-soul-chicago-illinois-08-28-2026/event/04006494FC1CE573"},
+  {"title": "Peach Jam (Allman Brothers Band Tribute)", "venue": "Garcia's Chicago", "date": "2026-08-29", "time": "8:00 PM", "address": "1001 W. Washington Blvd, West Loop", "url": "https://www.ticketmaster.com/peach-jam-chicago-illinois-08-29-2026/event/040064F2D41524D8"},
+  {"title": "Bluegrass Brunch with Chatsworth and Dupree", "venue": "Garcia's Chicago", "date": "2026-08-30", "time": "12:00 PM", "address": "1001 W. Washington Blvd, West Loop", "url": "https://www.ticketmaster.com/bluegrass-brunch-with-chatsworth-and-dupree-chicago-illinois-08-30-2026/event/04006502EA6E47B2"},
+
+  {"title": "Tony Cazeau's Yacht Rock Party", "venue": "City Winery Chicago", "date": "2026-08-17", "time": "7:30 PM", "address": "1200 W. Randolph St, Fulton Market", "url": "https://tickets.citywinery.com/event/tony-cazeaus-yacht-rock-party-presented-by-pures-3gjuif"},
+  {"title": "Joyce Hurley", "venue": "City Winery Chicago", "date": "2026-08-18", "time": "7:30 PM", "address": "1200 W. Randolph St, Fulton Market", "url": "https://tickets.citywinery.com/event/joyce-hurley-86jm3m"},
+  {"title": "Simbryt: A Tribute to Whitney Houston and Chaka Khan", "venue": "City Winery Chicago", "date": "2026-08-19", "time": "7:30 PM", "address": "1200 W. Randolph St, Fulton Market", "url": "https://tickets.citywinery.com/event/simbryt-the-voice-the-fire-a-tribute-to-whitney--a5o5st"},
+  {"title": "Android Paranoid", "venue": "City Winery Chicago", "date": "2026-08-20", "time": "7:30 PM", "address": "1200 W. Randolph St, Fulton Market", "url": "https://tickets.citywinery.com/event/android-paranoid-5uofxr"},
+  {"title": "Esperanza Spalding", "venue": "City Winery Chicago", "date": "2026-08-21", "time": "7:30 PM", "address": "1200 W. Randolph St, Fulton Market", "note": "Sold out", "url": "https://tickets.citywinery.com/event/esperanza-spalding-sur34m"},
+  {"title": "Esperanza Spalding", "venue": "City Winery Chicago", "date": "2026-08-22", "time": "7:30 PM", "address": "1200 W. Randolph St, Fulton Market", "note": "Sold out", "url": "https://tickets.citywinery.com/event/esperanza-spalding-yh9ebh"},
+  {"title": "Esperanza Spalding", "venue": "City Winery Chicago", "date": "2026-08-23", "time": "7:00 PM", "address": "1200 W. Randolph St, Fulton Market", "note": "Sold out", "url": "https://tickets.citywinery.com/event/esperanza-spalding-kfjhs4"},
+  {"title": "Neo Soul Love: Erykah Badu and Jill Scott Tribute", "venue": "City Winery Chicago", "date": "2026-08-24", "time": "7:30 PM", "address": "1200 W. Randolph St, Fulton Market", "url": "https://tickets.citywinery.com/event/neo-soul-love-erykah-badu-jill-scott-tribute-wit-65yyme"},
+  {"title": "Sapphira Live", "venue": "City Winery Chicago", "date": "2026-08-25", "time": "7:30 PM", "address": "1200 W. Randolph St, Fulton Market", "url": "https://tickets.citywinery.com/event/sapphira-cristal-ddbon0"},
+  {"title": "Shaun Milli", "venue": "City Winery Chicago", "date": "2026-08-26", "time": "7:30 PM", "address": "1200 W. Randolph St, Fulton Market", "url": "https://tickets.citywinery.com/event/shaun-milli-882ib3"},
+  {"title": "Kofi B.", "venue": "City Winery Chicago", "date": "2026-08-27", "time": "7:30 PM", "address": "1200 W. Randolph St, Fulton Market", "note": "Sold out", "url": "https://tickets.citywinery.com/event/kofi-b-7z4os6"},
+  {"title": "Goapele", "venue": "City Winery Chicago", "date": "2026-08-29", "time": "", "address": "1200 W. Randolph St, Fulton Market", "note": "Two shows", "url": "https://citywinery.com/pages/genre/goapele-chicago-multishow"},
+
+  {"title": "Jill Scott", "venue": "The Chicago Theatre", "date": "2026-08-20", "time": "7:30 PM", "address": "175 N. State St, the Loop", "url": "https://www.msg.com/the-chicago-theatre"},
+  {"title": "Jill Scott", "venue": "The Chicago Theatre", "date": "2026-08-22", "time": "7:30 PM", "address": "175 N. State St, the Loop", "url": "https://www.msg.com/the-chicago-theatre"},
+  {"title": "Jill Scott", "venue": "The Chicago Theatre", "date": "2026-08-23", "time": "7:30 PM", "address": "175 N. State St, the Loop", "url": "https://www.msg.com/the-chicago-theatre"},
+  {"title": "Adrian Uribe: 50 y Pico", "venue": "The Chicago Theatre", "date": "2026-09-11", "time": "", "address": "175 N. State St, the Loop", "url": "https://www.msg.com/the-chicago-theatre"},
+  {"title": "Bert Kreischer", "venue": "The Chicago Theatre", "date": "2026-11-06", "time": "", "address": "175 N. State St, the Loop", "url": "https://www.msg.com/the-chicago-theatre"},
+  {"title": "Nurse John: Against Medical Advice Tour", "venue": "The Chicago Theatre", "date": "2026-11-20", "time": "", "address": "175 N. State St, the Loop", "url": "https://www.msg.com/the-chicago-theatre"},
+  {"title": "Seth Meyers", "venue": "The Chicago Theatre", "date": "2027-01-16", "time": "", "address": "175 N. State St, the Loop", "url": "https://www.msg.com/the-chicago-theatre"}
+ ]
+}
