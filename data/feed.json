@@ -1,6 +1,30 @@
 {
- "generated_at": "2026-08-18T13:22:01.666Z",
+ "generated_at": "2026-08-19T12:55:08.880Z",
  "items": [
+  {
+   "id": "abc7-20260819-man-seriously-injured-in-shooting-behind",
+   "category": "business",
+   "source_id": "abc7",
+   "source_name": "ABC7 Chicago",
+   "source_type": "web_feed",
+   "title": "Man seriously injured in shooting behind South Loop furniture store, police say",
+   "summary": "A man was seriously injured in a shooting behind a downtown store on Tuesday afternoon, Chicago police said.",
+   "url": "https://abc7chicago.com/post/south-loop-shooting-today-man-injured-chicago-behind-bobs-discount-furniture-ruble-roosevelt/19699404/",
+   "published_at": "2026-08-19T12:55:08.879Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260818-nascar-will-not-return-to-chicago-in-202",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "NASCAR Will Not Return To Chicago In 2027",
+   "summary": "The decision comes after NASCAR and the city were unable to agree on a date for 2027.",
+   "url": "https://blockclubchicago.org/2026/08/18/nascar-will-not-return-to-chicago-in-2027-sources-say/",
+   "published_at": "2026-08-18T21:09:07.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "cbs-20260818-man-shot-critically-wounded-on-street-on",
    "category": "civic_org",
@@ -1382,18 +1406,6 @@
    "flagged_for_review": false
   },
   {
-   "id": "blockclub-20260728-team-behind-hyde-park-s-virtue-opening-r",
-   "category": "business",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Team Behind Hyde Park's Virtue Opening Restaurant In West Loop",
-   "summary": "The yet-to-be-named restaurant on Elizabeth Street will be led by Virtue's chef de cuisine Damarr Brown, a James Beard Award winner and former “Top Chef” contestant.",
-   "url": "https://blockclubchicago.org/2026/07/28/team-behind-hyde-parks-virtue-opening-restaurant-in-west-loop/",
-   "published_at": "2026-07-28T19:28:25.000Z",
-   "flagged_for_review": false
-  },
-  {
    "id": "blockclub-20260729-drivers-have-run-over-flipped-off-and-cu",
    "category": "civic_org",
    "source_id": "blockclub",
@@ -1403,30 +1415,6 @@
    "summary": "CHICAGO - Michelle DiCola has been spit on, screamed at and nearly run over more times than she can count in her nearly 30-year stint working in traffic safety.",
    "url": "https://blockclubchicago.org/2026/07/29/drivers-have-run-over-flipped-off-and-cursed-out-chicagos-traffic-aides-for-doing-their-jobs/",
    "published_at": "2026-07-29T13:12:00.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260728-smashing-pumpkins-celebrate-homecoming-l",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Smashing Pumpkins Celebrate Homecoming Lolla Performance With ‘Pumpkinpalooza’",
-   "summary": "The rock band will have events throughout the city all week, including a merch pop-up and special performances.",
-   "url": "https://blockclubchicago.org/2026/07/28/smashing-pumpkins-celebrate-homecoming-lolla-performance-with-pumpkinpalooza/",
-   "published_at": "2026-07-28T21:25:18.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260728-check-out-smashing-pumpkins-case-oats-wh",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Check Out Smashing Pumpkins, Case Oats, Whethan And Other Local Acts At Lollapalooza 2026",
-   "summary": "Musical acts from the Chicago area performing at Lollapalooza this year include South Side rapper Ric Wilson, house music star John Summit, up-and-coming country artist Stella Lefty and more.",
-   "url": "https://blockclubchicago.org/2026/07/28/check-out-smashing-pumpkins-case-oats-whethan-and-other-local-acts-at-lollapalooza-2026/",
-   "published_at": "2026-07-28T13:59:04.000Z",
    "flagged_for_review": false
   }
  ]
