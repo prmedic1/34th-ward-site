@@ -271,5 +271,12 @@
   "visitors": 305,
   "views": 43,
   "verdict": "good"
+ },
+ {
+  "date": "2026-08-20",
+  "total": 545,
+  "visitors": 306,
+  "views": 1,
+  "verdict": "bad"
  }
 ]

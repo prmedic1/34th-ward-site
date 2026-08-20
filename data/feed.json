@@ -1,6 +1,66 @@
 {
- "generated_at": "2026-08-19T13:23:46.010Z",
+ "generated_at": "2026-08-20T12:56:58.947Z",
  "items": [
+  {
+   "id": "blockclub-20260820-28-things-to-do-in-chicago-this-weekend-",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "28 Things To Do In Chicago This Weekend: Lakeview Taco Fest, Back-To-School Events And More",
+   "summary": "The West Loop Art Fest, a Latina music festival, a classical music festival in Ravenswood and the Bridgeport Third Friday Art Walk are also on deck.",
+   "url": "https://blockclubchicago.org/2026/08/20/28-things-to-do-in-chicago-this-weekend-lakeview-taco-fest-back-to-school-events-and-more/",
+   "published_at": "2026-08-20T12:09:57.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "cbs-20260820-motorcyclist-killed-in-crash-in-downtown",
+   "category": "civic_org",
+   "source_id": "cbs",
+   "source_name": "CBS News Chicago",
+   "source_type": "web_feed",
+   "title": "Motorcyclist killed in crash in downtown Chicago",
+   "summary": "A woman was hit and killed in a crash while riding a motorcycle in The Loop overnight.",
+   "url": "https://www.cbsnews.com/chicago/news/motorcyclist-killed-downtown-chicago/",
+   "published_at": "2026-08-20T10:45:33.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260820-outside-archdiocese-offices-saint-sabina",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Outside Archdiocese Offices, Saint Sabina Parishioners Call For End To Michael Pfleger Sex Abuse Probe",
+   "summary": "The protest follows a month-long investigation led by the Archdiocese of Chicago's Independent Review Board into allegations of sexual abuse against the outspoken senior pastor.",
+   "url": "https://blockclubchicago.org/2026/08/19/outside-archdiocese-offices-saint-sabina-parishioners-call-for-end-to-michael-pfleger-sex-abuse-probe/",
+   "published_at": "2026-08-20T00:39:42.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260819-wndr-museum-closing-after-8-years",
+   "category": "business",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "WNDR Museum Closing After 8 Years",
+   "summary": "The museum - which featured a variety of Instagram-worthy installations - will shut down Sept. 7.",
+   "url": "https://blockclubchicago.org/2026/08/19/wndr-museum-closing-after-eight-years/",
+   "published_at": "2026-08-19T14:54:45.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260819-22-year-old-malcolm-x-grad-looking-to-st",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "22-Year-Old Malcolm X Grad Looking To Start Pharmacy Career When She Was Shot And Killed",
+   "summary": "The family of Pamela Hall has started a GoFundMe in her memory after she and her friend, 25-year-old Riek Daniel, were fatally shot exiting a South Side gas station.",
+   "url": "https://blockclubchicago.org/2026/08/19/22-year-old-malcolm-x-grad-looking-to-start-pharmacy-career-when-she-was-shot-and-killed/",
+   "published_at": "2026-08-19T12:44:35.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "abc7-20260819-man-seriously-injured-in-shooting-behind",
    "category": "business",
@@ -1334,18 +1394,6 @@
    "flagged_for_review": false
   },
   {
-   "id": "blockclub-20260730-soul-city-church-expansion-faces-pushbac",
-   "category": "elected_official",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Soul City Church Expansion Faces Pushback From Neighbors Over Years Of Noise Complaints",
-   "summary": "WEST LOOP - A prominent West Loop church wants to build an expansion, saying its soundproof design will provide more room for worship while reducing noise for neighbors. But neighbors who say they’ve endured years of pounding bass and shaking walls aren’t convinced.",
-   "url": "https://blockclubchicago.org/2026/07/30/soul-city-church-expansion-faces-pushback-from-neighbors-over-years-of-noise-complaints/",
-   "published_at": "2026-07-30T12:44:00.000Z",
-   "flagged_for_review": false
-  },
-  {
    "id": "blockclub-20260730-can-states-come-together-to-hold-ice-age",
    "category": "civic_org",
    "source_id": "blockclub",
@@ -1367,54 +1415,6 @@
    "summary": "DOWNTOWN - A vacant Michigan Avenue office building is being transformed into more than 300 apartments, the latest major conversion aimed at bringing residents and investment Downtown. Connecticut-based Commonwealth Development broke ground Wednesday on the conversion of 500 N.",
    "url": "https://blockclubchicago.org/2026/07/30/more-than-300-apartments-coming-to-former-mag-mile-office-building-as-work-gets-underway/",
    "published_at": "2026-07-30T13:00:00.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260730-23-things-to-do-in-chicago-this-weekend-",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "23 Things To Do In Chicago This Weekend: Lollapalooza, Italian Beef Fest And More",
-   "summary": "Vinyl dance parties, a Back of the Yards block party, a dim sum 5K and the Bronzeville Smooth Jazz Festival are also on deck.",
-   "url": "https://blockclubchicago.org/2026/07/30/23-things-to-do-in-chicago-this-weekend-lollapalooza-italian-beef-fest-and-more/",
-   "published_at": "2026-07-30T12:23:19.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260729-are-sewer-geysers-the-new-norm-in-chicag",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Are Sewer Geysers The New Norm In Chicago? Exploding Manholes Raise Alarm",
-   "summary": "Chicagoans reported seeing water gushing from the city's sewers after heavy rains Monday. The phenomenon has become increasingly common as heavier rainfall due to climate change stresses aging infrastructure.",
-   "url": "https://blockclubchicago.org/2026/07/29/are-sewer-geysers-the-new-norm-in-chicago-exploding-manholes-raise-alarm/",
-   "published_at": "2026-07-29T20:40:24.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260729-it-ll-be-a-soggy-lollapalooza-with-storm",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "It’ll Be A Soggy Lollapalooza With Storms In Forecast",
-   "summary": "Rainfall is expected Friday and Saturday - but here are tips for how to make it through Lolla when it storms.",
-   "url": "https://blockclubchicago.org/2026/07/29/itll-be-a-soggy-lollapalooza-with-storms-in-forecast/",
-   "published_at": "2026-07-29T16:22:47.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260729-drivers-have-run-over-flipped-off-and-cu",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Drivers Have Run Over, Flipped Off And Cursed Out Chicago’s Traffic Aides For Doing Their Jobs",
-   "summary": "CHICAGO - Michelle DiCola has been spit on, screamed at and nearly run over more times than she can count in her nearly 30-year stint working in traffic safety.",
-   "url": "https://blockclubchicago.org/2026/07/29/drivers-have-run-over-flipped-off-and-cursed-out-chicagos-traffic-aides-for-doing-their-jobs/",
-   "published_at": "2026-07-29T13:12:00.000Z",
    "flagged_for_review": false
   }
  ]
