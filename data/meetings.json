@@ -1,5 +1,5 @@
 {
- "_note": "Upcoming community meetings shown in the carve-out box on the homepage front page. Sourced from the 34th Ward newsletter (Conway's Corner). The homepage shows only future-dated meetings, soonest first, and drops them once they pass. Refresh from the weekly newsletter.",
+ "_note": "Upcoming community meetings and neighborhood-group events shown in the carve-out box on the homepage front page. Civic meetings come from the 34th Ward newsletter (Conway's Corner); the Indivisible Greater West Loop events come from that chapter's Mobilize page (mobilize.us/indivisiblegwlchi). Optional fields: 'org' (a small source label) and 'url' (makes the title a link). Exact venues for the Indivisible events are gated behind RSVP, so 'location' is only filled where publicly verified and the link carries the rest. The homepage shows only future-dated items, soonest first, and drops them once they pass. Refresh Indivisible events from their Mobilize page.",
  "updated_at": "2026-08-20",
  "meetings": [
   {
@@ -29,6 +29,51 @@
    "time": "5:30 PM",
    "location": "West Loop Library, 122 N. Aberdeen",
    "desc": "A community open house on the North Branch Industrial Corridor framework plan, hosted with the 27th and 34th Wards."
+  },
+  {
+   "title": "West Loop Clean Up with the Garbage Gals",
+   "date": "2026-08-20",
+   "time": "6:00 PM",
+   "org": "Indivisible Greater West Loop",
+   "location": "Meet at Randolph & Halsted, West Loop",
+   "desc": "An after-work neighborhood litter cleanup (gloves, grabbers, and bags provided), followed by food and drinks at Haymarket Pub.",
+   "url": "https://www.mobilize.us/indivisiblegwlchi/event/994233/"
+  },
+  {
+   "title": "Rank Your Beer",
+   "date": "2026-08-31",
+   "time": "6:00 PM",
+   "org": "Indivisible Greater West Loop",
+   "location": "RSVP for location",
+   "desc": "A casual happy-hour social to meet neighbors and get involved with the group.",
+   "url": "https://www.mobilize.us/indivisiblegwlchi/event/986530/"
+  },
+  {
+   "title": "Midterm Election Volunteer Kickoff",
+   "date": "2026-09-08",
+   "time": "6:00 PM",
+   "org": "Indivisible Greater West Loop",
+   "location": "RSVP for location",
+   "desc": "A kickoff meeting to sign up neighborhood volunteers ahead of the 2026 midterm elections.",
+   "url": "https://www.mobilize.us/indivisiblegwlchi/event/1006397/"
+  },
+  {
+   "title": "Volunteer at the Greater Chicago Food Depository",
+   "date": "2026-09-11",
+   "time": "12:45 PM",
+   "org": "Indivisible Greater West Loop",
+   "location": "Greater Chicago Food Depository",
+   "desc": "A group volunteer shift sorting and packing food with the Greater Chicago Food Depository.",
+   "url": "https://www.mobilize.us/indivisiblegwlchi/event/1007083/"
+  },
+  {
+   "title": "Drinks for Democracy: Write Postcards & Build Community",
+   "date": "2026-09-15",
+   "time": "6:00 PM",
+   "org": "Indivisible Greater West Loop",
+   "location": "RSVP for location",
+   "desc": "A relaxed postcard-writing social over drinks to connect with neighbors.",
+   "url": "https://www.mobilize.us/indivisiblegwlchi/event/1007078/"
   }
  ]
 }

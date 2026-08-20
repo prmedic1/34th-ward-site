@@ -1,4 +1,4 @@
-const DATA_V = '20260820e';
+const DATA_V = '20260820f';
 
 document.getElementById('year').textContent = new Date().getFullYear();
 
@@ -103,12 +103,16 @@ fetch('data/meetings.json?d=' + DATA_V)
       const day = m.date === today ? 'Today' : (MON[d.getMonth()] + ' ' + d.getDate());
       return day + (m.time ? ' &middot; ' + escapeHtml(m.time) : '');
     };
-    document.getElementById('meetings-list').innerHTML = up.map((m) =>
-      `<div class="meeting"><p class="meeting-when">${when(m)}</p>` +
-      `<p class="meeting-name">${escapeHtml(m.title)}</p>` +
-      `<p class="meeting-where">${escapeHtml(m.location || '')}</p>` +
-      `<p class="meeting-desc">${escapeHtml(m.desc || '')}</p></div>`
-    ).join('');
+    document.getElementById('meetings-list').innerHTML = up.map((m) => {
+      const name = m.url
+        ? `<a class="meeting-link" href="${escapeAttr(m.url)}" target="_blank" rel="noopener">${escapeHtml(m.title)}</a>`
+        : escapeHtml(m.title);
+      return `<div class="meeting"><p class="meeting-when">${when(m)}</p>` +
+        `<p class="meeting-name">${name}</p>` +
+        (m.org ? `<p class="meeting-org">${escapeHtml(m.org)}</p>` : '') +
+        (m.location ? `<p class="meeting-where">${escapeHtml(m.location)}</p>` : '') +
+        `<p class="meeting-desc">${escapeHtml(m.desc || '')}</p></div>`;
+    }).join('');
     document.getElementById('community-meetings').hidden = false;
     // The box is a filler at the top of the right front-page column, so its
     // arrival changes the column heights - rebalance once it is in the DOM.
@@ -207,6 +211,24 @@ Promise.all([
     for (const it of fresh.slice().sort(byDate)) {
       if (picks.length >= FRONT_COUNT) break;
       add(it);
+    }
+
+    // Axios is one of the two curated top sources, so keep it on the page even
+    // when its freshest item collides with Politico (both cover the Bears) or is
+    // a few days past the 7-day window. Slot in its newest non-duplicate story,
+    // dropping the lowest-priority non-lead pick to hold the count at six.
+    if (!picks.some((p) => p.story.source_id === 'axios')) {
+      const axCut = Date.now() - 16 * 24 * 3600 * 1000;
+      const axStory = items.find((it) => it.source_id === 'axios' && publishable(it)
+        && new Date(it.published_at).getTime() >= axCut
+        && !(excludeRe && excludeRe.test((it.title || '') + ' ' + (it.summary || '')))
+        && !isDup(sigOf(it)));
+      if (axStory) {
+        if (picks.length >= FRONT_COUNT) {
+          for (let i = picks.length - 1; i >= 0; i--) { if (!picks[i].isLead) { picks.splice(i, 1); break; } }
+        }
+        add(axStory);
+      }
     }
 
     const gridEl = document.getElementById('frontpage-grid');

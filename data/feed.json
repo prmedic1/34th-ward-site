@@ -35,7 +35,8 @@
    "summary": "The protest follows a month-long investigation led by the Archdiocese of Chicago's Independent Review Board into allegations of sexual abuse against the outspoken senior pastor.",
    "url": "https://blockclubchicago.org/2026/08/19/outside-archdiocese-offices-saint-sabina-parishioners-call-for-end-to-michael-pfleger-sex-abuse-probe/",
    "published_at": "2026-08-20T00:39:42.000Z",
-   "flagged_for_review": false
+   "flagged_for_review": false,
+   "front_exclude": true
   },
   {
    "id": "blockclub-20260819-wndr-museum-closing-after-8-years",

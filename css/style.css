@@ -1132,6 +1132,9 @@ body.modal-open { overflow: hidden; }
 .meeting:first-child { border-top: none; padding-top: 0; }
 .meeting-when { font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; color: var(--red); margin: 0 0 3px; }
 .meeting-name { font-weight: 700; font-size: 0.95rem; line-height: 1.25; color: var(--text); margin: 0 0 3px; }
+.meeting-name .meeting-link { color: var(--navy); text-decoration: none; }
+.meeting-name .meeting-link:hover { text-decoration: underline; }
+.meeting-org { font-size: 0.68rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; color: var(--navy); margin: 0 0 4px; opacity: 0.8; }
 .meeting-where { font-size: 0.82rem; color: var(--navy); font-weight: 600; margin: 0 0 4px; }
 .meeting-desc { font-size: 0.82rem; color: var(--muted); line-height: 1.45; margin: 0; }
 @media (max-width: 820px) {
