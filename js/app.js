@@ -234,10 +234,11 @@ Promise.all([
     const gridEl = document.getElementById('frontpage-grid');
     const feedEl = gridEl.parentElement;
     gridEl.innerHTML = picks.map((p) => renderFrontStory(p.src, p.story, p.count, p.isLead)).join('');
-    // Two desktop columns that END TOGETHER. The community-meetings card is
-    // pinned to the top of the RIGHT column as a filler; the stories are then
-    // handed out longest-first to whichever column is currently shorter, so the
-    // last (smallest) card can only leave a tiny gap between the two bottoms.
+    // Two desktop columns that END TOGETHER. The LEFT column is all stories; the
+    // RIGHT column is the community-meetings card (pinned at the top) followed by
+    // the remaining stories. The card is capped at half the column height and
+    // always has stories beneath it; whatever space the card and its stories do
+    // not fill, the card absorbs (scrolling its own list) so the bottoms line up.
     const originalOrder = [...gridEl.children];
     function balanceFront() {
       const meetingsEl = document.getElementById('community-meetings');
@@ -257,10 +258,11 @@ Promise.all([
       gridEl.appendChild(colA); gridEl.appendChild(colB);
       gridEl.classList.add('np-grid--balanced');
 
-      // Right column leads with the meetings card (measured at its natural height).
+      // Measure the meetings card at its natural (full-content) height; it may
+      // end up scrolled shorter than this or stretched a little past it.
       const haveMeet = meetingsEl && !meetingsEl.hidden;
-      let Hm = 0;
-      if (haveMeet) { colB.appendChild(meetingsEl); Hm = meetingsEl.getBoundingClientRect().height || 1; }
+      let natBox = 0;
+      if (haveMeet) { colB.appendChild(meetingsEl); meetingsEl.style.height = ''; natBox = meetingsEl.getBoundingClientRect().height || 1; }
 
       // Read every story's height at the true column width.
       originalOrder.forEach((c) => colA.appendChild(c));
@@ -268,27 +270,44 @@ Promise.all([
       originalOrder.forEach((c) => c.remove());
       const n = st.length;
       const total = st.reduce((s, x) => s + x.h, 0);
+      const byTall = () => st.map((x, i) => i).sort((a, b) => st[b].h - st[a].h);
 
-      // Decide which stories sit UNDER the meetings card (right column). Aim for
-      // the right stories to sum just below (total - Hm)/2, which keeps the LEFT
-      // column the taller one - so the meetings card can then stretch downward to
-      // swallow the leftover gap and both columns bottom out on the same line.
-      const target = (total - Hm) / 2;
-      let bestMask = 0, bestSum = -1;
-      for (let mask = 0; mask < (1 << n); mask++) {
-        let s = 0; for (let i = 0; i < n; i++) if (mask & (1 << i)) s += st[i].h;
-        if (s <= target && s > bestSum) { bestSum = s; bestMask = mask; }
+      if (!haveMeet) {
+        // No meetings card: just even the two story stacks (longest-first).
+        let ha = 0, hb = 0;
+        byTall().forEach((i) => { if (ha <= hb) { colA.appendChild(st[i].c); ha += st[i].h; } else { colB.appendChild(st[i].c); hb += st[i].h; } });
+        return;
       }
-      // Longest-first within each column for a tidy stack.
-      st.map((x, i) => i).sort((a, b) => st[b].h - st[a].h).forEach((i) => {
-        (bestMask & (1 << i) ? colB : colA).appendChild(st[i].c);
-      });
 
-      // Stretch the meetings card by whatever gap is left so the bottoms line up.
-      if (haveMeet) {
-        const gap = colA.getBoundingClientRect().height - colB.getBoundingClientRect().height;
-        if (gap > 0) meetingsEl.style.height = (Hm + gap) + 'px';
+      // Split the stories so the card height needed to level the bottoms
+      // (leftStories - rightStories) lands near min(naturalCard, half a column)
+      // and never exceeds half, while always leaving stories under the card.
+      let best = null;
+      for (let mask = 1; mask < (1 << n) - 1; mask++) {          // both sides non-empty
+        let Ra = 0; for (let i = 0; i < n; i++) if (mask & (1 << i)) Ra += st[i].h;
+        const La = total - Ra;                                   // left column (stories only)
+        const boxOuter = La - Ra;                                // card height that levels the bottoms
+        if (boxOuter < 60) continue;                             // card must be a real box
+        const cap = La / 2;                                      // never over half the column
+        if (boxOuter > cap + 0.5) continue;
+        const score = Math.abs(boxOuter - Math.min(natBox, cap));
+        if (!best || score < best.score) best = { mask, score };
       }
+      if (best) {
+        byTall().forEach((i) => ((best.mask & (1 << i)) ? colB : colA).appendChild(st[i].c));
+      } else {
+        // Fallback (e.g. one giant story): smallest story under the card.
+        const idx = st.map((x, i) => i).sort((a, b) => st[a].h - st[b].h);
+        st.forEach((x, i) => (i === idx[0] ? colB : colA).appendChild(x.c));
+      }
+
+      // Size the card so the columns bottom out together (measured, so borders
+      // and margins are accounted for), then hard-cap it at half the column.
+      const half = colA.getBoundingClientRect().height / 2;
+      let boxH = natBox + (colA.getBoundingClientRect().height - colB.getBoundingClientRect().height);
+      if (boxH > half) boxH = half;
+      if (boxH < 120) boxH = 120;
+      meetingsEl.style.height = boxH + 'px';
     }
     window.__balanceFront = balanceFront;
     balanceFront();
