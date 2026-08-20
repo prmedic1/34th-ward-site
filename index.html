@@ -7,7 +7,7 @@
 <title>34th Ward Chicago News - West Loop, Loop &amp; South Loop</title>
 <meta name="description" content="Daily community news for Chicago's 34th Ward: the West Loop, Greektown, the Loop, and South Loop, plus the 2027 mayor's race and local businesses.">
 <link rel="canonical" href="https://34thward.com/">
-<link rel="stylesheet" href="css/style.css?v=20260820d">
+<link rel="stylesheet" href="css/style.css?v=20260820e">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="34thward.com">
 <meta property="og:title" content="The Official 34th Ward Neighborhood Page">
@@ -153,21 +153,18 @@
 <main id="feed" class="feed-section">
   <!-- Pinned Top Story, rendered by js/app.js from data/featured.json -->
   <div id="top-story"></div>
-  <div class="fp-layout">
-    <div class="fp-main">
-      <div class="np-banner">
-        <span class="np-rule"></span>
-        <h3>The Front Page</h3>
-        <span class="np-rule"></span>
-      </div>
-      <div class="np-grid" id="frontpage-grid">
-        <!-- Six current stories, one per source - injected by js/app.js -->
-      </div>
-    </div>
-    <aside class="meetings-box" id="community-meetings" hidden>
-      <h3 class="meetings-title">Community Meetings</h3>
-      <div id="meetings-list"></div>
-    </aside>
+  <div class="np-banner">
+    <span class="np-rule"></span>
+    <h3>The Front Page</h3>
+    <span class="np-rule"></span>
+  </div>
+  <aside class="meetings-box" id="community-meetings" hidden>
+    <h3 class="meetings-title">Community Meetings</h3>
+    <div class="meetings-scroll" id="meetings-list"></div>
+  </aside>
+  <div class="np-grid" id="frontpage-grid">
+    <!-- Current stories injected by js/app.js; the balancer splits them into two
+         columns and tucks the meetings box atop the right one to even the bottoms -->
   </div>
   <div class="np-banner" id="recent-banner" hidden>
     <span class="np-rule"></span>
@@ -228,7 +225,7 @@
   <p><button id="share-site" class="share-btn" type="button">Share 34thward.com &#128228;</button></p>
 </footer>
 
-<script src="js/app.js?v=20260820d"></script>
+<script src="js/app.js?v=20260820e"></script>
 <script src="js/ticker.js?v=20260708a"></script>
 <script src="js/analytics.js?v=20260730b" defer></script>
 </body>

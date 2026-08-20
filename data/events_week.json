@@ -1,6 +1,6 @@
 {
  "_note": "Shows, games, and arena events for the culture page's weekly calendar. Merged with data/festivals.json; shows only the current Monday-Sunday week. 'cat' drives the box color: concert (light blue), riverwalk (deep blue, Tiny Tapp), cubs/sox/bears/bulls/fire/sky (team colors), fest comes from festivals.json (green). 'local: true' = in/around the West Loop (gold star). Sports schedules from ESPN (home games only); venue shows from each venue's site; Garcia's links to its schedule page since its Ticketmaster deep-links block verification. Refresh weekly.",
- "updated_at": "2026-08-17",
+ "updated_at": "2026-08-20",
  "shows": [
   {"title": "Monkeys On Ecstasy", "venue": "Garcia's Chicago", "cat": "concert", "date": "2026-08-17", "time": "7:00 PM", "address": "1001 W. Washington Blvd, West Loop", "local": true, "url": "https://garciaschicago.live/shows"},
   {"title": "Trouble Ahead (Grateful Dead Tribute)", "venue": "Garcia's Chicago", "cat": "concert", "date": "2026-08-21", "time": "8:00 PM", "address": "1001 W. Washington Blvd, West Loop", "local": true, "url": "https://garciaschicago.live/shows"},
@@ -52,16 +52,26 @@
   {"title": "Meagan McNeal", "venue": "Tiny Tapp", "cat": "riverwalk", "date": "2026-08-20", "time": "6:00 PM", "address": "Chicago Riverwalk, at Michigan Ave", "note": "Free Riverwalk series, Thursdays 6 to 8 PM", "local": true, "url": "https://www.tinytapp.com/live-music"},
   {"title": "Blue Rose Band and Jules Klee", "venue": "Tiny Tapp", "cat": "riverwalk", "date": "2026-08-23", "time": "5:00 PM", "address": "Chicago Riverwalk, at Michigan Ave", "note": "Free Riverwalk series, Sundays 5 to 7 PM", "local": true, "url": "https://www.tinytapp.com/live-music"},
 
-  {"title": "Cubs vs. White Sox", "venue": "Wrigley Field", "cat": "cubs", "date": "2026-08-17", "time": "7:05 PM", "address": "1060 W. Addison St, Wrigleyville", "local": false, "url": "https://www.mlb.com/cubs/schedule"},
-  {"title": "Cubs vs. White Sox", "venue": "Wrigley Field", "cat": "cubs", "date": "2026-08-18", "time": "7:05 PM", "address": "1060 W. Addison St, Wrigleyville", "local": false, "url": "https://www.mlb.com/cubs/schedule"},
-  {"title": "Cubs vs. White Sox", "venue": "Wrigley Field", "cat": "cubs", "date": "2026-08-19", "time": "1:20 PM", "address": "1060 W. Addison St, Wrigleyville", "local": false, "url": "https://www.mlb.com/cubs/schedule"},
-
   {"title": "White Sox vs. Atlanta Braves", "venue": "Rate Field", "cat": "sox", "date": "2026-08-20", "time": "1:10 PM", "address": "333 W. 35th St, Bridgeport", "local": false, "url": "https://www.mlb.com/whitesox/schedule"},
   {"title": "White Sox vs. New York Mets", "venue": "Rate Field", "cat": "sox", "date": "2026-08-21", "time": "6:40 PM", "address": "333 W. 35th St, Bridgeport", "local": false, "url": "https://www.mlb.com/whitesox/schedule"},
   {"title": "White Sox vs. New York Mets", "venue": "Rate Field", "cat": "sox", "date": "2026-08-22", "time": "6:10 PM", "address": "333 W. 35th St, Bridgeport", "local": false, "url": "https://www.mlb.com/whitesox/schedule"},
   {"title": "White Sox vs. New York Mets", "venue": "Rate Field", "cat": "sox", "date": "2026-08-23", "time": "1:10 PM", "address": "333 W. 35th St, Bridgeport", "local": false, "url": "https://www.mlb.com/whitesox/schedule"},
+  {"title": "White Sox vs. Texas Rangers", "venue": "Rate Field", "cat": "sox", "date": "2026-08-24", "time": "6:40 PM", "address": "333 W. 35th St, Bridgeport", "local": false, "url": "https://www.mlb.com/whitesox/schedule"},
+  {"title": "White Sox vs. Texas Rangers", "venue": "Rate Field", "cat": "sox", "date": "2026-08-25", "time": "6:40 PM", "address": "333 W. 35th St, Bridgeport", "local": false, "url": "https://www.mlb.com/whitesox/schedule"},
+  {"title": "White Sox vs. Texas Rangers", "venue": "Rate Field", "cat": "sox", "date": "2026-08-26", "time": "6:40 PM", "address": "333 W. 35th St, Bridgeport", "local": false, "url": "https://www.mlb.com/whitesox/schedule"},
+  {"title": "White Sox vs. Minnesota Twins", "venue": "Rate Field", "cat": "sox", "date": "2026-09-04", "time": "6:40 PM", "address": "333 W. 35th St, Bridgeport", "local": false, "url": "https://www.mlb.com/whitesox/schedule"},
+  {"title": "White Sox vs. Minnesota Twins", "venue": "Rate Field", "cat": "sox", "date": "2026-09-05", "time": "6:10 PM", "address": "333 W. 35th St, Bridgeport", "local": false, "url": "https://www.mlb.com/whitesox/schedule"},
+  {"title": "White Sox vs. Minnesota Twins", "venue": "Rate Field", "cat": "sox", "date": "2026-09-06", "time": "5:20 PM", "address": "333 W. 35th St, Bridgeport", "local": false, "url": "https://www.mlb.com/whitesox/schedule"},
+  {"title": "White Sox vs. Pittsburgh Pirates", "venue": "Rate Field", "cat": "sox", "date": "2026-09-08", "time": "6:40 PM", "address": "333 W. 35th St, Bridgeport", "local": false, "url": "https://www.mlb.com/whitesox/schedule"},
 
-  {"title": "Sky vs. New York Liberty", "venue": "Wintrust Arena", "cat": "sky", "date": "2026-08-18", "time": "8:00 PM", "address": "200 E. Cermak Rd, South Loop", "local": true, "url": "https://sky.wnba.com/"},
+  {"title": "Cubs vs. Cincinnati Reds", "venue": "Wrigley Field", "cat": "cubs", "date": "2026-08-28", "time": "1:20 PM", "address": "1060 W. Addison St, Wrigleyville", "local": false, "url": "https://www.mlb.com/cubs/schedule"},
+  {"title": "Cubs vs. Cincinnati Reds", "venue": "Wrigley Field", "cat": "cubs", "date": "2026-08-29", "time": "1:20 PM", "address": "1060 W. Addison St, Wrigleyville", "local": false, "url": "https://www.mlb.com/cubs/schedule"},
+  {"title": "Cubs vs. Cincinnati Reds", "venue": "Wrigley Field", "cat": "cubs", "date": "2026-08-30", "time": "6:20 PM", "address": "1060 W. Addison St, Wrigleyville", "local": false, "url": "https://www.mlb.com/cubs/schedule"},
+  {"title": "Cubs vs. Milwaukee Brewers", "venue": "Wrigley Field", "cat": "cubs", "date": "2026-08-31", "time": "6:40 PM", "address": "1060 W. Addison St, Wrigleyville", "local": false, "url": "https://www.mlb.com/cubs/schedule"},
+  {"title": "Cubs vs. Milwaukee Brewers", "venue": "Wrigley Field", "cat": "cubs", "date": "2026-09-01", "time": "6:40 PM", "address": "1060 W. Addison St, Wrigleyville", "local": false, "url": "https://www.mlb.com/cubs/schedule"},
+  {"title": "Cubs vs. Milwaukee Brewers", "venue": "Wrigley Field", "cat": "cubs", "date": "2026-09-02", "time": "6:40 PM", "address": "1060 W. Addison St, Wrigleyville", "local": false, "url": "https://www.mlb.com/cubs/schedule"},
+  {"title": "Cubs vs. Milwaukee Brewers", "venue": "Wrigley Field", "cat": "cubs", "date": "2026-09-03", "time": "6:15 PM", "address": "1060 W. Addison St, Wrigleyville", "local": false, "url": "https://www.mlb.com/cubs/schedule"},
+
   {"title": "Sky vs. Golden State Valkyries", "venue": "Wintrust Arena", "cat": "sky", "date": "2026-08-21", "time": "6:30 PM", "address": "200 E. Cermak Rd, South Loop", "local": true, "url": "https://sky.wnba.com/"},
   {"title": "Sky vs. Indiana Fever", "venue": "Wintrust Arena", "cat": "sky", "date": "2026-08-23", "time": "6:00 PM", "address": "200 E. Cermak Rd, South Loop", "local": true, "url": "https://sky.wnba.com/"},
 

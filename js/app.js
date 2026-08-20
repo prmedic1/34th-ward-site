@@ -1,4 +1,4 @@
-const DATA_V = '20260820d';
+const DATA_V = '20260820e';
 
 document.getElementById('year').textContent = new Date().getFullYear();
 
@@ -91,10 +91,11 @@ fetch('data/meetings.json?d=' + DATA_V)
   .then((r) => r.json())
   .then((data) => {
     const today = new Date().toISOString().slice(0, 10);
+    // Drop any meeting whose date has already passed; the box scrolls to fit
+    // however many remain.
     const up = (data.meetings || [])
       .filter((m) => m.date >= today)
-      .sort((a, b) => a.date.localeCompare(b.date))
-      .slice(0, 4);
+      .sort((a, b) => a.date.localeCompare(b.date));
     if (!up.length) return;
     const MON = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
     const when = (m) => {
@@ -109,6 +110,9 @@ fetch('data/meetings.json?d=' + DATA_V)
       `<p class="meeting-desc">${escapeHtml(m.desc || '')}</p></div>`
     ).join('');
     document.getElementById('community-meetings').hidden = false;
+    // The box is a filler at the top of the right front-page column, so its
+    // arrival changes the column heights - rebalance once it is in the DOM.
+    if (window.__balanceFront) window.__balanceFront();
   })
   .catch((err) => console.error('Failed to load meetings', err));
 
@@ -206,27 +210,73 @@ Promise.all([
     }
 
     const gridEl = document.getElementById('frontpage-grid');
+    const feedEl = gridEl.parentElement;
     gridEl.innerHTML = picks.map((p) => renderFrontStory(p.src, p.story, p.count, p.isLead)).join('');
-    // Balance the two desktop columns so they end at roughly the same place:
-    // greedily drop each story into whichever column is currently shorter.
+    // Two desktop columns that END TOGETHER. The community-meetings card is
+    // pinned to the top of the RIGHT column as a filler; the stories are then
+    // handed out longest-first to whichever column is currently shorter, so the
+    // last (smallest) card can only leave a tiny gap between the two bottoms.
     const originalOrder = [...gridEl.children];
     function balanceFront() {
+      const meetingsEl = document.getElementById('community-meetings');
+      // Tear down: meetings card back to its home above the grid, stories flat,
+      // and drop any explicit filler height left over from a previous pass.
+      if (meetingsEl) { meetingsEl.style.height = ''; feedEl.insertBefore(meetingsEl, gridEl); }
       gridEl.classList.remove('np-grid--balanced');
       originalOrder.forEach((c) => gridEl.appendChild(c));
       [...gridEl.querySelectorAll('.fp-col')].forEach((c) => c.remove());
       if (window.matchMedia('(max-width: 820px)').matches || originalOrder.length < 2) return;
-      const heights = originalOrder.map((c) => c.getBoundingClientRect().height || 1);
+
+      // Build the two flex columns and switch the grid to flex so every
+      // measurement below is taken at the REAL (narrow) column width.
       const colA = document.createElement('div'), colB = document.createElement('div');
       colA.className = 'fp-col'; colB.className = 'fp-col';
-      let ha = 0, hb = 0;
-      originalOrder.forEach((c, i) => { if (ha <= hb) { colA.appendChild(c); ha += heights[i]; } else { colB.appendChild(c); hb += heights[i]; } });
+      originalOrder.forEach((c) => c.remove());
       gridEl.appendChild(colA); gridEl.appendChild(colB);
       gridEl.classList.add('np-grid--balanced');
+
+      // Right column leads with the meetings card (measured at its natural height).
+      const haveMeet = meetingsEl && !meetingsEl.hidden;
+      let Hm = 0;
+      if (haveMeet) { colB.appendChild(meetingsEl); Hm = meetingsEl.getBoundingClientRect().height || 1; }
+
+      // Read every story's height at the true column width.
+      originalOrder.forEach((c) => colA.appendChild(c));
+      const st = originalOrder.map((c) => ({ c, h: c.getBoundingClientRect().height || 1 }));
+      originalOrder.forEach((c) => c.remove());
+      const n = st.length;
+      const total = st.reduce((s, x) => s + x.h, 0);
+
+      // Decide which stories sit UNDER the meetings card (right column). Aim for
+      // the right stories to sum just below (total - Hm)/2, which keeps the LEFT
+      // column the taller one - so the meetings card can then stretch downward to
+      // swallow the leftover gap and both columns bottom out on the same line.
+      const target = (total - Hm) / 2;
+      let bestMask = 0, bestSum = -1;
+      for (let mask = 0; mask < (1 << n); mask++) {
+        let s = 0; for (let i = 0; i < n; i++) if (mask & (1 << i)) s += st[i].h;
+        if (s <= target && s > bestSum) { bestSum = s; bestMask = mask; }
+      }
+      // Longest-first within each column for a tidy stack.
+      st.map((x, i) => i).sort((a, b) => st[b].h - st[a].h).forEach((i) => {
+        (bestMask & (1 << i) ? colB : colA).appendChild(st[i].c);
+      });
+
+      // Stretch the meetings card by whatever gap is left so the bottoms line up.
+      if (haveMeet) {
+        const gap = colA.getBoundingClientRect().height - colB.getBoundingClientRect().height;
+        if (gap > 0) meetingsEl.style.height = (Hm + gap) + 'px';
+      }
     }
+    window.__balanceFront = balanceFront;
     balanceFront();
     window.addEventListener('load', balanceFront);
-    var __fpTimer;
-    window.addEventListener('resize', () => { clearTimeout(__fpTimer); __fpTimer = setTimeout(balanceFront, 150); });
+    // Story thumbnails and source logos change card heights as they decode;
+    // rebalance once they settle so the measured heights are real.
+    gridEl.querySelectorAll('img').forEach((im) => {
+      if (!im.complete) im.addEventListener('load', () => { clearTimeout(window.__fpTimer); window.__fpTimer = setTimeout(balanceFront, 120); });
+    });
+    window.addEventListener('resize', () => { clearTimeout(window.__fpTimer); window.__fpTimer = setTimeout(balanceFront, 150); });
   })
   .catch((err) => {
     console.error('Failed to load front page', err);

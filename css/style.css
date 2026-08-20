@@ -1105,21 +1105,29 @@ body.modal-open { overflow: hidden; }
   .np-lead-img2 { display: none; }
 }
 
-/* Front page + community-meetings carve-out layout */
-.fp-layout { display: flex; gap: 22px; align-items: flex-start; }
-.fp-main { flex: 1 1 auto; min-width: 0; }
-.fp-main .np-story { min-width: 0; }
+/* Front page: two balanced columns. The JS balancer splits the stories into
+   two .fp-col divs that end at the same place, and tucks the community-meetings
+   card atop the RIGHT column so it doubles as a space-filler. */
 @media (min-width: 821px) {
-  .fp-main .np-grid { display: block; column-count: 2; column-gap: 0; column-fill: balance; column-rule: 1px solid var(--border); }
-  .fp-main .np-grid.np-grid--balanced { display: flex; column-count: auto; column-rule: none; }
-  .fp-main .fp-col { flex: 1 1 0; min-width: 0; }
-  .fp-main .fp-col + .fp-col { border-left: 1px solid var(--border); }
-  .fp-main .np-story { break-inside: avoid; border-right: none; border-bottom: 1px solid var(--border); }
-  .fp-main .np-grid:not(.np-grid--balanced) > .np-story:last-child { border-bottom: none; }
-  .fp-main .fp-col > .np-story:last-child { border-bottom: none; }
+  #frontpage-grid { display: block; column-count: 2; column-gap: 0; column-fill: balance; column-rule: 1px solid var(--border); }
+  #frontpage-grid.np-grid--balanced { display: flex; column-count: auto; column-rule: none; gap: 0; align-items: flex-start; }
+  #frontpage-grid .fp-col { flex: 1 1 0; min-width: 0; }
+  #frontpage-grid .fp-col + .fp-col { border-left: 1px solid var(--border); }
+  #frontpage-grid .np-story { min-width: 0; break-inside: avoid; border-right: none; border-bottom: 1px solid var(--border); }
+  #frontpage-grid:not(.np-grid--balanced) > .np-story:last-child { border-bottom: none; }
+  #frontpage-grid .fp-col > .np-story:last-child { border-bottom: none; }
+  /* In-column meetings card: a flex column whose scroll area fills whatever
+     height the balancer stretches it to (so it can act as the space-filler). */
+  #frontpage-grid .fp-col > .meetings-box { display: flex; flex-direction: column; margin: 2px 22px 20px; }
+  #frontpage-grid .fp-col > .meetings-box .meetings-scroll { flex: 1 1 auto; min-height: 0; max-height: none; }
 }
-.meetings-box { flex: 0 0 260px; background: var(--card-bg); border: 1px solid var(--border); border-top: 4px solid var(--sky); border-radius: var(--radius); padding: 16px 18px; box-shadow: var(--shadow-1); }
+.meetings-box { background: var(--card-bg); border: 1px solid var(--border); border-top: 4px solid var(--sky); border-radius: var(--radius); padding: 16px 18px; box-shadow: var(--shadow-1); }
 .meetings-title { font-family: var(--font-head); font-size: 1.15rem; margin: 0 0 12px; color: var(--navy); }
+.meetings-scroll { max-height: 300px; overflow-y: auto; padding-right: 8px; scrollbar-width: thin; scrollbar-color: var(--sky) transparent; }
+.meetings-scroll::-webkit-scrollbar { width: 8px; }
+.meetings-scroll::-webkit-scrollbar-track { background: transparent; }
+.meetings-scroll::-webkit-scrollbar-thumb { background: var(--border); border-radius: 4px; }
+.meetings-scroll::-webkit-scrollbar-thumb:hover { background: var(--sky); }
 .meeting { padding: 11px 0; border-top: 1px solid var(--border); }
 .meeting:first-child { border-top: none; padding-top: 0; }
 .meeting-when { font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; color: var(--red); margin: 0 0 3px; }
@@ -1127,8 +1135,7 @@ body.modal-open { overflow: hidden; }
 .meeting-where { font-size: 0.82rem; color: var(--navy); font-weight: 600; margin: 0 0 4px; }
 .meeting-desc { font-size: 0.82rem; color: var(--muted); line-height: 1.45; margin: 0; }
 @media (max-width: 820px) {
-  .fp-layout { flex-direction: column; gap: 0; }
-  .meetings-box { flex: 1 1 auto; width: auto; order: -1; margin: 0 0 8px; }
+  .meetings-box { width: auto; margin: 0 0 14px; }
 }
 
 /* "What Happened Recently": compact teaser cards, not the full old articles. */
