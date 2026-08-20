@@ -2,11 +2,11 @@
  "_rotation_note": "The daily job picks the next business each morning - rotating among ward businesses with priority to spotlight requests from owners and newly opened spots. Keep yesterday's entries in history.",
  "current": {
   "date": "2026-08-20",
-  "name": "Artopolis Bakery & Cafe",
-  "address": "306 S. Halsted St, Greektown",
-  "website": "https://www.artopolischicago.com/",
-  "image": "images/spotlight/artopolis.jpg",
-  "blurb": "Part Greek bakery, part all-day cafe, turning out spanakopita, baklava, and wood-fired breads at the heart of Greektown."
+  "name": "Athena Greek Restaurant",
+  "address": "212 S. Halsted St, Greektown",
+  "website": "https://athenarestaurantchicago.com/",
+  "image": "images/spotlight/athena.jpg",
+  "blurb": "A Greektown mainstay known for classic taverna cooking and one of the neighborhood's largest garden patios, framed by Parthenon-style columns."
  },
  "history": [
   {
