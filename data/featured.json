@@ -1,6 +1,20 @@
 {
  "_note": "The pinned Top Story on the homepage. 'current' shows at the top of the news area; move the old one into 'history' (newest first) when you swap it. type 'story' = a news writeup with a source link; type 'statement' = a released statement shown as a quote.",
- "current": null,
+ "current": {
+  "type": "story",
+  "kicker": "Top Story · 34th Ward",
+  "headline": "NASCAR won't race downtown in 2027; 2028 still in play",
+  "image": "images/nascar-street-race.jpg",
+  "image_alt": "NASCAR cars racing on Balbo Drive with the Chicago skyline behind",
+  "image2": "images/nascar-logo.png",
+  "image2_alt": "NASCAR Chicago Street Race logo",
+  "summary": "NASCAR has announced it will not bring its Chicago Street Race back downtown in 2027, moving next year's event to Chicagoland Speedway in Joliet instead. The three-year run on a temporary course through Grant Park and nearby streets drew national attention but also road closures and weeks of setup and teardown that hit 34th Ward neighborhoods hard around the July 4th holiday. The 34th Ward office says it hopes to reach a 2028 agreement that makes financial sense for the city and holds the race on a weekend other than July 4th, while crediting NASCAR for faster setup and takedown and for keeping residents informed over the three years.",
+  "source_name": "Conway's Corner, the 34th Ward newsletter",
+  "url": "https://www.ward34.org/",
+  "date": "2026-08-20",
+  "date_label": "August 20, 2026",
+  "pinned_at": "2026-08-20"
+ },
  "history": [
   {
    "type": "story",

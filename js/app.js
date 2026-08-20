@@ -1,4 +1,4 @@
-const DATA_V = '20260818b';
+const DATA_V = '20260820a';
 
 document.getElementById('year').textContent = new Date().getFullYear();
 
@@ -85,6 +85,32 @@ fetch('data/featured.json?d=' + DATA_V)
     }
   })
   .catch((err) => console.error('Failed to load top story', err));
+
+// Community meetings carve-out on the front page (data/meetings.json).
+fetch('data/meetings.json?d=' + DATA_V)
+  .then((r) => r.json())
+  .then((data) => {
+    const today = new Date().toISOString().slice(0, 10);
+    const up = (data.meetings || [])
+      .filter((m) => m.date >= today)
+      .sort((a, b) => a.date.localeCompare(b.date))
+      .slice(0, 4);
+    if (!up.length) return;
+    const MON = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+    const when = (m) => {
+      const p = m.date.split('-'); const d = new Date(+p[0], +p[1] - 1, +p[2]);
+      const day = m.date === today ? 'Today' : (MON[d.getMonth()] + ' ' + d.getDate());
+      return day + (m.time ? ' &middot; ' + escapeHtml(m.time) : '');
+    };
+    document.getElementById('meetings-list').innerHTML = up.map((m) =>
+      `<div class="meeting"><p class="meeting-when">${when(m)}</p>` +
+      `<p class="meeting-name">${escapeHtml(m.title)}</p>` +
+      `<p class="meeting-where">${escapeHtml(m.location || '')}</p>` +
+      `<p class="meeting-desc">${escapeHtml(m.desc || '')}</p></div>`
+    ).join('');
+    document.getElementById('community-meetings').hidden = false;
+  })
+  .catch((err) => console.error('Failed to load meetings', err));
 
 // The Front Page: six stories, newspaper style. One story per source first
 // (for variety), then backfill from productive sources so it always fills six.
@@ -199,7 +225,10 @@ function renderTopStory(s) {
     const read = s.url
       ? `<p class="np-lead-attr">Read the full story at <a href="${escapeAttr(s.url)}" target="_blank" rel="noopener">${escapeHtml(s.source_name || 'the source')}</a></p>`
       : '';
-    body = `<p class="np-lead-summary">${escapeHtml(s.summary || '')}</p>${read}`;
+    const img2 = s.image2
+      ? `<img class="np-lead-img2" src="${escapeAttr(s.image2)}" alt="${escapeAttr(s.image2_alt || '')}" onerror="this.remove()">`
+      : '';
+    body = `<p class="np-lead-summary">${escapeHtml(s.summary || '')}</p>${img2}${read}`;
   }
   return `
     <article class="np-lead">

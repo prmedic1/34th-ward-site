@@ -1095,6 +1095,25 @@ body.modal-open { overflow: hidden; }
 }
 .np-archive-link { text-align: center; margin: 6px 0 30px; }
 
+/* Top story second image (e.g. an event logo under the summary) */
+.np-lead-img2 { display: block; max-width: 340px; width: 100%; height: auto; margin: 6px 0 14px; }
+
+/* Front page + community-meetings carve-out layout */
+.fp-layout { display: flex; gap: 22px; align-items: flex-start; }
+.fp-main { flex: 1 1 auto; min-width: 0; }
+.meetings-box { flex: 0 0 300px; background: var(--card-bg); border: 1px solid var(--border); border-top: 4px solid var(--sky); border-radius: var(--radius); padding: 16px 18px; box-shadow: var(--shadow-1); }
+.meetings-title { font-family: var(--font-head); font-size: 1.15rem; margin: 0 0 12px; color: var(--navy); }
+.meeting { padding: 11px 0; border-top: 1px solid var(--border); }
+.meeting:first-child { border-top: none; padding-top: 0; }
+.meeting-when { font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; color: var(--red); margin: 0 0 3px; }
+.meeting-name { font-weight: 700; font-size: 0.95rem; line-height: 1.25; color: var(--text); margin: 0 0 3px; }
+.meeting-where { font-size: 0.82rem; color: var(--navy); font-weight: 600; margin: 0 0 4px; }
+.meeting-desc { font-size: 0.82rem; color: var(--muted); line-height: 1.45; margin: 0; }
+@media (max-width: 820px) {
+  .fp-layout { flex-direction: column; gap: 0; }
+  .meetings-box { flex: 1 1 auto; width: auto; order: -1; margin: 0 0 8px; }
+}
+
 /* "What Happened Recently": compact teaser cards, not the full old articles. */
 #recent-grid {
   display: flex;

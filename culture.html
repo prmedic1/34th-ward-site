@@ -194,10 +194,10 @@
     EV.forEach((e, i) => { e.id = i; });
 
     const now = new Date();
-    const mon = new Date(now); mon.setDate(now.getDate() - ((now.getDay() + 6) % 7)); mon.setHours(0, 0, 0, 0);
-    const days = []; for (let i = 0; i < 7; i++) { const d = new Date(mon); d.setDate(mon.getDate() + i); days.push(d); }
+    const start = new Date(now); start.setHours(0, 0, 0, 0);
+    const days = []; for (let i = 0; i < 7; i++) { const d = new Date(start); d.setDate(start.getDate() + i); days.push(d); }
     const sun = days[6], todayS = ymd(now);
-    document.getElementById('wk-range').textContent = MON[mon.getMonth()] + ' ' + mon.getDate() + ' to ' + MON[sun.getMonth()] + ' ' + sun.getDate() + ', ' + sun.getFullYear();
+    document.getElementById('wk-range').textContent = MON[start.getMonth()] + ' ' + start.getDate() + ' to ' + MON[sun.getMonth()] + ' ' + sun.getDate() + ', ' + sun.getFullYear();
 
     function chip(e) {
       const lab = e.range || e.time || 'All day';

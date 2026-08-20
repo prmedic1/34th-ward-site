@@ -1,0 +1,34 @@
+{
+ "_note": "Upcoming community meetings shown in the carve-out box on the homepage front page. Sourced from the 34th Ward newsletter (Conway's Corner). The homepage shows only future-dated meetings, soonest first, and drops them once they pass. Refresh from the weekly newsletter.",
+ "updated_at": "2026-08-20",
+ "meetings": [
+  {
+   "title": "Greyhound Station Community Meeting",
+   "date": "2026-08-20",
+   "time": "6:00 PM",
+   "location": "The Chicago School, 400 S. Jefferson (enter at 627 W. Van Buren)",
+   "desc": "The city's plans for a municipal bus station at the former Greyhound station, 630 W. Harrison, with the Police Department, CDOT, and Streets & Sanitation."
+  },
+  {
+   "title": "CAPS Meeting, Beat 1224",
+   "date": "2026-08-26",
+   "time": "5:45 PM",
+   "location": "2100 W. Harrison",
+   "desc": "Chicago Alternative Policing Strategy meeting with the 12th District on local safety."
+  },
+  {
+   "title": "CAPS Meeting, Beat 132",
+   "date": "2026-08-26",
+   "time": "6:00 PM",
+   "location": "Long Grove House, 2001 S. Michigan",
+   "desc": "Chicago Alternative Policing Strategy meeting with the 1st District on local safety."
+  },
+  {
+   "title": "North Branch Industrial Corridor Open House",
+   "date": "2026-09-01",
+   "time": "5:30 PM",
+   "location": "West Loop Library, 122 N. Aberdeen",
+   "desc": "A community open house on the North Branch Industrial Corridor framework plan, hosted with the 27th and 34th Wards."
+  }
+ ]
+}
