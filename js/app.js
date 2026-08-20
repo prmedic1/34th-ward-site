@@ -1,4 +1,4 @@
-const DATA_V = '20260820c';
+const DATA_V = '20260820d';
 
 document.getElementById('year').textContent = new Date().getFullYear();
 
@@ -115,14 +115,18 @@ fetch('data/meetings.json?d=' + DATA_V)
 // The Front Page: six stories, newspaper style. One story per source first
 // (for variety), then backfill from productive sources so it always fills six.
 const FRONT_ORDER = ['blockclub', 'wlco', 'wca', 'axios', 'politico', 'conway', 'igwl', 'wardwatch', 'eater', 'cbs', 'abc7'];
-const FRONT_COUNT = 8;
+const FRONT_COUNT = 6;
 
 Promise.all([
   fetch('data/news_sources.json?d=' + DATA_V).then((r) => r.json()),
-  fetch('data/feed.json?d=' + DATA_V).then((r) => r.json())
+  fetch('data/feed.json?d=' + DATA_V).then((r) => r.json()),
+  fetch('data/featured.json?d=' + DATA_V).then((r) => r.json()).catch(() => ({}))
 ])
-  .then(([srcData, feedData]) => {
+  .then(([srcData, feedData, featData]) => {
     const sources = Object.fromEntries(srcData.sources.map((s) => [s.id, s]));
+    // Don't repeat the pinned Top Story down in the front page.
+    const topStory = featData && featData.current;
+    const excludeRe = topStory && topStory.exclude_kw ? new RegExp(topStory.exclude_kw, 'i') : null;
     const items = feedData.items.sort(
       (a, b) => new Date(b.published_at) - new Date(a.published_at)
     );
@@ -154,7 +158,7 @@ Promise.all([
       const roundup = roundupKw.test(it.title || '') ? 4 : 0;
       return (wardKw.test(t) ? 4 : 0) + (residentKw.test(t) ? 2 : 0) + recentBonus - roundup;
     };
-    const fresh = items.filter((it) => publishable(it) && FRONT_ORDER.includes(it.source_id) && isFresh(it));
+    const fresh = items.filter((it) => publishable(it) && FRONT_ORDER.includes(it.source_id) && isFresh(it) && !(excludeRe && excludeRe.test((it.title || '') + ' ' + (it.summary || ''))));
     const freshestOf = (sid) => fresh.filter((it) => it.source_id === sid).sort(byDate)[0];
 
     // Center = the biggest local story (from any source, even Politico/Axios).
@@ -201,8 +205,28 @@ Promise.all([
       add(it);
     }
 
-    document.getElementById('frontpage-grid').innerHTML =
-      picks.map((p) => renderFrontStory(p.src, p.story, p.count, p.isLead)).join('');
+    const gridEl = document.getElementById('frontpage-grid');
+    gridEl.innerHTML = picks.map((p) => renderFrontStory(p.src, p.story, p.count, p.isLead)).join('');
+    // Balance the two desktop columns so they end at roughly the same place:
+    // greedily drop each story into whichever column is currently shorter.
+    const originalOrder = [...gridEl.children];
+    function balanceFront() {
+      gridEl.classList.remove('np-grid--balanced');
+      originalOrder.forEach((c) => gridEl.appendChild(c));
+      [...gridEl.querySelectorAll('.fp-col')].forEach((c) => c.remove());
+      if (window.matchMedia('(max-width: 820px)').matches || originalOrder.length < 2) return;
+      const heights = originalOrder.map((c) => c.getBoundingClientRect().height || 1);
+      const colA = document.createElement('div'), colB = document.createElement('div');
+      colA.className = 'fp-col'; colB.className = 'fp-col';
+      let ha = 0, hb = 0;
+      originalOrder.forEach((c, i) => { if (ha <= hb) { colA.appendChild(c); ha += heights[i]; } else { colB.appendChild(c); hb += heights[i]; } });
+      gridEl.appendChild(colA); gridEl.appendChild(colB);
+      gridEl.classList.add('np-grid--balanced');
+    }
+    balanceFront();
+    window.addEventListener('load', balanceFront);
+    var __fpTimer;
+    window.addEventListener('resize', () => { clearTimeout(__fpTimer); __fpTimer = setTimeout(balanceFront, 150); });
   })
   .catch((err) => {
     console.error('Failed to load front page', err);
@@ -214,6 +238,10 @@ function renderTopStory(s) {
   const img = s.image
     ? `<img class="np-lead-img" src="${escapeAttr(s.image)}" alt="${escapeAttr(s.image_alt || '')}" onerror="this.remove()">`
     : '';
+  const img2 = s.image2
+    ? `<img class="np-lead-img2" src="${escapeAttr(s.image2)}" alt="${escapeAttr(s.image2_alt || '')}" onerror="this.remove()">`
+    : '';
+  const media = (img || img2) ? `<div class="np-lead-media">${img}${img2}</div>` : '';
   let body;
   if (s.type === 'statement') {
     const paras = (s.paragraphs || []).map((p) => `<p>${escapeHtml(p)}</p>`).join('');
@@ -225,14 +253,11 @@ function renderTopStory(s) {
     const read = s.url
       ? `<p class="np-lead-attr">Read the full story at <a href="${escapeAttr(s.url)}" target="_blank" rel="noopener">${escapeHtml(s.source_name || 'the source')}</a></p>`
       : '';
-    const img2 = s.image2
-      ? `<img class="np-lead-img2" src="${escapeAttr(s.image2)}" alt="${escapeAttr(s.image2_alt || '')}" onerror="this.remove()">`
-      : '';
-    body = `<p class="np-lead-summary">${escapeHtml(s.summary || '')}</p>${img2}${read}`;
+    body = `<p class="np-lead-summary">${escapeHtml(s.summary || '')}</p>${read}`;
   }
   return `
     <article class="np-lead">
-      ${img}
+      ${media}
       <div class="np-lead-body">
         <p class="np-lead-kicker">${escapeHtml(s.kicker || 'Top Story')}</p>
         <h4 class="np-lead-headline">${escapeHtml(s.headline || '')}</h4>
