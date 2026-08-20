@@ -13,7 +13,7 @@
 
 # The don'ts
 - Do NOT spotlight Ald. Bill Conway personally. Lead with community impact; his newsletter gets factual source attribution only.
-- Any item that names a person together with an allegation or dispute: hold it and show me before it publishes. Never publish a legal claim or accusation as fact.
+- Items from credible, established news outlets (Block Club, CBS, ABC7, Sun-Times, Tribune, WBEZ, WTTW, Axios, Politico, etc.) may run as published, including ones that name a person in connection with an allegation - no need to hold these for review. Do NOT present an unverified accusation as the site's own claim, and do hold accusations that come only from rumor or a non-credible source.
 - Never let the site show wrong odds, scores, or prices rather than none — if a data source breaks, hide that section and tell me.
 
 # Start of every session

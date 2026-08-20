@@ -69,6 +69,7 @@
    "id": "blockclub",
    "name": "Block Club Chicago",
    "editor": "Neighborhood News",
+   "logo": "images/sources/blockclub-logo.png",
    "monogram": "BC",
    "description": "Nonprofit, hyperlocal reporting from Chicago's neighborhoods, including the West Loop and the Loop.",
    "site": "https://blockclubchicago.org/"
@@ -77,6 +78,7 @@
    "id": "cbs",
    "name": "CBS News Chicago",
    "editor": "City Desk",
+   "logo": "images/sources/cbs-logo.png",
    "monogram": "CBS",
    "description": "Local Chicago news from CBS 2.",
    "site": "https://www.cbsnews.com/chicago/"
@@ -85,6 +87,7 @@
    "id": "abc7",
    "name": "ABC7 Chicago",
    "editor": "Eyewitness News",
+   "logo": "images/sources/abc7-logo.png",
    "monogram": "7",
    "description": "Local Chicago news from ABC7 / WLS-TV.",
    "site": "https://abc7chicago.com/"
@@ -93,6 +96,7 @@
    "id": "eater",
    "name": "Eater Chicago",
    "editor": "Dining News",
+   "logo": "images/sources/eater-logo.png",
    "monogram": "E",
    "description": "Chicago restaurant news, openings, and closings, with heavy West Loop and Fulton Market coverage.",
    "site": "https://chicago.eater.com/"

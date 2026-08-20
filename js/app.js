@@ -1,4 +1,4 @@
-const DATA_V = '20260820b';
+const DATA_V = '20260820c';
 
 document.getElementById('year').textContent = new Date().getFullYear();
 
@@ -115,7 +115,7 @@ fetch('data/meetings.json?d=' + DATA_V)
 // The Front Page: six stories, newspaper style. One story per source first
 // (for variety), then backfill from productive sources so it always fills six.
 const FRONT_ORDER = ['blockclub', 'wlco', 'wca', 'axios', 'politico', 'conway', 'igwl', 'wardwatch', 'eater', 'cbs', 'abc7'];
-const FRONT_COUNT = 6;
+const FRONT_COUNT = 8;
 
 Promise.all([
   fetch('data/news_sources.json?d=' + DATA_V).then((r) => r.json()),
