@@ -1,6 +1,18 @@
 {
- "generated_at": "2026-08-21T12:55:58.419Z",
+ "generated_at": "2026-08-21T13:24:51.763Z",
  "items": [
+  {
+   "id": "blockclub-20260821-west-side-kids-some-who-just-learned-to-",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "West Side Kids, Some Who Just Learned To Swim, Take On Chicago Triathlon",
+   "summary": "Students have trained for months with coaches from Live Grit SOARS and BreakThrough Urban Ministries, with many learning to swim in the process.",
+   "url": "https://blockclubchicago.org/2026/08/21/west-side-students-gear-up-for-chicago-triathlon-ready-to-show-off-swimming-skills/",
+   "published_at": "2026-08-21T12:40:00.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "cbs-20260820-chicago-s-popular-christkindlmarket-retu",
    "category": "civic_org",
