@@ -1,6 +1,42 @@
 {
- "generated_at": "2026-08-20T13:25:38.167Z",
+ "generated_at": "2026-08-21T12:55:58.419Z",
  "items": [
+  {
+   "id": "cbs-20260820-chicago-s-popular-christkindlmarket-retu",
+   "category": "civic_org",
+   "source_id": "cbs",
+   "source_name": "CBS News Chicago",
+   "source_type": "web_feed",
+   "title": "Chicago's popular Christkindlmarket returning to Daley Plaza for 30th year in 2026",
+   "summary": "Christkindlmarket is returning to Daley Plaza in downtown Chicago for its 30th year.",
+   "url": "https://www.cbsnews.com/chicago/news/christkindlmarket-returning-daley-plaza-2026/",
+   "published_at": "2026-08-20T22:08:45.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "cbs-20260820-christkindlmarket-will-be-back-for-30th-",
+   "category": "civic_org",
+   "source_id": "cbs",
+   "source_name": "CBS News Chicago",
+   "source_type": "web_feed",
+   "title": "Christkindlmarket will be back for 30th year in Daley Plaza",
+   "summary": "Christkindlmarket is returning to Daley Plaza in downtown Chicago for its 30th year.",
+   "url": "https://www.cbsnews.com/chicago/video/christkindlmarket-will-be-back-for-30th-year-in-daley-plaza/",
+   "published_at": "2026-08-20T21:52:00.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260820-christkindlmarket-returns-to-loop-and-wr",
+   "category": "business",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Christkindlmarket Returns To Loop And Wrigleyville Nov. 20 For The Holiday Season",
+   "summary": "The German-style market will celebrate its 30th anniversary with a special mug this year.",
+   "url": "https://blockclubchicago.org/2026/08/20/christkindlmarket-returns-to-loop-and-wrigleyville-nov-20-for-holiday-season/",
+   "published_at": "2026-08-20T20:28:17.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "blockclub-20260820-28-things-to-do-in-chicago-this-weekend-",
    "category": "civic_org",
@@ -1368,54 +1404,6 @@
    "summary": "Nearly 50 teens participated in a summer program that involved pitching an anti-gun violence social media campaign to a local ad agency.",
    "url": "https://blockclubchicago.org/2026/07/31/south-west-side-teens-pitch-social-media-campaigns-to-stop-gun-violence-its-not-ok/",
    "published_at": "2026-07-31T13:32:00.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260730-ald-bill-conway-launches-reelection-bid-",
-   "category": "elected_official",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Ald. Bill Conway Launches Reelection Bid, Ending Speculation About Mayoral Run",
-   "summary": "The announcement comes after the Downtown City Council member loaned his campaign $500,000, prompting speculation he was preparing for a citywide race.",
-   "url": "https://blockclubchicago.org/2026/07/30/ald-bill-conway-launches-reelection-bid-ending-speculation-about-mayoral-run/",
-   "published_at": "2026-07-30T20:05:19.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260730-south-loop-neighbors-pitch-new-bus-conne",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "South Loop Neighbors Pitch New Bus Connector As Development Booms In Area",
-   "summary": "The proposed rapid bus line could get commuters around the South Loop with less hassle while leaving traffic and bike lanes untouched, according to South Loop Neighbors.",
-   "url": "https://blockclubchicago.org/2026/07/30/south-loop-neighbors-pitch-new-bus-connector-as-development-booms-in-area/",
-   "published_at": "2026-07-30T13:00:00.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260730-can-states-come-together-to-hold-ice-age",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Can States Come Together To Hold ICE Agents Accountable? Illinois Joins Others To Try",
-   "summary": "The effort - involving lawmakers from Illinois, Minnesota, Colorado and other states - aims to use local laws to allow people to file civil lawsuits and seek compensation for damages.",
-   "url": "https://blockclubchicago.org/2026/07/30/can-states-come-together-to-hold-ice-agents-accountable-illinois-joins-others-to-try/",
-   "published_at": "2026-07-30T13:28:00.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260730-more-than-300-apartments-coming-to-forme",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "More Than 300 Apartments Coming To Former Mag Mile Office Building As Work Gets Underway",
-   "summary": "DOWNTOWN - A vacant Michigan Avenue office building is being transformed into more than 300 apartments, the latest major conversion aimed at bringing residents and investment Downtown. Connecticut-based Commonwealth Development broke ground Wednesday on the conversion of 500 N.",
-   "url": "https://blockclubchicago.org/2026/07/30/more-than-300-apartments-coming-to-former-mag-mile-office-building-as-work-gets-underway/",
-   "published_at": "2026-07-30T13:00:00.000Z",
    "flagged_for_review": false
   }
  ]

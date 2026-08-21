@@ -1,12 +1,12 @@
 {
  "_rotation_note": "The daily job picks the next business each morning - rotating among ward businesses with priority to spotlight requests from owners and newly opened spots. Keep yesterday's entries in history.",
  "current": {
-  "date": "2026-08-20",
-  "name": "Athena Greek Restaurant",
-  "address": "212 S. Halsted St, Greektown",
-  "website": "https://athenarestaurantchicago.com/",
-  "image": "images/spotlight/athena.jpg",
-  "blurb": "A Greektown mainstay known for classic taverna cooking and one of the neighborhood's largest garden patios, framed by Parthenon-style columns."
+  "date": "2026-08-21",
+  "name": "Roister",
+  "address": "951 W. Fulton Market, Fulton Market",
+  "website": "https://www.roisterrestaurant.com/",
+  "image": "images/spotlight/roister.jpg",
+  "blurb": "The Alinea Group's rowdy, open-kitchen restaurant, famous for its whole fried chicken and a counter that puts you right in the fire."
  },
  "history": [
   {
@@ -459,6 +459,14 @@
   },
   {
    "date": "2026-08-19",
+   "name": "Athena Greek Restaurant",
+   "address": "212 S. Halsted St, Greektown",
+   "website": "https://athenarestaurantchicago.com/",
+   "image": "images/spotlight/athena.jpg",
+   "blurb": "A Greektown mainstay known for classic taverna cooking and one of the neighborhood's largest garden patios, framed by Parthenon-style columns."
+  },
+  {
+   "date": "2026-08-20",
    "name": "Athena Greek Restaurant",
    "address": "212 S. Halsted St, Greektown",
    "website": "https://athenarestaurantchicago.com/",
