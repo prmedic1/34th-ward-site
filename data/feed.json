@@ -1,6 +1,18 @@
 {
- "generated_at": "2026-08-22T12:47:23.754Z",
+ "generated_at": "2026-08-22T13:08:22.863Z",
  "items": [
+  {
+   "id": "cbs-20260822-child-among-4-injured-in-crash-after-pol",
+   "category": "civic_org",
+   "source_id": "cbs",
+   "source_name": "CBS News Chicago",
+   "source_type": "web_feed",
+   "title": "Child among 4 injured in crash after police pursuit in downtown Chicago",
+   "summary": "Four people, including one child, were injured in a crash following a police pursuit in Chicago's Streeterville neighborhood on Friday night.",
+   "url": "https://www.cbsnews.com/chicago/news/dusable-lake-shore-drive-crash-oak-street-streeterville/",
+   "published_at": "2026-08-22T12:53:54.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "abc7-20260822-3-in-custody-after-driver-slams-into-suv",
    "category": "civic_org",
