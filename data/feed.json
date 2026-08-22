@@ -1,6 +1,54 @@
 {
- "generated_at": "2026-08-21T13:24:51.763Z",
+ "generated_at": "2026-08-22T12:47:23.754Z",
  "items": [
+  {
+   "id": "abc7-20260822-3-in-custody-after-driver-slams-into-suv",
+   "category": "civic_org",
+   "source_id": "abc7",
+   "source_name": "ABC7 Chicago",
+   "source_type": "web_feed",
+   "title": "3 in custody after driver slams into SUV while fleeing from police on Near West Side: CPD",
+   "summary": "Three people are in custody after a driver fleeing from officers on the city's West Side on Friday night, Chicago police said.",
+   "url": "https://abc7chicago.com/post/3-custody-driver-fleeing-chicago-police-officers-causes-car-crash-2000-block-west-lake-street-cpd/19717888/",
+   "published_at": "2026-08-22T12:47:23.752Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "abc7-20260822-3-hospitalized-after-car-plunges-into-la",
+   "category": "civic_org",
+   "source_id": "abc7",
+   "source_name": "ABC7 Chicago",
+   "source_type": "web_feed",
+   "title": "3 hospitalized after car plunges into Lake Michigan in Streeterville, police say",
+   "summary": "A car plunged into Lake Michigan in downtown Chicago early Saturday, police said.",
+   "url": "https://abc7chicago.com/post/dusable-lake-shore-drive-accident-today-2-hospitalized-car-crash-michigan-streeterville-chicago-police-say/19717785/",
+   "published_at": "2026-08-22T12:47:23.752Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260821-bridgeport-residents-furious-about-amtra",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Bridgeport Residents Furious About Amtrak Rail Yard Plans - And Fear Losing The White Sox",
+   "summary": "Amtrak’s $900 million plan to relocate the yard from the South Loop could help achieve future White Sox owner Justin Ishbia’s rumored goal of moving the team to that vacated Amtrak facility - leaving Bridgeport neighbors without their beloved Sox.",
+   "url": "https://blockclubchicago.org/2026/08/21/bridgeport-residents-furious-about-amtrak-rail-yard-plans-and-fear-losing-the-white-sox/",
+   "published_at": "2026-08-21T13:45:00.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260821-city-unveils-2-year-timeline-for-improve",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "City Unveils 2-Year Timeline For Improvements At Former Greyhound Station",
+   "summary": "City officials outlined a two-phase plan for upgrades to the Downtown terminal at a Thursday meeting, where residents raised concerns about safety and cleanliness.",
+   "url": "https://blockclubchicago.org/2026/08/21/city-unveils-2-year-timeline-for-improvements-at-former-greyhound-station/",
+   "published_at": "2026-08-21T13:21:00.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "blockclub-20260821-west-side-kids-some-who-just-learned-to-",
    "category": "civic_org",
@@ -1227,18 +1275,6 @@
    "flagged_for_review": false
   },
   {
-   "id": "blockclub-20260731-printers-row-lit-fest-2026-headliners-in",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Printers Row Lit Fest 2026 Headliners Include Scott Turow, Eve L. Ewing and Geoff Bennett",
-   "summary": "The 41st edition of the free literary fest returns Sept. 12-13 with international and local literary heavyweights, including Omar El Akkad, Scott Simon and Pulitzer-winning Chicago Tribune journalists.",
-   "url": "https://blockclubchicago.org/2026/07/31/printers-row-lit-fest-2026-headliners-include-scott-turow-eve-l-ewing-and-geoff-bennett/",
-   "published_at": "2026-07-31T15:50:12.000Z",
-   "flagged_for_review": false
-  },
-  {
    "id": "blockclub-20260803-making-new-friends-is-easy-as-pie-with-t",
    "category": "civic_org",
    "source_id": "blockclub",
@@ -1320,102 +1356,6 @@
    "summary": "Day two of the music festival saw \"Brat\" fashion, a canceled Lil Uzi performance, Chicago artists and more.",
    "url": "https://blockclubchicago.org/2026/08/01/lollapalooza-continues-with-rain-schedule-changes-and-headliners-charli-xcx-smashing-pumpkins/",
    "published_at": "2026-08-01T13:34:03.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "cbs-20260801-little-joe-s-bar-in-little-italy-respond",
-   "category": "business",
-   "source_id": "cbs",
-   "source_name": "CBS News Chicago",
-   "source_type": "web_feed",
-   "title": "Little Joe's bar in Little Italy responds to break-in with mock 0-star review for burglars",
-   "summary": "A popular Little Italy neighborhood bar was the target of an early morning break-in this week. While the owners said they are upset, they are responding with some levity.",
-   "url": "https://www.cbsnews.com/chicago/news/little-joes-bar-in-little-italy-responds-to-break-in-with-mock-0-star-review-for-burglars/",
-   "published_at": "2026-08-01T03:17:37.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "cbs-20260801-noisy-motorcycle-caravans-creating-chaos",
-   "category": "civic_org",
-   "source_id": "cbs",
-   "source_name": "CBS News Chicago",
-   "source_type": "web_feed",
-   "title": "Noisy motorcycle caravans creating chaos downtown, raising safety concerns from neighbors",
-   "summary": "A caravan of hundreds of motorcycles created a loud, chaotic, and potentially dangerous situation on the Dan Ryan Expressway and in the South Loop and downtown Chicago late Thursday night.",
-   "url": "https://www.cbsnews.com/chicago/news/motorcycle-caravans-dan-ryan-expressway-south-loop-downtown/",
-   "published_at": "2026-08-01T03:14:16.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "cbs-20260801-little-italy-bar-responds-to-break-in-wi",
-   "category": "business",
-   "source_id": "cbs",
-   "source_name": "CBS News Chicago",
-   "source_type": "web_feed",
-   "title": "Little Italy bar responds to break-in with levity",
-   "summary": "A popular Little Italy neighborhood bar was the target of an early morning break-in this week. While the owners said they are upset, they are responding with some levity.",
-   "url": "https://www.cbsnews.com/chicago/video/little-italy-bar-responds-to-break-in-with-levity/",
-   "published_at": "2026-08-01T03:12:00.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "cbs-20260801-motorcycle-caravans-causing-chaos-on-dan",
-   "category": "civic_org",
-   "source_id": "cbs",
-   "source_name": "CBS News Chicago",
-   "source_type": "web_feed",
-   "title": "Motorcycle caravans causing chaos on Dan Ryan and downtown",
-   "summary": "A caravan of hundreds of motorcycles created a loud, chaotic, and potentially dangerous situation on the Dan Ryan Expressway and in the South Loop and downtown Chicago late Thursday night.",
-   "url": "https://www.cbsnews.com/chicago/video/motorcycle-caravans-causing-chaos-on-dan-ryan-and-downtown/",
-   "published_at": "2026-08-01T03:08:00.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "abc7-20260731-crash-and-grab-suspects-target-loop-sand",
-   "category": "business",
-   "source_id": "abc7",
-   "source_name": "ABC7 Chicago",
-   "source_type": "web_feed",
-   "title": "Crash-and-grab suspects target Loop sandwich shop's ATM, Chicago police say",
-   "summary": "Chicago police were investigating a smash-and-grab robbery in the Loop Friday morning.",
-   "url": "https://abc7chicago.com/post/chicago-crime-police-investigating-crash-grab-robbery-americana-submarine-shop-clark-van-buren/19606114/",
-   "published_at": "2026-07-31T14:19:27.422Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "cbs-20260731-atm-stolen-from-business-in-downtown-chi",
-   "category": "business",
-   "source_id": "cbs",
-   "source_name": "CBS News Chicago",
-   "source_type": "web_feed",
-   "title": "ATM stolen from business in downtown Chicago",
-   "summary": "An ATM was taken during a smash-and-grab burglary in Chicago's Loop early Friday morning.",
-   "url": "https://www.cbsnews.com/chicago/news/atm-smash-and-grab-downtown-chicago/",
-   "published_at": "2026-07-31T13:46:59.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260731-lollapalooza-kicks-off-with-heat-john-su",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Lollapalooza Kicks Off With Heat, John Summit, Lorde And A Ferris Wheel",
-   "summary": "The first day of the Downtown music festival Thursday featured a pop-heavy lineup with many special guests, new pop-ups and captivating sets from headliners.",
-   "url": "https://blockclubchicago.org/2026/07/31/lollapalooza-kicks-off-with-heat-john-summit-lorde-and-a-ferris-wheel/",
-   "published_at": "2026-07-31T13:38:00.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260731-south-west-side-teens-pitch-social-media",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "South, West Side Teens Pitch Social Media Campaigns To Stop Gun Violence: It's Not OK'",
-   "summary": "Nearly 50 teens participated in a summer program that involved pitching an anti-gun violence social media campaign to a local ad agency.",
-   "url": "https://blockclubchicago.org/2026/07/31/south-west-side-teens-pitch-social-media-campaigns-to-stop-gun-violence-its-not-ok/",
-   "published_at": "2026-07-31T13:32:00.000Z",
    "flagged_for_review": false
   }
  ]

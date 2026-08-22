@@ -1,12 +1,12 @@
 {
  "_rotation_note": "The daily job picks the next business each morning - rotating among ward businesses with priority to spotlight requests from owners and newly opened spots. Keep yesterday's entries in history.",
  "current": {
-  "date": "2026-08-21",
-  "name": "Roister",
-  "address": "951 W. Fulton Market, Fulton Market",
-  "website": "https://www.roisterrestaurant.com/",
-  "image": "images/spotlight/roister.jpg",
-  "blurb": "The Alinea Group's rowdy, open-kitchen restaurant, famous for its whole fried chicken and a counter that puts you right in the fire."
+  "date": "2026-08-22",
+  "name": "Smyth + The Loyalist",
+  "address": "177 N. Ada St, West Loop",
+  "website": "https://www.smythandtheloyalist.com/",
+  "image": "images/spotlight/smyth-loyalist.jpg",
+  "blurb": "Two restaurants in one: the two-Michelin-star Smyth upstairs, and downstairs The Loyalist, home to what many call Chicago's best burger."
  },
  "history": [
   {
@@ -472,6 +472,14 @@
    "website": "https://athenarestaurantchicago.com/",
    "image": "images/spotlight/athena.jpg",
    "blurb": "A Greektown mainstay known for classic taverna cooking and one of the neighborhood's largest garden patios, framed by Parthenon-style columns."
+  },
+  {
+   "date": "2026-08-21",
+   "name": "Roister",
+   "address": "951 W. Fulton Market, Fulton Market",
+   "website": "https://www.roisterrestaurant.com/",
+   "image": "images/spotlight/roister.jpg",
+   "blurb": "The Alinea Group's rowdy, open-kitchen restaurant, famous for its whole fried chicken and a counter that puts you right in the fire."
   }
  ]
 }
