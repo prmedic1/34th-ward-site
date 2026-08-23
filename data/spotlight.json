@@ -1,12 +1,12 @@
 {
  "_rotation_note": "The daily job picks the next business each morning - rotating among ward businesses with priority to spotlight requests from owners and newly opened spots. Keep yesterday's entries in history.",
  "current": {
-  "date": "2026-08-22",
-  "name": "Smyth + The Loyalist",
-  "address": "177 N. Ada St, West Loop",
-  "website": "https://www.smythandtheloyalist.com/",
-  "image": "images/spotlight/smyth-loyalist.jpg",
-  "blurb": "Two restaurants in one: the two-Michelin-star Smyth upstairs, and downstairs The Loyalist, home to what many call Chicago's best burger."
+  "date": "2026-08-23",
+  "name": "Federales",
+  "address": "180 N. Morgan St, Fulton Market",
+  "website": "https://www.federaleschicago.com/",
+  "image": "images/spotlight/federales.jpg",
+  "blurb": "Tacos, frozen margaritas, and one of Fulton Market's liveliest open-air patios, packed all summer long."
  },
  "history": [
   {
@@ -480,6 +480,14 @@
    "website": "https://www.roisterrestaurant.com/",
    "image": "images/spotlight/roister.jpg",
    "blurb": "The Alinea Group's rowdy, open-kitchen restaurant, famous for its whole fried chicken and a counter that puts you right in the fire."
+  },
+  {
+   "date": "2026-08-22",
+   "name": "Smyth + The Loyalist",
+   "address": "177 N. Ada St, West Loop",
+   "website": "https://www.smythandtheloyalist.com/",
+   "image": "images/spotlight/smyth-loyalist.jpg",
+   "blurb": "Two restaurants in one: the two-Michelin-star Smyth upstairs, and downstairs The Loyalist, home to what many call Chicago's best burger."
   }
  ]
 }
