@@ -1,12 +1,12 @@
 {
  "_rotation_note": "The daily job picks the next business each morning - rotating among ward businesses with priority to spotlight requests from owners and newly opened spots. Keep yesterday's entries in history.",
  "current": {
-  "date": "2026-08-23",
-  "name": "Federales",
-  "address": "180 N. Morgan St, Fulton Market",
-  "website": "https://www.federaleschicago.com/",
-  "image": "images/spotlight/federales.jpg",
-  "blurb": "Tacos, frozen margaritas, and one of Fulton Market's liveliest open-air patios, packed all summer long."
+  "date": "2026-08-24",
+  "name": "Bonci Pizzeria",
+  "address": "161 N. Sangamon St, West Loop",
+  "website": "https://bonci.com/",
+  "image": "images/spotlight/bonci.jpg",
+  "blurb": "The Chicago outpost of Rome's famous pizza al taglio, sold by the rectangular slice and priced by weight, with ever-changing toppings."
  },
  "history": [
   {
@@ -488,6 +488,14 @@
    "website": "https://www.smythandtheloyalist.com/",
    "image": "images/spotlight/smyth-loyalist.jpg",
    "blurb": "Two restaurants in one: the two-Michelin-star Smyth upstairs, and downstairs The Loyalist, home to what many call Chicago's best burger."
+  },
+  {
+   "date": "2026-08-23",
+   "name": "Federales",
+   "address": "180 N. Morgan St, Fulton Market",
+   "website": "https://www.federaleschicago.com/",
+   "image": "images/spotlight/federales.jpg",
+   "blurb": "Tacos, frozen margaritas, and one of Fulton Market's liveliest open-air patios, packed all summer long."
   }
  ]
 }

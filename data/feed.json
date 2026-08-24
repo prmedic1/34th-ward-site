@@ -1,6 +1,30 @@
 {
- "generated_at": "2026-08-23T13:09:03.960Z",
+ "generated_at": "2026-08-24T12:58:09.719Z",
  "items": [
+  {
+   "id": "blockclub-20260824-bts-is-coming-to-chicago-here-s-where-ar",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "BTS Is Coming To Chicago. Here’s Where ARMY Can Celebrate Around The City",
+   "summary": "The group’s sold-out Soldier Field concerts are Aug. 27-28, with fan parties, pop-ups, giveaways, food specials and more planned throughout the week.",
+   "url": "https://blockclubchicago.org/2026/08/24/bts-is-coming-to-chicago-heres-where-army-can-celebrate-around-the-city/",
+   "published_at": "2026-08-24T12:22:00.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260823-famed-sculptor-hired-to-build-dusable-st",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Famed Sculptor Hired To Build DuSable Statue At Long-Planned Lakefront Park",
+   "summary": "Work will soon begin on DuSable Park, a lakefront green space at that will include a monument to its namesake, Chicago’s founder and first non-Indigenous Black settler.",
+   "url": "https://blockclubchicago.org/2026/08/23/famed-sculptor-hired-to-build-dusable-statue-at-long-planned-lakefront-park/",
+   "published_at": "2026-08-23T15:55:14.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "cbs-20260822-child-among-4-injured-in-crash-after-pol",
    "category": "civic_org",
@@ -1179,18 +1203,6 @@
    "flagged_for_review": false
   },
   {
-   "id": "politico-20260803-giannoulias-officially-enters-the-2027-mayors-race",
-   "category": "elected_official",
-   "source_id": "politico",
-   "source_name": "Politico Illinois Playbook",
-   "source_type": "email_newsletter",
-   "title": "Giannoulias officially enters the 2027 Chicago mayor's race",
-   "summary": "Illinois Secretary of State Alexi Giannoulias has made his 2027 Chicago mayoral bid official, POLITICO's Illinois Playbook and Axios Chicago reported this week. Giannoulias, a statewide elected official and former state treasurer, joins a growing field ahead of the February 2027 election.",
-   "url": "https://www.politico.com/newsletters/illinois-playbook",
-   "published_at": "2026-08-03T12:02:14Z",
-   "flagged_for_review": false
-  },
-  {
    "id": "abc7-20260804-longtime-west-loop-restaurant-wishbone-t",
    "category": "business",
    "source_id": "abc7",
@@ -1275,18 +1287,6 @@
    "flagged_for_review": false
   },
   {
-   "id": "cbs-20260803-most-downtown-chicago-roads-to-reopen-mo",
-   "category": "civic_org",
-   "source_id": "cbs",
-   "source_name": "CBS News Chicago",
-   "source_type": "web_feed",
-   "title": "Most downtown Chicago roads to reopen Monday with Lollapalooza over",
-   "summary": "Lollapalooza 2027 came to an end in Chicago's Grant Park Sunday night, as crowds emptied out and headed home.",
-   "url": "https://www.cbsnews.com/chicago/news/most-downtown-chicago-roads-reopen-monday-lollapalooza-over/",
-   "published_at": "2026-08-03T10:37:12.000Z",
-   "flagged_for_review": false
-  },
-  {
    "id": "blockclub-20260803-making-new-friends-is-easy-as-pie-with-t",
    "category": "civic_org",
    "source_id": "blockclub",
@@ -1308,66 +1308,6 @@
    "summary": "Lollapalooza 2026 wrapped up with a series of stellar local performers and fans willing to wait in extensive lines for free pop-ups and giveaways.",
    "url": "https://blockclubchicago.org/2026/08/03/tate-mcrae-and-beabadoobee-offer-a-pop-fueled-finale-to-a-festive-if-muddy-lolla-weekend/",
    "published_at": "2026-08-03T13:22:38.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260803-14-things-to-do-outside-in-chicago-in-au",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "14 Things To Do Outside In Chicago In August",
-   "summary": "CHICAGO - Don’t utter the phrase “back to school” quite yet. Chicago is soaking up every ounce of summer with a plethora of free and ticketed outdoor events to choose from this month.",
-   "url": "https://blockclubchicago.org/2026/08/03/14-things-to-do-outside-in-chicago-in-august/",
-   "published_at": "2026-08-03T12:35:00.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260802-at-lollapalooza-some-fans-begin-the-day-",
-   "category": "business",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "At Lollapalooza, Some Fans Begin The Day With A Mad Dash To The Main Stages",
-   "summary": "The opening of the Lollapalooza gates features a frenzy of sprinting fans looking to secure front-row spots for their favorite artists.",
-   "url": "https://blockclubchicago.org/2026/08/02/at-lollapalooza-some-fans-begin-the-day-with-a-mad-dash-to-the-main-stages/",
-   "published_at": "2026-08-02T18:58:13.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260802-rain-mud-and-big-firsts-mark-lollapalooz",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Rain, Mud And Big Firsts Mark Lollapalooza’s 3rd Day",
-   "summary": "Olivia Dean and Jennie made history onstage, while Chicago teens and an impromptu sapphic mud-wrestling match brought their own memorable moments.",
-   "url": "https://blockclubchicago.org/2026/08/02/rain-mud-and-big-firsts-mark-lollapaloozas-3rd-day/",
-   "published_at": "2026-08-02T13:34:00.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260801-lollapalooza-extends-delay-due-to-rain-r",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Lollapalooza Extends Delay Due To Rain, Releases New Saturday Schedule",
-   "summary": "An updated announcement from the fest states that the doors will open at 3 p.m.",
-   "url": "https://blockclubchicago.org/2026/08/01/lollapalooza-delayed-saturday-due-to-rain/",
-   "published_at": "2026-08-01T14:55:36.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260801-lollapalooza-continues-with-rain-schedul",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Lollapalooza Continues With Rain, Schedule Changes And Headliners Charli XCX, Smashing Pumpkins",
-   "summary": "Day two of the music festival saw \"Brat\" fashion, a canceled Lil Uzi performance, Chicago artists and more.",
-   "url": "https://blockclubchicago.org/2026/08/01/lollapalooza-continues-with-rain-schedule-changes-and-headliners-charli-xcx-smashing-pumpkins/",
-   "published_at": "2026-08-01T13:34:03.000Z",
    "flagged_for_review": false
   }
  ]
