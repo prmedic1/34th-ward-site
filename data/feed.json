@@ -1,6 +1,18 @@
 {
- "generated_at": "2026-08-25T12:54:39.002Z",
+ "generated_at": "2026-08-25T13:26:29.226Z",
  "items": [
+  {
+   "id": "blockclub-20260825-after-first-day-of-school-drop-off-bronz",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "After First Day Of School Drop-Off, Bronzeville Dads Meet At Pressbox Chicago To Connect And Unwind",
+   "summary": "Created by community leader Stephen Mitchell, the gathering saw fathers from all stages of parenthood and all walks of life come together for food, beers and laughs.",
+   "url": "https://blockclubchicago.org/2026/08/25/after-first-day-of-school-drop-off-bronzeville-dads-meet-at-pressbox-chicago-to-connect-and-unwind/",
+   "published_at": "2026-08-25T12:23:00.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "abc7-20260825-plans-unveiled-for-15-minute-express-o-h",
    "category": "business",
@@ -1212,18 +1224,6 @@
    "summary": "The couple was told that the car cannot be removed until there's an inspection by the Buildings Department.",
    "url": "https://abc7chicago.com/post/west-town-chicago-car-crash-vehicle-remains-lodged-townhome-collision-mallory-john-baquero-say/19622147/",
    "published_at": "2026-08-04T14:26:27.163Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260804-teens-compete-for-thousands-in-seed-fund",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Teens Compete For Thousands In Seed Funding In This Week's Pitch Black' Competition",
-   "summary": "Teens aged 14-18 will wrap their free summer entrepreneurship course at nonprofit Gray Matter Experience Thursday by pitching their \"social impact\"-focused businesses to a panel of judges. They'll vie for $16,500 in total prizes.",
-   "url": "https://blockclubchicago.org/2026/08/04/teens-compete-for-thousands-in-seed-funding-in-this-weeks-pitch-black-competition/",
-   "published_at": "2026-08-04T13:00:00.000Z",
    "flagged_for_review": false
   }
  ]
