@@ -1,6 +1,30 @@
 {
- "generated_at": "2026-08-24T13:29:08.989Z",
+ "generated_at": "2026-08-25T12:54:39.002Z",
  "items": [
+  {
+   "id": "abc7-20260825-plans-unveiled-for-15-minute-express-o-h",
+   "category": "business",
+   "source_id": "abc7",
+   "source_name": "ABC7 Chicago",
+   "source_type": "web_feed",
+   "title": "Plans unveiled for 15 minute express 'O'Hare Flyer' trains from airport to downtown",
+   "summary": "Chicago business and civic leaders announced plans Tuesday for what they're calling the \"O'Hare Flyer.\"",
+   "url": "https://abc7chicago.com/post/plans-unveiled-15-minute-express-ohare-flyer-trains-airport-downtown/19732727/",
+   "published_at": "2026-08-25T12:54:39.001Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260824-stunod-s-pizzeria-s-taylor-street-locati",
+   "category": "business",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Stunod’s Pizzeria's Taylor Street Location A Dream Come True' For 2 Brothers",
+   "summary": "Frank and Austin Battaglia will open the second location of their Garfield Ridge restaurant on the corridor they visited often as kids with their dad, a well-known food distributor.",
+   "url": "https://blockclubchicago.org/2026/08/24/stunods-pizzerias-taylor-street-location-a-dream-come-true-for-2-brothers/",
+   "published_at": "2026-08-24T13:00:00.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "blockclub-20260824-bts-is-coming-to-chicago-here-s-where-ar",
    "category": "civic_org",
@@ -1131,18 +1155,6 @@
    "flagged_for_review": false
   },
   {
-   "id": "politico-20260804-governor-signs-bills-to-protect-consumer",
-   "category": "elected_official",
-   "source_id": "politico",
-   "source_name": "POLITICO Illinois Playbook",
-   "source_type": "email_newsletter",
-   "title": "Governor Signs Bills to Protect Consumers",
-   "summary": "Governor JB will sign bills HB 4273 and SB 714 into law at 555 W Monroe at 10 am, which aim to protect consumers from unfair home and auto insurance rates. This legislation could have a positive impact on residents in the 34th Ward by providing them with more affordable insurance options.",
-   "url": "https://www.politico.com/newsletters/illinois-playbook",
-   "published_at": "2026-08-04T12:01:07.000Z",
-   "flagged_for_review": false
-  },
-  {
    "id": "abc7-20260805-car-removed-from-west-town-home-after-in",
    "category": "civic_org",
    "source_id": "abc7",
@@ -1179,30 +1191,6 @@
    "flagged_for_review": false
   },
   {
-   "id": "axios-20260804-illinois-back-to-school-sales-tax-holiday-starts-aug-7",
-   "category": "newsletter",
-   "source_id": "axios",
-   "source_name": "Axios Chicago",
-   "source_type": "email_newsletter",
-   "title": "Illinois back-to-school sales tax holiday starts Aug. 7",
-   "summary": "Illinois brings back its 10-day back-to-school sales tax holiday from August 7 to 16, cutting the state sales tax on qualifying clothing and school supplies from 6.25% to 1.25%. Local sales taxes still apply, and the break comes just after Chicago and parts of Cook County saw their combined sales tax rise to 10.5%, among the highest in the nation. Gov. JB Pritzker promoted the break, which lawmakers approved in the spring state budget.",
-   "url": "https://www.axios.com/local/chicago",
-   "published_at": "2026-08-04T11:27:15Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "axios-20260804-chicago-pays-the-nations-highest-price-to-remove-lead-water-lines",
-   "category": "newsletter",
-   "source_id": "axios",
-   "source_name": "Axios Chicago",
-   "source_type": "email_newsletter",
-   "title": "Chicago pays the nation's highest price to remove lead water lines",
-   "summary": "Chicago pays two to three times what nearby suburbs pay to remove toxic lead water lines, about $33,784 per line compared with $10,950 in Elgin, according to Axios Chicago. At that rate the city faces roughly $13.5 billion to replace its 400,000 lead lines over two decades, a cost that will fall heavily on taxpayers. City officials have not identified concrete plans to lower the charges, even as a federal rule will require removing 20,000 lines a year.",
-   "url": "https://www.axios.com/local/chicago",
-   "published_at": "2026-08-04T11:27:15Z",
-   "flagged_for_review": false
-  },
-  {
    "id": "abc7-20260804-longtime-west-loop-restaurant-wishbone-t",
    "category": "business",
    "source_id": "abc7",
@@ -1227,18 +1215,6 @@
    "flagged_for_review": false
   },
   {
-   "id": "blockclub-20260803-wishbone-west-loop-s-beloved-brunch-spot",
-   "category": "business",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Wishbone, West Loop's Beloved Brunch Spot, Closing After 36 Years",
-   "summary": "WEST LOOP - Wishbone, a beloved West Loop brunch spot, is closing after 36 years. Co-owners Joel Nickson and Julie Nickson announced the closing on social media and the restaurant's website Monday morning.",
-   "url": "https://blockclubchicago.org/2026/08/03/wishbone-west-loops-beloved-brunch-spot-closing-after-36-years/",
-   "published_at": "2026-08-03T20:22:00.000Z",
-   "flagged_for_review": false
-  },
-  {
    "id": "blockclub-20260804-teens-compete-for-thousands-in-seed-fund",
    "category": "civic_org",
    "source_id": "blockclub",
@@ -1248,66 +1224,6 @@
    "summary": "Teens aged 14-18 will wrap their free summer entrepreneurship course at nonprofit Gray Matter Experience Thursday by pitching their \"social impact\"-focused businesses to a panel of judges. They'll vie for $16,500 in total prizes.",
    "url": "https://blockclubchicago.org/2026/08/04/teens-compete-for-thousands-in-seed-funding-in-this-weeks-pitch-black-competition/",
    "published_at": "2026-08-04T13:00:00.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260803-lollapalooza-arrests-dip-as-dozens-taken",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Lollapalooza Arrests Dip As Dozens Taken To Hospitals During Mega Music Fest",
-   "summary": "Ten people were arrested during the four-day festival, down from 12 last year, while 67 attendees were taken to hospitals, the most since 2022.",
-   "url": "https://blockclubchicago.org/2026/08/03/lollapalooza-arrests-dip-as-dozens-taken-to-hospitals-during-mega-music-fest/",
-   "published_at": "2026-08-03T19:26:08.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260803-couple-s-coffee-education-journey-across",
-   "category": "business",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Couple's Coffee Education Journey Across The Americas Leads Them To Open Cafe Tabeeb",
-   "summary": "Tahani Hassan and Mohammed Awad, a couple with Palestinian and Syrian roots, plan to open their Printer's Row cafe in late August, building on their shared passion for coffee and the success of their roasting business.",
-   "url": "https://blockclubchicago.org/2026/08/03/couples-coffee-education-journey-across-the-americas-leads-them-to-open-cafe-tabeeb-in-printers-row/",
-   "published_at": "2026-08-03T16:35:00.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260803-printers-row-lit-fest-2026-headliners-in",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Printers Row Lit Fest 2026 Headliners Include Scott Turow, Eve L. Ewing, Geoff Bennett",
-   "summary": "The 41st edition of the free literary fest returns Sept. 12-13 with international and local heavyweights, including Omar El Akkad, Scott Simon and Pulitzer-winning Chicago Tribune journalists.",
-   "url": "https://blockclubchicago.org/2026/08/03/printers-row-lit-fest-2026-headliners-include-scott-turow-eve-l-ewing-and-geoff-bennett/",
-   "published_at": "2026-08-03T14:50:15.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260803-making-new-friends-is-easy-as-pie-with-t",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Making New Friends Is Easy As Pie With This Chicago App",
-   "summary": "The event platform Pie has found its strongest audience in Chicago and is now trying to recreate that success nationwide with new co-founder Nadya Okamoto.",
-   "url": "https://blockclubchicago.org/2026/08/03/making-new-friends-is-easy-as-pie-with-new-chicago-app/",
-   "published_at": "2026-08-03T14:09:01.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260803-tate-mcrae-and-beabadoobee-offer-a-pop-f",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Tate McRae And Beabadoobee Offer A Pop-Fueled Finale To A Festive If Muddy Lolla Weekend",
-   "summary": "Lollapalooza 2026 wrapped up with a series of stellar local performers and fans willing to wait in extensive lines for free pop-ups and giveaways.",
-   "url": "https://blockclubchicago.org/2026/08/03/tate-mcrae-and-beabadoobee-offer-a-pop-fueled-finale-to-a-festive-if-muddy-lolla-weekend/",
-   "published_at": "2026-08-03T13:22:38.000Z",
    "flagged_for_review": false
   }
  ]
