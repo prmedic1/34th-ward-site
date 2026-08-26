@@ -1,6 +1,42 @@
 {
- "generated_at": "2026-08-25T13:26:29.226Z",
+ "generated_at": "2026-08-26T13:00:19.093Z",
  "items": [
+  {
+   "id": "abc7-20260826-3-wounded-in-near-west-side-shooting-chi",
+   "category": "civic_org",
+   "source_id": "abc7",
+   "source_name": "ABC7 Chicago",
+   "source_type": "web_feed",
+   "title": "3 wounded in Near West Side shooting, Chicago police say",
+   "summary": "Three men were wounded in a shooting on the Near West Side Tuesday night, Chicago police said.",
+   "url": "https://abc7chicago.com/post/chicago-shooting-3-wounded-west-side-police-say/19737780/",
+   "published_at": "2026-08-26T13:00:19.092Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "cbs-20260826-3-men-injured-after-drive-by-shooting-on",
+   "category": "civic_org",
+   "source_id": "cbs",
+   "source_name": "CBS News Chicago",
+   "source_type": "web_feed",
+   "title": "3 men injured after drive-by shooting on Chicago's Near West Side",
+   "summary": "Three men were injured after a shooting on Chicago's West Side on Tuesday night.",
+   "url": "https://www.cbsnews.com/chicago/news/drive-by-shooting-chicago-near-west-side-jackson/",
+   "published_at": "2026-08-26T11:00:22.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260825-hoops-in-the-hood-celebrates-20-years-of",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Hoops In The Hood Celebrates 20 Years Of Bringing Chicago Kids Together Through Basketball",
+   "summary": "Hoops in the Hood marked its anniversary Friday with a citywide tournament at Seward Park, where basketball is the starting point for mentorship, community and opportunity.",
+   "url": "https://blockclubchicago.org/2026/08/25/hoops-in-the-hood-celebrates-20-years-of-bringing-chicago-kids-together-through-basketball/",
+   "published_at": "2026-08-25T15:00:00.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "blockclub-20260825-after-first-day-of-school-drop-off-bronz",
    "category": "civic_org",
@@ -1119,42 +1155,6 @@
    "flagged_for_review": false
   },
   {
-   "id": "wlco-20260804-400-n-morgan-community-meeting",
-   "category": "civic_org",
-   "source_id": "wlco",
-   "source_name": "West Loop Community Organization",
-   "source_type": "email_newsletter",
-   "title": "400 N Morgan Community Meeting",
-   "summary": "A community meeting is scheduled for August 10th at 6 pm to discuss the development at 400 N Morgan. The project has been updated to include earlier open space delivery, reduced residential density, and reduced building height. The meeting will be held via Google Meet, and attendees can RSVP online.",
-   "url": "https://www.westloop.org/",
-   "published_at": "2026-08-04T18:45:23.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "politico-20260805-chicago-mayoral-race-resign-to-run-law",
-   "category": "elected_official",
-   "source_id": "politico",
-   "source_name": "POLITICO Illinois Playbook",
-   "source_type": "email_newsletter",
-   "title": "Chicago Mayoral Race, Resign to Run Law",
-   "summary": "The Chicago mayoral race has sparked debate over the practice of running for one office while simultaneously running for another. Some candidates are criticizing the practice, while others argue it is like interviewing for a job and does not require resignation from the current position. There have been calls for a 'resign to run' law, which would require officeholders to give up their current positions before seeking another office.",
-   "url": "https://www.politico.com/newsletters/illinois-playbook",
-   "published_at": "2026-08-05T12:01:44.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "axios-20260805-durbin-duckworth-vs-faa",
-   "category": "business",
-   "source_id": "axios",
-   "source_name": "Axios Chicago",
-   "source_type": "email_newsletter",
-   "title": "Durbin, Duckworth vs FAA",
-   "summary": "No specific information is available in the provided text to create a summary.",
-   "url": "https://www.axios.com/local/chicago",
-   "published_at": "2026-08-05T11:27:20.000Z",
-   "flagged_for_review": false
-  },
-  {
    "id": "blockclub-20260805-new-river-north-podcasting-studio-link-l",
    "category": "business",
    "source_id": "blockclub",
@@ -1164,66 +1164,6 @@
    "summary": "The studio offers recording space with editing, social media and marketing services for new and established content creators.",
    "url": "https://blockclubchicago.org/2026/08/05/new-river-north-podcasting-studio-link-label-aims-to-be-one-stop-shop-for-content-creation/",
    "published_at": "2026-08-05T13:49:00.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "abc7-20260805-car-removed-from-west-town-home-after-in",
-   "category": "civic_org",
-   "source_id": "abc7",
-   "source_name": "ABC7 Chicago",
-   "source_type": "web_feed",
-   "title": "Car removed from West Town home after inspection, allowing repairs to begin",
-   "summary": "After sitting since early Sunday morning, a crashed car was finally removed from a West Town condo.",
-   "url": "https://abc7chicago.com/post/west-town-chicago-car-crash-vehicle-finally-removed-townhome-collision-mallory-john-baquero-say/19625486/",
-   "published_at": "2026-08-05T08:02:37.100Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260804-5-must-see-theater-shows-to-check-out-in",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "5 Must-See Theater Shows To Check Out In August",
-   "summary": "As summer wanes, Chicago stages have it all: revivals of popular musicals, new dramas and sleight-of-hand artists.",
-   "url": "https://blockclubchicago.org/2026/08/04/5-must-see-theater-shows-to-check-out-in-august-2/",
-   "published_at": "2026-08-04T18:36:53.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "wlco-20260804-west-loop-meeting-set-for-the-400-n-morgan-development",
-   "category": "civic_org",
-   "source_id": "wlco",
-   "source_name": "West Loop Community Organization",
-   "source_type": "email_newsletter",
-   "title": "West Loop meeting set for the 400 N. Morgan development",
-   "summary": "The West Loop Community Organization will host a community meeting on Monday, August 10 at 6 pm about the 400 N. Morgan development. The latest plans add 403 N. Carpenter Street to the site, cut the residential count from 478 to 430 units, lower the building height from 478 feet to 285 feet, and move the planned public open space earlier, to Phase 2 at Morgan and Kinzie. Residents can RSVP through WLCO for a Google Meet link.",
-   "url": "https://www.westloop.org/",
-   "published_at": "2026-08-04T18:45:23Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "abc7-20260804-longtime-west-loop-restaurant-wishbone-t",
-   "category": "business",
-   "source_id": "abc7",
-   "source_name": "ABC7 Chicago",
-   "source_type": "web_feed",
-   "title": "Longtime West Loop restaurant Wishbone to close by end of month",
-   "summary": "The dining scene is about to change in Chicago's West Loop with a long-time favorite is closing.",
-   "url": "https://abc7chicago.com/post/chicago-restaurant-closings-longtime-west-loop-wishbone-close-end-month/19623250/",
-   "published_at": "2026-08-04T14:26:27.163Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "abc7-20260804-a-car-is-in-our-house-vehicle-remains-lo",
-   "category": "civic_org",
-   "source_id": "abc7",
-   "source_name": "ABC7 Chicago",
-   "source_type": "web_feed",
-   "title": "'A car is in our house': Vehicle remains lodged in couple's West Town townhome after crash",
-   "summary": "The couple was told that the car cannot be removed until there's an inspection by the Buildings Department.",
-   "url": "https://abc7chicago.com/post/west-town-chicago-car-crash-vehicle-remains-lodged-townhome-collision-mallory-john-baquero-say/19622147/",
-   "published_at": "2026-08-04T14:26:27.163Z",
    "flagged_for_review": false
   }
  ]
