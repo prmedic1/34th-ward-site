@@ -1,6 +1,30 @@
 {
- "generated_at": "2026-08-27T22:40:26.546Z",
+ "generated_at": "2026-08-27T23:02:49.338Z",
  "items": [
+  {
+   "id": "axios-20260827-buc-ee-s-expansion-announced",
+   "category": "business",
+   "source_id": "axios",
+   "source_name": "Axios Chicago",
+   "source_type": "email_newsletter",
+   "title": "Buc-ee's expansion announced",
+   "summary": "The Axios Chicago newsletter for August 27, 2026, highlights the expansion of the Buc-ee's convenience store chain. The story is featured as a key item in the daily digest for Chicago readers.",
+   "url": "https://www.axios.com/local/chicago",
+   "published_at": "2026-08-27T11:27:16.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "conway-20260827-headline-no-em-dashes",
+   "category": "elected_official|business|civic_org|religious_org|newsletter",
+   "source_id": "conway",
+   "source_name": "Conway's Corner (34th Ward Office Newsletter)",
+   "source_type": "email_newsletter",
+   "title": "headline, no em dashes",
+   "summary": "2 to 4 sentences, no em dashes",
+   "url": "https://www.ward34.org/",
+   "published_at": "2026-08-27T21:39:09.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "axios-20260827-buc-ee-s-expansion-thursday-august-27-20",
    "category": "business",
