@@ -107,16 +107,19 @@ async function fetchNewsletters() {
   return out;
 }
 
+const SYSTEM_PROMPT = 'You are the news editor for 34thward.com, a community news site for Chicago\'s 34th Ward (West Loop, Greektown, Fulton Market, the Loop, Printers Row, South Loop, near west side). You extract newsworthy items from ONE local newsletter at a time. Use ONLY facts stated in the newsletter text; never invent, infer, or add outside information, and never use web search. Output valid JSON only, no other text.';
+
+// Summarize each newsletter on its OWN so every source (especially Axios, which
+// tends to lose out when several are judged together) is guaranteed a fair look
+// and its items are correctly attributed. Combining them all in one prompt made
+// the model cherry-pick the easiest source and drop the rest.
 async function summarize(emails) {
   const today = new Date().toISOString().slice(0, 10);
-  const blocks = emails.map((e, i) =>
-    `--- EMAIL ${i + 1} ---\nsource_id: ${e.source_id}\nsource: ${e.source_name}\nsubject: ${e.subject}\ndate: ${e.date}\n${e.text}`
-  ).join('\n\n');
+  const out = [];
+  for (const e of emails) {
+    const user = `Today is ${today}. Below is ONE newsletter: ${e.source_name}. Extract its 1 to 3 most newsworthy stories for a 34th Ward reader. Return at least one item unless the newsletter is purely administrative (for example "no newsletter this week").
 
-  const system = 'You are the news editor for 34thward.com, a community news site for Chicago\'s 34th Ward (West Loop, Greektown, Fulton Market, the Loop, Printers Row, South Loop, near west side). You extract newsworthy items from local newsletters. Use ONLY facts stated in the newsletter text; never invent, infer, or add outside information, and never use web search. Output valid JSON only, no other text.';
-  const user = `Today is ${today}. Below are ${emails.length} newsletter(s). Your job: from EACH newsletter, extract its 1 to 3 most newsworthy stories for a 34th Ward reader. Return at least one item for every newsletter that has real content; only skip a newsletter if it is purely administrative (for example "no newsletter this week").
-
-How to choose within a newsletter: prefer stories about the ward's neighborhoods (West Loop, Greektown, Fulton Market, Printers Row, South Loop, near west side, the Loop). If none are ward-specific, pick that newsletter's single biggest story for a general Chicago audience, such as transit, housing, a development, a notable business opening or closing, schools, public safety, or taxes.
+How to choose: prefer stories about the ward's neighborhoods (West Loop, Greektown, Fulton Market, Printers Row, South Loop, near west side, the Loop). If none are ward-specific, pick this newsletter's single biggest story for a general Chicago audience, such as transit, housing, a development, a notable business opening or closing, schools, public safety, or taxes.
 
 Rules:
 - Use only facts explicitly in the newsletter text. Do not invent details or add anything from outside the text. No hedging words ("likely", "may", "probably").
@@ -127,31 +130,44 @@ Rules:
 - Do not output two items about the same event.
 
 Return ONLY this JSON and nothing else:
-{"items":[{"source_id":"politico|axios|igwl|conway|wca|wlco|skyline","category":"elected_official|business|civic_org|religious_org|newsletter","title":"headline, no em dashes","summary":"2 to 4 sentences, no em dashes"}]}
+{"items":[{"category":"elected_official|business|civic_org|religious_org|newsletter","title":"headline, no em dashes","summary":"2 to 4 sentences, no em dashes"}]}
 
-NEWSLETTERS:
-${blocks}`;
+NEWSLETTER TEXT:
+${e.text}`;
+    let res;
+    try {
+      res = await callModelWithFallback(SYSTEM_PROMPT, user);
+    } catch (err) {
+      console.log(`Summarize failed for ${e.source_id}: ${err.message.slice(0, 120)}`);
+      res = { items: [] };
+    }
+    const items = (res.items || []).slice(0, 3);
+    // We know which newsletter this is, so stamp the source_id ourselves rather
+    // than trusting the model to echo it back.
+    items.forEach((it) => out.push({ ...it, source_id: e.source_id }));
+    console.log(`  ${e.source_id}: ${items.length} item(s)` + (items.length ? ' - ' + items.map((it) => (it.title || '').slice(0, 45)).join(' | ') : ''));
+  }
+  return { items: out };
+}
 
-  const models = await pickModels();
+// Try our preferred models in order for a single prompt; fall through on any
+// per-model failure OR an empty result, so one flaky/over-cautious model does
+// not sink the whole run.
+let MODELS_CACHE = null;
+async function callModelWithFallback(system, user) {
+  if (!MODELS_CACHE) MODELS_CACHE = await pickModels();
   let lastErr, lastResult;
-  for (const model of models) {
+  for (const model of MODELS_CACHE) {
     try {
       const result = await callGroq(model, system, user);
-      // Some available models (gpt-oss, qwen) tend to return an empty list even
-      // when there is real content; if so, keep it as a fallback but try the
-      // next model, which may actually surface items.
       if (result && Array.isArray(result.items) && result.items.length) return result;
       lastResult = result;
-      console.log(`Groq model ${model} returned 0 items, trying next.`);
     } catch (e) {
       lastErr = e;
-      // Try the next model on ANY per-model failure (missing model, no access,
-      // request-too-large / rate limit, bad request). Only a total wipeout
-      // (all models failed) is reported.
-      console.log(`Groq model ${model} failed, trying next (${e.message.slice(0, 120)})`);
+      console.log(`Groq model ${model} failed, trying next (${e.message.slice(0, 100)})`);
     }
   }
-  if (lastResult) return lastResult;      // everything returned empty; that is a valid "nothing today"
+  if (lastResult) return lastResult;      // model ran but found nothing; valid empty
   throw lastErr || new Error('No usable Groq model found');
 }
 
