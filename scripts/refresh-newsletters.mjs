@@ -29,7 +29,20 @@ const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const GMAIL = process.env.GMAIL_ADDRESS || 'chicagojustice@gmail.com';
 const APP_PW = process.env.GMAIL_APP_PASSWORD || '';
 const GROQ_KEY = process.env.GROQ_API_KEY || '';
-const MODEL = 'llama-3.3-70b-versatile';
+// Groq retires/renames models over time (llama-3.3-70b-versatile started
+// returning HTTP 404 "model does not exist" in Aug 2026), which silently broke
+// this whole pipeline. So we no longer hardcode one model: we ask Groq which
+// models the key can use and try our preferred ones in order, falling through
+// on any "model unavailable" error. Update MODEL_PREFS if you want a different
+// preference order; the discovery + fallback keeps it working regardless.
+const MODEL_PREFS = [
+  'llama-3.1-8b-instant',
+  'llama-3.3-70b-versatile',
+  'openai/gpt-oss-120b',
+  'openai/gpt-oss-20b',
+  'qwen/qwen3-32b',
+  'gemma2-9b-it'
+];
 
 const SOURCES = {
   'illinoisplaybook@email.politico.com': { id: 'politico', name: 'POLITICO Illinois Playbook', url: 'https://www.politico.com/newsletters/illinois-playbook' },
@@ -103,11 +116,49 @@ Return ONLY this JSON:
 NEWSLETTERS:
 ${blocks}`;
 
+  const models = await pickModels();
+  let lastErr;
+  for (const model of models) {
+    try {
+      return await callGroq(model, system, user);
+    } catch (e) {
+      lastErr = e;
+      // Try the next model only when THIS model is the problem (missing / no
+      // access / deprecated). For other errors (rate limit, bad request, auth)
+      // stop and report so we do not mask a real failure.
+      if (!/model|does not exist|not found|404|no access|decommission|deprecat/i.test(e.message)) throw e;
+      console.log(`Groq model ${model} unavailable, trying next (${e.message.slice(0, 120)})`);
+    }
+  }
+  throw lastErr || new Error('No usable Groq model found');
+}
+
+// Ask Groq which models this key can use, preferring our known-good ones and
+// then any other general-purpose chat model (skipping audio / guard models).
+async function pickModels() {
+  try {
+    const r = await fetch('https://api.groq.com/openai/v1/models', {
+      headers: { Authorization: 'Bearer ' + GROQ_KEY }
+    });
+    if (r.ok) {
+      const d = await r.json();
+      const ids = (d.data || []).map((m) => m.id);
+      const has = new Set(ids);
+      const preferred = MODEL_PREFS.filter((m) => has.has(m));
+      const others = ids.filter((id) => !MODEL_PREFS.includes(id) && !/whisper|tts|guard|embed|vision/i.test(id));
+      const list = preferred.concat(others);
+      if (list.length) return list;
+    }
+  } catch { /* fall back to the static list below */ }
+  return MODEL_PREFS.slice();
+}
+
+async function callGroq(model, system, user) {
   const res = await fetch('https://api.groq.com/openai/v1/chat/completions', {
     method: 'POST',
     headers: { Authorization: 'Bearer ' + GROQ_KEY, 'Content-Type': 'application/json' },
     body: JSON.stringify({
-      model: MODEL, temperature: 0.2, max_tokens: 3500,
+      model, temperature: 0.2, max_tokens: 3500,
       response_format: { type: 'json_object' },
       messages: [{ role: 'system', content: system }, { role: 'user', content: user }]
     })
