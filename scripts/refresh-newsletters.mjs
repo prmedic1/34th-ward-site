@@ -36,14 +36,16 @@ const GROQ_KEY = process.env.GROQ_API_KEY || '';
 // on any "model unavailable" error. Update MODEL_PREFS if you want a different
 // preference order; the discovery + fallback keeps it working regardless.
 const MODEL_PREFS = [
-  'qwen/qwen3.8-27b',
-  'qwen/qwen3.6-27b',
   'openai/gpt-oss-120b',
   'openai/gpt-oss-20b',
+  'qwen/qwen3.8-27b',
+  'qwen/qwen3.6-27b',
   'llama-3.3-70b-versatile',
   'llama-3.1-8b-instant',
   'qwen/qwen3-32b',
-  'gemma2-9b-it'
+  'gemma2-9b-it',
+  'groq/compound',
+  'groq/compound-mini'
 ];
 
 const SOURCES = {
@@ -111,39 +113,45 @@ async function summarize(emails) {
     `--- EMAIL ${i + 1} ---\nsource_id: ${e.source_id}\nsource: ${e.source_name}\nsubject: ${e.subject}\ndate: ${e.date}\n${e.text}`
   ).join('\n\n');
 
-  const system = 'You are the daily editor for 34thward.com, a community news site for Chicago\'s 34th Ward (West Loop, Greektown, the Loop, Printers Row, South Loop). You return ONLY valid JSON, no prose.';
-  const user = `Today is ${today}. For EACH newsletter below you MUST return at least one item and at most three, UNLESS that newsletter is nothing but administrative filler (for example "no newsletter this week"). Every newsletter that has real content must be represented, so returning an empty list is wrong unless every newsletter is pure filler. Prefer the item(s) most pertinent to the West Loop and the 34th Ward (its neighborhoods: West Loop, Greektown, Fulton Market, Printers Row, South Loop, the near west side, and the Loop). When a newsletter has nothing specifically about the ward, still return its single most newsworthy story for a general Chicago audience (transit, housing, development, a notable business opening or closing, schools and CPS, crime and public safety, taxes and the city budget). Avoid national politics. There is no total cap.
+  const system = 'You are the news editor for 34thward.com, a community news site for Chicago\'s 34th Ward (West Loop, Greektown, Fulton Market, the Loop, Printers Row, South Loop, near west side). You extract newsworthy items from local newsletters. Use ONLY facts stated in the newsletter text; never invent, infer, or add outside information, and never use web search. Output valid JSON only, no other text.';
+  const user = `Today is ${today}. Below are ${emails.length} newsletter(s). Your job: from EACH newsletter, extract its 1 to 3 most newsworthy stories for a 34th Ward reader. Return at least one item for every newsletter that has real content; only skip a newsletter if it is purely administrative (for example "no newsletter this week").
 
-STRICT RULES:
-1. No em dashes anywhere. Use commas or hyphens.
-2. Do NOT center coverage on Ald. Bill Conway personally. Report community impact; his newsletter is just a source.
-3. Never include an event whose date already passed relative to ${today}. Drop it.
-4. OMIT entirely any item that names a specific person alongside an allegation, lawsuit, arrest, or accusation. Do not include it at all.
-5. Summaries: factual, specific (addresses, dates, dollar amounts, program names), 2 to 4 sentences.
-6. Skip administrative filler (e.g. "no newsletter next week").
-7. OMIT any item you cannot summarize with concrete facts actually stated in the newsletter. Never speculate or pad. Do not use hedging words like "likely", "probably", "may", or phrases like "the newsletter does not say". If unsure, leave the item out.
-8. Do not output two items about the same event; pick the single best one.
+How to choose within a newsletter: prefer stories about the ward's neighborhoods (West Loop, Greektown, Fulton Market, Printers Row, South Loop, near west side, the Loop). If none are ward-specific, pick that newsletter's single biggest story for a general Chicago audience, such as transit, housing, a development, a notable business opening or closing, schools, public safety, or taxes.
 
-Return ONLY this JSON:
-{"items":[{"source_id":"politico|axios|igwl|conway|wca|wlco|skyline","category":"elected_official|business|civic_org|religious_org|newsletter","title":"headline, no em dashes","summary":"2-4 sentences, no em dashes"}]}
+Rules:
+- Use only facts explicitly in the newsletter text. Do not invent details or add anything from outside the text. No hedging words ("likely", "may", "probably").
+- Summaries are 2 to 4 sentences, specific (names, addresses, dollar amounts, dates) drawn from the text.
+- No em dashes anywhere; use commas or hyphens.
+- Skip an item only if: it names a specific person tied to an allegation, arrest, lawsuit, or accusation; or it is an event whose date is before ${today}; or it is pure administrative filler.
+- Do not center coverage on Ald. Bill Conway personally; report the community impact.
+- Do not output two items about the same event.
+
+Return ONLY this JSON and nothing else:
+{"items":[{"source_id":"politico|axios|igwl|conway|wca|wlco|skyline","category":"elected_official|business|civic_org|religious_org|newsletter","title":"headline, no em dashes","summary":"2 to 4 sentences, no em dashes"}]}
 
 NEWSLETTERS:
 ${blocks}`;
 
   const models = await pickModels();
-  let lastErr;
+  let lastErr, lastResult;
   for (const model of models) {
     try {
-      return await callGroq(model, system, user);
+      const result = await callGroq(model, system, user);
+      // Some available models (gpt-oss, qwen) tend to return an empty list even
+      // when there is real content; if so, keep it as a fallback but try the
+      // next model, which may actually surface items.
+      if (result && Array.isArray(result.items) && result.items.length) return result;
+      lastResult = result;
+      console.log(`Groq model ${model} returned 0 items, trying next.`);
     } catch (e) {
       lastErr = e;
-      // Try the next model only when THIS model is the problem (missing / no
-      // access / deprecated). For other errors (rate limit, bad request, auth)
-      // stop and report so we do not mask a real failure.
-      if (!/model|does not exist|not found|404|no access|decommission|deprecat/i.test(e.message)) throw e;
-      console.log(`Groq model ${model} unavailable, trying next (${e.message.slice(0, 120)})`);
+      // Try the next model on ANY per-model failure (missing model, no access,
+      // request-too-large / rate limit, bad request). Only a total wipeout
+      // (all models failed) is reported.
+      console.log(`Groq model ${model} failed, trying next (${e.message.slice(0, 120)})`);
     }
   }
+  if (lastResult) return lastResult;      // everything returned empty; that is a valid "nothing today"
   throw lastErr || new Error('No usable Groq model found');
 }
 
@@ -159,7 +167,7 @@ async function pickModels() {
       const ids = (d.data || []).map((m) => m.id);
       const has = new Set(ids);
       const preferred = MODEL_PREFS.filter((m) => has.has(m));
-      const others = ids.filter((id) => !MODEL_PREFS.includes(id) && !/whisper|tts|guard|embed|vision/i.test(id));
+      const others = ids.filter((id) => !MODEL_PREFS.includes(id) && !/whisper|tts|guard|embed|vision|orpheus|allam|speech|audio/i.test(id));
       const list = preferred.concat(others);
       console.log('DEBUG all available model ids: ' + ids.join(', '));
       if (list.length) { console.log('Groq models to try: ' + list.slice(0, 4).join(', ') + (list.length > 4 ? ', ...' : '')); return list; }
@@ -173,7 +181,7 @@ async function callGroq(model, system, user) {
     method: 'POST',
     headers: { Authorization: 'Bearer ' + GROQ_KEY, 'Content-Type': 'application/json' },
     body: JSON.stringify({
-      model, temperature: 0.2, max_tokens: 6000,
+      model, temperature: 0.2, max_tokens: 2500,
       messages: [{ role: 'system', content: system }, { role: 'user', content: user }]
     })
   });
