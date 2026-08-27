@@ -147,6 +147,7 @@ async function pickModels() {
       const preferred = MODEL_PREFS.filter((m) => has.has(m));
       const others = ids.filter((id) => !MODEL_PREFS.includes(id) && !/whisper|tts|guard|embed|vision/i.test(id));
       const list = preferred.concat(others);
+      console.log('DEBUG all available model ids: ' + ids.join(', '));
       if (list.length) { console.log('Groq models to try: ' + list.slice(0, 4).join(', ') + (list.length > 4 ? ', ...' : '')); return list; }
     }
   } catch { /* fall back to the static list below */ }
@@ -166,6 +167,7 @@ async function callGroq(model, system, user) {
   if (!res.ok) throw new Error('Groq HTTP ' + res.status + ' ' + (await res.text()).slice(0, 200));
   const data = await res.json();
   const raw = (data.choices && data.choices[0] && data.choices[0].message && data.choices[0].message.content) || '';
+  console.log('DEBUG [' + model + '] finish=' + (data.choices && data.choices[0] && data.choices[0].finish_reason) + ' rawlen=' + raw.length + ' raw300=' + raw.slice(0, 300).replace(/\s+/g, ' '));
   const a = raw.indexOf('{'); const b = raw.lastIndexOf('}');
   if (a < 0 || b < 0) throw new Error('No JSON in model reply');
   return JSON.parse(raw.slice(a, b + 1));
