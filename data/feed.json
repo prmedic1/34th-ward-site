@@ -1,6 +1,18 @@
 {
- "generated_at": "2026-08-27T04:52:45.102Z",
+ "generated_at": "2026-08-27T05:02:12.524Z",
  "items": [
+  {
+   "id": "skyline-20260826-mayoral-candidates-seek-signatures-ahead",
+   "category": "civic_org",
+   "source_id": "skyline",
+   "source_name": "Skyline (Inside Publications)",
+   "source_type": "email_newsletter",
+   "title": "Mayoral candidates seek signatures ahead of election",
+   "summary": "The newsletter urges readers to help collect signatures for a mayoral candidate as the upcoming election approaches. It encourages community involvement to boost voter outreach and turnout in Chicago.",
+   "url": "https://insideonline.com/",
+   "published_at": "2026-08-26T15:10:40.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "cbs-20260827-thieves-target-parked-cars-in-string-of-",
    "category": "business",
