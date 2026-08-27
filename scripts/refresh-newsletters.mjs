@@ -78,7 +78,19 @@ async function fetchNewsletters() {
       for await (const msg of client.fetch(uids.slice(-1), { source: true })) {
         try {
           const p = await simpleParser(msg.source);
-          const text = (p.text || p.html || '').replace(/\s+\n/g, '\n').slice(0, 8000);
+          // Newsletter plaintext (especially Axios) is padded with tracking-link
+          // artifacts and table pipes; strip that noise BEFORE slicing so the
+          // window the model sees is real prose, not a wall of URLs.
+          const text = (p.text || p.html || '')
+            .replace(/\[\]\(\s*https?:\/\/[^)]*\)/gi, ' ')   // markdown empty links [](url)
+            .replace(/\(\s*https?:\/\/[^)]*\)/gi, ' ')        // (url)
+            .replace(/https?:\/\/\S+/gi, ' ')                 // bare urls
+            .replace(/[|>]+/g, ' ')                            // table pipes / quote marks
+            .replace(/[ \t]{2,}/g, ' ')                        // collapse runs of spaces
+            .replace(/ *\n */g, '\n')
+            .replace(/\n{3,}/g, '\n\n')                        // collapse blank lines
+            .trim()
+            .slice(0, 8000);
           out.push({
             source_id: meta.id, source_name: meta.name, source_url: meta.url,
             subject: p.subject || '', date: (p.date || new Date()).toISOString(), text
@@ -194,7 +206,7 @@ async function main() {
     return;
   }
 
-  console.log('Newsletters in window: ' + emails.map((e) => e.source_id + ' (' + e.date.slice(0, 10) + ')').join(', '));
+  console.log('Newsletters in window: ' + emails.map((e) => e.source_id + ' (' + e.date.slice(0, 10) + ', ' + (e.text || '').length + ' chars)').join(', '));
   const result = await summarize(emails);
   console.log('Model proposed ' + ((result.items || []).length) + ' item(s): ' + ((result.items || []).map((it) => it.source_id + ':' + (it.title || '').slice(0, 40)).join(' | ') || 'none'));
   const byId = Object.fromEntries(Object.values(SOURCES).map((s) => [s.id, s]));
