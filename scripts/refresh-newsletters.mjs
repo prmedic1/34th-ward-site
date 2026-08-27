@@ -122,6 +122,7 @@ async function summarize(emails) {
 How to choose: prefer stories about the ward's neighborhoods (West Loop, Greektown, Fulton Market, Printers Row, South Loop, near west side, the Loop). If none are ward-specific, pick this newsletter's single biggest story for a general Chicago audience, such as transit, housing, a development, a notable business opening or closing, schools, public safety, or taxes.
 
 Rules:
+- Extract only genuine current news (government, development, business openings or closings, public safety, housing, transit, schools, community issues). IGNORE routine newsletter filler: the weather, birthdays, horoscopes, "on this day in history" or trivia, staff chit-chat, sign-off notes, event-of-the-day or restaurant-of-the-day picks, obituaries of national celebrities, and advertisements.
 - Use only facts explicitly in the newsletter text. Do not invent details or add anything from outside the text. No hedging words ("likely", "may", "probably").
 - Summaries are 2 to 4 sentences, specific (names, addresses, dollar amounts, dates) drawn from the text.
 - No em dashes anywhere; use commas or hyphens.
