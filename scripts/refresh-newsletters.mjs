@@ -36,10 +36,12 @@ const GROQ_KEY = process.env.GROQ_API_KEY || '';
 // on any "model unavailable" error. Update MODEL_PREFS if you want a different
 // preference order; the discovery + fallback keeps it working regardless.
 const MODEL_PREFS = [
-  'llama-3.1-8b-instant',
-  'llama-3.3-70b-versatile',
+  'qwen/qwen3.8-27b',
+  'qwen/qwen3.6-27b',
   'openai/gpt-oss-120b',
   'openai/gpt-oss-20b',
+  'llama-3.3-70b-versatile',
+  'llama-3.1-8b-instant',
   'qwen/qwen3-32b',
   'gemma2-9b-it'
 ];
@@ -98,7 +100,7 @@ async function summarize(emails) {
   ).join('\n\n');
 
   const system = 'You are the daily editor for 34thward.com, a community news site for Chicago\'s 34th Ward (West Loop, Greektown, the Loop, Printers Row, South Loop). You return ONLY valid JSON, no prose.';
-  const user = `Today is ${today}. From the newsletters below, pick the item(s) most pertinent to the West Loop and the 34th Ward (its neighborhoods: West Loop, Greektown, Fulton Market, Printers Row, South Loop, the near west side, and the Loop). If a newsletter has nothing directly about the ward, then choose the single most important citywide Chicago item that affects all residents (schools and CPS, crime and public safety, taxes and the city budget, housing, transit). Avoid national politics. Take 1 to 3 items from EACH newsletter that has any relevant content, so every source is represented. Do not skip a newsletter just to stay under a total; there is no total cap.
+  const user = `Today is ${today}. For EACH newsletter below you MUST return at least one item and at most three, UNLESS that newsletter is nothing but administrative filler (for example "no newsletter this week"). Every newsletter that has real content must be represented, so returning an empty list is wrong unless every newsletter is pure filler. Prefer the item(s) most pertinent to the West Loop and the 34th Ward (its neighborhoods: West Loop, Greektown, Fulton Market, Printers Row, South Loop, the near west side, and the Loop). When a newsletter has nothing specifically about the ward, still return its single most newsworthy story for a general Chicago audience (transit, housing, development, a notable business opening or closing, schools and CPS, crime and public safety, taxes and the city budget). Avoid national politics. There is no total cap.
 
 STRICT RULES:
 1. No em dashes anywhere. Use commas or hyphens.
