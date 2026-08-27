@@ -1,6 +1,42 @@
 {
- "generated_at": "2026-08-27T05:04:26.581Z",
+ "generated_at": "2026-08-27T15:55:11.518Z",
  "items": [
+  {
+   "id": "axios-20260827-buc-ee-s-expansion-thursday-august-27-20",
+   "category": "business",
+   "source_id": "axios",
+   "source_name": "Axios Chicago",
+   "source_type": "email_newsletter",
+   "title": "Buc‑ee’s expansion Thursday, August 27, 2026",
+   "summary": "Buc‑ee’s expansion is scheduled for Thursday, August 27, 2026. No additional details are provided in the newsletter.",
+   "url": "https://www.axios.com/local/chicago",
+   "published_at": "2026-08-27T11:27:16.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260827-30-things-to-do-in-chicago-this-weekend-",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "30 Things To Do In Chicago This Weekend: House Music Festival, Taste Of Greektown And More",
+   "summary": "There's also the return of the Edgewater Music Fest, an arts crafts fair in Pilsen, the Black Bronze Bronzeville music festival and more.",
+   "url": "https://blockclubchicago.org/2026/08/27/30-things-to-do-in-chicago-this-weekend-house-music-festival-taste-of-greektown-and-more/",
+   "published_at": "2026-08-27T12:00:00.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260827-you-can-support-100-black-owned-business",
+   "category": "business",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "You Can Support 100+ Black-Owned Businesses At Black On The Block' Market This Weekend",
+   "summary": "Over 100 vendors are expected to participate in the traveling marketplace, which promises food, music and fun at Soldier Field Sunday.",
+   "url": "https://blockclubchicago.org/2026/08/27/you-can-support-100-black-owned-businesses-at-black-on-the-block-market-this-weekend/",
+   "published_at": "2026-08-27T12:00:00.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "cbs-20260827-thieves-target-parked-cars-in-string-of-",
    "category": "business",
@@ -1140,78 +1176,6 @@
    "summary": "Chicago artists with international roots draw on their experiences in Mexico, China and elsewhere to create new works, on display this month across the city.",
    "url": "https://blockclubchicago.org/2026/08/07/5-art-exhibits-to-check-out-in-august/",
    "published_at": "2026-08-07T12:45:00.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "axios-20260806-cops-and-ice",
-   "category": "business",
-   "source_id": "axios",
-   "source_name": "Axios Chicago",
-   "source_type": "email_newsletter",
-   "title": "Cops and ICE",
-   "summary": "No specific information about the West Loop or 34th Ward is available in this newsletter. However, as the most important citywide item, it is worth noting that the newsletter discusses the relationship between the Chicago Police Department and ICE, but the details are not provided in the given text.",
-   "url": "https://www.axios.com/local/chicago",
-   "published_at": "2026-08-06T11:27:19.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "politico-20260806-welch-regrets-handling-of-harassment-cas",
-   "category": "elected_official",
-   "source_id": "politico",
-   "source_name": "POLITICO Illinois Playbook",
-   "source_type": "email_newsletter",
-   "title": "Welch Regrets Handling of Harassment Case",
-   "summary": "House Speaker Emanuel Chris Welch expressed regret over the handling of a sexual harassment case involving former state Rep Harry Benton. Welch has created a House Culture and Accountability Working Group to recommend changes to how harassment complaints are handled. The group will start work next week and will look at best practices from across the country.",
-   "url": "https://www.politico.com/newsletters/illinois-playbook",
-   "published_at": "2026-08-06T12:01:57.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "politico-20260806-house-speaker-emanuel-chris-welch-regret",
-   "category": "elected_official",
-   "source_id": "politico",
-   "source_name": "POLITICO Illinois Playbook",
-   "source_type": "email_newsletter",
-   "title": "House Speaker Emanuel Chris Welch Regrets Handling of Sexual Harassment Case",
-   "summary": "House Speaker Emanuel Chris Welch expressed regret over the handling of a sexual harassment case involving former state Rep. Harry Benton. Welch has created a House Culture and Accountability Working Group to recommend changes to how harassment complaints are handled. The group will start work next week and will look at best practices from across the country.",
-   "url": "https://www.politico.com/newsletters/illinois-playbook",
-   "published_at": "2026-08-06T12:01:57.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "axios-20260806-alexi-giannoulias-spending-six-figures-o",
-   "category": "business",
-   "source_id": "axios",
-   "source_name": "Axios Chicago",
-   "source_type": "email_newsletter",
-   "title": "Alexi Giannoulias Spending Six Figures on TV Ads for Mayoral Campaign",
-   "summary": "Alexi Giannoulias is spending six figures on TV and cable advertising across Chicago as part of his mayoral campaign. The ads focus on affordability and will run on broadcast, cable, digital, and streaming platforms. The campaign has also released a 30-second spot called 'Greatest Days Ahead'.",
-   "url": "https://www.axios.com/local/chicago",
-   "published_at": "2026-08-06T11:27:19.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260806-restaurant-owner-moonlights-as-an-advoca",
-   "category": "business",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Restaurant Owner Moonlights As An Advocate For Somali Asylum Seekers. He's Never Been Busier",
-   "summary": "Abdninasir Kahin co-owns a Somali restaurant in Rogers Park with his wife but spends most of his time as a volunteer advocate for East African immigrants. As their cases get fast-tracked, this year has been his busiest ever.",
-   "url": "https://blockclubchicago.org/2026/08/06/rogers-park-restaurant-owner-moonlights-as-advocate-for-somali-asylum-seekers-hes-never-been-busier/",
-   "published_at": "2026-08-06T13:55:00.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260806-26-things-to-do-in-chicago-this-weekend-",
-   "category": "business",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "26 Things To Do In Chicago This Weekend: Bud Billiken Parade, Market Days, Cat Tour And More",
-   "summary": "A festival in Ravenswood, a weekend-long Ecuadorian fest and a nature field day are also on deck.",
-   "url": "https://blockclubchicago.org/2026/08/06/26-things-to-do-in-chicago-this-weekend-bud-billiken-parade-market-days-cat-tour-and-more/",
-   "published_at": "2026-08-06T11:58:43.000Z",
    "flagged_for_review": false
   }
  ]
