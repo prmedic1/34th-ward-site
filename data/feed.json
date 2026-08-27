@@ -1,6 +1,30 @@
 {
- "generated_at": "2026-08-27T04:39:26.997Z",
+ "generated_at": "2026-08-27T04:46:42.368Z",
  "items": [
+  {
+   "id": "skyline-20260826-dolly-parton-s-death-prompts-community-r",
+   "category": "newsletter",
+   "source_id": "skyline",
+   "source_name": "Skyline (Inside Publications)",
+   "source_type": "email_newsletter",
+   "title": "Dolly Parton’s death prompts community remembrance",
+   "summary": "The Skyline newsletter noted a feeling of sadness over the death of Dolly Parton, a cultural icon. It encouraged readers to say a prayer for her. The mention reflects the community’s shared sense of loss.",
+   "url": "https://insideonline.com/",
+   "published_at": "2026-08-26T15:10:40.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "skyline-20260826-signature-drive-launched-to-support-mayo",
+   "category": "civic_org",
+   "source_id": "skyline",
+   "source_name": "Skyline (Inside Publications)",
+   "source_type": "email_newsletter",
+   "title": "Signature drive launched to support mayoral candidate ahead of election",
+   "summary": "The newsletter called on residents to help collect signatures and spread the word for a mayoral candidate who can lift the city. It emphasized the importance of getting out the vote as the election approaches. Volunteers are urged to participate in the effort.",
+   "url": "https://insideonline.com/",
+   "published_at": "2026-08-26T15:10:40.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "axios-20260826-dolly-parton-tribute-concert-at-rainbo-c",
    "category": "newsletter",
