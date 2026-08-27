@@ -1,6 +1,54 @@
 {
- "generated_at": "2026-08-27T15:55:11.518Z",
+ "generated_at": "2026-08-27T22:40:26.546Z",
  "items": [
+  {
+   "id": "axios-20260827-buc-ee-s-expansion-thursday-august-27-20",
+   "category": "business",
+   "source_id": "axios",
+   "source_name": "Axios Chicago",
+   "source_type": "email_newsletter",
+   "title": "Buc‑ee's expansion Thursday, August 27, 2026",
+   "summary": "Buc‑ee’s announced an expansion opening on Thursday, August 27, 2026. The expansion will open on Thursday, August 27, 2026.",
+   "url": "https://www.axios.com/local/chicago",
+   "published_at": "2026-08-27T11:27:16.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "conway-20260827-north-branch-industrial-corridor-open-ho",
+   "category": "civic_org",
+   "source_id": "conway",
+   "source_name": "Conway's Corner (34th Ward Office Newsletter)",
+   "source_type": "email_newsletter",
+   "title": "North Branch Industrial Corridor Open House Set for September 1",
+   "summary": "The Department of Planning and Development, in partnership with the 27th and 34th Wards, will host a community open house on September 1 from 5:30 to 7 p.m. at the West Loop Library, 122 N. Aberdeen. The event is designed to inform residents about the North Branch Industrial Corridor framework plan.",
+   "url": "https://www.ward34.org/",
+   "published_at": "2026-08-27T21:39:09.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "conway-20260827-small-business-improvement-fund-applicat",
+   "category": "business",
+   "source_id": "conway",
+   "source_name": "Conway's Corner (34th Ward Office Newsletter)",
+   "source_type": "email_newsletter",
+   "title": "Small Business Improvement Fund Applications Open in LaSalle Central TIF",
+   "summary": "The Department of Planning and Development's Small Business Improvement Fund opens for applications in September within the LaSalle Central TIF district. The program provides reimbursement grant funding for permanent building improvements and repairs, with an informational webinar scheduled for September 2 at 1 p.m.",
+   "url": "https://www.ward34.org/",
+   "published_at": "2026-08-27T21:39:09.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "skyline-20260826-chicago-mayoral-election-mobilization",
+   "category": "elected_official",
+   "source_id": "skyline",
+   "source_name": "Skyline (Inside Publications)",
+   "source_type": "email_newsletter",
+   "title": "Chicago Mayoral Election Mobilization",
+   "summary": "The Chicago mayoral election is approaching, and volunteers are being asked to collect signatures for candidates. Organizers are urging community members to get out the vote and support the candidate they believe can improve the city. No specific candidate or election date is provided in the newsletter.",
+   "url": "https://insideonline.com/",
+   "published_at": "2026-08-26T15:10:40.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "blockclub-20260827-30-things-to-do-in-chicago-this-weekend-",
    "category": "civic_org",
