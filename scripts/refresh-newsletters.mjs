@@ -147,7 +147,7 @@ async function pickModels() {
       const preferred = MODEL_PREFS.filter((m) => has.has(m));
       const others = ids.filter((id) => !MODEL_PREFS.includes(id) && !/whisper|tts|guard|embed|vision/i.test(id));
       const list = preferred.concat(others);
-      if (list.length) return list;
+      if (list.length) { console.log('Groq models to try: ' + list.slice(0, 4).join(', ') + (list.length > 4 ? ', ...' : '')); return list; }
     }
   } catch { /* fall back to the static list below */ }
   return MODEL_PREFS.slice();
@@ -190,7 +190,9 @@ async function main() {
     return;
   }
 
+  console.log('Newsletters in window: ' + emails.map((e) => e.source_id + ' (' + e.date.slice(0, 10) + ')').join(', '));
   const result = await summarize(emails);
+  console.log('Model proposed ' + ((result.items || []).length) + ' item(s): ' + ((result.items || []).map((it) => it.source_id + ':' + (it.title || '').slice(0, 40)).join(' | ') || 'none'));
   const byId = Object.fromEntries(Object.values(SOURCES).map((s) => [s.id, s]));
   const emailBySource = {};
   emails.forEach((e) => { emailBySource[e.source_id] = e; });
