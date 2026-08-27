@@ -1,6 +1,18 @@
 {
- "generated_at": "2026-08-27T04:37:33.786Z",
+ "generated_at": "2026-08-27T04:39:26.997Z",
  "items": [
+  {
+   "id": "axios-20260826-dolly-parton-tribute-concert-at-rainbo-c",
+   "category": "newsletter",
+   "source_id": "axios",
+   "source_name": "Axios Chicago",
+   "source_type": "email_newsletter",
+   "title": "Dolly Parton tribute concert at Rainbo Club",
+   "summary": "The newsletter notes a Dolly Parton tribute concert at the Rainbo Club on Wednesday, August 26, 2026. The event took place in the West Loop, a popular venue for live music. Attendees were invited to enjoy the performance as part of the city’s cultural calendar.",
+   "url": "https://www.axios.com/local/chicago",
+   "published_at": "2026-08-26T11:29:14.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "cbs-20260827-thieves-target-parked-cars-in-string-of-",
    "category": "business",
