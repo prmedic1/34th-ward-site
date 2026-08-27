@@ -179,9 +179,11 @@ async function callGroq(model, system, user) {
   });
   if (!res.ok) throw new Error('Groq HTTP ' + res.status + ' ' + (await res.text()).slice(0, 200));
   const data = await res.json();
-  let raw = (data.choices && data.choices[0] && data.choices[0].message && data.choices[0].message.content) || '';
+  const msg0 = data.choices && data.choices[0] && data.choices[0].message;
+  let raw = (msg0 && msg0.content) || '';
+  const reasoning = (msg0 && (msg0.reasoning || msg0.reasoning_content)) || '';
   raw = raw.replace(/<think>[\s\S]*?<\/think>/gi, '').trim();   // drop reasoning-model scratchpad
-  console.log('DEBUG [' + model + '] finish=' + (data.choices && data.choices[0] && data.choices[0].finish_reason) + ' rawlen=' + raw.length + ' raw500=' + raw.slice(0, 500).replace(/\s+/g, ' '));
+  console.log('DEBUG [' + model + '] finish=' + (data.choices && data.choices[0] && data.choices[0].finish_reason) + ' usage=' + JSON.stringify(data.usage || {}) + ' reasoninglen=' + reasoning.length + ' rawlen=' + raw.length + ' raw500=' + raw.slice(0, 500).replace(/\s+/g, ' '));
   const m = raw.match(/\{[\s\S]*"items"[\s\S]*\}/);
   const jsonStr = m ? m[0] : raw.slice(raw.indexOf('{'), raw.lastIndexOf('}') + 1);
   if (!jsonStr) throw new Error('No JSON in model reply');
