@@ -1,6 +1,66 @@
 {
- "generated_at": "2026-08-26T13:31:50.655Z",
+ "generated_at": "2026-08-27T04:24:43.520Z",
  "items": [
+  {
+   "id": "cbs-20260827-thieves-target-parked-cars-in-string-of-",
+   "category": "business",
+   "source_id": "cbs",
+   "source_name": "CBS News Chicago",
+   "source_type": "web_feed",
+   "title": "Thieves target parked cars in string of burglaries in Fulton Market",
+   "summary": "At least nine parked cars were smashed into and had valuables stolen from inside on the morning of Aug. 25, according to Chicago police.",
+   "url": "https://www.cbsnews.com/chicago/news/string-car-burglaries-fulton-market/",
+   "published_at": "2026-08-27T03:37:14.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "cbs-20260827-chicago-police-investigating-string-of-c",
+   "category": "business",
+   "source_id": "cbs",
+   "source_name": "CBS News Chicago",
+   "source_type": "web_feed",
+   "title": "Chicago police investigating string of car burglaries in Fulton Market",
+   "summary": "CPD said at least nine parked cars were smashed into and valuables were stolen from inside",
+   "url": "https://www.cbsnews.com/chicago/video/chicago-police-investigating-string-of-car-burglaries-in-fulton-market/",
+   "published_at": "2026-08-27T03:20:00.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260826-gingie-river-north-restaurant-started-by",
+   "category": "business",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Gingie, River North Restaurant Started By Consulting Chef For The Bear,' Reopens After Fire",
+   "summary": "The eatery reopens Saturday after it was forced to close three days after opening.",
+   "url": "https://blockclubchicago.org/2026/08/26/gingie-river-north-restaurant-started-by-consulting-chef-for-the-bear-reopens-after-fire/",
+   "published_at": "2026-08-26T19:13:10.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260826-chicago-s-tif-program-helped-downtown-bu",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Chicago's TIF Program Helped Downtown - But Not Poorer Neighborhoods, New Study Shows",
+   "summary": "Researchers with the Great Cities Institute did not recommend eliminating the city's TIF program, but suggested reforms - and the phase out of Downtown TIF districts that have accomplished their goals.",
+   "url": "https://blockclubchicago.org/2026/08/26/chicagos-tif-program-helped-downtown-but-not-poorer-neighborhoods-new-study-shows/",
+   "published_at": "2026-08-26T18:27:43.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260826-rescued-beluga-dies-suddenly-at-shedd-aq",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Rescued Beluga Dies Suddenly At Shedd Aquarium",
+   "summary": "Peekachu, a 23-year-old female whale, was rescued in the last two weeks from a shuttered Canadian park.",
+   "url": "https://blockclubchicago.org/2026/08/26/rescued-beluga-dies-suddenly-at-shedd-aquarium/",
+   "published_at": "2026-08-26T17:24:47.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "axios-20260826-business-group-pitches-15-min-ohare-train",
    "category": "newsletter",
@@ -1152,42 +1212,6 @@
    "summary": "A festival in Ravenswood, a weekend-long Ecuadorian fest and a nature field day are also on deck.",
    "url": "https://blockclubchicago.org/2026/08/06/26-things-to-do-in-chicago-this-weekend-bud-billiken-parade-market-days-cat-tour-and-more/",
    "published_at": "2026-08-06T11:58:43.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260805-chicago-house-music-festival-and-confere",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Chicago House Music Festival And Conference Returns In August",
-   "summary": "The four-day festival Aug. 27-30 brings performances, panels and lots of dancing to house music's birthplace.",
-   "url": "https://blockclubchicago.org/2026/08/05/chicago-house-music-festival-and-conference-returns-in-august/",
-   "published_at": "2026-08-05T21:31:08.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260805-adriel-favela-mi-banda-el-mexicano-and-m",
-   "category": "business",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Adriel Favela, Mi Banda El Mexicano And Mariachi Herencia De México To Headline El Grito Fest 2026",
-   "summary": "The two-day festival will also feature local food vendors Cafe Tola, Xurro, El Taconazo Express and more.",
-   "url": "https://blockclubchicago.org/2026/08/05/adriel-favela-mi-banda-el-mexicano-and-mariachi-herencia-de-mexico-to-headline-el-grito-fest-2026/",
-   "published_at": "2026-08-05T18:49:38.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260805-new-river-north-podcasting-studio-link-l",
-   "category": "business",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "New River North Podcasting Studio Link Label Aims To Be One-Stop Shop For Content Creation",
-   "summary": "The studio offers recording space with editing, social media and marketing services for new and established content creators.",
-   "url": "https://blockclubchicago.org/2026/08/05/new-river-north-podcasting-studio-link-label-aims-to-be-one-stop-shop-for-content-creation/",
-   "published_at": "2026-08-05T13:49:00.000Z",
    "flagged_for_review": false
   }
  ]
