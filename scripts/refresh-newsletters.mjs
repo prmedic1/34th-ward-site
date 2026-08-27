@@ -173,18 +173,19 @@ async function callGroq(model, system, user) {
     method: 'POST',
     headers: { Authorization: 'Bearer ' + GROQ_KEY, 'Content-Type': 'application/json' },
     body: JSON.stringify({
-      model, temperature: 0.2, max_tokens: 3500,
-      response_format: { type: 'json_object' },
+      model, temperature: 0.2, max_tokens: 6000,
       messages: [{ role: 'system', content: system }, { role: 'user', content: user }]
     })
   });
   if (!res.ok) throw new Error('Groq HTTP ' + res.status + ' ' + (await res.text()).slice(0, 200));
   const data = await res.json();
-  const raw = (data.choices && data.choices[0] && data.choices[0].message && data.choices[0].message.content) || '';
-  console.log('DEBUG [' + model + '] finish=' + (data.choices && data.choices[0] && data.choices[0].finish_reason) + ' rawlen=' + raw.length + ' raw300=' + raw.slice(0, 300).replace(/\s+/g, ' '));
-  const a = raw.indexOf('{'); const b = raw.lastIndexOf('}');
-  if (a < 0 || b < 0) throw new Error('No JSON in model reply');
-  return JSON.parse(raw.slice(a, b + 1));
+  let raw = (data.choices && data.choices[0] && data.choices[0].message && data.choices[0].message.content) || '';
+  raw = raw.replace(/<think>[\s\S]*?<\/think>/gi, '').trim();   // drop reasoning-model scratchpad
+  console.log('DEBUG [' + model + '] finish=' + (data.choices && data.choices[0] && data.choices[0].finish_reason) + ' rawlen=' + raw.length + ' raw500=' + raw.slice(0, 500).replace(/\s+/g, ' '));
+  const m = raw.match(/\{[\s\S]*"items"[\s\S]*\}/);
+  const jsonStr = m ? m[0] : raw.slice(raw.indexOf('{'), raw.lastIndexOf('}') + 1);
+  if (!jsonStr) throw new Error('No JSON in model reply');
+  return JSON.parse(jsonStr);
 }
 
 async function main() {
