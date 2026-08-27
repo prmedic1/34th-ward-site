@@ -1,6 +1,18 @@
 {
- "generated_at": "2026-08-27T04:46:42.368Z",
+ "generated_at": "2026-08-27T04:49:55.447Z",
  "items": [
+  {
+   "id": "skyline-20260826-chicago-mayoral-election",
+   "category": "elected_official",
+   "source_id": "skyline",
+   "source_name": "Skyline (Inside Publications)",
+   "source_type": "email_newsletter",
+   "title": "Chicago Mayoral Election",
+   "summary": "The approaching mayoral election is energizing Chicago residents. The newsletter urges readers to collect signatures and spread the word about the candidate who can lift the city back to life. It emphasizes the need for voter turnout.",
+   "url": "https://insideonline.com/",
+   "published_at": "2026-08-26T15:10:40.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "skyline-20260826-dolly-parton-s-death-prompts-community-r",
    "category": "newsletter",
