@@ -185,7 +185,6 @@ async function pickModels() {
       const preferred = MODEL_PREFS.filter((m) => has.has(m));
       const others = ids.filter((id) => !MODEL_PREFS.includes(id) && !/whisper|tts|guard|embed|vision|orpheus|allam|speech|audio/i.test(id));
       const list = preferred.concat(others);
-      console.log('DEBUG all available model ids: ' + ids.join(', '));
       if (list.length) { console.log('Groq models to try: ' + list.slice(0, 4).join(', ') + (list.length > 4 ? ', ...' : '')); return list; }
     }
   } catch { /* fall back to the static list below */ }
@@ -205,9 +204,7 @@ async function callGroq(model, system, user) {
   const data = await res.json();
   const msg0 = data.choices && data.choices[0] && data.choices[0].message;
   let raw = (msg0 && msg0.content) || '';
-  const reasoning = (msg0 && (msg0.reasoning || msg0.reasoning_content)) || '';
   raw = raw.replace(/<think>[\s\S]*?<\/think>/gi, '').trim();   // drop reasoning-model scratchpad
-  console.log('DEBUG [' + model + '] finish=' + (data.choices && data.choices[0] && data.choices[0].finish_reason) + ' usage=' + JSON.stringify(data.usage || {}) + ' reasoninglen=' + reasoning.length + ' rawlen=' + raw.length + ' raw500=' + raw.slice(0, 500).replace(/\s+/g, ' '));
   const m = raw.match(/\{[\s\S]*"items"[\s\S]*\}/);
   const jsonStr = m ? m[0] : raw.slice(raw.indexOf('{'), raw.lastIndexOf('}') + 1);
   if (!jsonStr) throw new Error('No JSON in model reply');
