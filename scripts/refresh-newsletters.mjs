@@ -130,8 +130,9 @@ Rules:
 - Do not center coverage on Ald. Bill Conway personally; report the community impact.
 - Do not output two items about the same event.
 
-Return ONLY this JSON and nothing else:
-{"items":[{"category":"elected_official|business|civic_org|religious_org|newsletter","title":"headline, no em dashes","summary":"2 to 4 sentences, no em dashes"}]}
+Write the real headline and summary you compose; do NOT copy these field names or placeholders. Return ONLY a JSON object of exactly this shape and nothing else:
+{"items":[{"category":"business","title":"...","summary":"..."}]}
+category must be one of: elected_official, business, civic_org, religious_org, newsletter. If you have no real story to report for this newsletter, return {"items":[]}.
 
 NEWSLETTER TEXT:
 ${e.text}`;
@@ -253,6 +254,20 @@ async function main() {
   for (const it of (result.items || [])) {
     const src = byId[it.source_id];
     if (!src || !it.title || !it.summary) continue;
+    // Never publish an item where the model echoed the prompt's placeholders,
+    // leaked schema tokens, or emitted hollow "no details" filler instead of a
+    // real story. This is the safety net that keeps that junk off the site.
+    const _t = it.title.trim(), _s = it.summary.trim();
+    const junk = /no em dashes|2 to 4 sentences|\byour (headline|summary)\b|headline you write|\bsource_id\b|elected_official\s*\||no additional details|not (provided|specified|stated|mentioned|available) in the newsletter|newsletter does not (say|provide|specify|mention)/i;
+    const templateEcho = /^(\.{2,}|title|summary|headline|<[^>]*>)\.?$/i;
+    if (junk.test(_t) || junk.test(_s) || templateEcho.test(_t) || templateEcho.test(_s)) {
+      console.log('Skipped placeholder/hollow item: ' + JSON.stringify(_t).slice(0, 70));
+      continue;
+    }
+    if (_t.length < 10 || _s.length < 30) {
+      console.log('Skipped too-short item: ' + JSON.stringify(_t).slice(0, 70));
+      continue;
+    }
     const dateStr = (emailBySource[it.source_id] || {}).date || new Date().toISOString();
     const id = `${it.source_id}-${dateStr.slice(0, 10).replace(/-/g, '')}-${slug(it.title)}`;
     const tk = it.source_id + '|' + it.title.toLowerCase();

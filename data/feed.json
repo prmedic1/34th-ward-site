@@ -38,18 +38,6 @@
    "flagged_for_review": false
   },
   {
-   "id": "conway-20260827-headline-no-em-dashes",
-   "category": "elected_official|business|civic_org|religious_org|newsletter",
-   "source_id": "conway",
-   "source_name": "Conway's Corner (34th Ward Office Newsletter)",
-   "source_type": "email_newsletter",
-   "title": "headline, no em dashes",
-   "summary": "2 to 4 sentences, no em dashes",
-   "url": "https://www.ward34.org/",
-   "published_at": "2026-08-27T21:39:09.000Z",
-   "flagged_for_review": false
-  },
-  {
    "id": "axios-20260827-buc-ee-s-expansion-thursday-august-27-20",
    "category": "business",
    "source_id": "axios",
