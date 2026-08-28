@@ -151,18 +151,25 @@ ${e.text}`;
   return { items: out };
 }
 
-// Try our preferred models in order for a single prompt; fall through on any
-// per-model failure OR an empty result, so one flaky/over-cautious model does
-// not sink the whole run.
+// Try our preferred models for a single prompt, but keep the number of Groq
+// calls LOW to stay under the free-tier rate limits: once a model has answered
+// this run, reuse it first for every later newsletter (1 call each) instead of
+// walking the whole list every time. Only fall through on a real failure.
 let MODELS_CACHE = null;
+let WORKING_MODEL = null;
 async function callModelWithFallback(system, user) {
   if (!MODELS_CACHE) MODELS_CACHE = await pickModels();
+  const order = WORKING_MODEL
+    ? [WORKING_MODEL, ...MODELS_CACHE.filter((m) => m !== WORKING_MODEL)]
+    : MODELS_CACHE;
   let lastErr, lastResult;
-  for (const model of MODELS_CACHE) {
+  for (const model of order) {
     try {
       const result = await callGroq(model, system, user);
-      if (result && Array.isArray(result.items) && result.items.length) return result;
-      lastResult = result;
+      WORKING_MODEL = model;   // this model responded; prefer it for the rest of the run
+      // A successful-but-empty result is a valid "nothing in this newsletter";
+      // accept it rather than burning more calls asking other models.
+      return result;
     } catch (e) {
       lastErr = e;
       console.log(`Groq model ${model} failed, trying next (${e.message.slice(0, 100)})`);
