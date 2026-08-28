@@ -1,6 +1,30 @@
 {
- "generated_at": "2026-08-27T23:02:49.338Z",
+ "generated_at": "2026-08-28T22:11:09.133Z",
  "items": [
+  {
+   "id": "cbs-20260828-what-to-do-in-chicago-this-weekend-panda",
+   "category": "civic_org",
+   "source_id": "cbs",
+   "source_name": "CBS News Chicago",
+   "source_type": "web_feed",
+   "title": "What to do in Chicago this weekend: Panda Fest, Bald Off, Taste of Greektown and more",
+   "summary": "As Labor Day nears, weekend food and music festivals are still going strong in Chicago. Here are some of the things you can do this weekend.",
+   "url": "https://www.cbsnews.com/chicago/news/chicago-weekend-panda-fest-bald-off-taste-of-greektown/",
+   "published_at": "2026-08-28T16:10:25.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260828-5-must-see-art-exhibits-to-check-out-in-",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "5 Must-See Art Exhibits To Check Out In September",
+   "summary": "Visit a Chicago gallery this fall to see the Art Institute's first new Mary Cassatt exhibit in decades, an emotional photographic exhibition honoring Emmett Till, an immersive scientific exhibit at the Smart Museum and more.",
+   "url": "https://blockclubchicago.org/2026/08/28/5-must-see-art-exhibits-to-check-out-in-september/",
+   "published_at": "2026-08-28T13:12:00.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "axios-20260827-buc-ee-s-expansion-announced",
    "category": "business",
@@ -1119,102 +1143,6 @@
    "flagged_for_review": false
   },
   {
-   "id": "politico-20260807-governor-jb-pritzker-trade-agreement",
-   "category": "elected_official",
-   "source_id": "politico",
-   "source_name": "POLITICO Illinois Playbook",
-   "source_type": "email_newsletter",
-   "title": "Governor JB Pritzker Trade Agreement",
-   "summary": "Governor JB Pritzker and Senator Tammy Duckworth are working with Indonesian officials on a new trade agreement aimed at opening more doors for Illinois farmers. The agreement includes a memorandum of understanding with Indonesia to expand trade and cooperation in agriculture, business, education, and workforce development, with a focus on growing soybean exports.",
-   "url": "https://www.politico.com/newsletters/illinois-playbook",
-   "published_at": "2026-08-07T12:00:44.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "axios-20260807-no-relevant-information",
-   "category": "business",
-   "source_id": "axios",
-   "source_name": "Axios Chicago",
-   "source_type": "email_newsletter",
-   "title": "No Relevant Information",
-   "summary": "No relevant information was found in the Axios newsletter.",
-   "url": "https://www.axios.com/local/chicago",
-   "published_at": "2026-08-07T11:27:22.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "politico-20260807-chicago-public-schools-budget-amendment-",
-   "category": "elected_official",
-   "source_id": "politico",
-   "source_name": "POLITICO Illinois Playbook",
-   "source_type": "email_newsletter",
-   "title": "Chicago Public Schools Budget Amendment Vote",
-   "summary": "Chicago Board of Education member Che Rhymefest Smith voted against a budget amendment that counted on an additional $150 million from Springfield. Smith argued that the choice was straightforward, to trust Superintendent Macquline King or approve a budget built around money that state leaders had given little indication they would provide. The vote has become a dividing line on the board, with Smith saying the district needs stronger relationships in Springfield to persuade lawmakers and Gov. JB Pritzker to send more money to CPS.",
-   "url": "https://www.politico.com/newsletters/illinois-playbook",
-   "published_at": "2026-08-07T12:00:44.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "politico-20260807-governor-pritzker-signs-memorandum-of-un",
-   "category": "elected_official",
-   "source_id": "politico",
-   "source_name": "POLITICO Illinois Playbook",
-   "source_type": "email_newsletter",
-   "title": "Governor Pritzker Signs Memorandum of Understanding with Indonesia",
-   "summary": "Governor JB Pritzker signed a memorandum of understanding with Indonesia to expand trade and cooperation in agriculture, business, education, and workforce development. The agreement aims to grow soybean exports as Illinois producers look to diversify markets amid tariff uncertainty. Indonesia has become an increasingly important market for U.S. soybeans, ranking among the top destinations for American exports.",
-   "url": "https://www.politico.com/newsletters/illinois-playbook",
-   "published_at": "2026-08-07T12:00:44.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "axios-20260807-no-relevant-content",
-   "category": "business",
-   "source_id": "axios",
-   "source_name": "Axios Chicago",
-   "source_type": "email_newsletter",
-   "title": "No Relevant Content",
-   "summary": "No relevant content found in the Axios newsletter for the 34th Ward.",
-   "url": "https://www.axios.com/local/chicago",
-   "published_at": "2026-08-07T11:27:22.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "wca-20260807-west-loop-art-fest",
-   "category": "civic_org",
-   "source_id": "wca",
-   "source_name": "The WCA Weekly",
-   "source_type": "email_newsletter",
-   "title": "West Loop Art Fest",
-   "summary": "The West Loop Art Fest will take place on August 22-23, featuring original artwork from talented artists, live art demonstrations, and interactive experiences. The event will transform Fulton Street between Carpenter and Green Street into a vibrant outdoor art experience. The West Central Association is hosting the event, which aims to support the creative community in the West Loop.",
-   "url": "https://www.wcachicago.org/",
-   "published_at": "2026-08-07T11:31:14.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "wca-20260807-west-loop-street-closures",
-   "category": "civic_org",
-   "source_id": "wca",
-   "source_name": "The WCA Weekly",
-   "source_type": "email_newsletter",
-   "title": "West Loop Street Closures",
-   "summary": "West Loop street closures will occur from August 21-24 for the West Loop Art Fest. W. Fulton St. from N. Aberdeen St. to N. Peoria St. will be closed, along with cross streets at N. Morgan St., N. Carpenter St., N. Sangamon St., and N. Peoria St. The West Central Association advises travelers to plan ahead and use alternate routes if traveling through the area.",
-   "url": "https://www.wcachicago.org/",
-   "published_at": "2026-08-07T11:31:14.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "wca-20260807-west-loop-wellness-fest",
-   "category": "civic_org",
-   "source_id": "wca",
-   "source_name": "The WCA Weekly",
-   "source_type": "email_newsletter",
-   "title": "West Loop Wellness Fest",
-   "summary": "The West Loop Wellness Fest will take place on September 19 at Union Padel Club, featuring local health and wellness businesses, instructor-led fitness and wellness classes, and interactive vendor experiences. A portion of every ticket sold will benefit Mercy Home for Boys & Girls, supporting youth in the community. Space is limited, and registration is required.",
-   "url": "https://www.wcachicago.org/",
-   "published_at": "2026-08-07T11:31:14.000Z",
-   "flagged_for_review": false
-  },
-  {
    "id": "blockclub-20260808-22-years-later-dave-matthews-bus-poop-in",
    "category": "civic_org",
    "source_id": "blockclub",
@@ -1224,18 +1152,6 @@
    "summary": "Dave Matthews’ tour bus emptied its 800-pound septic tank on people taking a cruise 22 years ago this week. The DMB poop incident is \"now old enough to drink,\" one social media post pointed out.",
    "url": "https://blockclubchicago.org/2026/08/08/21-years-later-dave-matthews-bus-poop-incident-makes-chicagoans-laugh-and-groan/",
    "published_at": "2026-08-08T15:49:19.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260807-5-art-exhibits-to-check-out-in-august",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "5 Art Exhibits To Check Out In August",
-   "summary": "Chicago artists with international roots draw on their experiences in Mexico, China and elsewhere to create new works, on display this month across the city.",
-   "url": "https://blockclubchicago.org/2026/08/07/5-art-exhibits-to-check-out-in-august/",
-   "published_at": "2026-08-07T12:45:00.000Z",
    "flagged_for_review": false
   }
  ]
