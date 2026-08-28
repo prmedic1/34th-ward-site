@@ -7,8 +7,12 @@ on:
   schedule:
     # GitHub often delays scheduled runs, sometimes by hours, so we ask twice.
     # The refresh script is idempotent, so a duplicate run is harmless.
-    - cron: '0 13 * * *'  # 13:00 UTC = ~8:00 AM Central (shifts 1h with daylight saving). Later start so Axios/Politico newsletters have arrived.
-    - cron: '30 13 * * *' # 13:30 UTC = ~8:30 AM Central
+    # Use ODD minutes, never :00/:30 - top/bottom of the hour are GitHub's most
+    # congested cron slots and get delayed hours or dropped on the free tier
+    # (moving to 13:00/13:30 made runs fire ~9h late). :02/:32 ran reliably for
+    # weeks. Two crons as a hedge; the script is idempotent.
+    - cron: '2 13 * * *'  # 13:02 UTC = ~8:02 AM Central (shifts 1h with daylight saving). Late enough that Axios/Politico have arrived.
+    - cron: '32 13 * * *' # 13:32 UTC = ~8:32 AM Central
   workflow_dispatch: {}    # lets you also run it on demand from the Actions tab
 
 permissions:
