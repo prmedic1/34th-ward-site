@@ -1,6 +1,78 @@
 {
- "generated_at": "2026-08-28T22:11:09.133Z",
+ "generated_at": "2026-08-29T16:58:48.366Z",
  "items": [
+  {
+   "id": "conway-20260827-lasalle-central-small-business-improveme",
+   "category": "business",
+   "source_id": "conway",
+   "source_name": "Conway's Corner (34th Ward Office Newsletter)",
+   "source_type": "email_newsletter",
+   "title": "LaSalle Central Small Business Improvement Fund Applications Open September 1",
+   "summary": "The Department of Planning and Development’s Small Business Improvement Fund (SBIF) will accept applications in the LaSalle Central TIF district starting September 1. SBIF offers reimbursement grant funding for permanent building improvements and repairs. An informational webinar is scheduled for 1 p.m. on Wednesday, September 2. Businesses can register online to learn more and apply.",
+   "url": "https://www.ward34.org/",
+   "published_at": "2026-08-27T21:39:09.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "conway-20260827-north-branch-industrial-corridor-communi",
+   "category": "civic_org",
+   "source_id": "conway",
+   "source_name": "Conway's Corner (34th Ward Office Newsletter)",
+   "source_type": "email_newsletter",
+   "title": "North Branch Industrial Corridor Community Open House on September 1",
+   "summary": "On September 1 from 5:30 to 7 p.m., the West Loop Library at 122 N. Aberdeen will host a community open house about the North Branch Industrial Corridor framework plan. The event is organized by the Department of Planning and Development in partnership with the 27th and 34th Wards. Residents can learn about the corridor’s development plans and provide input.",
+   "url": "https://www.ward34.org/",
+   "published_at": "2026-08-27T21:39:09.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "conway-20260827-four-new-historic-plaques-to-be-installe",
+   "category": "civic_org",
+   "source_id": "conway",
+   "source_name": "Conway's Corner (34th Ward Office Newsletter)",
+   "source_type": "email_newsletter",
+   "title": "Four New Historic Plaques to be Installed in West Loop this Summer",
+   "summary": "The West Loop Historic Plaques Project will add four new plaques in summer 2026, including one at a UIC classroom, a condo building, and two others. The project highlights the neighborhood’s 19 historical designations, four existing historic plaques, and one Chicago Landmarks plaque. The new plaques will celebrate the area’s architectural and cultural heritage.",
+   "url": "https://www.ward34.org/",
+   "published_at": "2026-08-27T21:39:09.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "wca-20260828-lg-group-scales-up-with-coo-hire-and-500",
+   "category": "business",
+   "source_id": "wca",
+   "source_name": "The WCA Weekly",
+   "source_type": "email_newsletter",
+   "title": "LG Group Scales Up with COO Hire and $500M in New Projects",
+   "summary": "LG Group has announced the hiring of a new Chief Operating Officer and plans for $500 million in new projects. The expansion marks a significant increase in the company's development activities within the region.",
+   "url": "https://www.wcachicago.org/",
+   "published_at": "2026-08-28T11:30:55.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "wca-20260828-plan-commission-approves-23-s-sangamon-d",
+   "category": "business",
+   "source_id": "wca",
+   "source_name": "The WCA Weekly",
+   "source_type": "email_newsletter",
+   "title": "Plan Commission Approves 23 S. Sangamon Development",
+   "summary": "The Plan Commission has approved the development at 23 S. Sangamon. This approval allows the project to move forward in the West Loop neighborhood.",
+   "url": "https://www.wcachicago.org/",
+   "published_at": "2026-08-28T11:30:55.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "wca-20260828-1282-washington-becomes-headline-sponsor",
+   "category": "business",
+   "source_id": "wca",
+   "source_name": "The WCA Weekly",
+   "source_type": "email_newsletter",
+   "title": "1282 Washington Becomes Headline Sponsor for Madison Row Fest",
+   "summary": "The ZSD development 1282 Washington has been named the headline sponsor for the 2026 Madison Row Fest. The building, which is 75% pre-sold and under construction, will introduce 4- and 5-bedroom single-family condominium residences to the West Loop next fall.",
+   "url": "https://www.wcachicago.org/",
+   "published_at": "2026-08-28T11:30:55.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "cbs-20260828-what-to-do-in-chicago-this-weekend-panda",
    "category": "civic_org",
@@ -1128,18 +1200,6 @@
    "summary": "No specific information is provided in the given text about e-scooter access in Chicago or the 34th Ward. However, e-scooter access can impact transportation and traffic in the area.",
    "url": "https://www.axios.com/local/chicago",
    "published_at": "2026-08-10T11:28:36.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260808-22-years-later-dave-matthews-bus-poop-in",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "22 Years Later, Dave Matthews Bus Poop Incident Makes Chicagoans Laugh - And Groan",
-   "summary": "Dave Matthews’ tour bus emptied its 800-pound septic tank on people taking a cruise 22 years ago this week. The DMB poop incident is \"now old enough to drink,\" one social media post pointed out.",
-   "url": "https://blockclubchicago.org/2026/08/08/21-years-later-dave-matthews-bus-poop-incident-makes-chicagoans-laugh-and-groan/",
-   "published_at": "2026-08-08T15:49:19.000Z",
    "flagged_for_review": false
   }
  ]

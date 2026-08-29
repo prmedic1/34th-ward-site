@@ -1,12 +1,12 @@
 {
  "_rotation_note": "The daily job picks the next business each morning - rotating among ward businesses with priority to spotlight requests from owners and newly opened spots. Keep yesterday's entries in history.",
  "current": {
-  "date": "2026-08-28",
-  "name": "Miller's Pub",
-  "address": "134 S. Wabash Ave, the Loop",
-  "website": "https://www.millerspub.com/",
-  "image": "images/spotlight/millers-pub.jpg?v=20260828",
-  "blurb": "A Loop institution open late since 1935, known for baby back ribs, steaks, and a classic wood-paneled bar hung with celebrity photos."
+  "date": "2026-08-29",
+  "name": "The Gage",
+  "address": "24 S. Michigan Ave, the Loop",
+  "website": "https://www.thegagechicago.com/",
+  "image": "images/spotlight/the-gage.jpg",
+  "blurb": "A handsome gastropub across from Millennium Park, pairing elevated pub fare and game dishes with a deep beer and whiskey list."
  },
  "history": [
   {
@@ -528,6 +528,14 @@
    "website": "https://www.italianvillage-chicago.com/",
    "image": "images/spotlight/italian-village.jpg?v=20260827",
    "blurb": "Three Italian restaurants under one roof in the Loop, serving since 1927. From the old-world Village upstairs to the refined Vivere, it is a downtown institution."
+  },
+  {
+   "date": "2026-08-28",
+   "name": "Miller's Pub",
+   "address": "134 S. Wabash Ave, the Loop",
+   "website": "https://www.millerspub.com/",
+   "image": "images/spotlight/millers-pub.jpg?v=20260828",
+   "blurb": "A Loop institution open late since 1935, known for baby back ribs, steaks, and a classic wood-paneled bar hung with celebrity photos."
   }
  ]
 }

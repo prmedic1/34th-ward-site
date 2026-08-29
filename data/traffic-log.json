@@ -334,5 +334,12 @@
   "visitors": 385,
   "views": 7,
   "verdict": "bad"
+ },
+ {
+  "date": "2026-08-29",
+  "total": 682,
+  "visitors": 390,
+  "views": 13,
+  "verdict": "usual"
  }
 ]
