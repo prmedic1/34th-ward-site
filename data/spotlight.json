@@ -1,12 +1,12 @@
 {
  "_rotation_note": "The daily job picks the next business each morning - rotating among ward businesses with priority to spotlight requests from owners and newly opened spots. Keep yesterday's entries in history.",
  "current": {
-  "date": "2026-08-29",
-  "name": "The Gage",
-  "address": "24 S. Michigan Ave, the Loop",
-  "website": "https://www.thegagechicago.com/",
-  "image": "images/spotlight/the-gage.jpg",
-  "blurb": "A handsome gastropub across from Millennium Park, pairing elevated pub fare and game dishes with a deep beer and whiskey list."
+  "date": "2026-08-30",
+  "name": "Russian Tea Time",
+  "address": "77 E. Adams St, the Loop",
+  "website": "https://www.russianteatime.com/",
+  "image": "images/spotlight/russian-tea-time.jpg",
+  "blurb": "An old-world restaurant beside the Art Institute, famous for borscht, blini, and a long list of house-infused vodkas served in a jewel-box room."
  },
  "history": [
   {
@@ -536,6 +536,14 @@
    "website": "https://www.millerspub.com/",
    "image": "images/spotlight/millers-pub.jpg?v=20260828",
    "blurb": "A Loop institution open late since 1935, known for baby back ribs, steaks, and a classic wood-paneled bar hung with celebrity photos."
+  },
+  {
+   "date": "2026-08-29",
+   "name": "The Gage",
+   "address": "24 S. Michigan Ave, the Loop",
+   "website": "https://www.thegagechicago.com/",
+   "image": "images/spotlight/the-gage.jpg",
+   "blurb": "A handsome gastropub across from Millennium Park, pairing elevated pub fare and game dishes with a deep beer and whiskey list."
   }
  ]
 }

@@ -1,6 +1,42 @@
 {
- "generated_at": "2026-08-29T17:16:04.038Z",
+ "generated_at": "2026-08-30T17:12:51.120Z",
  "items": [
+  {
+   "id": "wca-20260828-1282-washington-75-pre-sold-west-loop-co",
+   "category": "business",
+   "source_id": "wca",
+   "source_name": "The WCA Weekly",
+   "source_type": "email_newsletter",
+   "title": "1282 Washington: 75% Pre-Sold West Loop Condominium Development",
+   "summary": "The WCA welcomes 1282 Washington, a ZSD development, as the headline sponsor of Madison Row Fest 2026. The building will deliver 4- and 5-bedroom single-family condominium residences, with 75% pre-sold and under construction, set to open next fall. The boutique building aims to set a new standard for West Loop living.",
+   "url": "https://www.wcachicago.org/",
+   "published_at": "2026-08-28T11:30:55.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "wca-20260828-inaugural-west-loop-wellness-fest-to-kic",
+   "category": "civic_org",
+   "source_id": "wca",
+   "source_name": "The WCA Weekly",
+   "source_type": "email_newsletter",
+   "title": "Inaugural West Loop Wellness Fest to Kick Off September 19",
+   "summary": "The inaugural West Loop Wellness Fest will take place on Saturday, September 19 at Union Padel Club. The event will feature local health and wellness businesses, instructor-led fitness and wellness classes, vendor experiences, and padel activities. A portion of ticket sales will benefit Mercy Home for Boys & Girls. Registration is required and space is limited.",
+   "url": "https://www.wcachicago.org/",
+   "published_at": "2026-08-28T11:30:55.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "wca-20260828-madison-row-fest-celebrates-west-loop-co",
+   "category": "civic_org",
+   "source_id": "wca",
+   "source_name": "The WCA Weekly",
+   "source_type": "email_newsletter",
+   "title": "Madison Row Fest Celebrates West Loop Community on September 12",
+   "summary": "Madison Row Fest, a family-friendly community block party, will be held on Saturday, September 12 on Madison Street in the West Loop. The festival will include live entertainment, food and drinks, local vendors, kids' activities, and neighborhood traditions. The WCA is proud to welcome 1282 Washington as the headline sponsor of the event. The festival celebrates the best of the West Loop community.",
+   "url": "https://www.wcachicago.org/",
+   "published_at": "2026-08-28T11:30:55.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "conway-20260827-lasalle-central-small-business-improveme",
    "category": "business",
