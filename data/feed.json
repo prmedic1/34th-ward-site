@@ -1,6 +1,30 @@
 {
- "generated_at": "2026-08-30T17:12:51.120Z",
+ "generated_at": "2026-08-30T17:39:48.476Z",
  "items": [
+  {
+   "id": "wca-20260828-1282-washington-development-secures-75-p",
+   "category": "business",
+   "source_id": "wca",
+   "source_name": "The WCA Weekly",
+   "source_type": "email_newsletter",
+   "title": "1282 Washington Development Secures 75% Pre-Sales in West Loop",
+   "summary": "ZSD’s 1282 Washington, a 4- and 5‑bedroom single‑family condominium development, is the headline sponsor of Madison Row Fest 2026. The boutique building is under construction, already 75% pre‑sold, and will deliver new residences next fall.",
+   "url": "https://www.wcachicago.org/",
+   "published_at": "2026-08-28T11:30:55.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "wca-20260828-wca-s-annual-beers-bites-fundraiser-supp",
+   "category": "civic_org",
+   "source_id": "wca",
+   "source_name": "The WCA Weekly",
+   "source_type": "email_newsletter",
+   "title": "WCA’s Annual Beers & Bites Fundraiser Supports Local Businesses",
+   "summary": "On September 10, WCA’s annual Beers & Bites fundraiser at Haymarket Brewery will feature chef‑curated tasting bites, craft beer, interactive experiences, and raffle prizes. The event supports WCA’s mission to strengthen local businesses and the Near West Side community.",
+   "url": "https://www.wcachicago.org/",
+   "published_at": "2026-08-28T11:30:55.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "wca-20260828-1282-washington-75-pre-sold-west-loop-co",
    "category": "business",
