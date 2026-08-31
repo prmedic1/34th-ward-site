@@ -2,11 +2,11 @@
  "_rotation_note": "The daily job picks the next business each morning - rotating among ward businesses with priority to spotlight requests from owners and newly opened spots. Keep yesterday's entries in history.",
  "current": {
   "date": "2026-08-31",
-  "name": "Revival Food Hall",
-  "address": "125 S. Clark St, the Loop",
-  "website": "https://www.revivalfoodhall.com/",
-  "image": "images/spotlight/revival-food-hall.jpg",
-  "blurb": "A downtown food hall in the landmark National building, gathering more than a dozen local vendors under one roof for a fast, buzzy lunch."
+  "name": "Eleven City Diner",
+  "address": "1112 S. Wabash Ave, South Loop",
+  "website": "https://www.elevencitydiner.com/",
+  "image": "images/spotlight/eleven-city-diner.jpg?v=20260826",
+  "blurb": "A classic Jewish-style deli and soda fountain in the South Loop, stacked with pastrami, matzo ball soup, and old-fashioned egg creams."
  },
  "history": [
   {
