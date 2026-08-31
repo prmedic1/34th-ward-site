@@ -1,6 +1,42 @@
 {
- "generated_at": "2026-08-30T17:39:48.476Z",
+ "generated_at": "2026-08-31T17:02:06.574Z",
  "items": [
+  {
+   "id": "wca-20260830-chicago-bocce-club-opens-at-410-n-paulin",
+   "category": "business",
+   "source_id": "wca",
+   "source_name": "The WCA Weekly",
+   "source_type": "email_newsletter",
+   "title": "Chicago Bocce Club Opens at 410 N. Paulina St.",
+   "summary": "The West Central Association recently held a ribbon cutting for the Chicago Bocce Club, a new year-round facility located at 410 N. Paulina St. The club offers bocce leagues, open play, private events, and a full calendar of programming including yoga, mahjong, and euchre.",
+   "url": "https://www.wcachicago.org/",
+   "published_at": "2026-08-30T20:30:31.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260831-chicagoans-set-mal-rt-record-for-most-pe",
+   "category": "business",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Chicagoans Set Malört Record For Most People To Down A Shot At Same Time",
+   "summary": "The obscure world record was set around 7:50 p.m. Sunday at Recess bar in the West Loop with Gov. JB Pritzer serving up shots - and Malört enthusiasts across the country were encouraged to participate.",
+   "url": "https://blockclubchicago.org/2026/08/31/chicagoans-set-malort-record-for-most-people-to-down-a-shot-at-same-time/",
+   "published_at": "2026-08-31T13:56:00.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260831-long-vacant-fulton-market-building-could",
+   "category": "business",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Long-Vacant Fulton Market Building Could Be Redeveloped Into 20 Apartments, Retail Space",
+   "summary": "Hubbard Street Group is proposing to add two stories to the historically protected vacant building and rebuild its landmarked front facade.",
+   "url": "https://blockclubchicago.org/2026/08/31/long-vacant-fulton-market-building-could-be-redeveloped-into-20-apartments-retail-space/",
+   "published_at": "2026-08-31T13:23:00.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "wca-20260828-1282-washington-development-secures-75-p",
    "category": "business",
@@ -1179,18 +1215,6 @@
    "flagged_for_review": false
   },
   {
-   "id": "igwl-20260810-igwl-s-weekly-action-plan",
-   "category": "civic_org",
-   "source_id": "igwl",
-   "source_name": "Indivisible Greater West Loop",
-   "source_type": "email_newsletter",
-   "title": "IGWL's Weekly Action Plan",
-   "summary": "Indivisible Greater West Loop has released its weekly action plan, outlining key issues and actions for community members to take. The plan includes information on upcoming events, advocacy opportunities, and ways to get involved in local politics. Community members can view the full plan by clicking on the provided link.",
-   "url": "https://www.indivisiblegwlchi.org/",
-   "published_at": "2026-08-10T13:24:58.000Z",
-   "flagged_for_review": false
-  },
-  {
    "id": "blockclub-20260810-bally-s-to-pause-building-parts-of-chica",
    "category": "business",
    "source_id": "blockclub",
@@ -1212,54 +1236,6 @@
    "summary": "Thirteen of the 20 pools staying open through Labor Day are in neighborhoods that score high on the city's Heat Vulnerability Index.",
    "url": "https://blockclubchicago.org/2026/08/10/20-chicago-pools-staying-open-through-labor-day-to-help-combat-extreme-heat/",
    "published_at": "2026-08-10T19:48:26.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "axios-20260810-e-scooter-access-chicago-updates",
-   "category": "business",
-   "source_id": "axios",
-   "source_name": "Axios Chicago",
-   "source_type": "email_newsletter",
-   "title": "E-scooter access, Chicago updates",
-   "summary": "Chicago is working to improve e-scooter access across the city. The city aims to make e-scooters a more viable transportation option for residents.",
-   "url": "https://www.axios.com/local/chicago",
-   "published_at": "2026-08-10T11:28:36.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "politico-20260810-mayor-brandon-johnson-s-rebuild-program",
-   "category": "elected_official",
-   "source_id": "politico",
-   "source_name": "POLITICO Illinois Playbook",
-   "source_type": "email_newsletter",
-   "title": "Mayor Brandon Johnson's Rebuild program",
-   "summary": "Mayor Brandon Johnson is set to give remarks at a ribbon cutting for two homes rehabbed through the Rebuild program in Englewood. The program aims to provide affordable housing options for Chicago residents.",
-   "url": "https://www.politico.com/newsletters/illinois-playbook",
-   "published_at": "2026-08-10T12:02:14.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "politico-20260810-chicago-mayor-brandon-johnson-gov-jb-pri",
-   "category": "elected_official",
-   "source_id": "politico",
-   "source_name": "POLITICO Illinois Playbook",
-   "source_type": "email_newsletter",
-   "title": "Chicago Mayor Brandon Johnson, Gov. JB Pritzker Watch Michigan, Wisconsin Races",
-   "summary": "Illinois Democrats are watching Michigan and Wisconsin for clues about the party's direction. Abdul El-Sayed's victory in Michigan's Democratic Senate primary could offer hope for like-minded candidates. The Wisconsin governor's race is shaping up as a contest between traditional Democrats and candidates appealing to the party's activist left.",
-   "url": "https://www.politico.com/newsletters/illinois-playbook",
-   "published_at": "2026-08-10T12:02:14.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "axios-20260810-e-scooter-access",
-   "category": "business",
-   "source_id": "axios",
-   "source_name": "Axios Chicago",
-   "source_type": "email_newsletter",
-   "title": "E-scooter Access",
-   "summary": "No specific information is provided in the given text about e-scooter access in Chicago or the 34th Ward. However, e-scooter access can impact transportation and traffic in the area.",
-   "url": "https://www.axios.com/local/chicago",
-   "published_at": "2026-08-10T11:28:36.000Z",
    "flagged_for_review": false
   }
  ]

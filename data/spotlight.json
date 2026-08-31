@@ -1,12 +1,12 @@
 {
  "_rotation_note": "The daily job picks the next business each morning - rotating among ward businesses with priority to spotlight requests from owners and newly opened spots. Keep yesterday's entries in history.",
  "current": {
-  "date": "2026-08-30",
-  "name": "Russian Tea Time",
-  "address": "77 E. Adams St, the Loop",
-  "website": "https://www.russianteatime.com/",
-  "image": "images/spotlight/russian-tea-time.jpg",
-  "blurb": "An old-world restaurant beside the Art Institute, famous for borscht, blini, and a long list of house-infused vodkas served in a jewel-box room."
+  "date": "2026-08-31",
+  "name": "Revival Food Hall",
+  "address": "125 S. Clark St, the Loop",
+  "website": "https://www.revivalfoodhall.com/",
+  "image": "images/spotlight/revival-food-hall.jpg",
+  "blurb": "A downtown food hall in the landmark National building, gathering more than a dozen local vendors under one roof for a fast, buzzy lunch."
  },
  "history": [
   {
@@ -544,6 +544,14 @@
    "website": "https://www.thegagechicago.com/",
    "image": "images/spotlight/the-gage.jpg",
    "blurb": "A handsome gastropub across from Millennium Park, pairing elevated pub fare and game dishes with a deep beer and whiskey list."
+  },
+  {
+   "date": "2026-08-30",
+   "name": "Russian Tea Time",
+   "address": "77 E. Adams St, the Loop",
+   "website": "https://www.russianteatime.com/",
+   "image": "images/spotlight/russian-tea-time.jpg",
+   "blurb": "An old-world restaurant beside the Art Institute, famous for borscht, blini, and a long list of house-infused vodkas served in a jewel-box room."
   }
  ]
 }
