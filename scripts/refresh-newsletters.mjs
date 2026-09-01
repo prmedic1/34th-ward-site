@@ -161,10 +161,11 @@ function extractLeadStory(text) {
     .replace(/\s+/g, ' ')
     .trim();
   const sentences = (body.match(/[^.!?]+[.!?]+/g) || []).map((s) => s.trim()).filter((s) => s.length > 20);
-  let summary = sentences.slice(0, 3).join(' ').replace(/[—–]/g, '-').replace(/\s+/g, ' ').trim();
+  let summary = sentences.slice(0, 3).join(' ').replace(/[—–]/g, '-').replace(/\s+/g, ' ')
+    .replace(/\s+([.,;:!?])/g, '$1').replace(/\(\s*\)/g, '').replace(/\s{2,}/g, ' ').trim();
   if (summary.length < 50) return null;
   if (summary.length > 420) summary = summary.slice(0, 417).replace(/\s+\S*$/, '') + '.';
-  return { category: 'newsletter', title, summary };
+  return { category: 'newsletter', title: title.replace(/\s+([.,;:!?])/g, '$1'), summary };
 }
 
 async function summarize(emails) {
