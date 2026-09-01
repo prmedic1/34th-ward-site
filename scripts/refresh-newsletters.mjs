@@ -113,11 +113,8 @@ const SYSTEM_PROMPT = 'You are the news editor for 34thward.com, a community new
 // tends to lose out when several are judged together) is guaranteed a fair look
 // and its items are correctly attributed. Combining them all in one prompt made
 // the model cherry-pick the easiest source and drop the rest.
-async function summarize(emails) {
-  const today = new Date().toISOString().slice(0, 10);
-  const out = [];
-  for (const e of emails) {
-    const user = `Today is ${today}. Below is ONE newsletter: ${e.source_name}. Extract its 1 to 3 most newsworthy stories for a 34th Ward reader. Return at least one item unless the newsletter is purely administrative (for example "no newsletter this week").
+function buildUserPrompt(e, today) {
+  return `Today is ${today}. Below is ONE newsletter: ${e.source_name}. Extract its 1 to 3 most newsworthy stories for a 34th Ward reader. Return at least one item unless the newsletter is purely administrative (for example "no newsletter this week").
 
 How to choose: prefer stories about the ward's neighborhoods (West Loop, Greektown, Fulton Market, Printers Row, South Loop, near west side, the Loop). If none are ward-specific, pick this newsletter's single biggest story for a general Chicago audience, such as transit, housing, a development, a notable business opening or closing, schools, public safety, or taxes.
 
@@ -136,18 +133,38 @@ category must be one of: elected_official, business, civic_org, religious_org, n
 
 NEWSLETTER TEXT:
 ${e.text}`;
+}
+
+async function summarize(emails) {
+  const today = new Date().toISOString().slice(0, 10);
+  const out = [];
+  const runOne = async (e, isRetry) => {
     let res;
     try {
-      res = await callModelWithFallback(SYSTEM_PROMPT, user);
+      res = await callModelWithFallback(SYSTEM_PROMPT, buildUserPrompt(e, today));
     } catch (err) {
-      console.log(`Summarize failed for ${e.source_id}: ${err.message.slice(0, 120)}`);
-      res = { items: [] };
+      res = { items: [], rateLimited: /rate limit|429|too large/i.test(err.message) };
     }
     const items = (res.items || []).slice(0, 3);
-    // We know which newsletter this is, so stamp the source_id ourselves rather
-    // than trusting the model to echo it back.
+    // We stamp the source_id ourselves rather than trust the model to echo it.
     items.forEach((it) => out.push({ ...it, source_id: e.source_id }));
-    console.log(`  ${e.source_id}: ${items.length} item(s)` + (items.length ? ' - ' + items.map((it) => (it.title || '').slice(0, 45)).join(' | ') : ''));
+    console.log(`  ${isRetry ? '(retry) ' : ''}${e.source_id}: ${items.length} item(s)` + (items.length ? ' - ' + items.map((it) => (it.title || '').slice(0, 45)).join(' | ') : ''));
+    return { got: items.length > 0, rateLimited: !!res.rateLimited };
+  };
+  // First pass; remember any newsletter that came back empty ONLY because it was
+  // rate-limited (e.g. Axios, which runs first and often hits the per-minute cap).
+  const pending = [];
+  for (const e of emails) {
+    const r = await runOne(e, false);
+    if (!r.got && r.rateLimited) pending.push(e);
+  }
+  // Retry the rate-limited ones after a pause: the per-minute Groq quota resets,
+  // and WORKING_MODEL is now known so each retry is a single call. This is what
+  // keeps Axios refreshing daily instead of silently getting 0 every morning.
+  if (pending.length) {
+    console.log(`Retrying rate-limited newsletter(s) after a pause: ${pending.map((e) => e.source_id).join(', ')}`);
+    await new Promise((r) => setTimeout(r, 30000));
+    for (const e of pending) await runOne(e, true);
   }
   return { items: out };
 }
@@ -163,21 +180,22 @@ async function callModelWithFallback(system, user) {
   const order = WORKING_MODEL
     ? [WORKING_MODEL, ...MODELS_CACHE.filter((m) => m !== WORKING_MODEL)]
     : MODELS_CACHE;
-  let lastErr, lastResult;
+  let attempted = false, allRateLimited = true;
   for (const model of order) {
     try {
       const result = await callGroq(model, system, user);
       WORKING_MODEL = model;   // this model responded; prefer it for the rest of the run
-      // A successful-but-empty result is a valid "nothing in this newsletter";
-      // accept it rather than burning more calls asking other models.
-      return result;
+      // A successful-but-empty result is a valid "nothing in this newsletter".
+      return { items: (result && result.items) || [], rateLimited: false };
     } catch (e) {
-      lastErr = e;
+      attempted = true;
+      if (!/rate limit|429|too large|request entity too large/i.test(e.message)) allRateLimited = false;
       console.log(`Groq model ${model} failed, trying next (${e.message.slice(0, 100)})`);
     }
   }
-  if (lastResult) return lastResult;      // model ran but found nothing; valid empty
-  throw lastErr || new Error('No usable Groq model found');
+  // Every model failed. Flag whether it was purely rate-limiting, so the caller
+  // knows this newsletter is worth retrying after a pause (vs. a real error).
+  return { items: [], rateLimited: attempted && allRateLimited };
 }
 
 // Ask Groq which models this key can use, preferring our known-good ones and
