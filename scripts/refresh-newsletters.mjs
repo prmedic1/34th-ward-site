@@ -91,11 +91,12 @@ async function fetchNewsletters() {
             .replace(/[ \t]{2,}/g, ' ')                        // collapse runs of spaces
             .replace(/ *\n */g, '\n')
             .replace(/\n{3,}/g, '\n\n')                        // collapse blank lines
-            .trim()
-            .slice(0, 8000);
+            .trim();
           out.push({
             source_id: meta.id, source_name: meta.name, source_url: meta.url,
-            subject: p.subject || '', date: (p.date || new Date()).toISOString(), text
+            subject: p.subject || '', date: (p.date || new Date()).toISOString(),
+            text: text.slice(0, 8000),         // window the model summarizes
+            fullText: text.slice(0, 30000)     // longer copy for lead-story fallback
           });
         } catch { /* skip */ }
       }
@@ -141,20 +142,24 @@ ${e.text}`;
 // numbered "1. TITLE" leads. Returns a clean {title, summary} or null (skip).
 function extractLeadStory(text) {
   if (!text) return null;
-  const m = text.match(/1 big thing:\s*(.+?)(?:\n|$)([\s\S]{40,1600})/i)
-        || text.match(/(?:^|\n)\s*1[.)]\s+(.+?)(?:\n|$)([\s\S]{40,1600})/);
+  const m = text.match(/1 big thing:\s*(.+?)(?:\n|$)([\s\S]{40,2200})/i)
+        || text.match(/(?:^|\n)\s*1[.)]\s+(.+?)(?:\n|$)([\s\S]{40,2200})/);
   if (!m) return null;
-  let title = m[1].replace(/\s+/g, ' ').trim().replace(/[\-–—:]+\s*$/, '');
+  let title = m[1].replace(/\s+/g, ' ').trim().replace(/[\-–—:]+\s*$/, '').replace(/[—–]/g, '-');
   if (title.length < 6 || title.length > 130) return null;
-  const body = m[2]
+  let body = m[2].replace(/\s+/g, ' ').trim();
+  // Drop a leading photo caption/credit (Axios: "...caption... Photo: Name/Axios").
+  const cut = body.search(/\/Axios\b/i);
+  if (cut > -1 && cut < 320) body = body.slice(cut + 6);
+  body = body
     .replace(/\b(The buzz|Why it matters|The latest|Details|Zoom in|Zoom out|By the numbers|State of play|Flashback|Between the lines|What'?s next|What to (?:order|know|watch|expect)|Go deeper|Reality check|The big picture|The bottom line|Yes,? but|Of note|Plus|Photo|Data|Table|Illustration|Driving the news|Catch up quick)\s*:/gi, ' ')
     .replace(/\s+/g, ' ')
     .trim();
   const sentences = (body.match(/[^.!?]+[.!?]+/g) || []).map((s) => s.trim()).filter((s) => s.length > 20);
-  let summary = sentences.slice(0, 3).join(' ').replace(/\s+/g, ' ').replace(/[—–]/g, '-').trim();
+  let summary = sentences.slice(0, 3).join(' ').replace(/[—–]/g, '-').replace(/\s+/g, ' ').trim();
   if (summary.length < 50) return null;
   if (summary.length > 420) summary = summary.slice(0, 417).replace(/\s+\S*$/, '') + '.';
-  return { category: 'newsletter', title: title.replace(/[—–]/g, '-'), summary };
+  return { category: 'newsletter', title, summary };
 }
 
 async function summarize(emails) {
@@ -196,9 +201,9 @@ async function summarize(emails) {
   // If no clean lead story can be pulled, we skip it rather than post junk.
   const haveSource = new Set(out.map((it) => it.source_id));
   for (const e of emails) {
-    if (haveSource.has(e.source_id) || (e.text || '').length < 2500) continue;
-    const lead = extractLeadStory(e.text);
-    console.log(`  DEBUG fallback ${e.source_id}: has1bt=${/1 big thing/i.test(e.text || '')} lead=${lead ? JSON.stringify(lead.title) : 'null'}`);
+    const body = e.fullText || e.text || '';
+    if (haveSource.has(e.source_id) || body.length < 2500) continue;
+    const lead = extractLeadStory(body);
     if (lead) {
       out.push({ ...lead, source_id: e.source_id });
       console.log(`  ${e.source_id}: 1 item (lead-story fallback) - ${lead.title.slice(0, 50)}`);
