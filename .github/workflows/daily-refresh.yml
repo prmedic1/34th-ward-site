@@ -4,24 +4,24 @@ name: Daily data refresh
 # Refreshes the mayor's-race odds (Kalshi) and the happy-hour sheet snapshot,
 # then commits + pushes, which triggers Netlify to redeploy automatically.
 on:
+  # PRIMARY trigger is an EXTERNAL scheduler (cron-job.org) that POSTs to this
+  # workflow's dispatch API at 8:00 AM Central every day. It is reliable, unlike
+  # GitHub's own cron, which fired these ~4 HOURS LATE and dropped runs, leaving
+  # the site stale every morning. The schedule below is only a BACKUP for the
+  # rare case the external trigger fails; GitHub delays it, so it lands in the
+  # early afternoon Central. Odd minute (never :00/:30, GitHub's congested slots).
   schedule:
-    # GitHub often delays scheduled runs, sometimes by hours, so we ask twice.
-    # The refresh script is idempotent, so a duplicate run is harmless.
-    # GitHub's free-tier scheduler runs these ~4 HOURS LATE and consistently
-    # (13:02 UTC was actually firing ~17:00 UTC = noon Central, so the site was
-    # stale every morning). So we schedule ~4h EARLY to compensate, and fire
-    # several times as a hedge against GitHub dropping a run. The script is
-    # idempotent (spotlight rotates once/Chicago-day, news + newsletters dedup),
-    # so extra runs are harmless. Use ODD minutes, never :00/:30 (most congested).
-    # Target actual run ~13:00-16:00 UTC (8-11am Central); all are after Axios
-    # arrives (~11:29 UTC) once GitHub's delay is applied.
-    - cron: '2 9 * * *'   # 09:02 UTC, lands ~13:00 UTC (~8 AM Central) with the ~4h delay
-    - cron: '32 10 * * *' # 10:32 UTC, hedge, lands ~14:30 UTC (~9:30 AM Central)
-    - cron: '2 12 * * *'  # 12:02 UTC, final net, lands ~16:00 UTC (~11 AM Central)
-  workflow_dispatch: {}    # lets you also run it on demand from the Actions tab
+    - cron: '2 14 * * *'  # 14:02 UTC backup only; GitHub delay lands it ~early afternoon Central
+  workflow_dispatch: {}    # used by the external scheduler (cron-job.org) and for manual runs
 
 permissions:
   contents: write
+
+# Never let two refreshes run at once (the external trigger and the backup cron
+# could overlap); serialize them so their git pushes cannot collide.
+concurrency:
+  group: daily-refresh
+  cancel-in-progress: false
 
 jobs:
   refresh:
