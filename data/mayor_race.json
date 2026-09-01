@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-09-01T14:45:06.807Z",
+  "updated_at": "2026-09-01T19:02:07.744Z",
   "election_date": "February 23, 2027",
   "kalshi_event": "KXCHICAGOMAYOR-27",
   "kalshi_url": "https://kalshi.com/markets/kxchicagomayor",
-  "note": "Blended win probabilities from the Kalshi prediction market (event KXCHICAGOMAYOR-27) and PredictionEdge, normalized to 100% across the 12 tracked candidates. Candidates without an active market are floored at about 0.5%. Prediction markets, not polls.",
+  "note": "Blended from the Kalshi prediction market (event KXCHICAGOMAYOR-27, weight 3), PredictionEdge and Manifold Markets (weight 1 each), and the M3 Strategies poll (weight 1; likely voters, first-round ballot), normalized to 100% across the tracked candidates. A mix of market win-odds and current polling; candidates with no data are floored near 0.5%.",
   "candidates": [
     {
       "name": "Alexi Giannoulias",
@@ -13,11 +13,12 @@
       "badge": "Favorite",
       "badgeColor": "blue",
       "image": "images/candidates/giannoulias.jpg",
-      "pct": 50,
+      "pct": 43.7,
       "kalshi_raw": 55,
       "pe_raw": 43,
       "manifold_raw": 34.7,
-      "campaign_url": "https://alexiforus.com/"
+      "campaign_url": "https://alexiforus.com/",
+      "poll_raw": 17.6
     },
     {
       "name": "Matthew Brewer",
@@ -27,10 +28,11 @@
       "image": "images/candidates/brewer.jpg",
       "badge": "Underdog",
       "badgeColor": "yellow",
-      "pct": 13.1,
+      "pct": 10.6,
       "kalshi_raw": 12,
       "pe_raw": 23,
-      "manifold_raw": 4.2
+      "manifold_raw": 4.2,
+      "poll_raw": 0.3
     },
     {
       "name": "Brandon Johnson",
@@ -40,11 +42,12 @@
       "badge": "Incumbent",
       "badgeColor": "green",
       "image": "images/candidates/johnson.jpg",
-      "pct": 7,
+      "pct": 9.5,
       "kalshi_raw": 6,
       "pe_raw": null,
       "manifold_raw": 9.1,
-      "campaign_url": "https://www.brandonforchicago.com/"
+      "campaign_url": "https://www.brandonforchicago.com/",
+      "poll_raw": 20.1
     },
     {
       "name": "Susana Mendoza",
@@ -52,11 +55,12 @@
       "status": "declared",
       "order": 4,
       "image": "images/candidates/mendoza.jpg",
-      "pct": 14.5,
+      "pct": 13.6,
       "kalshi_raw": 15,
       "pe_raw": 16,
       "manifold_raw": 9,
-      "campaign_url": "https://susanamendoza.com/"
+      "campaign_url": "https://susanamendoza.com/",
+      "poll_raw": 11.2
     },
     {
       "name": "Maria Pappas",
@@ -64,11 +68,12 @@
       "status": "declared",
       "order": 5,
       "image": "images/candidates/pappas.jpg",
-      "pct": 4,
+      "pct": 3.3,
       "kalshi_raw": 3.6,
       "pe_raw": null,
       "manifold_raw": 4.6,
-      "campaign_url": "https://www.mariapappas.net/"
+      "campaign_url": "https://www.mariapappas.net/",
+      "poll_raw": 0.9
     },
     {
       "name": "Mike Quigley",
@@ -76,11 +81,12 @@
       "status": "declared",
       "order": 6,
       "image": "images/candidates/quigley.jpg",
-      "pct": 3.8,
+      "pct": 3.4,
       "kalshi_raw": 3.6,
       "pe_raw": null,
       "manifold_raw": 3.8,
-      "campaign_url": "https://www.quigleyforchicago.com/"
+      "campaign_url": "https://www.quigleyforchicago.com/",
+      "poll_raw": 2.3
     },
     {
       "name": "Willie Wilson",
@@ -88,11 +94,12 @@
       "status": "declared",
       "order": 7,
       "image": "images/candidates/wilson.jpg",
-      "pct": 1.6,
+      "pct": 2.6,
       "kalshi_raw": 2,
       "pe_raw": null,
       "manifold_raw": 0.2,
-      "campaign_url": "https://drwilliewilson.com/"
+      "campaign_url": "https://drwilliewilson.com/",
+      "poll_raw": 6.9
     },
     {
       "name": "John Kelly",
@@ -102,11 +109,12 @@
       "badge": "Conservative",
       "badgeColor": "red",
       "image": "images/candidates/kelly.jpg",
-      "pct": 1.3,
+      "pct": 3.2,
       "kalshi_raw": null,
       "pe_raw": null,
       "manifold_raw": 1.3,
-      "campaign_url": "https://johnkellyforchi.com/"
+      "campaign_url": "https://johnkellyforchi.com/",
+      "poll_raw": 5.1
     },
     {
       "name": "Joe Holberg",
@@ -114,11 +122,12 @@
       "status": "declared",
       "order": 9,
       "image": "images/candidates/holberg.jpg",
-      "pct": 2,
+      "pct": 1.7,
       "kalshi_raw": 1.7,
       "pe_raw": null,
       "manifold_raw": 2.5,
-      "campaign_url": "https://www.joeforchicago.com/"
+      "campaign_url": "https://www.joeforchicago.com/",
+      "poll_raw": 0.9
     },
     {
       "name": "George Cardenas",
@@ -128,10 +137,11 @@
       "image": "images/candidates/cardenas.jpg",
       "badge": "Conservative",
       "badgeColor": "red",
-      "pct": 1.7,
+      "pct": 1.3,
       "kalshi_raw": 1,
       "pe_raw": null,
-      "manifold_raw": 3.5
+      "manifold_raw": 3.5,
+      "poll_raw": 0.2
     },
     {
       "name": "Dr. Lisa Nee",
@@ -139,10 +149,11 @@
       "status": "declared",
       "order": 12,
       "image": "images/candidates/nee.webp",
-      "pct": 0.5,
+      "pct": 0.3,
       "kalshi_raw": null,
       "pe_raw": null,
-      "campaign_url": "https://www.lisaneeforchicago.com/"
+      "campaign_url": "https://www.lisaneeforchicago.com/",
+      "poll_raw": 0.3
     },
     {
       "name": "Danielle Carter-Walters",
@@ -152,10 +163,11 @@
       "badge": "Conservative",
       "badgeColor": "red",
       "image": "images/candidates/carter-walters.jpg",
-      "pct": 0.5,
+      "pct": 6.8,
       "kalshi_raw": null,
       "pe_raw": null,
-      "campaign_url": "https://www.dannicformayor.com/"
+      "campaign_url": "https://www.dannicformayor.com/",
+      "poll_raw": 6.8
     }
   ]
 }

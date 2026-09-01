@@ -63,13 +63,14 @@ async function refreshKalshi() {
     }
   } catch { /* keep stored manifold_raw on network failure */ }
 
-  // Blend: weighted average of the win-probability sources. Kalshi gets 3x
-  // (real-money, freshest), PredictionEdge and Manifold 1x each. pe_raw is
-  // refreshed by the assisted daily task. Candidates with no market anywhere
-  // get a 0.5% floor, then everything is normalized so the 13 tracked
-  // candidates sum to exactly 100%.
+  // Blend: weighted average of the sources. Kalshi gets 3x (real-money,
+  // freshest), PredictionEdge, Manifold, and the M3 Strategies poll 1x each.
+  // Kalshi/PE/Manifold are market win-odds; poll_raw is that candidate's
+  // first-round ballot share from the latest poll (set by hand when a new poll
+  // lands). Candidates with no data get a 0.5% floor, then everything is
+  // normalized so the tracked candidates sum to exactly 100%.
   const FLOOR = 0.5;
-  const W_KALSHI = 3, W_PE = 1, W_MANIFOLD = 1;
+  const W_KALSHI = 3, W_PE = 1, W_MANIFOLD = 1, W_POLL = 1;
   let changed = 0;
   for (const c of data.candidates) {
     const hit = byName.get(norm(c.name));
@@ -85,6 +86,7 @@ async function refreshKalshi() {
     if (typeof c.kalshi_raw === 'number') { sum += c.kalshi_raw * W_KALSHI; w += W_KALSHI; }
     if (typeof c.pe_raw === 'number') { sum += c.pe_raw * W_PE; w += W_PE; }
     if (typeof c.manifold_raw === 'number') { sum += c.manifold_raw * W_MANIFOLD; w += W_MANIFOLD; }
+    if (typeof c.poll_raw === 'number') { sum += c.poll_raw * W_POLL; w += W_POLL; }
     return w ? sum / w : FLOOR;
   });
   const total = rawVals.reduce((a, b) => a + b, 0);
