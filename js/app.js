@@ -1,4 +1,4 @@
-const DATA_V = '20260831a';
+const DATA_V = '20260901a';
 
 document.getElementById('year').textContent = new Date().getFullYear();
 
