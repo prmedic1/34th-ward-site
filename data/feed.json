@@ -1,6 +1,54 @@
 {
- "generated_at": "2026-09-01T22:20:54.250Z",
+ "generated_at": "2026-09-01T22:24:17.533Z",
  "items": [
+  {
+   "id": "axios-20260901-yemeni-cafes-take-off",
+   "category": "newsletter",
+   "source_id": "axios",
+   "source_name": "Axios Chicago",
+   "source_type": "email_newsletter",
+   "title": "Yemeni cafes take off",
+   "summary": "Move over, pumpkin spice latte . The hottest new coffee trend comes from Yemen. In recent years, Yemeni-American cafe chains - including Qahwah House , Matari Coffee , Shibam Coffee Co , Qamaria , Arwa and Haraz Coffee House - have percolated out from suburban Detroit to the Midwest and the rest of the country.",
+   "url": "https://www.axios.com/local/chicago",
+   "published_at": "2026-09-01T11:27:16.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "wca-20260830-lg-group-scales-up-with-coo-hire-and-500",
+   "category": "business",
+   "source_id": "wca",
+   "source_name": "The WCA Weekly",
+   "source_type": "email_newsletter",
+   "title": "LG Group Scales Up with COO Hire and $500M in New Projects Plan; Commission Approves 23 S. Sangamon Development",
+   "summary": "LG Group announced a new COO hire and a $500 million plan for new projects. The city commission approved the 23 S. Sangamon development. The announcement also highlighted the successful West Loop Art Fest that was celebrated on FOX 32.",
+   "url": "https://www.wcachicago.org/",
+   "published_at": "2026-08-30T20:30:31.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "wca-20260830-1282-washington-development-welcomed-as-",
+   "category": "business",
+   "source_id": "wca",
+   "source_name": "The WCA Weekly",
+   "source_type": "email_newsletter",
+   "title": "1282 Washington Development Welcomed as Headline Sponsor of Madison Row Fest 2026",
+   "summary": "The 1282 Washington ZSD development, which will deliver 4- and 5-bedroom single-family condominiums in the West Loop, is the headline sponsor of Madison Row Fest 2026. Already 75 percent pre‑sold and under construction, the boutique building is set to deliver new housing by fall 2026.",
+   "url": "https://www.wcachicago.org/",
+   "published_at": "2026-08-30T20:30:31.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "wca-20260830-chicago-bocce-club-opens-year-round-home",
+   "category": "civic_org",
+   "source_id": "wca",
+   "source_name": "The WCA Weekly",
+   "source_type": "email_newsletter",
+   "title": "Chicago Bocce Club Opens Year‑Round Home for Bocce and Community in West Town",
+   "summary": "The new Chicago Bocce Club at 410 N. Paulina St. opened with a ribbon cutting. It offers bocce leagues, private events, and a calendar of programming that includes Monday Mahjong, Wine Down Wednesday, yoga, and more.",
+   "url": "https://www.wcachicago.org/",
+   "published_at": "2026-08-30T20:30:31.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "blockclub-20260901-london-s-acclaimed-berenjak-bringing-ira",
    "category": "business",
