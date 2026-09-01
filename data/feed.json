@@ -1,6 +1,66 @@
 {
- "generated_at": "2026-09-01T14:02:47.998Z",
+ "generated_at": "2026-09-01T14:45:20.187Z",
  "items": [
+  {
+   "id": "wca-20260830-1282-washington-75-pre-sold-west-loop-co",
+   "category": "business",
+   "source_id": "wca",
+   "source_name": "The WCA Weekly",
+   "source_type": "email_newsletter",
+   "title": "1282 Washington: 75% Pre‑Sold West Loop Condominium Development",
+   "summary": "ZSD’s 1282 Washington, a 4‑ and 5‑bedroom single‑family condominium project on West Loop’s 1282 Washington, is 75% pre‑sold and under construction. The boutique building will deliver a new standard for West Loop living with the building slated to open next fall. The WCA welcomes the development as headline sponsor of Madison Row Fest 2026.",
+   "url": "https://www.wcachicago.org/",
+   "published_at": "2026-08-30T20:30:31.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "wca-20260830-inaugural-west-loop-wellness-fest-to-ope",
+   "category": "civic_org",
+   "source_id": "wca",
+   "source_name": "The WCA Weekly",
+   "source_type": "email_newsletter",
+   "title": "Inaugural West Loop Wellness Fest to Open Community Health Hub",
+   "summary": "The first West Loop Wellness Fest will take place Saturday, September 19 at Union Padel Club. The event will feature local health and wellness businesses, instructor‑led fitness classes, vendor experiences, and padel activities. Ticket proceeds support Mercy Home for Boys & Girls, and registration is required due to limited space.",
+   "url": "https://www.wcachicago.org/",
+   "published_at": "2026-08-30T20:30:31.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "wca-20260830-project-windows-2026-the-goddess-and-gro",
+   "category": "business",
+   "source_id": "wca",
+   "source_name": "The WCA Weekly",
+   "source_type": "email_newsletter",
+   "title": "Project Windows 2026: The Goddess and Grocer, The Emily Hotel Win West Loop Awards",
+   "summary": "The Art Institute of Chicago’s Project Windows 2026 honored The Goddess and Grocer and The Emily Hotel as West Loop winners for creative window displays. The initiative brings art into neighborhoods through museum‑inspired displays. Both businesses showcased their windows as part of the citywide program.",
+   "url": "https://www.wcachicago.org/",
+   "published_at": "2026-08-30T20:30:31.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260831-at-chicago-s-tall-ball-the-vertically-gi",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "At Chicago's Tall Ball, The Vertically Gifted Get A Rare Chance To See Eye-To-Eye",
+   "summary": "At the second annual Tall Ball, even the DJ stood 6'9\". The party at the Allerton Hotel drew hundreds of tall men and women and even crowned a Tall King and Queen.",
+   "url": "https://blockclubchicago.org/2026/08/31/at-chicagos-tall-ball-the-vertically-gifted-get-a-rare-chance-to-see-eye-to-eye/",
+   "published_at": "2026-08-31T17:02:00.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260831-aquarium-smokers-are-a-chicago-barbecue-",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Aquarium Smokers Are A Chicago Barbecue Mystery",
+   "summary": "The glass-walled barbecue pits bathe meat in smoke, allowing for even cooking while letting customers see the goods, pitmasters say.",
+   "url": "https://blockclubchicago.org/2026/08/31/aquarium-smokers-are-a-chicago-barbecue-mystery/",
+   "published_at": "2026-08-31T16:42:00.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "abc7-20260901-community-advocates-press-for-reopening-",
    "category": "civic_org",
