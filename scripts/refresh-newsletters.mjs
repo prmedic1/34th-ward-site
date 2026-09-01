@@ -84,6 +84,11 @@ async function fetchNewsletters() {
           // artifacts and table pipes; strip that noise BEFORE slicing so the
           // window the model sees is real prose, not a wall of URLs.
           const text = (p.text || p.html || '')
+            .replace(/<style[\s\S]*?<\/style>/gi, ' ')        // drop CSS blocks
+            .replace(/<[^>]*>/g, ' ')                          // strip any HTML tags
+            .replace(/&nbsp;|&#160;/gi, ' ')
+            .replace(/&amp;/gi, '&').replace(/&lt;/gi, '<').replace(/&gt;/gi, '>')
+            .replace(/&#39;|&rsquo;|&lsquo;|&apos;/gi, "'").replace(/&quot;|&ldquo;|&rdquo;/gi, '"').replace(/&mdash;|&ndash;/gi, '-')
             .replace(/\[\]\(\s*https?:\/\/[^)]*\)/gi, ' ')   // markdown empty links [](url)
             .replace(/\(\s*https?:\/\/[^)]*\)/gi, ' ')        // (url)
             .replace(/https?:\/\/\S+/gi, ' ')                 // bare urls
