@@ -184,6 +184,15 @@ async function summarize(emails) {
   // different one can mine it. This is what keeps Axios refreshing daily.
   const pending = [];
   for (const e of emails) {
+    // Axios: the free models are unreliable on it (empty one run, header trivia
+    // like "on this day in 1984..." the next), so skip the model and pull its
+    // real lead story ("1 big thing") straight from the text every day.
+    if (e.source_id === 'axios') {
+      const lead = extractLeadStory(e.fullText || e.text || '');
+      if (lead) { out.push({ ...lead, source_id: 'axios' }); console.log(`  axios: 1 item (lead-story) - ${lead.title.slice(0, 50)}`); }
+      else console.log('  axios: no lead story found; skipping today');
+      continue;
+    }
     const r = await runOne(e, false);
     if (!r.got && (r.rateLimited || (e.text || '').length > 2500)) {
       pending.push({ e, exclude: r.rateLimited ? null : r.model });
