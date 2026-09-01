@@ -198,6 +198,7 @@ async function summarize(emails) {
   for (const e of emails) {
     if (haveSource.has(e.source_id) || (e.text || '').length < 2500) continue;
     const lead = extractLeadStory(e.text);
+    console.log(`  DEBUG fallback ${e.source_id}: has1bt=${/1 big thing/i.test(e.text || '')} lead=${lead ? JSON.stringify(lead.title) : 'null'}`);
     if (lead) {
       out.push({ ...lead, source_id: e.source_id });
       console.log(`  ${e.source_id}: 1 item (lead-story fallback) - ${lead.title.slice(0, 50)}`);
