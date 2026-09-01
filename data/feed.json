@@ -1,6 +1,18 @@
 {
- "generated_at": "2026-08-31T17:02:06.574Z",
+ "generated_at": "2026-09-01T14:02:47.998Z",
  "items": [
+  {
+   "id": "abc7-20260901-community-advocates-press-for-reopening-",
+   "category": "civic_org",
+   "source_id": "abc7",
+   "source_name": "ABC7 Chicago",
+   "source_type": "web_feed",
+   "title": "Community advocates press for reopening of West Suburban, Weiss hospitals as sale remains in court",
+   "summary": "A town hall meeting on Chicago's Near West Side renewed calls to reopen two shuttered hospitals as their future remains tied up in an ongoing court dispute.",
+   "url": "https://abc7chicago.com/post/advocates-press-reopening-west-suburban-medical-center-oak-park-il-weiss-memorial-hospital-uptown-chicago/19772692/",
+   "published_at": "2026-09-01T14:02:47.997Z",
+   "flagged_for_review": false
+  },
   {
    "id": "wca-20260830-chicago-bocce-club-opens-at-410-n-paulin",
    "category": "business",
@@ -1095,18 +1107,6 @@
    "flagged_for_review": false
   },
   {
-   "id": "blockclub-20260811-how-nathaniel-mary-quinn-went-from-rober",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "How Nathaniel Mary Quinn Went From Robert Taylor Homes To Designing Art For Rolling Stones",
-   "summary": "The artist behind the Stones’ 25th album cover also has a debut Chicago exhibit, “A Love Letter to My Mother,” which runs through Aug. 23 at the National Public Housing Museum.",
-   "url": "https://blockclubchicago.org/2026/08/11/how-nathaniel-mary-quinn-went-from-robert-taylor-homes-to-designing-art-for-rolling-stones/",
-   "published_at": "2026-08-11T13:45:20.000Z",
-   "flagged_for_review": false
-  },
-  {
    "id": "politico-20260812-mayor-johnson-signs-executive-order-for-",
    "category": "elected_official",
    "source_id": "politico",
@@ -1164,78 +1164,6 @@
    "summary": "After exploring her new habitat since her arrival at the Shedd almost a year ago, Alface is now making public appearances at aquarium pop-ups and after-hours events.",
    "url": "https://blockclubchicago.org/2026/08/11/alface-the-shedds-new-2-toed-sloth-is-ready-to-meet-chicagoans/",
    "published_at": "2026-08-11T20:11:33.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "axios-20260811-vertical-farming-downtown",
-   "category": "business",
-   "source_id": "axios",
-   "source_name": "Axios Chicago",
-   "source_type": "email_newsletter",
-   "title": "Vertical Farming Downtown",
-   "summary": "A vertical farm is being built downtown, no other details are provided in the newsletter.",
-   "url": "https://www.axios.com/local/chicago",
-   "published_at": "2026-08-11T11:28:26.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "politico-20260811-chicago-school-board-to-weigh-adding-bal",
-   "category": "elected_official",
-   "source_id": "politico",
-   "source_name": "POLITICO Illinois Playbook",
-   "source_type": "email_newsletter",
-   "title": "Chicago School Board To Weigh Adding Ballot Questions",
-   "summary": "The Chicago school board is considering adding ballot questions about new revenue sources, including a millionaires tax to increase funding for schools. The board will discuss the proposal at an upcoming meeting. Illinois school districts are falling short of state funding targets, and the proposed ballot questions could provide a solution.",
-   "url": "https://www.politico.com/newsletters/illinois-playbook",
-   "published_at": "2026-08-11T12:01:45.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "politico-20260811-illinois-school-districts-falling-short-",
-   "category": "elected_official",
-   "source_id": "politico",
-   "source_name": "POLITICO Illinois Playbook",
-   "source_type": "email_newsletter",
-   "title": "Illinois School Districts Falling Short Of State Funding Targets",
-   "summary": "Illinois school districts are struggling to meet state funding targets, with many districts facing significant shortfalls. The state's education funding formula has been criticized for being inadequate, and lawmakers are exploring solutions to address the issue. The funding shortfalls could have significant impacts on schools and students across the state.",
-   "url": "https://www.politico.com/newsletters/illinois-playbook",
-   "published_at": "2026-08-11T12:01:45.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "axios-20260811-vertical-farming-comes-to-downtown-chica",
-   "category": "business",
-   "source_id": "axios",
-   "source_name": "Axios Chicago",
-   "source_type": "email_newsletter",
-   "title": "Vertical Farming Comes To Downtown Chicago",
-   "summary": "A new vertical farm is being built in downtown Chicago, bringing fresh produce to the area. The farm will utilize advanced hydroponic systems to grow a variety of crops, including leafy greens and herbs. The project aims to increase food accessibility and reduce the city's carbon footprint.",
-   "url": "https://www.axios.com/local/chicago",
-   "published_at": "2026-08-11T11:28:26.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260810-bally-s-to-pause-building-parts-of-chica",
-   "category": "business",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Bally’s To Pause Building Parts Of Chicago Casino Project Amid Fight Over Video Gambling Expansion",
-   "summary": "Construction on some hotel, restaurant and event spaces will stop because Bally’s believes that the move to allow video gambling citywide could undercut revenue from the $1.8 billion development.",
-   "url": "https://blockclubchicago.org/2026/08/10/ballys-to-pause-building-parts-of-chicago-casino-project-amid-fight-over-video-gambling-expansion/",
-   "published_at": "2026-08-10T21:40:27.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260810-20-chicago-pools-staying-open-through-la",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "20 Chicago Pools Staying Open Through Labor Day To Help Combat Extreme Heat'",
-   "summary": "Thirteen of the 20 pools staying open through Labor Day are in neighborhoods that score high on the city's Heat Vulnerability Index.",
-   "url": "https://blockclubchicago.org/2026/08/10/20-chicago-pools-staying-open-through-labor-day-to-help-combat-extreme-heat/",
-   "published_at": "2026-08-10T19:48:26.000Z",
    "flagged_for_review": false
   }
  ]
