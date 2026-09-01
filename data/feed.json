@@ -1,6 +1,18 @@
 {
- "generated_at": "2026-09-01T14:45:20.187Z",
+ "generated_at": "2026-09-01T20:12:07.443Z",
  "items": [
+  {
+   "id": "blockclub-20260901-city-issues-cease-and-desist-order-again",
+   "category": "business",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "City Issues Cease-And-Desist Order Against Printers Row Bar Reserv",
+   "summary": "The order comes after another large fight at the South Loop sports bar, which also faces other legal challenges. A license hearing has been set for Sept. 18.",
+   "url": "https://blockclubchicago.org/2026/09/01/city-issues-cease-and-desist-order-against-printers-row-bar-reserv/",
+   "published_at": "2026-09-01T17:15:00.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "wca-20260830-1282-washington-75-pre-sold-west-loop-co",
    "category": "business",
@@ -1071,18 +1083,6 @@
    "flagged_for_review": false
   },
   {
-   "id": "skyline-20260811-tornado-warnings",
-   "category": "civic_org",
-   "source_id": "skyline",
-   "source_name": "Skyline (Inside Publications)",
-   "source_type": "email_newsletter",
-   "title": "Tornado Warnings",
-   "summary": "The newsletter mentions tornado warnings interrupting everything, emphasizing the need for safety during the stormy weather in Chicago.",
-   "url": "https://insideonline.com/",
-   "published_at": "2026-08-11T15:49:42.000Z",
-   "flagged_for_review": false
-  },
-  {
    "id": "blockclub-20260813-26-things-to-do-in-chicago-this-weekend-",
    "category": "civic_org",
    "source_id": "blockclub",
@@ -1116,18 +1116,6 @@
    "summary": "No specific information is provided in the given Axios newsletter about the West Loop or the 34th Ward. However, the newsletter does mention preparing for the next storm, which could be relevant to all Chicago residents, including those in the 34th Ward.",
    "url": "https://www.axios.com/local/chicago",
    "published_at": "2026-08-13T11:29:16.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "skyline-20260811-tornado-warnings-in-chicago",
-   "category": "civic_org",
-   "source_id": "skyline",
-   "source_name": "Skyline (Inside Publications)",
-   "source_type": "email_newsletter",
-   "title": "Tornado warnings in Chicago",
-   "summary": "The Skyline newsletter mentions tornado warnings interrupting everything, advising readers to be safe. This is relevant to all Chicago residents, including those in the West Loop and the 34th Ward, as it affects the entire city.",
-   "url": "https://insideonline.com/",
-   "published_at": "2026-08-11T15:49:42.000Z",
    "flagged_for_review": false
   },
   {
@@ -1212,18 +1200,6 @@
    "summary": "The lead singer of the Chicago-based band went to Lollapalooza as a teen and studied creative writing at Columbia College. Case Oats is now preparing for a fall tour.",
    "url": "https://blockclubchicago.org/2026/08/12/case-oats-lolla-debut-was-a-full-circle-moment-for-chicago-musician-casey-gomez-walker/",
    "published_at": "2026-08-12T13:18:53.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260811-alface-the-shedd-s-new-2-toed-sloth-is-r",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Alface, The Shedd's New 2-Toed Sloth, Is Ready To Meet Chicagoans",
-   "summary": "After exploring her new habitat since her arrival at the Shedd almost a year ago, Alface is now making public appearances at aquarium pop-ups and after-hours events.",
-   "url": "https://blockclubchicago.org/2026/08/11/alface-the-shedds-new-2-toed-sloth-is-ready-to-meet-chicagoans/",
-   "published_at": "2026-08-11T20:11:33.000Z",
    "flagged_for_review": false
   }
  ]
