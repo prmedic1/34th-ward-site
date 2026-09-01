@@ -114,7 +114,7 @@ const SYSTEM_PROMPT = 'You are the news editor for 34thward.com, a community new
 // and its items are correctly attributed. Combining them all in one prompt made
 // the model cherry-pick the easiest source and drop the rest.
 function buildUserPrompt(e, today) {
-  return `Today is ${today}. Below is ONE newsletter: ${e.source_name}. Extract its 1 to 3 most newsworthy stories for a 34th Ward reader. Return at least one item unless the newsletter is purely administrative (for example "no newsletter this week").
+  return `Today is ${today}. Below is ONE newsletter: ${e.source_name}, a Chicago news publication that in every edition contains multiple real stories (its lead item is usually marked "1 big thing" or numbered "1.", "2."). Your job: return its single most prominent story, plus up to 2 more if they are worthwhile, as a 34th Ward reader would want them. You MUST return at least one item; returning an empty list is only acceptable if the entire text is administrative notices with no stories at all, which for this publication is essentially never.
 
 How to choose: prefer stories about the ward's neighborhoods (West Loop, Greektown, Fulton Market, Printers Row, South Loop, near west side, the Loop). If none are ward-specific, pick this newsletter's single biggest story for a general Chicago audience, such as transit, housing, a development, a notable business opening or closing, schools, public safety, or taxes.
 
