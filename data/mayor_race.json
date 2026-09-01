@@ -3,7 +3,7 @@
   "election_date": "February 23, 2027",
   "kalshi_event": "KXCHICAGOMAYOR-27",
   "kalshi_url": "https://kalshi.com/markets/kxchicagomayor",
-  "note": "Blended from the Kalshi prediction market (event KXCHICAGOMAYOR-27, weight 3), PredictionEdge and Manifold Markets (weight 1 each), and the M3 Strategies poll (weight 1; likely voters, first-round ballot), normalized to 100% across the tracked candidates. A mix of market win-odds and current polling; candidates with no data are floored near 0.5%.",
+  "note": "Blended from prediction markets (Kalshi weight 3, PredictionEdge and Manifold weight 1 each) and recent polling (first-round ballot, weight 1), normalized to 100% across the tracked candidates. A mix of market win-odds and current polling; candidates with no data are floored near 0.5%.",
   "candidates": [
     {
       "name": "Alexi Giannoulias",

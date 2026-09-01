@@ -136,6 +136,27 @@ NEWSLETTER TEXT:
 ${e.text}`;
 }
 
+// Pull a newsletter's lead story straight from its text as a last resort when
+// the AI returns nothing. Handles Axios's "1 big thing: TITLE" and generic
+// numbered "1. TITLE" leads. Returns a clean {title, summary} or null (skip).
+function extractLeadStory(text) {
+  if (!text) return null;
+  const m = text.match(/1 big thing:\s*(.+?)(?:\n|$)([\s\S]{40,1600})/i)
+        || text.match(/(?:^|\n)\s*1[.)]\s+(.+?)(?:\n|$)([\s\S]{40,1600})/);
+  if (!m) return null;
+  let title = m[1].replace(/\s+/g, ' ').trim().replace(/[\-–—:]+\s*$/, '');
+  if (title.length < 6 || title.length > 130) return null;
+  const body = m[2]
+    .replace(/\b(The buzz|Why it matters|The latest|Details|Zoom in|Zoom out|By the numbers|State of play|Flashback|Between the lines|What'?s next|What to (?:order|know|watch|expect)|Go deeper|Reality check|The big picture|The bottom line|Yes,? but|Of note|Plus|Photo|Data|Table|Illustration|Driving the news|Catch up quick)\s*:/gi, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+  const sentences = (body.match(/[^.!?]+[.!?]+/g) || []).map((s) => s.trim()).filter((s) => s.length > 20);
+  let summary = sentences.slice(0, 3).join(' ').replace(/\s+/g, ' ').replace(/[—–]/g, '-').trim();
+  if (summary.length < 50) return null;
+  if (summary.length > 420) summary = summary.slice(0, 417).replace(/\s+\S*$/, '') + '.';
+  return { category: 'newsletter', title: title.replace(/[—–]/g, '-'), summary };
+}
+
 async function summarize(emails) {
   const today = new Date().toISOString().slice(0, 10);
   const out = [];
@@ -167,6 +188,20 @@ async function summarize(emails) {
     console.log(`Retrying ${pending.length} newsletter(s) after a pause: ${pending.map((p) => p.e.source_id).join(', ')}`);
     await new Promise((r) => setTimeout(r, 30000));
     for (const { e, exclude } of pending) await runOne(e, true, exclude);
+  }
+  // Safety net: a substantial news newsletter (Axios especially) that STILL
+  // produced nothing gets its lead story pulled straight from the text. The free
+  // models sometimes refuse to summarize a soft-news day; this keeps the daily
+  // update alive with the newsletter's top story (usually a Chicago-wide item).
+  // If no clean lead story can be pulled, we skip it rather than post junk.
+  const haveSource = new Set(out.map((it) => it.source_id));
+  for (const e of emails) {
+    if (haveSource.has(e.source_id) || (e.text || '').length < 2500) continue;
+    const lead = extractLeadStory(e.text);
+    if (lead) {
+      out.push({ ...lead, source_id: e.source_id });
+      console.log(`  ${e.source_id}: 1 item (lead-story fallback) - ${lead.title.slice(0, 50)}`);
+    }
   }
   return { items: out };
 }
