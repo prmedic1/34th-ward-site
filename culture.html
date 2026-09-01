@@ -185,8 +185,8 @@
   function tmin(t) { if (!t) return -1; const m = String(t).match(/(\d+):(\d+)\s*(AM|PM)/i); if (!m) return 9999; let h = (+m[1]) % 12; if (/pm/i.test(m[3])) h += 12; return h * 60 + (+m[2]); }
 
   Promise.all([
-    fetch('data/events_week.json?d=20260820e').then((r) => r.json()).catch(() => ({ shows: [] })),
-    fetch('data/festivals.json?d=20260820e').then((r) => r.json()).catch(() => ({ festivals: [] }))
+    fetch('data/events_week.json?d=20260901a').then((r) => r.json()).catch(() => ({ shows: [] })),
+    fetch('data/festivals.json?d=20260901a').then((r) => r.json()).catch(() => ({ festivals: [] }))
   ]).then(([sv, fv]) => {
     const EV = [];
     (sv.shows || []).forEach((s) => EV.push({ kind: 'show', cat: s.cat || 'concert', title: s.title, where: s.venue, address: s.address || '', time: s.time || '', note: s.note || '', url: s.url || '', start: s.date, end: s.date, local: !!s.local }));
