@@ -138,33 +138,34 @@ ${e.text}`;
 async function summarize(emails) {
   const today = new Date().toISOString().slice(0, 10);
   const out = [];
-  const runOne = async (e, isRetry) => {
+  const runOne = async (e, isRetry, exclude) => {
     let res;
     try {
-      res = await callModelWithFallback(SYSTEM_PROMPT, buildUserPrompt(e, today));
+      res = await callModelWithFallback(SYSTEM_PROMPT, buildUserPrompt(e, today), exclude);
     } catch (err) {
-      res = { items: [], rateLimited: /rate limit|429|too large/i.test(err.message) };
+      res = { items: [], rateLimited: /rate limit|429|too large/i.test(err.message), model: null };
     }
     const items = (res.items || []).slice(0, 3);
     // We stamp the source_id ourselves rather than trust the model to echo it.
     items.forEach((it) => out.push({ ...it, source_id: e.source_id }));
     console.log(`  ${isRetry ? '(retry) ' : ''}${e.source_id}: ${items.length} item(s)` + (items.length ? ' - ' + items.map((it) => (it.title || '').slice(0, 45)).join(' | ') : ''));
-    return { got: items.length > 0, rateLimited: !!res.rateLimited };
+    return { got: items.length > 0, rateLimited: !!res.rateLimited, model: res.model };
   };
-  // First pass; remember any newsletter that came back empty ONLY because it was
-  // rate-limited (e.g. Axios, which runs first and often hits the per-minute cap).
+  // First pass. A substantial newsletter (Axios, WCA, Conway...) that comes back
+  // empty gets a second chance: if it was rate-limited, a pause lets the quota
+  // reset; if a model just returned nothing, retry EXCLUDING that model so a
+  // different one can mine it. This is what keeps Axios refreshing daily.
   const pending = [];
   for (const e of emails) {
     const r = await runOne(e, false);
-    if (!r.got && r.rateLimited) pending.push(e);
+    if (!r.got && (r.rateLimited || (e.text || '').length > 2500)) {
+      pending.push({ e, exclude: r.rateLimited ? null : r.model });
+    }
   }
-  // Retry the rate-limited ones after a pause: the per-minute Groq quota resets,
-  // and WORKING_MODEL is now known so each retry is a single call. This is what
-  // keeps Axios refreshing daily instead of silently getting 0 every morning.
   if (pending.length) {
-    console.log(`Retrying rate-limited newsletter(s) after a pause: ${pending.map((e) => e.source_id).join(', ')}`);
+    console.log(`Retrying ${pending.length} newsletter(s) after a pause: ${pending.map((p) => p.e.source_id).join(', ')}`);
     await new Promise((r) => setTimeout(r, 30000));
-    for (const e of pending) await runOne(e, true);
+    for (const { e, exclude } of pending) await runOne(e, true, exclude);
   }
   return { items: out };
 }
@@ -175,18 +176,19 @@ async function summarize(emails) {
 // walking the whole list every time. Only fall through on a real failure.
 let MODELS_CACHE = null;
 let WORKING_MODEL = null;
-async function callModelWithFallback(system, user) {
+async function callModelWithFallback(system, user, excludeModel) {
   if (!MODELS_CACHE) MODELS_CACHE = await pickModels();
-  const order = WORKING_MODEL
+  let order = WORKING_MODEL
     ? [WORKING_MODEL, ...MODELS_CACHE.filter((m) => m !== WORKING_MODEL)]
-    : MODELS_CACHE;
+    : [...MODELS_CACHE];
+  if (excludeModel) order = order.filter((m) => m !== excludeModel);   // on retry, force a different model
   let attempted = false, allRateLimited = true;
   for (const model of order) {
     try {
       const result = await callGroq(model, system, user);
       WORKING_MODEL = model;   // this model responded; prefer it for the rest of the run
       // A successful-but-empty result is a valid "nothing in this newsletter".
-      return { items: (result && result.items) || [], rateLimited: false };
+      return { items: (result && result.items) || [], rateLimited: false, model };
     } catch (e) {
       attempted = true;
       if (!/rate limit|429|too large|request entity too large/i.test(e.message)) allRateLimited = false;
@@ -195,7 +197,7 @@ async function callModelWithFallback(system, user) {
   }
   // Every model failed. Flag whether it was purely rate-limiting, so the caller
   // knows this newsletter is worth retrying after a pause (vs. a real error).
-  return { items: [], rateLimited: attempted && allRateLimited };
+  return { items: [], rateLimited: attempted && allRateLimited, model: null };
 }
 
 // Ask Groq which models this key can use, preferring our known-good ones and
