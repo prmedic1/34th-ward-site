@@ -6,8 +6,6 @@ fetch('data/mayor_race.json?d=' + DATA_V)
   .then((r) => r.json())
   .then((data) => {
     document.getElementById('race-date').textContent = data.election_date;
-    document.getElementById('race-updated').textContent = new Date(data.updated_at)
-      .toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
 
     const statusLabel = { declared: 'Declared', rumored: 'Rumored', incumbent: 'Incumbent' };
     const sorted = [...data.candidates].sort((a, b) => (b.pct ?? 0) - (a.pct ?? 0));
