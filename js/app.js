@@ -1,4 +1,4 @@
-const DATA_V = '20260901b';
+const DATA_V = '20260902a';
 
 document.getElementById('year').textContent = new Date().getFullYear();
 
@@ -202,6 +202,9 @@ Promise.all([
     const isDup = (words) => sigs.some((prev) => words.filter((w) => prev.includes(w)).length >= 3);
     const add = (story, isLead) => {
       if (!story || used.has(story.id)) return;
+      // Axios is a curated once-a-day source: only its newest story runs, so
+      // never let a second Axios item onto the page (yesterday's lingering).
+      if (story.source_id === 'axios' && picks.some((p) => p.story.source_id === 'axios')) return;
       const words = sigOf(story);
       if (isDup(words)) return;
       used.add(story.id); sigs.push(words);
