@@ -1,6 +1,42 @@
 {
- "generated_at": "2026-09-01T22:24:17.533Z",
+ "generated_at": "2026-09-02T13:00:32.175Z",
  "items": [
+  {
+   "id": "axios-20260902-a-year-after-midway-blitz",
+   "category": "newsletter",
+   "source_id": "axios",
+   "source_name": "Axios Chicago",
+   "source_type": "email_newsletter",
+   "title": "A year after Midway Blitz",
+   "summary": "Heather Diehl/Getty Images Nearly one year after the launch of Operation Midway Blitz - which found Chicagoans shot, killed, beaten, tear-gassed, fired on and apprehended by DHS agents - not a single federal officer has faced charges for on-duty activities. This lack of accountability can contribute to hopelessness among residents and a feeling of impunity for federal agents. Local officials and advocacy groups.",
+   "url": "https://www.axios.com/local/chicago",
+   "published_at": "2026-09-02T11:27:15.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "cbs-20260902-reserv-restaurant-in-south-loop-could-lo",
+   "category": "business",
+   "source_id": "cbs",
+   "source_name": "CBS News Chicago",
+   "source_type": "web_feed",
+   "title": "Reserv restaurant in South Loop could lose license after complaints of noise, fighting",
+   "summary": "Owner Gerald Joseph says he's now raising the age limit to 30 and older, hoping to eliminate problems from younger patrons. However, Ald. Lamont Robinson is moving forward to shut the doors permanently.",
+   "url": "https://www.cbsnews.com/chicago/news/reserv-restaurant-in-south-loop-risk-losing-license/",
+   "published_at": "2026-09-02T04:15:37.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "cbs-20260902-south-loop-restaurant-at-risk-of-losing-",
+   "category": "business",
+   "source_id": "cbs",
+   "source_name": "CBS News Chicago",
+   "source_type": "web_feed",
+   "title": "South Loop restaurant at risk of losing license after noise, fighting complaints",
+   "summary": "An orange cease-and-desist sign is on the restaurant door. The city has ordered the business to stop playing live music and charging people to enter the venue.",
+   "url": "https://www.cbsnews.com/chicago/video/south-loop-restaurant-at-risk-of-losing-license-after-noise-fighting-complaints/",
+   "published_at": "2026-09-02T04:07:00.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "axios-20260901-yemeni-cafes-take-off",
    "category": "newsletter",
@@ -1212,42 +1248,6 @@
    "summary": "After a contract funding legal services for unaccompanied immigrant children expired, children could be navigating their cases on their own. Meanwhile, immigration courts are calling more children and teens into court.",
    "url": "https://blockclubchicago.org/2026/08/12/immigrant-children-with-little-legal-support-under-trump-changes-face-higher-risk-of-deportation-experts-say/",
    "published_at": "2026-08-12T13:21:00.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "politico-20260812-mayor-johnson-signs-executive-order-for-",
-   "category": "elected_official",
-   "source_id": "politico",
-   "source_name": "POLITICO Illinois Playbook",
-   "source_type": "email_newsletter",
-   "title": "Mayor Johnson Signs Executive Order For Data Center Review",
-   "summary": "Mayor Brandon Johnson signed an executive order creating enhanced regulatory review for data centers, calling for a temporary moratorium on new facilities. The order directs city agencies to examine factors like electricity demand, water use, and pollution. Johnson aims to protect communities, utility bills, air, water, and quality of life. Chicago has approximately 39 data centers, most built under outdated rules.",
-   "url": "https://www.politico.com/newsletters/illinois-playbook",
-   "published_at": "2026-08-12T12:01:41.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "axios-20260812-data-center-halt",
-   "category": "business",
-   "source_id": "axios",
-   "source_name": "Axios Chicago",
-   "source_type": "email_newsletter",
-   "title": "Data Center Halt",
-   "summary": "Mayor Brandon Johnson has halted data center development in Chicago, citing concerns over their environmental impact. The move comes as data centers require large amounts of electricity and water to operate, prompting worries about their effects on the city's infrastructure and residents.",
-   "url": "https://www.axios.com/local/chicago",
-   "published_at": "2026-08-12T11:27:19.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "politico-20260812-dnc-to-host-midwest-nextwave-regional-bo",
-   "category": "elected_official",
-   "source_id": "politico",
-   "source_name": "POLITICO Illinois Playbook",
-   "source_type": "email_newsletter",
-   "title": "DNC To Host Midwest NextWave Regional Bootcamp In Chicago",
-   "summary": "The Democratic National Committee will hold its Midwest NextWave Regional Bootcamp in Chicago from August 26-28. The event aims to train aspiring and current Democratic campaign staffers in organizing, voter registration, fundraising, data, and communications. This is part of a seven-figure investment by the DNC to develop campaign talent across the country.",
-   "url": "https://www.politico.com/newsletters/illinois-playbook",
-   "published_at": "2026-08-12T12:01:41.000Z",
    "flagged_for_review": false
   },
   {

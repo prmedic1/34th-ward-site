@@ -1,12 +1,12 @@
 {
  "_rotation_note": "The daily job picks the next business each morning - rotating among ward businesses with priority to spotlight requests from owners and newly opened spots. Keep yesterday's entries in history.",
  "current": {
-  "date": "2026-09-01",
-  "name": "Tufano's Vernon Park Tap",
-  "address": "1073 W. Vernon Park Pl, Little Italy",
-  "website": "https://www.yelp.com/biz/tufanos-vernon-park-tap-chicago",
-  "image": "images/spotlight/tufanos.jpg",
-  "blurb": "A family-run Italian tavern serving Taylor Street since 1930, with no printed menu, hearty pastas, and a cash-only, old-Chicago charm."
+  "date": "2026-09-02",
+  "name": "Al's #1 Italian Beef",
+  "address": "1079 W. Taylor St, Little Italy",
+  "website": "https://www.alsbeef.com/",
+  "image": "images/spotlight/als-beef.jpg",
+  "blurb": "The original stand where the Italian beef sandwich was born in 1938, still slinging dipped beefs with hot giardiniera on Taylor Street."
  },
  "history": [
   {
@@ -560,6 +560,14 @@
    "website": "https://www.elevencitydiner.com/",
    "image": "images/spotlight/eleven-city-diner.jpg?v=20260826",
    "blurb": "A classic Jewish-style deli and soda fountain in the South Loop, stacked with pastrami, matzo ball soup, and old-fashioned egg creams."
+  },
+  {
+   "date": "2026-09-01",
+   "name": "Tufano's Vernon Park Tap",
+   "address": "1073 W. Vernon Park Pl, Little Italy",
+   "website": "https://www.yelp.com/biz/tufanos-vernon-park-tap-chicago",
+   "image": "images/spotlight/tufanos.jpg",
+   "blurb": "A family-run Italian tavern serving Taylor Street since 1930, with no printed menu, hearty pastas, and a cash-only, old-Chicago charm."
   }
  ]
 }
