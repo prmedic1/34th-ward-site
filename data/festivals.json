@@ -4,29 +4,6 @@
  "guide_url": "https://www.choosechicago.com/articles/festivals-special-events/chicago-festival-event-guide/",
  "festivals": [
   {
-   "name": "West Loop Art Fest",
-   "neighborhood": "West Loop",
-   "location": "Fulton Market, along Fulton Street",
-   "date_start": "2026-08-22",
-   "date_end": "2026-08-23",
-   "date_label": "Aug 22-23",
-   "time": "10:00 AM",
-   "range": "10a-7p",
-   "hours": "10 AM to 7 PM daily",
-   "url": "https://www.choosechicago.com/event/west-loop-art-fest-2/",
-   "local": true
-  },
-  {
-   "name": "Taste of Greektown",
-   "neighborhood": "Greektown",
-   "location": "Halsted St, Adams to Van Buren",
-   "date_start": "2026-08-28",
-   "date_end": "2026-08-30",
-   "date_label": "Aug 28-30",
-   "url": "https://greektownchicago.org/taste-of-greektown/",
-   "local": true
-  },
-  {
    "name": "Chicago Jazz Festival",
    "neighborhood": "The Loop",
    "location": "Millennium Park and neighborhood stages",
@@ -55,52 +32,6 @@
    "date_label": "Sept 12-13",
    "url": "https://printersrowlitfest.org/",
    "local": true
-  },
-  {
-   "name": "Lakeview Taco Fest",
-   "neighborhood": "Lakeview",
-   "location": "Southport Corridor",
-   "date_start": "2026-08-21",
-   "date_end": "2026-08-23",
-   "date_label": "Aug 21-23",
-   "time": "11:00 AM",
-   "range": "11a-10p",
-   "hours": "Fri 4 to 10 PM, Sat 11 AM to 10 PM, Sun 11 AM to 9 PM",
-   "url": "https://chicagoevents.com/event/lakeview-taco-fest/",
-   "local": false
-  },
-  {
-   "name": "Villapalooza",
-   "neighborhood": "Little Village",
-   "location": "La Villita Park, 2800 S. Sacramento",
-   "date_start": "2026-08-22",
-   "date_end": "2026-08-22",
-   "date_label": "Aug 22",
-   "time": "12:00 PM",
-   "range": "12-10p",
-   "hours": "12 PM to 10 PM",
-   "url": "https://www.villapalooza.org/",
-   "local": false
-  },
-  {
-   "name": "Edison Park Fest",
-   "neighborhood": "Edison Park",
-   "location": "Northwest Side",
-   "date_start": "2026-08-28",
-   "date_end": "2026-08-30",
-   "date_label": "Aug 28-30",
-   "url": null,
-   "local": false
-  },
-  {
-   "name": "Edgewater Music Fest",
-   "neighborhood": "Edgewater",
-   "location": "Far North Side",
-   "date_start": "2026-08-28",
-   "date_end": "2026-08-30",
-   "date_label": "Aug 28-30",
-   "url": null,
-   "local": false
   },
   {
    "name": "Taste of Polonia",
@@ -159,7 +90,7 @@
    "date_start": "2026-09-18",
    "date_end": "2026-09-20",
    "date_label": "Sept 18-20",
-   "url": "https://chicagoevents.com/event/old-town-oktoberfest/",
+   "url": "https://oldtownchicago.org/events/2026-oktoberfest/",
    "local": false
   },
   {
