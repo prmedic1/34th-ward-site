@@ -1,6 +1,18 @@
 {
- "generated_at": "2026-09-02T13:00:32.175Z",
+ "generated_at": "2026-09-02T17:34:56.723Z",
  "items": [
+  {
+   "id": "blockclub-20260902-15-things-to-do-outside-in-chicago-this-",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "15 Things To Do Outside In Chicago This September",
+   "summary": "Take in a music festival, do pilates on a Downtown terrace, Bike the Drive or go fishing on the Chicago River this month.",
+   "url": "https://blockclubchicago.org/2026/09/02/15-things-to-do-outside-in-chicago-this-september/",
+   "published_at": "2026-09-02T17:07:44.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "axios-20260902-a-year-after-midway-blitz",
    "category": "newsletter",
@@ -1236,30 +1248,6 @@
    "summary": "The artwork itself features Williams' signature \"Iceman\" pose, inspired by the game's cover.",
    "url": "https://www.cbsnews.com/chicago/video/mural-celebrating-caleb-williamss-madden-nfl-27-cover-unveiled-in-west-loop/",
    "published_at": "2026-08-13T04:20:00.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260812-immigrant-children-with-little-legal-sup",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Immigrant Children With Little Legal Support Under Trump Changes Face Higher Risk Of Deportation, Experts Say",
-   "summary": "After a contract funding legal services for unaccompanied immigrant children expired, children could be navigating their cases on their own. Meanwhile, immigration courts are calling more children and teens into court.",
-   "url": "https://blockclubchicago.org/2026/08/12/immigrant-children-with-little-legal-support-under-trump-changes-face-higher-risk-of-deportation-experts-say/",
-   "published_at": "2026-08-12T13:21:00.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260812-case-oats-lolla-debut-was-a-full-circle-",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Case Oats’ Lolla Debut Was A Full-Circle Moment For Chicago Musician Casey Gomez Walker",
-   "summary": "The lead singer of the Chicago-based band went to Lollapalooza as a teen and studied creative writing at Columbia College. Case Oats is now preparing for a fall tour.",
-   "url": "https://blockclubchicago.org/2026/08/12/case-oats-lolla-debut-was-a-full-circle-moment-for-chicago-musician-casey-gomez-walker/",
-   "published_at": "2026-08-12T13:18:53.000Z",
    "flagged_for_review": false
   }
  ]
