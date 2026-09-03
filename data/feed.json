@@ -1,6 +1,42 @@
 {
- "generated_at": "2026-09-02T17:34:56.723Z",
+ "generated_at": "2026-09-03T13:00:46.397Z",
  "items": [
+  {
+   "id": "axios-20260903-college-football-s-major-makeovers",
+   "category": "newsletter",
+   "source_id": "axios",
+   "source_name": "Axios Chicago",
+   "source_type": "email_newsletter",
+   "title": "College football's major makeovers",
+   "summary": "The new video scoreboard at Gies Memorial Stadium in Champaign, IL. Courtesy of the University of Illinois College football will look a lot different around Chicago and Illinois this fall, from a brand-new program on the South Side to a brand-new stadium in Evanston - and a really, really big TV screen in Champaign. The Illini kick off their season tonight in Champaign against UAB.",
+   "url": "https://www.axios.com/local/chicago",
+   "published_at": "2026-09-03T11:27:14.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "cbs-20260903-more-than-100-displaced-by-fire-in-apart",
+   "category": "civic_org",
+   "source_id": "cbs",
+   "source_name": "CBS News Chicago",
+   "source_type": "web_feed",
+   "title": "More than 100 displaced by fire in apartment building on Chicago's Near West Side",
+   "summary": "A total of 100 people were displaced Wednesday night after an apartment fire on Chicago's Near West Side.",
+   "url": "https://www.cbsnews.com/chicago/news/more-than-100-displaced-fire-chicago-near-west-side/",
+   "published_at": "2026-09-03T12:51:20.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "cbs-20260903-100-people-displaced-after-apartment-fir",
+   "category": "civic_org",
+   "source_id": "cbs",
+   "source_name": "CBS News Chicago",
+   "source_type": "web_feed",
+   "title": "100 people displaced after apartment fire on Chicago's Near West Side",
+   "summary": "A total of 100 people were displaced Wednesday night after an apartment fire on Chicago’s Near West Side.",
+   "url": "https://www.cbsnews.com/chicago/video/100-people-displaced-after-apartment-fire-on-chicagos-near-west-side/",
+   "published_at": "2026-09-03T12:42:00.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "blockclub-20260902-15-things-to-do-outside-in-chicago-this-",
    "category": "civic_org",
@@ -1176,78 +1212,6 @@
    "summary": "A vehicle caught on fire Thursday evening on DuSable Lake Shore Drive near downtown Chicago, video showed.",
    "url": "https://abc7chicago.com/post/chicago-crash-vehicle-catches-fire-dusable-lake-shore-drive-streeterville-video-shows/19675566/",
    "published_at": "2026-08-14T13:16:18.724Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "politico-20260813-chicago-school-board-races-tornado-recor",
-   "category": "elected_official",
-   "source_id": "politico",
-   "source_name": "POLITICO Illinois Playbook",
-   "source_type": "email_newsletter",
-   "title": "Chicago School Board Races, Tornado Records",
-   "summary": "Four final school board candidates have survived petition challenges and are on the ballot. Additionally, Illinois is set to shatter tornado records as the storm season continues.",
-   "url": "https://www.politico.com/newsletters/illinois-playbook",
-   "published_at": "2026-08-13T12:02:38.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260813-26-things-to-do-in-chicago-this-weekend-",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "26 Things To Do In Chicago This Weekend: Air And Water Show, Little Italy Fest And More",
-   "summary": "The Glenwood Avenue Arts Festival, South Side Zine Fest, Sonido Music Festival and back-to-school events are also on deck.",
-   "url": "https://blockclubchicago.org/2026/08/13/26-things-to-do-in-chicago-this-weekend-air-and-water-show-little-italy-fest-and-more/",
-   "published_at": "2026-08-13T12:52:33.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "politico-20260813-chicago-school-board-races-endorsements",
-   "category": "elected_official",
-   "source_id": "politico",
-   "source_name": "POLITICO Illinois Playbook",
-   "source_type": "email_newsletter",
-   "title": "Chicago School Board races, endorsements",
-   "summary": "Democratic Congresswoman Delia Ramirez is endorsing Hilario Dominguez in the race for Chicago School Board president. Other Northwest Side progressives are also backing Dominguez, including state Sens. Graciela Guzman, Omar Aquino and Karina Villa, state Rep. Lilian Jimenez, Cook County Commissioner Jessica Vasquez, and Alds. Jessie Fuentes, Rossana Rodriguez and Anthony Quezada. Four final school board candidates survive petition challenges and are on the ballot.",
-   "url": "https://www.politico.com/newsletters/illinois-playbook",
-   "published_at": "2026-08-13T12:02:38.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "axios-20260813-preparing-for-next-storm",
-   "category": "newsletter",
-   "source_id": "axios",
-   "source_name": "Axios Chicago",
-   "source_type": "email_newsletter",
-   "title": "Preparing for next storm",
-   "summary": "No specific information is provided in the given Axios newsletter about the West Loop or the 34th Ward. However, the newsletter does mention preparing for the next storm, which could be relevant to all Chicago residents, including those in the 34th Ward.",
-   "url": "https://www.axios.com/local/chicago",
-   "published_at": "2026-08-13T11:29:16.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "cbs-20260813-mural-celebrating-chicago-bears-qb-caleb",
-   "category": "civic_org",
-   "source_id": "cbs",
-   "source_name": "CBS News Chicago",
-   "source_type": "web_feed",
-   "title": "Mural celebrating Chicago Bears' QB Caleb Williams Madden NFL 27 cover unveiled in West Loop",
-   "summary": "It was announced in June that Williams would be on the cover of the popular sports video game.",
-   "url": "https://www.cbsnews.com/chicago/news/caleb-williams-mural-west-loop/",
-   "published_at": "2026-08-13T04:27:51.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "cbs-20260813-mural-celebrating-caleb-williams-s-madde",
-   "category": "civic_org",
-   "source_id": "cbs",
-   "source_name": "CBS News Chicago",
-   "source_type": "web_feed",
-   "title": "Mural celebrating Caleb Williams’s Madden NFL 27 cover unveiled in West Loop",
-   "summary": "The artwork itself features Williams' signature \"Iceman\" pose, inspired by the game's cover.",
-   "url": "https://www.cbsnews.com/chicago/video/mural-celebrating-caleb-williamss-madden-nfl-27-cover-unveiled-in-west-loop/",
-   "published_at": "2026-08-13T04:20:00.000Z",
    "flagged_for_review": false
   }
  ]
