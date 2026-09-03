@@ -1,6 +1,66 @@
 {
- "generated_at": "2026-09-03T13:00:46.397Z",
+ "generated_at": "2026-09-03T17:29:52.669Z",
  "items": [
+  {
+   "id": "blockclub-20260903-2-more-beluga-whales-die-at-shedd-aquari",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "2 More Beluga Whales Die At Shedd Aquarium, Including Recent Rescue",
+   "summary": "The deaths of Rain and longtime resident Beethoven come eight days after another rescued beluga, Peekachu, died suddenly at the aquarium.",
+   "url": "https://blockclubchicago.org/2026/09/03/2-more-beluga-whales-die-at-shedd-aquarium-including-recent-rescue/",
+   "published_at": "2026-09-03T14:56:49.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260903-26-things-to-do-in-chicago-this-weekend-",
+   "category": "business",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "26 Things To Do In Chicago This Weekend: Bike The Drive, Jazz Fest, ARC Music Fest And More",
+   "summary": "There's also the Labor Day Parade Eddie Fest, the African Festival of the Arts, the Taste of Polonia Festival, the Englewood Village Market and even more on deck.",
+   "url": "https://blockclubchicago.org/2026/09/03/26-things-to-do-in-chicago-this-weekend-bike-the-drive-african-festival-of-the-arts-and-more/",
+   "published_at": "2026-09-03T13:42:00.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260902-heat-shuts-down-lake-shore-drive-bridge-",
+   "category": "business",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Heat Shuts Down Lake Shore Drive Bridge For Over 4 Hours, Causing Incredibly Hectic' Day Of Traffic",
+   "summary": "The city opened the busy bridge to let a cruise boat pass through Wednesday, but some questioned why it did so knowing extreme heat can prevent steel spans from closing.",
+   "url": "https://blockclubchicago.org/2026/09/02/heat-shuts-lake-shore-drive-bridge-for-more-than-4-hours-causing-incredibly-hectic-day-of-traffic/",
+   "published_at": "2026-09-02T22:41:52.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260902-chicago-based-jewelry-brand-local-eclect",
+   "category": "business",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Chicago-Based Jewelry Brand Local Eclectic Opens Store In Historic Streeterville Mansion",
+   "summary": "Founder Alexis Nido-Russo spent 2.5 years transforming the landmarked home into a jewelry store, cafe and gathering space.",
+   "url": "https://blockclubchicago.org/2026/09/02/chicago-based-jewelry-brand-local-eclectic-opens-first-ever-store-in-historic-streeterville-mansion/",
+   "published_at": "2026-09-02T21:47:29.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260902-kermess-bringing-circus-acts-and-cabaret",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Kermess Bringing Circus Acts And Cabaret To Former Teatro ZinZanni Tent",
+   "summary": "Kermess, an immersive entertainment venue, will bring the dinner theater on the 14th floor of the Cambria Hotel back to life with contemporary circus, cabaret and other performances starting this fall.",
+   "url": "https://blockclubchicago.org/2026/09/02/kermess-bringing-circus-acts-and-cabaret-to-former-teatro-zinzanni-tent/",
+   "published_at": "2026-09-02T18:36:35.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "axios-20260903-college-football-s-major-makeovers",
    "category": "newsletter",
