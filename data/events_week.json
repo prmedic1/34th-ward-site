@@ -1,11 +1,12 @@
 {
  "_note": "Shows, games, and arena events for the culture page's weekly calendar. Merged with data/festivals.json; shows only the current Monday-Sunday week. 'cat' drives the box color: concert (light blue), riverwalk (deep blue, Tiny Tapp), cubs/sox/bears/bulls/fire/sky (team colors), fest comes from festivals.json (green). 'local: true' = in/around the West Loop (gold star). Sports schedules from ESPN (home games only); venue shows from each venue's site; Garcia's links to its schedule page since its Ticketmaster deep-links block verification. Refresh weekly.",
- "updated_at": "2026-09-01",
+ "updated_at": "2026-09-03",
  "shows": [
   {"title":"Cubs vs. Milwaukee Brewers","venue":"Wrigley Field","cat":"cubs","date":"2026-09-01","time":"6:40 PM","address":"1060 W. Addison St, Wrigleyville","local":false,"url":"https://www.mlb.com/cubs/schedule"},
   {"title":"Vibes Live: A Stepper's Celebration","venue":"City Winery Chicago","cat":"concert","date":"2026-09-01","time":"7:30 PM","address":"1200 W. Randolph St, Fulton Market","note":"Sold out","local":true,"url":"https://citywinery.com/pages/events/chicago"},
   {"title":"Cubs vs. Milwaukee Brewers","venue":"Wrigley Field","cat":"cubs","date":"2026-09-02","time":"6:40 PM","address":"1060 W. Addison St, Wrigleyville","local":false,"url":"https://www.mlb.com/cubs/schedule"},
   {"title":"Meagan McNeal & Keya Trammell","venue":"City Winery Chicago","cat":"concert","date":"2026-09-02","time":"7:30 PM","address":"1200 W. Randolph St, Fulton Market","note":"Make-A-Wish Illinois benefit","local":true,"url":"https://citywinery.com/pages/events/chicago"},
+  {"title":"The Yohan Experience","venue":"Tiny Tapp & Cafe","cat":"riverwalk","date":"2026-09-03","time":"6:00 PM","address":"55 W. Riverwalk South, the Loop","note":"Free live music","local":true,"url":"https://www.tinytapp.com/live-music"},
   {"title":"Cubs vs. Milwaukee Brewers","venue":"Wrigley Field","cat":"cubs","date":"2026-09-03","time":"6:15 PM","address":"1060 W. Addison St, Wrigleyville","local":false,"url":"https://www.mlb.com/cubs/schedule"},
   {"title":"Little Stranger","venue":"Garcia's Chicago","cat":"concert","date":"2026-09-03","time":"7:00 PM","address":"1001 W. Washington Blvd, West Loop","local":true,"url":"https://garciaschicago.live/shows"},
   {"title":"Lyfe Jennings","venue":"City Winery Chicago","cat":"concert","date":"2026-09-03","time":"7:30 PM","address":"1200 W. Randolph St, Fulton Market","note":"Sold out","local":true,"url":"https://citywinery.com/pages/events/chicago"},
@@ -17,6 +18,7 @@
   {"title":"White Sox vs. Minnesota Twins","venue":"Rate Field","cat":"sox","date":"2026-09-05","time":"6:10 PM","address":"333 W. 35th St, Bridgeport","local":false,"url":"https://www.mlb.com/whitesox/schedule"},
   {"title":"JoJo Hermann Band (of Widespread Panic)","venue":"Garcia's Chicago","cat":"concert","date":"2026-09-05","time":"8:00 PM","address":"1001 W. Washington Blvd, West Loop","local":true,"url":"https://garciaschicago.live/shows"},
   {"title":"Christopher Williams","venue":"City Winery Chicago","cat":"concert","date":"2026-09-06","time":"5:00 PM","address":"1200 W. Randolph St, Fulton Market","local":true,"url":"https://citywinery.com/pages/events/chicago"},
+  {"title":"Samuel Aaron + Hollyy","venue":"Tiny Tapp & Cafe","cat":"riverwalk","date":"2026-09-06","time":"5:00 PM","address":"55 W. Riverwalk South, the Loop","note":"Free live music","local":true,"url":"https://www.tinytapp.com/live-music"},
   {"title":"White Sox vs. Minnesota Twins","venue":"Rate Field","cat":"sox","date":"2026-09-06","time":"5:20 PM","address":"333 W. 35th St, Bridgeport","local":false,"url":"https://www.mlb.com/whitesox/schedule"},
   {"title":"O.A.R. Three Decades Tour","venue":"Huntington Bank Pavilion","cat":"concert","date":"2026-09-06","time":"7:00 PM","address":"1300 S. Linn White Dr, Northerly Island","local":true,"url":"https://www.huntingtonbankpavilion.com/shows"},
   {"title":"Musiq Soulchild","venue":"City Winery Chicago","cat":"concert","date":"2026-09-07","time":"6:00 PM","address":"1200 W. Randolph St, Fulton Market","note":"Sold out","local":true,"url":"https://citywinery.com/pages/events/chicago"},

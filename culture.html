@@ -185,7 +185,7 @@
   function tmin(t) { if (!t) return -1; const m = String(t).match(/(\d+):(\d+)\s*(AM|PM)/i); if (!m) return 9999; let h = (+m[1]) % 12; if (/pm/i.test(m[3])) h += 12; return h * 60 + (+m[2]); }
 
   Promise.all([
-    fetch('data/events_week.json?d=20260901b').then((r) => r.json()).catch(() => ({ shows: [] })),
+    fetch('data/events_week.json?d=20260903a').then((r) => r.json()).catch(() => ({ shows: [] })),
     fetch('data/festivals.json?d=20260902c').then((r) => r.json()).catch(() => ({ festivals: [] }))
   ]).then(([sv, fv]) => {
     const EV = [];
