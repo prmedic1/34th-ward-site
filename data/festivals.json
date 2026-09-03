@@ -1,6 +1,6 @@
 {
  "_note": "Chicago street-festival guide for the culture page. Sourced from the city's festival guide (choosechicago.com) and each festival's own page; ward-area highlights verified individually. 'local: true' festivals are in or around the West Loop and its neighbors and get highlighted. The page shows only festivals whose date_end is today or later and drops them once they pass. Refresh seasonally.",
- "updated_at": "2026-09-01",
+ "updated_at": "2026-09-02",
  "guide_url": "https://www.choosechicago.com/articles/festivals-special-events/chicago-festival-event-guide/",
  "festivals": [
   {
@@ -14,23 +14,13 @@
    "local": true
   },
   {
-   "name": "El Grito Chicago",
-   "neighborhood": "The Loop",
-   "location": "Grant Park",
-   "date_start": "2026-09-12",
-   "date_end": "2026-09-13",
-   "date_label": "Sept 12-13",
-   "url": "https://elgritochicago.com/",
-   "local": true
-  },
-  {
-   "name": "Printers Row Lit Fest",
-   "neighborhood": "Printers Row",
-   "location": "S. Dearborn St, Ida B. Wells to Polk",
-   "date_start": "2026-09-12",
-   "date_end": "2026-09-13",
-   "date_label": "Sept 12-13",
-   "url": "https://printersrowlitfest.org/",
+   "name": "ARC Music Festival",
+   "neighborhood": "West Loop",
+   "location": "Union Park, 1501 W. Randolph St",
+   "date_start": "2026-09-04",
+   "date_end": "2026-09-07",
+   "date_label": "Sept 4-7",
+   "url": "https://arcmusicfestival.com/",
    "local": true
   },
   {
@@ -64,6 +54,36 @@
    "local": false
   },
   {
+   "name": "El Grito Chicago",
+   "neighborhood": "The Loop",
+   "location": "Grant Park",
+   "date_start": "2026-09-12",
+   "date_end": "2026-09-13",
+   "date_label": "Sept 12-13",
+   "url": "https://elgritochicago.com/",
+   "local": true
+  },
+  {
+   "name": "Madison Row Fest",
+   "neighborhood": "West Loop",
+   "location": "Madison St, Carpenter to Racine",
+   "date_start": "2026-09-12",
+   "date_end": "2026-09-12",
+   "date_label": "Sept 12",
+   "url": "https://www.wcachicago.org/wca-events",
+   "local": true
+  },
+  {
+   "name": "Printers Row Lit Fest",
+   "neighborhood": "Printers Row",
+   "location": "S. Dearborn St, Ida B. Wells to Polk",
+   "date_start": "2026-09-12",
+   "date_end": "2026-09-13",
+   "date_label": "Sept 12-13",
+   "url": "https://printersrowlitfest.org/",
+   "local": true
+  },
+  {
    "name": "Ravenswood Art Walk",
    "neighborhood": "Ravenswood",
    "location": "Ravenswood Corridor",
@@ -74,16 +94,6 @@
    "local": false
   },
   {
-   "name": "Retro on Roscoe",
-   "neighborhood": "Roscoe Village",
-   "location": "Roscoe St",
-   "date_start": "2026-09-18",
-   "date_end": "2026-09-20",
-   "date_label": "Sept 18-20",
-   "url": "https://www.roscoevillage.org/join-us-for-retro-on-roscoe/",
-   "local": false
-  },
-  {
    "name": "Old Town Oktoberfest",
    "neighborhood": "Old Town",
    "location": "North & Wells",
@@ -91,6 +101,16 @@
    "date_end": "2026-09-20",
    "date_label": "Sept 18-20",
    "url": "https://oldtownchicago.org/events/2026-oktoberfest/",
+   "local": false
+  },
+  {
+   "name": "Retro on Roscoe",
+   "neighborhood": "Roscoe Village",
+   "location": "Roscoe St",
+   "date_start": "2026-09-18",
+   "date_end": "2026-09-20",
+   "date_label": "Sept 18-20",
+   "url": "https://www.roscoevillage.org/join-us-for-retro-on-roscoe/",
    "local": false
   },
   {
@@ -112,6 +132,26 @@
    "date_label": "Sept 19-20",
    "url": "https://lakevieweastfestivalofthearts.com/",
    "local": false
+  },
+  {
+   "name": "West Loop Wellness Fest",
+   "neighborhood": "West Loop",
+   "location": "Union Padel, 207 N. Paulina St",
+   "date_start": "2026-09-19",
+   "date_end": "2026-09-19",
+   "date_label": "Sept 19",
+   "url": "https://www.wcachicago.org/wca-events",
+   "local": true
+  },
+  {
+   "name": "WNDR Museum Closing Party",
+   "neighborhood": "West Loop",
+   "location": "WNDR Museum, 1130 W. Monroe St",
+   "date_start": "2026-09-25",
+   "date_end": "2026-09-25",
+   "date_label": "Sept 25",
+   "url": "https://www.wndrmuseum.com/",
+   "local": true
   },
   {
    "name": "Hyde Park Jazz Festival",
