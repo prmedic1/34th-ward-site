@@ -14,6 +14,16 @@
    "local": true
   },
   {
+   "name": "Sound & Gravity Festival",
+   "neighborhood": "Avondale",
+   "location": "Multiple North Side venues",
+   "date_start": "2026-09-03",
+   "date_end": "2026-09-06",
+   "date_label": "Sept 3-6",
+   "url": "https://soundandgravity.org/",
+   "local": false
+  },
+  {
    "name": "ARC Music Festival",
    "neighborhood": "West Loop",
    "location": "Union Park, 1501 W. Randolph St",
@@ -24,6 +34,16 @@
    "local": true
   },
   {
+   "name": "North Coast Music Festival",
+   "neighborhood": "Bridgeview",
+   "location": "SeatGeek Stadium",
+   "date_start": "2026-09-04",
+   "date_end": "2026-09-06",
+   "date_label": "Sept 4-6",
+   "url": "https://northcoastfestival.com/",
+   "local": false
+  },
+  {
    "name": "Taste of Polonia",
    "neighborhood": "Jefferson Park",
    "location": "Copernicus Center",
@@ -31,6 +51,36 @@
    "date_end": "2026-09-07",
    "date_label": "Sept 4-7",
    "url": "https://topchicago.org/",
+   "local": false
+  },
+  {
+   "name": "African Festival of the Arts",
+   "neighborhood": "Washington Park",
+   "location": "Washington Park, 55th & Cottage Grove",
+   "date_start": "2026-09-05",
+   "date_end": "2026-09-07",
+   "date_label": "Sept 5-7",
+   "url": "https://aihusa.org/",
+   "local": false
+  },
+  {
+   "name": "AVP League Championships",
+   "neighborhood": "Gold Coast",
+   "location": "Oak Street Beach",
+   "date_start": "2026-09-05",
+   "date_end": "2026-09-06",
+   "date_label": "Sept 5-6",
+   "url": "https://avp.com/event/2026-leaguechampionship/",
+   "local": false
+  },
+  {
+   "name": "Chicago Labor Day Parade & Eddie Fest",
+   "neighborhood": "East Side",
+   "location": "103rd St & Cottage Grove Ave",
+   "date_start": "2026-09-05",
+   "date_end": "2026-09-05",
+   "date_label": "Sept 5",
+   "url": "https://www.chicagolaborparade.com/",
    "local": false
   },
   {
@@ -44,6 +94,26 @@
    "local": false
   },
   {
+   "name": "Bike the Drive",
+   "neighborhood": "Grant Park",
+   "location": "DuSable Lake Shore Drive, start Grant Park",
+   "date_start": "2026-09-06",
+   "date_end": "2026-09-06",
+   "date_label": "Sept 6",
+   "url": "https://bikethedrive.org/",
+   "local": false
+  },
+  {
+   "name": "Beers & Bites Fundraiser",
+   "neighborhood": "West Loop",
+   "location": "Haymarket Brewery, 737 W. Randolph St",
+   "date_start": "2026-09-10",
+   "date_end": "2026-09-10",
+   "date_label": "Sept 10",
+   "url": "https://www.wcachicago.org/wca-events",
+   "local": true
+  },
+  {
    "name": "German American Oktoberfest",
    "neighborhood": "Lincoln Square",
    "location": "Western & Leland",
@@ -51,6 +121,16 @@
    "date_end": "2026-09-13",
    "date_label": "Sept 11-13",
    "url": "https://germanday.com/oktoberfest/",
+   "local": false
+  },
+  {
+   "name": "79th Street Renaissance Festival",
+   "neighborhood": "Auburn Gresham",
+   "location": "79th Street",
+   "date_start": "2026-09-12",
+   "date_end": "2026-09-12",
+   "date_label": "Sept 12",
+   "url": "https://www.gagdc.org/gagdc-renaissance-festival",
    "local": false
   },
   {
@@ -64,6 +144,16 @@
    "local": true
   },
   {
+   "name": "Englewood Music Festival",
+   "neighborhood": "Englewood",
+   "location": "Englewood",
+   "date_start": "2026-09-12",
+   "date_end": "2026-09-12",
+   "date_label": "Sept 12",
+   "url": "https://events.eventnoire.com/e/emf2026",
+   "local": false
+  },
+  {
    "name": "Madison Row Fest",
    "neighborhood": "West Loop",
    "location": "Madison St, Carpenter to Racine",
@@ -72,6 +162,16 @@
    "date_label": "Sept 12",
    "url": "https://www.wcachicago.org/wca-events",
    "local": true
+  },
+  {
+   "name": "Norwood Park Fall Fest",
+   "neighborhood": "Norwood Park",
+   "location": "Northwest Highway at Centennial Park",
+   "date_start": "2026-09-12",
+   "date_end": "2026-09-13",
+   "date_label": "Sept 12-13",
+   "url": "https://www.npfallfest.org/",
+   "local": false
   },
   {
    "name": "Printers Row Lit Fest",
@@ -91,6 +191,46 @@
    "date_end": "2026-09-13",
    "date_label": "Sept 12-13",
    "url": "https://ravenswoodchicago.org/signature-events/ravenswood-artwalk/",
+   "local": false
+  },
+  {
+   "name": "Sonic Pavilion Festival",
+   "neighborhood": "The Loop",
+   "location": "Jay Pritzker Pavilion, Millennium Park",
+   "date_start": "2026-09-12",
+   "date_end": "2026-09-14",
+   "date_label": "Sept 12-14",
+   "url": "https://ess.org/",
+   "local": true
+  },
+  {
+   "name": "Wicker Park Fine Art Fair",
+   "neighborhood": "Wicker Park",
+   "location": "1425 N. Damen Ave",
+   "date_start": "2026-09-12",
+   "date_end": "2026-09-12",
+   "date_label": "Sept 12",
+   "url": "https://www.wickerparkfineartfair.com/",
+   "local": false
+  },
+  {
+   "name": "Englewood Jazz Festival",
+   "neighborhood": "Englewood",
+   "location": "Hamilton Park, 513 W. 72nd St",
+   "date_start": "2026-09-17",
+   "date_end": "2026-09-19",
+   "date_label": "Sept 17-19",
+   "url": "https://englewoodjazzfestival.org/",
+   "local": false
+  },
+  {
+   "name": "Reeling Film Festival",
+   "neighborhood": "Lakeview",
+   "location": "Landmark Century Centre Cinema",
+   "date_start": "2026-09-17",
+   "date_end": "2026-09-27",
+   "date_label": "Sept 17-27",
+   "url": "https://reelingfilmfestival.org/",
    "local": false
   },
   {
@@ -124,6 +264,16 @@
    "local": false
   },
   {
+   "name": "Chicago Live Festival",
+   "neighborhood": "Streeterville",
+   "location": "Navy Pier",
+   "date_start": "2026-09-19",
+   "date_end": "2026-09-20",
+   "date_label": "Sept 19-20",
+   "url": "https://navypier.org/pier-events/chicago-live/",
+   "local": false
+  },
+  {
    "name": "Lakeview East Festival of the Arts",
    "neighborhood": "Lakeview",
    "location": "Broadway, Belmont to Hawthorne",
@@ -131,6 +281,16 @@
    "date_end": "2026-09-20",
    "date_label": "Sept 19-20",
    "url": "https://lakevieweastfestivalofthearts.com/",
+   "local": false
+  },
+  {
+   "name": "Magnificent Mile Art Festival",
+   "neighborhood": "Gold Coast",
+   "location": "875 N. Michigan Ave",
+   "date_start": "2026-09-19",
+   "date_end": "2026-09-20",
+   "date_label": "Sept 19-20",
+   "url": "https://www.themagnificentmile.com/the-magnificent-mile-art-festival",
    "local": false
   },
   {
@@ -144,6 +304,66 @@
    "local": true
   },
   {
+   "name": "World Dumpling Festival",
+   "neighborhood": "Lincoln Park",
+   "location": "Wrightwood Park, 2555 N. Ashland Ave",
+   "date_start": "2026-09-19",
+   "date_end": "2026-09-20",
+   "date_label": "Sept 19-20",
+   "url": "https://chicagoevents.com/event/world-dumpling-fest/",
+   "local": false
+  },
+  {
+   "name": "Chicago Gourmet",
+   "neighborhood": "The Loop",
+   "location": "Harris Theater Rooftop, Millennium Park",
+   "date_start": "2026-09-24",
+   "date_end": "2026-09-27",
+   "date_label": "Sept 24-27",
+   "url": "https://www.chicagogourmet.org/",
+   "local": true
+  },
+  {
+   "name": "St. Helen Carnival",
+   "neighborhood": "Ukrainian Village",
+   "location": "2347 W. Augusta Blvd",
+   "date_start": "2026-09-24",
+   "date_end": "2026-09-27",
+   "date_label": "Sept 24-27",
+   "url": "https://www.sthelenchicago.org/carnival",
+   "local": false
+  },
+  {
+   "name": "Andersonville Arts Weekend",
+   "neighborhood": "Andersonville",
+   "location": "Clark Street",
+   "date_start": "2026-09-25",
+   "date_end": "2026-09-27",
+   "date_label": "Sept 25-27",
+   "url": "https://andersonville.org/events/arts-weekend/",
+   "local": false
+  },
+  {
+   "name": "International Festival of Life",
+   "neighborhood": "West Loop",
+   "location": "Union Park, 1501 W. Randolph St",
+   "date_start": "2026-09-25",
+   "date_end": "2026-09-27",
+   "date_label": "Sept 25-27",
+   "url": "https://www.internationalfestivaloflife.com/",
+   "local": true
+  },
+  {
+   "name": "St. Alphonsus Oktoberfest",
+   "neighborhood": "Lakeview",
+   "location": "1429 W. Wellington Ave",
+   "date_start": "2026-09-25",
+   "date_end": "2026-09-27",
+   "date_label": "Sept 25-27",
+   "url": "https://www.stalsoktoberfest.com/",
+   "local": false
+  },
+  {
    "name": "WNDR Museum Closing Party",
    "neighborhood": "West Loop",
    "location": "WNDR Museum, 1130 W. Monroe St",
@@ -154,6 +374,26 @@
    "local": true
   },
   {
+   "name": "World Music Festival Chicago",
+   "neighborhood": "Citywide",
+   "location": "Cultural Center, Millennium Park, Navy Pier and more",
+   "date_start": "2026-09-25",
+   "date_end": "2026-10-04",
+   "date_label": "Sept 25 to Oct 4",
+   "url": "https://www.choosechicago.com/articles/festivals-special-events/world-music-festival-chicago/",
+   "local": false
+  },
+  {
+   "name": "Clark Street Live",
+   "neighborhood": "Wrigleyville",
+   "location": "Clark St, Newport to Addison",
+   "date_start": "2026-09-26",
+   "date_end": "2026-09-27",
+   "date_label": "Sept 26-27",
+   "url": "https://www.clarkstreetlive.com/",
+   "local": false
+  },
+  {
    "name": "Hyde Park Jazz Festival",
    "neighborhood": "Hyde Park",
    "location": "Midway Plaisance & venues",
@@ -162,6 +402,26 @@
    "date_label": "Sept 26-27",
    "url": "https://hydeparkjazzfestival.org/",
    "local": false
+  },
+  {
+   "name": "WingOut Chicago",
+   "neighborhood": "Wrigleyville",
+   "location": "Gallagher Way, 3635 N. Clark St",
+   "date_start": "2026-09-26",
+   "date_end": "2026-09-27",
+   "date_label": "Sept 26-27",
+   "url": "https://wingoutchicago.com/",
+   "local": false
+  },
+  {
+   "name": "WCA Networking Event",
+   "neighborhood": "West Loop",
+   "location": "The Green at 320, 320 S. Canal St",
+   "date_start": "2026-09-29",
+   "date_end": "2026-09-29",
+   "date_label": "Sept 29",
+   "url": "https://www.wcachicago.org/wca-events",
+   "local": true
   }
  ]
 }
