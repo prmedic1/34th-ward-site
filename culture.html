@@ -186,7 +186,7 @@
 
   Promise.all([
     fetch('data/events_week.json?d=20260901b').then((r) => r.json()).catch(() => ({ shows: [] })),
-    fetch('data/festivals.json?d=20260902b').then((r) => r.json()).catch(() => ({ festivals: [] }))
+    fetch('data/festivals.json?d=20260902c').then((r) => r.json()).catch(() => ({ festivals: [] }))
   ]).then(([sv, fv]) => {
     const EV = [];
     (sv.shows || []).forEach((s) => EV.push({ kind: 'show', cat: s.cat || 'concert', title: s.title, where: s.venue, address: s.address || '', time: s.time || '', note: s.note || '', url: s.url || '', start: s.date, end: s.date, local: !!s.local }));

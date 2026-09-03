@@ -104,16 +104,6 @@
    "local": false
   },
   {
-   "name": "Beers & Bites Fundraiser",
-   "neighborhood": "West Loop",
-   "location": "Haymarket Brewery, 737 W. Randolph St",
-   "date_start": "2026-09-10",
-   "date_end": "2026-09-10",
-   "date_label": "Sept 10",
-   "url": "https://www.wcachicago.org/wca-events",
-   "local": true
-  },
-  {
    "name": "German American Oktoberfest",
    "neighborhood": "Lincoln Square",
    "location": "Western & Leland",
@@ -412,16 +402,6 @@
    "date_label": "Sept 26-27",
    "url": "https://wingoutchicago.com/",
    "local": false
-  },
-  {
-   "name": "WCA Networking Event",
-   "neighborhood": "West Loop",
-   "location": "The Green at 320, 320 S. Canal St",
-   "date_start": "2026-09-29",
-   "date_end": "2026-09-29",
-   "date_label": "Sept 29",
-   "url": "https://www.wcachicago.org/wca-events",
-   "local": true
   }
  ]
 }

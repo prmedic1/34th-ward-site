@@ -1,6 +1,6 @@
 {
  "_note": "Upcoming community meetings and neighborhood-group events shown in the carve-out box on the homepage front page. Civic meetings come from the 34th Ward newsletter (Conway's Corner); the Indivisible Greater West Loop events come from that chapter's Mobilize page (mobilize.us/indivisiblegwlchi). Optional fields: 'org' (a small source label) and 'url' (makes the title a link). Exact venues for the Indivisible events are gated behind RSVP, so 'location' is only filled where publicly verified and the link carries the rest. The homepage shows only future-dated items, soonest first, and drops them once they pass. Refresh Indivisible events from their Mobilize page.",
- "updated_at": "2026-08-20",
+ "updated_at": "2026-09-02",
  "meetings": [
   {
    "title": "Greyhound Station Community Meeting",
@@ -8,6 +8,15 @@
    "time": "6:00 PM",
    "location": "The Chicago School, 400 S. Jefferson (enter at 627 W. Van Buren)",
    "desc": "The city's plans for a municipal bus station at the former Greyhound station, 630 W. Harrison, with the Police Department, CDOT, and Streets & Sanitation."
+  },
+  {
+   "title": "West Loop Clean Up with the Garbage Gals",
+   "date": "2026-08-20",
+   "time": "6:00 PM",
+   "org": "Indivisible Greater West Loop",
+   "location": "Meet at Randolph & Halsted, West Loop",
+   "desc": "An after-work neighborhood litter cleanup (gloves, grabbers, and bags provided), followed by food and drinks at Haymarket Pub.",
+   "url": "https://www.mobilize.us/indivisiblegwlchi/event/994233/"
   },
   {
    "title": "CAPS Meeting, Beat 1224",
@@ -24,22 +33,6 @@
    "desc": "Chicago Alternative Policing Strategy meeting with the 1st District on local safety."
   },
   {
-   "title": "North Branch Industrial Corridor Open House",
-   "date": "2026-09-01",
-   "time": "5:30 PM",
-   "location": "West Loop Library, 122 N. Aberdeen",
-   "desc": "A community open house on the North Branch Industrial Corridor framework plan, hosted with the 27th and 34th Wards."
-  },
-  {
-   "title": "West Loop Clean Up with the Garbage Gals",
-   "date": "2026-08-20",
-   "time": "6:00 PM",
-   "org": "Indivisible Greater West Loop",
-   "location": "Meet at Randolph & Halsted, West Loop",
-   "desc": "An after-work neighborhood litter cleanup (gloves, grabbers, and bags provided), followed by food and drinks at Haymarket Pub.",
-   "url": "https://www.mobilize.us/indivisiblegwlchi/event/994233/"
-  },
-  {
    "title": "Rank Your Beer",
    "date": "2026-08-31",
    "time": "6:00 PM",
@@ -49,6 +42,13 @@
    "url": "https://www.mobilize.us/indivisiblegwlchi/event/986530/"
   },
   {
+   "title": "North Branch Industrial Corridor Open House",
+   "date": "2026-09-01",
+   "time": "5:30 PM",
+   "location": "West Loop Library, 122 N. Aberdeen",
+   "desc": "A community open house on the North Branch Industrial Corridor framework plan, hosted with the 27th and 34th Wards."
+  },
+  {
    "title": "Midterm Election Volunteer Kickoff",
    "date": "2026-09-08",
    "time": "6:00 PM",
@@ -56,6 +56,14 @@
    "location": "RSVP for location",
    "desc": "A kickoff meeting to sign up neighborhood volunteers ahead of the 2026 midterm elections.",
    "url": "https://www.mobilize.us/indivisiblegwlchi/event/1006397/"
+  },
+  {
+   "title": "Beers & Bites Fundraiser",
+   "date": "2026-09-10",
+   "org": "West Central Association",
+   "location": "Haymarket Brewery, 737 W. Randolph St",
+   "desc": "The West Loop chamber's fall fundraiser, an evening of local brews and seasonal bites.",
+   "url": "https://www.wcachicago.org/wca-events"
   },
   {
    "title": "Volunteer at the Greater Chicago Food Depository",
@@ -74,6 +82,14 @@
    "location": "RSVP for location",
    "desc": "A relaxed postcard-writing social over drinks to connect with neighbors.",
    "url": "https://www.mobilize.us/indivisiblegwlchi/event/1007078/"
+  },
+  {
+   "title": "WCA Networking Event",
+   "date": "2026-09-29",
+   "org": "West Central Association",
+   "location": "The Green at 320, 320 S. Canal St",
+   "desc": "A networking event for West Loop businesses and neighbors, hosted by the West Loop chamber.",
+   "url": "https://www.wcachicago.org/wca-events"
   }
  ]
 }
