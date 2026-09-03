@@ -1,8 +1,11 @@
-const DATA_V = '20260902c';
+const DATA_V = '20260903a';
+// Daily-refreshed data must revalidate on every load, so the morning update
+// shows right away instead of a returning browser serving yesterday's copy.
+const NOCACHE = { cache: 'no-cache' };
 
 document.getElementById('year').textContent = new Date().getFullYear();
 
-fetch('data/mayor_race.json?d=' + DATA_V)
+fetch('data/mayor_race.json?d=' + DATA_V, NOCACHE)
   .then((r) => r.json())
   .then((data) => {
     document.getElementById('race-date').textContent = data.election_date;
@@ -45,7 +48,7 @@ fetch('data/mayor_race.json?d=' + DATA_V)
   })
   .catch((err) => console.error('Failed to load mayor race', err));
 
-fetch('data/spotlight.json?d=' + DATA_V)
+fetch('data/spotlight.json?d=' + DATA_V, NOCACHE)
   .then((r) => r.json())
   .then((data) => {
     const s = data.current;
@@ -67,7 +70,7 @@ fetch('data/spotlight.json?d=' + DATA_V)
 
 // Pinned Top Story (data/featured.json): the single most interesting thing in
 // the ward right now. Swap it any time by editing that file.
-fetch('data/featured.json?d=' + DATA_V)
+fetch('data/featured.json?d=' + DATA_V, NOCACHE)
   .then((r) => r.json())
   .then((data) => {
     if (data && data.current) {
@@ -85,7 +88,7 @@ fetch('data/featured.json?d=' + DATA_V)
   .catch((err) => console.error('Failed to load top story', err));
 
 // Community meetings carve-out on the front page (data/meetings.json).
-fetch('data/meetings.json?d=' + DATA_V)
+fetch('data/meetings.json?d=' + DATA_V, NOCACHE)
   .then((r) => r.json())
   .then((data) => {
     const today = new Date().toISOString().slice(0, 10);
@@ -124,9 +127,9 @@ const FRONT_ORDER = ['blockclub', 'wlco', 'wca', 'axios', 'politico', 'conway', 
 const FRONT_COUNT = 6;
 
 Promise.all([
-  fetch('data/news_sources.json?d=' + DATA_V).then((r) => r.json()),
-  fetch('data/feed.json?d=' + DATA_V).then((r) => r.json()),
-  fetch('data/featured.json?d=' + DATA_V).then((r) => r.json()).catch(() => ({}))
+  fetch('data/news_sources.json?d=' + DATA_V, NOCACHE).then((r) => r.json()),
+  fetch('data/feed.json?d=' + DATA_V, NOCACHE).then((r) => r.json()),
+  fetch('data/featured.json?d=' + DATA_V, NOCACHE).then((r) => r.json()).catch(() => ({}))
 ])
   .then(([srcData, feedData, featData]) => {
     const sources = Object.fromEntries(srcData.sources.map((s) => [s.id, s]));
