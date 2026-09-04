@@ -1,6 +1,66 @@
 {
- "generated_at": "2026-09-04T13:00:39.300Z",
+ "generated_at": "2026-09-04T17:21:33.054Z",
  "items": [
+  {
+   "id": "conway-20260903-four-new-historic-plaques-to-be-installe",
+   "category": "civic_org",
+   "source_id": "conway",
+   "source_name": "Conway's Corner (34th Ward Office Newsletter)",
+   "source_type": "email_newsletter",
+   "title": "Four new historic plaques to be installed in West Loop",
+   "summary": "Four additional historic plaques are slated for installation in the West Loop during summer 2026, marking a UIC classroom, a condo building, and two parks. The project adds to the neighborhood’s 19 historic designations, four existing plaques, and one Chicago Landmark plaque, and invites residents to share information about historic buildings.",
+   "url": "https://www.ward34.org/",
+   "published_at": "2026-09-03T19:39:58.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "wca-20260904-alpharus-health-acquires-fulton-market-h",
+   "category": "business",
+   "source_id": "wca",
+   "source_name": "The WCA Weekly",
+   "source_type": "email_newsletter",
+   "title": "Alpharus Health Acquires Fulton Market Headquarters for $27.5 Million",
+   "summary": "Alpharus Health announced the purchase of a headquarters building in Fulton Market for $27.5 million. The acquisition adds a sizable office space to the growing corporate presence in the West Loop. The deal was highlighted in the WCA Weekly as a notable business development for the neighborhood.",
+   "url": "https://www.wcachicago.org/",
+   "published_at": "2026-09-04T11:30:57.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "wca-20260904-1282-washington-condominium-project-near",
+   "category": "business",
+   "source_id": "wca",
+   "source_name": "The WCA Weekly",
+   "source_type": "email_newsletter",
+   "title": "1282 Washington Condominium Project Nears Completion in West Loop",
+   "summary": "The ZSD‑developed 1282 Washington, a boutique building offering four‑ and five‑bedroom single‑family condominium units, is under construction and slated for delivery in the fall. The project is already 75 percent pre‑sold, and its sponsorship of Madison Row Fest underscores its role in the community. The development is expected to set a new standard for West Loop living.",
+   "url": "https://www.wcachicago.org/",
+   "published_at": "2026-09-04T11:30:57.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "abc7-20260904-2-men-robbed-1-at-gunpoint-in-west-loop-",
+   "category": "civic_org",
+   "source_id": "abc7",
+   "source_name": "ABC7 Chicago",
+   "source_type": "web_feed",
+   "title": "2 men robbed, 1 at gunpoint, in West Loop, River North: Chicago police",
+   "summary": "There were two robberies early Friday morning downtown Chicago, Chicago police said.",
+   "url": "https://abc7chicago.com/post/chicago-robberies-2-men-robbed-west-van-buren-street-north-lasalle-drive-loop-river-cpd-says/19790360/",
+   "published_at": "2026-09-04T17:21:20.058Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260904-as-chicagoans-prepare-to-bike-the-drive-",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "As Chicagoans Prepare To Bike The Drive, Some Dream Of A Car-Free Lakefront All Year",
+   "summary": "For five hours each year, thousands of Chicagoans take over the highway on bikes and on foot. As the event turns 25, advocates are imagining what else could change along the lakefront.",
+   "url": "https://blockclubchicago.org/2026/09/04/as-chicagoans-prepare-to-bike-the-drive-some-dream-of-a-car-free-lakefront-all-year/",
+   "published_at": "2026-09-04T13:57:00.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "axios-20260904-a-nearly-900m-budget-gap-ahead",
    "category": "newsletter",
@@ -1152,30 +1212,6 @@
    "summary": "The oft-vandalized monument will be back on display for the first time since its controversial removal in 2020 after an Italian American advocacy group made a deal with the Park District.",
    "url": "https://blockclubchicago.org/2026/08/14/museum-that-will-house-little-italys-columbus-statue-readies-for-opening-as-taylor-st-fest-kicks-off/",
    "published_at": "2026-08-14T20:15:20.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260814-new-f1-arcade-brings-formula-1-glam-to-r",
-   "category": "business",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "New F1 Arcade Brings Formula 1 Glam To River North",
-   "summary": "The multi-level space with dozens of racing simulators and an upscale menu opened in the old Rock Bottom Brewery at State and Grand Friday.",
-   "url": "https://blockclubchicago.org/2026/08/14/new-f1-arcade-brings-formula-1-glam-to-river-north/",
-   "published_at": "2026-08-14T13:24:08.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "abc7-20260814-vehicle-catches-fire-on-dusable-lake-sho",
-   "category": "civic_org",
-   "source_id": "abc7",
-   "source_name": "ABC7 Chicago",
-   "source_type": "web_feed",
-   "title": "Vehicle catches fire on DuSable Lake Shore Drive near Streeterville, video shows",
-   "summary": "A vehicle caught on fire Thursday evening on DuSable Lake Shore Drive near downtown Chicago, video showed.",
-   "url": "https://abc7chicago.com/post/chicago-crash-vehicle-catches-fire-dusable-lake-shore-drive-streeterville-video-shows/19675566/",
-   "published_at": "2026-08-14T13:16:18.724Z",
    "flagged_for_review": false
   }
  ]
