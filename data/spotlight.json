@@ -1,12 +1,12 @@
 {
  "_rotation_note": "The daily job picks the next business each morning - rotating among ward businesses with priority to spotlight requests from owners and newly opened spots. Keep yesterday's entries in history.",
  "current": {
-  "date": "2026-09-03",
-  "name": "Rosebud",
-  "address": "1500 W. Taylor St, Little Italy",
-  "website": "https://www.rosebudrestaurants.com/",
-  "image": "images/spotlight/rosebud.jpg?v=20260903",
-  "blurb": "The flagship of the Taylor Street Italian institution since 1976, plating big portions of chicken Vesuvio, cavatelli, and old-school red sauce."
+  "date": "2026-09-04",
+  "name": "Pompei",
+  "address": "1531 W. Taylor St, Little Italy",
+  "website": "https://www.pompeius.com/",
+  "image": "images/spotlight/pompei.jpg?v=20260903",
+  "blurb": "A Little Italy bakery and Italian counter since 1909, known for square strudel-crust pizza, baked pastas, and Italian ices."
  },
  "history": [
   {
@@ -576,6 +576,14 @@
    "website": "https://www.alsbeef.com/",
    "image": "images/spotlight/als-beef.jpg?v=20260902",
    "blurb": "The original stand where the Italian beef sandwich was born in 1938, still slinging dipped beefs with hot giardiniera on Taylor Street."
+  },
+  {
+   "date": "2026-09-03",
+   "name": "Rosebud",
+   "address": "1500 W. Taylor St, Little Italy",
+   "website": "https://www.rosebudrestaurants.com/",
+   "image": "images/spotlight/rosebud.jpg?v=20260903",
+   "blurb": "The flagship of the Taylor Street Italian institution since 1976, plating big portions of chicken Vesuvio, cavatelli, and old-school red sauce."
   }
  ]
 }
