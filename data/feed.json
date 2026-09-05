@@ -1,6 +1,78 @@
 {
- "generated_at": "2026-09-04T17:21:33.054Z",
+ "generated_at": "2026-09-05T13:00:43.395Z",
  "items": [
+  {
+   "id": "conway-20260903-printers-row-lit-fest-returns-sep-12-13-",
+   "category": "civic_org",
+   "source_id": "conway",
+   "source_name": "Conway's Corner (34th Ward Office Newsletter)",
+   "source_type": "email_newsletter",
+   "title": "Printers Row Lit Fest returns Sep 12-13 with eight Pulitzer winners",
+   "summary": "The 41st annual Printers Row Lit Fest will be held September 12 and 13, 2026 on Dearborn between Ida B. Wells and Polk. The two‑day festival offers book lovers a chance to meet award‑winning authors, including eight Pulitzer Prize winners, and to explore local vendors. Attendees can expect readings, panels, and community activities.",
+   "url": "https://www.ward34.org/",
+   "published_at": "2026-09-03T19:39:58.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "conway-20260903-madison-row-fest-celebrates-west-loop-on",
+   "category": "civic_org",
+   "source_id": "conway",
+   "source_name": "Conway's Corner (34th Ward Office Newsletter)",
+   "source_type": "email_newsletter",
+   "title": "Madison Row Fest celebrates West Loop on Sep 12",
+   "summary": "The Madison Row Fest will take place Saturday, September 12, 2026 from 11 am to 5 pm along Madison Street from Carpenter to Racine. The three‑block street festival features live music, DJs, local food and drinks, kid‑friendly activities, and opportunities to shop at neighborhood businesses, highlighting the West Loop community.",
+   "url": "https://www.ward34.org/",
+   "published_at": "2026-09-03T19:39:58.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "wca-20260904-madison-row-fest-highlights-new-1282-was",
+   "category": "business",
+   "source_id": "wca",
+   "source_name": "The WCA Weekly",
+   "source_type": "email_newsletter",
+   "title": "Madison Row Fest Highlights New 1282 Washington Condo Development",
+   "summary": "The West Central Association will host Madison Row Fest on September 12, featuring 1282 Washington as the headline sponsor. The ZSD development at 1282 Washington will deliver 4- and 5‑bedroom single‑family condominiums next fall, is under construction and already 75% pre‑sold, and the event will showcase live entertainment, food, and local vendors.",
+   "url": "https://www.wcachicago.org/",
+   "published_at": "2026-09-04T11:30:57.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "wca-20260904-inaugural-west-loop-wellness-fest-to-ben",
+   "category": "civic_org",
+   "source_id": "wca",
+   "source_name": "The WCA Weekly",
+   "source_type": "email_newsletter",
+   "title": "Inaugural West Loop Wellness Fest to Benefit Mercy Home",
+   "summary": "The inaugural West Loop Wellness Fest is set for September 19 at Union Padel Club, offering fitness classes, padel activities, and vendor experiences from local health and wellness businesses. A portion of each ticket will support Mercy Home for Boys & Girls, and the event aims to connect community members around healthy living.",
+   "url": "https://www.wcachicago.org/",
+   "published_at": "2026-09-04T11:30:57.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "abc7-20260905-serial-bank-robber-sentenced-to-76-years",
+   "category": "civic_org",
+   "source_id": "abc7",
+   "source_name": "ABC7 Chicago",
+   "source_type": "web_feed",
+   "title": "Serial bank robber sentenced to 76 years in prison after targeting downtown Chicago banks on parole",
+   "summary": "A 68-year-old serial bank robber has been sentenced to 76 years in prison for targeting four banks in downtown Chicago while he was on supervised release for other bank robberies.",
+   "url": "https://abc7chicago.com/post/serial-bank-robber-joseph-donelson-jr-sentenced-76-years-prison-targeting-4-downtown-chicago-banks-parole-2023/19792476/",
+   "published_at": "2026-09-05T13:00:32.225Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260904-city-was-required-to-open-downtown-bridg",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "City Was Required' To Open Downtown Bridge Despite Heat To Allow Cruise Ship To Pass, Officials Say",
+   "summary": "Federal regulations require the city to raise certain bridges for commercial and recreational vessels that submit a request within its guidelines.",
+   "url": "https://blockclubchicago.org/2026/09/04/city-was-required-to-open-downtown-bridge-despite-heat-to-allow-cruise-ship-to-pass-officials-say/",
+   "published_at": "2026-09-04T19:08:19.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "conway-20260903-four-new-historic-plaques-to-be-installe",
    "category": "civic_org",
@@ -1200,18 +1272,6 @@
    "summary": "A woman was killed in a shooting on Chicago’s Near West Side early Sunday morning.",
    "url": "https://www.cbsnews.com/chicago/video/woman-killed-after-quarrel-leads-to-shooting-on-chicagos-near-west-side/",
    "published_at": "2026-08-16T12:27:00.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260814-museum-that-will-house-little-italy-s-co",
-   "category": "business",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Museum That Will House Little Italy’s Columbus Statue Readies For Opening As Taylor St. Fest Kicks Off",
-   "summary": "The oft-vandalized monument will be back on display for the first time since its controversial removal in 2020 after an Italian American advocacy group made a deal with the Park District.",
-   "url": "https://blockclubchicago.org/2026/08/14/museum-that-will-house-little-italys-columbus-statue-readies-for-opening-as-taylor-st-fest-kicks-off/",
-   "published_at": "2026-08-14T20:15:20.000Z",
    "flagged_for_review": false
   }
  ]

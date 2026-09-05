@@ -1,12 +1,12 @@
 {
  "_rotation_note": "The daily job picks the next business each morning - rotating among ward businesses with priority to spotlight requests from owners and newly opened spots. Keep yesterday's entries in history.",
  "current": {
-  "date": "2026-09-04",
-  "name": "Pompei",
-  "address": "1531 W. Taylor St, Little Italy",
-  "website": "https://www.pompeius.com/",
-  "image": "images/spotlight/pompei.jpg?v=20260903",
-  "blurb": "A Little Italy bakery and Italian counter since 1909, known for square strudel-crust pizza, baked pastas, and Italian ices."
+  "date": "2026-09-05",
+  "name": "Conte di Savoia",
+  "address": "1438 W. Taylor St, Little Italy",
+  "website": "https://www.contedisavoia.com/",
+  "image": "images/spotlight/conte-di-savoia.jpg?v=20260904",
+  "blurb": "A beloved Italian and European specialty grocer on Taylor Street, stocked with imported pastas, cheeses, olive oils, and made-to-order sandwiches."
  },
  "history": [
   {
@@ -584,6 +584,14 @@
    "website": "https://www.rosebudrestaurants.com/",
    "image": "images/spotlight/rosebud.jpg?v=20260903",
    "blurb": "The flagship of the Taylor Street Italian institution since 1976, plating big portions of chicken Vesuvio, cavatelli, and old-school red sauce."
+  },
+  {
+   "date": "2026-09-04",
+   "name": "Pompei",
+   "address": "1531 W. Taylor St, Little Italy",
+   "website": "https://www.pompeius.com/",
+   "image": "images/spotlight/pompei.jpg?v=20260903",
+   "blurb": "A Little Italy bakery and Italian counter since 1909, known for square strudel-crust pizza, baked pastas, and Italian ices."
   }
  ]
 }
