@@ -1,6 +1,42 @@
 {
- "generated_at": "2026-09-05T13:00:43.395Z",
+ "generated_at": "2026-09-05T16:30:53.486Z",
  "items": [
+  {
+   "id": "wca-20260904-alpharus-health-buys-fulton-market-headq",
+   "category": "business",
+   "source_id": "wca",
+   "source_name": "The WCA Weekly",
+   "source_type": "email_newsletter",
+   "title": "Alpharus Health Buys Fulton Market Headquarters for $27.5M",
+   "summary": "Alpharus Health completed the purchase of a headquarters building in Fulton Market for $27.5 million. The acquisition adds a major health‑tech presence to the West Loop and is expected to bring new jobs and investment to the neighborhood. The deal was announced in the WCA Weekly.",
+   "url": "https://www.wcachicago.org/",
+   "published_at": "2026-09-04T11:30:57.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "wca-20260904-chicago-bocce-club-opens-year-round-faci",
+   "category": "civic_org",
+   "source_id": "wca",
+   "source_name": "The WCA Weekly",
+   "source_type": "email_newsletter",
+   "title": "Chicago Bocce Club Opens Year‑Round Facility in West Town",
+   "summary": "The West Central Association held a ribbon‑cutting ceremony for the Chicago Bocce Club at 410 N. Paulina St., creating a year‑round home for bocce, leagues, open play and community programming. The club’s schedule includes Monday Mahjong, Wine Down Wednesday, yoga classes and private events. The new venue expands recreational options for West Town residents.",
+   "url": "https://www.wcachicago.org/",
+   "published_at": "2026-09-04T11:30:57.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "wca-20260904-madison-row-fest-brings-block-party-to-w",
+   "category": "civic_org",
+   "source_id": "wca",
+   "source_name": "The WCA Weekly",
+   "source_type": "email_newsletter",
+   "title": "Madison Row Fest Brings Block Party to West Loop on September 12",
+   "summary": "The West Central Association will host Madison Row Fest on September 12, featuring live entertainment, food, local vendors and kids activities along Madison Street. The event is sponsored by 1282 Washington, a new condominium development offering 4‑ and 5‑bedroom units that is 75% pre‑sold and under construction. Proceeds support community initiatives and highlight the growing residential market in the West Loop.",
+   "url": "https://www.wcachicago.org/",
+   "published_at": "2026-09-04T11:30:57.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "conway-20260903-printers-row-lit-fest-returns-sep-12-13-",
    "category": "civic_org",
