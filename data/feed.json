@@ -1,6 +1,18 @@
 {
- "generated_at": "2026-09-06T13:00:34.403Z",
+ "generated_at": "2026-09-06T16:41:34.413Z",
  "items": [
+  {
+   "id": "wca-20260904-inaugural-west-loop-wellness-fest-to-sup",
+   "category": "civic_org",
+   "source_id": "wca",
+   "source_name": "The WCA Weekly",
+   "source_type": "email_newsletter",
+   "title": "Inaugural West Loop Wellness Fest to support Mercy Home for Boys & Girls",
+   "summary": "The first West Loop Wellness Fest will take place on Saturday, September 19 at Union Padel Club, showcasing local health and wellness businesses and offering fitness classes and padel activities. A portion of each ticket will benefit Mercy Home for Boys & Girls, and registration is required with limited space.",
+   "url": "https://www.wcachicago.org/",
+   "published_at": "2026-09-04T11:30:57.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "wca-20260904-alpharus-health-buys-fulton-market-hq-fo",
    "category": "business",
