@@ -1,6 +1,78 @@
 {
- "generated_at": "2026-09-05T16:30:53.486Z",
+ "generated_at": "2026-09-06T13:00:34.403Z",
  "items": [
+  {
+   "id": "wca-20260904-alpharus-health-buys-fulton-market-hq-fo",
+   "category": "business",
+   "source_id": "wca",
+   "source_name": "The WCA Weekly",
+   "source_type": "email_newsletter",
+   "title": "Alpharus Health Buys Fulton Market HQ for $27.5M",
+   "summary": "Alpharus Health purchased the headquarters building in Fulton Market for $27.5 million, marking a major commercial investment in the neighborhood.",
+   "url": "https://www.wcachicago.org/",
+   "published_at": "2026-09-04T11:30:57.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "wca-20260904-madison-row-fest-showcases-1282-washingt",
+   "category": "business",
+   "source_id": "wca",
+   "source_name": "The WCA Weekly",
+   "source_type": "email_newsletter",
+   "title": "Madison Row Fest Showcases 1282 Washington Condo Development",
+   "summary": "The West Central Association will host Madison Row Fest on September 12 in the West Loop, featuring 1282 Washington, a ZSD development of 4‑ and 5‑bedroom single‑family condominiums that is 75% pre‑sold and under construction.",
+   "url": "https://www.wcachicago.org/",
+   "published_at": "2026-09-04T11:30:57.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "abc7-20260906-woman-shot-killed-inside-near-west-side-",
+   "category": "civic_org",
+   "source_id": "abc7",
+   "source_name": "ABC7 Chicago",
+   "source_type": "web_feed",
+   "title": "Woman shot, killed inside Near West Side home, Chicago police say",
+   "summary": "A woman was shot and killed on the city's West Side, according to Chicago police.",
+   "url": "https://abc7chicago.com/post/woman-shot-killed-inside-west-side-home-2100-block-jackson-boulevard-chicago-police-say/19798250/",
+   "published_at": "2026-09-06T13:00:23.918Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "abc7-20260906-the-railyards-new-renderings-show-propos",
+   "category": "civic_org",
+   "source_id": "abc7",
+   "source_name": "ABC7 Chicago",
+   "source_type": "web_feed",
+   "title": "'The Railyards:' New renderings show proposal for riverfront Chicago White Sox stadium",
+   "summary": "A proposal to move the Chicago White Sox from Rate Field to a new riverfront stadium in the South Loop is drawing mixed reactions from fans and elected officials as the team considers the concept as a potential future ballpark site.",
+   "url": "https://abc7chicago.com/post/railyards-new-rendering-show-proposal-riverfront-chicago-white-sox-stadium-directly-78/19795455/",
+   "published_at": "2026-09-06T13:00:23.918Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "abc7-20260906-person-in-critical-condition-after-being",
+   "category": "civic_org",
+   "source_id": "abc7",
+   "source_name": "ABC7 Chicago",
+   "source_type": "web_feed",
+   "title": "Person in critical condition after being pulled from water downtown, Chicago fire officials say",
+   "summary": "A person was in critical condition after being pulled from the water Saturday evening downtown Chicago, fire officials said.",
+   "url": "https://abc7chicago.com/post/chicago-water-rescue-person-critical-condition-being-pulled-downtown-fire-officials-say/19796933/",
+   "published_at": "2026-09-06T13:00:23.918Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "cbs-20260906-renderings-revealed-for-potential-white-",
+   "category": "civic_org",
+   "source_id": "cbs",
+   "source_name": "CBS News Chicago",
+   "source_type": "web_feed",
+   "title": "Renderings revealed for potential White Sox stadium along the river in South Loop",
+   "summary": "Plans for a newly designed Chicago White Sox stadium along the river in Chicago's South Loop neighborhood were released on Saturday.",
+   "url": "https://www.cbsnews.com/chicago/news/chicago-white-sox-south-loop-the-railyards/",
+   "published_at": "2026-09-06T04:05:03.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "wca-20260904-alpharus-health-buys-fulton-market-headq",
    "category": "business",
@@ -1272,42 +1344,6 @@
    "summary": "The Chicago Fire Department is investigating two suspicious fires at a business that operates as a museum and a Mediterranean restaurant in the West Loop.",
    "url": "https://abc7chicago.com/post/chicago-officials-investigating-2-suspicious-fires-museum-holography-habibti-mediterranean-restaurant-west-loop/19689796/",
    "published_at": "2026-08-17T12:52:14.128Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "abc7-20260816-woman-shot-to-death-in-near-west-side-ch",
-   "category": "civic_org",
-   "source_id": "abc7",
-   "source_name": "ABC7 Chicago",
-   "source_type": "web_feed",
-   "title": "Woman shot to death in Near West Side, Chicago police say",
-   "summary": "A woman died after being shot in the Near West Side neighborhood, Chicago police said.",
-   "url": "https://abc7chicago.com/post/chicago-shooting-today-woman-shot-death-west-side-13th-street-throop-police-say/19687020/",
-   "published_at": "2026-08-16T12:47:37.460Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "cbs-20260816-woman-dead-after-shooting-on-chicago-s-n",
-   "category": "civic_org",
-   "source_id": "cbs",
-   "source_name": "CBS News Chicago",
-   "source_type": "web_feed",
-   "title": "Woman dead after shooting on Chicago's Near West Side",
-   "summary": "A woman was killed in a shooting on Chicago's Near West Side early Sunday morning.",
-   "url": "https://www.cbsnews.com/chicago/news/woman-dead-shooting-chicago-near-west-side/",
-   "published_at": "2026-08-16T12:31:06.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "cbs-20260816-woman-killed-after-quarrel-leads-to-shoo",
-   "category": "civic_org",
-   "source_id": "cbs",
-   "source_name": "CBS News Chicago",
-   "source_type": "web_feed",
-   "title": "Woman killed after quarrel leads to shooting on Chicago's Near West Side",
-   "summary": "A woman was killed in a shooting on Chicago’s Near West Side early Sunday morning.",
-   "url": "https://www.cbsnews.com/chicago/video/woman-killed-after-quarrel-leads-to-shooting-on-chicagos-near-west-side/",
-   "published_at": "2026-08-16T12:27:00.000Z",
    "flagged_for_review": false
   }
  ]
