@@ -661,12 +661,11 @@ a { color: var(--sky); }
   color: var(--muted);
 }
 .footer-disclaimer {
-  max-width: 640px;
-  margin: 8px auto 0;
-  font-size: 0.72rem;
-  line-height: 1.5;
+  max-width: 680px;
+  margin: 12px auto 0;
+  font-size: 0.8rem;
+  line-height: 1.55;
   color: var(--muted);
-  opacity: 0.85;
 }
 
 /* Sub-pages (map, directory) */
