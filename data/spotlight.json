@@ -1,12 +1,12 @@
 {
  "_rotation_note": "The daily job picks the next business each morning - rotating among ward businesses with priority to spotlight requests from owners and newly opened spots. Keep yesterday's entries in history.",
  "current": {
-  "date": "2026-09-06",
-  "name": "Manny's Cafeteria & Delicatessen",
-  "address": "1141 S. Jefferson St, Near West Side",
-  "website": "https://www.mannysdeli.com/",
-  "image": "images/spotlight/mannys-deli.jpg?v=20260903",
-  "blurb": "A Chicago Jewish deli institution since 1942, sliding trays down the line for towering corned beef, matzo ball soup, and potato pancakes."
+  "date": "2026-09-07",
+  "name": "Kasey's Tavern",
+  "address": "701 S. Dearborn St, Printers Row",
+  "website": "https://www.kaseystavern.com/",
+  "image": "images/spotlight/kaseys-tavern.jpg?v=20260903",
+  "blurb": "A cozy neighborhood bar anchoring Printers Row since 1990, with a solid beer list and an easy after-work crowd."
  },
  "history": [
   {
@@ -600,6 +600,14 @@
    "website": "https://www.contedisavoia.com/",
    "image": "images/spotlight/conte-di-savoia.jpg?v=20260904",
    "blurb": "A beloved Italian and European specialty grocer on Taylor Street, stocked with imported pastas, cheeses, olive oils, and made-to-order sandwiches."
+  },
+  {
+   "date": "2026-09-06",
+   "name": "Manny's Cafeteria & Delicatessen",
+   "address": "1141 S. Jefferson St, Near West Side",
+   "website": "https://www.mannysdeli.com/",
+   "image": "images/spotlight/mannys-deli.jpg?v=20260903",
+   "blurb": "A Chicago Jewish deli institution since 1942, sliding trays down the line for towering corned beef, matzo ball soup, and potato pancakes."
   }
  ]
 }

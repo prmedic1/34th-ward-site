@@ -1,6 +1,18 @@
 {
- "generated_at": "2026-09-06T16:41:34.413Z",
+ "generated_at": "2026-09-07T13:00:24.632Z",
  "items": [
+  {
+   "id": "blockclub-20260906-future-white-sox-owner-unveils-plans-for",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Future White Sox Owner Unveils Plans For South Loop Stadium As Part Of New Railyards' Development",
+   "summary": "The plans, which would require Amtrak to relocate its maintaince yard to Bridgeport, were blasted by leaders of the South Side neighborhood as a \"betrayal\" of the longtime home of the White Sox.",
+   "url": "https://blockclubchicago.org/2026/09/06/future-white-sox-owner-unveils-plans-for-a-south-loop-stadium-as-part-of-new-railyards-megadevelopment/",
+   "published_at": "2026-09-06T15:57:16.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "wca-20260904-inaugural-west-loop-wellness-fest-to-sup",
    "category": "civic_org",
@@ -1344,18 +1356,6 @@
    "summary": "The restaurant replacing Gino Marty’s is a tribute to chef Nemanja Milunovic’s upbringing in Belgrade. His brother Marko Milunovic will lead the bar program.",
    "url": "https://blockclubchicago.org/2026/08/17/amara-coming-to-fulton-market-this-fall-will-span-balkans-in-mezze-style-menu/",
    "published_at": "2026-08-17T15:01:02.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "abc7-20260817-chicago-officials-investigating-2-suspic",
-   "category": "business",
-   "source_id": "abc7",
-   "source_name": "ABC7 Chicago",
-   "source_type": "web_feed",
-   "title": "Chicago officials investigating 2 suspicious fires at business in West Loop",
-   "summary": "The Chicago Fire Department is investigating two suspicious fires at a business that operates as a museum and a Mediterranean restaurant in the West Loop.",
-   "url": "https://abc7chicago.com/post/chicago-officials-investigating-2-suspicious-fires-museum-holography-habibti-mediterranean-restaurant-west-loop/19689796/",
-   "published_at": "2026-08-17T12:52:14.128Z",
    "flagged_for_review": false
   }
  ]
