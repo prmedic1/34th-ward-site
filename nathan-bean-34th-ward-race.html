@@ -45,6 +45,14 @@
   .factbox p { font-family: system-ui, -apple-system, 'Segoe UI', Arial, sans-serif; font-size: 15px; line-height: 1.5; margin: 0 0 9px; color: #24333c; }
   .factbox p:last-child { margin-bottom: 0; }
   .editor-note { font-family: system-ui, -apple-system, 'Segoe UI', Arial, sans-serif; font-size: 13px; color: #777; font-style: italic; border-top: 1px solid #e2e6ea; padding-top: 16px; margin-top: 8px; }
+  .more-from { font-family: system-ui, -apple-system, 'Segoe UI', Arial, sans-serif; margin: 44px 0 0; padding-top: 26px; border-top: 2px solid #e2e6ea; }
+  .more-from h2 { font-size: 15px; text-transform: uppercase; letter-spacing: 0.06em; color: #0a5a78; margin: 0 0 16px; }
+  .more-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+  .more-card { display: block; padding: 15px 18px; border: 1px solid #cfe4ef; border-radius: 10px; background: #f0f7fb; text-decoration: none; transition: background 0.15s, border-color 0.15s; }
+  .more-card:hover { background: #e3f1f8; border-color: #14bef1; }
+  .more-t { display: block; font-weight: 700; color: #0a2233; font-size: 16px; margin-bottom: 4px; }
+  .more-d { display: block; color: #4a5a63; font-size: 13.5px; line-height: 1.45; }
+  @media (max-width: 560px) { .more-grid { grid-template-columns: 1fr; } }
 </style>
 </head>
 <body class="photo-banner" style="--banner-img: url('/images/west-loop.jpg')">
@@ -129,6 +137,28 @@
       Reporting for this profile is drawn from written responses Nathan Bean provided directly to 34th Ward News, public biographical and campaign-finance records, and prior reporting on Bean's 2023 44th Ward candidacy.
     </div>
   </article>
+
+  <section class="more-from">
+    <h2>More from 34thward.com</h2>
+    <div class="more-grid">
+      <a class="more-card" href="index.html">
+        <span class="more-t">Today's Front Page</span>
+        <span class="more-d">The day's biggest 34th Ward news, refreshed every morning.</span>
+      </a>
+      <a class="more-card" href="index.html#mayor-race">
+        <span class="more-t">The 2027 Mayor's Race</span>
+        <span class="more-d">Live odds and the field for Chicago's next mayor.</span>
+      </a>
+      <a class="more-card" href="culture.html">
+        <span class="more-t">Events Calendar</span>
+        <span class="more-d">Concerts, festivals, and games around the ward this week.</span>
+      </a>
+      <a class="more-card" href="directory.html">
+        <span class="more-t">Neighborhood Businesses</span>
+        <span class="more-d">Restaurants, shops, and services across the 34th Ward.</span>
+      </a>
+    </div>
+  </section>
 
   <p class="np-archive-link"><a class="spotlight-btn spotlight-btn-ghost" href="index.html">&larr; Back to the Front Page</a></p>
 </main>

@@ -1132,10 +1132,23 @@ body.modal-open { overflow: hidden; }
    narrow with blank space on either side. */
 .np-lead.has-flag .np-lead-media { margin-top: 0; }
 .np-lead-media .np-lead-img:only-child { max-width: 100%; width: 100%; }
+/* Two side-by-side lead photos (e.g. a headshot plus a ward/context photo):
+   a balanced pair of equal-height images instead of one oversized picture. */
+.np-lead-media-two { align-items: stretch; gap: 12px; }
+.np-lead-media-two .np-lead-img,
+.np-lead-media-two .np-lead-img2 {
+  flex: 1 1 0;
+  width: 100%;
+  max-width: none;
+  height: 320px;
+  object-fit: cover;
+  margin: 0;
+}
 @media (max-width: 700px) {
   .np-lead-media { display: block; }
   .np-lead-media .np-lead-img { width: 100%; margin: 0 auto; }
   .np-lead-img2 { display: none; }
+  .np-lead-media-two .np-lead-img { height: auto; }
 }
 
 /* Front page: two balanced columns. The JS balancer splits the stories into

@@ -1,4 +1,4 @@
-const DATA_V = '20260907b';
+const DATA_V = '20260907c';
 // Daily-refreshed data must revalidate on every load, so the morning update
 // shows right away instead of a returning browser serving yesterday's copy.
 const NOCACHE = { cache: 'no-cache' };
@@ -355,7 +355,7 @@ function renderTopStory(s) {
   const img2 = s.image2
     ? `<img class="np-lead-img2" src="${escapeAttr(s.image2)}" alt="${escapeAttr(s.image2_alt || '')}" onerror="this.remove()">`
     : '';
-  const media = (img || img2) ? `<div class="np-lead-media">${img}${img2}</div>` : '';
+  const media = (img || img2) ? `<div class="np-lead-media${(img && img2) ? ' np-lead-media-two' : ''}">${img}${img2}</div>` : '';
   // Optional colored "flag" ribbon across the top of the card (e.g. breaking news).
   const flag = s.flag ? `<div class="np-lead-flag">${escapeHtml(s.flag)}</div>` : '';
   let body;
