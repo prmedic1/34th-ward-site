@@ -1,6 +1,20 @@
 {
  "_note": "The pinned Top Story on the homepage. 'current' shows at the top of the news area; move the old one into 'history' (newest first) when you swap it. type 'story' = a news writeup with a source link; type 'statement' = a released statement shown as a quote.",
- "current": null,
+ "current": {
+  "type": "story",
+  "kicker": "Top Story · 34th Ward",
+  "headline": "Nathan Bean enters the race for 34th Ward alderman",
+  "image": "images/nathan-bean.jpg",
+  "image_alt": "Nathan Bean, candidate for 34th Ward alderman",
+  "exclude_kw": "nathan bean",
+  "summary": "A Cook County public defender's office paralegal, Nathan Bean, has entered the 2027 race for 34th Ward alderman, challenging incumbent Ald. Bill Conway. In written responses to 34th Ward News, Bean laid out a platform built on thousands of new homes near transit, expanded bike lanes and more reliable CTA service, and a both-and approach to public safety, and explained how a first-time candidate with no reported campaign funds plans to out-organize a better-funded incumbent through door-knocking. Election day is February 23, 2027.",
+  "source_name": "34th Ward News",
+  "url": "nathan-bean-34th-ward-race.html",
+  "date": "2026-09-07",
+  "date_label": "September 7, 2026",
+  "pinned_at": "2026-09-07",
+  "expires": "2026-09-13"
+ },
  "history": [
   {
    "type": "story",

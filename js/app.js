@@ -1,4 +1,4 @@
-const DATA_V = '20260903a';
+const DATA_V = '20260907a';
 // Daily-refreshed data must revalidate on every load, so the morning update
 // shows right away instead of a returning browser serving yesterday's copy.
 const NOCACHE = { cache: 'no-cache' };
@@ -73,13 +73,21 @@ fetch('data/spotlight.json?d=' + DATA_V, NOCACHE)
 fetch('data/featured.json?d=' + DATA_V, NOCACHE)
   .then((r) => r.json())
   .then((data) => {
-    if (data && data.current) {
-      document.getElementById('top-story').innerHTML = renderTopStory(data.current);
+    // A pinned top story can carry an "expires" date (YYYY-MM-DD). After that
+    // day it stops leading the front page and drops into the recent strip; its
+    // own article page and the archive stay live so any inbound links keep working.
+    const todayStr = new Date().toISOString().slice(0, 10);
+    const isExpired = (s) => s && s.expires && todayStr > s.expires;
+    const cur = (data && data.current && !isExpired(data.current)) ? data.current : null;
+    const history = (data && Array.isArray(data.history)) ? data.history.slice() : [];
+    if (data && data.current && isExpired(data.current)) history.unshift(data.current);
+    if (cur) {
+      document.getElementById('top-story').innerHTML = renderTopStory(cur);
     }
     // "What Happened Recently" = the last few Top Stories, as compact teaser
     // cards (thumbnail + one-line synopsis), not the full old articles. The full
     // write-ups live on the Top Stories archive page.
-    const recent = (data && Array.isArray(data.history)) ? data.history.slice(0, 3) : [];
+    const recent = history.slice(0, 3);
     if (recent.length) {
       document.getElementById('recent-banner').hidden = false;
       document.getElementById('recent-grid').innerHTML = recent.map(renderRecentCard).join('');
