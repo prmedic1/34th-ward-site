@@ -1,4 +1,4 @@
-const DATA_V = '20260907a';
+const DATA_V = '20260907b';
 // Daily-refreshed data must revalidate on every load, so the morning update
 // shows right away instead of a returning browser serving yesterday's copy.
 const NOCACHE = { cache: 'no-cache' };
@@ -78,16 +78,27 @@ fetch('data/featured.json?d=' + DATA_V, NOCACHE)
     // own article page and the archive stay live so any inbound links keep working.
     const todayStr = new Date().toISOString().slice(0, 10);
     const isExpired = (s) => s && s.expires && todayStr > s.expires;
-    const cur = (data && data.current && !isExpired(data.current)) ? data.current : null;
-    const history = (data && Array.isArray(data.history)) ? data.history.slice() : [];
-    if (data && data.current && isExpired(data.current)) history.unshift(data.current);
-    if (cur) {
-      document.getElementById('top-story').innerHTML = renderTopStory(cur);
+    const cur0 = data && data.current;
+    const hist0 = (data && Array.isArray(data.history)) ? data.history : [];
+    // A shared deep link (?story=slug) always features that story as the lead,
+    // even after it has stopped leading on its own, so links from other outlets
+    // land on the full homepage with the story up top. It looks in the current
+    // story and the archive, so the link keeps working after the story is retired.
+    const wanted = new URLSearchParams(location.search).get('story');
+    let lead = (cur0 && !isExpired(cur0)) ? cur0 : null;
+    if (wanted) {
+      const match = [cur0].concat(hist0).filter(Boolean).find((s) => s.slug === wanted);
+      if (match) lead = match;
+    }
+    if (lead) {
+      document.getElementById('top-story').innerHTML = renderTopStory(lead);
     }
     // "What Happened Recently" = the last few Top Stories, as compact teaser
     // cards (thumbnail + one-line synopsis), not the full old articles. The full
     // write-ups live on the Top Stories archive page.
-    const recent = history.slice(0, 3);
+    const recentPool = hist0.slice();
+    if (cur0 && isExpired(cur0) && lead !== cur0) recentPool.unshift(cur0);
+    const recent = recentPool.filter((s) => s !== lead).slice(0, 3);
     if (recent.length) {
       document.getElementById('recent-banner').hidden = false;
       document.getElementById('recent-grid').innerHTML = recent.map(renderRecentCard).join('');
@@ -345,6 +356,8 @@ function renderTopStory(s) {
     ? `<img class="np-lead-img2" src="${escapeAttr(s.image2)}" alt="${escapeAttr(s.image2_alt || '')}" onerror="this.remove()">`
     : '';
   const media = (img || img2) ? `<div class="np-lead-media">${img}${img2}</div>` : '';
+  // Optional colored "flag" ribbon across the top of the card (e.g. breaking news).
+  const flag = s.flag ? `<div class="np-lead-flag">${escapeHtml(s.flag)}</div>` : '';
   let body;
   if (s.type === 'statement') {
     const paras = (s.paragraphs || []).map((p) => `<p>${escapeHtml(p)}</p>`).join('');
@@ -359,7 +372,8 @@ function renderTopStory(s) {
     body = `<p class="np-lead-summary">${escapeHtml(s.summary || '')}</p>${read}`;
   }
   return `
-    <article class="np-lead">
+    <article class="np-lead${s.flag ? ' has-flag' : ''}">
+      ${flag}
       ${media}
       <div class="np-lead-body">
         <p class="np-lead-kicker">${escapeHtml(s.kicker || 'Top Story')}</p>

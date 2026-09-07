@@ -660,6 +660,14 @@ a { color: var(--sky); }
   font-size: 0.8rem;
   color: var(--muted);
 }
+.footer-disclaimer {
+  max-width: 640px;
+  margin: 8px auto 0;
+  font-size: 0.72rem;
+  line-height: 1.5;
+  color: var(--muted);
+  opacity: 0.85;
+}
 
 /* Sub-pages (map, directory) */
 .hero-compact { padding: 28px 24px 40px; }
@@ -1099,6 +1107,31 @@ body.modal-open { overflow: hidden; }
 .np-lead-media { display: flex; gap: 28px; align-items: center; justify-content: center; }
 .np-lead-media .np-lead-img { width: auto; max-width: 440px; margin: 0; }
 .np-lead-img2 { flex: 0 0 auto; max-width: 210px; width: auto; height: auto; display: block; }
+/* Colored "flag" ribbon across the top of a top-story card (e.g. breaking news). */
+.np-lead-flag {
+  background: var(--red);
+  color: #fff;
+  font-family: var(--font-body);
+  font-weight: 800;
+  font-size: 0.8rem;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+  padding: 9px 26px;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+.np-lead-flag::before {
+  content: "";
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: #fff;
+}
+/* A single lead photo (no second logo) fills the card width instead of sitting
+   narrow with blank space on either side. */
+.np-lead.has-flag .np-lead-media { margin-top: 0; }
+.np-lead-media .np-lead-img:only-child { max-width: 100%; width: 100%; }
 @media (max-width: 700px) {
   .np-lead-media { display: block; }
   .np-lead-media .np-lead-img { width: 100%; margin: 0 auto; }
