@@ -46,7 +46,8 @@
   .factbox p:last-child { margin-bottom: 0; }
   .editor-note { font-family: system-ui, -apple-system, 'Segoe UI', Arial, sans-serif; font-size: 13px; color: #777; font-style: italic; border-top: 1px solid #e2e6ea; padding-top: 16px; margin-top: 8px; }
   .article-more { font-family: var(--font-body); margin: 44px 0 0; padding-top: 24px; border-top: 2px solid #e2e6ea; }
-  .article-more .section-label { font-size: 13px; text-transform: uppercase; letter-spacing: 0.08em; font-weight: 700; color: #0a5a78; margin: 0 0 12px; }
+  .article-more .section-label { display: inline-block; font-size: 13px; text-transform: uppercase; letter-spacing: 0.08em; font-weight: 700; color: #0a5a78; margin: 0 0 12px; text-decoration: none; }
+  .article-more .section-label:hover { color: #14bef1; text-decoration: underline; }
   /* A smaller replica of the homepage mayor's race graphic (scrolls sideways). */
   .mini-race .race-banner { margin-bottom: 4px; }
   .mini-race .race-strip { padding: 12px 2px 12px; margin: 0; }
@@ -144,7 +145,7 @@
   </article>
 
   <section class="article-more">
-    <p class="section-label">More from 34thward.com</p>
+    <a class="section-label" href="index.html">More from 34thward.com &rarr;</a>
     <div class="mini-race">
       <div class="race-banner">
         <svg class="race-bunting2" width="100%" height="56" aria-hidden="true" focusable="false">
