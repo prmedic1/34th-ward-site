@@ -124,6 +124,7 @@
   <div id="ncaa-schedule"><p class="ncaa-loading">Loading this week's games&hellip;</p></div>
 
   <h3 class="ncaa-section-title">AP Top 25</h3>
+  <p class="ncaa-note" id="top25-note"></p>
   <div id="ncaa-top25"><p class="ncaa-loading">Loading the AP Top 25&hellip;</p></div>
 
   <h3 class="ncaa-section-title">Conference Standings</h3>
@@ -221,69 +222,75 @@ document.getElementById('year').textContent = new Date().getFullYear();
       '</div></a>';
   }
 
-  // ---- AP Top 25 ----
-  fetch(CFB + '/rankings')
-    .then(function (r) { return r.json(); })
-    .then(function (data) {
-      var host = document.getElementById('ncaa-top25');
-      var poll = (data.rankings || []).find(function (p) { return /AP Top 25/i.test(p.name); }) || (data.rankings || [])[0];
-      if (!poll || !poll.ranks) { host.innerHTML = '<p class="ncaa-loading">Rankings unavailable.</p>'; return; }
-      host.innerHTML = '<div class="ncaa-top25">' + poll.ranks.map(function (x) {
-        var t = x.team || {};
-        var lg = logo(t) ? '<img src="' + escA(logo(t)) + '" alt="" loading="lazy" onerror="this.remove()">' : '';
-        var trend = '', tv = (x.trend == null ? '-' : ('' + x.trend));
-        if (tv === '-' || tv === '0') trend = '<span class="tr tr-even">-</span>';
-        else if (tv.charAt(0) === '+') trend = '<span class="tr tr-up">&#9650; ' + esc(tv.slice(1)) + '</span>';
-        else trend = '<span class="tr tr-down">&#9660; ' + esc(tv.replace('-', '')) + '</span>';
-        return '<div class="rk-row"><span class="num">' + esc(x.current) + '</span>' + lg +
-          '<span><span class="nm">' + esc(t.location || t.nickname || t.name) + '</span><br><span class="rec">' + esc(x.recordSummary || '') + '</span></span>' + trend + '</div>';
-      }).join('') + '</div>';
-    })
-    .catch(function () { document.getElementById('ncaa-top25').innerHTML = '<p class="ncaa-loading">Rankings unavailable right now.</p>'; });
+  // ---- AP Top 25 + Conference standings ----
+  // Fetched together so the Top 25 can show each team's CURRENT record from the
+  // standings feed (ESPN's rankings feed can lag on the preseason poll).
+  Promise.all([
+    fetch(CFB + '/rankings').then(function (r) { return r.json(); }).catch(function () { return null; }),
+    fetch('https://site.api.espn.com/apis/v2/sports/football/college-football/standings').then(function (r) { return r.json(); }).catch(function () { return null; })
+  ]).then(function (res) {
+    var recById = {};
+    if (res[1] && res[1].children) {
+      res[1].children.forEach(function (c) {
+        ((c.standings && c.standings.entries) || []).forEach(function (e) {
+          var o = (e.stats || []).find(function (x) { return x.type === 'total' || x.name === 'overall'; });
+          if (e.team && o) recById[e.team.id] = o.summary || o.displayValue;
+        });
+      });
+    }
+    renderTop25(res[0], recById);
+    renderStandings(res[1]);
+  });
 
-  // ---- Conference standings ----
-  fetch('https://site.api.espn.com/apis/v2/sports/football/college-football/standings')
-    .then(function (r) { return r.json(); })
-    .then(function (data) {
-      var confs = (data.children || []).filter(function (c) { return c.standings && c.standings.entries && c.standings.entries.length; });
-      var tabs = document.getElementById('conf-tabs');
-      var table = document.getElementById('conf-table');
-      if (!confs.length) { tabs.innerHTML = ''; table.innerHTML = '<p class="ncaa-loading">Standings unavailable.</p>'; return; }
-      function shortName(n) {
-        return n.replace('Conference', '').replace('Southeastern', 'SEC').replace('Atlantic Coast', 'ACC')
-          .replace('American Athletic', 'American').replace('Mid-American', 'MAC').replace('Mountain West', 'Mtn West')
-          .replace('FBS Independents', 'Independents').trim();
+  function renderTop25(data, recById) {
+    var host = document.getElementById('ncaa-top25');
+    var note = document.getElementById('top25-note');
+    var poll = data && (data.rankings || []).find(function (p) { return /AP Top 25/i.test(p.name); });
+    if (!poll || !poll.ranks) { host.innerHTML = '<p class="ncaa-loading">Rankings unavailable right now.</p>'; return; }
+    var occ = (poll.occurrence && poll.occurrence.displayValue) || '';
+    var preseason = /preseason/i.test(occ);
+    if (note) note.textContent = occ ? (preseason ? 'Preseason poll' : occ) : '';
+    host.innerHTML = '<div class="ncaa-top25">' + poll.ranks.map(function (x) {
+      var t = x.team || {};
+      var lg = logo(t) ? '<img src="' + escA(logo(t)) + '" alt="" loading="lazy" onerror="this.remove()">' : '';
+      var rec = recById[t.id] || (x.recordSummary && x.recordSummary !== '0-0' ? x.recordSummary : '');
+      var trend = '';
+      if (!preseason && x.trend != null) {
+        var tv = '' + x.trend;
+        if (tv === '-' || tv === '0') trend = '<span class="tr tr-even">-</span>';
+        else if (tv.charAt(0) === '+') trend = '<span class="tr tr-up">&#9650;' + esc(tv.slice(1)) + '</span>';
+        else trend = '<span class="tr tr-down">&#9660;' + esc(tv.replace('-', '')) + '</span>';
       }
-      function stat(entry, type) {
-        var s = (entry.stats || []).find(function (x) { return x.type === type; });
-        return s ? (s.displayValue || s.summary || s.value) : '';
-      }
-      function overall(entry) {
-        var s = (entry.stats || []).find(function (x) { return x.type === 'total' || x.name === 'overall'; });
-        return s ? (s.summary || s.displayValue) : '';
-      }
-      function render(idx) {
-        [].forEach.call(tabs.children, function (b, i) { b.className = 'conf-tab' + (i === idx ? ' active' : ''); });
-        var entries = confs[idx].standings.entries;
-        var rows = entries.map(function (e, i) {
-          var t = e.team || {};
-          var lg = logo(t) ? '<img src="' + escA(logo(t)) + '" alt="" loading="lazy" onerror="this.remove()">' : '';
-          var streak = stat(e, 'streak');
-          var diff = stat(e, 'pointdifferential');
-          return '<tr><td class="c">' + (i + 1) + '</td>' +
-            '<td><span class="team">' + lg + esc(t.displayName || t.location) + '</span></td>' +
-            '<td class="c">' + esc(overall(e)) + '</td>' +
-            '<td class="c">' + esc(streak) + '</td>' +
-            '<td class="c">' + esc(diff) + '</td></tr>';
-        }).join('');
-        table.innerHTML = '<table class="conf-table"><thead><tr><th class="c">#</th><th>Team</th><th class="c">Record</th><th class="c">Streak</th><th class="c">Pt Diff</th></tr></thead><tbody>' + rows + '</tbody></table>';
-      }
-      tabs.innerHTML = confs.map(function (c, i) { return '<button class="conf-tab" type="button" data-i="' + i + '">' + esc(shortName(c.name)) + '</button>'; }).join('');
-      [].forEach.call(tabs.children, function (b) { b.addEventListener('click', function () { render(+b.getAttribute('data-i')); }); });
-      var def = confs.findIndex(function (c) { return /Big Ten/.test(c.name); });
-      render(def >= 0 ? def : 0);
-    })
-    .catch(function () { document.getElementById('conf-table').innerHTML = '<p class="ncaa-loading">Standings unavailable right now.</p>'; });
+      return '<div class="rk-row"><span class="num">' + esc(x.current) + '</span>' + lg +
+        '<span><span class="nm">' + esc(t.location || t.nickname || t.name) + '</span>' + (rec ? '<br><span class="rec">' + esc(rec) + '</span>' : '') + '</span>' + trend + '</div>';
+    }).join('') + '</div>';
+  }
+
+  function renderStandings(data) {
+    var confs = ((data && data.children) || []).filter(function (c) { return c.standings && c.standings.entries && c.standings.entries.length; });
+    var tabs = document.getElementById('conf-tabs');
+    var table = document.getElementById('conf-table');
+    if (!confs.length) { tabs.innerHTML = ''; table.innerHTML = '<p class="ncaa-loading">Standings unavailable right now.</p>'; return; }
+    var SHORT = { 'Southeastern Conference': 'SEC', 'Atlantic Coast Conference': 'ACC', 'Big Ten Conference': 'Big Ten', 'Big 12 Conference': 'Big 12', 'American Conference': 'American', 'American Athletic Conference': 'American', 'Conference USA': 'C-USA', 'Mid-American Conference': 'MAC', 'Mountain West Conference': 'Mtn West', 'Pac-12 Conference': 'Pac-12', 'Sun Belt Conference': 'Sun Belt', 'FBS Independents': 'Independents' };
+    function shortName(n) { return SHORT[n] || n.replace('Conference', '').trim(); }
+    function stat(entry, type) { var s = (entry.stats || []).find(function (x) { return x.type === type; }); return s ? (s.displayValue || s.summary || s.value) : ''; }
+    function overall(entry) { var s = (entry.stats || []).find(function (x) { return x.type === 'total' || x.name === 'overall'; }); return s ? (s.summary || s.displayValue) : ''; }
+    function render(idx) {
+      [].forEach.call(tabs.children, function (b, i) { b.className = 'conf-tab' + (i === idx ? ' active' : ''); });
+      var entries = confs[idx].standings.entries;
+      var rows = entries.map(function (e, i) {
+        var t = e.team || {};
+        var lg = logo(t) ? '<img src="' + escA(logo(t)) + '" alt="" loading="lazy" onerror="this.remove()">' : '';
+        return '<tr><td class="c">' + (i + 1) + '</td><td><span class="team">' + lg + esc(t.displayName || t.location) + '</span></td>' +
+          '<td class="c">' + esc(overall(e)) + '</td><td class="c">' + esc(stat(e, 'streak')) + '</td><td class="c">' + esc(stat(e, 'pointdifferential')) + '</td></tr>';
+      }).join('');
+      table.innerHTML = '<table class="conf-table"><thead><tr><th class="c">#</th><th>Team</th><th class="c">Record</th><th class="c">Streak</th><th class="c">Pt Diff</th></tr></thead><tbody>' + rows + '</tbody></table>';
+    }
+    tabs.innerHTML = confs.map(function (c, i) { return '<button class="conf-tab" type="button" data-i="' + i + '">' + esc(shortName(c.name)) + '</button>'; }).join('');
+    [].forEach.call(tabs.children, function (b) { b.addEventListener('click', function () { render(+b.getAttribute('data-i')); }); });
+    var def = confs.findIndex(function (c) { return /Big Ten/.test(c.name); });
+    render(def >= 0 ? def : 0);
+  }
 
   // ---- News (top 3) ----
   fetch(CFB + '/news')
