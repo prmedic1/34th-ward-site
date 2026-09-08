@@ -43,9 +43,9 @@
   .ncaa-cols .ncaa-section-title { margin-top: 30px; }
   @media (max-width: 860px) {
     .ncaa-cols { grid-template-columns: minmax(0, 1fr); gap: 0; }
-    .conf-table .tn-full { display: none; }
-    .conf-table .tn-short { display: inline; }
-    .conf-table th, .conf-table td { padding: 8px 7px; font-size: 0.8rem; }
+    .conf-table .tn-full, .conf-table .th-full { display: none; }
+    .conf-table .tn-short, .conf-table .th-short { display: inline; }
+    .conf-table th, .conf-table td { padding: 7px 5px; font-size: 0.8rem; }
     .conf-table .team { gap: 7px; }
     .conf-table .team img { width: 20px; height: 20px; }
   }
@@ -85,7 +85,7 @@
   .conf-table tr:last-child td { border-bottom: none; }
   .conf-table .team { display: flex; align-items: center; gap: 9px; font-weight: 700; color: var(--text); }
   .conf-table .team img { width: 24px; height: 24px; object-fit: contain; flex: 0 0 auto; }
-  .tn-short { display: none; }
+  .tn-short, .th-short { display: none; }
   /* News */
   .ncaa-news { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 14px; }
   .news-card { display: block; text-decoration: none; background: var(--card-bg); border: 1px solid var(--border); border-radius: 12px; overflow: hidden; box-shadow: var(--shadow-1); transition: transform 180ms var(--ease-out); }
@@ -363,7 +363,11 @@ document.getElementById('year').textContent = new Date().getFullYear();
         return '<tr><td class="c">' + (i + 1) + '</td><td><span class="team">' + lg + '<span class="tn tn-full">' + full + '</span><span class="tn tn-short">' + shortNm + '</span></span></td>' +
           '<td class="c">' + esc(overall(e)) + '</td><td class="c">' + esc(stat(e, 'streak')) + '</td><td class="c">' + esc(stat(e, 'pointdifferential')) + '</td></tr>';
       }).join('');
-      table.innerHTML = '<table class="conf-table"><thead><tr><th class="c">#</th><th>Team</th><th class="c">Record</th><th class="c">Streak</th><th class="c">Pt Diff</th></tr></thead><tbody>' + rows + '</tbody></table>';
+      table.innerHTML = '<table class="conf-table"><thead><tr><th class="c">#</th><th>Team</th>' +
+        '<th class="c"><span class="th-full">Record</span><span class="th-short">Rec</span></th>' +
+        '<th class="c"><span class="th-full">Streak</span><span class="th-short">Stk</span></th>' +
+        '<th class="c"><span class="th-full">Pt Diff</span><span class="th-short">+/-</span></th>' +
+        '</tr></thead><tbody>' + rows + '</tbody></table>';
     }
     tabs.innerHTML = confs.map(function (c, i) { return '<button class="conf-tab" type="button" data-i="' + i + '">' + esc(shortName(c.name)) + '</button>'; }).join('');
     [].forEach.call(tabs.children, function (b) { b.addEventListener('click', function () { render(+b.getAttribute('data-i')); }); });
