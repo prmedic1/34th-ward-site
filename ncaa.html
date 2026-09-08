@@ -36,7 +36,8 @@
   .ncaa-section-title { font-family: var(--font-head); font-size: 1.5rem; color: var(--text); margin: 30px 0 6px; }
   .ncaa-note { font-size: 0.85rem; color: var(--muted); margin: 0 0 14px; }
   /* Top 25 + standings side by side */
-  .ncaa-cols { display: grid; grid-template-columns: 1fr 1fr; gap: 30px; align-items: start; }
+  .ncaa-cols { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 30px; align-items: start; }
+  .ncaa-cols #conf-table { overflow-x: auto; }
   .ncaa-cols .ncaa-section-title { margin-top: 30px; }
   @media (max-width: 860px) { .ncaa-cols { grid-template-columns: 1fr; gap: 0; } }
   /* Schedule */
