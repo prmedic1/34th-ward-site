@@ -1133,7 +1133,7 @@ body.modal-open { overflow: hidden; }
 .np-lead-media .np-lead-img:only-child { max-width: 100%; width: 100%; }
 /* Two side-by-side lead photos (e.g. a headshot plus a ward/context photo):
    a balanced pair of equal-height images instead of one oversized picture. */
-.np-lead-media-two { align-items: stretch; gap: 12px; }
+.np-lead-media-two { align-items: stretch; gap: 0; }
 .np-lead-media-two .np-lead-img,
 .np-lead-media-two .np-lead-img2 {
   flex: 1 1 0;
