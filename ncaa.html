@@ -58,7 +58,11 @@
   .ncaa-game.light { color: #14202b; }
   .ncaa-game-body { padding: 7px 9px 8px; }
   .ncaa-team { display: flex; align-items: center; gap: 6px; font-size: 0.8rem; font-weight: 700; line-height: 1.15; margin: 2px 0; }
-  .ncaa-team img { width: 22px; height: 22px; object-fit: contain; flex: 0 0 auto; filter: drop-shadow(0 1px 1px rgba(0,0,0,0.35)); }
+  /* White outline around each logo so a same-colored logo (e.g. Indiana on
+     crimson, Michigan State on green) stays readable on its team-colored card. */
+  .ncaa-team img { width: 22px; height: 22px; object-fit: contain; flex: 0 0 auto; filter: drop-shadow(1px 0 0 #fff) drop-shadow(-1px 0 0 #fff) drop-shadow(0 1px 0 #fff) drop-shadow(0 -1px 0 #fff) drop-shadow(1px 1px 0 #fff) drop-shadow(-1px -1px 0 #fff) drop-shadow(1px -1px 0 #fff) drop-shadow(-1px 1px 0 #fff); }
+  /* On light-colored cards a light logo blends instead, so outline those in dark. */
+  .ncaa-game.light .ncaa-team img { filter: drop-shadow(1px 0 0 rgba(0,0,0,0.55)) drop-shadow(-1px 0 0 rgba(0,0,0,0.55)) drop-shadow(0 1px 0 rgba(0,0,0,0.55)) drop-shadow(0 -1px 0 rgba(0,0,0,0.55)); }
   .ncaa-team .rk { font-size: 0.62rem; font-weight: 800; opacity: 0.9; min-width: 14px; }
   .ncaa-team .sc { margin-left: auto; font-size: 0.92rem; font-weight: 800; font-variant-numeric: tabular-nums; }
   .ncaa-game-status { font-size: 0.62rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.4px; margin-bottom: 4px; opacity: 0.95; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
