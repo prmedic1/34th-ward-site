@@ -94,7 +94,7 @@
   a.team-link:hover { text-decoration: underline; text-decoration-color: var(--sky); }
   .rk-row a.nm:hover { color: var(--navy); }
   /* AP Top 25 rank badge on ranked teams in the standings */
-  .conf-table .ap-rk { flex: 0 0 auto; font-size: 0.66rem; font-weight: 800; color: var(--sky); min-width: 16px; }
+  .conf-table .ap-rk { flex: 0 0 auto; font-size: 0.66rem; font-weight: 800; color: var(--text); }
   .conf-table .ap-rk::before { content: "#"; font-size: 0.82em; }
   /* News */
   .ncaa-news { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 14px; }
@@ -403,7 +403,7 @@ document.getElementById('year').textContent = new Date().getFullYear();
         var full = esc(t.displayName || t.location), shortNm = esc(t.location || t.shortDisplayName || t.displayName);
         var tl = teamLink(t);
         var apRk = rankById[t.id] ? '<span class="ap-rk">' + esc(rankById[t.id]) + '</span>' : '';
-        var teamInner = apRk + lg + '<span class="tn tn-full">' + full + '</span><span class="tn tn-short">' + shortNm + '</span>';
+        var teamInner = lg + '<span class="tn tn-full">' + full + '</span><span class="tn tn-short">' + shortNm + '</span>' + apRk;
         var teamCell = tl ? '<a class="team team-link" href="' + escA(tl) + '" target="_blank" rel="noopener">' + teamInner + '</a>' : '<span class="team">' + teamInner + '</span>';
         return '<tr><td class="c">' + (i + 1) + '</td><td>' + teamCell + '</td>' +
           '<td class="c">' + esc(overall(e)) + '</td><td class="c">' + esc(stat(e, 'streak')) + '</td><td class="c">' + esc(stat(e, 'pointdifferential')) + '</td></tr>';
