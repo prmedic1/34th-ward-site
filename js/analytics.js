@@ -17,6 +17,54 @@
     navigator.serviceWorker.register('/sw.js').catch(function () {});
   }
 
+  // Pull-to-refresh for the installed app. A standalone phone app has no browser
+  // pull-to-refresh gesture, so add our own: drag down from the very top of the
+  // page and release to reload (which now pulls a fresh page from the server).
+  (function () {
+    if (!('ontouchstart' in window) && !(navigator.maxTouchPoints > 0)) return;
+    var startY = 0, pulling = false, dist = 0, refreshing = false;
+    var THRESH = 70, H = 52, bar = null;
+    function scrollTop() { return window.pageYOffset || document.documentElement.scrollTop || 0; }
+    function ensureBar() {
+      if (bar) return;
+      bar = document.createElement('div');
+      bar.id = 'ptr-bar';
+      bar.style.cssText = 'position:fixed;top:0;left:0;right:0;z-index:10000;display:flex;align-items:center;justify-content:center;height:' + H + 'px;font:700 13px/1 Inter,system-ui,sans-serif;color:#fff;background:#14bef1;transform:translateY(-100%);will-change:transform;pointer-events:none;box-shadow:0 2px 8px rgba(10,35,64,.25)';
+      (document.body || document.documentElement).appendChild(bar);
+    }
+    function hideBar() { if (bar) { bar.style.transition = 'transform .2s'; bar.style.transform = 'translateY(-100%)'; setTimeout(function () { if (bar) bar.style.transition = ''; }, 220); } }
+    document.addEventListener('touchstart', function (e) {
+      if (refreshing || scrollTop() > 0) { pulling = false; return; }
+      startY = e.touches[0].clientY; pulling = true; dist = 0;
+    }, { passive: true });
+    document.addEventListener('touchmove', function (e) {
+      if (!pulling || refreshing) return;
+      dist = e.touches[0].clientY - startY;
+      if (dist > 0 && scrollTop() === 0) {
+        ensureBar();
+        e.preventDefault(); // stop the native rubber-band while pulling
+        var reveal = Math.min(dist * 0.5, H);
+        bar.style.transform = 'translateY(' + (reveal - H) + 'px)';
+        bar.textContent = dist > THRESH ? 'Release to refresh' : 'Pull to refresh';
+      } else if (dist < 0) {
+        pulling = false; hideBar();
+      }
+    }, { passive: false });
+    document.addEventListener('touchend', function () {
+      if (!pulling || refreshing) return;
+      pulling = false;
+      if (dist > THRESH) {
+        refreshing = true; ensureBar();
+        bar.textContent = 'Refreshing…';
+        bar.style.transition = 'transform .15s';
+        bar.style.transform = 'translateY(0)';
+        setTimeout(function () { location.reload(); }, 200);
+      } else {
+        hideBar();
+      }
+    }, { passive: true });
+  })();
+
   // Share button: opens the phone's native share sheet (Messages, Messenger,
   // WhatsApp, email, etc.). On a desktop with no share support, it copies the
   // link instead and briefly confirms.

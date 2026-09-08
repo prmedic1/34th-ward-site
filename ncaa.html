@@ -64,7 +64,7 @@
   /* On pale-colored cards (e.g. Purdue/Colorado gold) white is invisible, so
      outline those logos in dark instead - same goal, readable on any card. */
   .ncaa-game.light .ncaa-team img { filter: drop-shadow(1px 0 0 rgba(0,0,0,0.65)) drop-shadow(-1px 0 0 rgba(0,0,0,0.65)) drop-shadow(0 1px 0 rgba(0,0,0,0.65)) drop-shadow(0 -1px 0 rgba(0,0,0,0.65)); }
-  .ncaa-team .rk { font-size: 0.62rem; font-weight: 800; opacity: 0.9; min-width: 14px; }
+  .ncaa-team .rk { font-size: 0.62rem; font-weight: 800; opacity: 0.9; }
   .ncaa-team .sc { margin-left: auto; font-size: 0.92rem; font-weight: 800; font-variant-numeric: tabular-nums; }
   .ncaa-game-status { font-size: 0.62rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.4px; margin-bottom: 4px; opacity: 0.95; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
   .ncaa-live { color: #ffd8d8; }
@@ -288,10 +288,10 @@ document.getElementById('year').textContent = new Date().getFullYear();
 
   function teamRow(c, showScore) {
     var t = c.team || {};
-    var rk = (c.curatedRank && c.curatedRank.current && c.curatedRank.current <= 25) ? '<span class="rk">#' + c.curatedRank.current + '</span>' : '<span class="rk"></span>';
+    var rk = (c.curatedRank && c.curatedRank.current && c.curatedRank.current <= 25) ? '<span class="rk">#' + c.curatedRank.current + '</span>' : '';
     var lg = logo(t) ? '<img src="' + escA(logo(t)) + '" alt="" loading="lazy" onerror="this.remove()">' : '';
     var sc = showScore && c.score != null ? '<span class="sc">' + esc(c.score) + '</span>' : '';
-    return '<div class="ncaa-team">' + rk + lg + '<span>' + esc(t.abbreviation || t.shortDisplayName || t.displayName || '') + '</span>' + sc + '</div>';
+    return '<div class="ncaa-team">' + lg + '<span class="tname">' + esc(t.abbreviation || t.shortDisplayName || t.displayName || '') + '</span>' + rk + sc + '</div>';
   }
   function renderGame(e) {
     var c = (e.competitions && e.competitions[0]) || {};
@@ -443,6 +443,6 @@ document.getElementById('year').textContent = new Date().getFullYear();
 })();
 </script>
 <script src="js/ticker.js?v=20260708a"></script>
-<script src="js/analytics.js?v=20260730b" defer></script>
+<script src="js/analytics.js?v=20260908a" defer></script>
 </body>
 </html>
