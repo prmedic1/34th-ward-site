@@ -64,6 +64,8 @@
   .ncaa-game-status { font-size: 0.62rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.4px; margin-bottom: 4px; opacity: 0.95; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
   .ncaa-live { color: #ffd8d8; }
   .ncaa-game.light .ncaa-live { color: #b3261e; }
+  .ncaa-line { margin-top: 5px; padding-top: 5px; border-top: 1px solid rgba(255,255,255,0.28); font-size: 0.62rem; font-weight: 700; letter-spacing: 0.2px; opacity: 0.95; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .ncaa-game.light .ncaa-line { border-top-color: rgba(0,0,0,0.16); }
   /* Top 25 - flows top-to-bottom down each column, then to the next */
   .ncaa-top25 { column-width: 200px; column-gap: 8px; }
   .rk-row { display: flex; align-items: center; gap: 10px; background: var(--card-bg); border: 1px solid var(--border); border-radius: 10px; padding: 8px 12px; break-inside: avoid; margin-bottom: 8px; }
@@ -91,6 +93,9 @@
   a.team-link { color: var(--text); text-decoration: none; cursor: pointer; }
   a.team-link:hover { text-decoration: underline; text-decoration-color: var(--sky); }
   .rk-row a.nm:hover { color: var(--navy); }
+  /* AP Top 25 rank badge on ranked teams in the standings */
+  .conf-table .ap-rk { flex: 0 0 auto; font-size: 0.66rem; font-weight: 800; color: var(--sky); min-width: 16px; }
+  .conf-table .ap-rk::before { content: "#"; font-size: 0.82em; }
   /* News */
   .ncaa-news { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 14px; }
   .news-card { display: block; text-decoration: none; background: var(--card-bg); border: 1px solid var(--border); border-radius: 12px; overflow: hidden; box-shadow: var(--shadow-1); transition: transform 180ms var(--ease-out); }
@@ -259,7 +264,11 @@ document.getElementById('year').textContent = new Date().getFullYear();
       var events = (data.events || []).slice().sort(function (a, b) { return new Date(a.date) - new Date(b.date); });
       if (!events.length) { host.innerHTML = '<p class="ncaa-loading">No games scheduled in the next seven days.</p>'; return; }
       var byDay = {};
-      events.forEach(function (e) { var k = e.date.slice(0, 10); (byDay[k] = byDay[k] || []).push(e); });
+      // Group by the CENTRAL calendar date (not UTC), so a Thursday- or Friday-
+      // night kickoff shows under its real day instead of sliding into the next
+      // one and appearing out of order at the top of the list.
+      function centralYMD(iso) { return new Date(iso).toLocaleDateString('en-CA', { timeZone: 'America/Chicago' }); }
+      events.forEach(function (e) { var k = centralYMD(e.date); (byDay[k] = byDay[k] || []).push(e); });
       var DOW = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
       var MON = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
       var html = Object.keys(byDay).sort().map(function (k) {
@@ -300,12 +309,22 @@ document.getElementById('year').textContent = new Date().getFullYear();
     }
     var tv = (c.broadcasts && c.broadcasts[0] && c.broadcasts[0].names && c.broadcasts[0].names[0]) ? esc(c.broadcasts[0].names[0]) : '';
     var line = statusTxt + (tv ? ' &middot; ' + tv : '');
+    // Betting line for upcoming games: spread (e.g. MIA -7.5) and over/under.
+    var odds = (c.odds && c.odds[0]) || null;
+    var oddsLine = '';
+    if (scheduled && odds) {
+      var op = [];
+      if (odds.details) op.push(esc(odds.details));
+      if (odds.overUnder != null) op.push('O/U ' + esc(odds.overUnder));
+      if (op.length) oddsLine = '<div class="ncaa-line">' + op.join(' &middot; ') + '</div>';
+    }
     var href = 'https://www.espn.com/college-football/game/_/gameId/' + esc(e.id);
     return '<a class="ncaa-game' + lightCls + '" style="--home:' + color + '" href="' + href + '" target="_blank" rel="noopener">' +
       '<div class="ncaa-game-body">' +
         '<div class="ncaa-game-status">' + line + '</div>' +
         teamRow(away, showScore) +
         teamRow(home, showScore) +
+        oddsLine +
       '</div></a>';
   }
 
@@ -328,8 +347,12 @@ document.getElementById('year').textContent = new Date().getFullYear();
         });
       });
     }
+    // AP Top 25 rank by team id, so ranked teams can be badged in the standings.
+    var rankById = {};
+    var poll0 = res[0] && (res[0].rankings || []).find(function (p) { return /AP Top 25/i.test(p.name); });
+    if (poll0 && poll0.ranks) poll0.ranks.forEach(function (r) { if (r.team && r.current) rankById[r.team.id] = r.current; });
     renderTop25(res[0], recById, confById);
-    renderStandings(res[1]);
+    renderStandings(res[1], rankById);
   });
 
   function renderTop25(data, recById, confById) {
@@ -361,7 +384,8 @@ document.getElementById('year').textContent = new Date().getFullYear();
     }).join('') + '</div>';
   }
 
-  function renderStandings(data) {
+  function renderStandings(data, rankById) {
+    rankById = rankById || {};
     var confs = ((data && data.children) || []).filter(function (c) { return c.standings && c.standings.entries && c.standings.entries.length; });
     var tabs = document.getElementById('conf-tabs');
     var table = document.getElementById('conf-table');
@@ -378,7 +402,8 @@ document.getElementById('year').textContent = new Date().getFullYear();
         var lg = logo(t) ? '<img src="' + escA(logo(t)) + '" alt="" loading="lazy" onerror="this.remove()">' : '';
         var full = esc(t.displayName || t.location), shortNm = esc(t.location || t.shortDisplayName || t.displayName);
         var tl = teamLink(t);
-        var teamInner = lg + '<span class="tn tn-full">' + full + '</span><span class="tn tn-short">' + shortNm + '</span>';
+        var apRk = rankById[t.id] ? '<span class="ap-rk">' + esc(rankById[t.id]) + '</span>' : '';
+        var teamInner = apRk + lg + '<span class="tn tn-full">' + full + '</span><span class="tn tn-short">' + shortNm + '</span>';
         var teamCell = tl ? '<a class="team team-link" href="' + escA(tl) + '" target="_blank" rel="noopener">' + teamInner + '</a>' : '<span class="team">' + teamInner + '</span>';
         return '<tr><td class="c">' + (i + 1) + '</td><td>' + teamCell + '</td>' +
           '<td class="c">' + esc(overall(e)) + '</td><td class="c">' + esc(stat(e, 'streak')) + '</td><td class="c">' + esc(stat(e, 'pointdifferential')) + '</td></tr>';
