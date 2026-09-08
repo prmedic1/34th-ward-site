@@ -41,7 +41,14 @@
   .ncaa-cols { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 30px; align-items: start; }
   .ncaa-cols #conf-table { overflow-x: auto; }
   .ncaa-cols .ncaa-section-title { margin-top: 30px; }
-  @media (max-width: 860px) { .ncaa-cols { grid-template-columns: 1fr; gap: 0; } }
+  @media (max-width: 860px) {
+    .ncaa-cols { grid-template-columns: minmax(0, 1fr); gap: 0; }
+    .tn-full { display: none; }
+    .tn-short { display: inline; }
+    .conf-table th, .conf-table td { padding: 8px 7px; font-size: 0.8rem; }
+    .conf-table .team { gap: 7px; }
+    .conf-table .team img { width: 20px; height: 20px; }
+  }
   /* Schedule */
   .ncaa-day { font-family: var(--font-body); font-weight: 800; font-size: 0.82rem; letter-spacing: 1px; text-transform: uppercase; color: var(--navy); margin: 22px 0 10px; padding-bottom: 6px; border-bottom: 2px solid var(--border); }
   .ncaa-games { display: grid; grid-template-columns: repeat(auto-fill, minmax(156px, 1fr)); gap: 8px; }
@@ -77,7 +84,8 @@
   .conf-table td.c, .conf-table th.c { text-align: center; }
   .conf-table tr:last-child td { border-bottom: none; }
   .conf-table .team { display: flex; align-items: center; gap: 9px; font-weight: 700; color: var(--text); }
-  .conf-table .team img { width: 24px; height: 24px; object-fit: contain; }
+  .conf-table .team img { width: 24px; height: 24px; object-fit: contain; flex: 0 0 auto; }
+  .tn-short { display: none; }
   /* News */
   .ncaa-news { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 14px; }
   .news-card { display: block; text-decoration: none; background: var(--card-bg); border: 1px solid var(--border); border-radius: 12px; overflow: hidden; box-shadow: var(--shadow-1); transition: transform 180ms var(--ease-out); }
@@ -351,7 +359,8 @@ document.getElementById('year').textContent = new Date().getFullYear();
       var rows = entries.map(function (e, i) {
         var t = e.team || {};
         var lg = logo(t) ? '<img src="' + escA(logo(t)) + '" alt="" loading="lazy" onerror="this.remove()">' : '';
-        return '<tr><td class="c">' + (i + 1) + '</td><td><span class="team">' + lg + esc(t.displayName || t.location) + '</span></td>' +
+        var full = esc(t.displayName || t.location), shortNm = esc(t.location || t.shortDisplayName || t.displayName);
+        return '<tr><td class="c">' + (i + 1) + '</td><td><span class="team">' + lg + '<span class="tn tn-full">' + full + '</span><span class="tn tn-short">' + shortNm + '</span></span></td>' +
           '<td class="c">' + esc(overall(e)) + '</td><td class="c">' + esc(stat(e, 'streak')) + '</td><td class="c">' + esc(stat(e, 'pointdifferential')) + '</td></tr>';
       }).join('');
       table.innerHTML = '<table class="conf-table"><thead><tr><th class="c">#</th><th>Team</th><th class="c">Record</th><th class="c">Streak</th><th class="c">Pt Diff</th></tr></thead><tbody>' + rows + '</tbody></table>';
