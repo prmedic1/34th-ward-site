@@ -3,13 +3,13 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>College Football - Schedule, Top 25 &amp; Standings - 34thward.com</title>
+<title>NCAA Football &amp; Basketball - 34thward.com</title>
 <meta name="description" content="Men's college football on 34thward.com: this week's full schedule, the AP Top 25, standings for every FBS conference, and the latest news. Men's basketball added when its season starts.">
 <link rel="canonical" href="https://34thward.com/ncaa.html">
 <link rel="stylesheet" href="css/style.css?v=20260907f">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="34thward.com">
-<meta property="og:title" content="College Football - Schedule, Top 25 & Standings">
+<meta property="og:title" content="NCAA Football & Basketball">
 <meta property="og:description" content="This week's college football schedule, the AP Top 25, and standings for every FBS conference.">
 <meta property="og:image" content="https://34thward.com/images/og-share.jpg?v=20260709">
 <meta property="og:url" content="https://34thward.com/ncaa.html">
@@ -26,23 +26,27 @@
   .ncaa-toggle button.active { background: var(--navy); border-color: var(--navy); color: #fff; }
   .ncaa-toggle button[disabled] { opacity: 0.55; cursor: default; }
   .ncaa-actions { display: flex; flex-wrap: wrap; gap: 10px; margin: 0 0 26px; }
-  .ncaa-actions a { flex: 1 1 220px; text-align: center; }
+  .ncaa-actions a { flex: 1 1 220px; }
+  .ncaa-btn { display: inline-flex; align-items: center; justify-content: center; gap: 10px; font-family: var(--font-body); font-weight: 700; font-size: 15px; text-decoration: none; padding: 12px 20px; border-radius: 10px; box-shadow: var(--shadow-1); transition: transform 150ms var(--ease-out), box-shadow 150ms var(--ease-out); }
+  .ncaa-btn:hover { transform: translateY(-2px); box-shadow: var(--shadow-2); }
+  .ncaa-btn.dk { background: #61b50f; color: #fff; }
+  .ncaa-btn.gt { background: #00ef9f; color: #05271c; }
+  .ncaa-btn-logo { border-radius: 6px; display: block; }
+  .ncaa-btn-mark { display: block; }
   .ncaa-section-title { font-family: var(--font-head); font-size: 1.5rem; color: var(--text); margin: 30px 0 6px; }
   .ncaa-note { font-size: 0.85rem; color: var(--muted); margin: 0 0 14px; }
   /* Schedule */
   .ncaa-day { font-family: var(--font-body); font-weight: 800; font-size: 0.82rem; letter-spacing: 1px; text-transform: uppercase; color: var(--navy); margin: 22px 0 10px; padding-bottom: 6px; border-bottom: 2px solid var(--border); }
-  .ncaa-games { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 12px; }
-  .ncaa-game { display: block; text-decoration: none; border-radius: 12px; overflow: hidden; box-shadow: var(--shadow-1); background: var(--home, #0a5a78); color: #fff; border: 1px solid rgba(0,0,0,0.12); transition: transform 180ms var(--ease-out), box-shadow 180ms var(--ease-out); }
-  .ncaa-game:hover { transform: translateY(-3px); box-shadow: var(--shadow-3); }
+  .ncaa-games { display: grid; grid-template-columns: repeat(auto-fill, minmax(156px, 1fr)); gap: 8px; }
+  .ncaa-game { display: block; text-decoration: none; border-radius: 9px; overflow: hidden; box-shadow: var(--shadow-1); background: var(--home, #0a5a78); color: #fff; border: 1px solid rgba(0,0,0,0.12); transition: transform 160ms var(--ease-out), box-shadow 160ms var(--ease-out); }
+  .ncaa-game:hover { transform: translateY(-2px); box-shadow: var(--shadow-2); }
   .ncaa-game.light { color: #14202b; }
-  .ncaa-game-body { padding: 12px 13px; backdrop-filter: none; }
-  .ncaa-team { display: flex; align-items: center; gap: 8px; font-size: 0.95rem; font-weight: 700; line-height: 1.2; margin: 3px 0; }
-  .ncaa-team img { width: 30px; height: 30px; object-fit: contain; flex: 0 0 auto; filter: drop-shadow(0 1px 2px rgba(0,0,0,0.35)); }
-  .ncaa-team .rk { font-size: 0.72rem; font-weight: 800; opacity: 0.9; min-width: 20px; }
-  .ncaa-team .sc { margin-left: auto; font-size: 1.1rem; font-weight: 800; font-variant-numeric: tabular-nums; }
-  .ncaa-game-meta { margin-top: 8px; padding-top: 8px; border-top: 1px solid rgba(255,255,255,0.25); font-size: 0.75rem; font-weight: 600; opacity: 0.95; display: flex; justify-content: space-between; gap: 8px; }
-  .ncaa-game.light .ncaa-game-meta { border-top-color: rgba(0,0,0,0.18); }
-  .ncaa-game-status { font-size: 0.72rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 6px; opacity: 0.95; }
+  .ncaa-game-body { padding: 7px 9px 8px; }
+  .ncaa-team { display: flex; align-items: center; gap: 6px; font-size: 0.8rem; font-weight: 700; line-height: 1.15; margin: 2px 0; }
+  .ncaa-team img { width: 22px; height: 22px; object-fit: contain; flex: 0 0 auto; filter: drop-shadow(0 1px 1px rgba(0,0,0,0.35)); }
+  .ncaa-team .rk { font-size: 0.62rem; font-weight: 800; opacity: 0.9; min-width: 14px; }
+  .ncaa-team .sc { margin-left: auto; font-size: 0.92rem; font-weight: 800; font-variant-numeric: tabular-nums; }
+  .ncaa-game-status { font-size: 0.62rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.4px; margin-bottom: 4px; opacity: 0.95; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
   .ncaa-live { color: #ffd8d8; }
   .ncaa-game.light .ncaa-live { color: #b3261e; }
   /* Top 25 */
@@ -103,8 +107,8 @@
 
 <section class="hero hero-compact hero-photo" style="--hero-img: url('/images/mary-bartelme-park.jpg')">
   <div class="hero-inner">
-    <h2>College Sports</h2>
-    <p>This week's men's college football across the country: the full schedule, the AP Top 25, standings for every FBS conference, and the latest news. Men's basketball joins when its season tips off in November.</p>
+    <h2>NCAA Football &amp; Basketball</h2>
+    <p>Men's college football across the country: standings for every FBS conference, the AP Top 25, this week's full schedule, and the latest news. Men's basketball joins when its season tips off in November.</p>
   </div>
 </section>
 
@@ -115,13 +119,18 @@
   </div>
 
   <div class="ncaa-actions">
-    <a class="spotlight-btn" href="https://sportsbook.draftkings.com/leagues/football/ncaaf" target="_blank" rel="noopener">Bet on DraftKings &rarr;</a>
-    <a class="spotlight-btn spotlight-btn-ghost" href="https://gametime.co/b/college-football" target="_blank" rel="noopener">Get tickets on Gametime &rarr;</a>
+    <a class="ncaa-btn dk" href="https://sportsbook.draftkings.com/leagues/football/ncaaf" target="_blank" rel="noopener">
+      <img class="ncaa-btn-logo" src="images/ncaa/draftkings.png" alt="DraftKings" width="26" height="26">
+      <span>Bet on DraftKings</span>
+    </a>
+    <a class="ncaa-btn gt" href="https://gametime.co/b/college-football" target="_blank" rel="noopener">
+      <svg class="ncaa-btn-mark" viewBox="0 0 16 16" width="20" height="20" aria-hidden="true" focusable="false">
+        <path d="M9.91819 2L13.4 8L9.91819 14H3.53224C3.27625 14 3.11708 13.7207 3.24574 13.4987L9.91819 2Z" fill="currentColor"/>
+        <path d="M3.53203 2C3.27604 2 3.11621 2.27933 3.24553 2.50133L5.7385 6.79733L9.91798 2H3.53203Z" fill="currentColor"/>
+      </svg>
+      <span>Get tickets on Gametime</span>
+    </a>
   </div>
-
-  <h3 class="ncaa-section-title">This Week's Schedule</h3>
-  <p class="ncaa-note">Every FBS game over the next seven days, by day. Each game shows the home team's colors and both team logos. Tap a game for details.</p>
-  <div id="ncaa-schedule"><p class="ncaa-loading">Loading this week's games&hellip;</p></div>
 
   <h3 class="ncaa-section-title">AP Top 25</h3>
   <p class="ncaa-note" id="top25-note"></p>
@@ -131,6 +140,10 @@
   <p class="ncaa-note">Pick a conference.</p>
   <div class="conf-tabs" id="conf-tabs"></div>
   <div id="conf-table"><p class="ncaa-loading">Loading standings&hellip;</p></div>
+
+  <h3 class="ncaa-section-title">This Week's Schedule</h3>
+  <p class="ncaa-note">Every FBS game over the next seven days, by day, in the home team's colors with both logos. Tap a game for details.</p>
+  <div id="ncaa-schedule"><p class="ncaa-loading">Loading this week's games&hellip;</p></div>
 
   <h3 class="ncaa-section-title">Latest College Football News</h3>
   <div id="ncaa-news"><p class="ncaa-loading">Loading news&hellip;</p></div>
@@ -210,15 +223,14 @@ document.getElementById('year').textContent = new Date().getFullYear();
     } else {
       statusTxt = esc(st.shortDetail || 'Final');
     }
-    var venue = (c.venue && c.venue.fullName) ? esc(c.venue.fullName) : '';
     var tv = (c.broadcasts && c.broadcasts[0] && c.broadcasts[0].names && c.broadcasts[0].names[0]) ? esc(c.broadcasts[0].names[0]) : '';
+    var line = statusTxt + (tv ? ' &middot; ' + tv : '');
     var href = 'https://www.espn.com/college-football/game/_/gameId/' + esc(e.id);
     return '<a class="ncaa-game' + lightCls + '" style="--home:' + color + '" href="' + href + '" target="_blank" rel="noopener">' +
       '<div class="ncaa-game-body">' +
-        '<div class="ncaa-game-status">' + statusTxt + '</div>' +
+        '<div class="ncaa-game-status">' + line + '</div>' +
         teamRow(away, showScore) +
         teamRow(home, showScore) +
-        '<div class="ncaa-game-meta"><span>' + venue + '</span><span>' + tv + '</span></div>' +
       '</div></a>';
   }
 
