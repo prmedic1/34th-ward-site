@@ -87,6 +87,10 @@
   .conf-table .team { display: flex; align-items: center; gap: 9px; font-weight: 700; color: var(--text); }
   .conf-table .team img { width: 24px; height: 24px; object-fit: contain; flex: 0 0 auto; }
   .tn-short, .th-short { display: none; }
+  /* School name links to the team's ESPN page */
+  a.team-link { color: var(--text); text-decoration: none; cursor: pointer; }
+  a.team-link:hover { text-decoration: underline; text-decoration-color: var(--sky); }
+  .rk-row a.nm:hover { color: var(--navy); }
   /* News */
   .ncaa-news { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 14px; }
   .news-card { display: block; text-decoration: none; background: var(--card-bg); border: 1px solid var(--border); border-radius: 12px; overflow: hidden; box-shadow: var(--shadow-1); transition: transform 180ms var(--ease-out); }
@@ -235,6 +239,15 @@ document.getElementById('year').textContent = new Date().getFullYear();
     return (0.299 * r + 0.587 * g + 0.114 * b) > 165;
   }
   function logo(t) { return (t && (t.logo || (t.logos && t.logos[0] && t.logos[0].href))) || ''; }
+  // ESPN team page (schedule, roster, scores, news) - provided by the feed,
+  // with an id-built fallback so every team links somewhere valid.
+  function teamLink(t) {
+    if (t && t.links && t.links.length) {
+      var l = t.links.find(function (x) { return (x.rel || []).indexOf('desktop') >= 0 && (x.rel || []).indexOf('clubhouse') >= 0; }) || t.links[0];
+      if (l && l.href) return l.href;
+    }
+    return t && t.id ? 'https://www.espn.com/college-football/team/_/id/' + t.id : '';
+  }
 
   // ---- Schedule ----
   var today = new Date();
@@ -340,8 +353,11 @@ document.getElementById('year').textContent = new Date().getFullYear();
         else if (tv.charAt(0) === '+') trend = '<span class="tr tr-up">&#9650;' + esc(tv.slice(1)) + '</span>';
         else trend = '<span class="tr tr-down">&#9660;' + esc(tv.replace('-', '')) + '</span>';
       }
+      var nm = esc(t.location || t.nickname || t.name);
+      var tl = teamLink(t);
+      var nmHtml = tl ? '<a class="nm team-link" href="' + escA(tl) + '" target="_blank" rel="noopener">' + nm + '</a>' : '<span class="nm">' + nm + '</span>';
       return '<div class="rk-row"><span class="num">' + esc(x.current) + '</span>' + lg +
-        '<span class="rk-main"><span class="nm">' + esc(t.location || t.nickname || t.name) + '</span>' + (rec ? '<br><span class="rec">' + esc(rec) + '</span>' : '') + '</span>' + confLg + trend + '</div>';
+        '<span class="rk-main">' + nmHtml + (rec ? '<br><span class="rec">' + esc(rec) + '</span>' : '') + '</span>' + confLg + trend + '</div>';
     }).join('') + '</div>';
   }
 
@@ -361,7 +377,10 @@ document.getElementById('year').textContent = new Date().getFullYear();
         var t = e.team || {};
         var lg = logo(t) ? '<img src="' + escA(logo(t)) + '" alt="" loading="lazy" onerror="this.remove()">' : '';
         var full = esc(t.displayName || t.location), shortNm = esc(t.location || t.shortDisplayName || t.displayName);
-        return '<tr><td class="c">' + (i + 1) + '</td><td><span class="team">' + lg + '<span class="tn tn-full">' + full + '</span><span class="tn tn-short">' + shortNm + '</span></span></td>' +
+        var tl = teamLink(t);
+        var teamInner = lg + '<span class="tn tn-full">' + full + '</span><span class="tn tn-short">' + shortNm + '</span>';
+        var teamCell = tl ? '<a class="team team-link" href="' + escA(tl) + '" target="_blank" rel="noopener">' + teamInner + '</a>' : '<span class="team">' + teamInner + '</span>';
+        return '<tr><td class="c">' + (i + 1) + '</td><td>' + teamCell + '</td>' +
           '<td class="c">' + esc(overall(e)) + '</td><td class="c">' + esc(stat(e, 'streak')) + '</td><td class="c">' + esc(stat(e, 'pointdifferential')) + '</td></tr>';
       }).join('');
       table.innerHTML = '<table class="conf-table"><thead><tr><th class="c">#</th><th>Team</th>' +
