@@ -25,14 +25,16 @@
   .ncaa-toggle button { font-family: var(--font-body); font-weight: 700; font-size: 14px; padding: 9px 20px; border-radius: 999px; border: 1px solid var(--border); background: var(--card-bg); color: var(--navy); cursor: pointer; }
   .ncaa-toggle button.active { background: var(--navy); border-color: var(--navy); color: #fff; }
   .ncaa-toggle button[disabled] { opacity: 0.55; cursor: default; }
-  .ncaa-actions { display: flex; flex-wrap: wrap; gap: 10px; margin: 0 0 26px; }
-  .ncaa-actions a { flex: 1 1 220px; }
-  .ncaa-btn { display: inline-flex; align-items: center; justify-content: center; gap: 10px; font-family: var(--font-body); font-weight: 700; font-size: 15px; text-decoration: none; padding: 12px 20px; border-radius: 10px; box-shadow: var(--shadow-1); transition: transform 150ms var(--ease-out), box-shadow 150ms var(--ease-out); }
-  .ncaa-btn:hover { transform: translateY(-2px); box-shadow: var(--shadow-2); }
-  .ncaa-btn.dk { background: #61b50f; color: #fff; }
-  .ncaa-btn.gt { background: #00ef9f; color: #05271c; }
-  .ncaa-btn-logo { border-radius: 6px; display: block; }
-  .ncaa-btn-mark { display: block; }
+  .ncaa-actions { display: flex; flex-wrap: wrap; gap: 12px; margin: 0 0 26px; }
+  .ncaa-dd { position: relative; flex: 1 1 220px; }
+  .ncaa-btn { display: flex; width: 100%; align-items: center; justify-content: center; gap: 9px; font-family: var(--font-body); font-weight: 800; font-size: 15px; text-decoration: none; padding: 13px 20px; border-radius: 10px; cursor: pointer; background: #d3ecfb; color: #e2680a; border: 2px solid #ef7c1a; box-shadow: var(--shadow-1); transition: transform 150ms var(--ease-out), box-shadow 150ms var(--ease-out), background 150ms; }
+  .ncaa-btn:hover { transform: translateY(-2px); box-shadow: var(--shadow-2); background: #c3e6f9; }
+  .ncaa-btn .caret { width: 13px; height: 13px; flex: 0 0 auto; transition: transform 180ms var(--ease-out); }
+  .ncaa-dd.open .caret { transform: rotate(180deg); }
+  .ncaa-dd-menu { position: absolute; top: calc(100% + 6px); left: 0; right: 0; background: var(--card-bg); border: 1px solid var(--border); border-radius: 10px; box-shadow: var(--shadow-2); padding: 6px; z-index: 40; display: none; }
+  .ncaa-dd.open .ncaa-dd-menu { display: block; }
+  .ncaa-dd-menu a { display: block; padding: 11px 13px; border-radius: 7px; font-family: var(--font-body); font-weight: 700; font-size: 14px; color: var(--text); text-decoration: none; }
+  .ncaa-dd-menu a:hover { background: #eaf6fd; color: #e2680a; }
   .ncaa-section-title { font-family: var(--font-head); font-size: 1.5rem; color: var(--text); margin: 30px 0 6px; }
   .ncaa-note { font-size: 0.85rem; color: var(--muted); margin: 0 0 14px; }
   /* Top 25 + standings side by side */
@@ -54,14 +56,16 @@
   .ncaa-game-status { font-size: 0.62rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.4px; margin-bottom: 4px; opacity: 0.95; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
   .ncaa-live { color: #ffd8d8; }
   .ncaa-game.light .ncaa-live { color: #b3261e; }
-  /* Top 25 */
-  .ncaa-top25 { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 8px; }
-  .rk-row { display: flex; align-items: center; gap: 10px; background: var(--card-bg); border: 1px solid var(--border); border-radius: 10px; padding: 8px 12px; }
+  /* Top 25 - flows top-to-bottom down each column, then to the next */
+  .ncaa-top25 { column-width: 200px; column-gap: 8px; }
+  .rk-row { display: flex; align-items: center; gap: 10px; background: var(--card-bg); border: 1px solid var(--border); border-radius: 10px; padding: 8px 12px; break-inside: avoid; margin-bottom: 8px; }
   .rk-row .num { font-family: var(--font-head); font-weight: 800; font-size: 1.15rem; color: var(--navy); min-width: 26px; text-align: center; }
-  .rk-row img { width: 32px; height: 32px; object-fit: contain; }
+  .rk-row img { width: 32px; height: 32px; object-fit: contain; flex: 0 0 auto; }
+  .rk-row .rk-main { flex: 1 1 auto; min-width: 0; }
   .rk-row .nm { font-weight: 700; font-size: 0.9rem; color: var(--text); line-height: 1.15; }
   .rk-row .rec { font-size: 0.78rem; color: var(--muted); }
-  .rk-row .tr { margin-left: auto; font-size: 0.78rem; font-weight: 700; }
+  .rk-row img.conf { width: 22px; height: 22px; flex: 0 0 auto; opacity: 0.9; }
+  .rk-row .tr { font-size: 0.78rem; font-weight: 700; flex: 0 0 auto; }
   .tr-up { color: #1a7f4b; } .tr-down { color: #c0392b; } .tr-even { color: var(--muted); }
   /* Conference standings */
   .conf-tabs { display: flex; gap: 6px; overflow-x: auto; padding: 4px 2px 12px; -webkit-overflow-scrolling: touch; }
@@ -124,17 +128,29 @@
   </div>
 
   <div class="ncaa-actions">
-    <a class="ncaa-btn dk" href="https://sportsbook.draftkings.com/leagues/football/ncaaf" target="_blank" rel="noopener">
-      <img class="ncaa-btn-logo" src="images/ncaa/draftkings.png" alt="DraftKings" width="26" height="26">
-      <span>Bet on DraftKings</span>
-    </a>
-    <a class="ncaa-btn gt" href="https://gametime.co/b/college-football" target="_blank" rel="noopener">
-      <svg class="ncaa-btn-mark" viewBox="0 0 16 16" width="20" height="20" aria-hidden="true" focusable="false">
-        <path d="M9.91819 2L13.4 8L9.91819 14H3.53224C3.27625 14 3.11708 13.7207 3.24574 13.4987L9.91819 2Z" fill="currentColor"/>
-        <path d="M3.53203 2C3.27604 2 3.11621 2.27933 3.24553 2.50133L5.7385 6.79733L9.91798 2H3.53203Z" fill="currentColor"/>
-      </svg>
-      <span>Get tickets on Gametime</span>
-    </a>
+    <div class="ncaa-dd" data-dd>
+      <button class="ncaa-btn" type="button" aria-haspopup="true" aria-expanded="false">
+        <span>Place a Bet</span>
+        <svg class="caret" viewBox="0 0 12 12" aria-hidden="true" focusable="false"><path d="M2 4.5l4 4 4-4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+      <div class="ncaa-dd-menu" role="menu">
+        <a role="menuitem" href="https://sportsbook.draftkings.com/leagues/football/ncaaf" target="_blank" rel="noopener">DraftKings</a>
+        <a role="menuitem" href="https://sportsbook.fanduel.com/navigation/ncaaf" target="_blank" rel="noopener">FanDuel</a>
+        <a role="menuitem" href="https://www.betmgm.com/en/sports/football-11/betting/usa-9/college-football-211" target="_blank" rel="noopener">BetMGM</a>
+      </div>
+    </div>
+    <div class="ncaa-dd" data-dd>
+      <button class="ncaa-btn" type="button" aria-haspopup="true" aria-expanded="false">
+        <span>Get Tickets</span>
+        <svg class="caret" viewBox="0 0 12 12" aria-hidden="true" focusable="false"><path d="M2 4.5l4 4 4-4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+      <div class="ncaa-dd-menu" role="menu">
+        <a role="menuitem" href="https://www.ticketmaster.com/search?q=college%20football" target="_blank" rel="noopener">Ticketmaster</a>
+        <a role="menuitem" href="https://www.stubhub.com/ncaa-football-tickets/grouping/122" target="_blank" rel="noopener">StubHub</a>
+        <a role="menuitem" href="https://gametime.co/c/college-football" target="_blank" rel="noopener">Gametime</a>
+        <a role="menuitem" href="https://seatgeek.com/ncaa-football-tickets" target="_blank" rel="noopener">SeatGeek</a>
+      </div>
+    </div>
   </div>
 
   <div class="ncaa-cols">
@@ -168,6 +184,33 @@
 
 <script>
 document.getElementById('year').textContent = new Date().getFullYear();
+
+// Betting / tickets dropdown menus
+(function () {
+  var dds = [].slice.call(document.querySelectorAll('.ncaa-dd'));
+  function closeAll(except) {
+    dds.forEach(function (dd) {
+      if (dd === except) return;
+      dd.classList.remove('open');
+      var b = dd.querySelector('.ncaa-btn');
+      if (b) b.setAttribute('aria-expanded', 'false');
+    });
+  }
+  dds.forEach(function (dd) {
+    var btn = dd.querySelector('.ncaa-btn');
+    if (!btn) return;
+    btn.addEventListener('click', function (e) {
+      e.stopPropagation();
+      var willOpen = !dd.classList.contains('open');
+      closeAll(dd);
+      dd.classList.toggle('open', willOpen);
+      btn.setAttribute('aria-expanded', willOpen ? 'true' : 'false');
+    });
+  });
+  document.addEventListener('click', function () { closeAll(null); });
+  document.addEventListener('keydown', function (e) { if (e.key === 'Escape') closeAll(null); });
+})();
+
 (function () {
   var CFB = 'https://site.api.espn.com/apis/site/v2/sports/football/college-football';
   function esc(s) { var d = document.createElement('div'); d.textContent = s == null ? '' : s; return d.innerHTML; }
@@ -251,20 +294,23 @@ document.getElementById('year').textContent = new Date().getFullYear();
     fetch(CFB + '/rankings').then(function (r) { return r.json(); }).catch(function () { return null; }),
     fetch('https://site.api.espn.com/apis/v2/sports/football/college-football/standings').then(function (r) { return r.json(); }).catch(function () { return null; })
   ]).then(function (res) {
-    var recById = {};
+    var recById = {}, confById = {};
     if (res[1] && res[1].children) {
       res[1].children.forEach(function (c) {
+        var confLogo = c.id ? 'https://a.espncdn.com/i/teamlogos/ncaa_conf/500/' + c.id + '.png' : '';
         ((c.standings && c.standings.entries) || []).forEach(function (e) {
+          if (!e.team) return;
           var o = (e.stats || []).find(function (x) { return x.type === 'total' || x.name === 'overall'; });
-          if (e.team && o) recById[e.team.id] = o.summary || o.displayValue;
+          if (o) recById[e.team.id] = o.summary || o.displayValue;
+          confById[e.team.id] = { logo: confLogo, name: c.name };
         });
       });
     }
-    renderTop25(res[0], recById);
+    renderTop25(res[0], recById, confById);
     renderStandings(res[1]);
   });
 
-  function renderTop25(data, recById) {
+  function renderTop25(data, recById, confById) {
     var host = document.getElementById('ncaa-top25');
     var note = document.getElementById('top25-note');
     var poll = data && (data.rankings || []).find(function (p) { return /AP Top 25/i.test(p.name); });
@@ -276,6 +322,8 @@ document.getElementById('year').textContent = new Date().getFullYear();
       var t = x.team || {};
       var lg = logo(t) ? '<img src="' + escA(logo(t)) + '" alt="" loading="lazy" onerror="this.remove()">' : '';
       var rec = recById[t.id] || (x.recordSummary && x.recordSummary !== '0-0' ? x.recordSummary : '');
+      var conf = (confById && confById[t.id]) || null;
+      var confLg = conf && conf.logo ? '<img class="conf" src="' + escA(conf.logo) + '" alt="" title="' + escA(conf.name || '') + '" loading="lazy" onerror="this.remove()">' : '';
       var trend = '';
       if (!preseason && x.trend != null) {
         var tv = '' + x.trend;
@@ -284,7 +332,7 @@ document.getElementById('year').textContent = new Date().getFullYear();
         else trend = '<span class="tr tr-down">&#9660;' + esc(tv.replace('-', '')) + '</span>';
       }
       return '<div class="rk-row"><span class="num">' + esc(x.current) + '</span>' + lg +
-        '<span><span class="nm">' + esc(t.location || t.nickname || t.name) + '</span>' + (rec ? '<br><span class="rec">' + esc(rec) + '</span>' : '') + '</span>' + trend + '</div>';
+        '<span class="rk-main"><span class="nm">' + esc(t.location || t.nickname || t.name) + '</span>' + (rec ? '<br><span class="rec">' + esc(rec) + '</span>' : '') + '</span>' + confLg + trend + '</div>';
     }).join('') + '</div>';
   }
 
