@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>College Football - Schedule, Top 25 &amp; Standings - 34thward.com</title>
+<meta name="description" content="Men's college football on 34thward.com: this week's full schedule, the AP Top 25, standings for every FBS conference, and the latest news. Men's basketball added when its season starts.">
+<link rel="canonical" href="https://34thward.com/ncaa.html">
+<link rel="stylesheet" href="css/style.css?v=20260907f">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="34thward.com">
+<meta property="og:title" content="College Football - Schedule, Top 25 & Standings">
+<meta property="og:description" content="This week's college football schedule, the AP Top 25, and standings for every FBS conference.">
+<meta property="og:image" content="https://34thward.com/images/og-share.jpg?v=20260709">
+<meta property="og:url" content="https://34thward.com/ncaa.html">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="theme-color" content="#14bef1">
+<link rel="apple-touch-icon" href="/images/app-icon-180.png">
+<meta name="apple-mobile-web-app-title" content="34th Ward">
+<meta name="mobile-web-app-capable" content="yes">
+<style>
+  .ncaa-wrap { max-width: 1100px; margin: 0 auto; padding: 0 24px 48px; }
+  .ncaa-toggle { display: flex; gap: 8px; margin: 4px 0 18px; }
+  .ncaa-toggle button { font-family: var(--font-body); font-weight: 700; font-size: 14px; padding: 9px 20px; border-radius: 999px; border: 1px solid var(--border); background: var(--card-bg); color: var(--navy); cursor: pointer; }
+  .ncaa-toggle button.active { background: var(--navy); border-color: var(--navy); color: #fff; }
+  .ncaa-toggle button[disabled] { opacity: 0.55; cursor: default; }
+  .ncaa-actions { display: flex; flex-wrap: wrap; gap: 10px; margin: 0 0 26px; }
+  .ncaa-actions a { flex: 1 1 220px; text-align: center; }
+  .ncaa-section-title { font-family: var(--font-head); font-size: 1.5rem; color: var(--text); margin: 30px 0 6px; }
+  .ncaa-note { font-size: 0.85rem; color: var(--muted); margin: 0 0 14px; }
+  /* Schedule */
+  .ncaa-day { font-family: var(--font-body); font-weight: 800; font-size: 0.82rem; letter-spacing: 1px; text-transform: uppercase; color: var(--navy); margin: 22px 0 10px; padding-bottom: 6px; border-bottom: 2px solid var(--border); }
+  .ncaa-games { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 12px; }
+  .ncaa-game { display: block; text-decoration: none; border-radius: 12px; overflow: hidden; box-shadow: var(--shadow-1); background: var(--home, #0a5a78); color: #fff; border: 1px solid rgba(0,0,0,0.12); transition: transform 180ms var(--ease-out), box-shadow 180ms var(--ease-out); }
+  .ncaa-game:hover { transform: translateY(-3px); box-shadow: var(--shadow-3); }
+  .ncaa-game.light { color: #14202b; }
+  .ncaa-game-body { padding: 12px 13px; backdrop-filter: none; }
+  .ncaa-team { display: flex; align-items: center; gap: 8px; font-size: 0.95rem; font-weight: 700; line-height: 1.2; margin: 3px 0; }
+  .ncaa-team img { width: 30px; height: 30px; object-fit: contain; flex: 0 0 auto; filter: drop-shadow(0 1px 2px rgba(0,0,0,0.35)); }
+  .ncaa-team .rk { font-size: 0.72rem; font-weight: 800; opacity: 0.9; min-width: 20px; }
+  .ncaa-team .sc { margin-left: auto; font-size: 1.1rem; font-weight: 800; font-variant-numeric: tabular-nums; }
+  .ncaa-game-meta { margin-top: 8px; padding-top: 8px; border-top: 1px solid rgba(255,255,255,0.25); font-size: 0.75rem; font-weight: 600; opacity: 0.95; display: flex; justify-content: space-between; gap: 8px; }
+  .ncaa-game.light .ncaa-game-meta { border-top-color: rgba(0,0,0,0.18); }
+  .ncaa-game-status { font-size: 0.72rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 6px; opacity: 0.95; }
+  .ncaa-live { color: #ffd8d8; }
+  .ncaa-game.light .ncaa-live { color: #b3261e; }
+  /* Top 25 */
+  .ncaa-top25 { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 8px; }
+  .rk-row { display: flex; align-items: center; gap: 10px; background: var(--card-bg); border: 1px solid var(--border); border-radius: 10px; padding: 8px 12px; }
+  .rk-row .num { font-family: var(--font-head); font-weight: 800; font-size: 1.15rem; color: var(--navy); min-width: 26px; text-align: center; }
+  .rk-row img { width: 32px; height: 32px; object-fit: contain; }
+  .rk-row .nm { font-weight: 700; font-size: 0.9rem; color: var(--text); line-height: 1.15; }
+  .rk-row .rec { font-size: 0.78rem; color: var(--muted); }
+  .rk-row .tr { margin-left: auto; font-size: 0.78rem; font-weight: 700; }
+  .tr-up { color: #1a7f4b; } .tr-down { color: #c0392b; } .tr-even { color: var(--muted); }
+  /* Conference standings */
+  .conf-tabs { display: flex; gap: 6px; overflow-x: auto; padding: 4px 2px 12px; -webkit-overflow-scrolling: touch; }
+  .conf-tab { flex: 0 0 auto; font-family: var(--font-body); font-weight: 700; font-size: 13px; white-space: nowrap; padding: 8px 14px; border-radius: 999px; border: 1px solid var(--border); background: var(--card-bg); color: var(--navy); cursor: pointer; }
+  .conf-tab.active { background: var(--sky); border-color: var(--sky); color: #06303f; }
+  .conf-table { width: 100%; border-collapse: collapse; background: var(--card-bg); border: 1px solid var(--border); border-radius: 10px; overflow: hidden; }
+  .conf-table th, .conf-table td { padding: 9px 12px; text-align: left; font-size: 0.85rem; border-bottom: 1px solid var(--border); }
+  .conf-table th { background: var(--navy); color: #fff; font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.5px; }
+  .conf-table td.c, .conf-table th.c { text-align: center; }
+  .conf-table tr:last-child td { border-bottom: none; }
+  .conf-table .team { display: flex; align-items: center; gap: 9px; font-weight: 700; color: var(--text); }
+  .conf-table .team img { width: 24px; height: 24px; object-fit: contain; }
+  /* News */
+  .ncaa-news { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 14px; }
+  .news-card { display: block; text-decoration: none; background: var(--card-bg); border: 1px solid var(--border); border-radius: 12px; overflow: hidden; box-shadow: var(--shadow-1); transition: transform 180ms var(--ease-out); }
+  .news-card:hover { transform: translateY(-3px); box-shadow: var(--shadow-2); }
+  .news-card img { width: 100%; height: 150px; object-fit: cover; display: block; }
+  .news-card .nc-body { padding: 12px 14px 16px; }
+  .news-card h4 { font-family: var(--font-head); font-size: 1.05rem; color: var(--text); margin: 0 0 6px; line-height: 1.25; }
+  .news-card p { font-size: 0.85rem; color: var(--muted); margin: 0; line-height: 1.45; }
+  .ncaa-loading { color: var(--muted); font-size: 0.9rem; padding: 8px 0; }
+  .ncaa-src { font-size: 0.75rem; color: var(--muted); margin-top: 26px; text-align: center; }
+</style>
+</head>
+<body class="photo-banner" style="--banner-img: url('/images/mary-bartelme-park.jpg')">
+
+<header class="site-header">
+  <div class="header-inner">
+    <div class="brand">
+      <img class="brand-shield" src="images/shield-header.png?v=20260708a" alt="34th Ward shield">
+      <div class="brand-text">
+        <h1>The Official 34th Ward Neighborhood Page</h1>
+        <p>Community News &amp; Civic Updates</p>
+      </div>
+    </div>
+    <nav class="main-nav">
+      <a href="index.html">Home</a>
+      <a href="map.html">Ward Map</a>
+      <a href="directory.html">Businesses</a>
+      <a href="happyhour.html">Happy Hours</a>
+      <a href="housing.html">Housing</a>
+      <a href="culture.html">Events</a>
+      <a href="ncaa.html" class="active">College Sports</a>
+      <a href="resources.html">Resources</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero hero-compact hero-photo" style="--hero-img: url('/images/mary-bartelme-park.jpg')">
+  <div class="hero-inner">
+    <h2>College Sports</h2>
+    <p>This week's men's college football across the country: the full schedule, the AP Top 25, standings for every FBS conference, and the latest news. Men's basketball joins when its season tips off in November.</p>
+  </div>
+</section>
+
+<main class="ncaa-wrap">
+  <div class="ncaa-toggle">
+    <button id="tab-fb" class="active" type="button">Football</button>
+    <button id="tab-bb" type="button" disabled title="Men's college basketball starts in November">Basketball (Nov)</button>
+  </div>
+
+  <div class="ncaa-actions">
+    <a class="spotlight-btn" href="https://sportsbook.draftkings.com/leagues/football/ncaaf" target="_blank" rel="noopener">Bet on DraftKings &rarr;</a>
+    <a class="spotlight-btn spotlight-btn-ghost" href="https://gametime.co/b/college-football" target="_blank" rel="noopener">Get tickets on Gametime &rarr;</a>
+  </div>
+
+  <h3 class="ncaa-section-title">This Week's Schedule</h3>
+  <p class="ncaa-note">Every FBS game over the next seven days, by day. Each game shows the home team's colors and both team logos. Tap a game for details.</p>
+  <div id="ncaa-schedule"><p class="ncaa-loading">Loading this week's games&hellip;</p></div>
+
+  <h3 class="ncaa-section-title">AP Top 25</h3>
+  <div id="ncaa-top25"><p class="ncaa-loading">Loading the AP Top 25&hellip;</p></div>
+
+  <h3 class="ncaa-section-title">Conference Standings</h3>
+  <p class="ncaa-note">Pick a conference.</p>
+  <div class="conf-tabs" id="conf-tabs"></div>
+  <div id="conf-table"><p class="ncaa-loading">Loading standings&hellip;</p></div>
+
+  <h3 class="ncaa-section-title">Latest College Football News</h3>
+  <div id="ncaa-news"><p class="ncaa-loading">Loading news&hellip;</p></div>
+
+  <p class="ncaa-src">Scores, rankings, standings, and news update automatically from ESPN's public feed.</p>
+</main>
+
+<footer class="site-footer">
+  <p>&copy; <span id="year"></span> 34thward.com</p>
+  <p><button id="share-site" class="share-btn" type="button">Share 34thward.com &#128228;</button></p>
+</footer>
+
+<script>
+document.getElementById('year').textContent = new Date().getFullYear();
+(function () {
+  var CFB = 'https://site.api.espn.com/apis/site/v2/sports/football/college-football';
+  function esc(s) { var d = document.createElement('div'); d.textContent = s == null ? '' : s; return d.innerHTML; }
+  function escA(s) { return String(s == null ? '' : s).replace(/"/g, '&quot;'); }
+  function pad(n) { return n < 10 ? '0' + n : '' + n; }
+  function ymd(d) { return '' + d.getFullYear() + pad(d.getMonth() + 1) + pad(d.getDate()); }
+  // White or dark text depending on how light the team color is.
+  function isLight(hex) {
+    if (!hex) return false;
+    hex = hex.replace('#', '');
+    if (hex.length !== 6) return false;
+    var r = parseInt(hex.slice(0, 2), 16), g = parseInt(hex.slice(2, 4), 16), b = parseInt(hex.slice(4, 6), 16);
+    return (0.299 * r + 0.587 * g + 0.114 * b) > 165;
+  }
+  function logo(t) { return (t && (t.logo || (t.logos && t.logos[0] && t.logos[0].href))) || ''; }
+
+  // ---- Schedule ----
+  var today = new Date();
+  var end = new Date(); end.setDate(today.getDate() + 6);
+  fetch(CFB + '/scoreboard?groups=80&limit=400&dates=' + ymd(today) + '-' + ymd(end))
+    .then(function (r) { return r.json(); })
+    .then(function (data) {
+      var host = document.getElementById('ncaa-schedule');
+      var events = (data.events || []).slice().sort(function (a, b) { return new Date(a.date) - new Date(b.date); });
+      if (!events.length) { host.innerHTML = '<p class="ncaa-loading">No games scheduled in the next seven days.</p>'; return; }
+      var byDay = {};
+      events.forEach(function (e) { var k = e.date.slice(0, 10); (byDay[k] = byDay[k] || []).push(e); });
+      var DOW = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+      var MON = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+      var html = Object.keys(byDay).sort().map(function (k) {
+        var p = k.split('-'); var d = new Date(+p[0], +p[1] - 1, +p[2]);
+        var label = DOW[d.getDay()] + ', ' + MON[d.getMonth()] + ' ' + d.getDate();
+        var cards = byDay[k].map(renderGame).join('');
+        return '<div class="ncaa-day">' + label + '</div><div class="ncaa-games">' + cards + '</div>';
+      }).join('');
+      host.innerHTML = html;
+    })
+    .catch(function () { document.getElementById('ncaa-schedule').innerHTML = '<p class="ncaa-loading">Schedule is unavailable right now.</p>'; });
+
+  function teamRow(c, showScore) {
+    var t = c.team || {};
+    var rk = (c.curatedRank && c.curatedRank.current && c.curatedRank.current <= 25) ? '<span class="rk">#' + c.curatedRank.current + '</span>' : '<span class="rk"></span>';
+    var lg = logo(t) ? '<img src="' + escA(logo(t)) + '" alt="" loading="lazy" onerror="this.remove()">' : '';
+    var sc = showScore && c.score != null ? '<span class="sc">' + esc(c.score) + '</span>' : '';
+    return '<div class="ncaa-team">' + rk + lg + '<span>' + esc(t.abbreviation || t.shortDisplayName || t.displayName || '') + '</span>' + sc + '</div>';
+  }
+  function renderGame(e) {
+    var c = (e.competitions && e.competitions[0]) || {};
+    var comp = c.competitors || [];
+    var home = comp.find(function (x) { return x.homeAway === 'home'; }) || comp[0] || {};
+    var away = comp.find(function (x) { return x.homeAway === 'away'; }) || comp[1] || {};
+    var st = (e.status && e.status.type) || {};
+    var scheduled = st.state === 'pre';
+    var showScore = !scheduled;
+    var color = (home.team && home.team.color) ? '#' + home.team.color.replace('#', '') : '#0a5a78';
+    var lightCls = isLight(color) ? ' light' : '';
+    var statusTxt;
+    if (scheduled) {
+      var dt = new Date(e.date);
+      statusTxt = dt.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit', timeZone: 'America/Chicago' });
+    } else if (st.state === 'in') {
+      statusTxt = '<span class="ncaa-live">' + esc(st.shortDetail || 'Live') + '</span>';
+    } else {
+      statusTxt = esc(st.shortDetail || 'Final');
+    }
+    var venue = (c.venue && c.venue.fullName) ? esc(c.venue.fullName) : '';
+    var tv = (c.broadcasts && c.broadcasts[0] && c.broadcasts[0].names && c.broadcasts[0].names[0]) ? esc(c.broadcasts[0].names[0]) : '';
+    var href = 'https://www.espn.com/college-football/game/_/gameId/' + esc(e.id);
+    return '<a class="ncaa-game' + lightCls + '" style="--home:' + color + '" href="' + href + '" target="_blank" rel="noopener">' +
+      '<div class="ncaa-game-body">' +
+        '<div class="ncaa-game-status">' + statusTxt + '</div>' +
+        teamRow(away, showScore) +
+        teamRow(home, showScore) +
+        '<div class="ncaa-game-meta"><span>' + venue + '</span><span>' + tv + '</span></div>' +
+      '</div></a>';
+  }
+
+  // ---- AP Top 25 ----
+  fetch(CFB + '/rankings')
+    .then(function (r) { return r.json(); })
+    .then(function (data) {
+      var host = document.getElementById('ncaa-top25');
+      var poll = (data.rankings || []).find(function (p) { return /AP Top 25/i.test(p.name); }) || (data.rankings || [])[0];
+      if (!poll || !poll.ranks) { host.innerHTML = '<p class="ncaa-loading">Rankings unavailable.</p>'; return; }
+      host.innerHTML = '<div class="ncaa-top25">' + poll.ranks.map(function (x) {
+        var t = x.team || {};
+        var lg = logo(t) ? '<img src="' + escA(logo(t)) + '" alt="" loading="lazy" onerror="this.remove()">' : '';
+        var trend = '', tv = (x.trend == null ? '-' : ('' + x.trend));
+        if (tv === '-' || tv === '0') trend = '<span class="tr tr-even">-</span>';
+        else if (tv.charAt(0) === '+') trend = '<span class="tr tr-up">&#9650; ' + esc(tv.slice(1)) + '</span>';
+        else trend = '<span class="tr tr-down">&#9660; ' + esc(tv.replace('-', '')) + '</span>';
+        return '<div class="rk-row"><span class="num">' + esc(x.current) + '</span>' + lg +
+          '<span><span class="nm">' + esc(t.location || t.nickname || t.name) + '</span><br><span class="rec">' + esc(x.recordSummary || '') + '</span></span>' + trend + '</div>';
+      }).join('') + '</div>';
+    })
+    .catch(function () { document.getElementById('ncaa-top25').innerHTML = '<p class="ncaa-loading">Rankings unavailable right now.</p>'; });
+
+  // ---- Conference standings ----
+  fetch('https://site.api.espn.com/apis/v2/sports/football/college-football/standings')
+    .then(function (r) { return r.json(); })
+    .then(function (data) {
+      var confs = (data.children || []).filter(function (c) { return c.standings && c.standings.entries && c.standings.entries.length; });
+      var tabs = document.getElementById('conf-tabs');
+      var table = document.getElementById('conf-table');
+      if (!confs.length) { tabs.innerHTML = ''; table.innerHTML = '<p class="ncaa-loading">Standings unavailable.</p>'; return; }
+      function shortName(n) {
+        return n.replace('Conference', '').replace('Southeastern', 'SEC').replace('Atlantic Coast', 'ACC')
+          .replace('American Athletic', 'American').replace('Mid-American', 'MAC').replace('Mountain West', 'Mtn West')
+          .replace('FBS Independents', 'Independents').trim();
+      }
+      function stat(entry, type) {
+        var s = (entry.stats || []).find(function (x) { return x.type === type; });
+        return s ? (s.displayValue || s.summary || s.value) : '';
+      }
+      function overall(entry) {
+        var s = (entry.stats || []).find(function (x) { return x.type === 'total' || x.name === 'overall'; });
+        return s ? (s.summary || s.displayValue) : '';
+      }
+      function render(idx) {
+        [].forEach.call(tabs.children, function (b, i) { b.className = 'conf-tab' + (i === idx ? ' active' : ''); });
+        var entries = confs[idx].standings.entries;
+        var rows = entries.map(function (e, i) {
+          var t = e.team || {};
+          var lg = logo(t) ? '<img src="' + escA(logo(t)) + '" alt="" loading="lazy" onerror="this.remove()">' : '';
+          var streak = stat(e, 'streak');
+          var diff = stat(e, 'pointdifferential');
+          return '<tr><td class="c">' + (i + 1) + '</td>' +
+            '<td><span class="team">' + lg + esc(t.displayName || t.location) + '</span></td>' +
+            '<td class="c">' + esc(overall(e)) + '</td>' +
+            '<td class="c">' + esc(streak) + '</td>' +
+            '<td class="c">' + esc(diff) + '</td></tr>';
+        }).join('');
+        table.innerHTML = '<table class="conf-table"><thead><tr><th class="c">#</th><th>Team</th><th class="c">Record</th><th class="c">Streak</th><th class="c">Pt Diff</th></tr></thead><tbody>' + rows + '</tbody></table>';
+      }
+      tabs.innerHTML = confs.map(function (c, i) { return '<button class="conf-tab" type="button" data-i="' + i + '">' + esc(shortName(c.name)) + '</button>'; }).join('');
+      [].forEach.call(tabs.children, function (b) { b.addEventListener('click', function () { render(+b.getAttribute('data-i')); }); });
+      var def = confs.findIndex(function (c) { return /Big Ten/.test(c.name); });
+      render(def >= 0 ? def : 0);
+    })
+    .catch(function () { document.getElementById('conf-table').innerHTML = '<p class="ncaa-loading">Standings unavailable right now.</p>'; });
+
+  // ---- News (top 3) ----
+  fetch(CFB + '/news')
+    .then(function (r) { return r.json(); })
+    .then(function (data) {
+      var host = document.getElementById('ncaa-news');
+      var arts = (data.articles || []).filter(function (a) { return a.headline; }).slice(0, 3);
+      if (!arts.length) { host.innerHTML = '<p class="ncaa-loading">No news right now.</p>'; return; }
+      host.innerHTML = '<div class="ncaa-news">' + arts.map(function (a) {
+        var img = (a.images && a.images[0] && a.images[0].url) ? '<img src="' + escA(a.images[0].url) + '" alt="" loading="lazy" onerror="this.remove()">' : '';
+        var href = (a.links && a.links.web && a.links.web.href) || '#';
+        return '<a class="news-card" href="' + escA(href) + '" target="_blank" rel="noopener">' + img +
+          '<div class="nc-body"><h4>' + esc(a.headline) + '</h4><p>' + esc(a.description || '') + '</p></div></a>';
+      }).join('') + '</div>';
+    })
+    .catch(function () { document.getElementById('ncaa-news').innerHTML = '<p class="ncaa-loading">News unavailable right now.</p>'; });
+})();
+</script>
+<script src="js/ticker.js?v=20260708a"></script>
+<script src="js/analytics.js?v=20260730b" defer></script>
+</body>
+</html>
