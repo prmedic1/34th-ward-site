@@ -1,6 +1,54 @@
 {
- "generated_at": "2026-09-07T18:34:49.217Z",
+ "generated_at": "2026-09-08T13:00:37.497Z",
  "items": [
+  {
+   "id": "politico-20260908-mayor-brandon-johnson-expected-to-announ",
+   "category": "elected_official",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Mayor Brandon Johnson expected to announce reelection bid and next‑year budget plans",
+   "summary": "Mayor Brandon Johnson is widely expected to confirm his 2027 reelection bid at a special announcement on Sunday after the Bears game, where he also unveiled his budget proposals for the next fiscal year. The announcement comes as fellow mayoral candidate Alexi Giannoulias released a new ad targeting Flock license‑plate cameras, featuring state Sen. Javier Cervantes. The mayoral race is heating up ahead of the November 3 midterms and the February 23 Chicago municipal elections.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-09-08T12:01:15.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "politico-20260908-tusk-strategies-opens-chicago-office-wit",
+   "category": "business",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Tusk Strategies opens Chicago office with Mike Cassel as head",
+   "summary": "National public affairs firm Tusk Strategies announced the opening of a Chicago office and appointed former Obama administration official Mike Cassel to lead it. Cassel previously headed government affairs at ID.me and spent a decade at Boeing before joining the firm. Tusk Strategies aims to use Chicago as a strategic Midwest hub for multi‑region campaigns and to assist clients in emerging industries such as quantum computing, artificial intelligence, and data centers.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-09-08T12:01:15.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "axios-20260908-beluga-deaths-raise-questions",
+   "category": "newsletter",
+   "source_id": "axios",
+   "source_name": "Axios Chicago",
+   "source_type": "email_newsletter",
+   "title": "Beluga deaths raise questions",
+   "summary": "Visitors watch a beluga whale swim at the Shedd Aquarium in 2012. Photo by Scott Olson/Getty Images Three recent beluga whale deaths at Chicago's Shedd Aquarium are renewing animal welfare activists' scrutiny of these facilities. Animal welfare activists point to the deaths as examples of the dangers of captivity, while aquariums and other marine facilities argue they're best equipped to care for the mammals.",
+   "url": "https://www.axios.com/local/chicago",
+   "published_at": "2026-09-08T11:29:33.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260908-sunday-in-the-park-with-george-cast-visi",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Sunday In The Park With George' Cast Visits Art Institute To Celebrate Seurat And Sondheim",
+   "summary": "The entire cast of the Kokandy company’s play now running at the Chopin Theatre went to the museum to view the iconic painting that inspired the musical.",
+   "url": "https://blockclubchicago.org/2026/09/08/sunday-in-the-park-with-george-cast-visits-art-institute-to-celebrate-seurat-and-sondheim/",
+   "published_at": "2026-09-08T12:44:00.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "blockclub-20260906-future-white-sox-owner-unveils-plans-for",
    "category": "civic_org",
@@ -1308,54 +1356,6 @@
    "summary": "A man was left in critical condition early Tuesday after being shot on Chicago's Near West Side.",
    "url": "https://www.cbsnews.com/chicago/news/man-shot-critically-wounded-street-chicago-near-west-side/",
    "published_at": "2026-08-18T13:04:42.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260818-louie-and-todd-chicago-s-internet-famous",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Louie And Todd, Chicago's Internet-Famous Cats, Are Living Their Best Lives On The Road",
-   "summary": "British Shorthairs Louie and Todd have visited 18 countries and counting with their owner Lazar Joksimovic and his wife, amassing more than 1.7 million followers online.",
-   "url": "https://blockclubchicago.org/2026/08/18/louie-and-todd-chicagos-internet-famous-cats-are-living-their-best-lives-on-the-road/",
-   "published_at": "2026-08-18T13:00:00.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "abc7-20260818-chopper-7-over-serious-crash-in-south-lo",
-   "category": "civic_org",
-   "source_id": "abc7",
-   "source_name": "ABC7 Chicago",
-   "source_type": "web_feed",
-   "title": "Chopper 7 over serious crash in South Loop",
-   "summary": "Chopper 7 over serious crash in South Loop on Tuesday morning.",
-   "url": "https://abc7chicago.com/post/chicago-traffic-chopper-7-serious-crash-south-loop-roosevelt-road-state-street-police-fire-dept-scene/19696854/",
-   "published_at": "2026-08-18T12:54:14.117Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260817-suspected-arson-being-investigated-at-em",
-   "category": "business",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Suspected Arson Being Investigated At Embattled West Loop Restaurant Habibti",
-   "summary": "Security footage shared with Block Club shows two people get out of a silver SUV and smash a window to gain entry to the business, which has been subject of a series of complaints from neighbors.",
-   "url": "https://blockclubchicago.org/2026/08/17/suspected-arson-being-investigated-at-embattled-west-loop-restaurant-habibti/",
-   "published_at": "2026-08-17T22:43:42.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260817-amara-coming-to-fulton-market-this-fall-",
-   "category": "business",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "AMARA, Coming To Fulton Market This Fall, Will Span Balkans In Mezze-Style Menu",
-   "summary": "The restaurant replacing Gino Marty’s is a tribute to chef Nemanja Milunovic’s upbringing in Belgrade. His brother Marko Milunovic will lead the bar program.",
-   "url": "https://blockclubchicago.org/2026/08/17/amara-coming-to-fulton-market-this-fall-will-span-balkans-in-mezze-style-menu/",
-   "published_at": "2026-08-17T15:01:02.000Z",
    "flagged_for_review": false
   }
  ]

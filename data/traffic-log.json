@@ -404,5 +404,14 @@
   "visitors": 441,
   "views": 7,
   "verdict": "usual"
+ },
+ {
+  "date": "2026-09-08",
+  "total": 853,
+  "visitors": 464,
+  "views": 74,
+  "article_total": 14,
+  "article_views": null,
+  "verdict": "good"
  }
 ]
