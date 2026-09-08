@@ -1,4 +1,4 @@
-const DATA_V = '20260907c';
+const DATA_V = '20260908a';
 // Daily-refreshed data must revalidate on every load, so the morning update
 // shows right away instead of a returning browser serving yesterday's copy.
 const NOCACHE = { cache: 'no-cache' };
@@ -187,71 +187,49 @@ Promise.all([
       return (wardKw.test(t) ? 4 : 0) + (residentKw.test(t) ? 2 : 0) + recentBonus - roundup;
     };
     const fresh = items.filter((it) => publishable(it) && FRONT_ORDER.includes(it.source_id) && isFresh(it) && !(excludeRe && excludeRe.test((it.title || '') + ' ' + (it.summary || ''))));
-    const freshestOf = (sid) => fresh.filter((it) => it.source_id === sid).sort(byDate)[0];
-
-    // Center = the biggest local story (from any source, even Politico/Axios).
-    // Politico and Axios are the other two of the top-two; if the lead is
-    // already one of them, or one has nothing fresh (weekends), the next
-    // freshest story fills that flank. The lead is centered on desktop and
-    // jumps to the top of the feed on mobile.
-    const lead = fresh.slice().sort((a, b) => (localScore(b) - localScore(a)) || byDate(a, b))[0];
-    const leadId = lead ? lead.id : null;
-    const seen = new Set();
-    const top = [];
-    const addUniq = (s) => { if (s && !seen.has(s.id)) { seen.add(s.id); top.push(s); } };
-    addUniq(lead);
-    if (!lead || lead.source_id !== 'politico') addUniq(freshestOf('politico'));
-    if (!lead || lead.source_id !== 'axios') addUniq(freshestOf('axios'));
-    // Fill the top row to three, preferring a source not already up top so the
-    // row never doubles up (e.g. two Axios stories).
-    while (top.length < 3) {
-      const usedSrc = new Set(top.map((s) => s.source_id));
-      const n = fresh.find((it) => !seen.has(it.id) && !usedSrc.has(it.source_id))
-        || fresh.find((it) => !seen.has(it.id));
-      if (!n) break;
-      addUniq(n);
-    }
-    const flanks = top.filter((s) => s.id !== leadId);
-    const topRow = lead ? [flanks[0], lead, flanks[1]] : flanks.slice(0, 3);
+    // Politico and Axios are curated once-a-day newsletters. Look back a little
+    // further than the 7-day window so they still lead on quiet weekends.
+    const recentOf = (sid) => {
+      const cut = Date.now() - 16 * 24 * 3600 * 1000;
+      return items.filter((it) => it.source_id === sid && publishable(it)
+        && new Date(it.published_at).getTime() >= cut
+        && !(excludeRe && excludeRe.test((it.title || '') + ' ' + (it.summary || ''))))
+        .sort(byDate)[0];
+    };
 
     // Dedupe near-identical stories (titles sharing 3+ significant words).
     const sigOf = (it) => (it.title || '').toLowerCase().replace(/[^a-z0-9 ]/g, ' ').split(/\s+/).filter((w) => w.length > 3);
+    const ONCE = new Set(['politico', 'axios']);
     const picks = [];
     const used = new Set();
     const sigs = [];
     const isDup = (words) => sigs.some((prev) => words.filter((w) => prev.includes(w)).length >= 3);
     const add = (story, isLead) => {
       if (!story || used.has(story.id)) return;
-      // Axios is a curated once-a-day source: only its newest story runs, so
-      // never let a second Axios item onto the page (yesterday's lingering).
-      if (story.source_id === 'axios' && picks.some((p) => p.story.source_id === 'axios')) return;
+      const once = ONCE.has(story.source_id);
+      // Politico and Axios are curated once-a-day sources: never let a second
+      // item from either onto the page (yesterday's can linger in the feed).
+      if (once && picks.some((p) => p.story.source_id === story.source_id)) return;
       const words = sigOf(story);
-      if (isDup(words)) return;
+      // The two curated sources always run (one each) even if they echo another
+      // headline; every other story is dropped when it duplicates one already up.
+      if (!once && isDup(words)) return;
       used.add(story.id); sigs.push(words);
       picks.push({ src: sources[story.source_id], story, count: countFor(story.source_id), isLead: !!isLead });
     };
-    topRow.forEach((s) => add(s, s && s.id === leadId));
+
+    // Front page section: Politico first, then Axios - one of each, never more.
+    add(recentOf('politico'));
+    add(recentOf('axios'));
+    // Then the biggest local story from another source, as the emphasized lead.
+    const lead = fresh.slice()
+      .sort((a, b) => (localScore(b) - localScore(a)) || byDate(a, b))
+      .find((it) => !used.has(it.id) && !ONCE.has(it.source_id));
+    add(lead, true);
+    // Backfill the rest of the six, freshest first.
     for (const it of fresh.slice().sort(byDate)) {
       if (picks.length >= FRONT_COUNT) break;
       add(it);
-    }
-
-    // Axios is one of the two curated top sources, so keep it on the page even
-    // when its freshest item collides with Politico (both cover the Bears) or is
-    // a few days past the 7-day window. Slot in its newest non-duplicate story,
-    // dropping the lowest-priority non-lead pick to hold the count at six.
-    if (!picks.some((p) => p.story.source_id === 'axios')) {
-      const axCut = Date.now() - 16 * 24 * 3600 * 1000;
-      const axStory = items.find((it) => it.source_id === 'axios' && publishable(it)
-        && new Date(it.published_at).getTime() >= axCut
-        && !(excludeRe && excludeRe.test((it.title || '') + ' ' + (it.summary || '')))
-        && !isDup(sigOf(it)));
-      if (axStory) {
-        if (picks.length >= FRONT_COUNT) {
-          for (let i = picks.length - 1; i >= 0; i--) { if (!picks[i].isLead) { picks.splice(i, 1); break; } }
-        }
-        add(axStory);
-      }
     }
 
     const gridEl = document.getElementById('frontpage-grid');
@@ -296,9 +274,11 @@ Promise.all([
       const byTall = () => st.map((x, i) => i).sort((a, b) => st[b].h - st[a].h);
 
       if (!haveMeet) {
-        // No meetings card: just even the two story stacks (longest-first).
-        let ha = 0, hb = 0;
-        byTall().forEach((i) => { if (ha <= hb) { colA.appendChild(st[i].c); ha += st[i].h; } else { colB.appendChild(st[i].c); hb += st[i].h; } });
+        // No meetings card: even the two stacks by height (longest-first), but
+        // keep each column in reading order so prioritized stories stay on top.
+        let ha = 0, hb = 0; const colOf = [];
+        byTall().forEach((i) => { if (ha <= hb) { colOf[i] = colA; ha += st[i].h; } else { colOf[i] = colB; hb += st[i].h; } });
+        st.forEach((x, i) => colOf[i].appendChild(x.c));
         return;
       }
 
@@ -317,7 +297,9 @@ Promise.all([
         if (!best || score < best.score) best = { mask, score };
       }
       if (best) {
-        byTall().forEach((i) => ((best.mask & (1 << i)) ? colB : colA).appendChild(st[i].c));
+        // Column chosen by the leveling mask; order within a column follows the
+        // reading order so prioritized stories (Politico, Axios) stay near top.
+        st.forEach((x, i) => ((best.mask & (1 << i)) ? colB : colA).appendChild(x.c));
       } else {
         // Fallback (e.g. one giant story): smallest story under the card.
         const idx = st.map((x, i) => i).sort((a, b) => st[a].h - st[b].h);
