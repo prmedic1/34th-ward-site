@@ -35,6 +35,10 @@
   .ncaa-btn-mark { display: block; }
   .ncaa-section-title { font-family: var(--font-head); font-size: 1.5rem; color: var(--text); margin: 30px 0 6px; }
   .ncaa-note { font-size: 0.85rem; color: var(--muted); margin: 0 0 14px; }
+  /* Top 25 + standings side by side */
+  .ncaa-cols { display: grid; grid-template-columns: 1fr 1fr; gap: 30px; align-items: start; }
+  .ncaa-cols .ncaa-section-title { margin-top: 30px; }
+  @media (max-width: 860px) { .ncaa-cols { grid-template-columns: 1fr; gap: 0; } }
   /* Schedule */
   .ncaa-day { font-family: var(--font-body); font-weight: 800; font-size: 0.82rem; letter-spacing: 1px; text-transform: uppercase; color: var(--navy); margin: 22px 0 10px; padding-bottom: 6px; border-bottom: 2px solid var(--border); }
   .ncaa-games { display: grid; grid-template-columns: repeat(auto-fill, minmax(156px, 1fr)); gap: 8px; }
@@ -50,7 +54,7 @@
   .ncaa-live { color: #ffd8d8; }
   .ncaa-game.light .ncaa-live { color: #b3261e; }
   /* Top 25 */
-  .ncaa-top25 { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 8px; }
+  .ncaa-top25 { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 8px; }
   .rk-row { display: flex; align-items: center; gap: 10px; background: var(--card-bg); border: 1px solid var(--border); border-radius: 10px; padding: 8px 12px; }
   .rk-row .num { font-family: var(--font-head); font-weight: 800; font-size: 1.15rem; color: var(--navy); min-width: 26px; text-align: center; }
   .rk-row img { width: 32px; height: 32px; object-fit: contain; }
@@ -132,17 +136,22 @@
     </a>
   </div>
 
-  <h3 class="ncaa-section-title">AP Top 25</h3>
-  <p class="ncaa-note" id="top25-note"></p>
-  <div id="ncaa-top25"><p class="ncaa-loading">Loading the AP Top 25&hellip;</p></div>
-
-  <h3 class="ncaa-section-title">Conference Standings</h3>
-  <p class="ncaa-note">Pick a conference.</p>
-  <div class="conf-tabs" id="conf-tabs"></div>
-  <div id="conf-table"><p class="ncaa-loading">Loading standings&hellip;</p></div>
+  <div class="ncaa-cols">
+    <section>
+      <h3 class="ncaa-section-title">AP Top 25</h3>
+      <p class="ncaa-note" id="top25-note"></p>
+      <div id="ncaa-top25"><p class="ncaa-loading">Loading the AP Top 25&hellip;</p></div>
+    </section>
+    <section>
+      <h3 class="ncaa-section-title">Conference Standings</h3>
+      <p class="ncaa-note">Pick a conference.</p>
+      <div class="conf-tabs" id="conf-tabs"></div>
+      <div id="conf-table"><p class="ncaa-loading">Loading standings&hellip;</p></div>
+    </section>
+  </div>
 
   <h3 class="ncaa-section-title">This Week's Schedule</h3>
-  <p class="ncaa-note">Every FBS game over the next seven days, by day, in the home team's colors with both logos. Tap a game for details.</p>
+  <p class="ncaa-note">Every FBS game this week, grouped by day and colored by the home team. Tap a game for the full matchup.</p>
   <div id="ncaa-schedule"><p class="ncaa-loading">Loading this week's games&hellip;</p></div>
 
   <h3 class="ncaa-section-title">Latest College Football News</h3>
