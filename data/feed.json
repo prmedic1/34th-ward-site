@@ -1,6 +1,42 @@
 {
- "generated_at": "2026-09-08T13:00:37.497Z",
+ "generated_at": "2026-09-08T17:44:08.673Z",
  "items": [
+  {
+   "id": "politico-20260908-chicago-school-board-president-race-resh",
+   "category": "civic_org",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Chicago School Board president race reshapes after Jennifer Custer’s exit",
+   "summary": "Following Jennifer Custer’s departure, the Chicago School Board president race now includes Jessica Biggs, Hilario Domínguez, Victor Henderson and Sendhil Revuluri. Biggs has endorsements from Cook County Board President Toni Preckwinkle, Ald. Desmon Yancy and SEIU, while Domínguez is backed by the Chicago Teachers Union; Henderson faces scrutiny over past allegations involving corporal punishment of his children.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-09-08T12:01:15.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "cbs-20260908-bridgeport-south-loop-residents-lambaste",
+   "category": "civic_org",
+   "source_id": "cbs",
+   "source_name": "CBS News Chicago",
+   "source_type": "web_feed",
+   "title": "Bridgeport, South Loop residents lambaste plan for new White Sox stadium",
+   "summary": "This past weekend, a minority owner of the Chicago White Sox released a proposal to build a new stadium in the South Loop.​ On Tuesday, some people from both the Bridgeport and South Loop communities spoke out against the plan.",
+   "url": "https://www.cbsnews.com/chicago/news/bridgeport-south-loop-residents-lambaste-plan-new-white-sox-stadium/",
+   "published_at": "2026-09-08T17:18:20.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "cbs-20260908-community-leaders-residents-rally-agains",
+   "category": "civic_org",
+   "source_id": "cbs",
+   "source_name": "CBS News Chicago",
+   "source_type": "web_feed",
+   "title": "Community leaders, residents rally against potential Chicago White Sox move",
+   "summary": "This past weekend, a minority owner of the Chicago White Sox released a proposal to build a new stadium in the South Loop. On Tuesday, some people from both the Bridgeport and South Loop communities spoke out against the plan.",
+   "url": "https://www.cbsnews.com/chicago/video/community-leaders-residents-rally-against-potential-chicago-white-sox-move/",
+   "published_at": "2026-09-08T17:03:00.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "politico-20260908-mayor-brandon-johnson-expected-to-announ",
    "category": "elected_official",
@@ -1344,18 +1380,6 @@
    "summary": "The decision comes after NASCAR and the city were unable to agree on a date for 2027.",
    "url": "https://blockclubchicago.org/2026/08/18/nascar-will-not-return-to-chicago-in-2027-sources-say/",
    "published_at": "2026-08-18T21:09:07.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "cbs-20260818-man-shot-critically-wounded-on-street-on",
-   "category": "civic_org",
-   "source_id": "cbs",
-   "source_name": "CBS News Chicago",
-   "source_type": "web_feed",
-   "title": "Man shot, critically wounded on street on Chicago's Near West Side",
-   "summary": "A man was left in critical condition early Tuesday after being shot on Chicago's Near West Side.",
-   "url": "https://www.cbsnews.com/chicago/news/man-shot-critically-wounded-street-chicago-near-west-side/",
-   "published_at": "2026-08-18T13:04:42.000Z",
    "flagged_for_review": false
   }
  ]
