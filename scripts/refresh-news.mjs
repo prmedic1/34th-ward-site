@@ -256,12 +256,21 @@ async function main() {
   if (spot.current && spot.current.date === todayStr) {
     console.log(`Spotlight already set today (${spot.current.name}); not rotating again.`);
   } else {
-    const past = [...(spot.history || []), spot.current].filter(Boolean);
-    const lastSeen = new Map();
-    past.forEach((h, i) => { if (h.name) lastSeen.set(h.name, i); });
-    const pick =
-      SPOTLIGHT_POOL.find((b) => !lastSeen.has(b.name)) ||
-      SPOTLIGHT_POOL.slice().sort((a, b) => lastSeen.get(a.name) - lastSeen.get(b.name))[0];
+    // A one-time "pin" can feature a specific business on a chosen day (e.g. an
+    // owner request). If today matches spot.pin_next.date, use it and clear it
+    // so the normal rotation resumes the next day.
+    let pick;
+    if (spot.pin_next && spot.pin_next.date === todayStr) {
+      pick = spot.pin_next;
+      delete spot.pin_next;
+    } else {
+      const past = [...(spot.history || []), spot.current].filter(Boolean);
+      const lastSeen = new Map();
+      past.forEach((h, i) => { if (h.name) lastSeen.set(h.name, i); });
+      pick =
+        SPOTLIGHT_POOL.find((b) => !lastSeen.has(b.name)) ||
+        SPOTLIGHT_POOL.slice().sort((a, b) => lastSeen.get(a.name) - lastSeen.get(b.name))[0];
+    }
     if (spot.current) { spot.history = spot.history || []; spot.history.push(spot.current); }
     spot.current = {
       date: todayStr,
