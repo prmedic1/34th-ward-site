@@ -74,6 +74,7 @@
   .ncaa-game.light .ncaa-live { color: #b3261e; }
   .ncaa-line { margin-top: 5px; padding-top: 5px; border-top: 1px solid rgba(255,255,255,0.28); font-size: 0.62rem; font-weight: 700; letter-spacing: 0.2px; opacity: 0.95; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
   .ncaa-game.light .ncaa-line { border-top-color: rgba(0,0,0,0.16); }
+  .ncaa-line.ncaa-line-none { opacity: 0.55; font-weight: 600; }
   /* Top 25 - flows top-to-bottom down each column, then to the next */
   .ncaa-top25 { column-width: 200px; column-gap: 8px; }
   .rk-row { display: flex; align-items: center; gap: 10px; background: var(--card-bg); border: 1px solid var(--border); border-radius: 10px; padding: 8px 12px; break-inside: avoid; margin-bottom: 8px; }
@@ -320,11 +321,15 @@ document.getElementById('year').textContent = new Date().getFullYear();
     // Betting line for upcoming games: spread (e.g. MIA -7.5) and over/under.
     var odds = (c.odds && c.odds[0]) || null;
     var oddsLine = '';
-    if (scheduled && odds) {
+    if (scheduled) {
       var op = [];
-      if (odds.details) op.push(esc(odds.details));
-      if (odds.overUnder != null) op.push('O/U ' + esc(odds.overUnder));
-      if (op.length) oddsLine = '<div class="ncaa-line">' + op.join(' &middot; ') + '</div>';
+      if (odds && odds.details) op.push(esc(odds.details));
+      if (odds && odds.overUnder != null) op.push('O/U ' + esc(odds.overUnder));
+      // Books don't set a line for many FBS-vs-FCS games; say so instead of
+      // leaving the card looking like the data failed to load.
+      oddsLine = op.length
+        ? '<div class="ncaa-line">' + op.join(' &middot; ') + '</div>'
+        : '<div class="ncaa-line ncaa-line-none">No line</div>';
     }
     var href = 'https://www.espn.com/college-football/game/_/gameId/' + esc(e.id);
     return '<a class="ncaa-game' + lightCls + '" style="--home:' + color + '" href="' + href + '" target="_blank" rel="noopener">' +

@@ -272,27 +272,33 @@ Promise.all([
       originalOrder.forEach((c) => colA.appendChild(c));
       const st = originalOrder.map((c) => ({ c, h: c.getBoundingClientRect().height || 1 }));
       originalOrder.forEach((c) => c.remove());
-      const n = st.length;
-      const total = st.reduce((s, x) => s + x.h, 0);
-      const byTall = () => st.map((x, i) => i).sort((a, b) => st[b].h - st[a].h);
+
+      // Politico and Axios are pinned to the TOP of the LEFT column, in order,
+      // so Axios always sits directly under Politico. Everything else balances.
+      const PRI = { politico: 1, axios: 1 };
+      const pinned = st.filter((x) => PRI[x.c.dataset.src]);
+      const rest = st.filter((x) => !PRI[x.c.dataset.src]);
+      pinned.forEach((x) => colA.appendChild(x.c));
+      const pinnedH = pinned.reduce((s, x) => s + x.h, 0);
 
       if (!haveMeet) {
-        // No meetings card: even the two stacks by height (longest-first), but
-        // keep each column in reading order so prioritized stories stay on top.
-        let ha = 0, hb = 0; const colOf = [];
-        byTall().forEach((i) => { if (ha <= hb) { colOf[i] = colA; ha += st[i].h; } else { colOf[i] = colB; hb += st[i].h; } });
-        st.forEach((x, i) => colOf[i].appendChild(x.c));
+        // No meetings card: even the two stacks by height, keeping pinned on top.
+        let ha = pinnedH, hb = 0; const colOf = [];
+        rest.map((x, i) => i).sort((a, b) => rest[b].h - rest[a].h)
+          .forEach((i) => { if (ha <= hb) { colOf[i] = colA; ha += rest[i].h; } else { colOf[i] = colB; hb += rest[i].h; } });
+        rest.forEach((x, i) => colOf[i].appendChild(x.c));
         return;
       }
 
-      // Split the stories so the card height needed to level the bottoms
-      // (leftStories - rightStories) lands near min(naturalCard, half a column)
-      // and never exceeds half, while always leaving stories under the card.
+      // Split the REST so the card height needed to level the bottoms
+      // (leftStories - rightStories) lands near min(naturalCard, half a column).
+      const m = rest.length;
+      const restTotal = rest.reduce((s, x) => s + x.h, 0);
       let best = null;
-      for (let mask = 1; mask < (1 << n) - 1; mask++) {          // both sides non-empty
-        let Ra = 0; for (let i = 0; i < n; i++) if (mask & (1 << i)) Ra += st[i].h;
-        const La = total - Ra;                                   // left column (stories only)
-        const boxOuter = La - Ra;                                // card height that levels the bottoms
+      for (let mask = 0; mask < (1 << m); mask++) {
+        let Rb = 0; for (let i = 0; i < m; i++) if (mask & (1 << i)) Rb += rest[i].h;
+        const La = pinnedH + (restTotal - Rb);                   // left column stories (pinned + rest-in-A)
+        const boxOuter = La - Rb;                                // card height that levels the bottoms
         if (boxOuter < 60) continue;                             // card must be a real box
         const cap = La / 2;                                      // never over half the column
         if (boxOuter > cap + 0.5) continue;
@@ -300,13 +306,11 @@ Promise.all([
         if (!best || score < best.score) best = { mask, score };
       }
       if (best) {
-        // Column chosen by the leveling mask; order within a column follows the
-        // reading order so prioritized stories (Politico, Axios) stay near top.
-        st.forEach((x, i) => ((best.mask & (1 << i)) ? colB : colA).appendChild(x.c));
-      } else {
+        rest.forEach((x, i) => ((best.mask & (1 << i)) ? colB : colA).appendChild(x.c));
+      } else if (rest.length) {
         // Fallback (e.g. one giant story): smallest story under the card.
-        const idx = st.map((x, i) => i).sort((a, b) => st[a].h - st[b].h);
-        st.forEach((x, i) => (i === idx[0] ? colB : colA).appendChild(x.c));
+        const idx = rest.map((x, i) => i).sort((a, b) => rest[a].h - rest[b].h);
+        rest.forEach((x, i) => (i === idx[0] ? colB : colA).appendChild(x.c));
       }
 
       // Size the card so the columns bottom out together (measured, so borders
@@ -417,7 +421,7 @@ function renderFrontStory(src, story, count, isLead) {
     ? `<a class="np-more" href="source.html?s=${src.id}">More from ${escapeHtml(src.name)} (${count}) &rarr;</a>`
     : `<a class="np-more" href="source.html?s=${src.id}">Section page &rarr;</a>`;
   return `
-    <article class="np-story${isLead ? ' np-story--lead' : ''}">
+    <article class="np-story${isLead ? ' np-story--lead' : ''}" data-src="${escapeAttr(src.id)}">
       ${sourceMasthead(src)}
       ${img}
       <h4><a href="source.html?s=${src.id}">${escapeHtml(story.title)}</a></h4>
