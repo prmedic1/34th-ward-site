@@ -7,6 +7,22 @@
 <meta name="description" content="An archive of the biggest 34th Ward stories we have featured at the top of 34thward.com: development, elections, and the news shaping the West Loop.">
 <link rel="canonical" href="https://34thward.com/top-stories.html">
 <link rel="stylesheet" href="css/style.css?v=20260805a">
+<style>
+  /* Archive: give every story the same fixed-height photo banner so entries
+     match. A single photo (Conway, Soul City) fills the banner; a two-photo pair
+     (Bean, NASCAR) splits it. Without this, single photos blow up to full size. */
+  #top-stories-list .np-lead-media .np-lead-img:only-child {
+    height: 320px; width: 100%; max-width: none; margin: 0;
+    object-fit: cover; object-position: center 28%;
+  }
+  @media (max-width: 700px) {
+    /* On phones the diptych collapses to its primary photo; hold every entry's
+       photo to the same height so they line up. */
+    #top-stories-list .np-lead-media .np-lead-img {
+      height: 210px; object-fit: cover; object-position: center 28%;
+    }
+  }
+</style>
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="34thward.com">
 <meta property="og:title" content="34th Ward Top Stories">
