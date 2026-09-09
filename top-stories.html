@@ -98,6 +98,12 @@
     const img = s.image
       ? `<img class="np-lead-img" src="${escapeAttr(s.image)}" alt="${escapeAttr(s.image_alt || '')}" loading="lazy" onerror="this.remove()">`
       : '';
+    const img2 = s.image2
+      ? `<img class="np-lead-img2" src="${escapeAttr(s.image2)}" alt="${escapeAttr(s.image2_alt || '')}" loading="lazy" onerror="this.remove()">`
+      : '';
+    const media = (img || img2)
+      ? `<div class="np-lead-media${(img && img2) ? ' np-lead-media-two' : ''}">${img}${img2}</div>`
+      : '';
     let body;
     if (s.type === 'statement') {
       const paras = (s.paragraphs || []).map((p) => `<p>${escapeHtml(p)}</p>`).join('');
@@ -111,7 +117,7 @@
       body = `<p class="np-lead-summary">${escapeHtml(s.summary || '')}</p>${read}`;
     }
     const kicker = s.date_label ? escapeHtml(s.date_label) : escapeHtml(s.kicker || 'Top Story');
-    return `<article class="np-lead">${img}<div class="np-lead-body">` +
+    return `<article class="np-lead">${media}<div class="np-lead-body">` +
       `<p class="np-lead-kicker">${kicker}</p>` +
       `<h4 class="np-lead-headline">${escapeHtml(s.headline || '')}</h4>${body}</div></article>`;
   }
