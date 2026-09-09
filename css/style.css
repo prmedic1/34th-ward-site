@@ -436,6 +436,14 @@ a { color: var(--sky); }
   min-height: 240px;
   object-fit: cover;
 }
+/* Ad-style spotlight graphic: show the whole image instead of cropping it. */
+.spotlight-card img.spotlight-img--contain {
+  object-fit: contain;
+  background: #fff;
+}
+@media (max-width: 700px) {
+  .spotlight-card img.spotlight-img--contain { max-height: none; height: auto; min-height: 0; }
+}
 .spotlight-body { padding: 24px 28px; }
 .spotlight-body h3 {
   font-family: var(--font-head);

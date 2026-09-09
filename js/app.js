@@ -57,6 +57,9 @@ fetch('data/spotlight.json?d=' + DATA_V, NOCACHE)
     if (s.image) {
       simg.src = s.image;
       simg.onerror = () => { simg.style.display = 'none'; };
+      // Ad-style graphics (a logo/headshot promo) show whole; storefront photos
+      // stay cropped to fill the frame.
+      simg.classList.toggle('spotlight-img--contain', s.image_fit === 'contain');
     } else {
       simg.style.display = 'none';
     }
