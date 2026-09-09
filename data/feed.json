@@ -1,6 +1,78 @@
 {
- "generated_at": "2026-09-08T17:44:08.673Z",
+ "generated_at": "2026-09-09T13:00:36.131Z",
  "items": [
+  {
+   "id": "politico-20260909-residents-oppose-amtrak-s-24-7-bridgepor",
+   "category": "business",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Residents oppose Amtrak’s 24/7 Bridgeport facility near South Loop",
+   "summary": "Dozens of residents gathered Tuesday outside Rate Field to protest the proposed 24/7 Amtrak facility in Bridgeport. Opponents say the plan would cut through the neighborhood as the Chicago White Sox consider moving to the railroad’s current site in the South Loop. The opposition reflects concerns about neighborhood disruption and housing impacts.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-09-09T12:01:54.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "axios-20260909-white-sox-stadium-plan-backlash",
+   "category": "newsletter",
+   "source_id": "axios",
+   "source_name": "Axios Chicago",
+   "source_type": "email_newsletter",
+   "title": "White Sox stadium plan backlash",
+   "summary": "A rendering of a proposed White Sox stadium in the South Loop. Rendering: Courtesy of The Railyards project The White Sox's latest stadium proposal is fueling a fight over neighborhoods, mirroring the Bears' stadium drama over state lines. Future White Sox owner Justin Ishbia shared renderings Saturday of a new state-of-the-art ballpark that would anchor \"The Railyards,\" a megadevelopment on the Amtrak train yard.",
+   "url": "https://www.axios.com/local/chicago",
+   "published_at": "2026-09-09T11:27:32.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "abc7-20260909-fire-rips-through-west-town-apartment-bu",
+   "category": "civic_org",
+   "source_id": "abc7",
+   "source_name": "ABC7 Chicago",
+   "source_type": "web_feed",
+   "title": "Fire rips through West Town apartment building",
+   "summary": "Intense flames ripped through an apartment building in West Town Wednesday morning.",
+   "url": "https://abc7chicago.com/post/chicago-fire-blaze-rips-west-town-apartment-building/19809760/",
+   "published_at": "2026-09-09T13:00:25.808Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260909-second-arson-hits-embattled-west-loop-ba",
+   "category": "business",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Second Arson Hits Embattled West Loop Bar Habibti As Nuisance Calls Pile Up",
+   "summary": "The restaurant faces another fire, dozens of police calls and growing scrutiny over nuisance complaints and its license.",
+   "url": "https://blockclubchicago.org/2026/09/09/second-arson-hits-embattled-west-loop-bar-habibti-as-nuisance-calls-pile-up/",
+   "published_at": "2026-09-09T12:45:00.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "cbs-20260909-residents-escape-west-town-apartment-bui",
+   "category": "civic_org",
+   "source_id": "cbs",
+   "source_name": "CBS News Chicago",
+   "source_type": "web_feed",
+   "title": "Residents escape West Town apartment building fire",
+   "summary": "Residents safely escaped a large fire at an apartment building in Chicago's West Town neighborhood early Wednesday morning.",
+   "url": "https://www.cbsnews.com/chicago/news/residents-escape-west-town-apartment-building-fire/",
+   "published_at": "2026-09-09T10:59:46.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260908-amtrak-s-bridgeport-plan-a-knife-through",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Amtrak's Bridgeport Plan A Knife Through The Heart' Of Neighborhood, Residents Say",
+   "summary": "Dozens of residents gathered Tuesday outside Rate Field to oppose the 24/7 Amtrak facility proposed in Bridgeport as the Sox weigh a move to the railroad's current site in the South Loop.",
+   "url": "https://blockclubchicago.org/2026/09/08/amtrak-plan-for-bridgeport-a-knife-through-the-heart-of-neighborhood-residents-say-at-protest/",
+   "published_at": "2026-09-08T19:34:00.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "politico-20260908-chicago-school-board-president-race-resh",
    "category": "civic_org",
@@ -1344,42 +1416,6 @@
    "summary": "The museum - which featured a variety of Instagram-worthy installations - will shut down Sept. 7.",
    "url": "https://blockclubchicago.org/2026/08/19/wndr-museum-closing-after-eight-years/",
    "published_at": "2026-08-19T14:54:45.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260819-22-year-old-malcolm-x-grad-looking-to-st",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "22-Year-Old Malcolm X Grad Looking To Start Pharmacy Career When She Was Shot And Killed",
-   "summary": "The family of Pamela Hall has started a GoFundMe in her memory after she and her friend, 25-year-old Riek Daniel, were fatally shot exiting a South Side gas station.",
-   "url": "https://blockclubchicago.org/2026/08/19/22-year-old-malcolm-x-grad-looking-to-start-pharmacy-career-when-she-was-shot-and-killed/",
-   "published_at": "2026-08-19T12:44:35.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "abc7-20260819-man-seriously-injured-in-shooting-behind",
-   "category": "business",
-   "source_id": "abc7",
-   "source_name": "ABC7 Chicago",
-   "source_type": "web_feed",
-   "title": "Man seriously injured in shooting behind South Loop furniture store, police say",
-   "summary": "A man was seriously injured in a shooting behind a downtown store on Tuesday afternoon, Chicago police said.",
-   "url": "https://abc7chicago.com/post/south-loop-shooting-today-man-injured-chicago-behind-bobs-discount-furniture-ruble-roosevelt/19699404/",
-   "published_at": "2026-08-19T12:55:08.879Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260818-nascar-will-not-return-to-chicago-in-202",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "NASCAR Will Not Return To Chicago In 2027",
-   "summary": "The decision comes after NASCAR and the city were unable to agree on a date for 2027.",
-   "url": "https://blockclubchicago.org/2026/08/18/nascar-will-not-return-to-chicago-in-2027-sources-say/",
-   "published_at": "2026-08-18T21:09:07.000Z",
    "flagged_for_review": false
   }
  ]
