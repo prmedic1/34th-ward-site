@@ -15,6 +15,9 @@
     height: 320px; width: 100%; max-width: none; margin: 0;
     object-fit: cover; object-position: center 28%;
   }
+  /* Soul City: the church's name sign sits at the bottom of the photo, so anchor
+     that crop to the bottom to keep the sign readable. */
+  #top-stories-list .np-lead-media .np-lead-img[src*="soul-city"] { object-position: center bottom; }
   @media (max-width: 700px) {
     /* On phones the diptych collapses to its primary photo; hold every entry's
        photo to the same height so they line up. */
