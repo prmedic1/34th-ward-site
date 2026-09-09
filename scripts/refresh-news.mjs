@@ -272,11 +272,9 @@ async function main() {
         SPOTLIGHT_POOL.slice().sort((a, b) => lastSeen.get(a.name) - lastSeen.get(b.name))[0];
     }
     if (spot.current) { spot.history = spot.history || []; spot.history.push(spot.current); }
-    spot.current = {
-      date: todayStr,
-      name: pick.name, address: pick.address, website: pick.website,
-      image: pick.image || '', blurb: pick.blurb
-    };
+    // Spread the pick so optional fields (e.g. image_fit for ad-style graphics)
+    // carry over, not just the core five; the date is always today's.
+    spot.current = { ...pick, date: todayStr, image: pick.image || '' };
     await writeFile(spotPath, JSON.stringify(spot, null, 1) + '\n');
   }
 

@@ -6,7 +6,17 @@
   "address": "10100 S. Ewing Ave, Chicago",
   "website": "https://balanofflaw.com/",
   "image": "images/spotlight/balanoff-law.jpg?v=20260909b",
-  "blurb": "A solo Chicago attorney focused on estate planning and real estate: wills and trusts, probate, land trusts, and Board of Review property-tax appeals. Personal, straightforward counsel that neighbors find through referrals and word of mouth."
+  "image_fit": "contain",
+  "blurb": "Dan Balanoff, Attorney at Law focuses on estate planning, including wills, trusts, and powers of attorney, as well as probate administration, consumer bankruptcy, and real estate transactions. Call for a free consultation."
+ },
+ "pin_next": {
+  "date": "2026-09-10",
+  "name": "Dan Balanoff Attorney at Law",
+  "address": "10100 S. Ewing Ave, Chicago",
+  "website": "https://balanofflaw.com/",
+  "image": "images/spotlight/balanoff-law.jpg?v=20260909b",
+  "image_fit": "contain",
+  "blurb": "Dan Balanoff, Attorney at Law focuses on estate planning, including wills, trusts, and powers of attorney, as well as probate administration, consumer bankruptcy, and real estate transactions. Call for a free consultation."
  },
  "history": [
   {
