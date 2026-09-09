@@ -1,6 +1,66 @@
 {
- "generated_at": "2026-09-09T13:00:36.131Z",
+ "generated_at": "2026-09-09T17:31:18.745Z",
  "items": [
+  {
+   "id": "politico-20260908-tusk-strategies-opens-chicago-office-hir",
+   "category": "business",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Tusk Strategies opens Chicago office, hires former Obama aide Mike Cassel as head",
+   "summary": "National public‑affairs firm Tusk Strategies announced the opening of a Chicago office and named Mike Cassel as its Chicago leader. Cassel, a veteran of the Obama administration, most recently headed government affairs at ID.me and spent a decade at Boeing, and he said Chicago will serve as a strategic Midwest hub for the firm’s work with emerging industries and regulatory battles.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-09-08T12:01:15.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "cbs-20260909-ribbon-cut-for-the-bellwether-residences",
+   "category": "civic_org",
+   "source_id": "cbs",
+   "source_name": "CBS News Chicago",
+   "source_type": "web_feed",
+   "title": "Ribbon cut for The Bellwether Residences, office-to-residential conversion in downtown Chicago",
+   "summary": "Chicago city leaders on Wednesday hosted a ribbon-cutting ceremony for a new apartment building converted from an office building downtown.",
+   "url": "https://www.cbsnews.com/chicago/news/ribbon-cut-bellwether-residences-office-to-residential-conversion-downtown-chicago/",
+   "published_at": "2026-09-09T16:30:02.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "cbs-20260909-ribbon-cut-for-new-apartments-in-renovat",
+   "category": "civic_org",
+   "source_id": "cbs",
+   "source_name": "CBS News Chicago",
+   "source_type": "web_feed",
+   "title": "Ribbon cut for new apartments in renovated downtown Chicago office building",
+   "summary": "Chicago city leaders on Wednesday hosted a ribbon-cutting ceremony for the new Bellwether Residences, converted from an office building downtown.",
+   "url": "https://www.cbsnews.com/chicago/video/ribbon-cut-for-new-apartments-in-renovated-downtown-chicago-office-building/",
+   "published_at": "2026-09-09T16:15:00.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "cbs-20260909-go-back-to-the-70-s-at-good-night-john-b",
+   "category": "civic_org",
+   "source_id": "cbs",
+   "source_name": "CBS News Chicago",
+   "source_type": "web_feed",
+   "title": "Go back to the 70's at Good Night John Boy in West Loop",
+   "summary": "Take a trip back to the 70's with Good Night John Boy in the West Loop.",
+   "url": "https://www.cbsnews.com/chicago/video/go-back-to-the-70s-at-good-night-john-boy-in-west-loop/",
+   "published_at": "2026-09-09T15:47:00.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260909-city-offers-500-big-jump-ahead-of-chicag",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "City Offers $500 ‘Big Jump' Ahead Of Chicago River Swim",
+   "summary": "Only 100 spots are available for the rare sanctioned river jump, while registration has also reopened for the Chicago River Swim later this month to allow 250 more people to take part.",
+   "url": "https://blockclubchicago.org/2026/09/09/city-offers-500-big-jump-ahead-of-chicago-river-swim/",
+   "published_at": "2026-09-09T16:36:55.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "politico-20260909-residents-oppose-amtrak-s-24-7-bridgepor",
    "category": "business",
@@ -1405,18 +1465,6 @@
    "published_at": "2026-08-20T00:39:42.000Z",
    "flagged_for_review": false,
    "front_exclude": true
-  },
-  {
-   "id": "blockclub-20260819-wndr-museum-closing-after-8-years",
-   "category": "business",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "WNDR Museum Closing After 8 Years",
-   "summary": "The museum - which featured a variety of Instagram-worthy installations - will shut down Sept. 7.",
-   "url": "https://blockclubchicago.org/2026/08/19/wndr-museum-closing-after-eight-years/",
-   "published_at": "2026-08-19T14:54:45.000Z",
-   "flagged_for_review": false
   }
  ]
 }
