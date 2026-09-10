@@ -1,15 +1,6 @@
 {
  "_rotation_note": "The daily job picks the next business each morning - rotating among ward businesses with priority to spotlight requests from owners and newly opened spots. Keep yesterday's entries in history.",
  "current": {
-  "date": "2026-09-09",
-  "name": "Dan Balanoff Attorney at Law",
-  "address": "10100 S. Ewing Ave, Chicago",
-  "website": "https://balanofflaw.com/",
-  "image": "images/spotlight/balanoff-law.jpg?v=20260909b",
-  "image_fit": "contain",
-  "blurb": "Dan Balanoff, Attorney at Law focuses on estate planning, including wills, trusts, and powers of attorney, as well as probate administration, consumer bankruptcy, and real estate transactions. Call for a free consultation."
- },
- "pin_next": {
   "date": "2026-09-10",
   "name": "Dan Balanoff Attorney at Law",
   "address": "10100 S. Ewing Ave, Chicago",
@@ -634,6 +625,15 @@
    "website": "https://www.nationalhellenicmuseum.org/",
    "image": "images/spotlight/national-hellenic-museum.jpg?v=20260903",
    "blurb": "Greektown's museum of the Greek American experience, with rotating exhibits, a rooftop with skyline views, and a busy calendar of events."
+  },
+  {
+   "date": "2026-09-09",
+   "name": "Dan Balanoff Attorney at Law",
+   "address": "10100 S. Ewing Ave, Chicago",
+   "website": "https://balanofflaw.com/",
+   "image": "images/spotlight/balanoff-law.jpg?v=20260909b",
+   "image_fit": "contain",
+   "blurb": "Dan Balanoff, Attorney at Law focuses on estate planning, including wills, trusts, and powers of attorney, as well as probate administration, consumer bankruptcy, and real estate transactions. Call for a free consultation."
   }
  ]
 }

@@ -1,6 +1,90 @@
 {
- "generated_at": "2026-09-09T17:31:18.745Z",
+ "generated_at": "2026-09-10T13:00:31.928Z",
  "items": [
+  {
+   "id": "politico-20260910-mayor-brandon-johnson-to-speak-at-mixed-",
+   "category": "business",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Mayor Brandon Johnson to speak at mixed‑income residential development at 5200 W Chicago Ave",
+   "summary": "Mayor Brandon Johnson will deliver remarks at a mixed‑income residential development project located at 5200 W Chicago Ave, part of the Rainbow PUSH Coalition Empowerment Day. The project is in the West Loop/Fulton Market area of the 34th Ward and signals new housing investment in the neighborhood.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-09-10T12:01:13.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "axios-20260910-illinois-republicans-in-texas",
+   "category": "newsletter",
+   "source_id": "axios",
+   "source_name": "Axios Chicago",
+   "source_type": "email_newsletter",
+   "title": "Illinois Republicans in Texas",
+   "summary": "The Republican National Committee Midterm Convention takes place this week in Dallas. Brandon Bell/Getty Images Illinois Republican gubernatorial candidate Darren Bailey has spent the campaign trying to put daylight between himself and President Trump, but this week his party is doing the opposite. Bailey and other Illinois Republicans are in Dallas for the first-ever Republican midterm convention, although none.",
+   "url": "https://www.axios.com/local/chicago",
+   "published_at": "2026-09-10T11:29:21.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "abc7-20260910-boy-16-dies-after-being-found-shot-at-gr",
+   "category": "civic_org",
+   "source_id": "abc7",
+   "source_name": "ABC7 Chicago",
+   "source_type": "web_feed",
+   "title": "Boy, 16, dies after being found shot at Grant Skate Park in South Loop, Chicago police say",
+   "summary": "A 16-year-old boy died after he was found shot at the Grant Skate Park in the South Loop Wednesday night, Chicago police said.",
+   "url": "https://abc7chicago.com/post/chicago-shooting-boy-16-dies-being-found-shot-grant-skate-park-south-loop-police-say/19814510/",
+   "published_at": "2026-09-10T13:00:24.481Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "cbs-20260910-man-stabbed-during-fight-in-loop-chicago",
+   "category": "civic_org",
+   "source_id": "cbs",
+   "source_name": "CBS News Chicago",
+   "source_type": "web_feed",
+   "title": "Man stabbed during fight in Loop, Chicago police say",
+   "summary": "A 21-year-old man was stabbed in the Loop early Thursday morning during a fight, Chicago police said.",
+   "url": "https://www.cbsnews.com/chicago/news/man-stabbed-fight-loop-chicago-police/",
+   "published_at": "2026-09-10T10:30:00.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "cbs-20260910-teen-killed-in-shooting-at-grant-park-sk",
+   "category": "civic_org",
+   "source_id": "cbs",
+   "source_name": "CBS News Chicago",
+   "source_type": "web_feed",
+   "title": "Teen killed in shooting at Grant Park skate park in South Loop, Chicago police say",
+   "summary": "A 16-year-old boy died after being found shot in Grant Park's skate park in the South Loop Wednesday night, Chicago police said.",
+   "url": "https://www.cbsnews.com/chicago/news/teen-killed-south-loop-shooting-grant-park/",
+   "published_at": "2026-09-10T10:24:03.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "cbs-20260910-teen-dies-found-shot-in-grant-park-skate",
+   "category": "civic_org",
+   "source_id": "cbs",
+   "source_name": "CBS News Chicago",
+   "source_type": "web_feed",
+   "title": "Teen dies, found shot in Grant Park skate park, Chicago police say",
+   "summary": "A 16-year-old boy died after being found with a gunshot wound to the neck in the Grant Park skate park in the South Loop, Chicago police said.",
+   "url": "https://www.cbsnews.com/chicago/video/teen-dies-found-shot-in-grant-park-skate-park-chicago-police-say/",
+   "published_at": "2026-09-10T10:17:00.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260909-first-city-backed-apartments-on-lasalle-",
+   "category": "business",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "First City-Backed Apartments On LaSalle Street Now Renting, Signal Transformed Financial District",
+   "summary": "DOWNTOWN - The first apartments created through Chicago’s LaSalle Street Reimagined initiative are officially on the market, marking a major milestone in the city’s effort to transform the historic financial district into a residential corridor.",
+   "url": "https://blockclubchicago.org/2026/09/09/first-city-backed-apartments-on-lasalle-street-now-renting-signal-transformed-financial-district/",
+   "published_at": "2026-09-09T23:05:24.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "politico-20260908-tusk-strategies-opens-chicago-office-hir",
    "category": "business",
@@ -1428,43 +1512,6 @@
    "url": "https://blockclubchicago.org/2026/08/20/christkindlmarket-returns-to-loop-and-wrigleyville-nov-20-for-holiday-season/",
    "published_at": "2026-08-20T20:28:17.000Z",
    "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260820-28-things-to-do-in-chicago-this-weekend-",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "28 Things To Do In Chicago This Weekend: Lakeview Taco Fest, Back-To-School Events And More",
-   "summary": "The West Loop Art Fest, a Latina music festival, a classical music festival in Ravenswood and the Bridgeport Third Friday Art Walk are also on deck.",
-   "url": "https://blockclubchicago.org/2026/08/20/28-things-to-do-in-chicago-this-weekend-lakeview-taco-fest-back-to-school-events-and-more/",
-   "published_at": "2026-08-20T12:09:57.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "cbs-20260820-motorcyclist-killed-in-crash-in-downtown",
-   "category": "civic_org",
-   "source_id": "cbs",
-   "source_name": "CBS News Chicago",
-   "source_type": "web_feed",
-   "title": "Motorcyclist killed in crash in downtown Chicago",
-   "summary": "A woman was hit and killed in a crash while riding a motorcycle in The Loop overnight.",
-   "url": "https://www.cbsnews.com/chicago/news/motorcyclist-killed-downtown-chicago/",
-   "published_at": "2026-08-20T10:45:33.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260820-outside-archdiocese-offices-saint-sabina",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Outside Archdiocese Offices, Saint Sabina Parishioners Call For End To Michael Pfleger Sex Abuse Probe",
-   "summary": "The protest follows a month-long investigation led by the Archdiocese of Chicago's Independent Review Board into allegations of sexual abuse against the outspoken senior pastor.",
-   "url": "https://blockclubchicago.org/2026/08/19/outside-archdiocese-offices-saint-sabina-parishioners-call-for-end-to-michael-pfleger-sex-abuse-probe/",
-   "published_at": "2026-08-20T00:39:42.000Z",
-   "flagged_for_review": false,
-   "front_exclude": true
   }
  ]
 }
