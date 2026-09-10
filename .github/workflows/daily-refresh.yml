@@ -39,6 +39,9 @@ jobs:
       - name: Refresh news from public local feeds + rotate spotlight
         run: node scripts/refresh-news.mjs
 
+      - name: Refresh Tiny Tapp riverwalk live-music schedule
+        run: node scripts/refresh-tinytapp.mjs
+
       - name: Install newsletter dependencies
         run: npm install --no-save imapflow mailparser
 
