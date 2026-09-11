@@ -45,6 +45,9 @@ jobs:
       - name: Refresh Chicago sports home games (ESPN)
         run: node scripts/refresh-sports.mjs
 
+      - name: Refresh concert-venue schedules (structured-data venues)
+        run: node scripts/refresh-venues.mjs
+
       - name: Install newsletter dependencies
         run: npm install --no-save imapflow mailparser
 
