@@ -42,6 +42,9 @@ jobs:
       - name: Refresh Tiny Tapp riverwalk live-music schedule
         run: node scripts/refresh-tinytapp.mjs
 
+      - name: Refresh Chicago sports home games (ESPN)
+        run: node scripts/refresh-sports.mjs
+
       - name: Install newsletter dependencies
         run: npm install --no-save imapflow mailparser
 
