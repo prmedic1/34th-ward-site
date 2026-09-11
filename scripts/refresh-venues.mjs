@@ -22,6 +22,14 @@ const UA = { headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 const centralDate = (iso) => new Date(iso).toLocaleDateString('en-CA', { timeZone: 'America/Chicago' });
 const centralTime = (iso) => new Date(iso).toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit', timeZone: 'America/Chicago' });
 const cleanTitle = (s) => String(s).split(':')[0].replace(/\s+/g, ' ').trim();
+const MON = { Jan: 1, Feb: 2, Mar: 3, Apr: 4, May: 5, Jun: 6, Jul: 7, Aug: 8, Sep: 9, Oct: 10, Nov: 11, Dec: 12 };
+function decodeEntities(s) {
+  let o = String(s);
+  while (o.includes('&amp;')) o = o.replace(/&amp;/g, '&');
+  return o.replace(/&#(\d+);/g, (_, n) => String.fromCharCode(+n))
+    .replace(/&#x([0-9a-f]+);/gi, (_, n) => String.fromCharCode(parseInt(n, 16)))
+    .replace(/&rsquo;|&#8217;/g, '’').replace(/&nbsp;/g, ' ').replace(/\s+/g, ' ').trim();
+}
 
 // Pull schema.org Event / MusicEvent objects out of a page's JSON-LD blocks.
 function ldEvents(html) {
@@ -54,12 +62,42 @@ const VENUES = [
       }
       return out;
     }
+  },
+  {
+    name: "Garcia's Chicago",
+    url: 'https://garciaschicago.live/shows',
+    address: '1001 W. Washington Blvd, West Loop',
+    local: true,
+    fallback: 'https://garciaschicago.live/shows',
+    parse(html, todayStr, endStr, V) {
+      // Server-rendered list: "Mon DD  <title>  Doors <t> / Show H:MM AM/PM".
+      let seg = html; const s = html.indexOf('Upcoming Shows'); if (s >= 0) seg = html.slice(s);
+      const txt = seg.replace(/<[^>]+>/g, ' ').replace(/&amp;/g, '&').replace(/\s+/g, ' ');
+      const re = /(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s+(\d{1,2})\s+(.+?)\s+(?:Doors[^/]*\/\s*)?Show\s+(\d{1,2}:\d{2})\s*([AP]M)/gi;
+      const nowYear = new Date().getFullYear();
+      const out = []; const seen = new Set(); let m;
+      while ((m = re.exec(txt))) {
+        const mon = MON[m[1][0].toUpperCase() + m[1].slice(1).toLowerCase()];
+        if (!mon) continue;
+        const mk = (yr) => yr + '-' + String(mon).padStart(2, '0') + '-' + String(+m[2]).padStart(2, '0');
+        let date = mk(nowYear);
+        if (new Date(date) < new Date(Date.now() - 30 * 864e5)) date = mk(nowYear + 1); // roll year in late Dec
+        if (date < todayStr || date > endStr) continue;
+        const title = decodeEntities(m[3]).slice(0, 80);
+        if (title.length < 2) continue;
+        const time = m[4] + ' ' + m[5].toUpperCase();
+        const key = date + '|' + time + '|' + title;
+        if (seen.has(key)) continue; seen.add(key);
+        out.push({ title, venue: V.name, cat: 'concert', date, time, address: V.address, local: V.local, url: V.fallback });
+      }
+      return out;
+    }
   }
 ];
 
 async function main() {
   const today = new Date();
-  const end = new Date(); end.setDate(end.getDate() + 45);
+  const end = new Date(); end.setDate(end.getDate() + 21);
   const todayStr = today.toLocaleDateString('en-CA', { timeZone: 'America/Chicago' });
   const endStr = end.toLocaleDateString('en-CA', { timeZone: 'America/Chicago' });
 
