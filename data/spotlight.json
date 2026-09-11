@@ -1,13 +1,12 @@
 {
  "_rotation_note": "The daily job picks the next business each morning - rotating among ward businesses with priority to spotlight requests from owners and newly opened spots. Keep yesterday's entries in history.",
  "current": {
-  "date": "2026-09-10",
-  "name": "Dan Balanoff Attorney at Law",
-  "address": "10100 S. Ewing Ave, Chicago",
-  "website": "https://balanofflaw.com/",
-  "image": "images/spotlight/balanoff-law.jpg?v=20260909b",
-  "image_fit": "contain",
-  "blurb": "Dan Balanoff, Attorney at Law focuses on estate planning, including wills, trusts, and powers of attorney, as well as probate administration, consumer bankruptcy, and real estate transactions. Call for a free consultation."
+  "name": "Lou Mitchell's",
+  "address": "565 W. Jackson Blvd, West Loop",
+  "website": "https://www.loumitchells.com/",
+  "image": "images/lou-mitchells.jpg",
+  "blurb": "A Chicago breakfast landmark at the original starting line of Route 66, serving since 1923. Lou Mitchell's is famous for double-yolk eggs, skillet omelettes served in the pan, and the free Milk Duds and donut holes handed out while you wait.",
+  "date": "2026-09-11"
  },
  "history": [
   {
@@ -628,6 +627,15 @@
   },
   {
    "date": "2026-09-09",
+   "name": "Dan Balanoff Attorney at Law",
+   "address": "10100 S. Ewing Ave, Chicago",
+   "website": "https://balanofflaw.com/",
+   "image": "images/spotlight/balanoff-law.jpg?v=20260909b",
+   "image_fit": "contain",
+   "blurb": "Dan Balanoff, Attorney at Law focuses on estate planning, including wills, trusts, and powers of attorney, as well as probate administration, consumer bankruptcy, and real estate transactions. Call for a free consultation."
+  },
+  {
+   "date": "2026-09-10",
    "name": "Dan Balanoff Attorney at Law",
    "address": "10100 S. Ewing Ave, Chicago",
    "website": "https://balanofflaw.com/",
