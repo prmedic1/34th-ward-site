@@ -1,6 +1,102 @@
 {
- "generated_at": "2026-09-11T13:00:38.280Z",
+ "generated_at": "2026-09-11T17:29:29.524Z",
  "items": [
+  {
+   "id": "politico-20260910-rep-lauren-underwood-speaks-at-the-hideo",
+   "category": "elected_official",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Rep. Lauren Underwood speaks at The Hideout on House and Senate prospects",
+   "summary": "Congresswoman Lauren Underwood addressed a crowd at The Hideout in the West Loop on Sept. 9, 2026, saying Democrats will retake the House in November and could also win the Senate. She emphasized the party’s affordability message, linking health care, housing, groceries, gas and child care to voters’ concerns. Underwood, co‑chair of the DCCC’s Red to Blue program, highlighted the need to win the 14th District and build a durable Democratic majority.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-09-10T12:01:13.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "conway-20260911-chicago-police-to-impose-traffic-restric",
+   "category": "civic_org",
+   "source_id": "conway",
+   "source_name": "Conway's Corner (34th Ward Office Newsletter)",
+   "source_type": "email_newsletter",
+   "title": "Chicago Police to impose traffic restrictions in Loop for Mexican Independence Day weekend",
+   "summary": "From Friday September 11 through Wednesday September 16 the Chicago Police Department may limit vehicular traffic in the Central Business District. Checkpoints will be set up at Halsted/Washington, Halsted/Madison, Halsted/Jackson, Division/LaSalle, Roosevelt/Canal, Taylor/Desplaines, 18th/State and 18th/Indiana, and access passes will be required at those points. Residents and workers are advised to carry ID or proof of address and to stay alert for possible closures if pedestrians are present.",
+   "url": "https://www.ward34.org/",
+   "published_at": "2026-09-11T16:16:19.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "wca-20260911-1282-washington-development-announced-as",
+   "category": "business",
+   "source_id": "wca",
+   "source_name": "The WCA Weekly",
+   "source_type": "email_newsletter",
+   "title": "1282 Washington development announced as headline sponsor of Madison Row Fest",
+   "summary": "1282 Washington, a ZSD development, is the headline sponsor of Madison Row Fest 2026 and will deliver 4‑ and 5‑bedroom single‑family condominium residences. The boutique building is already 75% pre‑sold and under construction, with delivery slated for next fall, and is promoted as setting a new standard for West Loop living.",
+   "url": "https://www.wcachicago.org/",
+   "published_at": "2026-09-11T13:45:55.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "wca-20260911-west-loop-wellness-fest-scheduled-for-se",
+   "category": "civic_org",
+   "source_id": "wca",
+   "source_name": "The WCA Weekly",
+   "source_type": "email_newsletter",
+   "title": "West Loop Wellness Fest scheduled for September 19 at Union Padel Club",
+   "summary": "West Loop Wellness Fest will be held Saturday, September 19 from 11 AM to 2 PM at Union Padel Club, featuring instructor‑led fitness classes, padel instruction, wellness experiences, interactive booths and goodie bags. Net ticket proceeds benefit Mercy Home for Boys & Girls and attendees can use code WCA20 for a 20% discount on tickets, with space limited.",
+   "url": "https://www.wcachicago.org/",
+   "published_at": "2026-09-11T13:45:55.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "cbs-20260911-how-the-chicago-area-is-marking-25-years",
+   "category": "civic_org",
+   "source_id": "cbs",
+   "source_name": "CBS News Chicago",
+   "source_type": "web_feed",
+   "title": "How the Chicago area is marking 25 years since 9/11",
+   "summary": "A flag for every person killed stands at the Oak Brook Polo Grounds through Sunday, and thousands of volunteers will pack meals at Union Station. Ceremonies run across the city and suburbs Friday.",
+   "url": "https://www.cbsnews.com/chicago/video/how-the-chicago-area-is-marking-25-years-since-911/",
+   "published_at": "2026-09-11T16:22:00.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "cbs-20260911-chicago-could-shut-down-loop-during-conv",
+   "category": "civic_org",
+   "source_id": "cbs",
+   "source_name": "CBS News Chicago",
+   "source_type": "web_feed",
+   "title": "Chicago could shut down Loop during convergence of weekend events, officials warn",
+   "summary": "There are a ton of major events happening in downtown Chicago this weekend, and as a result OEMC is warning the city may need to shut down the Loop.",
+   "url": "https://www.cbsnews.com/chicago/news/chicago-loop-weekend-events-street-closures-traffic/",
+   "published_at": "2026-09-11T16:11:10.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "cbs-20260911-volunteers-packing-500-000-meals-at-unio",
+   "category": "civic_org",
+   "source_id": "cbs",
+   "source_name": "CBS News Chicago",
+   "source_type": "web_feed",
+   "title": "Volunteers packing 500,000 meals at Union Station to mark 25 years since 9/11",
+   "summary": "Thousands of volunteers came together at Chicago's Union Station on Friday to pack more than 500,000 meals for the Greater Chicago Food Depository.",
+   "url": "https://www.cbsnews.com/chicago/video/volunteers-packing-500000-meals-at-union-station-to-mark-25-years-since-911/",
+   "published_at": "2026-09-11T14:59:00.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260911-mood-fabrics-made-famous-on-project-runw",
+   "category": "business",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Mood Fabrics, Made Famous On Project Runway,' Opens On State St. With 10K Samples To Choose From",
+   "summary": "The location is the first Midwest outpost for the store, which got its start in New York's Garment District.",
+   "url": "https://blockclubchicago.org/2026/09/11/project-runway-favorite-mood-fabrics-opens-on-state-street-with-10000-samples-to-choose-from/",
+   "published_at": "2026-09-11T16:50:00.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "politico-20260911-illinois-secures-68-million-federal-gran",
    "category": "civic_org",
@@ -1691,30 +1787,6 @@
    "summary": "A car plunged into Lake Michigan in downtown Chicago early Saturday, police said.",
    "url": "https://abc7chicago.com/post/dusable-lake-shore-drive-accident-today-2-hospitalized-car-crash-michigan-streeterville-chicago-police-say/19717785/",
    "published_at": "2026-08-22T12:47:23.752Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260821-bridgeport-residents-furious-about-amtra",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Bridgeport Residents Furious About Amtrak Rail Yard Plans - And Fear Losing The White Sox",
-   "summary": "Amtrak’s $900 million plan to relocate the yard from the South Loop could help achieve future White Sox owner Justin Ishbia’s rumored goal of moving the team to that vacated Amtrak facility - leaving Bridgeport neighbors without their beloved Sox.",
-   "url": "https://blockclubchicago.org/2026/08/21/bridgeport-residents-furious-about-amtrak-rail-yard-plans-and-fear-losing-the-white-sox/",
-   "published_at": "2026-08-21T13:45:00.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260821-city-unveils-2-year-timeline-for-improve",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "City Unveils 2-Year Timeline For Improvements At Former Greyhound Station",
-   "summary": "City officials outlined a two-phase plan for upgrades to the Downtown terminal at a Thursday meeting, where residents raised concerns about safety and cleanliness.",
-   "url": "https://blockclubchicago.org/2026/08/21/city-unveils-2-year-timeline-for-improvements-at-former-greyhound-station/",
-   "published_at": "2026-08-21T13:21:00.000Z",
    "flagged_for_review": false
   }
  ]
