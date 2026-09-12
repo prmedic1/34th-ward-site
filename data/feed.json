@@ -1,6 +1,114 @@
 {
- "generated_at": "2026-09-11T17:29:29.524Z",
+ "generated_at": "2026-09-12T13:00:44.536Z",
  "items": [
+  {
+   "id": "politico-20260910-mayor-brandon-johnson-speaks-at-mixed-in",
+   "category": "business",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Mayor Brandon Johnson speaks at mixed‑income residential development project on West Loop address 5200 W. Chicago Ave",
+   "summary": "Mayor Brandon Johnson gave remarks at a mixed‑income residential development project located at 5200 W. Chicago Ave, part of a Rainbow PUSH Coalition Empowerment Day event. The site is in the West Loop area adjacent to the 34th Ward.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-09-10T12:01:13.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "politico-20260910-alderman-michael-rodriguez-announces-he-",
+   "category": "elected_official",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Alderman Michael Rodriguez announces he will not seek reelection, ending his City Council tenure",
+   "summary": "Alderman Michael Rodriguez of the 22nd Ward announced he will not run for reelection, ending his role as a reliable ally of Mayor Brandon Johnson. His departure could affect the mayor’s ability to advance worker‑focused legislation such as the Fair Workweek and Paid Leave Ordinances, and speculation exists about Rodriguez’s future if Secretary of State Alexi Giannoulias wins the mayoral race.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-09-10T12:01:13.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "wca-20260911-1282-washington-development-to-headline-",
+   "category": "business",
+   "source_id": "wca",
+   "source_name": "The WCA Weekly",
+   "source_type": "email_newsletter",
+   "title": "1282 Washington development to headline Madison Row Fest and add new condos to West Loop",
+   "summary": "The West Central Association announced that 1282 Washington, a ZSD development at 1282 Washington Street, will be the headline sponsor of Madison Row Fest 2026. The project will deliver 4‑ and 5‑bedroom single‑family condominium residences beginning next fall. Construction is underway and 75 % of the units are already pre‑sold, promising a new standard for West Loop living.",
+   "url": "https://www.wcachicago.org/",
+   "published_at": "2026-09-11T13:45:55.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "wca-20260911-2nd-annual-great-chicago-bed-race-set-fo",
+   "category": "civic_org",
+   "source_id": "wca",
+   "source_name": "The WCA Weekly",
+   "source_type": "email_newsletter",
+   "title": "2nd Annual Great Chicago Bed Race set for October 4 to benefit Chicago Furniture Bank",
+   "summary": "The 2nd Annual Great Chicago Bed Race returns on Sunday October 4 at Midwest Coast Brewing Co., where teams of five will race twin‑XL mattresses down Walnut Street to raise funds for the Chicago Furniture Bank. The goal is to furnish 4,004 homes, and teams must register by September 20 for $250 per team ($50 per person). Participants provide costumes and compete for the charitable cause.",
+   "url": "https://www.wcachicago.org/",
+   "published_at": "2026-09-11T13:45:55.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "abc7-20260912-woman-dead-after-being-pulled-from-lake-",
+   "category": "civic_org",
+   "source_id": "abc7",
+   "source_name": "ABC7 Chicago",
+   "source_type": "web_feed",
+   "title": "Woman dead after being pulled from Lake Michigan near Monroe Harbor, police say",
+   "summary": "A woman is dead after being pulled from Lake Michigan near downtown Chicago on Friday night, officials said.",
+   "url": "https://abc7chicago.com/post/body-found-lake-michigan-woman-dead-being-pulled-water-monroe-harbor-downtown-chicago-police-say/19822964/",
+   "published_at": "2026-09-12T13:00:28.989Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "abc7-20260912-body-recovered-from-lake-michigan-at-mon",
+   "category": "civic_org",
+   "source_id": "abc7",
+   "source_name": "ABC7 Chicago",
+   "source_type": "web_feed",
+   "title": "Body recovered from Lake Michigan at Monroe Harbor, Chicago fire officials say",
+   "summary": "An investigation is underway after a body was found in Lake Michigan downtown Chicago on Friday.",
+   "url": "https://abc7chicago.com/post/chicago-water-rescue-body-recovered-lake-michigan-monroe-harbor-downtown-fire-officials-say/19821965/",
+   "published_at": "2026-09-12T13:00:28.989Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "abc7-20260912-dozens-of-vehicles-broken-into-at-uic-pa",
+   "category": "civic_org",
+   "source_id": "abc7",
+   "source_name": "ABC7 Chicago",
+   "source_type": "web_feed",
+   "title": "Dozens of vehicles broken into at UIC parking garage, video shows",
+   "summary": "Police are investigating after several vehicles were broken into at the University of Illinois Chicago parking garage on the city's Near West Side.",
+   "url": "https://abc7chicago.com/post/chicago-crime-dozens-vehicles-broken-university-illinois-parking-garage-1100-west-harrison-street/19821621/",
+   "published_at": "2026-09-12T13:00:28.989Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260911-state-street-bridge-closed-for-midday-wo",
+   "category": "business",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "State Street Bridge Closed For Midday Work Next Week To Prep For Fall Boat Run",
+   "summary": "The midday closure will run four days from 9 a.m.-2:30 p.m. Monday through Thursday.",
+   "url": "https://blockclubchicago.org/2026/09/11/state-street-bridge-closed-for-midday-work-next-week-to-prep-for-fall-boat-run/",
+   "published_at": "2026-09-11T21:26:00.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260911-here-are-the-possible-road-closures-down",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Here Are The Possible Road Closures Downtown For Mexican Independence Day",
+   "summary": "Road closures and restrictions could be in effect this weekend as the city celebrates the holiday and holds other events Downtown.",
+   "url": "https://blockclubchicago.org/2026/09/11/here-are-the-possible-road-closures-downtown-for-mexican-independence-day/",
+   "published_at": "2026-09-11T18:15:37.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "politico-20260910-rep-lauren-underwood-speaks-at-the-hideo",
    "category": "elected_official",
@@ -1751,42 +1859,6 @@
    "summary": "Work will soon begin on DuSable Park, a lakefront green space at that will include a monument to its namesake, Chicago’s founder and first non-Indigenous Black settler.",
    "url": "https://blockclubchicago.org/2026/08/23/famed-sculptor-hired-to-build-dusable-statue-at-long-planned-lakefront-park/",
    "published_at": "2026-08-23T15:55:14.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "cbs-20260822-child-among-4-injured-in-crash-after-pol",
-   "category": "civic_org",
-   "source_id": "cbs",
-   "source_name": "CBS News Chicago",
-   "source_type": "web_feed",
-   "title": "Child among 4 injured in crash after police pursuit in downtown Chicago",
-   "summary": "Four people, including one child, were injured in a crash following a police pursuit in Chicago's Streeterville neighborhood on Friday night.",
-   "url": "https://www.cbsnews.com/chicago/news/dusable-lake-shore-drive-crash-oak-street-streeterville/",
-   "published_at": "2026-08-22T12:53:54.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "abc7-20260822-3-in-custody-after-driver-slams-into-suv",
-   "category": "civic_org",
-   "source_id": "abc7",
-   "source_name": "ABC7 Chicago",
-   "source_type": "web_feed",
-   "title": "3 in custody after driver slams into SUV while fleeing from police on Near West Side: CPD",
-   "summary": "Three people are in custody after a driver fleeing from officers on the city's West Side on Friday night, Chicago police said.",
-   "url": "https://abc7chicago.com/post/3-custody-driver-fleeing-chicago-police-officers-causes-car-crash-2000-block-west-lake-street-cpd/19717888/",
-   "published_at": "2026-08-22T12:47:23.752Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "abc7-20260822-3-hospitalized-after-car-plunges-into-la",
-   "category": "civic_org",
-   "source_id": "abc7",
-   "source_name": "ABC7 Chicago",
-   "source_type": "web_feed",
-   "title": "3 hospitalized after car plunges into Lake Michigan in Streeterville, police say",
-   "summary": "A car plunged into Lake Michigan in downtown Chicago early Saturday, police said.",
-   "url": "https://abc7chicago.com/post/dusable-lake-shore-drive-accident-today-2-hospitalized-car-crash-michigan-streeterville-chicago-police-say/19717785/",
-   "published_at": "2026-08-22T12:47:23.752Z",
    "flagged_for_review": false
   }
  ]
