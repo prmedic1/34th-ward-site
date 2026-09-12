@@ -1,6 +1,42 @@
 {
- "generated_at": "2026-09-12T13:00:44.536Z",
+ "generated_at": "2026-09-12T16:43:29.185Z",
  "items": [
+  {
+   "id": "wca-20260911-1282-washington-new-4-and-5-bedroom-cond",
+   "category": "business",
+   "source_id": "wca",
+   "source_name": "The WCA Weekly",
+   "source_type": "email_newsletter",
+   "title": "1282 Washington: New 4- and 5-Bedroom Condominiums Pre-Sold 75% in West Loop",
+   "summary": "The West Loop will see a new boutique development at 1282 Washington, a ZSD project that will deliver 4- and 5‑bedroom single‑family condominiums in fall 2026. The building is already 75% pre‑sold and under construction, and it is set to set a new standard for West Loop living. The WCA welcomes the development as the headline sponsor of Madison Row Fest 2026.",
+   "url": "https://www.wcachicago.org/",
+   "published_at": "2026-09-11T13:45:55.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "wca-20260911-west-loop-wellness-fest-brings-fitness-a",
+   "category": "civic_org",
+   "source_id": "wca",
+   "source_name": "The WCA Weekly",
+   "source_type": "email_newsletter",
+   "title": "West Loop Wellness Fest Brings Fitness and Wellness to Union Padel Club",
+   "summary": "The West Loop Wellness Fest will take place Saturday September 19 from 11 a.m. to 2 p.m. at Union Padel Club, offering instructor‑led classes, padel instruction, complimentary wellness experiences, interactive booths, and goodie bags. Participants can use code WCA20 for 20% off tickets, and net proceeds benefit Mercy Home for Boys & Girls. The event features classes from Pure Barre, BUNDA Glutecamp, HIIT, ballroom dancing, meditation, chair massages, red light therapy, movement screenings, acupuncture, and recovery experiences.",
+   "url": "https://www.wcachicago.org/",
+   "published_at": "2026-09-11T13:45:55.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "wca-20260911-madison-row-fest-celebrates-west-loop-co",
+   "category": "civic_org",
+   "source_id": "wca",
+   "source_name": "The WCA Weekly",
+   "source_type": "email_newsletter",
+   "title": "Madison Row Fest Celebrates West Loop Community with Live Entertainment and Vendors",
+   "summary": "Madison Row Fest will be held Saturday September 12 on Madison Street, featuring live entertainment, food and drinks, local vendors, kids’ activities, and neighborhood traditions. The WCA is proud to welcome 1282 Washington as the headline sponsor of the 2026 event, and the festival will showcase the best of the West Loop. The event is a family‑friendly community block party that brings the neighborhood together.",
+   "url": "https://www.wcachicago.org/",
+   "published_at": "2026-09-11T13:45:55.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "politico-20260910-mayor-brandon-johnson-speaks-at-mixed-in",
    "category": "business",
