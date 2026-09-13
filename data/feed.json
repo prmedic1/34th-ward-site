@@ -1,6 +1,66 @@
 {
- "generated_at": "2026-09-12T16:43:29.185Z",
+ "generated_at": "2026-09-13T13:00:34.260Z",
  "items": [
+  {
+   "id": "wca-20260911-1282-washington-condo-project-launches-w",
+   "category": "business",
+   "source_id": "wca",
+   "source_name": "The WCA Weekly",
+   "source_type": "email_newsletter",
+   "title": "1282 Washington condo project launches with 75% pre‑sales as Madison Row Fest sponsor",
+   "summary": "The West Central Association announced that 1282 Washington, a ZSD development, will be the headline sponsor of Madison Row Fest 2026. The boutique building will deliver 4‑ and 5‑bedroom single‑family condominium residences next fall, is already 75% pre‑sold and is under construction in the West Loop.",
+   "url": "https://www.wcachicago.org/",
+   "published_at": "2026-09-11T13:45:55.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "wca-20260911-west-loop-wellness-fest-offers-fitness-c",
+   "category": "civic_org",
+   "source_id": "wca",
+   "source_name": "The WCA Weekly",
+   "source_type": "email_newsletter",
+   "title": "West Loop Wellness Fest offers fitness classes and wellness experiences on Sept. 19",
+   "summary": "The West Loop Wellness Fest will take place Saturday, September 19 from 11 AM to 2 PM at Union Padel Club. Attendees can join instructor‑led classes, padel instruction, chair massages, red‑light therapy and more, with a 20% discount using code WCA20; ticket proceeds benefit Mercy Home for Boys & Girls.",
+   "url": "https://www.wcachicago.org/",
+   "published_at": "2026-09-11T13:45:55.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "wca-20260911-chicago-gourmet-s-dine-around-series-spo",
+   "category": "business",
+   "source_id": "wca",
+   "source_name": "The WCA Weekly",
+   "source_type": "email_newsletter",
+   "title": "Chicago Gourmet’s Dine Around Series spotlights West Loop restaurants Sep. 1‑18",
+   "summary": "Chicago Gourmet’s first‑ever Dine Around Series runs September 1 through 18, featuring nearly 80 Chicago restaurants including West Loop favorites such as The Vig West Loop. Diners who spend $50 or more can upload receipts by September 19 for a chance to win a VIP package that includes a Hyatt Regency Chicago stay, festival tickets and exclusive swag.",
+   "url": "https://www.wcachicago.org/",
+   "published_at": "2026-09-11T13:45:55.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "abc7-20260913-man-hurt-in-shootout-after-argument-insi",
+   "category": "business",
+   "source_id": "abc7",
+   "source_name": "ABC7 Chicago",
+   "source_type": "web_feed",
+   "title": "Man hurt in shootout after argument inside West Loop business, Chicago police say",
+   "summary": "A man was hurt in a shootout after an argument inside a West Loop business on Sunday, Chicago police said.",
+   "url": "https://abc7chicago.com/post/chicago-shooting-today-man-hurt-shootout-argument-randolph-inside-west-loop-business-police-say/19826309/",
+   "published_at": "2026-09-13T13:00:21.833Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "cbs-20260912-41st-printers-row-lit-fest-celebrates-li",
+   "category": "civic_org",
+   "source_id": "cbs",
+   "source_name": "CBS News Chicago",
+   "source_type": "web_feed",
+   "title": "41st Printers Row Lit Fest celebrates literature, ideas and civic dialogue",
+   "summary": "The fest is being held on South Dearborn Street between Ida B. Wells Drive and Polk Street. This weekend features hundreds of presenters, including authors, poets, booksellers and storytellers.",
+   "url": "https://www.cbsnews.com/chicago/video/41st-printers-row-lit-fest-celebrates-literature-ideas-and-civic-dialogue/",
+   "published_at": "2026-09-12T22:22:00.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "wca-20260911-1282-washington-new-4-and-5-bedroom-cond",
    "category": "business",
