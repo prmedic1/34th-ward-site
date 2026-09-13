@@ -1,6 +1,90 @@
 {
- "generated_at": "2026-09-13T13:00:34.260Z",
+ "generated_at": "2026-09-13T17:13:25.860Z",
  "items": [
+  {
+   "id": "conway-20260911-police-to-impose-traffic-restrictions-in",
+   "category": "civic_org",
+   "source_id": "conway",
+   "source_name": "Conway's Corner (34th Ward Office Newsletter)",
+   "source_type": "email_newsletter",
+   "title": "Police to impose traffic restrictions in Loop for Mexican Independence Day weekend",
+   "summary": "The Chicago Police Department will implement traffic restrictions in the Central Business District from Friday September 11 through Wednesday September 16 for Mexican Independence Day weekend. Vehicles will be limited at eight intersections, including Halsted/Washington and 18th/Indiana, and residents must use access passes and may be asked for ID. Police may close any access point if pedestrians are present, and Alderman Bill Conway said his office worked with the department to address safety concerns for Loop residents and workers.",
+   "url": "https://www.ward34.org/",
+   "published_at": "2026-09-11T16:16:19.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "wca-20260911-1282-washington-condominium-project-brea",
+   "category": "business",
+   "source_id": "wca",
+   "source_name": "The WCA Weekly",
+   "source_type": "email_newsletter",
+   "title": "1282 Washington condominium project breaks ground in West Loop",
+   "summary": "ZSD’s 1282 Washington, a boutique development at 1282 Washington Street, is under construction and slated for delivery next fall. The project will contain 4‑ and 5‑bedroom single‑family condominium residences, with 75 % of units pre‑sold. The building is being promoted as a new standard for West Loop living.",
+   "url": "https://www.wcachicago.org/",
+   "published_at": "2026-09-11T13:45:55.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "wca-20260911-west-loop-wellness-fest-offers-fitness-a",
+   "category": "civic_org",
+   "source_id": "wca",
+   "source_name": "The WCA Weekly",
+   "source_type": "email_newsletter",
+   "title": "West Loop Wellness Fest offers fitness and wellness activities on September 19",
+   "summary": "The West Central Association will host the West Loop Wellness Fest on Saturday, September 19 from 11 a.m. to 2 p.m. at Union Padel Club. Attendees can join instructor‑led classes such as Pure Barre, HIIT, ballroom dancing and meditation, as well as padel instruction, chair massages and red‑light therapy. Ticket proceeds benefit Mercy Home for Boys & Girls and a 20 % discount is available with code WCA20.",
+   "url": "https://www.wcachicago.org/",
+   "published_at": "2026-09-11T13:45:55.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "wca-20260911-2nd-annual-great-chicago-bed-race-to-rai",
+   "category": "civic_org",
+   "source_id": "wca",
+   "source_name": "The WCA Weekly",
+   "source_type": "email_newsletter",
+   "title": "2nd Annual Great Chicago Bed Race to raise funds for Chicago Furniture Bank",
+   "summary": "The race will take place on Sunday, October 4 at Midwest Coast Brewing Co., where teams of five will race twin‑XL mattresses down Walnut Street. Registration costs $250 per team ($50 per person) and the goal is to furnish 4,004 homes for families transitioning out of homelessness. Teams must sign up by September 20; gifts are also accepted.",
+   "url": "https://www.wcachicago.org/",
+   "published_at": "2026-09-11T13:45:55.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "cbs-20260913-man-arrested-after-taking-usps-truck-on-",
+   "category": "civic_org",
+   "source_id": "cbs",
+   "source_name": "CBS News Chicago",
+   "source_type": "web_feed",
+   "title": "Man arrested after taking USPS truck on joyride in South Loop",
+   "summary": "Chicago police say a USPS worker got out of the truck to deliver mail when the suspect hopped in and drove away.",
+   "url": "https://www.cbsnews.com/chicago/news/man-arrested-after-taking-usps-truck-on-joyride-in-south-loop/",
+   "published_at": "2026-09-13T14:11:26.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "cbs-20260913-man-arrested-after-stealing-usps-truck-g",
+   "category": "civic_org",
+   "source_id": "cbs",
+   "source_name": "CBS News Chicago",
+   "source_type": "web_feed",
+   "title": "Man arrested after stealing USPS truck, going on joyride in South Loop",
+   "summary": "Chicago police say the man took the truck while the postal worker was delivering mail Saturday night.",
+   "url": "https://www.cbsnews.com/chicago/video/man-arrested-after-stealing-usps-truck-going-on-joyride-in-south-loop/",
+   "published_at": "2026-09-13T13:30:00.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260913-chief-keef-s-1st-headlining-show-in-chic",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Chief Keef's 1st Headlining Show In Chicago In 14 Years Postponed Due To Racist Pilot,' Rapper Says",
+   "summary": "The Chicago-born rapper blamed the postponement of his Saturday night concert on travel delays. The show has been rescheduled to Sept. 23.",
+   "url": "https://blockclubchicago.org/2026/09/13/chief-keefs-1st-headlining-show-in-chicago-in-14-years-postponed-due-to-racist-pilot/",
+   "published_at": "2026-09-13T15:21:22.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "wca-20260911-1282-washington-condo-project-launches-w",
    "category": "business",
@@ -1943,18 +2027,6 @@
    "summary": "The group’s sold-out Soldier Field concerts are Aug. 27-28, with fan parties, pop-ups, giveaways, food specials and more planned throughout the week.",
    "url": "https://blockclubchicago.org/2026/08/24/bts-is-coming-to-chicago-heres-where-army-can-celebrate-around-the-city/",
    "published_at": "2026-08-24T12:22:00.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260823-famed-sculptor-hired-to-build-dusable-st",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Famed Sculptor Hired To Build DuSable Statue At Long-Planned Lakefront Park",
-   "summary": "Work will soon begin on DuSable Park, a lakefront green space at that will include a monument to its namesake, Chicago’s founder and first non-Indigenous Black settler.",
-   "url": "https://blockclubchicago.org/2026/08/23/famed-sculptor-hired-to-build-dusable-statue-at-long-planned-lakefront-park/",
-   "published_at": "2026-08-23T15:55:14.000Z",
    "flagged_for_review": false
   }
  ]
