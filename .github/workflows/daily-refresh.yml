@@ -58,6 +58,12 @@ jobs:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
         run: node scripts/refresh-newsletters.mjs
 
+      - name: Refresh park cleanups (Chicago Parks Foundation weekly email)
+        env:
+          GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+        run: node scripts/refresh-parks.mjs
+
       - name: Log traffic and rate the day (good / usual / bad)
         run: node scripts/track-traffic.mjs
 

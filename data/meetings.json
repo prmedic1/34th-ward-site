@@ -1,6 +1,6 @@
 {
  "_note": "Upcoming community meetings and neighborhood-group events shown in the carve-out box on the homepage front page. Civic meetings come from the 34th Ward newsletter (Conway's Corner); the Indivisible Greater West Loop events come from that chapter's Mobilize page (mobilize.us/indivisiblegwlchi). Optional fields: 'org' (a small source label) and 'url' (makes the title a link). Exact venues for the Indivisible events are gated behind RSVP, so 'location' is only filled where publicly verified and the link carries the rest. The homepage shows only future-dated items, soonest first, and drops them once they pass. Refresh Indivisible events from their Mobilize page.",
- "updated_at": "2026-09-02",
+ "updated_at": "2026-09-14",
  "meetings": [
   {
    "title": "Greyhound Station Community Meeting",
@@ -82,6 +82,16 @@
    "location": "RSVP for location",
    "desc": "A relaxed postcard-writing social over drinks to connect with neighbors.",
    "url": "https://www.mobilize.us/indivisiblegwlchi/event/1007078/"
+  },
+  {
+   "title": "Printers Row Park Cleanup",
+   "date": "2026-09-15",
+   "time": "5:00 PM",
+   "org": "Chicago Parks Foundation",
+   "location": "Printers Row Park",
+   "desc": "A neighborhood trash pick-up with the Printers Row Park Clean Up Crew, part of the Chicago Parks Foundation's Pitch In for the Parks program. Supplies provided; register to join.",
+   "url": "https://givepul.se/979pid",
+   "src": "cpf"
   },
   {
    "title": "WCA Networking Event",
