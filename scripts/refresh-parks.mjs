@@ -27,13 +27,31 @@ const GMAIL = process.env.GMAIL_ADDRESS || 'chicagojustice@gmail.com';
 const APP_PW = process.env.GMAIL_APP_PASSWORD || '';
 const SENDER = 'info@chicagoparksfoundation.org';
 
-// Parks in or around the 34th Ward (West Loop, Greektown, the Loop, Printers Row,
-// South Loop, Near West Side, Little Italy). Match is a case-insensitive substring
-// of the park name in the email. Add names here to widen coverage.
-const WARD_PARKS = [
+// Parks in the 34th Ward AND the neighborhoods that border it. Scope is downtown
+// plus its surrounding areas (owner-directed 2026-09-14: "widen it to include the
+// surrounding areas"), deliberately NOT the whole city - far neighborhoods like
+// Avondale, Logan Square, Uptown, and Hyde Park are left out. Match is a
+// case-insensitive substring of the park name in the email. To widen or narrow,
+// add or remove names here. Use full, specific names (e.g. "South Lincoln Park",
+// not "Lincoln Park", which would also match the miles-long north lakefront park).
+const NEARBY_PARKS = [
+  // In the 34th Ward: West Loop, Greektown, Loop, Printers Row, South Loop, Near West Side, Little Italy
   'Printers Row', 'Grant Park', 'Maggie Daley', 'Millennium Park', 'Mary Bartelme',
   'Skinner Park', 'Union Park', 'Heritage Green', 'Adams Playground', 'Touhy Herbert',
-  'Arrigo', 'Dearborn Park', 'Coliseum Park', "Women's Park", 'Ping Tom'
+  'Arrigo', 'Dearborn Park', 'Coliseum Park', "Women's Park",
+  // Museum Campus / near-downtown lakefront
+  'Northerly Island', 'Burnham Park',
+  // Near North, Gold Coast, River North, Streeterville
+  'Washington Square Park', 'Seward Park', 'Connors Park', 'Lake Shore Park',
+  'Jane Addams', 'Olive Park', 'Montgomery Ward Park', 'South Lincoln Park',
+  // West Town / Noble Square (northwest border)
+  'Eckhart Park', 'Smith Park',
+  // Pilsen / Lower West Side (southwest border)
+  'Harrison Park', 'Dvorak Park',
+  // Chinatown, Armour Square, Bridgeport (south border)
+  'Ping Tom', 'Armour Square Park', 'Palmisano Park', 'McGuane Park',
+  // Bronzeville / Douglas / Near South (southeast border)
+  'Ellis Park', 'Dunbar Park', 'Mandrake Park'
 ];
 
 function startTime(range) {
@@ -64,7 +82,7 @@ export function parseCleanups(text, emailDate) {
     const mon = +m[1], day = +m[2];
     if (mon < 1 || mon > 12 || day < 1 || day > 31) continue;
     const park = m[3].trim().replace(/\s+/g, ' ');
-    if (!WARD_PARKS.some((w) => park.toLowerCase().includes(w.toLowerCase()))) continue;
+    if (!NEARBY_PARKS.some((w) => park.toLowerCase().includes(w.toLowerCase()))) continue;
     let y = year;
     let date = `${y}-${String(mon).padStart(2, '0')}-${String(day).padStart(2, '0')}`;
     // Year roll for a late-December email listing early-January dates.
