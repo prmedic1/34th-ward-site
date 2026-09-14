@@ -1,6 +1,66 @@
 {
- "generated_at": "2026-09-13T17:13:25.860Z",
+ "generated_at": "2026-09-14T13:00:38.612Z",
  "items": [
+  {
+   "id": "politico-20260914-mayor-brandon-johnson-launches-reelectio",
+   "category": "elected_official",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Mayor Brandon Johnson launches reelection campaign at DuSable Black History Museum",
+   "summary": "Mayor Brandon Johnson kicked off his reelection bid on Sunday at the DuSable Black History Museum, drawing a crowd of nearly 2,000. He criticized opponent Alexi Giannoulias for donations from Michael Sacks and framed the race as a choice between progressives and the city’s old guard. Johnson entered the race with less than $1 million in cash while Giannoulias has about $22 million.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-09-14T12:01:46.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "politico-20260914-gov-jb-pritzker-calls-for-immediate-ai-r",
+   "category": "elected_official",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Gov. JB Pritzker calls for immediate AI regulation",
+   "summary": "Illinois Governor JB Pritzker posted on X that it is time to sound a louder alarm on artificial intelligence and urged immediate action from industry and Washington. His comments followed a former Anthropic researcher’s warning that AI labs are racing without adequate safeguards after OpenAI and Anthropic disclosed models accessing external systems. Pritzker’s stance places him among leaders pushing for stronger federal oversight of AI.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-09-14T12:01:46.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "politico-20260914-greater-chicago-food-depository-reports-",
+   "category": "civic_org",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Greater Chicago Food Depository reports 36% of city households food insecure",
+   "summary": "A new report from the Greater Chicago Food Depository, based on NORC data, estimates that about 417,000 Chicago households, or 36% of the city, face food insecurity. The study links the rise to higher costs for food, housing, health care and transportation and cuts to federal safety‑net programs. Executive Director Kate Maehr called the findings troubling and urgent.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-09-14T12:01:46.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "axios-20260914-johnson-launches-reelection-bid",
+   "category": "newsletter",
+   "source_id": "axios",
+   "source_name": "Axios Chicago",
+   "source_type": "email_newsletter",
+   "title": "Johnson launches reelection bid",
+   "summary": "Mayor Brandon Johnson will seek a second term leading Chicago, he announced yesterday at the DuSable Black History Museum in Washington Park. Johnson's entry officially kicks the crowded 2027 race into gear as he asks Chicagoans for four more years. Johnson t-shirts at the merch table Sunday.",
+   "url": "https://www.axios.com/local/chicago",
+   "published_at": "2026-09-14T11:28:28.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260913-el-grito-s-grant-park-return-sees-muted-",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "El Grito's Grant Park Return Sees Muted Crowds Saturday As ICE Fears Remain",
+   "summary": "Attendees of the Mexican Independence Day festival chalked up the smaller crowds due to immigration enforcement concerns. Car caravans in celebration of the holiday were also sparse Downtown.",
+   "url": "https://blockclubchicago.org/2026/09/13/el-gritos-grant-park-return-sees-muted-crowds-saturday-as-ice-fears-remain/",
+   "published_at": "2026-09-13T18:57:33.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "conway-20260911-police-to-impose-traffic-restrictions-in",
    "category": "civic_org",
@@ -2003,30 +2063,6 @@
    "summary": "Chicago business and civic leaders announced plans Tuesday for what they're calling the \"O'Hare Flyer.\"",
    "url": "https://abc7chicago.com/post/plans-unveiled-15-minute-express-ohare-flyer-trains-airport-downtown/19732727/",
    "published_at": "2026-08-25T12:54:39.001Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260824-stunod-s-pizzeria-s-taylor-street-locati",
-   "category": "business",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Stunod’s Pizzeria's Taylor Street Location A Dream Come True' For 2 Brothers",
-   "summary": "Frank and Austin Battaglia will open the second location of their Garfield Ridge restaurant on the corridor they visited often as kids with their dad, a well-known food distributor.",
-   "url": "https://blockclubchicago.org/2026/08/24/stunods-pizzerias-taylor-street-location-a-dream-come-true-for-2-brothers/",
-   "published_at": "2026-08-24T13:00:00.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260824-bts-is-coming-to-chicago-here-s-where-ar",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "BTS Is Coming To Chicago. Here’s Where ARMY Can Celebrate Around The City",
-   "summary": "The group’s sold-out Soldier Field concerts are Aug. 27-28, with fan parties, pop-ups, giveaways, food specials and more planned throughout the week.",
-   "url": "https://blockclubchicago.org/2026/08/24/bts-is-coming-to-chicago-heres-where-army-can-celebrate-around-the-city/",
-   "published_at": "2026-08-24T12:22:00.000Z",
    "flagged_for_review": false
   }
  ]
