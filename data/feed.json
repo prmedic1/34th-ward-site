@@ -1,6 +1,30 @@
 {
- "generated_at": "2026-09-14T13:00:38.612Z",
+ "generated_at": "2026-09-14T19:00:33.842Z",
  "items": [
+  {
+   "id": "politico-20260914-greater-chicago-food-depository-report-f",
+   "category": "civic_org",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Greater Chicago Food Depository report finds 36% of city households food insecure",
+   "summary": "A new report from the Greater Chicago Food Depository, based on NORC data, estimates that about 417,000 Chicago households, or 36% of the city, are food insecure. The study links the rise to higher costs for food, housing, health care and transportation and to cuts in federal safety‑net programs. The findings describe the situation as troubling and urgent for city leaders.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-09-14T12:01:46.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260914-50-plus-theater-productions-to-check-out",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "50-Plus Theater Productions To Check Out In Chicago This Fall",
+   "summary": "Riveting dramas, hit musicals, campy comedies and more are in the lineup as Chicago kicks off its stacked fall theater season.",
+   "url": "https://blockclubchicago.org/2026/09/14/50-plus-theater-productions-to-check-out-in-chicago-this-fall/",
+   "published_at": "2026-09-14T13:56:56.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "politico-20260914-mayor-brandon-johnson-launches-reelectio",
    "category": "elected_official",
@@ -1991,18 +2015,6 @@
    "summary": "A group of business leaders behind a venture called the O'Hare Flyer wants to build a privately financed high-speed train linking O'Hare with a new depot near Van Buren and Canal streets in the South Loop, steps from Union Station. Trains would leave every 15 minutes and make the trip in about 15 minutes, with fares expected to fall between a $5 Blue Line ride and the cost of a cab or ride share. Backers put the cost at $2.25 billion and the timeline at up to five years, all privately financed, and Mayor Brandon Johnson said Tuesday he welcomes the idea. Unlike Elon Musk's abandoned 2018 tunnel plan, the Flyer would run on existing freight rail corridors instead of boring under the city.",
    "url": "https://www.axios.com/local/chicago/2026/08/25/inside-the-usd2-25b-plan-for-a-15-minute-o-hare-to-downtown-train",
    "published_at": "2026-08-26T11:29:14.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260824-gibsons-tavern-to-open-this-november-in-",
-   "category": "business",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Gibsons Tavern To Open This November In Fulton Market",
-   "summary": "The eatery, first announced in 2023, will offer “an elevated take on classic American cuisine” and \"timeless cocktails\" that harken back to the Prohibition era, its owners said.",
-   "url": "https://blockclubchicago.org/2026/08/24/gibsons-tavern-to-open-this-november-in-fulton-market/",
-   "published_at": "2026-08-24T18:45:00.000Z",
    "flagged_for_review": false
   },
   {
