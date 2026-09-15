@@ -109,23 +109,34 @@ export function parseCleanups(text, emailDate) {
 }
 
 async function latestEmailText() {
-  const client = new ImapFlow({ host: 'imap.gmail.com', port: 993, secure: true, auth: { user: GMAIL, pass: APP_PW }, logger: false });
+  const client = new ImapFlow({
+    host: 'imap.gmail.com', port: 993, secure: true,
+    auth: { user: GMAIL, pass: APP_PW }, logger: false
+  });
   await client.connect();
+  // Accumulate into `result` and fall through to logout() - do NOT return from
+  // inside the try, or logout() is skipped and the open IMAP connection keeps the
+  // Node process alive forever (this hung the daily workflow on 2026-09-15).
+  let result = null;
   const lock = await client.getMailboxLock('INBOX');
   try {
     const since = new Date(Date.now() - 10 * 24 * 3600 * 1000);
     let uids;
     try { uids = await client.search({ since, from: SENDER }); } catch { uids = []; }
-    if (!uids || !uids.length) return null;
-    for await (const msg of client.fetch(uids.slice(-1), { source: true })) {
-      const p = await simpleParser(msg.source);
-      const text = (p.text || p.html || '').replace(/<style[\s\S]*?<\/style>/gi, ' ').replace(/<[^>]*>/g, ' ')
-        .replace(/&nbsp;|&#160;/gi, ' ').replace(/&amp;/gi, '&').replace(/&#39;|&rsquo;/gi, "'");
-      return { text, date: p.date || new Date() };
+    if (uids && uids.length) {
+      for await (const msg of client.fetch(uids.slice(-1), { source: true })) {
+        const p = await simpleParser(msg.source);
+        const text = (p.text || p.html || '').replace(/<style[\s\S]*?<\/style>/gi, ' ').replace(/<[^>]*>/g, ' ')
+          .replace(/&nbsp;|&#160;/gi, ' ').replace(/&amp;/gi, '&').replace(/&#39;|&rsquo;/gi, "'");
+        result = { text, date: p.date || new Date() };
+        break;
+      }
     }
-  } finally { lock.release(); }
-  await client.logout();
-  return null;
+  } finally {
+    lock.release();
+  }
+  await client.logout().catch(() => {});
+  return result;
 }
 
 async function main() {

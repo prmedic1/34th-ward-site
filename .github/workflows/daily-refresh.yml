@@ -26,6 +26,11 @@ concurrency:
 jobs:
   refresh:
     runs-on: ubuntu-latest
+    # Safety net: a normal refresh finishes in ~2-3 min. If any step hangs (e.g. a
+    # network/IMAP fetch that never returns), fail fast instead of blocking the
+    # concurrency group for GitHub's 6-hour default, which would stall the next
+    # day's run too. (A hung parks step did exactly this on 2026-09-15.)
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
 
