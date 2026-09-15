@@ -1,6 +1,54 @@
 {
- "generated_at": "2026-09-15T16:30:48.293Z",
+ "generated_at": "2026-09-15T17:55:03.183Z",
  "items": [
+  {
+   "id": "abc7-20260915-river-forest-leaders-oppose-proposal-for",
+   "category": "civic_org",
+   "source_id": "abc7",
+   "source_name": "ABC7 Chicago",
+   "source_type": "web_feed",
+   "title": "River Forest leaders oppose proposal for 15-minute express 'O'Hare Flyer' trains",
+   "summary": "The Village of River Forest said its opposing the \"O'Hare Flyer\" train from the airport to downtown Chicago.",
+   "url": "https://abc7chicago.com/post/village-river-forest-opposes-proposal-15-minute-express-ohare-flyer-trains-airport-downtown-chicago/19834470/",
+   "published_at": "2026-09-15T17:55:03.182Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260915-as-it-launches-its-largest-exhibition-we",
+   "category": "business",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "As It Launches Its Largest Exhibition Week Ever, Gertie Opens New Hub In Fulton Market",
+   "summary": "CXW runs through Sunday at 75 galleries around the city.",
+   "url": "https://blockclubchicago.org/2026/09/15/as-it-launches-its-largest-art-exhibition-ever-gertie-opens-new-hub-in-fulton-market/",
+   "published_at": "2026-09-15T17:13:49.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260915-harry-styles-adds-2-more-shows-to-his-ch",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Harry Styles Adds 2 More Shows To His Chicago Stop On 2027 Tour",
+   "summary": "The British pop star is extending his Together, Together tour through 2027. He’ll perform May 28-29 and June 4-5 at Soldier Field. Tickets go on sale Wednesday.",
+   "url": "https://blockclubchicago.org/2026/09/15/harry-styles-announces-12-city-tour-in-2027-with-2-shows-in-chicago/",
+   "published_at": "2026-09-15T17:10:25.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260915-princess-bride-broadway-musical-premieri",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Princess Bride' Broadway Musical Premiering In Chicago Next Year",
+   "summary": "\"The Princess Bride: The Musical\" will open with a five-week run in Chicago next summer at the James M. Nederlander Theatre.",
+   "url": "https://blockclubchicago.org/2026/09/15/princess-bride-broadway-musical-premiering-in-chicago-next-year/",
+   "published_at": "2026-09-15T16:17:22.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "politico-20260915-mayor-brandon-johnson-s-re-election-bid-",
    "category": "elected_official",
