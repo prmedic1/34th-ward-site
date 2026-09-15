@@ -1,6 +1,66 @@
 {
- "generated_at": "2026-09-14T19:00:33.842Z",
+ "generated_at": "2026-09-15T16:30:48.293Z",
  "items": [
+  {
+   "id": "politico-20260915-mayor-brandon-johnson-s-re-election-bid-",
+   "category": "elected_official",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Mayor Brandon Johnson’s re‑election bid faces real‑estate showdown over landlord disputes, data‑center moratorium and CHA conflicts",
+   "summary": "A new report in The Real Deal says Johnson’s campaign is being shadowed by a clash with landlords, a proposed moratorium on new data centers, and ongoing disputes with the Chicago Housing Authority. The issues could shape the mayoral race as voters weigh housing affordability and development policy. The story highlights how citywide real‑estate battles may affect neighborhoods across Chicago, including the 34th Ward.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-09-15T12:02:09.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "politico-20260915-city-council-committee-lowers-debt-appro",
+   "category": "elected_official",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "City Council committee lowers debt‑approval threshold to three‑fifths after debate",
+   "summary": "A Chicago City Council committee voted to reduce the vote needed to approve future borrowing from a two‑thirds majority to a three‑fifths majority, or 30 votes. Alderman Marty Quinn (13th) initially pushed for a two‑thirds threshold but compromised to gain support. The change could affect how the city finances projects that impact the 34th Ward.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-09-15T12:02:09.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "politico-20260915-residents-install-benches-at-cta-bus-sto",
+   "category": "civic_org",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Residents install benches at CTA bus stops after city inaction",
+   "summary": "Neighborhood groups in Chicago built their own benches at several CTA bus stops after complaining about a lack of seating. The grassroots effort was reported by Block Club and reflects community‑driven solutions to public‑transit amenities. The installations are located in areas that include the near‑west side, offering immediate relief to riders.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-09-15T12:02:09.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "axios-20260915-kids-suicide-er-visits-jump-74",
+   "category": "newsletter",
+   "source_id": "axios",
+   "source_name": "Axios Chicago",
+   "source_type": "email_newsletter",
+   "title": "Kids' suicide ER visits jump 74%",
+   "summary": "Many emergency rooms seeing young people in need of mental health services lack the resources to provide that care. About half of suicide-related visits from young people occurred at ERs with fewer annual pediatric visits, where therapists or other mental health care professionals aren't on staff. That's according to a new study by doctors at Northwestern and Ann & Robert H.",
+   "url": "https://www.axios.com/local/chicago",
+   "published_at": "2026-09-15T11:29:40.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260915-ald-burnett-pushes-parking-ban-tougher-r",
+   "category": "elected_official",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Ald. Burnett Pushes Parking Ban, Tougher Rules For Problem Bars After Latest West Loop Shooting",
+   "summary": "After a shooting near the West Loop Athletic Club and other issues at nearby Habibti, the alderman wants more leeway to to crack down on businesses that violate their operating plans.",
+   "url": "https://blockclubchicago.org/2026/09/15/ald-burnett-pushes-parking-ban-tougher-rules-for-problem-bars-after-latest-west-loop-shooting/",
+   "published_at": "2026-09-15T12:44:00.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "politico-20260914-greater-chicago-food-depository-report-f",
    "category": "civic_org",
@@ -2039,42 +2099,6 @@
    "summary": "Three men were injured after a shooting on Chicago's West Side on Tuesday night.",
    "url": "https://www.cbsnews.com/chicago/news/drive-by-shooting-chicago-near-west-side-jackson/",
    "published_at": "2026-08-26T11:00:22.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260825-hoops-in-the-hood-celebrates-20-years-of",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Hoops In The Hood Celebrates 20 Years Of Bringing Chicago Kids Together Through Basketball",
-   "summary": "Hoops in the Hood marked its anniversary Friday with a citywide tournament at Seward Park, where basketball is the starting point for mentorship, community and opportunity.",
-   "url": "https://blockclubchicago.org/2026/08/25/hoops-in-the-hood-celebrates-20-years-of-bringing-chicago-kids-together-through-basketball/",
-   "published_at": "2026-08-25T15:00:00.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260825-after-first-day-of-school-drop-off-bronz",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "After First Day Of School Drop-Off, Bronzeville Dads Meet At Pressbox Chicago To Connect And Unwind",
-   "summary": "Created by community leader Stephen Mitchell, the gathering saw fathers from all stages of parenthood and all walks of life come together for food, beers and laughs.",
-   "url": "https://blockclubchicago.org/2026/08/25/after-first-day-of-school-drop-off-bronzeville-dads-meet-at-pressbox-chicago-to-connect-and-unwind/",
-   "published_at": "2026-08-25T12:23:00.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "abc7-20260825-plans-unveiled-for-15-minute-express-o-h",
-   "category": "business",
-   "source_id": "abc7",
-   "source_name": "ABC7 Chicago",
-   "source_type": "web_feed",
-   "title": "Plans unveiled for 15 minute express 'O'Hare Flyer' trains from airport to downtown",
-   "summary": "Chicago business and civic leaders announced plans Tuesday for what they're calling the \"O'Hare Flyer.\"",
-   "url": "https://abc7chicago.com/post/plans-unveiled-15-minute-express-ohare-flyer-trains-airport-downtown/19732727/",
-   "published_at": "2026-08-25T12:54:39.001Z",
    "flagged_for_review": false
   }
  ]
