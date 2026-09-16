@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-16T13:00:20.581Z",
+  "updated_at": "2026-09-16T13:44:29.798Z",
   "election_date": "February 23, 2027",
   "kalshi_event": "KXCHICAGOMAYOR-27",
   "kalshi_url": "https://kalshi.com/markets/kxchicagomayor",
@@ -13,7 +13,7 @@
       "badge": "Favorite",
       "badgeColor": "blue",
       "image": "images/candidates/giannoulias.jpg",
-      "pct": 42.9,
+      "pct": 42.6,
       "kalshi_raw": 54,
       "pe_raw": 43,
       "manifold_raw": 47.3,
@@ -28,7 +28,7 @@
       "image": "images/candidates/brewer.jpg",
       "badge": "Underdog",
       "badgeColor": "yellow",
-      "pct": 7.5,
+      "pct": 7.4,
       "kalshi_raw": 6,
       "pe_raw": 23,
       "manifold_raw": 5.6,
@@ -55,7 +55,7 @@
       "status": "declared",
       "order": 4,
       "image": "images/candidates/mendoza.jpg",
-      "pct": 14.8,
+      "pct": 14.7,
       "kalshi_raw": 18,
       "pe_raw": 16,
       "manifold_raw": 11.7,
@@ -168,6 +168,17 @@
       "pe_raw": null,
       "campaign_url": "https://www.dannicformayor.com/",
       "poll_raw": 6.8
+    },
+    {
+      "name": "Bill Quinlan",
+      "role": "Attorney",
+      "status": "declared",
+      "order": 15,
+      "image": "images/candidates/quinlan.jpg",
+      "pct": 0.5,
+      "kalshi_raw": null,
+      "pe_raw": null,
+      "poll_raw": null
     }
   ]
 }

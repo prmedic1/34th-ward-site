@@ -1,4 +1,4 @@
-const DATA_V = '20260908a';
+const DATA_V = '20260916a';
 // Daily-refreshed data must revalidate on every load, so the morning update
 // shows right away instead of a returning browser serving yesterday's copy.
 const NOCACHE = { cache: 'no-cache' };
