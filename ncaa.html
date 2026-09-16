@@ -55,6 +55,9 @@
   }
   /* Schedule */
   .ncaa-day { font-family: var(--font-body); font-weight: 800; font-size: 0.82rem; letter-spacing: 1px; text-transform: uppercase; color: var(--navy); margin: 22px 0 10px; padding-bottom: 6px; border-bottom: 2px solid var(--border); }
+  /* Time-of-day sub-header (Morning / Afternoon / Evening) for busy days like Saturday */
+  .ncaa-part { font-family: var(--font-body); font-weight: 800; font-size: 0.7rem; letter-spacing: 0.8px; text-transform: uppercase; color: var(--deep, #0a5a78); margin: 14px 0 8px; display: flex; align-items: baseline; gap: 7px; flex-wrap: wrap; }
+  .ncaa-part-time { font-weight: 600; font-size: 0.66rem; letter-spacing: 0; text-transform: none; opacity: 0.6; }
   .ncaa-games { display: grid; grid-template-columns: repeat(auto-fill, minmax(156px, 1fr)); gap: 8px; }
   .ncaa-game { display: block; text-decoration: none; border-radius: 9px; overflow: hidden; box-shadow: var(--shadow-1); background: var(--home, #0a5a78); color: #fff; border: 1px solid rgba(0,0,0,0.12); transition: transform 160ms var(--ease-out), box-shadow 160ms var(--ease-out); }
   .ncaa-game:hover { transform: translateY(-2px); box-shadow: var(--shadow-2); }
@@ -295,11 +298,28 @@ document.getElementById('year').textContent = new Date().getFullYear();
       events.forEach(function (e) { var k = centralYMD(e.date); (byDay[k] = byDay[k] || []).push(e); });
       var DOW = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
       var MON = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+      // Central-time kickoff hour (0-23), used to split a busy day into parts.
+      function centralHour(iso) { return parseInt(new Date(iso).toLocaleTimeString('en-US', { hour: '2-digit', hour12: false, timeZone: 'America/Chicago' }), 10); }
+      // Morning (before noon), afternoon (noon to 5 PM), evening (5 PM and later).
+      var PARTS = [
+        { name: 'Morning', hint: 'before noon', test: function (h) { return h < 12; } },
+        { name: 'Afternoon', hint: 'noon to 5 PM', test: function (h) { return h >= 12 && h < 17; } },
+        { name: 'Evening', hint: '5 PM and later', test: function (h) { return h >= 17; } }
+      ];
+      function grid(list) { return '<div class="ncaa-games">' + list.map(renderGame).join('') + '</div>'; }
       var html = Object.keys(byDay).sort().map(function (k) {
         var p = k.split('-'); var d = new Date(+p[0], +p[1] - 1, +p[2]);
         var label = DOW[d.getDay()] + ', ' + MON[d.getMonth()] + ' ' + d.getDate();
-        var cards = byDay[k].map(renderGame).join('');
-        return '<div class="ncaa-day">' + label + '</div><div class="ncaa-games">' + cards + '</div>';
+        var games = byDay[k];
+        // Only busy days (Saturday, bowl days) get broken into morning/afternoon/
+        // evening; a light Thursday or Friday stays a single tidy list.
+        if (games.length <= 6) return '<div class="ncaa-day">' + label + '</div>' + grid(games);
+        var inner = PARTS.map(function (part) {
+          var list = games.filter(function (e) { return part.test(centralHour(e.date)); });
+          if (!list.length) return '';
+          return '<div class="ncaa-part">' + part.name + ' <span class="ncaa-part-time">' + part.hint + '</span></div>' + grid(list);
+        }).join('');
+        return '<div class="ncaa-day">' + label + '</div>' + inner;
       }).join('');
       host.innerHTML = html;
     }).catch(function () { host.innerHTML = '<p class="ncaa-loading">Schedule is unavailable right now.</p>'; });
