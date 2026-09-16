@@ -264,13 +264,28 @@ document.getElementById('year').textContent = new Date().getFullYear();
   }
 
   // ---- Schedule ----
-  var today = new Date();
-  var end = new Date(); end.setDate(today.getDate() + 6);
-  fetch(CFB + '/scoreboard?groups=80&limit=400&dates=' + ymd(today) + '-' + ymd(end))
-    .then(function (r) { return r.json(); })
-    .then(function (data) {
-      var host = document.getElementById('ncaa-schedule');
-      var events = (data.events || []).slice().sort(function (a, b) { return new Date(a.date) - new Date(b.date); });
+  // ESPN's scoreboard no longer accepts a dates=START-END *range* - it now returns
+  // HTTP 400 "Failed to get events endpoint" (this silently broke the schedule in
+  // Sep 2026). Single-date queries still work, so we ask for each of the next seven
+  // days in parallel and merge them. This keeps a true rolling seven-day window that
+  // advances on its own every day, permanently, with no bot or data file involved.
+  (function loadSchedule() {
+    var host = document.getElementById('ncaa-schedule');
+    var days = [];
+    for (var i = 0; i < 7; i++) { var d = new Date(); d.setDate(d.getDate() + i); days.push(ymd(d)); }
+    Promise.all(days.map(function (ds) {
+      return fetch(CFB + '/scoreboard?groups=80&limit=400&dates=' + ds)
+        .then(function (r) { return r.ok ? r.json() : null; })
+        .then(function (j) { return (j && j.events) || []; })
+        .catch(function () { return []; });
+    })).then(function (lists) {
+      var seen = {}, events = [];
+      // Merge all seven days, de-duping by game id (a late kickoff can land in two
+      // adjacent single-day responses).
+      lists.forEach(function (list) {
+        list.forEach(function (e) { if (e && e.id && !seen[e.id]) { seen[e.id] = 1; events.push(e); } });
+      });
+      events.sort(function (a, b) { return new Date(a.date) - new Date(b.date); });
       if (!events.length) { host.innerHTML = '<p class="ncaa-loading">No games scheduled in the next seven days.</p>'; return; }
       var byDay = {};
       // Group by the CENTRAL calendar date (not UTC), so a Thursday- or Friday-
@@ -287,8 +302,8 @@ document.getElementById('year').textContent = new Date().getFullYear();
         return '<div class="ncaa-day">' + label + '</div><div class="ncaa-games">' + cards + '</div>';
       }).join('');
       host.innerHTML = html;
-    })
-    .catch(function () { document.getElementById('ncaa-schedule').innerHTML = '<p class="ncaa-loading">Schedule is unavailable right now.</p>'; });
+    }).catch(function () { host.innerHTML = '<p class="ncaa-loading">Schedule is unavailable right now.</p>'; });
+  })();
 
   function teamRow(c, showScore) {
     var t = c.team || {};
