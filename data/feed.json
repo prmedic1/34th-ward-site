@@ -1,6 +1,54 @@
 {
- "generated_at": "2026-09-15T17:55:03.183Z",
+ "generated_at": "2026-09-16T13:00:33.436Z",
  "items": [
+  {
+   "id": "politico-20260916-mayor-brandon-johnson-speaks-at-boulevar",
+   "category": "civic_org",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Mayor Brandon Johnson speaks at Boulevard Apartments Preservation ribbon‑cutting on North Sacramento Blvd",
+   "summary": "On Sept. 15, 2026 Mayor Brandon Johnson gave remarks at 10 a.m. at 929 North Sacramento Blvd for the ribbon‑cutting of the Boulevard Apartments Preservation project. The event marked the preservation of a historic apartment building in the Near West Side, an area that includes parts of the 34th Ward. The mayor highlighted the city's commitment to protecting affordable housing while encouraging neighborhood revitalization.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-09-16T12:01:43.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "politico-20260916-mayor-brandon-johnson-touts-paid-time-of",
+   "category": "elected_official",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Mayor Brandon Johnson touts paid time off and record TIF funding for education",
+   "summary": "At a City Hall news conference Mayor Brandon Johnson listed his administration's accomplishments, including the introduction of paid time off for city workers and allocating more tax increment financing money toward education than any previous administration. He framed the measures as part of a broader effort to build affordable homes, treat trauma and improve environmental resilience across Chicago. The mayor used the platform to reinforce his record ahead of his re‑election campaign.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-09-16T12:01:43.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "axios-20260916-climate-change-risks-remain",
+   "category": "newsletter",
+   "source_id": "axios",
+   "source_name": "Axios Chicago",
+   "source_type": "email_newsletter",
+   "title": "Climate change risks remain",
+   "summary": "1 for climate resilience in an AlphaGeo analysis of 72 major cities, a distinction Mayor Brandon Johnson is touting as he runs for reelection. More than 50 years after officials adopted the Deep Tunnel plan, Chicago continues to invest in trees and stormwater infrastructure as it prepares for more extreme weather. Now planners are considering the city's next generation of climate defenses.",
+   "url": "https://www.axios.com/local/chicago",
+   "published_at": "2026-09-16T11:29:13.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260916-google-s-new-plans-for-thompson-center-i",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Google's New Plans For Thompson Center Include New Sculpture, 17-Story Atrium Revamp",
+   "summary": "The Loop landmark’s overhaul will include a plaza, artwork by Sanford Biggers, a cascading staircase, terraced seating and retail space. It's set to open in 2028.",
+   "url": "https://blockclubchicago.org/2026/09/16/googles-new-plans-for-thompson-center-include-new-sculpture-17-story-atrium-revamp/",
+   "published_at": "2026-09-16T12:30:00.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "abc7-20260915-river-forest-leaders-oppose-proposal-for",
    "category": "civic_org",
@@ -2111,42 +2159,6 @@
    "summary": "Peekachu, a 23-year-old female whale, was rescued in the last two weeks from a shuttered Canadian park.",
    "url": "https://blockclubchicago.org/2026/08/26/rescued-beluga-dies-suddenly-at-shedd-aquarium/",
    "published_at": "2026-08-26T17:24:47.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "axios-20260826-business-group-pitches-15-min-ohare-train",
-   "category": "newsletter",
-   "source_id": "axios",
-   "source_name": "Axios Chicago",
-   "source_type": "email_newsletter",
-   "title": "Business group pitches a 15-minute O'Hare-to-downtown train",
-   "summary": "A group of business leaders behind a venture called the O'Hare Flyer wants to build a privately financed high-speed train linking O'Hare with a new depot near Van Buren and Canal streets in the South Loop, steps from Union Station. Trains would leave every 15 minutes and make the trip in about 15 minutes, with fares expected to fall between a $5 Blue Line ride and the cost of a cab or ride share. Backers put the cost at $2.25 billion and the timeline at up to five years, all privately financed, and Mayor Brandon Johnson said Tuesday he welcomes the idea. Unlike Elon Musk's abandoned 2018 tunnel plan, the Flyer would run on existing freight rail corridors instead of boring under the city.",
-   "url": "https://www.axios.com/local/chicago/2026/08/25/inside-the-usd2-25b-plan-for-a-15-minute-o-hare-to-downtown-train",
-   "published_at": "2026-08-26T11:29:14.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "abc7-20260826-3-wounded-in-near-west-side-shooting-chi",
-   "category": "civic_org",
-   "source_id": "abc7",
-   "source_name": "ABC7 Chicago",
-   "source_type": "web_feed",
-   "title": "3 wounded in Near West Side shooting, Chicago police say",
-   "summary": "Three men were wounded in a shooting on the Near West Side Tuesday night, Chicago police said.",
-   "url": "https://abc7chicago.com/post/chicago-shooting-3-wounded-west-side-police-say/19737780/",
-   "published_at": "2026-08-26T13:00:19.092Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "cbs-20260826-3-men-injured-after-drive-by-shooting-on",
-   "category": "civic_org",
-   "source_id": "cbs",
-   "source_name": "CBS News Chicago",
-   "source_type": "web_feed",
-   "title": "3 men injured after drive-by shooting on Chicago's Near West Side",
-   "summary": "Three men were injured after a shooting on Chicago's West Side on Tuesday night.",
-   "url": "https://www.cbsnews.com/chicago/news/drive-by-shooting-chicago-near-west-side-jackson/",
-   "published_at": "2026-08-26T11:00:22.000Z",
    "flagged_for_review": false
   }
  ]
