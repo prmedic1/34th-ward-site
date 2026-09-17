@@ -1,6 +1,30 @@
 {
- "generated_at": "2026-09-17T13:00:38.521Z",
+ "generated_at": "2026-09-17T17:55:12.782Z",
  "items": [
+  {
+   "id": "blockclub-20260917-you-can-spend-the-night-at-soldier-field",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "You Can Spend The Night At Soldier Field To Raise Money For Homeless Youth",
+   "summary": "Sleep Out Chicago in November, organized by the West Side nonprofit Covenant House, hopes to raise $1 million for housing, food, mental health support, education and employment services.",
+   "url": "https://blockclubchicago.org/2026/09/17/you-can-spend-the-night-at-soldier-field-to-raise-money-for-homeless-youth/",
+   "published_at": "2026-09-17T12:55:00.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260916-1901-project-near-united-center-scraps-p",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "1901 Project Near United Center Scraps Planned Rooftop Park, Adds Other Green Space",
+   "summary": "Despite some community members being confused by the move, project and city officials assure that parks and green spaces are still goals of the $7 billion redevelopment.",
+   "url": "https://blockclubchicago.org/2026/09/16/1901-project-near-united-center-scraps-planned-rooftop-park-adds-other-green-space/",
+   "published_at": "2026-09-16T13:33:00.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "politico-20260917-chicago-s-first-elected-school-board-pre",
    "category": "elected_official",
