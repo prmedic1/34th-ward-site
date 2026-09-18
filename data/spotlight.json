@@ -1,12 +1,12 @@
 {
  "_rotation_note": "The daily job picks the next business each morning - rotating among ward businesses with priority to spotlight requests from owners and newly opened spots. Keep yesterday's entries in history.",
  "current": {
-  "name": "Capitol Hill Cleaners",
-  "address": "305 S. Desplaines St, West Loop",
-  "website": "https://www.yelp.com/biz/capitol-hill-cleaners-chicago",
-  "image": "images/spotlight/capitol-hill-cleaners.jpg?v=20260903",
-  "blurb": "A family-run dry cleaner that West Loop and Greektown neighbors have trusted for years with everything from suits to wedding dresses. Friendly counter service and quick turnarounds keep the regulars loyal.",
-  "date": "2026-09-17"
+  "name": "Bavette's Bar & Boeuf",
+  "address": "218 W. Kinzie St, River North edge",
+  "website": "https://www.bavetteschicago.com/",
+  "image": "images/spotlight/bavettes.jpg?v=20260903",
+  "blurb": "A candlelit, 1920s-style steakhouse just north of the ward with a jazz soundtrack and deep leather booths. The dry-aged steaks, roasted bone marrow, and towering chocolate cake keep it perennially hard to book.",
+  "date": "2026-09-18"
  },
  "history": [
   {
@@ -690,6 +690,14 @@
    "image": "images/spotlight/madison-street-books.jpg?v=20260904",
    "blurb": "The West Loop's independent bookstore, with a thoughtfully curated selection, a resident shop dog, and a steady calendar of author events and book clubs. A cozy neighborhood anchor on Madison Street.",
    "date": "2026-09-16"
+  },
+  {
+   "name": "Capitol Hill Cleaners",
+   "address": "305 S. Desplaines St, West Loop",
+   "website": "https://www.yelp.com/biz/capitol-hill-cleaners-chicago",
+   "image": "images/spotlight/capitol-hill-cleaners.jpg?v=20260903",
+   "blurb": "A family-run dry cleaner that West Loop and Greektown neighbors have trusted for years with everything from suits to wedding dresses. Friendly counter service and quick turnarounds keep the regulars loyal.",
+   "date": "2026-09-17"
   }
  ]
 }

@@ -494,5 +494,14 @@
   "article_total": 309,
   "article_views": 4,
   "verdict": "bad"
+ },
+ {
+  "date": "2026-09-18",
+  "total": 1525,
+  "visitors": 912,
+  "views": 5,
+  "article_total": 309,
+  "article_views": 0,
+  "verdict": "bad"
  }
 ]
