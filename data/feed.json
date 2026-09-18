@@ -1,6 +1,42 @@
 {
- "generated_at": "2026-09-18T13:00:40.456Z",
+ "generated_at": "2026-09-18T17:27:52.670Z",
  "items": [
+  {
+   "id": "politico-20260918-gov-jb-pritzker-urges-congress-to-rein-i",
+   "category": "elected_official",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Gov. JB Pritzker urges Congress to rein in AI industry in new video",
+   "summary": "Illinois Governor JB Pritzker released a video calling on House Speaker Mike Johnson to call members back into session and regulate artificial intelligence. He warned that AI poses an existential threat and highlighted Illinois’ new law requiring mandatory third‑party safety audits for AI developers. Pritzker’s remarks referenced comments from Sen. Tammy Duckworth and state legislators who helped pass the safety standards.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-09-18T12:00:13.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "politico-20260918-democratic-party-of-illinois-and-house-c",
+   "category": "civic_org",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Democratic Party of Illinois and House caucus clash over $750,000 coordinated campaign fund",
+   "summary": "A dispute has emerged between the Illinois Democratic Party and the House Democratic Caucus over a proposed $750,000 coordinated campaign fund that would require each House member to contribute $10,000. Speaker Emanuel “Chris” Welch’s team argues the money would not benefit many candidates, while party leaders seek a unified effort for the November election. The party has reduced its ask twice, and the caucus has declined to participate, prompting further negotiations.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-09-18T12:00:13.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "wca-20260918-florida-based-omakai-sushi-to-open-in-fu",
+   "category": "business",
+   "source_id": "wca",
+   "source_name": "The WCA Weekly",
+   "source_type": "email_newsletter",
+   "title": "Florida‑based OMAKAI sushi to open in Fulton Market",
+   "summary": "OMAKAI, a sushi restaurant from Florida, announced plans to open a new location in Fulton Market. The opening adds a new dining option to the neighborhood and is highlighted as a notable business development in the WCA Weekly.",
+   "url": "https://www.wcachicago.org/",
+   "published_at": "2026-09-18T11:31:16.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "politico-20260918-gov-jb-pritzker-pushes-ai-safety-legisla",
    "category": "elected_official",
@@ -2051,30 +2087,6 @@
    "summary": "Hubbard Street Group is proposing to add two stories to the historically protected vacant building and rebuild its landmarked front facade.",
    "url": "https://blockclubchicago.org/2026/08/31/long-vacant-fulton-market-building-could-be-redeveloped-into-20-apartments-retail-space/",
    "published_at": "2026-08-31T13:23:00.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "cbs-20260828-what-to-do-in-chicago-this-weekend-panda",
-   "category": "civic_org",
-   "source_id": "cbs",
-   "source_name": "CBS News Chicago",
-   "source_type": "web_feed",
-   "title": "What to do in Chicago this weekend: Panda Fest, Bald Off, Taste of Greektown and more",
-   "summary": "As Labor Day nears, weekend food and music festivals are still going strong in Chicago. Here are some of the things you can do this weekend.",
-   "url": "https://www.cbsnews.com/chicago/news/chicago-weekend-panda-fest-bald-off-taste-of-greektown/",
-   "published_at": "2026-08-28T16:10:25.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260828-5-must-see-art-exhibits-to-check-out-in-",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "5 Must-See Art Exhibits To Check Out In September",
-   "summary": "Visit a Chicago gallery this fall to see the Art Institute's first new Mary Cassatt exhibit in decades, an emotional photographic exhibition honoring Emmett Till, an immersive scientific exhibit at the Smart Museum and more.",
-   "url": "https://blockclubchicago.org/2026/08/28/5-must-see-art-exhibits-to-check-out-in-september/",
-   "published_at": "2026-08-28T13:12:00.000Z",
    "flagged_for_review": false
   }
  ]
