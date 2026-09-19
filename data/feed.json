@@ -1,6 +1,42 @@
 {
- "generated_at": "2026-09-19T13:00:38.359Z",
+ "generated_at": "2026-09-19T16:59:39.065Z",
  "items": [
+  {
+   "id": "conway-20260918-competing-tenants-rights-ordinances-pro-",
+   "category": "civic_org",
+   "source_id": "conway",
+   "source_name": "Conway's Corner (34th Ward Office Newsletter)",
+   "source_type": "email_newsletter",
+   "title": "Competing Tenants' Rights Ordinances PRO and FAIR Advance to City Council",
+   "summary": "Two tenant‑rights ordinances, the Mayor's PRO proposal and the FAIR proposal, moved through committee votes this week and will be considered by City Council next week. Both bills aim to protect tenants while encouraging affordable housing development, though the alderman expressed misgivings about shortcomings in each. A compromise is hoped for to support tenants and city growth.",
+   "url": "https://www.ward34.org/",
+   "published_at": "2026-09-18T20:50:48.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "conway-20260918-four-new-historic-plaques-planned-for-we",
+   "category": "civic_org",
+   "source_id": "conway",
+   "source_name": "Conway's Corner (34th Ward Office Newsletter)",
+   "source_type": "email_newsletter",
+   "title": "Four New Historic Plaques Planned for West Loop in Summer 2026",
+   "summary": "The West Loop Historic Plaques Project announced four additional plaques will be installed in summer 2026, marking a UIC classroom, a condo building, and two parks. The neighborhood already has 19 historical designations, four historic plaques, and one Chicago Landmark plaque. The project highlights the area's rich history and ongoing preservation efforts.",
+   "url": "https://www.ward34.org/",
+   "published_at": "2026-09-18T20:50:48.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "abc7-20260919-man-critically-hurt-after-falling-onto-c",
+   "category": "civic_org",
+   "source_id": "abc7",
+   "source_name": "ABC7 Chicago",
+   "source_type": "web_feed",
+   "title": "Man critically hurt after falling onto CTA Blue Line tracks, being hit by train at West Loop station",
+   "summary": "A CTA train hit a man after he fell onto the tracks at a downtown station on Saturday morning, leaving him in critical condition, Chicago police said.",
+   "url": "https://abc7chicago.com/post/man-critically-hurt-falling-cta-blue-line-tracks-being-hit-train-clinton-stop-west-loop-chicago-police-say/19849772/",
+   "published_at": "2026-09-19T16:59:28.623Z",
+   "flagged_for_review": false
+  },
   {
    "id": "conway-20260918-proposed-sale-of-chicago-parking-meters-",
    "category": "civic_org",
