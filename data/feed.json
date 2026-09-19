@@ -1,6 +1,90 @@
 {
- "generated_at": "2026-09-18T17:27:52.670Z",
+ "generated_at": "2026-09-19T13:00:38.359Z",
  "items": [
+  {
+   "id": "conway-20260918-proposed-sale-of-chicago-parking-meters-",
+   "category": "civic_org",
+   "source_id": "conway",
+   "source_name": "Conway's Corner (34th Ward Office Newsletter)",
+   "source_type": "email_newsletter",
+   "title": "Proposed sale of Chicago parking meters to Stonepeak and pending tenants' rights ordinances",
+   "summary": "The city is reviewing a proposed sale of Chicago’s parking meters to Stonepeak, with early numbers indicating a net positive for taxpayers despite the 2008 deal being one of the worst municipal asset sales. Two competing tenants‑rights ordinances, the Mayor’s PRO and the FAIR proposal, have cleared committee votes and will be considered by City Council next week, prompting calls for a compromise that protects renters and encourages affordable housing.",
+   "url": "https://www.ward34.org/",
+   "published_at": "2026-09-18T20:50:48.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "conway-20260918-four-new-historic-plaques-to-be-installe",
+   "category": "civic_org",
+   "source_id": "conway",
+   "source_name": "Conway's Corner (34th Ward Office Newsletter)",
+   "source_type": "email_newsletter",
+   "title": "Four new historic plaques to be installed in the West Loop this summer",
+   "summary": "The West Loop Historic Plaques Project will add four new plaques in summer 2026, marking a UIC classroom, a condominium building, and two parks, bringing the total to nineteen historic designations, four historic plaques, and one Chicago Landmark plaque in the neighborhood.",
+   "url": "https://www.ward34.org/",
+   "published_at": "2026-09-18T20:50:48.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "conway-20260918-west-loop-green-city-market-returns-for-",
+   "category": "business",
+   "source_id": "conway",
+   "source_name": "Conway's Corner (34th Ward Office Newsletter)",
+   "source_type": "email_newsletter",
+   "title": "West Loop Green City Market returns for Saturday season",
+   "summary": "The West Loop Green City Market operates Saturdays from 8 a.m. to 1 p.m. at 900 W. Monroe, running May through November and featuring dozens of local farmers and food producers; the market will be closed on September 19 due to weather.",
+   "url": "https://www.ward34.org/",
+   "published_at": "2026-09-18T20:50:48.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260918-reserv-owner-says-he-s-closing-south-loo",
+   "category": "business",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Reserv Owner Says He's Closing South Loop Restaurant After Months Of Neighbor Complaints",
+   "summary": "The city issued a cease-and-desist notice after a fight prompted a large police response in August. Neighbors had previously levied frequent noise complaints.",
+   "url": "https://blockclubchicago.org/2026/09/18/reserv-owner-says-hes-closing-south-loop-restaurant-after-months-of-neighbor-complaints/",
+   "published_at": "2026-09-18T22:34:46.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260918-martini-lounge-from-former-chicago-bear-",
+   "category": "business",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Martini Lounge, From Former Chicago Bear Israel Idonije, Elevates The Classic Cocktail",
+   "summary": "Idonije's newest South Loop bar offers a tightly focused menu of 12 martinis, plus cocktails, wine and a few bar snacks.",
+   "url": "https://blockclubchicago.org/2026/09/17/martini-lounge-from-former-chicago-bear-israel-idonije-elevates-the-classic-cocktail/",
+   "published_at": "2026-09-18T03:43:05.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260917-plaque-honoring-florence-scala-who-fough",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Plaque Honoring Florence Scala, Who Fought Displacement Of Immigrants, Unveiled In Little Italy",
+   "summary": "Scala rose to prominence working with Jane Addams to advocate for immigrant communities on the Near West Side before fighting urban renewal efforts that displaced neighbors.",
+   "url": "https://blockclubchicago.org/2026/09/17/plaque-honoring-florence-scala-who-fought-displacement-of-immigrants-unveiled-in-little-italy/",
+   "published_at": "2026-09-17T22:48:37.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260918-state-s-attorney-agrees-to-meet-with-lat",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "State’s Attorney Agrees To Meet With Latino Leaders Demanding She Investigate ICE",
+   "summary": "Immigration advocates have pressed Cook County State’s Attorney Eileen O’Neill Burke to probe the actions of federal immigration agents during Operation Midway Blitz.",
+   "url": "https://blockclubchicago.org/2026/09/18/states-attorney-agrees-to-meet-with-latino-leaders-demanding-she-investigate-ice/",
+   "published_at": "2026-09-18T18:18:35.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "politico-20260918-gov-jb-pritzker-urges-congress-to-rein-i",
    "category": "elected_official",
