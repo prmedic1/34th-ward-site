@@ -1,6 +1,42 @@
 {
- "generated_at": "2026-09-20T13:00:43.452Z",
+ "generated_at": "2026-09-20T17:16:43.869Z",
  "items": [
+  {
+   "id": "conway-20260918-ward-office-reviews-proposed-sale-of-chi",
+   "category": "civic_org",
+   "source_id": "conway",
+   "source_name": "Conway's Corner (34th Ward Office Newsletter)",
+   "source_type": "email_newsletter",
+   "title": "Ward Office Reviews Proposed Sale of Chicago Parking Meters to Stonepeak",
+   "summary": "Alderman Conway’s office is examining the upcoming sale of the city’s parking meters to Stonepeak, noting that the original 2008 deal was among the worst municipal asset sales. Early analysis of the revised terms suggests a significant net positive for taxpayers. The office plans to continue reviewing legal documents over the weekend and has posted a breakdown of the financial aspects.",
+   "url": "https://www.ward34.org/",
+   "published_at": "2026-09-18T20:50:48.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "conway-20260918-smart-streets-pilot-and-new-pedestrian-s",
+   "category": "civic_org",
+   "source_id": "conway",
+   "source_name": "Conway's Corner (34th Ward Office Newsletter)",
+   "source_type": "email_newsletter",
+   "title": "Smart Streets Pilot and New Pedestrian Safety Projects Expanded Across the 34th Ward",
+   "summary": "The ward has worked with CDOT engineers to add bump outs and protected bike lanes, and most of the area participates in the Smart Streets Pilot that uses cameras to issue traffic tickets. The pilot reported that 87% of drivers who received a warning avoided a subsequent violation, improving safety. The alderman signed a letter urging more CDOT staffing, better driver education, and citywide expansion of the program.",
+   "url": "https://www.ward34.org/",
+   "published_at": "2026-09-18T20:50:48.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "abc7-20260920-semi-jackknifes-on-inbound-lanes-of-kenn",
+   "category": "civic_org",
+   "source_id": "abc7",
+   "source_name": "ABC7 Chicago",
+   "source_type": "web_feed",
+   "title": "Semi jackknifes on inbound lanes of Kennedy Expy. near downtown Chicago, video shows",
+   "summary": "All lanes have reopened after a semi jackknifed on the Kennedy Expressway early Sunday morning.",
+   "url": "https://abc7chicago.com/post/chicago-traffic-today-semi-jackknifes-kennedy-expressway-racine-exit-approaching-downtown-video-shows/19851982/",
+   "published_at": "2026-09-20T17:16:34.057Z",
+   "flagged_for_review": false
+  },
   {
    "id": "conway-20260918-proposed-sale-of-chicago-s-parking-meter",
    "category": "business",
