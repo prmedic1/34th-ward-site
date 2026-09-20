@@ -1,12 +1,12 @@
 {
  "_rotation_note": "The daily job picks the next business each morning - rotating among ward businesses with priority to spotlight requests from owners and newly opened spots. Keep yesterday's entries in history.",
  "current": {
-  "name": "Formento's",
-  "address": "925 W. Randolph St, West Loop",
-  "website": "https://www.formentos.com/",
-  "image": "images/spotlight/formentos.jpg?v=20260903",
-  "blurb": "A love letter to Italian-American red-sauce classics on Restaurant Row. Sunday gravy, house pastas, and a chicken Parm that regulars swear by, all in a handsome, old-school room.",
-  "date": "2026-09-19"
+  "name": "El Che Steakhouse & Bar",
+  "address": "845 W. Washington Blvd, West Loop",
+  "website": "https://www.elchechicago.com/",
+  "image": "images/spotlight/el-che.jpg?v=20260903",
+  "blurb": "An Argentine-inspired steakhouse where nearly everything touches the open hearth. The wood-fired grill, empanadas, and Malbec-heavy list make it one of the West Loop's most distinctive rooms.",
+  "date": "2026-09-20"
  },
  "history": [
   {
@@ -706,6 +706,14 @@
    "image": "images/spotlight/bavettes.jpg?v=20260903",
    "blurb": "A candlelit, 1920s-style steakhouse just north of the ward with a jazz soundtrack and deep leather booths. The dry-aged steaks, roasted bone marrow, and towering chocolate cake keep it perennially hard to book.",
    "date": "2026-09-18"
+  },
+  {
+   "name": "Formento's",
+   "address": "925 W. Randolph St, West Loop",
+   "website": "https://www.formentos.com/",
+   "image": "images/spotlight/formentos.jpg?v=20260903",
+   "blurb": "A love letter to Italian-American red-sauce classics on Restaurant Row. Sunday gravy, house pastas, and a chicken Parm that regulars swear by, all in a handsome, old-school room.",
+   "date": "2026-09-19"
   }
  ]
 }

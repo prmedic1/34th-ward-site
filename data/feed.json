@@ -1,6 +1,66 @@
 {
- "generated_at": "2026-09-19T16:59:39.065Z",
+ "generated_at": "2026-09-20T13:00:43.452Z",
  "items": [
+  {
+   "id": "conway-20260918-proposed-sale-of-chicago-s-parking-meter",
+   "category": "business",
+   "source_id": "conway",
+   "source_name": "Conway's Corner (34th Ward Office Newsletter)",
+   "source_type": "email_newsletter",
+   "title": "Proposed sale of Chicago's parking meters to Stonepeak under review",
+   "summary": "A revised deal to sell Chicago's parking meters to private equity firm Stonepeak is being examined after the 2008 sale was deemed one of the worst municipal asset transactions. Early numbers suggest the new agreement could be a significant net positive for taxpayers. Alderman Conway plans to continue reviewing the legal documents over the weekend.",
+   "url": "https://www.ward34.org/",
+   "published_at": "2026-09-18T20:50:48.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "conway-20260918-competing-tenant-rights-ordinances-move-",
+   "category": "civic_org",
+   "source_id": "conway",
+   "source_name": "Conway's Corner (34th Ward Office Newsletter)",
+   "source_type": "email_newsletter",
+   "title": "Competing tenant‑rights ordinances move through City Council committees",
+   "summary": "Both the Mayor's PRO proposal and the FAIR ordinance have passed committee votes and will be considered by City Council next week. The measures aim to protect tenants while encouraging the development of new affordable housing, though each has identified shortcomings. Alderman Conway expressed misgivings and hopes for a compromise that supports residents.",
+   "url": "https://www.ward34.org/",
+   "published_at": "2026-09-18T20:50:48.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "cbs-20260919-man-accidentally-falls-on-blue-line-trac",
+   "category": "civic_org",
+   "source_id": "cbs",
+   "source_name": "CBS News Chicago",
+   "source_type": "web_feed",
+   "title": "Man accidentally falls on Blue Line tracks, hit by train in West Loop, police say",
+   "summary": "It is unclear what caused the man to fall onto the tracks.",
+   "url": "https://www.cbsnews.com/chicago/news/man-falls-blue-line-tracks-hit-by-train-west-loop/",
+   "published_at": "2026-09-19T23:15:47.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260920-chicago-river-swim-scheduled-for-sunday-",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Chicago River Swim Scheduled For Sunday Is Cancelled",
+   "summary": "The Chicago River Swim organization announced the cancellation at 4 a.m. Sunday: \"Participants should not report to the event start area this morning.\"",
+   "url": "https://blockclubchicago.org/2026/09/20/chicago-river-swim-scheduled-for-sunday-is-cancelled/",
+   "published_at": "2026-09-20T10:03:03.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260918-here-s-what-the-1901-project-s-music-hal",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Here’s What The 1901 Project's Music Hall Will Look Like Inside, New Renderings Show",
+   "summary": "The 6,000-seat venue is expected to open in 2028 as part of the $7 billion development next to the United Center, with space for restaurants, retail and public gathering areas.",
+   "url": "https://blockclubchicago.org/2026/09/18/heres-what-the-1901-projects-music-hall-will-look-like-inside-new-renderings-show/",
+   "published_at": "2026-09-18T19:21:25.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "conway-20260918-competing-tenants-rights-ordinances-pro-",
    "category": "civic_org",
