@@ -1,6 +1,102 @@
 {
- "generated_at": "2026-09-21T13:00:37.786Z",
+ "generated_at": "2026-09-21T19:02:38.646Z",
  "items": [
+  {
+   "id": "politico-20260921-small-businesses-against-tariffs-launche",
+   "category": "business",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Small Businesses Against Tariffs launches $1 million billboard campaign in Chicago",
+   "summary": "The advocacy group Small Businesses Against Tariffs is rolling out a $1 million billboard effort across Chicago and Springfield, using state‑specific jokes such as “What’s worse than Green Bay? Tariffs.” Northbrook‑based Baby Paper founder Sari Wiaz backs the campaign, saying tariffs have forced her to raise product prices by 10%‑20%. The billboards are funded by the Defending Democracy Together Institute, a nonprofit supported by conservative commentator Bill Kristol.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-09-21T12:01:47.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "politico-20260921-metropolitan-water-reclamation-district-",
+   "category": "civic_org",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Metropolitan Water Reclamation District proposes selling recycled water to data centers",
+   "summary": "The Metropolitan Water Reclamation District announced plans to sell recycled sewer water to large data centers that support artificial intelligence, projecting potential revenue of millions of dollars per year. The proposal aims to turn the agency’s water‑treatment infrastructure into a new revenue stream while supporting the growing data‑center industry in Illinois.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-09-21T12:01:47.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "wca-20260920-uic-approved-for-232m-cancer-research-hu",
+   "category": "business",
+   "source_id": "wca",
+   "source_name": "The WCA Weekly",
+   "source_type": "email_newsletter",
+   "title": "UIC Approved for $232M Cancer Research Hub",
+   "summary": "The University of Illinois Chicago received approval to build a cancer research hub funded at $232 million. The project will add state‑of‑the‑art research facilities to the city and is expected to boost local jobs and medical innovation.",
+   "url": "https://www.wcachicago.org/",
+   "published_at": "2026-09-20T19:01:33.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "wca-20260920-1282-washington-condominium-development-",
+   "category": "business",
+   "source_id": "wca",
+   "source_name": "The WCA Weekly",
+   "source_type": "email_newsletter",
+   "title": "1282 Washington Condominium Development Near Madison Row",
+   "summary": "ZSD’s 1282 Washington project, located near Madison Row, is under construction and will deliver 4‑ and 5‑bedroom single‑family condominium residences. The boutique building is 75 % pre‑sold and aims to set a new standard for West Loop living.",
+   "url": "https://www.wcachicago.org/",
+   "published_at": "2026-09-20T19:01:33.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "cbs-20260921-thousands-of-downtown-chicago-hotel-work",
+   "category": "civic_org",
+   "source_id": "cbs",
+   "source_name": "CBS News Chicago",
+   "source_type": "web_feed",
+   "title": "Thousands of downtown Chicago hotel workers vote to authorize strike",
+   "summary": "Thousands of workers at dozens of downtown Chicago hotels have voted to authorize a strike, which their union said would be the largest in the city's history.",
+   "url": "https://www.cbsnews.com/chicago/news/downtown-chicago-hotel-workers-strike-authorization-vote-unite-here-local-1/",
+   "published_at": "2026-09-21T18:27:33.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "cbs-20260921-ntsb-officials-in-chicago-highlight-need",
+   "category": "civic_org",
+   "source_id": "cbs",
+   "source_name": "CBS News Chicago",
+   "source_type": "web_feed",
+   "title": "NTSB officials in Chicago highlight needed rail safety improvements across the U.S.",
+   "summary": "The National Transportation Safety Board was at Union Station in downtown Chicago on Monday, highlighting safety improvements needed across the U.S. rail system.",
+   "url": "https://www.cbsnews.com/chicago/news/ntsb-chicago-rail-railroad-safety-improvements/",
+   "published_at": "2026-09-21T16:18:22.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "cbs-20260921-ntsb-discusses-needed-railroad-safety-im",
+   "category": "civic_org",
+   "source_id": "cbs",
+   "source_name": "CBS News Chicago",
+   "source_type": "web_feed",
+   "title": "NTSB discusses needed railroad safety improvements across the U.S.",
+   "summary": "The National Transportation Safety Board was at Union Station in downtown Chicago on Monday, highlighting safety improvements needed across the U.S. rail system.",
+   "url": "https://www.cbsnews.com/chicago/video/ntsb-discusses-needed-railroad-safety-improvements-across-the-u-s/",
+   "published_at": "2026-09-21T16:13:00.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "cbs-20260921-burglars-try-to-smash-into-atm-at-gas-st",
+   "category": "civic_org",
+   "source_id": "cbs",
+   "source_name": "CBS News Chicago",
+   "source_type": "web_feed",
+   "title": "Burglars try to smash into ATM at gas station in West Town",
+   "summary": "Burglars smashed an ATM at a gas station minimart in Chicago’s West Town community early Monday, but failed to get any money, an employee said.",
+   "url": "https://www.cbsnews.com/chicago/video/burglars-try-to-smash-into-atm-at-gas-station-in-west-town/",
+   "published_at": "2026-09-21T13:07:00.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "politico-20260921-gov-jb-pritzker-warns-about-recursive-ai",
    "category": "elected_official",
@@ -2294,30 +2390,6 @@
    "flagged_for_review": false
   },
   {
-   "id": "blockclub-20260831-at-chicago-s-tall-ball-the-vertically-gi",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "At Chicago's Tall Ball, The Vertically Gifted Get A Rare Chance To See Eye-To-Eye",
-   "summary": "At the second annual Tall Ball, even the DJ stood 6'9\". The party at the Allerton Hotel drew hundreds of tall men and women and even crowned a Tall King and Queen.",
-   "url": "https://blockclubchicago.org/2026/08/31/at-chicagos-tall-ball-the-vertically-gifted-get-a-rare-chance-to-see-eye-to-eye/",
-   "published_at": "2026-08-31T17:02:00.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260831-aquarium-smokers-are-a-chicago-barbecue-",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Aquarium Smokers Are A Chicago Barbecue Mystery",
-   "summary": "The glass-walled barbecue pits bathe meat in smoke, allowing for even cooking while letting customers see the goods, pitmasters say.",
-   "url": "https://blockclubchicago.org/2026/08/31/aquarium-smokers-are-a-chicago-barbecue-mystery/",
-   "published_at": "2026-08-31T16:42:00.000Z",
-   "flagged_for_review": false
-  },
-  {
    "id": "abc7-20260901-community-advocates-press-for-reopening-",
    "category": "civic_org",
    "source_id": "abc7",
@@ -2327,30 +2399,6 @@
    "summary": "A town hall meeting on Chicago's Near West Side renewed calls to reopen two shuttered hospitals as their future remains tied up in an ongoing court dispute.",
    "url": "https://abc7chicago.com/post/advocates-press-reopening-west-suburban-medical-center-oak-park-il-weiss-memorial-hospital-uptown-chicago/19772692/",
    "published_at": "2026-09-01T14:02:47.997Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260831-chicagoans-set-mal-rt-record-for-most-pe",
-   "category": "business",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Chicagoans Set Malört Record For Most People To Down A Shot At Same Time",
-   "summary": "The obscure world record was set around 7:50 p.m. Sunday at Recess bar in the West Loop with Gov. JB Pritzer serving up shots - and Malört enthusiasts across the country were encouraged to participate.",
-   "url": "https://blockclubchicago.org/2026/08/31/chicagoans-set-malort-record-for-most-people-to-down-a-shot-at-same-time/",
-   "published_at": "2026-08-31T13:56:00.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260831-long-vacant-fulton-market-building-could",
-   "category": "business",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Long-Vacant Fulton Market Building Could Be Redeveloped Into 20 Apartments, Retail Space",
-   "summary": "Hubbard Street Group is proposing to add two stories to the historically protected vacant building and rebuild its landmarked front facade.",
-   "url": "https://blockclubchicago.org/2026/08/31/long-vacant-fulton-market-building-could-be-redeveloped-into-20-apartments-retail-space/",
-   "published_at": "2026-08-31T13:23:00.000Z",
    "flagged_for_review": false
   }
  ]
