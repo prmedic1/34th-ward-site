@@ -1,6 +1,18 @@
 {
- "generated_at": "2026-09-22T13:00:39.366Z",
+ "generated_at": "2026-09-22T17:54:29.104Z",
  "items": [
+  {
+   "id": "cbs-20260922-chicago-hotel-workers-vote-to-go-on-stri",
+   "category": "civic_org",
+   "source_id": "cbs",
+   "source_name": "CBS News Chicago",
+   "source_type": "web_feed",
+   "title": "Chicago hotel workers vote to go on strike",
+   "summary": "Thousands of workers at dozens of downtown Chicago hotels have voted to authorize a strike, which their union said would be the largest in the city's history. Lauren Victory reports.",
+   "url": "https://www.cbsnews.com/chicago/video/chicago-hotel-workers-vote-to-go-on-strike/",
+   "published_at": "2026-09-22T14:55:00.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "politico-20260922-illinois-supreme-court-to-hear-case-that",
    "category": "civic_org",
@@ -2411,42 +2423,6 @@
    "summary": "An orange cease-and-desist sign is on the restaurant door. The city has ordered the business to stop playing live music and charging people to enter the venue.",
    "url": "https://www.cbsnews.com/chicago/video/south-loop-restaurant-at-risk-of-losing-license-after-noise-fighting-complaints/",
    "published_at": "2026-09-02T04:07:00.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260901-london-s-acclaimed-berenjak-bringing-ira",
-   "category": "business",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "London’s Acclaimed Berenjak Bringing Iranian Kababs, Cocktails To Fulton Market",
-   "summary": "The restaurant will open inside Soho House later this month and will be open to non-members.",
-   "url": "https://blockclubchicago.org/2026/09/01/londons-acclaimed-berenjak-bringing-iranian-kababs-cocktails-to-fulton-market/",
-   "published_at": "2026-09-01T15:48:28.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260901-city-issues-cease-and-desist-order-again",
-   "category": "business",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "City Issues Cease-And-Desist Order Against Printers Row Bar Reserv",
-   "summary": "The order comes after another large fight at the South Loop sports bar, which also faces other legal challenges. A license hearing has been set for Sept. 18.",
-   "url": "https://blockclubchicago.org/2026/09/01/city-issues-cease-and-desist-order-against-printers-row-bar-reserv/",
-   "published_at": "2026-09-01T17:15:00.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "abc7-20260901-community-advocates-press-for-reopening-",
-   "category": "civic_org",
-   "source_id": "abc7",
-   "source_name": "ABC7 Chicago",
-   "source_type": "web_feed",
-   "title": "Community advocates press for reopening of West Suburban, Weiss hospitals as sale remains in court",
-   "summary": "A town hall meeting on Chicago's Near West Side renewed calls to reopen two shuttered hospitals as their future remains tied up in an ongoing court dispute.",
-   "url": "https://abc7chicago.com/post/advocates-press-reopening-west-suburban-medical-center-oak-park-il-weiss-memorial-hospital-uptown-chicago/19772692/",
-   "published_at": "2026-09-01T14:02:47.997Z",
    "flagged_for_review": false
   }
  ]
