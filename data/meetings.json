@@ -1,6 +1,6 @@
 {
  "_note": "Upcoming community meetings and neighborhood-group events shown in the carve-out box on the homepage front page. Civic meetings come from the 34th Ward newsletter (Conway's Corner); the Indivisible Greater West Loop events come from that chapter's Mobilize page (mobilize.us/indivisiblegwlchi). Optional fields: 'org' (a small source label) and 'url' (makes the title a link). Exact venues for the Indivisible events are gated behind RSVP, so 'location' is only filled where publicly verified and the link carries the rest. The homepage shows only future-dated items, soonest first, and drops them once they pass. Refresh Indivisible events from their Mobilize page.",
- "updated_at": "2026-09-21",
+ "updated_at": "2026-09-22",
  "meetings": [
   {
    "title": "Greyhound Station Community Meeting",
@@ -85,12 +85,32 @@
   },
   {
    "title": "Printers Row Park Cleanup",
-   "date": "2026-09-22",
+   "date": "2026-09-15",
    "time": "5:00 PM",
    "org": "Chicago Parks Foundation",
    "location": "Printers Row Park",
    "desc": "A neighborhood trash pick-up with the Printers Row Park Clean Up Crew, part of the Chicago Parks Foundation's Pitch In for the Parks program. Supplies provided; register to join.",
    "url": "https://givepul.se/979pid",
+   "src": "cpf"
+  },
+  {
+   "title": "Washington Square Park Cleanup",
+   "date": "2026-09-19",
+   "time": "10:00 AM",
+   "org": "Chicago Parks Foundation",
+   "location": "Washington Square Park",
+   "desc": "A neighborhood trash pick-up with the Washington Square Park Advisory Council, part of the Chicago Parks Foundation's Pitch In for the Parks program. Supplies provided; register to join.",
+   "url": "https://givepul.se/bbn6vn",
+   "src": "cpf"
+  },
+  {
+   "title": "South Lincoln Park Cleanup",
+   "date": "2026-09-19",
+   "time": "10:00 AM",
+   "org": "Chicago Parks Foundation",
+   "location": "South Lincoln Park",
+   "desc": "A neighborhood mulching with the Gold Coast Neighbors Association, part of the Chicago Parks Foundation's Pitch In for the Parks program. Supplies provided; register to join.",
+   "url": "https://www.givepulse.com/event/914623-mulch-a-thon-pitch-in-at-south-lincoln-park-w-gold-coast-neighbors-association",
    "src": "cpf"
   },
   {

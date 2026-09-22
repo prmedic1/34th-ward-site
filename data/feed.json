@@ -1,6 +1,66 @@
 {
- "generated_at": "2026-09-21T19:02:38.646Z",
+ "generated_at": "2026-09-22T13:00:39.366Z",
  "items": [
+  {
+   "id": "politico-20260922-illinois-supreme-court-to-hear-case-that",
+   "category": "civic_org",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Illinois Supreme Court to hear case that will determine future of Chicago police misconduct process",
+   "summary": "The Illinois Supreme Court will hear a case that could reshape how Chicago handles police misconduct allegations. A decision could change oversight and accountability mechanisms for officers citywide, affecting neighborhoods such as the West Loop and the Loop in the 34th Ward.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-09-22T12:01:22.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "politico-20260922-push-for-independent-review-of-cook-coun",
+   "category": "civic_org",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Push for independent review of Cook County Jail amid concerns over deaths and supervision",
+   "summary": "A resolution calling for an independent review of the Cook County Jail is scheduled for a vote Tuesday in the Health and Hospitals Committee of the Cook County Board of Commissioners. Advocates, elected officials and faith leaders cite a 2023 death toll as reason for third‑party oversight, and the jail sits near the West Loop, impacting nearby residents.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-09-22T12:01:22.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "axios-20260922-trump-to-visit-medinah",
+   "category": "newsletter",
+   "source_id": "axios",
+   "source_name": "Axios Chicago",
+   "source_type": "email_newsletter",
+   "title": "Trump to visit Medinah",
+   "summary": "Jim Furyk of the USA putts during the Ryder Cup at Medinah Country Club in 2012. Jamie Squire/Getty Images President Donald Trump will make his way to the Chicago area this week for the first time during his current term. The Presidents Cup runs Thursday through Sunday at Medinah Country Club in the northwest suburbs, with Trump serving as honorary chairman.",
+   "url": "https://www.axios.com/local/chicago",
+   "published_at": "2026-09-22T11:29:53.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "cbs-20260922-chicago-hotel-workers-going-on-strike",
+   "category": "civic_org",
+   "source_id": "cbs",
+   "source_name": "CBS News Chicago",
+   "source_type": "web_feed",
+   "title": "Chicago hotel workers going on strike",
+   "summary": "Thousands of workers at dozens of downtown Chicago hotels have voted to authorize a strike, which their union said would be the largest in the city's history.",
+   "url": "https://www.cbsnews.com/chicago/video/chicago-hotel-workers-going-on-strike/",
+   "published_at": "2026-09-22T11:54:00.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260922-after-more-than-a-century-tiffany-window",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "After More Than A Century, Tiffany Windows At Historic Chicago Church Are Glowing Again",
+   "summary": "Four of the 12 monumental sanctuary windows at Second Presbyterian Church have been restored, giving visitors a clearer look at the craftsmanship hidden beneath decades of grime.",
+   "url": "https://blockclubchicago.org/2026/09/22/after-more-than-a-century-tiffany-windows-at-historic-chicago-church-are-glowing-again/",
+   "published_at": "2026-09-22T12:44:00.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "politico-20260921-small-businesses-against-tariffs-launche",
    "category": "business",
@@ -2351,18 +2411,6 @@
    "summary": "An orange cease-and-desist sign is on the restaurant door. The city has ordered the business to stop playing live music and charging people to enter the venue.",
    "url": "https://www.cbsnews.com/chicago/video/south-loop-restaurant-at-risk-of-losing-license-after-noise-fighting-complaints/",
    "published_at": "2026-09-02T04:07:00.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "axios-20260901-yemeni-cafes-take-off",
-   "category": "newsletter",
-   "source_id": "axios",
-   "source_name": "Axios Chicago",
-   "source_type": "email_newsletter",
-   "title": "Yemeni cafes take off",
-   "summary": "Move over, pumpkin spice latte. The hottest new coffee trend comes from Yemen. In recent years, Yemeni-American cafe chains - including Qahwah House, Matari Coffee, Shibam Coffee Co, Qamaria, Arwa and Haraz Coffee House - have percolated out from suburban Detroit to the Midwest and the rest of the country.",
-   "url": "https://www.axios.com/local/chicago",
-   "published_at": "2026-09-01T11:27:16.000Z",
    "flagged_for_review": false
   },
   {

@@ -530,5 +530,14 @@
   "article_total": 314,
   "article_views": 0,
   "verdict": "usual"
+ },
+ {
+  "date": "2026-09-22",
+  "total": 1588,
+  "visitors": 950,
+  "views": 10,
+  "article_total": 320,
+  "article_views": 6,
+  "verdict": "usual"
  }
 ]
