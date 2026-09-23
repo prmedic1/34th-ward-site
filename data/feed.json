@@ -1,6 +1,78 @@
 {
- "generated_at": "2026-09-22T17:54:29.104Z",
+ "generated_at": "2026-09-23T13:01:14.241Z",
  "items": [
+  {
+   "id": "politico-20260923-mayoral-candidate-william-quinlan-sues-g",
+   "category": "elected_official",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Mayoral candidate William Quinlan sues Giannoulias, Quigley and Pappas over dual candidacies",
+   "summary": "Mayor candidate William Quinlan filed a lawsuit in Cook County Circuit Court against Illinois Secretary of State Alexi Giannoulias, Congressman Mike Quigley and Cook County Treasurer Maria Pappas, arguing that state law bars them from seeking re‑election while also running for mayor. The suit seeks a court ruling that the offices are legally incompatible under Section 10‑7 of the Illinois Election Code and names the State Board of Elections as a defendant. Petition filing for the mayoral race is due Oct. 26, and the candidates have not yet become official.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-09-23T12:00:42.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "politico-20260923-donor-michael-sacks-sends-cease-and-desi",
+   "category": "business",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Donor Michael Sacks sends cease‑and‑desist to influencer firm over false statements",
+   "summary": "Billionaire Democratic donor Michael Sacks sent a cease‑and‑desist letter to the advertising firm Good Influence after it produced influencer videos that Sacks says contain false and defamatory statements. Sacks’ attorney Ed Siskel demanded the firm stop soliciting, ghostwriting, financing, publishing or republishing the claims, according to a Tribune report. The dispute also involves alleged payments to boost the campaign of school board candidate Hilario Dominguez.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-09-23T12:00:42.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "politico-20260923-chicago-teachers-union-disclosed-56-000-",
+   "category": "civic_org",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Chicago Teachers Union disclosed $56,000 payments to influencer firm for school board campaign",
+   "summary": "The Chicago Teachers Union disclosed to the Illinois State Board of Elections that it paid more than $56,000 to the firm Mori for professional services that included influencer payments in the Chicago Board of Education race. The CTU’s payments were part of a broader social‑media effort to support candidate Jessica Biggs, who was endorsed by former Mayor Lori Lightfoot. The disclosure was highlighted in a recent Playbook newsletter.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-09-23T12:00:42.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "axios-20260923-rival-rental-plans",
+   "category": "newsletter",
+   "source_id": "axios",
+   "source_name": "Axios Chicago",
+   "source_type": "email_newsletter",
+   "title": "Rival rental plans",
+   "summary": "City Council is considering two competing plans today to rewrite the rental rules for the first major overhaul in decades. The dueling plans could reshape the balance between tenant protections and landlord costs for more than 600,000 Chicago renters. Tenants' rights groups and affordable housing advocates generally back Mayor Brandon Johnson's Protecting Renters Ordinance (PRO).",
+   "url": "https://www.axios.com/local/chicago",
+   "published_at": "2026-09-23T11:27:17.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260922-ford-city-mall-development-francis-parke",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Ford City Mall Development, Francis Parker Expansion, Other Projects OK'd By Key City Panel",
+   "summary": "Despite pushback from some neighbors, Ford City Mall is slated to become an industrial campus, while the private Francis Parker school is set to add an educational building. A Northwestern Medicine hospital tower was also advanced.",
+   "url": "https://blockclubchicago.org/2026/09/22/ford-city-mall-development-francis-parker-expansion-other-projects-okd-by-key-city-panel/",
+   "published_at": "2026-09-22T21:45:52.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260922-border-patrol-won-t-appear-at-uic-career",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Border Patrol Won't Appear At UIC Career Fair Following Backlash From Students",
+   "summary": "\"Begin a rewarding career as U.S. Border Patrol Agent, securing America's land borders and coastal waters,\" a promotion for the career fair reads. The agency will no longer appear, but students still plan to protest the event.",
+   "url": "https://blockclubchicago.org/2026/09/22/uic-invites-border-patrol-to-participate-in-school-career-fair-angering-students/",
+   "published_at": "2026-09-22T20:00:00.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "cbs-20260922-chicago-hotel-workers-vote-to-go-on-stri",
    "category": "civic_org",
@@ -2387,42 +2459,6 @@
    "summary": "Take in a music festival, do pilates on a Downtown terrace, Bike the Drive or go fishing on the Chicago River this month.",
    "url": "https://blockclubchicago.org/2026/09/02/15-things-to-do-outside-in-chicago-this-september/",
    "published_at": "2026-09-02T17:07:44.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "axios-20260902-a-year-after-midway-blitz",
-   "category": "newsletter",
-   "source_id": "axios",
-   "source_name": "Axios Chicago",
-   "source_type": "email_newsletter",
-   "title": "A year after Midway Blitz",
-   "summary": "Heather Diehl/Getty Images Nearly one year after the launch of Operation Midway Blitz - which found Chicagoans shot, killed, beaten, tear-gassed, fired on and apprehended by DHS agents - not a single federal officer has faced charges for on-duty activities. This lack of accountability can contribute to hopelessness among residents and a feeling of impunity for federal agents. Local officials and advocacy groups.",
-   "url": "https://www.axios.com/local/chicago",
-   "published_at": "2026-09-02T11:27:15.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "cbs-20260902-reserv-restaurant-in-south-loop-could-lo",
-   "category": "business",
-   "source_id": "cbs",
-   "source_name": "CBS News Chicago",
-   "source_type": "web_feed",
-   "title": "Reserv restaurant in South Loop could lose license after complaints of noise, fighting",
-   "summary": "Owner Gerald Joseph says he's now raising the age limit to 30 and older, hoping to eliminate problems from younger patrons. However, Ald. Lamont Robinson is moving forward to shut the doors permanently.",
-   "url": "https://www.cbsnews.com/chicago/news/reserv-restaurant-in-south-loop-risk-losing-license/",
-   "published_at": "2026-09-02T04:15:37.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "cbs-20260902-south-loop-restaurant-at-risk-of-losing-",
-   "category": "business",
-   "source_id": "cbs",
-   "source_name": "CBS News Chicago",
-   "source_type": "web_feed",
-   "title": "South Loop restaurant at risk of losing license after noise, fighting complaints",
-   "summary": "An orange cease-and-desist sign is on the restaurant door. The city has ordered the business to stop playing live music and charging people to enter the venue.",
-   "url": "https://www.cbsnews.com/chicago/video/south-loop-restaurant-at-risk-of-losing-license-after-noise-fighting-complaints/",
-   "published_at": "2026-09-02T04:07:00.000Z",
    "flagged_for_review": false
   }
  ]
