@@ -1,6 +1,30 @@
 {
- "generated_at": "2026-09-23T13:01:14.241Z",
+ "generated_at": "2026-09-23T18:13:53.110Z",
  "items": [
+  {
+   "id": "politico-20260923-billionaire-donor-michael-sacks-sends-ce",
+   "category": "business",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Billionaire donor Michael Sacks sends cease‑and‑desist to influencer firm over false statements",
+   "summary": "Donor Michael Sacks, represented by attorney Ed Siskel, issued a cease‑and‑desist letter to Good Influence demanding the firm stop publishing false and defamatory claims about him. The letter references a document showing the firm posted content to boost Hilario Dominguez’s school board president campaign, linking Sacks to former Mayor Rahm Emanuel’s policies. The Chicago Teachers Union disclosed paying more than $56,000 to the firm Mori for influencer services in the same race.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-09-23T12:00:42.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "politico-20260923-former-mayor-lori-lightfoot-endorses-jes",
+   "category": "civic_org",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Former Mayor Lori Lightfoot endorses Jessica Biggs for Chicago School Board president",
+   "summary": "In a recent endorsement, former Mayor Lori Lightfoot backed Jessica Biggs in the race to become Chicago School Board president, signaling support from a high‑profile former city leader for the upcoming election.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-09-23T12:00:42.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "politico-20260923-mayoral-candidate-william-quinlan-sues-g",
    "category": "elected_official",
@@ -2447,18 +2471,6 @@
    "summary": "A total of 100 people were displaced Wednesday night after an apartment fire on Chicago’s Near West Side.",
    "url": "https://www.cbsnews.com/chicago/video/100-people-displaced-after-apartment-fire-on-chicagos-near-west-side/",
    "published_at": "2026-09-03T12:42:00.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260902-15-things-to-do-outside-in-chicago-this-",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "15 Things To Do Outside In Chicago This September",
-   "summary": "Take in a music festival, do pilates on a Downtown terrace, Bike the Drive or go fishing on the Chicago River this month.",
-   "url": "https://blockclubchicago.org/2026/09/02/15-things-to-do-outside-in-chicago-this-september/",
-   "published_at": "2026-09-02T17:07:44.000Z",
    "flagged_for_review": false
   }
  ]
