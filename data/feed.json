@@ -1,6 +1,90 @@
 {
- "generated_at": "2026-09-24T13:00:42.568Z",
+ "generated_at": "2026-09-24T18:08:42.272Z",
  "items": [
+  {
+   "id": "abc7-20260924-cooking-up-a-storm-caf-pisolino-brings-a",
+   "category": "civic_org",
+   "source_id": "abc7",
+   "source_name": "ABC7 Chicago",
+   "source_type": "web_feed",
+   "title": "Cooking Up a Storm: Café Pisolino brings a little piece of Italy to the Loop",
+   "summary": "An Italian café is putting down roots in a legendary spot in the Loop.",
+   "url": "https://abc7chicago.com/post/cooking-storm-caf-pisolino-brings-little-piece-italy-chicagos-loop-71-west-monroe/19866593/",
+   "published_at": "2026-09-24T18:08:42.270Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "abc7-20260924-officials-warn-of-another-potential-meas",
+   "category": "civic_org",
+   "source_id": "abc7",
+   "source_name": "ABC7 Chicago",
+   "source_type": "web_feed",
+   "title": "Officials warn of another potential measles exposure at Chicago's Union Station",
+   "summary": "The Chicago Department of Public Health issued another warning about possible exposure to measles at Union Station.",
+   "url": "https://abc7chicago.com/post/measles-exposure-chicagos-union-station-health-officials-warn-more-locations-including-springhill-suites-wentworth/19865993/",
+   "published_at": "2026-09-24T18:08:42.270Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "cbs-20260924-chicago-health-department-warning-of-3-m",
+   "category": "civic_org",
+   "source_id": "cbs",
+   "source_name": "CBS News Chicago",
+   "source_type": "web_feed",
+   "title": "Chicago health department warning of 3 more measles exposures at Union Station",
+   "summary": "The Chicago Department of Public Health is warning commuters of three measles exposures at Union Station this month.",
+   "url": "https://www.cbsnews.com/chicago/news/chicago-health-department-measles-exposures-union-station/",
+   "published_at": "2026-09-24T17:04:57.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "cbs-20260924-try-out-bocce-club-in-west-town",
+   "category": "civic_org",
+   "source_id": "cbs",
+   "source_name": "CBS News Chicago",
+   "source_type": "web_feed",
+   "title": "Try out bocce club in West Town",
+   "summary": "Get on the Bocce trend with Jackie Kostek.",
+   "url": "https://www.cbsnews.com/chicago/video/try-out-bocce-club-in-west-town/",
+   "published_at": "2026-09-24T15:40:00.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260924-chief-keef-has-triumphant-homecoming-in-",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Chief Keef Has Triumphant Homecoming In Chicago With Rescheduled Show",
+   "summary": "Fans turned out Wednesday night for the Washington Park native's first headlining solo Chicago show in 14 years at Northerly Island.",
+   "url": "https://blockclubchicago.org/2026/09/24/chief-keef-has-triumphant-homecoming-in-chicago-with-rescheduled-show/",
+   "published_at": "2026-09-24T17:06:29.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260924-amtrak-should-release-environmental-stud",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Amtrak Should Release Environmental Study, Sit For Hearing On Railyard Facility: Alders",
+   "summary": "A resolution signed by 36 alderpeople calls for a pause on the Bridgeport project tied to Justin Ishbia's plans for a new White Sox stadium until environmental studies are made public and a public hearing is held.",
+   "url": "https://blockclubchicago.org/2026/09/24/amtrak-should-release-environmental-study-sit-for-hearing-on-railyards-facility-alders/",
+   "published_at": "2026-09-24T16:31:52.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260924-existing-city-curfew-laws-enforced-large",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Existing City Curfew Laws Enforced Largely In Black And Latino Communities, Data Shows",
+   "summary": "While some alderpeople push for tougher curfew laws, many parents and teens say the current approach is unfair and ineffective.",
+   "url": "https://blockclubchicago.org/2026/09/24/existing-city-curfew-laws-enforced-largely-in-black-and-latino-communities-data-shows/",
+   "published_at": "2026-09-24T13:20:31.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "politico-20260924-illinois-gop-split-as-ted-dabrowski-laun",
    "category": "civic_org",
@@ -2471,30 +2555,6 @@
    "summary": "A 2024 inspection rated the DuSable Lake Shore Drive bridge’s superstructure in poor condition and gave it a structural evaluation of “intolerable and high priority for correction,\" but an expert told Block Club Chicago that “I think you’re safe to buy a lunch and eat it on the bridge.\"",
    "url": "https://blockclubchicago.org/2026/09/03/downtown-bridge-that-was-stuck-for-hours-has-history-of-problems-records-show/",
    "published_at": "2026-09-03T21:54:47.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260903-2-more-beluga-whales-die-at-shedd-aquari",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "2 More Beluga Whales Die At Shedd Aquarium, Including Recent Rescue",
-   "summary": "The deaths of Rain and longtime resident Beethoven come eight days after another rescued beluga, Peekachu, died suddenly at the aquarium.",
-   "url": "https://blockclubchicago.org/2026/09/03/2-more-beluga-whales-die-at-shedd-aquarium-including-recent-rescue/",
-   "published_at": "2026-09-03T14:56:49.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260903-26-things-to-do-in-chicago-this-weekend-",
-   "category": "business",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "26 Things To Do In Chicago This Weekend: Bike The Drive, Jazz Fest, ARC Music Fest And More",
-   "summary": "There's also the Labor Day Parade Eddie Fest, the African Festival of the Arts, the Taste of Polonia Festival, the Englewood Village Market and even more on deck.",
-   "url": "https://blockclubchicago.org/2026/09/03/26-things-to-do-in-chicago-this-weekend-bike-the-drive-african-festival-of-the-arts-and-more/",
-   "published_at": "2026-09-03T13:42:00.000Z",
    "flagged_for_review": false
   }
  ]
