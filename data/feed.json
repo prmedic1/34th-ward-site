@@ -1,6 +1,102 @@
 {
- "generated_at": "2026-09-23T18:13:53.110Z",
+ "generated_at": "2026-09-24T13:00:42.568Z",
  "items": [
+  {
+   "id": "politico-20260924-illinois-gop-split-as-ted-dabrowski-laun",
+   "category": "civic_org",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Illinois GOP split as Ted Dabrowski launches Fight for Illinois nonprofit",
+   "summary": "Darren Bailey and Ted Dabrowski are at the center of a growing rift in the Illinois Republican Party. Dabrowski announced a new nonprofit, Fight for Illinois, aimed at grassroots pressure against state policies, while asserting he has no plans to run for governor in 2030. Party chair Bob Grovan, who previously served as Dabrowski’s campaign treasurer, says he supports all candidates, including Bailey. Downstate attorney Tom DeVore accused Dabrowski and Grovan of trying to weaken Bailey’s campaign against Gov. JB Pritzker.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-09-24T12:00:59.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "politico-20260924-mayor-brandon-johnson-proposes-moratoriu",
+   "category": "elected_official",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Mayor Brandon Johnson proposes moratorium on new Chicago data centers",
+   "summary": "Mayor Brandon Johnson announced a proposal to halt the development of new data centers in Chicago. The plan, reported by the Chicago Tribune, aims to address concerns about the facilities’ impact on city resources and neighborhoods.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-09-24T12:00:59.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "politico-20260924-illinois-supreme-court-to-hear-case-on-c",
+   "category": "civic_org",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Illinois Supreme Court to hear case on closed‑door police misconduct hearings",
+   "summary": "The state Supreme Court will hear arguments on Thursday about whether Chicago police officers accused of egregious misconduct can have their cases heard behind closed doors. The case, highlighted by the Sun‑Times, could reshape transparency standards for police discipline in the city.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-09-24T12:00:59.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "axios-20260924-data-center-moratorium",
+   "category": "newsletter",
+   "source_id": "axios",
+   "source_name": "Axios Chicago",
+   "source_type": "email_newsletter",
+   "title": "Data center moratorium",
+   "summary": "Stock: Getty Images Chicago could halt new data center development within city limits for a year. Mayor Brandon Johnson, along with a group of alders, is pushing for a 12-month moratorium while the city develops a \"comprehensive regulatory framework\" for data centers. There are 39 active data centers in Chicago, according to the city.",
+   "url": "https://www.axios.com/local/chicago",
+   "published_at": "2026-09-24T11:28:45.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260924-as-arts-in-the-dark-parade-grows-it-s-mo",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "As Arts In The Dark Parade Grows, It's Moving Back To Original Route Along Columbus Drive",
+   "summary": "The Halloween parade attracts about 100,000 people, organizers said. The 12th annual parade returns Oct. 24 in the Loop.",
+   "url": "https://blockclubchicago.org/2026/09/24/as-arts-in-the-dark-parade-grows-its-moving-back-to-original-route-along-columbus-drive/",
+   "published_at": "2026-09-24T11:55:00.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260923-70-unit-condo-building-approved-for-vaca",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "70-Unit Condo Building Approved For Vacant Lot Near Mary Bartelme Park",
+   "summary": "The development will also add four public bathrooms to the area which will add to the infrastructure of Mary Bartelme Park, which currently has no bathrooms.",
+   "url": "https://blockclubchicago.org/2026/09/23/70-unit-condo-building-approved-for-vacant-lot-near-mary-bartelme-park/",
+   "published_at": "2026-09-23T20:04:37.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "wardwatch-20260923-70-unit-condo-building-approved-for-vaca",
+   "category": "civic_org",
+   "source_id": "wardwatch",
+   "source_name": "Ward Watch",
+   "source_type": "web_feed",
+   "title": "70-Unit Condo Building Approved For Vacant Lot Near Mary Bartelme Park - blockclubchicago.org",
+   "summary": "70-Unit Condo Building Approved For Vacant Lot Near Mary Bartelme Park blockclubchicago.org",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQb0FieGRUeTZsaFktZ2hQZlJ2NFRhcTBKSlVLbXExcHNvV19Xa1ZqNUFtMVlvMm5iV1lwOEJ2eU9ZUDZHVF94T2p5WHFVbkFqYjd5ZjdSS19COG94c3pCUXdyZmdsZVlzaEduYUttV29tQ3p3aVpVVUlFTi1YbFlHUEVJYTRiSzV2NHR0d2pWZmI0QnJVeUgyUXBVeHEybjdjcGV3MkJ0djhSTVJHdUZwSA?oc=5",
+   "published_at": "2026-09-23T20:04:37.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260924-27-things-to-do-in-chicago-this-weekend-",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "27 Things To Do In Chicago This Weekend: Hyde Park Jazz Festival, Armitage County Fair And More",
+   "summary": "Clark Street Live makes its Wrigleyville debut, plus the Beverly Art Walk, the last of Bronzeville Summer Nights and more.",
+   "url": "https://blockclubchicago.org/2026/09/24/27-things-to-do-in-chicago-this-weekend-hyde-park-jazz-festival-armitage-county-fair-and-more/",
+   "published_at": "2026-09-24T12:10:00.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "politico-20260923-billionaire-donor-michael-sacks-sends-ce",
    "category": "business",
@@ -2399,78 +2495,6 @@
    "summary": "There's also the Labor Day Parade Eddie Fest, the African Festival of the Arts, the Taste of Polonia Festival, the Englewood Village Market and even more on deck.",
    "url": "https://blockclubchicago.org/2026/09/03/26-things-to-do-in-chicago-this-weekend-bike-the-drive-african-festival-of-the-arts-and-more/",
    "published_at": "2026-09-03T13:42:00.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260902-heat-shuts-down-lake-shore-drive-bridge-",
-   "category": "business",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Heat Shuts Down Lake Shore Drive Bridge For Over 4 Hours, Causing Incredibly Hectic' Day Of Traffic",
-   "summary": "The city opened the busy bridge to let a cruise boat pass through Wednesday, but some questioned why it did so knowing extreme heat can prevent steel spans from closing.",
-   "url": "https://blockclubchicago.org/2026/09/02/heat-shuts-lake-shore-drive-bridge-for-more-than-4-hours-causing-incredibly-hectic-day-of-traffic/",
-   "published_at": "2026-09-02T22:41:52.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260902-chicago-based-jewelry-brand-local-eclect",
-   "category": "business",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Chicago-Based Jewelry Brand Local Eclectic Opens Store In Historic Streeterville Mansion",
-   "summary": "Founder Alexis Nido-Russo spent 2.5 years transforming the landmarked home into a jewelry store, cafe and gathering space.",
-   "url": "https://blockclubchicago.org/2026/09/02/chicago-based-jewelry-brand-local-eclectic-opens-first-ever-store-in-historic-streeterville-mansion/",
-   "published_at": "2026-09-02T21:47:29.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260902-kermess-bringing-circus-acts-and-cabaret",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Kermess Bringing Circus Acts And Cabaret To Former Teatro ZinZanni Tent",
-   "summary": "Kermess, an immersive entertainment venue, will bring the dinner theater on the 14th floor of the Cambria Hotel back to life with contemporary circus, cabaret and other performances starting this fall.",
-   "url": "https://blockclubchicago.org/2026/09/02/kermess-bringing-circus-acts-and-cabaret-to-former-teatro-zinzanni-tent/",
-   "published_at": "2026-09-02T18:36:35.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "axios-20260903-college-football-s-major-makeovers",
-   "category": "newsletter",
-   "source_id": "axios",
-   "source_name": "Axios Chicago",
-   "source_type": "email_newsletter",
-   "title": "College football's major makeovers",
-   "summary": "The new video scoreboard at Gies Memorial Stadium in Champaign, IL. Courtesy of the University of Illinois College football will look a lot different around Chicago and Illinois this fall, from a brand-new program on the South Side to a brand-new stadium in Evanston - and a really, really big TV screen in Champaign. The Illini kick off their season tonight in Champaign against UAB.",
-   "url": "https://www.axios.com/local/chicago",
-   "published_at": "2026-09-03T11:27:14.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "cbs-20260903-more-than-100-displaced-by-fire-in-apart",
-   "category": "civic_org",
-   "source_id": "cbs",
-   "source_name": "CBS News Chicago",
-   "source_type": "web_feed",
-   "title": "More than 100 displaced by fire in apartment building on Chicago's Near West Side",
-   "summary": "A total of 100 people were displaced Wednesday night after an apartment fire on Chicago's Near West Side.",
-   "url": "https://www.cbsnews.com/chicago/news/more-than-100-displaced-fire-chicago-near-west-side/",
-   "published_at": "2026-09-03T12:51:20.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "cbs-20260903-100-people-displaced-after-apartment-fir",
-   "category": "civic_org",
-   "source_id": "cbs",
-   "source_name": "CBS News Chicago",
-   "source_type": "web_feed",
-   "title": "100 people displaced after apartment fire on Chicago's Near West Side",
-   "summary": "A total of 100 people were displaced Wednesday night after an apartment fire on Chicago’s Near West Side.",
-   "url": "https://www.cbsnews.com/chicago/video/100-people-displaced-after-apartment-fire-on-chicagos-near-west-side/",
-   "published_at": "2026-09-03T12:42:00.000Z",
    "flagged_for_review": false
   }
  ]
