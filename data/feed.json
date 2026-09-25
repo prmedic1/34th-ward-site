@@ -1,6 +1,102 @@
 {
- "generated_at": "2026-09-25T13:00:46.515Z",
+ "generated_at": "2026-09-25T18:13:02.460Z",
  "items": [
+  {
+   "id": "politico-20260925-amtrak-14th-street-coach-yard-project-ba",
+   "category": "business",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Amtrak 14th Street Coach Yard project backed by Chicago Federation of Labor",
+   "summary": "The Chicago Federation of Labor endorsed a plan that would let billionaire Justin Ishbia take control of Amtrak’s 14th Street Coach Yard along the Chicago River south of Roosevelt Road. The two‑step project aims to develop an 80‑plus acre mixed‑use district anchored by a new stadium for the Chicago baseball team. The proposal has sparked a fight with City Hall over the use of the site.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-09-25T11:59:27.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "politico-20260925-gov-jb-pritzker-warns-of-data-center-imp",
+   "category": "elected_official",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Gov. JB Pritzker warns of data‑center impacts on Illinois utilities",
+   "summary": "Governor JB Pritzker told the Illinois Chamber on Thursday that the state must avoid letting hyperscale data centers raise electricity bills or strain water supplies. Earlier in the week in New York, he said data centers should bring their own clean energy and use closed‑loop water systems. He also announced the creation of an Artificial Intelligence Cabinet to monitor the issue.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-09-25T11:59:27.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "politico-20260925-chicago-aldermen-approve-new-owner-for-p",
+   "category": "civic_org",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Chicago aldermen approve new owner for privatized parking meters",
+   "summary": "On Thursday, Chicago aldermen voted to approve a new owner for the city’s privatized parking meters. The decision highlighted a split among council members between enthusiasm for potential revenue and concerns about further privatization of city services.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-09-25T11:59:27.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "conway-20260925-70-unit-residential-building-approved-at",
+   "category": "business",
+   "source_id": "conway",
+   "source_name": "Conway's Corner (34th Ward Office Newsletter)",
+   "source_type": "email_newsletter",
+   "title": "70‑unit residential building approved at 23 S. Sangamon with new park amenities",
+   "summary": "The Chicago City Council approved an amended plan on Wednesday for a 70‑unit residential building at 23 South Sangamon Street in the West Loop. The project now includes community benefits for Mary Bartelme Park, such as public restrooms, and offers 3‑ and 4‑bedroom units aimed at families. The development is expected to increase housing options in the neighborhood.",
+   "url": "https://www.ward34.org/",
+   "published_at": "2026-09-25T15:48:18.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "conway-20260925-proposed-ordinance-would-tighten-regulat",
+   "category": "civic_org",
+   "source_id": "conway",
+   "source_name": "Conway's Corner (34th Ward Office Newsletter)",
+   "source_type": "email_newsletter",
+   "title": "Proposed ordinance would tighten regulation of data centers citywide",
+   "summary": "At a Wednesday City Council meeting, Alderman Conway introduced an ordinance that would treat data centers as Planned Developments, require community review, add environmental enforcement, and ban them in certain districts. The mayor has suggested a year‑long moratorium, but the ordinance seeks immediate action to address rising utility costs, air pollution, and water use. The proposal could face litigation and committee delays.",
+   "url": "https://www.ward34.org/",
+   "published_at": "2026-09-25T15:48:18.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "conway-20260925-community-calls-for-hearings-on-amtrak-m",
+   "category": "civic_org",
+   "source_id": "conway",
+   "source_name": "Conway's Corner (34th Ward Office Newsletter)",
+   "source_type": "email_newsletter",
+   "title": "Community calls for hearings on Amtrak Midwest Maintenance Facility at Canal Street Rail Yard",
+   "summary": "Alderman Conway and fellow council members urged the city to hold hearings on Amtrak’s proposed Midwest Maintenance Facility located at the Canal Street Rail Yard. Neighbors have voiced concerns about potential environmental impacts, increased traffic, and noise. The hearings will provide an opportunity for residents to learn more about the project.",
+   "url": "https://www.ward34.org/",
+   "published_at": "2026-09-25T15:48:18.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "cbs-20260925-dine-in-at-labriola-italian-specialties-",
+   "category": "business",
+   "source_id": "cbs",
+   "source_name": "CBS News Chicago",
+   "source_type": "web_feed",
+   "title": "Dine in at Labriola Italian specialties in Fulton Market",
+   "summary": "Stop inside Labriola Italian specialties in Fulton Market with Jackie Kostek.",
+   "url": "https://www.cbsnews.com/chicago/video/dine-in-at-labriola-italian-specialties-in-fulton-market/",
+   "published_at": "2026-09-25T15:50:00.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260925-obama-center-hosting-black-harvest-film-",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Obama Center Hosting Black Harvest Film Festival Shorts Tuesday",
+   "summary": "Registration is currently full for \"Shorts from the Block: Black Harvest's Chicago Stories,\" but an onsite waitlist will be available for potential attendees.",
+   "url": "https://blockclubchicago.org/2026/09/25/obama-center-hosting-black-harvest-film-festival-shorts-tuesday/",
+   "published_at": "2026-09-25T15:59:43.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "politico-20260925-chicago-federation-of-labor-backs-billio",
    "category": "business",
@@ -2375,30 +2471,6 @@
    "summary": "Federal regulations require the city to raise certain bridges for commercial and recreational vessels that submit a request within its guidelines.",
    "url": "https://blockclubchicago.org/2026/09/04/city-was-required-to-open-downtown-bridge-despite-heat-to-allow-cruise-ship-to-pass-officials-say/",
    "published_at": "2026-09-04T19:08:19.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "abc7-20260904-2-men-robbed-1-at-gunpoint-in-west-loop-",
-   "category": "civic_org",
-   "source_id": "abc7",
-   "source_name": "ABC7 Chicago",
-   "source_type": "web_feed",
-   "title": "2 men robbed, 1 at gunpoint, in West Loop, River North: Chicago police",
-   "summary": "There were two robberies early Friday morning downtown Chicago, Chicago police said.",
-   "url": "https://abc7chicago.com/post/chicago-robberies-2-men-robbed-west-van-buren-street-north-lasalle-drive-loop-river-cpd-says/19790360/",
-   "published_at": "2026-09-04T17:21:20.058Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260904-as-chicagoans-prepare-to-bike-the-drive-",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "As Chicagoans Prepare To Bike The Drive, Some Dream Of A Car-Free Lakefront All Year",
-   "summary": "For five hours each year, thousands of Chicagoans take over the highway on bikes and on foot. As the event turns 25, advocates are imagining what else could change along the lakefront.",
-   "url": "https://blockclubchicago.org/2026/09/04/as-chicagoans-prepare-to-bike-the-drive-some-dream-of-a-car-free-lakefront-all-year/",
-   "published_at": "2026-09-04T13:57:00.000Z",
    "flagged_for_review": false
   }
  ]
