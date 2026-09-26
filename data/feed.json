@@ -1,6 +1,30 @@
 {
- "generated_at": "2026-09-26T13:00:38.418Z",
+ "generated_at": "2026-09-26T17:36:17.653Z",
  "items": [
+  {
+   "id": "conway-20260925-alderman-proposes-ordinance-to-tighten-r",
+   "category": "civic_org",
+   "source_id": "conway",
+   "source_name": "Conway's Corner (34th Ward Office Newsletter)",
+   "source_type": "email_newsletter",
+   "title": "Alderman proposes ordinance to tighten regulation of data centers",
+   "summary": "At a recent City Council meeting, Alderman Bill Conway introduced an ordinance that would treat data centers as Planned Developments, require community review, add environmental enforcement, and ban them in certain districts. The measure aims to address resident concerns about rising utility bills, air pollution, and water use. The Mayor’s proposed year‑long moratorium could be delayed by litigation, leaving developers able to continue breaking ground.",
+   "url": "https://www.ward34.org/",
+   "published_at": "2026-09-25T15:48:18.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "conway-20260925-calls-for-hearings-on-amtrak-midwest-mai",
+   "category": "civic_org",
+   "source_id": "conway",
+   "source_name": "Conway's Corner (34th Ward Office Newsletter)",
+   "source_type": "email_newsletter",
+   "title": "Calls for hearings on Amtrak Midwest Maintenance Facility at Canal Street Rail Yard",
+   "summary": "Alderman Conway joined colleagues in urging hearings on Amtrak’s proposed Midwest Maintenance Facility at the Canal Street Rail Yard. Neighbors have voiced concerns about potential impacts on the environment, traffic, and noise. The hearings will provide an opportunity for the community to learn more about the project.",
+   "url": "https://www.ward34.org/",
+   "published_at": "2026-09-25T15:48:18.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "politico-20260925-chicago-federation-of-labor-backs-amtrak",
    "category": "business",
