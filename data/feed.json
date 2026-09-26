@@ -1,6 +1,78 @@
 {
- "generated_at": "2026-09-25T18:13:02.460Z",
+ "generated_at": "2026-09-26T13:00:38.418Z",
  "items": [
+  {
+   "id": "politico-20260925-chicago-federation-of-labor-backs-amtrak",
+   "category": "business",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Chicago Federation of Labor backs Amtrak project near Rate Field despite City Hall opposition",
+   "summary": "The Chicago Federation of Labor supported an Amtrak project near Rate Field that would let billionaire Justin Ishbia take control of Amtrak’s 14th Street Coach Yard along the Chicago River south of Roosevelt Road. Ishbia plans to develop an 80‑plus acre mixed‑use district anchored by a new stadium for the team. City Hall is fighting the proposal.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-09-25T11:59:27.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "conway-20260925-70-unit-residential-building-at-23-s-san",
+   "category": "business",
+   "source_id": "conway",
+   "source_name": "Conway's Corner (34th Ward Office Newsletter)",
+   "source_type": "email_newsletter",
+   "title": "70-unit residential building at 23 S. Sangamon moves forward with community benefits",
+   "summary": "Developers are proceeding with a 70‑unit building at 23 S. Sangamon in the West Loop. The amended plan, approved on Wednesday, adds community benefits for Mary Bartelme Park, including public restrooms. The project includes 3‑ and 4‑unit bedroom units aimed at helping families find homes in the West Loop.",
+   "url": "https://www.ward34.org/",
+   "published_at": "2026-09-25T15:48:18.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "conway-20260925-proposed-ordinance-targets-data-centers-",
+   "category": "civic_org",
+   "source_id": "conway",
+   "source_name": "Conway's Corner (34th Ward Office Newsletter)",
+   "source_type": "email_newsletter",
+   "title": "Proposed ordinance targets data centers over rising utility costs and pollution",
+   "summary": "Alderman introduced an ordinance to treat data centers as Planned Developments, require community review, and ban them in certain districts. The measure responds to resident concerns about spiking utility bills, air pollution, and water use. The Mayor has proposed a year‑long moratorium, but the ordinance seeks immediate action.",
+   "url": "https://www.ward34.org/",
+   "published_at": "2026-09-25T15:48:18.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "conway-20260925-lasalle-central-small-business-improveme",
+   "category": "business",
+   "source_id": "conway",
+   "source_name": "Conway's Corner (34th Ward Office Newsletter)",
+   "source_type": "email_newsletter",
+   "title": "LaSalle Central Small Business Improvement Fund opens applications through Sept. 30",
+   "summary": "The Department of Planning and Development’s Small Business Improvement Fund is accepting applications in the LaSalle Central TIF district until September 30. The grant provides reimbursement for permanent building improvements and repairs for eligible businesses. Interested owners can contact the ward office for more information.",
+   "url": "https://www.ward34.org/",
+   "published_at": "2026-09-25T15:48:18.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260925-christkindlmarket-unveils-flute-glass-in",
+   "category": "business",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Christkindlmarket Unveils Flute Glass-Inspired Mugs, New Shot Glasses For 30th Anniversary",
+   "summary": "The popular German-style holiday market returns to the Loop and Wrigleyville with collectibles to celebrate its 30th year.",
+   "url": "https://blockclubchicago.org/2026/09/25/christkindlmarket-unveils-flute-glass-inspired-mugs-new-shot-glasses-for-30th-anniversary-season/",
+   "published_at": "2026-09-25T19:09:07.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260925-shedd-finds-gastrointestinal-disease-in-",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Shedd Finds Gastrointestinal Disease In 2 Beluga Whales From Marineland That Died",
+   "summary": "Officials said they have found no evidence of a shared infectious disease or a common environmental factor connecting their deaths with that of a 34-year-old whale that also died after living at the aquarium for decades.",
+   "url": "https://blockclubchicago.org/2026/09/25/shedd-finds-gastrointestinal-disease-in-2-beluga-whales-from-marineland-that-died/",
+   "published_at": "2026-09-25T21:20:12.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "politico-20260925-amtrak-14th-street-coach-yard-project-ba",
    "category": "business",
@@ -2447,30 +2519,6 @@
    "summary": "Plans for a newly designed Chicago White Sox stadium along the river in Chicago's South Loop neighborhood were released on Saturday.",
    "url": "https://www.cbsnews.com/chicago/news/chicago-white-sox-south-loop-the-railyards/",
    "published_at": "2026-09-06T04:05:03.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "abc7-20260905-serial-bank-robber-sentenced-to-76-years",
-   "category": "civic_org",
-   "source_id": "abc7",
-   "source_name": "ABC7 Chicago",
-   "source_type": "web_feed",
-   "title": "Serial bank robber sentenced to 76 years in prison after targeting downtown Chicago banks on parole",
-   "summary": "A 68-year-old serial bank robber has been sentenced to 76 years in prison for targeting four banks in downtown Chicago while he was on supervised release for other bank robberies.",
-   "url": "https://abc7chicago.com/post/serial-bank-robber-joseph-donelson-jr-sentenced-76-years-prison-targeting-4-downtown-chicago-banks-parole-2023/19792476/",
-   "published_at": "2026-09-05T13:00:32.225Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260904-city-was-required-to-open-downtown-bridg",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "City Was Required' To Open Downtown Bridge Despite Heat To Allow Cruise Ship To Pass, Officials Say",
-   "summary": "Federal regulations require the city to raise certain bridges for commercial and recreational vessels that submit a request within its guidelines.",
-   "url": "https://blockclubchicago.org/2026/09/04/city-was-required-to-open-downtown-bridge-despite-heat-to-allow-cruise-ship-to-pass-officials-say/",
-   "published_at": "2026-09-04T19:08:19.000Z",
    "flagged_for_review": false
   }
  ]
