@@ -1,6 +1,42 @@
 {
- "generated_at": "2026-09-27T13:00:36.488Z",
+ "generated_at": "2026-09-27T18:02:34.804Z",
  "items": [
+  {
+   "id": "conway-20260925-amended-plan-approved-for-70-unit-develo",
+   "category": "business",
+   "source_id": "conway",
+   "source_name": "Conway's Corner (34th Ward Office Newsletter)",
+   "source_type": "email_newsletter",
+   "title": "Amended plan approved for 70-unit development at 23 S. Sangamon with new community benefits",
+   "summary": "The Chicago City Council approved an amended plan for a 70-unit residential building at 23 S. Sangamon in the West Loop. The revision adds community benefits for Mary Bartelme Park, including the installation of public restrooms, and includes 3‑ and 4‑bedroom units aimed at helping families find housing in the area.",
+   "url": "https://www.ward34.org/",
+   "published_at": "2026-09-25T15:48:18.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "conway-20260925-new-ordinance-proposed-to-treat-data-cen",
+   "category": "civic_org",
+   "source_id": "conway",
+   "source_name": "Conway's Corner (34th Ward Office Newsletter)",
+   "source_type": "email_newsletter",
+   "title": "New ordinance proposed to treat data centers as Planned Developments and tighten environmental review",
+   "summary": "At a recent City Council meeting, an ordinance was introduced to require data centers to be classified as Planned Developments, mandate community review, increase environmental enforcement, and ban them in certain districts. The measure targets rising utility costs, air pollution, and water usage linked to data centers, and seeks immediate action despite potential litigation delays.",
+   "url": "https://www.ward34.org/",
+   "published_at": "2026-09-25T15:48:18.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "conway-20260925-call-for-hearings-on-amtrak-s-proposed-m",
+   "category": "civic_org",
+   "source_id": "conway",
+   "source_name": "Conway's Corner (34th Ward Office Newsletter)",
+   "source_type": "email_newsletter",
+   "title": "Call for hearings on Amtrak’s proposed Midwest Maintenance Facility at Canal Street Rail Yard",
+   "summary": "Ward leaders urged the City Council to hold hearings on Amtrak’s plan for a Midwest Maintenance Facility in the Canal Street Rail Yard. Neighbors have voiced concerns about potential environmental impacts, increased traffic, and noise, and the hearings will provide an opportunity to assess the project’s effects on the near‑west side community.",
+   "url": "https://www.ward34.org/",
+   "published_at": "2026-09-25T15:48:18.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "politico-20260925-aldermen-approve-new-owner-for-chicago-s",
    "category": "elected_official",
@@ -2531,18 +2567,6 @@
    "summary": "The entire cast of the Kokandy company’s play now running at the Chopin Theatre went to the museum to view the iconic painting that inspired the musical.",
    "url": "https://blockclubchicago.org/2026/09/08/sunday-in-the-park-with-george-cast-visits-art-institute-to-celebrate-seurat-and-sondheim/",
    "published_at": "2026-09-08T12:44:00.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260906-future-white-sox-owner-unveils-plans-for",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Future White Sox Owner Unveils Plans For South Loop Stadium As Part Of New Railyards' Development",
-   "summary": "The plans, which would require Amtrak to relocate its maintaince yard to Bridgeport, were blasted by leaders of the South Side neighborhood as a \"betrayal\" of the longtime home of the White Sox.",
-   "url": "https://blockclubchicago.org/2026/09/06/future-white-sox-owner-unveils-plans-for-a-south-loop-stadium-as-part-of-new-railyards-megadevelopment/",
-   "published_at": "2026-09-06T15:57:16.000Z",
    "flagged_for_review": false
   }
  ]
