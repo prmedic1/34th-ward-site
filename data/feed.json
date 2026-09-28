@@ -1,6 +1,18 @@
 {
- "generated_at": "2026-09-28T13:00:40.076Z",
+ "generated_at": "2026-09-28T20:22:09.626Z",
  "items": [
+  {
+   "id": "blockclub-20260928-chicago-s-fall-bridge-lifts-start-wednes",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Chicago’s Fall Bridge Lifts Start Wednesday. Here’s The Schedule",
+   "summary": "Bridges along the Chicago River from DuSable Lake Shore Drive to 18th Street will be raised through mid-November, temporarily stopping traffic as boats pass through.",
+   "url": "https://blockclubchicago.org/2026/09/28/chicagos-fall-bridge-lifts-start-wednesday-heres-the-schedule/",
+   "published_at": "2026-09-28T18:43:43.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "politico-20260928-billionaire-michael-sacks-donates-2-5-mi",
    "category": "business",
