@@ -128,12 +128,17 @@
     "week": "2026-09-14",
     "date": "2026-09-14",
     "name": "Stephanie Fedor"
+   },
+   {
+    "week": "2026-09-21",
+    "date": "2026-09-21",
+    "name": "Ilsa Conover"
    }
   ],
   "current": {
-   "week": "2026-09-21",
-   "date": "2026-09-21",
-   "name": "Ilsa Conover"
+   "week": "2026-09-28",
+   "date": "2026-09-28",
+   "name": "Stephanie Turner"
   }
  }
 }
