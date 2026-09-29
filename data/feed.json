@@ -1,6 +1,18 @@
 {
- "generated_at": "2026-09-29T13:00:37.256Z",
+ "generated_at": "2026-09-29T19:05:52.359Z",
  "items": [
+  {
+   "id": "cbs-20260929-chicago-police-investigating-string-of-4",
+   "category": "civic_org",
+   "source_id": "cbs",
+   "source_name": "CBS News Chicago",
+   "source_type": "web_feed",
+   "title": "Chicago police investigating string of 40 car burglaries in Bronezville and South Loop",
+   "summary": "Chicago police need help to find a group of thieves who have broken into at least 40 cars in the last few weeks on the Near South Side.",
+   "url": "https://www.cbsnews.com/chicago/news/chicago-car-burglaries-south-loop-bronzeville-near-south-side/",
+   "published_at": "2026-09-29T16:20:00.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "politico-20260929-city-council-budget-accountability-coali",
    "category": "elected_official",
@@ -2579,30 +2591,6 @@
    "summary": "Dozens of residents gathered Tuesday outside Rate Field to oppose the 24/7 Amtrak facility proposed in Bridgeport as the Sox weigh a move to the railroad's current site in the South Loop.",
    "url": "https://blockclubchicago.org/2026/09/08/amtrak-plan-for-bridgeport-a-knife-through-the-heart-of-neighborhood-residents-say-at-protest/",
    "published_at": "2026-09-08T19:34:00.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "cbs-20260908-bridgeport-south-loop-residents-lambaste",
-   "category": "civic_org",
-   "source_id": "cbs",
-   "source_name": "CBS News Chicago",
-   "source_type": "web_feed",
-   "title": "Bridgeport, South Loop residents lambaste plan for new White Sox stadium",
-   "summary": "This past weekend, a minority owner of the Chicago White Sox released a proposal to build a new stadium in the South Loop.​ On Tuesday, some people from both the Bridgeport and South Loop communities spoke out against the plan.",
-   "url": "https://www.cbsnews.com/chicago/news/bridgeport-south-loop-residents-lambaste-plan-new-white-sox-stadium/",
-   "published_at": "2026-09-08T17:18:20.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "cbs-20260908-community-leaders-residents-rally-agains",
-   "category": "civic_org",
-   "source_id": "cbs",
-   "source_name": "CBS News Chicago",
-   "source_type": "web_feed",
-   "title": "Community leaders, residents rally against potential Chicago White Sox move",
-   "summary": "This past weekend, a minority owner of the Chicago White Sox released a proposal to build a new stadium in the South Loop. On Tuesday, some people from both the Bridgeport and South Loop communities spoke out against the plan.",
-   "url": "https://www.cbsnews.com/chicago/video/community-leaders-residents-rally-against-potential-chicago-white-sox-move/",
-   "published_at": "2026-09-08T17:03:00.000Z",
    "flagged_for_review": false
   }
  ]
