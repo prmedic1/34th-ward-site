@@ -1,4 +1,10 @@
 /*
+ * RETIRED 2026-09-30 - no longer run by the daily workflow. ESPN's firewall now
+ * 403s datacenter/server requests (this runner), so this could not refresh and its
+ * fail-safe just held stale games. Chicago home games are now fetched LIVE in the
+ * browser on the events page (culture.html, fetchSports) and the College Sports
+ * page, where ESPN requests succeed. Kept for reference / in case ESPN reopens.
+ *
  * Refresh Chicago home-game entries on the events calendar from ESPN's free,
  * CORS-open API (same source the ticker uses), so the sports schedule stays
  * current automatically instead of being hand-curated.

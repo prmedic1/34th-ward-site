@@ -6,7 +6,7 @@
 <title>Museums, Theaters &amp; Festivals - West Loop Chicago</title>
 <meta name="description" content="Arts and culture in Chicago's 34th Ward: museums, theaters, galleries, and live music across the West Loop, Greektown, and the Loop.">
 <link rel="canonical" href="https://34thward.com/culture.html">
-<link rel="stylesheet" href="css/style.css?v=20260818d">
+<link rel="stylesheet" href="css/style.css?v=20260930a">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="34thward.com">
 <meta property="og:title" content="The Official 34th Ward Neighborhood Page">
@@ -179,31 +179,80 @@
   document.getElementById('year').textContent = new Date().getFullYear();
 
   const DOW = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
-  const SPORTS = ['cubs', 'sox', 'bears', 'bulls', 'fire', 'sky'];
+  const SPORTS = ['cubs', 'sox', 'bears', 'bulls', 'fire', 'sky', 'hawks'];
   const MON = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
   function esc(s) { const d = document.createElement('div'); d.textContent = s == null ? '' : s; return d.innerHTML; }
   function ymd(d) { const y = d.getFullYear(), m = String(d.getMonth() + 1).padStart(2, '0'), a = String(d.getDate()).padStart(2, '0'); return y + '-' + m + '-' + a; }
   function tmin(t) { if (!t) return -1; const m = String(t).match(/(\d+):(\d+)\s*(AM|PM)/i); if (!m) return 9999; let h = (+m[1]) % 12; if (/pm/i.test(m[3])) h += 12; return h * 60 + (+m[2]); }
 
+  // Chicago teams' home games, pulled LIVE from ESPN's free API in the browser.
+  // The daily bot CANNOT do this: ESPN's firewall 403s datacenter/server requests
+  // (so the bot's copy went stale), but browser requests work - same approach the
+  // College Sports page uses. Each team fails safe on its own (a broken fetch just
+  // means that team contributes no games; it never blocks the rest of the calendar).
+  const TEAMS = [
+    { cat: 'cubs',  sport: 'baseball',   league: 'mlb',   id: 16,  short: 'Cubs',       venue: 'Wrigley Field',  address: '1060 W. Addison St, Wrigleyville',        fallback: 'https://www.mlb.com/cubs/schedule' },
+    { cat: 'sox',   sport: 'baseball',   league: 'mlb',   id: 4,   short: 'White Sox',  venue: 'Rate Field',     address: '333 W. 35th St, Bridgeport',              fallback: 'https://www.mlb.com/whitesox/schedule' },
+    { cat: 'bears', sport: 'football',   league: 'nfl',   id: 3,   short: 'Bears',      venue: 'Soldier Field',  address: '1410 Special Olympics Dr, Museum Campus', fallback: 'https://www.chicagobears.com/schedule/' },
+    { cat: 'fire',  sport: 'soccer',     league: 'usa.1', id: 182, short: 'Fire',       venue: 'Soldier Field',  address: '1410 Special Olympics Dr, Museum Campus', fallback: 'https://www.chicagofirefc.com/matches' },
+    { cat: 'sky',   sport: 'basketball', league: 'wnba',  id: 19,  short: 'Sky',        venue: 'Wintrust Arena', address: '200 E. Cermak Rd, South Loop',            fallback: 'https://sky.wnba.com/schedule/' },
+    { cat: 'bulls', sport: 'basketball', league: 'nba',   id: 4,   short: 'Bulls',      venue: 'United Center',  address: '1901 W. Madison St, Near West Side',      fallback: 'https://www.nba.com/bulls/schedule' },
+    { cat: 'hawks', sport: 'hockey',     league: 'nhl',   id: 16,  short: 'Blackhawks', venue: 'United Center',  address: '1901 W. Madison St, Near West Side',      fallback: 'https://www.nhl.com/blackhawks/schedule' }
+  ];
+  const centralYMD = (iso) => new Date(iso).toLocaleDateString('en-CA', { timeZone: 'America/Chicago' });
+  const centralTime = (iso) => new Date(iso).toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit', timeZone: 'America/Chicago' });
+  function gameUrl(e, fallback) {
+    const links = (e.links || []).filter((x) => /^https?:/.test(x.href || ''));
+    const l = links.find((x) => (x.rel || []).indexOf('event') >= 0) || links[0];
+    return (l && l.href) || fallback;
+  }
+  function fetchSports(todayS, endS) {
+    return Promise.all(TEAMS.map((T) =>
+      fetch('https://site.api.espn.com/apis/site/v2/sports/' + T.sport + '/' + T.league + '/teams/' + T.id + '/schedule')
+        .then((r) => (r.ok ? r.json() : null))
+        .then((j) => {
+          const out = [];
+          for (const e of ((j && j.events) || [])) {
+            const c = e.competitions && e.competitions[0]; if (!c) continue;
+            const home = (c.competitors || []).find((z) => z.homeAway === 'home');
+            if (!home || !home.team || String(home.team.id) !== String(T.id)) continue; // home games only
+            const date = centralYMD(e.date);
+            if (date < todayS || date > endS) continue;
+            const away = (c.competitors || []).find((z) => z.homeAway === 'away');
+            const opp = (away && away.team && (away.team.displayName || away.team.name)) || 'TBD';
+            out.push({ kind: 'show', cat: T.cat, title: T.short + ' vs. ' + opp, where: T.venue, address: T.address, time: centralTime(e.date), note: '', url: gameUrl(e, T.fallback), start: date, end: date, local: false });
+          }
+          return out;
+        })
+        .catch(() => [])
+    )).then((lists) => lists.reduce((a, b) => a.concat(b), []));
+  }
+
+  // The events page shows a rolling week: today through +6 days.
+  const now = new Date();
+  const start = new Date(now); start.setHours(0, 0, 0, 0);
+  const days = []; for (let i = 0; i < 7; i++) { const d = new Date(start); d.setDate(start.getDate() + i); days.push(d); }
+  const sun = days[6], todayS = ymd(now), endS = ymd(sun);
+
   Promise.all([
-    fetch('data/events_week.json?d=20260910a', { cache: 'no-cache' }).then((r) => r.json()).catch(() => ({ shows: [] })),
-    fetch('data/festivals.json?d=20260902c').then((r) => r.json()).catch(() => ({ festivals: [] }))
-  ]).then(([sv, fv]) => {
+    fetch('data/events_week.json?d=20260930a', { cache: 'no-cache' }).then((r) => r.json()).catch(() => ({ shows: [] })),
+    fetch('data/festivals.json?d=20260902c').then((r) => r.json()).catch(() => ({ festivals: [] })),
+    fetchSports(todayS, endS)
+  ]).then(([sv, fv, liveSports]) => {
     const EV = [];
-    (sv.shows || []).forEach((s) => EV.push({ kind: 'show', cat: s.cat || 'concert', title: s.title, where: s.venue, address: s.address || '', time: s.time || '', note: s.note || '', url: s.url || '', start: s.date, end: s.date, local: !!s.local }));
+    // Sports come LIVE from ESPN (above), so drop any sports rows in events_week.json
+    // (the bot can't refresh those, so they go stale). Concerts/riverwalk stay.
+    (sv.shows || []).filter((s) => SPORTS.indexOf(s.cat) < 0).forEach((s) => EV.push({ kind: 'show', cat: s.cat || 'concert', title: s.title, where: s.venue, address: s.address || '', time: s.time || '', note: s.note || '', url: s.url || '', start: s.date, end: s.date, local: !!s.local }));
     (fv.festivals || []).forEach((f) => EV.push({ kind: 'fest', cat: 'fest', title: f.name, where: f.neighborhood || '', address: f.location || '', time: f.time || '', range: f.range || '', hours: f.hours || '', dateLabel: f.date_label || '', url: f.url || '', start: f.date_start, end: f.date_end || f.date_start, local: !!f.local }));
+    (liveSports || []).forEach((s) => EV.push(s));
     EV.forEach((e, i) => { e.id = i; });
 
-    const now = new Date();
-    const start = new Date(now); start.setHours(0, 0, 0, 0);
-    const days = []; for (let i = 0; i < 7; i++) { const d = new Date(start); d.setDate(start.getDate() + i); days.push(d); }
-    const sun = days[6], todayS = ymd(now);
     document.getElementById('wk-range').textContent = MON[start.getMonth()] + ' ' + start.getDate() + ' to ' + MON[sun.getMonth()] + ' ' + sun.getDate() + ', ' + sun.getFullYear();
 
     function chip(e) {
       const lab = e.range || e.time || 'All day';
       const star = e.local ? '<span class="wk-star" title="West Loop event" aria-label="West Loop event">&#9733;</span>' : '';
-      const logo = SPORTS.indexOf(e.cat) >= 0 ? '<img class="wk-logo" src="images/teams/' + e.cat + '.png" alt="" aria-hidden="true">' : '';
+      const logo = SPORTS.indexOf(e.cat) >= 0 ? '<img class="wk-logo" src="images/teams/' + e.cat + '.png" alt="" aria-hidden="true" onerror="this.remove()">' : '';
       return '<button class="wk-ev wk-ev--' + e.cat + '" data-id="' + e.id + '">' + star + logo +
         '<span class="wk-ev-t">' + esc(lab) + '</span>' +
         '<span class="wk-ev-n">' + esc(e.title) + '</span>' +

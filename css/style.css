@@ -905,7 +905,7 @@ body.photo-banner .hero {
 .wk-ev:hover { filter: brightness(0.96); }
 .wk-star { position: absolute; top: 3px; right: 5px; color: #e0a400; font-size: 0.74rem; line-height: 1; }
 .wk-logo { position: absolute; bottom: 4px; right: 6px; width: 22px; height: 22px; object-fit: contain; background: rgba(255, 255, 255, 0.92); border-radius: 50%; padding: 1px; box-sizing: border-box; }
-.wk-ev--cubs, .wk-ev--sox, .wk-ev--bears, .wk-ev--bulls, .wk-ev--fire, .wk-ev--sky { padding-bottom: 26px; }
+.wk-ev--cubs, .wk-ev--sox, .wk-ev--bears, .wk-ev--bulls, .wk-ev--fire, .wk-ev--sky, .wk-ev--hawks { padding-bottom: 26px; }
 .wk-ev--concert { background: #e6f6fd; border-color: #bfe6f7; }
 .wk-ev--fest { background: #e7f5ea; border-color: #c3e6cc; }
 .wk-ev--riverwalk { background: #0a3f66; border-color: #0a3f66; color: #fff; }
@@ -915,6 +915,7 @@ body.photo-banner .hero {
 .wk-ev--bulls { background: #ce1141; border-color: #ce1141; color: #fff; }
 .wk-ev--fire { background: #c8102e; border-color: #c8102e; color: #0a2342; }
 .wk-ev--sky { background: #4a90d0; border-color: #4a90d0; color: #ffd200; }
+.wk-ev--hawks { background: #cf0a2c; border-color: #cf0a2c; color: #fff; }
 .wk-ev-t { display: block; font-size: 0.68rem; font-weight: 700; color: inherit; opacity: 0.72; }
 .wk-ev-n { display: block; font-size: 0.8rem; line-height: 1.25; color: inherit; }
 .wk-ev-v { display: block; font-size: 0.68rem; color: inherit; opacity: 0.72; }

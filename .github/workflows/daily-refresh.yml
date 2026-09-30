@@ -47,8 +47,9 @@ jobs:
       - name: Refresh Tiny Tapp riverwalk live-music schedule
         run: node scripts/refresh-tinytapp.mjs
 
-      - name: Refresh Chicago sports home games (ESPN)
-        run: node scripts/refresh-sports.mjs
+      # Chicago sports home games are now fetched LIVE in the browser on the events
+      # page (culture.html), because ESPN's firewall 403s datacenter/server requests
+      # like this runner. scripts/refresh-sports.mjs is retired (kept for reference).
 
       - name: Refresh concert-venue schedules (structured-data venues)
         run: node scripts/refresh-venues.mjs
