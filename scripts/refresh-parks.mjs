@@ -43,7 +43,7 @@ const NEARBY_PARKS = [
   'Northerly Island', 'Burnham Park',
   // Near North, Gold Coast, River North, Streeterville
   'Washington Square Park', 'Seward Park', 'Connors Park', 'Lake Shore Park',
-  'Jane Addams', 'Olive Park', 'Montgomery Ward Park', 'South Lincoln Park',
+  'Jane Addams', 'Olive Park', 'Ward Park', 'South Lincoln Park',
   // West Town / Noble Square (northwest border)
   'Eckhart Park', 'Smith Park',
   // Pilsen / Lower West Side (southwest border)
@@ -53,6 +53,15 @@ const NEARBY_PARKS = [
   // Bronzeville / Douglas / Near South (southeast border)
   'Ellis Park', 'Dunbar Park', 'Mandrake Park'
 ];
+
+// Token-boundary match: "Ward Park" matches "A. Montgomery Ward Park" but NOT
+// "Howard Park"; punctuation and apostrophes are normalized to spaces so
+// "Women's Park" still matches. Prevents plain-substring false positives.
+function parkMatches(park) {
+  const norm = (s) => ' ' + s.toLowerCase().replace(/[^a-z0-9]+/g, ' ').replace(/\s+/g, ' ').trim() + ' ';
+  const p = norm(park);
+  return NEARBY_PARKS.some((w) => p.includes(norm(w)));
+}
 
 function startTime(range) {
   const r = String(range).replace(/\s/g, '').replace(/[–—]/g, '-');
@@ -76,19 +85,24 @@ export function parseCleanups(text, emailDate) {
   const flat = seg.replace(/\*\*/g, ' ').replace(/-{3,}/g, ' ').replace(/[ \t]+/g, ' ').replace(/ *\n */g, '\n');
   const year = (emailDate instanceof Date ? emailDate : new Date(emailDate)).getFullYear();
   // Groups: 1 month, 2 day, 3 park, 4 partner/crew, 5 activity, 6 time range, 7 register url.
-  const re = /(\d{1,2})\/(\d{1,2})\s+(.+?)\s+with\s+(.+?)\s+Activity:\s*([A-Za-z][A-Za-z\- ]*?)\s+([\d:]{1,5}\s*(?:AM|PM)?\s*[–—-]\s*[\d:]{1,5}\s*(?:AM|PM))\s+REGISTER\s*\(?\s*(https?:\/\/[^\s)]+)/gi;
+  // Activity may combine tasks with a slash, e.g. "Mulching / Trash Pick-Up".
+  const re = /(\d{1,2})\/(\d{1,2})\s+(.+?)\s+with\s+(.+?)\s+Activity:\s*([A-Za-z][A-Za-z\-/ ]*?)\s+([\d:]{1,5}\s*(?:AM|PM)?\s*[–—-]\s*[\d:]{1,5}\s*(?:AM|PM))\s+REGISTER\s*\(?\s*(https?:\/\/[^\s)]+)/gi;
+  const todayStr = new Date().toLocaleDateString('en-CA', { timeZone: 'America/Chicago' });
   const out = []; let m;
   while ((m = re.exec(flat))) {
     const mon = +m[1], day = +m[2];
     if (mon < 1 || mon > 12 || day < 1 || day > 31) continue;
     const park = m[3].trim().replace(/\s+/g, ' ');
-    if (!NEARBY_PARKS.some((w) => park.toLowerCase().includes(w.toLowerCase()))) continue;
+    if (!parkMatches(park)) continue;
     let y = year;
     let date = `${y}-${String(mon).padStart(2, '0')}-${String(day).padStart(2, '0')}`;
     // Year roll for a late-December email listing early-January dates.
     if (new Date(date) < new Date((emailDate instanceof Date ? emailDate.getTime() : Date.parse(emailDate)) - 45 * 864e5)) {
       y += 1; date = `${y}-${String(mon).padStart(2, '0')}-${String(day).padStart(2, '0')}`;
     }
+    // Skip cleanups that have already happened (the weekly email includes the
+    // first day or two of the week, which may be in the past). No past-date events.
+    if (date < todayStr) continue;
     const partner = m[4].trim().replace(/\s+/g, ' ');
     const activity = m[5].trim().toLowerCase();
     const withCrew = partner ? ` with the ${partner}` : '';
