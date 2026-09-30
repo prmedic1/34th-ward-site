@@ -1,6 +1,78 @@
 {
- "generated_at": "2026-09-29T19:05:52.359Z",
+ "generated_at": "2026-09-30T13:00:36.770Z",
  "items": [
+  {
+   "id": "politico-20260930-city-transfers-2008-parking-meter-lease-",
+   "category": "business",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "City transfers 2008 parking meter lease to Stonepeak Partners for $2.53 billion",
+   "summary": "The Chicago City Council voted 46‑3 to approve the sale of the remaining years of the 2008 parking meter lease to New York‑based Stonepeak Partners for roughly $2.53 billion. Chicago will receive an upfront payment of $75 million, a 5 percent share of future net revenues, and a 2 percent right to any future resale price. Officials say the funds and revenue stream will be directed toward reducing the city’s pension obligations, and the deal gives the city more flexibility to shut down meters for special events without paying compensation.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-09-30T12:02:44.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "politico-20260930-city-council-adopts-30-vote-threshold-fo",
+   "category": "elected_official",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "City Council adopts 30‑vote threshold for new debt proposals",
+   "summary": "In a move that defies the mayor’s position, the Chicago City Council approved a rule requiring a supermajority of 30 votes to approve any new municipal debt. The change aims to tighten fiscal oversight and limit the administration’s ability to incur additional borrowing without broad council support.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-09-30T12:02:44.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "politico-20260930-after-school-matters-fundraiser-raises-n",
+   "category": "civic_org",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "After School Matters fundraiser raises nearly $2.7 million",
+   "summary": "The After School Matters fundraiser attracted a crowd of 500, including civic leader Nora Daley and Cook County Commissioner John Daley, and generated almost $2.7 million for the organization’s youth programs.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-09-30T12:02:44.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "axios-20260930-united-ceo-aims-high",
+   "category": "newsletter",
+   "source_id": "axios",
+   "source_name": "Axios Chicago",
+   "source_type": "email_newsletter",
+   "title": "United CEO aims high",
+   "summary": "United Airlines CEO Scott Kirby wants the airline's home base to be the best in the world. In a new interview with the \"Office Hours: Business Edition\" podcast, Kirby lays out an ambitious vision: Make O'Hare the world's No. Kirby's vision could supercharge Chicago's status as a global aviation hub - or put even more pressure on an air traffic control system already struggling to keep up.",
+   "url": "https://www.axios.com/local/chicago",
+   "published_at": "2026-09-30T11:29:03.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260930-culver-s-coming-to-former-aurelio-s-spot",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Culver’s Coming To Former Aurelio's Spot In South Loop",
+   "summary": "The Wisconsin-based fast-food chain is planning to open at 1212 S. Michigan Ave., in the former Aurelio’s Pizza space.",
+   "url": "https://blockclubchicago.org/2026/09/30/culvers-coming-to-former-aurelios-spot-in-south-loop/",
+   "published_at": "2026-09-30T12:33:00.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260930-13-things-to-do-outside-in-chicago-this-",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "13 Things To Do Outside In Chicago This October",
+   "summary": "Grab a pumpkin, watch a spooky movie or enjoy a witchy bike ride in and around Chicago this month.",
+   "url": "https://blockclubchicago.org/2026/09/30/13-things-to-do-outside-in-chicago-this-october-2/",
+   "published_at": "2026-09-30T12:30:00.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "cbs-20260929-chicago-police-investigating-string-of-4",
    "category": "civic_org",
@@ -2519,78 +2591,6 @@
    "summary": "Only 100 spots are available for the rare sanctioned river jump, while registration has also reopened for the Chicago River Swim later this month to allow 250 more people to take part.",
    "url": "https://blockclubchicago.org/2026/09/09/city-offers-500-big-jump-ahead-of-chicago-river-swim/",
    "published_at": "2026-09-09T16:36:55.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "politico-20260909-residents-oppose-amtrak-s-24-7-bridgepor",
-   "category": "business",
-   "source_id": "politico",
-   "source_name": "POLITICO Illinois Playbook",
-   "source_type": "email_newsletter",
-   "title": "Residents oppose Amtrak’s 24/7 Bridgeport facility near South Loop",
-   "summary": "Dozens of residents gathered Tuesday outside Rate Field to protest the proposed 24/7 Amtrak facility in Bridgeport. Opponents say the plan would cut through the neighborhood as the Chicago White Sox consider moving to the railroad’s current site in the South Loop. The opposition reflects concerns about neighborhood disruption and housing impacts.",
-   "url": "https://www.politico.com/newsletters/illinois-playbook",
-   "published_at": "2026-09-09T12:01:54.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "axios-20260909-white-sox-stadium-plan-backlash",
-   "category": "newsletter",
-   "source_id": "axios",
-   "source_name": "Axios Chicago",
-   "source_type": "email_newsletter",
-   "title": "White Sox stadium plan backlash",
-   "summary": "A rendering of a proposed White Sox stadium in the South Loop. Rendering: Courtesy of The Railyards project The White Sox's latest stadium proposal is fueling a fight over neighborhoods, mirroring the Bears' stadium drama over state lines. Future White Sox owner Justin Ishbia shared renderings Saturday of a new state-of-the-art ballpark that would anchor \"The Railyards,\" a megadevelopment on the Amtrak train yard.",
-   "url": "https://www.axios.com/local/chicago",
-   "published_at": "2026-09-09T11:27:32.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "abc7-20260909-fire-rips-through-west-town-apartment-bu",
-   "category": "civic_org",
-   "source_id": "abc7",
-   "source_name": "ABC7 Chicago",
-   "source_type": "web_feed",
-   "title": "Fire rips through West Town apartment building",
-   "summary": "Intense flames ripped through an apartment building in West Town Wednesday morning.",
-   "url": "https://abc7chicago.com/post/chicago-fire-blaze-rips-west-town-apartment-building/19809760/",
-   "published_at": "2026-09-09T13:00:25.808Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260909-second-arson-hits-embattled-west-loop-ba",
-   "category": "business",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Second Arson Hits Embattled West Loop Bar Habibti As Nuisance Calls Pile Up",
-   "summary": "The restaurant faces another fire, dozens of police calls and growing scrutiny over nuisance complaints and its license.",
-   "url": "https://blockclubchicago.org/2026/09/09/second-arson-hits-embattled-west-loop-bar-habibti-as-nuisance-calls-pile-up/",
-   "published_at": "2026-09-09T12:45:00.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "cbs-20260909-residents-escape-west-town-apartment-bui",
-   "category": "civic_org",
-   "source_id": "cbs",
-   "source_name": "CBS News Chicago",
-   "source_type": "web_feed",
-   "title": "Residents escape West Town apartment building fire",
-   "summary": "Residents safely escaped a large fire at an apartment building in Chicago's West Town neighborhood early Wednesday morning.",
-   "url": "https://www.cbsnews.com/chicago/news/residents-escape-west-town-apartment-building-fire/",
-   "published_at": "2026-09-09T10:59:46.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260908-amtrak-s-bridgeport-plan-a-knife-through",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Amtrak's Bridgeport Plan A Knife Through The Heart' Of Neighborhood, Residents Say",
-   "summary": "Dozens of residents gathered Tuesday outside Rate Field to oppose the 24/7 Amtrak facility proposed in Bridgeport as the Sox weigh a move to the railroad's current site in the South Loop.",
-   "url": "https://blockclubchicago.org/2026/09/08/amtrak-plan-for-bridgeport-a-knife-through-the-heart-of-neighborhood-residents-say-at-protest/",
-   "published_at": "2026-09-08T19:34:00.000Z",
    "flagged_for_review": false
   }
  ]

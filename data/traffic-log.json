@@ -602,5 +602,14 @@
   "article_total": 333,
   "article_views": 2,
   "verdict": "bad"
+ },
+ {
+  "date": "2026-09-30",
+  "total": 1670,
+  "visitors": 999,
+  "views": 0,
+  "article_total": 333,
+  "article_views": 0,
+  "verdict": "bad"
  }
 ]
