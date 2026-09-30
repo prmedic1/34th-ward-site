@@ -1,6 +1,30 @@
 {
- "generated_at": "2026-09-30T13:00:36.770Z",
+ "generated_at": "2026-09-30T18:48:36.959Z",
  "items": [
+  {
+   "id": "cbs-20260930-chicago-to-install-dedicated-bus-lane-on",
+   "category": "civic_org",
+   "source_id": "cbs",
+   "source_name": "CBS News Chicago",
+   "source_type": "web_feed",
+   "title": "Chicago to install dedicated bus lane on northbound Michigan Avenue downtown",
+   "summary": "Seeking to reduce delays for CTA riders in downtown Chicago, officials plan to install a new dedicated bus lane on Michigan Avenue.",
+   "url": "https://www.cbsnews.com/chicago/news/michigan-avenue-dedicated-cta-bus-lane-downtown-loop/",
+   "published_at": "2026-09-30T17:55:39.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20260930-chicago-youth-stored-their-pandemic-live",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Chicago Youth Stored Their Pandemic Lives In Time Capsules. Now, You Can Look Inside",
+   "summary": "The “Look Back to Go Forward” exhibit displays artifacts kids and teens put in time capsules in 2021 and gives visitors a chance to reflect on their own pandemic experiences.",
+   "url": "https://blockclubchicago.org/2026/09/30/chicago-youth-stored-their-pandemic-lives-in-time-capsules-now-you-can-look-inside/",
+   "published_at": "2026-09-30T13:00:00.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "politico-20260930-city-transfers-2008-parking-meter-lease-",
    "category": "business",
@@ -2543,54 +2567,6 @@
    "summary": "DOWNTOWN - The first apartments created through Chicago’s LaSalle Street Reimagined initiative are officially on the market, marking a major milestone in the city’s effort to transform the historic financial district into a residential corridor.",
    "url": "https://blockclubchicago.org/2026/09/09/first-city-backed-apartments-on-lasalle-street-now-renting-signal-transformed-financial-district/",
    "published_at": "2026-09-09T23:05:24.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "cbs-20260909-ribbon-cut-for-the-bellwether-residences",
-   "category": "civic_org",
-   "source_id": "cbs",
-   "source_name": "CBS News Chicago",
-   "source_type": "web_feed",
-   "title": "Ribbon cut for The Bellwether Residences, office-to-residential conversion in downtown Chicago",
-   "summary": "Chicago city leaders on Wednesday hosted a ribbon-cutting ceremony for a new apartment building converted from an office building downtown.",
-   "url": "https://www.cbsnews.com/chicago/news/ribbon-cut-bellwether-residences-office-to-residential-conversion-downtown-chicago/",
-   "published_at": "2026-09-09T16:30:02.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "cbs-20260909-ribbon-cut-for-new-apartments-in-renovat",
-   "category": "civic_org",
-   "source_id": "cbs",
-   "source_name": "CBS News Chicago",
-   "source_type": "web_feed",
-   "title": "Ribbon cut for new apartments in renovated downtown Chicago office building",
-   "summary": "Chicago city leaders on Wednesday hosted a ribbon-cutting ceremony for the new Bellwether Residences, converted from an office building downtown.",
-   "url": "https://www.cbsnews.com/chicago/video/ribbon-cut-for-new-apartments-in-renovated-downtown-chicago-office-building/",
-   "published_at": "2026-09-09T16:15:00.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "cbs-20260909-go-back-to-the-70-s-at-good-night-john-b",
-   "category": "civic_org",
-   "source_id": "cbs",
-   "source_name": "CBS News Chicago",
-   "source_type": "web_feed",
-   "title": "Go back to the 70's at Good Night John Boy in West Loop",
-   "summary": "Take a trip back to the 70's with Good Night John Boy in the West Loop.",
-   "url": "https://www.cbsnews.com/chicago/video/go-back-to-the-70s-at-good-night-john-boy-in-west-loop/",
-   "published_at": "2026-09-09T15:47:00.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260909-city-offers-500-big-jump-ahead-of-chicag",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "City Offers $500 ‘Big Jump' Ahead Of Chicago River Swim",
-   "summary": "Only 100 spots are available for the rare sanctioned river jump, while registration has also reopened for the Chicago River Swim later this month to allow 250 more people to take part.",
-   "url": "https://blockclubchicago.org/2026/09/09/city-offers-500-big-jump-ahead-of-chicago-river-swim/",
-   "published_at": "2026-09-09T16:36:55.000Z",
    "flagged_for_review": false
   }
  ]

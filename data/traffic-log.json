@@ -605,11 +605,11 @@
  },
  {
   "date": "2026-09-30",
-  "total": 1670,
-  "visitors": 999,
-  "views": 0,
-  "article_total": 333,
-  "article_views": 0,
-  "verdict": "bad"
+  "total": 1681,
+  "visitors": 1004,
+  "views": 11,
+  "article_total": 334,
+  "article_views": 1,
+  "verdict": "usual"
  }
 ]
