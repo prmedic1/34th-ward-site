@@ -63,7 +63,7 @@
   <h3 class="section-heading">Weekly Event Calendar</h3>
   <p class="wk-range" id="wk-range"></p>
   <div class="week-cal" id="week-cal" aria-live="polite"></div>
-  <p class="directory-note" style="margin: 16px 0 26px;">Shows and street festivals in and around the West Loop this week, Monday through Sunday. Tap any event for the time, address, and tickets. Concerts are blue, festivals green, the Riverwalk series deep blue, and each Chicago team wears its own colors. A gold star marks a West Loop event. Hunt for discounted tickets on <a href="https://www.bucketlisters.com/" target="_blank" rel="noopener">Bucketlisters</a> (pick Chicago).</p>
+  <p class="directory-note" style="margin: 16px 0 26px;">Shows and street festivals in and around the West Loop this week, Monday through Sunday. Tap any event for the time, address, and tickets. Concerts are blue, festivals green, the Riverwalk series deep blue, and each Chicago team wears its own colors (home and away games, with the TV channel next to the start time). A gold star marks a West Loop event. Hunt for discounted tickets on <a href="https://www.bucketlisters.com/" target="_blank" rel="noopener">Bucketlisters</a> (pick Chicago).</p>
 
   <h3 class="section-heading">Theaters &amp; Stages</h3>
   <div class="neighborhood-grid">
@@ -197,7 +197,7 @@
     { cat: 'fire',  sport: 'soccer',     league: 'usa.1', id: 182, short: 'Fire',       venue: 'Soldier Field',  address: '1410 Special Olympics Dr, Museum Campus', fallback: 'https://www.chicagofirefc.com/matches' },
     { cat: 'sky',   sport: 'basketball', league: 'wnba',  id: 19,  short: 'Sky',        venue: 'Wintrust Arena', address: '200 E. Cermak Rd, South Loop',            fallback: 'https://sky.wnba.com/schedule/' },
     { cat: 'bulls', sport: 'basketball', league: 'nba',   id: 4,   short: 'Bulls',      venue: 'United Center',  address: '1901 W. Madison St, Near West Side',      fallback: 'https://www.nba.com/bulls/schedule' },
-    { cat: 'hawks', sport: 'hockey',     league: 'nhl',   id: 16,  short: 'Blackhawks', venue: 'United Center',  address: '1901 W. Madison St, Near West Side',      fallback: 'https://www.nhl.com/blackhawks/schedule' }
+    { cat: 'hawks', sport: 'hockey',     league: 'nhl',   id: 4,   short: 'Blackhawks', venue: 'United Center',  address: '1901 W. Madison St, Near West Side',      fallback: 'https://www.nhl.com/blackhawks/schedule' }
   ];
   const centralYMD = (iso) => new Date(iso).toLocaleDateString('en-CA', { timeZone: 'America/Chicago' });
   const centralTime = (iso) => new Date(iso).toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit', timeZone: 'America/Chicago' });
@@ -205,6 +205,14 @@
     const links = (e.links || []).filter((x) => /^https?:/.test(x.href || ''));
     const l = links.find((x) => (x.rel || []).indexOf('event') >= 0) || links[0];
     return (l && l.href) || fallback;
+  }
+  // Where to watch: prefer a TV network, fall back to streaming, skip radio.
+  function tvChannel(c) {
+    const b = (c.broadcasts || []).filter((x) => x.type && x.type.shortName !== 'Radio' && x.media && x.media.shortName);
+    if (!b.length) return '';
+    const tv = b.filter((x) => x.type.shortName === 'TV');
+    const pick = (tv.length ? tv : b).map((x) => x.media.shortName);
+    return Array.from(new Set(pick)).slice(0, 2).join('/');
   }
   function fetchSports(todayS, endS) {
     return Promise.all(TEAMS.map((T) =>
@@ -214,13 +222,23 @@
           const out = [];
           for (const e of ((j && j.events) || [])) {
             const c = e.competitions && e.competitions[0]; if (!c) continue;
-            const home = (c.competitors || []).find((z) => z.homeAway === 'home');
-            if (!home || !home.team || String(home.team.id) !== String(T.id)) continue; // home games only
+            const me = (c.competitors || []).find((z) => z.team && String(z.team.id) === String(T.id));
+            if (!me) continue; // this team must be in the game
             const date = centralYMD(e.date);
             if (date < todayS || date > endS) continue;
-            const away = (c.competitors || []).find((z) => z.homeAway === 'away');
-            const opp = (away && away.team && (away.team.displayName || away.team.name)) || 'TBD';
-            out.push({ kind: 'show', cat: T.cat, title: T.short + ' vs. ' + opp, where: T.venue, address: T.address, time: centralTime(e.date), note: '', url: gameUrl(e, T.fallback), start: date, end: date, local: false });
+            const oppC = (c.competitors || []).find((z) => z !== me);
+            const opp = (oppC && oppC.team && (oppC.team.displayName || oppC.team.name)) || 'TBD';
+            const homeGame = me.homeAway === 'home';
+            const v = c.venue || {};
+            const vCity = (v.address && [v.address.city, v.address.state].filter(Boolean).join(', ')) || '';
+            out.push({
+              kind: 'show', cat: T.cat,
+              title: T.short + (homeGame ? ' vs. ' : ' at ') + opp,
+              where: homeGame ? T.venue : (v.fullName || opp),
+              address: homeGame ? T.address : [v.fullName, vCity].filter(Boolean).join(' - '),
+              time: e.timeValid ? centralTime(e.date) : '', note: '', tv: tvChannel(c),
+              url: gameUrl(e, T.fallback), start: date, end: date, local: false
+            });
           }
           return out;
         })
@@ -250,11 +268,12 @@
     document.getElementById('wk-range').textContent = MON[start.getMonth()] + ' ' + start.getDate() + ' to ' + MON[sun.getMonth()] + ' ' + sun.getDate() + ', ' + sun.getFullYear();
 
     function chip(e) {
-      const lab = e.range || e.time || 'All day';
+      const lab = e.range || e.time || (SPORTS.indexOf(e.cat) >= 0 ? 'Time TBD' : 'All day');
       const star = e.local ? '<span class="wk-star" title="West Loop event" aria-label="West Loop event">&#9733;</span>' : '';
       const logo = SPORTS.indexOf(e.cat) >= 0 ? '<img class="wk-logo" src="images/teams/' + e.cat + '.png" alt="" aria-hidden="true" onerror="this.remove()">' : '';
+      const watch = e.tv ? ' &middot; ' + esc(e.tv) : '';
       return '<button class="wk-ev wk-ev--' + e.cat + '" data-id="' + e.id + '">' + star + logo +
-        '<span class="wk-ev-t">' + esc(lab) + '</span>' +
+        '<span class="wk-ev-t">' + esc(lab) + watch + '</span>' +
         '<span class="wk-ev-n">' + esc(e.title) + '</span>' +
         '<span class="wk-ev-v">' + esc(e.where) + '</span></button>';
     }
@@ -281,6 +300,7 @@
       const when = e.kind === 'fest' ? (e.dateLabel || '') : fmtWhen(e.start, e.time);
       if (when) rows.push(['When', when]);
       if (e.address) rows.push(['Where', e.address]);
+      if (e.tv) rows.push(['Watch', e.tv]);
       const extra = e.kind === 'fest' ? e.hours : e.note;
       if (extra) rows.push([e.kind === 'fest' ? 'Hours' : 'Note', extra]);
       document.getElementById('ev-rows').innerHTML = rows.map((r) => '<div class="ev-row"><dt>' + esc(r[0]) + '</dt><dd>' + esc(r[1]) + '</dd></div>').join('');
