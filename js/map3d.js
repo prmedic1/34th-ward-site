@@ -474,7 +474,7 @@
           'https://maps.googleapis.com/maps/api/streetview?size=280x140&location=' +
           lngLat.lat + ',' + lngLat.lng + '&fov=75&key=' + STREETVIEW_KEY;
         imgHtml =
-          '<img src="' + esc(svImgUrl) + '" width="100%" height="auto" ' +
+          '<img crossorigin="anonymous" src="' + esc(svImgUrl) + '" width="100%" height="auto" ' +
           'style="border-radius:6px;display:block;margin:0 0 6px;" ' +
           'onerror="this.style.display=\'none\'">';
       } catch (err) {
@@ -516,7 +516,7 @@
         'https://maps.googleapis.com/maps/api/streetview?size=280x140&location=' +
         lat + ',' + lng + '&fov=75&key=' + STREETVIEW_KEY;
       imgHtml =
-        '<img src="' + esc(svImgUrl) + '" width="100%" height="auto" ' +
+        '<img crossorigin="anonymous" src="' + esc(svImgUrl) + '" width="100%" height="auto" ' +
         'style="border-radius:6px;display:block;margin:0 0 6px;" ' +
         'onerror="this.style.display=\'none\'">';
     }
@@ -796,7 +796,7 @@
       if (!STREETVIEW_KEY) return '';
       var u = 'https://maps.googleapis.com/maps/api/streetview?size=300x150&location=' +
         lat + ',' + lng + '&fov=75&key=' + STREETVIEW_KEY;
-      return '<img src="' + esc(u) + '" alt="" style="width:100%;height:auto;' +
+      return '<img crossorigin="anonymous" src="' + esc(u) + '" alt="" style="width:100%;height:auto;' +
         'border-radius:6px;display:block;margin:0 0 7px;" onerror="this.style.display=\'none\'">';
     }
 
