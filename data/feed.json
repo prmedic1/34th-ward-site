@@ -1,6 +1,54 @@
 {
- "generated_at": "2026-10-02T13:00:40.244Z",
+ "generated_at": "2026-10-02T16:14:20.047Z",
  "items": [
+  {
+   "category": "elected_official",
+   "source_id": "conway",
+   "source_name": "Conway's Corner (34th Ward Office Newsletter)",
+   "source_type": "email_newsletter",
+   "url": "https://www.ward34.org/",
+   "published_at": "2026-10-02T15:23:15.000Z",
+   "flagged_for_review": false,
+   "id": "conway-20261002-early-voting-open-downtown",
+   "title": "Early voting for the November 3 election is open at two downtown sites",
+   "summary": "Early voting for the November 3 general election is now underway at 137 S. State St. and 69 W. Washington St. Residents can also register to vote or update their registration at both sites. The Chicago Board of Elections is also recruiting poll workers, including bilingual judges who speak Spanish, Chinese, Hindi, Polish, Korean, and Tagalog."
+  },
+  {
+   "category": "elected_official",
+   "source_id": "conway",
+   "source_name": "Conway's Corner (34th Ward Office Newsletter)",
+   "source_type": "email_newsletter",
+   "url": "https://www.ward34.org/",
+   "published_at": "2026-10-02T15:23:15.000Z",
+   "flagged_for_review": false,
+   "id": "conway-20261002-green-pink-line-lake-street-bridge",
+   "title": "Green and Pink Line service cut between Clinton and Clark/Lake Oct. 13-26 for Lake Street Bridge work",
+   "summary": "From 4 a.m. October 13 to 4 a.m. October 26, Green and Pink Line trains will not run between Clinton and Clark/Lake while CDOT replaces the Lake Street Bridge, with free shuttle buses covering the gap. Pink Line trains will route to the Blue Line's Racine station for downtown service. Separately, Milwaukee Avenue will be closed from Canal to Fulton from October 5 to October 30."
+  },
+  {
+   "category": "elected_official",
+   "source_id": "conway",
+   "source_name": "Conway's Corner (34th Ward Office Newsletter)",
+   "source_type": "email_newsletter",
+   "url": "https://www.ward34.org/",
+   "published_at": "2026-10-02T15:23:15.000Z",
+   "flagged_for_review": false,
+   "id": "conway-20261002-sheridan-park-pumpkin-patch",
+   "title": "Sheridan Park Pumpkin Patch returns Saturday, Oct. 3",
+   "summary": "The annual Sheridan Park Pumpkin Patch runs Saturday, October 3, from 10 a.m. to 2 p.m. at Sheridan Park, 910 S. Aberdeen St. The free family event, co-hosted with the Chicago Park District, includes a pumpkin patch, petting zoo, and crafts."
+  },
+  {
+   "category": "elected_official",
+   "source_id": "conway",
+   "source_name": "Conway's Corner (34th Ward Office Newsletter)",
+   "source_type": "email_newsletter",
+   "url": "https://www.ward34.org/",
+   "published_at": "2026-10-02T15:23:15.000Z",
+   "flagged_for_review": false,
+   "id": "conway-20261002-columbus-day-parade-closures",
+   "title": "Columbus Day Parade brings Loop street closures Monday, Oct. 12",
+   "summary": "The Columbus Day Parade steps off at noon on Monday, October 12, from Dearborn and Lake and heads south to Jackson. No-parking restrictions start at 7 a.m. on Wacker (Wabash to Franklin), Dearborn (Wacker to Van Buren), and Van Buren (State to Franklin), with east-west streets crossing Dearborn closing at 11 a.m. All streets are expected to reopen by 3 p.m."
+  },
   {
    "id": "politico-20261002-gov-pritzker-meets-nfl-officials-to-keep",
    "category": "business",
@@ -2126,42 +2174,6 @@
    "flagged_for_review": false
   },
   {
-   "id": "wca-20260911-1282-washington-condominium-project-brea",
-   "category": "business",
-   "source_id": "wca",
-   "source_name": "The WCA Weekly",
-   "source_type": "email_newsletter",
-   "title": "1282 Washington condominium project breaks ground in West Loop",
-   "summary": "ZSD’s 1282 Washington, a boutique development at 1282 Washington Street, is under construction and slated for delivery next fall. The project will contain 4‑ and 5‑bedroom single‑family condominium residences, with 75 % of units pre‑sold. The building is being promoted as a new standard for West Loop living.",
-   "url": "https://www.wcachicago.org/",
-   "published_at": "2026-09-11T13:45:55.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "wca-20260911-west-loop-wellness-fest-offers-fitness-a",
-   "category": "civic_org",
-   "source_id": "wca",
-   "source_name": "The WCA Weekly",
-   "source_type": "email_newsletter",
-   "title": "West Loop Wellness Fest offers fitness and wellness activities on September 19",
-   "summary": "The West Central Association will host the West Loop Wellness Fest on Saturday, September 19 from 11 a.m. to 2 p.m. at Union Padel Club. Attendees can join instructor‑led classes such as Pure Barre, HIIT, ballroom dancing and meditation, as well as padel instruction, chair massages and red‑light therapy. Ticket proceeds benefit Mercy Home for Boys & Girls and a 20 % discount is available with code WCA20.",
-   "url": "https://www.wcachicago.org/",
-   "published_at": "2026-09-11T13:45:55.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "wca-20260911-2nd-annual-great-chicago-bed-race-to-rai",
-   "category": "civic_org",
-   "source_id": "wca",
-   "source_name": "The WCA Weekly",
-   "source_type": "email_newsletter",
-   "title": "2nd Annual Great Chicago Bed Race to raise funds for Chicago Furniture Bank",
-   "summary": "The race will take place on Sunday, October 4 at Midwest Coast Brewing Co., where teams of five will race twin‑XL mattresses down Walnut Street. Registration costs $250 per team ($50 per person) and the goal is to furnish 4,004 homes for families transitioning out of homelessness. Teams must sign up by September 20; gifts are also accepted.",
-   "url": "https://www.wcachicago.org/",
-   "published_at": "2026-09-11T13:45:55.000Z",
-   "flagged_for_review": false
-  },
-  {
    "id": "cbs-20260913-man-arrested-after-taking-usps-truck-on-",
    "category": "civic_org",
    "source_id": "cbs",
@@ -2198,42 +2210,6 @@
    "flagged_for_review": false
   },
   {
-   "id": "wca-20260911-1282-washington-condo-project-launches-w",
-   "category": "business",
-   "source_id": "wca",
-   "source_name": "The WCA Weekly",
-   "source_type": "email_newsletter",
-   "title": "1282 Washington condo project launches with 75% pre‑sales as Madison Row Fest sponsor",
-   "summary": "The West Central Association announced that 1282 Washington, a ZSD development, will be the headline sponsor of Madison Row Fest 2026. The boutique building will deliver 4‑ and 5‑bedroom single‑family condominium residences next fall, is already 75% pre‑sold and is under construction in the West Loop.",
-   "url": "https://www.wcachicago.org/",
-   "published_at": "2026-09-11T13:45:55.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "wca-20260911-west-loop-wellness-fest-offers-fitness-c",
-   "category": "civic_org",
-   "source_id": "wca",
-   "source_name": "The WCA Weekly",
-   "source_type": "email_newsletter",
-   "title": "West Loop Wellness Fest offers fitness classes and wellness experiences on Sept. 19",
-   "summary": "The West Loop Wellness Fest will take place Saturday, September 19 from 11 AM to 2 PM at Union Padel Club. Attendees can join instructor‑led classes, padel instruction, chair massages, red‑light therapy and more, with a 20% discount using code WCA20; ticket proceeds benefit Mercy Home for Boys & Girls.",
-   "url": "https://www.wcachicago.org/",
-   "published_at": "2026-09-11T13:45:55.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "wca-20260911-chicago-gourmet-s-dine-around-series-spo",
-   "category": "business",
-   "source_id": "wca",
-   "source_name": "The WCA Weekly",
-   "source_type": "email_newsletter",
-   "title": "Chicago Gourmet’s Dine Around Series spotlights West Loop restaurants Sep. 1‑18",
-   "summary": "Chicago Gourmet’s first‑ever Dine Around Series runs September 1 through 18, featuring nearly 80 Chicago restaurants including West Loop favorites such as The Vig West Loop. Diners who spend $50 or more can upload receipts by September 19 for a chance to win a VIP package that includes a Hyatt Regency Chicago stay, festival tickets and exclusive swag.",
-   "url": "https://www.wcachicago.org/",
-   "published_at": "2026-09-11T13:45:55.000Z",
-   "flagged_for_review": false
-  },
-  {
    "id": "abc7-20260913-man-hurt-in-shootout-after-argument-insi",
    "category": "business",
    "source_id": "abc7",
@@ -2255,66 +2231,6 @@
    "summary": "The fest is being held on South Dearborn Street between Ida B. Wells Drive and Polk Street. This weekend features hundreds of presenters, including authors, poets, booksellers and storytellers.",
    "url": "https://www.cbsnews.com/chicago/video/41st-printers-row-lit-fest-celebrates-literature-ideas-and-civic-dialogue/",
    "published_at": "2026-09-12T22:22:00.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "wca-20260911-1282-washington-new-4-and-5-bedroom-cond",
-   "category": "business",
-   "source_id": "wca",
-   "source_name": "The WCA Weekly",
-   "source_type": "email_newsletter",
-   "title": "1282 Washington: New 4- and 5-Bedroom Condominiums Pre-Sold 75% in West Loop",
-   "summary": "The West Loop will see a new boutique development at 1282 Washington, a ZSD project that will deliver 4- and 5‑bedroom single‑family condominiums in fall 2026. The building is already 75% pre‑sold and under construction, and it is set to set a new standard for West Loop living. The WCA welcomes the development as the headline sponsor of Madison Row Fest 2026.",
-   "url": "https://www.wcachicago.org/",
-   "published_at": "2026-09-11T13:45:55.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "wca-20260911-west-loop-wellness-fest-brings-fitness-a",
-   "category": "civic_org",
-   "source_id": "wca",
-   "source_name": "The WCA Weekly",
-   "source_type": "email_newsletter",
-   "title": "West Loop Wellness Fest Brings Fitness and Wellness to Union Padel Club",
-   "summary": "The West Loop Wellness Fest will take place Saturday September 19 from 11 a.m. to 2 p.m. at Union Padel Club, offering instructor‑led classes, padel instruction, complimentary wellness experiences, interactive booths, and goodie bags. Participants can use code WCA20 for 20% off tickets, and net proceeds benefit Mercy Home for Boys & Girls. The event features classes from Pure Barre, BUNDA Glutecamp, HIIT, ballroom dancing, meditation, chair massages, red light therapy, movement screenings, acupuncture, and recovery experiences.",
-   "url": "https://www.wcachicago.org/",
-   "published_at": "2026-09-11T13:45:55.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "wca-20260911-madison-row-fest-celebrates-west-loop-co",
-   "category": "civic_org",
-   "source_id": "wca",
-   "source_name": "The WCA Weekly",
-   "source_type": "email_newsletter",
-   "title": "Madison Row Fest Celebrates West Loop Community with Live Entertainment and Vendors",
-   "summary": "Madison Row Fest will be held Saturday September 12 on Madison Street, featuring live entertainment, food and drinks, local vendors, kids’ activities, and neighborhood traditions. The WCA is proud to welcome 1282 Washington as the headline sponsor of the 2026 event, and the festival will showcase the best of the West Loop. The event is a family‑friendly community block party that brings the neighborhood together.",
-   "url": "https://www.wcachicago.org/",
-   "published_at": "2026-09-11T13:45:55.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "wca-20260911-1282-washington-development-to-headline-",
-   "category": "business",
-   "source_id": "wca",
-   "source_name": "The WCA Weekly",
-   "source_type": "email_newsletter",
-   "title": "1282 Washington development to headline Madison Row Fest and add new condos to West Loop",
-   "summary": "The West Central Association announced that 1282 Washington, a ZSD development at 1282 Washington Street, will be the headline sponsor of Madison Row Fest 2026. The project will deliver 4‑ and 5‑bedroom single‑family condominium residences beginning next fall. Construction is underway and 75 % of the units are already pre‑sold, promising a new standard for West Loop living.",
-   "url": "https://www.wcachicago.org/",
-   "published_at": "2026-09-11T13:45:55.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "wca-20260911-2nd-annual-great-chicago-bed-race-set-fo",
-   "category": "civic_org",
-   "source_id": "wca",
-   "source_name": "The WCA Weekly",
-   "source_type": "email_newsletter",
-   "title": "2nd Annual Great Chicago Bed Race set for October 4 to benefit Chicago Furniture Bank",
-   "summary": "The 2nd Annual Great Chicago Bed Race returns on Sunday October 4 at Midwest Coast Brewing Co., where teams of five will race twin‑XL mattresses down Walnut Street to raise funds for the Chicago Furniture Bank. The goal is to furnish 4,004 homes, and teams must register by September 20 for $250 per team ($50 per person). Participants provide costumes and compete for the charitable cause.",
-   "url": "https://www.wcachicago.org/",
-   "published_at": "2026-09-11T13:45:55.000Z",
    "flagged_for_review": false
   },
   {
@@ -2390,30 +2306,6 @@
    "flagged_for_review": false
   },
   {
-   "id": "wca-20260911-1282-washington-development-announced-as",
-   "category": "business",
-   "source_id": "wca",
-   "source_name": "The WCA Weekly",
-   "source_type": "email_newsletter",
-   "title": "1282 Washington development announced as headline sponsor of Madison Row Fest",
-   "summary": "1282 Washington, a ZSD development, is the headline sponsor of Madison Row Fest 2026 and will deliver 4‑ and 5‑bedroom single‑family condominium residences. The boutique building is already 75% pre‑sold and under construction, with delivery slated for next fall, and is promoted as setting a new standard for West Loop living.",
-   "url": "https://www.wcachicago.org/",
-   "published_at": "2026-09-11T13:45:55.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "wca-20260911-west-loop-wellness-fest-scheduled-for-se",
-   "category": "civic_org",
-   "source_id": "wca",
-   "source_name": "The WCA Weekly",
-   "source_type": "email_newsletter",
-   "title": "West Loop Wellness Fest scheduled for September 19 at Union Padel Club",
-   "summary": "West Loop Wellness Fest will be held Saturday, September 19 from 11 AM to 2 PM at Union Padel Club, featuring instructor‑led fitness classes, padel instruction, wellness experiences, interactive booths and goodie bags. Net ticket proceeds benefit Mercy Home for Boys & Girls and attendees can use code WCA20 for a 20% discount on tickets, with space limited.",
-   "url": "https://www.wcachicago.org/",
-   "published_at": "2026-09-11T13:45:55.000Z",
-   "flagged_for_review": false
-  },
-  {
    "id": "cbs-20260911-how-the-chicago-area-is-marking-25-years",
    "category": "civic_org",
    "source_id": "cbs",
@@ -2423,30 +2315,6 @@
    "summary": "A flag for every person killed stands at the Oak Brook Polo Grounds through Sunday, and thousands of volunteers will pack meals at Union Station. Ceremonies run across the city and suburbs Friday.",
    "url": "https://www.cbsnews.com/chicago/video/how-the-chicago-area-is-marking-25-years-since-911/",
    "published_at": "2026-09-11T16:22:00.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "cbs-20260911-chicago-could-shut-down-loop-during-conv",
-   "category": "civic_org",
-   "source_id": "cbs",
-   "source_name": "CBS News Chicago",
-   "source_type": "web_feed",
-   "title": "Chicago could shut down Loop during convergence of weekend events, officials warn",
-   "summary": "There are a ton of major events happening in downtown Chicago this weekend, and as a result OEMC is warning the city may need to shut down the Loop.",
-   "url": "https://www.cbsnews.com/chicago/news/chicago-loop-weekend-events-street-closures-traffic/",
-   "published_at": "2026-09-11T16:11:10.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "cbs-20260911-volunteers-packing-500-000-meals-at-unio",
-   "category": "civic_org",
-   "source_id": "cbs",
-   "source_name": "CBS News Chicago",
-   "source_type": "web_feed",
-   "title": "Volunteers packing 500,000 meals at Union Station to mark 25 years since 9/11",
-   "summary": "Thousands of volunteers came together at Chicago's Union Station on Friday to pack more than 500,000 meals for the Greater Chicago Food Depository.",
-   "url": "https://www.cbsnews.com/chicago/video/volunteers-packing-500000-meals-at-union-station-to-mark-25-years-since-911/",
-   "published_at": "2026-09-11T14:59:00.000Z",
    "flagged_for_review": false
   },
   {
