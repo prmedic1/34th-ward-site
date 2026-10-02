@@ -1,6 +1,126 @@
 {
- "generated_at": "2026-10-02T16:14:20.047Z",
+ "generated_at": "2026-10-02T18:57:29.242Z",
  "items": [
+  {
+   "id": "politico-20261002-gov-pritzker-meets-nfl-officials-to-disc",
+   "category": "civic_org",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Gov. Pritzker meets NFL officials to discuss keeping Chicago Bears in Illinois",
+   "summary": "On Oct. 1, 2026 Governor JB Pritzker met with NFL Commissioner Roger Goodell, Bears minority owner Pat Ryan, House Speaker Emanuel \"Chris\" Welch, Rep. Kam Buckner and Sen. Bill Cunningham in downtown Chicago. The meeting focused on a long‑term stadium solution for the Bears and the possibility of legislation that would preserve a path for either a Chicago or Arlington Heights site. Mayor Brandon Johnson was not present, and lawmakers will consider the issue during the November veto session.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-10-02T11:59:58.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "politico-20261002-mayoral-race-remains-fluid-as-john-kelly",
+   "category": "elected_official",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Mayoral race remains fluid as John Kelly headlines City Club luncheon",
+   "summary": "Businessman and lobbyist John Kelly addressed the City Club of Chicago on Oct. 1, 2026, emphasizing support for police and fixing potholes. Mayor Brandon Johnson used the same venue the day before to contrast his platform of higher corporate taxes and community investment with Kelly’s message. Kelly announced his endorsement of Victor Henderson for Chicago School Board president, while Secretary of State Alexi Giannoulias reported a campaign war chest of more than $23 million.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-10-02T11:59:58.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "politico-20261002-former-mayor-rahm-emanuel-to-speak-at-ob",
+   "category": "elected_official",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Former Mayor Rahm Emanuel to speak at Obama Presidential Center on youth mentoring",
+   "summary": "Rahm Emanuel will return to the Obama Presidential Center on Oct. 8, 2026 to discuss the power of youth mentoring as part of Youth Guidance’s Becoming A Man and Working on Womanhood programs. The appearance coincides with the rollout of his new book Do What Works, which includes a chapter on Chicago’s mentoring efforts. Emanuel previously highlighted the program to President Barack Obama in 2013, linking it to the My Brother’s Keeper initiative.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-10-02T11:59:58.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "conway-20261002-cta-green-and-pink-line-service-interrup",
+   "category": "civic_org",
+   "source_id": "conway",
+   "source_name": "Conway's Corner (34th Ward Office Newsletter)",
+   "source_type": "email_newsletter",
+   "title": "CTA Green and Pink Line service interruptions Oct. 13‑26 due to Lake Street Bridge replacement",
+   "summary": "The Chicago Department of Transportation will replace the Lake Street Bridge, causing Green and Pink Line service to be interrupted between Clinton and Clark/Lake stations from 4 am on Oct. 13 to 4 am on Oct. 26. Green Line trains will run in two sections with free bus substitutions, and Pink Line riders will transfer to the Blue Line at Racine. Milwaukee Avenue will be closed from Canal to Fulton between Oct. 5 and Oct. 30, affecting West Loop commuters.",
+   "url": "https://www.ward34.org/",
+   "published_at": "2026-10-02T15:23:15.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "conway-20261002-dedicated-northbound-bus-lane-to-be-adde",
+   "category": "civic_org",
+   "source_id": "conway",
+   "source_name": "Conway's Corner (34th Ward Office Newsletter)",
+   "source_type": "email_newsletter",
+   "title": "Dedicated northbound bus lane to be added on Michigan Avenue between Roosevelt and Wacker",
+   "summary": "In partnership with the Chicago Department of Transportation, the CTA will install a 1.5‑mile dedicated bus lane on northbound Michigan Avenue from Roosevelt to Wacker. The lane will serve 21 bus routes that carry more than 7 million passengers annually and will include cameras that automatically ticket standing and moving violations as part of the Smart Streets Pilot. Installation will begin when weather permits.",
+   "url": "https://www.ward34.org/",
+   "published_at": "2026-10-02T15:23:15.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "conway-20261002-city-council-approves-parking-meter-deal",
+   "category": "civic_org",
+   "source_id": "conway",
+   "source_name": "Conway's Corner (34th Ward Office Newsletter)",
+   "source_type": "email_newsletter",
+   "title": "City Council approves parking meter deal worth $139.2 million to taxpayers",
+   "summary": "At Tuesday’s City Council meeting, members approved a change in control of Chicago’s parking meters that provides the city with $75 million upfront and a 5 percent share of calculated net income, valued at approximately $139.2 million to taxpayers. Council also passed an ordinance requiring a 60 percent vote before the city can take on additional debt, addressing a $2 billion debt load that threatens funding for parks, schools and police.",
+   "url": "https://www.ward34.org/",
+   "published_at": "2026-10-02T15:23:15.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "wca-20261002-black-briar-opens-at-201-n-morgan-st-in-",
+   "category": "business",
+   "source_id": "wca",
+   "source_name": "The WCA Weekly",
+   "source_type": "email_newsletter",
+   "title": "Black Briar Opens at 201 N. Morgan St in Fulton Market",
+   "summary": "The West Central Association celebrated the grand opening of Black Briar, a new restaurant in Fulton Market, with a ribbon cutting ceremony. Led by Chef Jimmy Papadopoulos and co-owner Tim Anderson, the restaurant offers a menu featuring fresh seafood, house‑made pastas, steaks, and inventive cocktails. The opening marks a new addition to the vibrant dining scene in the West Loop area.",
+   "url": "https://www.wcachicago.org/",
+   "published_at": "2026-10-02T11:30:30.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "wca-20261002-chicago-marathon-street-closures-impact-",
+   "category": "civic_org",
+   "source_id": "wca",
+   "source_name": "The WCA Weekly",
+   "source_type": "email_newsletter",
+   "title": "Chicago Marathon Street Closures Impact 29 Neighborhoods Including the 34th Ward",
+   "summary": "The Chicago Marathon will run on Sunday, October 11, with extensive street closures and parking restrictions affecting the 34th Ward. Towing will begin at 1:00 AM, and streets along the route will close to traffic as early as 6:00 AM, reopening around 4:00 PM. The route change for miles 1–2 in the Loop will have traffic travel south on Dearborn St. instead of State St. Residents should consult the Street Closure Brochure for exact times.",
+   "url": "https://www.wcachicago.org/",
+   "published_at": "2026-10-02T11:30:30.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "wca-20261002-great-chicago-bed-race-returns-sunday-oc",
+   "category": "civic_org",
+   "source_id": "wca",
+   "source_name": "The WCA Weekly",
+   "source_type": "email_newsletter",
+   "title": "Great Chicago Bed Race Returns Sunday, October 4 at Midwest Coast Brewing Co.",
+   "summary": "The 2nd Annual Great Chicago Bed Race will take place on Sunday, October 4, at Midwest Coast Brewing Co. Teams of five will race twin XL mattresses down Walnut Street to raise funds for the Chicago Furniture Bank. The event aims to furnish 4,004 homes for families transitioning out of homelessness.",
+   "url": "https://www.wcachicago.org/",
+   "published_at": "2026-10-02T11:30:30.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20261002-chicago-brand-museum-in-the-south-loop-i",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Chicago Brand Museum In The South Loop Is A Trip Down Memory Lane",
+   "summary": "The vintage labels, familiar products and forgotten designs on display reveal how the brands of the past can spark memories.",
+   "url": "https://blockclubchicago.org/2026/10/02/chicago-brand-museum-in-the-south-loop-is-a-trip-down-memory-lane/",
+   "published_at": "2026-10-02T13:22:00.000Z",
+   "flagged_for_review": false
+  },
   {
    "category": "elected_official",
    "source_id": "conway",
@@ -2162,18 +2282,6 @@
    "flagged_for_review": false
   },
   {
-   "id": "conway-20260911-police-to-impose-traffic-restrictions-in",
-   "category": "civic_org",
-   "source_id": "conway",
-   "source_name": "Conway's Corner (34th Ward Office Newsletter)",
-   "source_type": "email_newsletter",
-   "title": "Police to impose traffic restrictions in Loop for Mexican Independence Day weekend",
-   "summary": "The Chicago Police Department will implement traffic restrictions in the Central Business District from Friday September 11 through Wednesday September 16 for Mexican Independence Day weekend. Vehicles will be limited at eight intersections, including Halsted/Washington and 18th/Indiana, and residents must use access passes and may be asked for ID. Police may close any access point if pedestrians are present, and Alderman Bill Conway said his office worked with the department to address safety concerns for Loop residents and workers.",
-   "url": "https://www.ward34.org/",
-   "published_at": "2026-09-11T16:16:19.000Z",
-   "flagged_for_review": false
-  },
-  {
    "id": "cbs-20260913-man-arrested-after-taking-usps-truck-on-",
    "category": "civic_org",
    "source_id": "cbs",
@@ -2279,54 +2387,6 @@
    "summary": "The midday closure will run four days from 9 a.m.-2:30 p.m. Monday through Thursday.",
    "url": "https://blockclubchicago.org/2026/09/11/state-street-bridge-closed-for-midday-work-next-week-to-prep-for-fall-boat-run/",
    "published_at": "2026-09-11T21:26:00.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260911-here-are-the-possible-road-closures-down",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Here Are The Possible Road Closures Downtown For Mexican Independence Day",
-   "summary": "Road closures and restrictions could be in effect this weekend as the city celebrates the holiday and holds other events Downtown.",
-   "url": "https://blockclubchicago.org/2026/09/11/here-are-the-possible-road-closures-downtown-for-mexican-independence-day/",
-   "published_at": "2026-09-11T18:15:37.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "conway-20260911-chicago-police-to-impose-traffic-restric",
-   "category": "civic_org",
-   "source_id": "conway",
-   "source_name": "Conway's Corner (34th Ward Office Newsletter)",
-   "source_type": "email_newsletter",
-   "title": "Chicago Police to impose traffic restrictions in Loop for Mexican Independence Day weekend",
-   "summary": "From Friday September 11 through Wednesday September 16 the Chicago Police Department may limit vehicular traffic in the Central Business District. Checkpoints will be set up at Halsted/Washington, Halsted/Madison, Halsted/Jackson, Division/LaSalle, Roosevelt/Canal, Taylor/Desplaines, 18th/State and 18th/Indiana, and access passes will be required at those points. Residents and workers are advised to carry ID or proof of address and to stay alert for possible closures if pedestrians are present.",
-   "url": "https://www.ward34.org/",
-   "published_at": "2026-09-11T16:16:19.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "cbs-20260911-how-the-chicago-area-is-marking-25-years",
-   "category": "civic_org",
-   "source_id": "cbs",
-   "source_name": "CBS News Chicago",
-   "source_type": "web_feed",
-   "title": "How the Chicago area is marking 25 years since 9/11",
-   "summary": "A flag for every person killed stands at the Oak Brook Polo Grounds through Sunday, and thousands of volunteers will pack meals at Union Station. Ceremonies run across the city and suburbs Friday.",
-   "url": "https://www.cbsnews.com/chicago/video/how-the-chicago-area-is-marking-25-years-since-911/",
-   "published_at": "2026-09-11T16:22:00.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260911-mood-fabrics-made-famous-on-project-runw",
-   "category": "business",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Mood Fabrics, Made Famous On Project Runway,' Opens On State St. With 10K Samples To Choose From",
-   "summary": "The location is the first Midwest outpost for the store, which got its start in New York's Garment District.",
-   "url": "https://blockclubchicago.org/2026/09/11/project-runway-favorite-mood-fabrics-opens-on-state-street-with-10000-samples-to-choose-from/",
-   "published_at": "2026-09-11T16:50:00.000Z",
    "flagged_for_review": false
   }
  ]
