@@ -1,12 +1,12 @@
 {
  "_rotation_note": "The daily job picks the next business each morning - rotating among ward businesses with priority to spotlight requests from owners and newly opened spots. Keep yesterday's entries in history.",
  "current": {
-  "name": "The Original Pancake House",
-  "address": "1124 W. Madison St, West Loop",
-  "website": "https://ophchicagoland.com/",
-  "image": "images/original-pancake-house.jpg?v=20260903",
-  "blurb": "A breakfast institution since 1953, famous for the oven-baked Dutch Baby and apple pancakes. The West Loop location on Madison fills its striped-awning patio all summer long.",
-  "date": "2026-10-02"
+  "name": "Duck Duck Goat",
+  "address": "857 W. Fulton Market, Fulton Market",
+  "website": "https://www.duckduckgoatchicago.com/",
+  "image": "images/spotlight/duck-duck-goat.jpg?v=20260903",
+  "blurb": "Stephanie Izard's playful Chinese restaurant, with hand-pulled noodles, dim sum, and Peking duck in a bustling, mural-lined room.",
+  "date": "2026-10-03"
  },
  "history": [
   {
@@ -810,6 +810,14 @@
    "image": "images/spotlight/the-publican.jpg?v=20260903",
    "blurb": "A beer-hall-style anchor of Fulton Market built on oysters, house charcuterie, and pork served at long communal tables. Its farm-focused cooking helped turn the old meatpacking district into a dining destination.",
    "date": "2026-10-01"
+  },
+  {
+   "name": "The Original Pancake House",
+   "address": "1124 W. Madison St, West Loop",
+   "website": "https://ophchicagoland.com/",
+   "image": "images/original-pancake-house.jpg?v=20260903",
+   "blurb": "A breakfast institution since 1953, famous for the oven-baked Dutch Baby and apple pancakes. The West Loop location on Madison fills its striped-awning patio all summer long.",
+   "date": "2026-10-02"
   }
  ]
 }

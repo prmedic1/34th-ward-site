@@ -1,6 +1,42 @@
 {
- "generated_at": "2026-10-02T18:57:29.242Z",
+ "generated_at": "2026-10-03T13:01:10.676Z",
  "items": [
+  {
+   "id": "politico-20261001-city-council-ethics-committee-questions-",
+   "category": "elected_official",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "City Council Ethics Committee Questions World Business Chicago Ads Ahead of Election",
+   "summary": "The Chicago City Council Committee on Ethics, chaired by Ald. Matt Martin, met to question World Business Chicago about recent spending on local TV and streaming ads that touted Mayor Brandon Johnson’s record in neighborhood investment. The committee raised concerns that the ads, which had prompted a letter from council members, may involve city funding and could be at stake. The meeting also considered whether officials from World Business Chicago would attend to answer questions.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-10-01T12:02:22.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "cbs-20261003-design-museum-of-chicago-a-hidden-gem-in",
+   "category": "civic_org",
+   "source_id": "cbs",
+   "source_name": "CBS News Chicago",
+   "source_type": "web_feed",
+   "title": "Design Museum of Chicago, a hidden gem in the Loop, showcases city's innovation",
+   "summary": "A special museum tucked away in downtown Chicago is dedicated to design and how it shapes our lives.",
+   "url": "https://www.cbsnews.com/chicago/news/eye-on-chicago-design-museum-of-chicago/",
+   "published_at": "2026-10-03T03:29:07.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "cbs-20261003-a-look-inside-the-design-museum-of-chica",
+   "category": "civic_org",
+   "source_id": "cbs",
+   "source_name": "CBS News Chicago",
+   "source_type": "web_feed",
+   "title": "A look inside the Design Museum of Chicago, a hidden gem in the Loop",
+   "summary": "A special museum tucked away in downtown Chicago is dedicated to design and how it shapes our lives.",
+   "url": "https://www.cbsnews.com/chicago/video/a-look-inside-the-design-museum-of-chicago-a-hidden-gem-in-the-loop/",
+   "published_at": "2026-10-03T03:20:00.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "politico-20261002-gov-pritzker-meets-nfl-officials-to-disc",
    "category": "civic_org",
@@ -2339,54 +2375,6 @@
    "summary": "The fest is being held on South Dearborn Street between Ida B. Wells Drive and Polk Street. This weekend features hundreds of presenters, including authors, poets, booksellers and storytellers.",
    "url": "https://www.cbsnews.com/chicago/video/41st-printers-row-lit-fest-celebrates-literature-ideas-and-civic-dialogue/",
    "published_at": "2026-09-12T22:22:00.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "abc7-20260912-woman-dead-after-being-pulled-from-lake-",
-   "category": "civic_org",
-   "source_id": "abc7",
-   "source_name": "ABC7 Chicago",
-   "source_type": "web_feed",
-   "title": "Woman dead after being pulled from Lake Michigan near Monroe Harbor, police say",
-   "summary": "A woman is dead after being pulled from Lake Michigan near downtown Chicago on Friday night, officials said.",
-   "url": "https://abc7chicago.com/post/body-found-lake-michigan-woman-dead-being-pulled-water-monroe-harbor-downtown-chicago-police-say/19822964/",
-   "published_at": "2026-09-12T13:00:28.989Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "abc7-20260912-body-recovered-from-lake-michigan-at-mon",
-   "category": "civic_org",
-   "source_id": "abc7",
-   "source_name": "ABC7 Chicago",
-   "source_type": "web_feed",
-   "title": "Body recovered from Lake Michigan at Monroe Harbor, Chicago fire officials say",
-   "summary": "An investigation is underway after a body was found in Lake Michigan downtown Chicago on Friday.",
-   "url": "https://abc7chicago.com/post/chicago-water-rescue-body-recovered-lake-michigan-monroe-harbor-downtown-fire-officials-say/19821965/",
-   "published_at": "2026-09-12T13:00:28.989Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "abc7-20260912-dozens-of-vehicles-broken-into-at-uic-pa",
-   "category": "civic_org",
-   "source_id": "abc7",
-   "source_name": "ABC7 Chicago",
-   "source_type": "web_feed",
-   "title": "Dozens of vehicles broken into at UIC parking garage, video shows",
-   "summary": "Police are investigating after several vehicles were broken into at the University of Illinois Chicago parking garage on the city's Near West Side.",
-   "url": "https://abc7chicago.com/post/chicago-crime-dozens-vehicles-broken-university-illinois-parking-garage-1100-west-harrison-street/19821621/",
-   "published_at": "2026-09-12T13:00:28.989Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260911-state-street-bridge-closed-for-midday-wo",
-   "category": "business",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "State Street Bridge Closed For Midday Work Next Week To Prep For Fall Boat Run",
-   "summary": "The midday closure will run four days from 9 a.m.-2:30 p.m. Monday through Thursday.",
-   "url": "https://blockclubchicago.org/2026/09/11/state-street-bridge-closed-for-midday-work-next-week-to-prep-for-fall-boat-run/",
-   "published_at": "2026-09-11T21:26:00.000Z",
    "flagged_for_review": false
   }
  ]
