@@ -1,6 +1,18 @@
 {
- "generated_at": "2026-10-03T13:01:10.676Z",
+ "generated_at": "2026-10-03T17:44:42.323Z",
  "items": [
+  {
+   "id": "politico-20261001-chicago-city-council-ethics-committee-to",
+   "category": "civic_org",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Chicago City Council Ethics Committee to question World Business Chicago over mayor‑investment ads",
+   "summary": "The City Council Committee on Ethics, chaired by Ald. Matt Martin, is scheduled to meet on October 1 to interrogate World Business Chicago about recent TV and streaming ads that promoted Mayor Brandon Johnson’s record on neighborhood investment. Council members have sent a letter demanding answers, and the outcome could affect the organization’s city funding. The meeting is part of heightened scrutiny ahead of the mayoral election.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-10-01T12:02:22.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "politico-20261001-city-council-ethics-committee-questions-",
    "category": "elected_official",
