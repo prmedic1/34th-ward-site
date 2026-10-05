@@ -1,4 +1,10 @@
 /*
+ * RETIRED 2026-10-05 - replaced by scripts/refresh-tm-venues.mjs (Ticketmaster
+ * Discovery API), which covers ALL the flagged venues (Chicago Theatre, Thalia
+ * Hall, Salt Shed, Metro, City Winery, Lincoln Hall, Huntington, Garcia's) in one
+ * keyed source. This per-venue scraper only ever handled Huntington + Garcia's and
+ * is no longer in the daily workflow. Kept for reference.
+ *
  * Refresh concert-venue entries on the events calendar from each venue's own
  * site. Only venues with reliable, structured data are automated here; each
  * updates ONLY its own cat:"concert" entries (matched by venue name) and every

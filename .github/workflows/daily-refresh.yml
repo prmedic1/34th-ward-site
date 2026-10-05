@@ -51,8 +51,10 @@ jobs:
       # page (culture.html), because ESPN's firewall 403s datacenter/server requests
       # like this runner. scripts/refresh-sports.mjs is retired (kept for reference).
 
-      - name: Refresh concert-venue schedules (structured-data venues)
-        run: node scripts/refresh-venues.mjs
+      - name: Refresh venue concerts (Ticketmaster Discovery API)
+        env:
+          TICKETMASTER_KEY: ${{ secrets.TICKETMASTER_KEY }}
+        run: node scripts/refresh-tm-venues.mjs
 
       - name: Install newsletter dependencies
         run: npm install --no-save imapflow mailparser
