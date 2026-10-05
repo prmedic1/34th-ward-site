@@ -1,4 +1,4 @@
-const DATA_V = '20260916a';
+const DATA_V = '20261005a';
 // Daily-refreshed data must revalidate on every load, so the morning update
 // shows right away instead of a returning browser serving yesterday's copy.
 const NOCACHE = { cache: 'no-cache' };
@@ -199,10 +199,23 @@ Promise.all([
         && !(excludeRe && excludeRe.test((it.title || '') + ' ' + (it.summary || ''))))
         .sort(byDate)[0];
     };
+    // Conway is the ward's OWN alderman newsletter, so it usually has several
+    // relevant items at once. Show only ONE on the front page (conway is in ONCE),
+    // and rotate WHICH one by the day so multiple stories get a turn across the
+    // week instead of all landing together.
+    const rotatedOf = (sid) => {
+      const cut = Date.now() - 10 * 24 * 3600 * 1000;
+      const list = items.filter((it) => it.source_id === sid && publishable(it)
+        && new Date(it.published_at).getTime() >= cut
+        && !(excludeRe && excludeRe.test((it.title || '') + ' ' + (it.summary || ''))))
+        .sort(byDate);
+      if (!list.length) return undefined;
+      return list[Math.floor(Date.now() / 86400000) % list.length];
+    };
 
     // Dedupe near-identical stories (titles sharing 3+ significant words).
     const sigOf = (it) => (it.title || '').toLowerCase().replace(/[^a-z0-9 ]/g, ' ').split(/\s+/).filter((w) => w.length > 3);
-    const ONCE = new Set(['politico', 'axios']);
+    const ONCE = new Set(['politico', 'axios', 'conway']);
     const picks = [];
     const used = new Set();
     const sigs = [];
@@ -229,6 +242,9 @@ Promise.all([
       .sort((a, b) => (localScore(b) - localScore(a)) || byDate(a, b))
       .find((it) => !used.has(it.id) && !ONCE.has(it.source_id));
     add(lead, true);
+    // One Conway story (the ward's own newsletter), rotated by day so several
+    // relevant items get featured across the week rather than all at once.
+    add(rotatedOf('conway'));
     // Backfill the rest of the six, freshest first.
     for (const it of fresh.slice().sort(byDate)) {
       if (picks.length >= FRONT_COUNT) break;
