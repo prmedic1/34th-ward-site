@@ -1,10 +1,10 @@
 {
  "_note": "Upcoming community meetings and neighborhood-group events shown in the carve-out box on the homepage front page. Civic meetings come from the 34th Ward newsletter (Conway's Corner); the Indivisible Greater West Loop events come from that chapter's Mobilize page (mobilize.us/indivisiblegwlchi). Optional fields: 'org' (a small source label) and 'url' (makes the title a link). Exact venues for the Indivisible events are gated behind RSVP, so 'location' is only filled where publicly verified and the link carries the rest. The homepage shows only future-dated items, soonest first, and drops them once they pass. Refresh Indivisible events from their Mobilize page.",
- "updated_at": "2026-09-30",
+ "updated_at": "2026-10-05",
  "meetings": [
   {
    "title": "Drinks for Democracy: Write Postcards & Build Community",
-   "date": "2026-10-01",
+   "date": "2026-10-06",
    "time": "5:00 PM",
    "org": "Indivisible Greater West Loop",
    "location": "Green Street Local, West Loop",
@@ -12,28 +12,27 @@
    "url": "https://www.mobilize.us/indivisiblegwlchi/event/1007078/"
   },
   {
-   "title": "Ward Park Cleanup",
-   "date": "2026-10-03",
-   "time": "9:00 AM",
+   "title": "Printers Row Park Cleanup",
+   "date": "2026-10-06",
+   "time": "5:00 PM",
    "org": "Chicago Parks Foundation",
-   "location": "Ward Park",
-   "desc": "A neighborhood trash pick-up with the River North Residents Association, part of the Chicago Parks Foundation's Pitch In for the Parks program. Supplies provided; register to join.",
-   "url": "https://givepul.se/qki04x",
+   "location": "Printers Row Park",
+   "desc": "A neighborhood trash pick-up with the Printers Row Park Clean Up Crew, part of the Chicago Parks Foundation's Pitch In for the Parks program. Supplies provided; register to join.",
+   "url": "https://givepul.se/979pid",
    "src": "cpf"
   },
   {
-   "title": "Eckhart Park Cleanup",
-   "date": "2026-10-04",
-   "time": "10:00 AM",
-   "org": "Chicago Parks Foundation",
-   "location": "Eckhart Park",
-   "desc": "A neighborhood mulching / trash pick-up with the Eckhart Park Advisory Council, part of the Chicago Parks Foundation's Pitch In for the Parks program. Supplies provided; register to join.",
-   "url": "https://www.givepulse.com/event/933708-pitch-in-at-eckhart-park-w-eckhart-park-advisory-council",
-   "src": "cpf"
+   "title": "Poster-Making Party: Get Out The Vote",
+   "date": "2026-10-08",
+   "time": "6:00 PM",
+   "org": "Indivisible Greater West Loop",
+   "location": "Midwest Coast Brewing Company",
+   "desc": "A casual night making get-out-the-vote posters with neighbors ahead of the November 3rd election.",
+   "url": "https://www.mobilize.us/indivisiblegwlchi/event/1050652/"
   },
   {
    "title": "Don't Boo, Vote! A Family-Friendly Ballot Prep Party",
-   "date": "2026-10-08",
+   "date": "2026-10-15",
    "time": "6:00 PM",
    "org": "Indivisible Greater West Loop",
    "location": "Whitney M. Young Magnet High School, Near West Side",
