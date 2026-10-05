@@ -1,6 +1,42 @@
 {
- "generated_at": "2026-10-04T17:57:38.081Z",
+ "generated_at": "2026-10-05T13:00:46.718Z",
  "items": [
+  {
+   "id": "politico-20261005-school-board-president-candidate-hilario",
+   "category": "elected_official",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "School Board president candidate Hilario Dominguez faces reopened investigation after rally with Mayor Brandon Johnson",
+   "summary": "A Chicago School Board president candidate, Hilario Dominguez, appeared at a rally with Mayor Brandon Johnson in Pilsen on Oct. 3, one day after the Tribune reported that the Chicago Public Schools Office of Inspector General reopened an investigation into allegations from a 2017 summer youth program. The allegations involve inappropriate language and behavior toward a participant who was then 17, and the complainant, now 26, said she had not been interviewed. Dominguez left the event early and posted on social media that he believes in accountability and that previous investigations found the claims unfounded.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-10-05T12:02:08.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "politico-20261005-former-mayor-rahm-emanuel-discusses-demo",
+   "category": "elected_official",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Former Mayor Rahm Emanuel discusses Democratic brand problem and potential 2028 presidential run on Meet the Press",
+   "summary": "Former Chicago mayor Rahm Emanuel was interviewed on Meet the Press on Oct. 4, where he warned that Democrats have a brand problem and need to focus on solutions such as affordability and ethics. He dismissed efforts to impeach former President Trump as a food fight, criticized democratic socialists for defunding the police and open borders, and expressed support for Michigan Senate candidate Abdul El‑Sayed while hinting at a possible 2028 presidential bid.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-10-05T12:02:08.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "axios-20261005-how-to-vote-in-the-midterm",
+   "category": "newsletter",
+   "source_id": "axios",
+   "source_name": "Axios Chicago",
+   "source_type": "email_newsletter",
+   "title": "How to vote in the midterm",
+   "summary": "Stock: Getty Images Chicagoans can officially start casting ballots in the 2026 midterm election. You don't have to wait until Election Day on Nov. 3, but deadlines for registering, voting by mail and finding an early voting site are approaching.",
+   "url": "https://www.axios.com/local/chicago",
+   "published_at": "2026-10-05T11:28:40.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "politico-20261001-chicago-city-council-ethics-committee-to",
    "category": "civic_org",
@@ -2246,18 +2282,6 @@
    "flagged_for_review": false
   },
   {
-   "id": "politico-20260914-greater-chicago-food-depository-report-f",
-   "category": "civic_org",
-   "source_id": "politico",
-   "source_name": "POLITICO Illinois Playbook",
-   "source_type": "email_newsletter",
-   "title": "Greater Chicago Food Depository report finds 36% of city households food insecure",
-   "summary": "A new report from the Greater Chicago Food Depository, based on NORC data, estimates that about 417,000 Chicago households, or 36% of the city, are food insecure. The study links the rise to higher costs for food, housing, health care and transportation and to cuts in federal safety‑net programs. The findings describe the situation as troubling and urgent for city leaders.",
-   "url": "https://www.politico.com/newsletters/illinois-playbook",
-   "published_at": "2026-09-14T12:01:46.000Z",
-   "flagged_for_review": false
-  },
-  {
    "id": "blockclub-20260914-50-plus-theater-productions-to-check-out",
    "category": "civic_org",
    "source_id": "blockclub",
@@ -2267,126 +2291,6 @@
    "summary": "Riveting dramas, hit musicals, campy comedies and more are in the lineup as Chicago kicks off its stacked fall theater season.",
    "url": "https://blockclubchicago.org/2026/09/14/50-plus-theater-productions-to-check-out-in-chicago-this-fall/",
    "published_at": "2026-09-14T13:56:56.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "politico-20260914-mayor-brandon-johnson-launches-reelectio",
-   "category": "elected_official",
-   "source_id": "politico",
-   "source_name": "POLITICO Illinois Playbook",
-   "source_type": "email_newsletter",
-   "title": "Mayor Brandon Johnson launches reelection campaign at DuSable Black History Museum",
-   "summary": "Mayor Brandon Johnson kicked off his reelection bid on Sunday at the DuSable Black History Museum, drawing a crowd of nearly 2,000. He criticized opponent Alexi Giannoulias for donations from Michael Sacks and framed the race as a choice between progressives and the city’s old guard. Johnson entered the race with less than $1 million in cash while Giannoulias has about $22 million.",
-   "url": "https://www.politico.com/newsletters/illinois-playbook",
-   "published_at": "2026-09-14T12:01:46.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "politico-20260914-gov-jb-pritzker-calls-for-immediate-ai-r",
-   "category": "elected_official",
-   "source_id": "politico",
-   "source_name": "POLITICO Illinois Playbook",
-   "source_type": "email_newsletter",
-   "title": "Gov. JB Pritzker calls for immediate AI regulation",
-   "summary": "Illinois Governor JB Pritzker posted on X that it is time to sound a louder alarm on artificial intelligence and urged immediate action from industry and Washington. His comments followed a former Anthropic researcher’s warning that AI labs are racing without adequate safeguards after OpenAI and Anthropic disclosed models accessing external systems. Pritzker’s stance places him among leaders pushing for stronger federal oversight of AI.",
-   "url": "https://www.politico.com/newsletters/illinois-playbook",
-   "published_at": "2026-09-14T12:01:46.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "politico-20260914-greater-chicago-food-depository-reports-",
-   "category": "civic_org",
-   "source_id": "politico",
-   "source_name": "POLITICO Illinois Playbook",
-   "source_type": "email_newsletter",
-   "title": "Greater Chicago Food Depository reports 36% of city households food insecure",
-   "summary": "A new report from the Greater Chicago Food Depository, based on NORC data, estimates that about 417,000 Chicago households, or 36% of the city, face food insecurity. The study links the rise to higher costs for food, housing, health care and transportation and cuts to federal safety‑net programs. Executive Director Kate Maehr called the findings troubling and urgent.",
-   "url": "https://www.politico.com/newsletters/illinois-playbook",
-   "published_at": "2026-09-14T12:01:46.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "axios-20260914-johnson-launches-reelection-bid",
-   "category": "newsletter",
-   "source_id": "axios",
-   "source_name": "Axios Chicago",
-   "source_type": "email_newsletter",
-   "title": "Johnson launches reelection bid",
-   "summary": "Mayor Brandon Johnson will seek a second term leading Chicago, he announced yesterday at the DuSable Black History Museum in Washington Park. Johnson's entry officially kicks the crowded 2027 race into gear as he asks Chicagoans for four more years. Johnson t-shirts at the merch table Sunday.",
-   "url": "https://www.axios.com/local/chicago",
-   "published_at": "2026-09-14T11:28:28.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260913-el-grito-s-grant-park-return-sees-muted-",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "El Grito's Grant Park Return Sees Muted Crowds Saturday As ICE Fears Remain",
-   "summary": "Attendees of the Mexican Independence Day festival chalked up the smaller crowds due to immigration enforcement concerns. Car caravans in celebration of the holiday were also sparse Downtown.",
-   "url": "https://blockclubchicago.org/2026/09/13/el-gritos-grant-park-return-sees-muted-crowds-saturday-as-ice-fears-remain/",
-   "published_at": "2026-09-13T18:57:33.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "cbs-20260913-man-arrested-after-taking-usps-truck-on-",
-   "category": "civic_org",
-   "source_id": "cbs",
-   "source_name": "CBS News Chicago",
-   "source_type": "web_feed",
-   "title": "Man arrested after taking USPS truck on joyride in South Loop",
-   "summary": "Chicago police say a USPS worker got out of the truck to deliver mail when the suspect hopped in and drove away.",
-   "url": "https://www.cbsnews.com/chicago/news/man-arrested-after-taking-usps-truck-on-joyride-in-south-loop/",
-   "published_at": "2026-09-13T14:11:26.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "cbs-20260913-man-arrested-after-stealing-usps-truck-g",
-   "category": "civic_org",
-   "source_id": "cbs",
-   "source_name": "CBS News Chicago",
-   "source_type": "web_feed",
-   "title": "Man arrested after stealing USPS truck, going on joyride in South Loop",
-   "summary": "Chicago police say the man took the truck while the postal worker was delivering mail Saturday night.",
-   "url": "https://www.cbsnews.com/chicago/video/man-arrested-after-stealing-usps-truck-going-on-joyride-in-south-loop/",
-   "published_at": "2026-09-13T13:30:00.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260913-chief-keef-s-1st-headlining-show-in-chic",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Chief Keef's 1st Headlining Show In Chicago In 14 Years Postponed Due To Racist Pilot,' Rapper Says",
-   "summary": "The Chicago-born rapper blamed the postponement of his Saturday night concert on travel delays. The show has been rescheduled to Sept. 23.",
-   "url": "https://blockclubchicago.org/2026/09/13/chief-keefs-1st-headlining-show-in-chicago-in-14-years-postponed-due-to-racist-pilot/",
-   "published_at": "2026-09-13T15:21:22.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "abc7-20260913-man-hurt-in-shootout-after-argument-insi",
-   "category": "business",
-   "source_id": "abc7",
-   "source_name": "ABC7 Chicago",
-   "source_type": "web_feed",
-   "title": "Man hurt in shootout after argument inside West Loop business, Chicago police say",
-   "summary": "A man was hurt in a shootout after an argument inside a West Loop business on Sunday, Chicago police said.",
-   "url": "https://abc7chicago.com/post/chicago-shooting-today-man-hurt-shootout-argument-randolph-inside-west-loop-business-police-say/19826309/",
-   "published_at": "2026-09-13T13:00:21.833Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "cbs-20260912-41st-printers-row-lit-fest-celebrates-li",
-   "category": "civic_org",
-   "source_id": "cbs",
-   "source_name": "CBS News Chicago",
-   "source_type": "web_feed",
-   "title": "41st Printers Row Lit Fest celebrates literature, ideas and civic dialogue",
-   "summary": "The fest is being held on South Dearborn Street between Ida B. Wells Drive and Polk Street. This weekend features hundreds of presenters, including authors, poets, booksellers and storytellers.",
-   "url": "https://www.cbsnews.com/chicago/video/41st-printers-row-lit-fest-celebrates-literature-ideas-and-civic-dialogue/",
-   "published_at": "2026-09-12T22:22:00.000Z",
    "flagged_for_review": false
   }
  ]
