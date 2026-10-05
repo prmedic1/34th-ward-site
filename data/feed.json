@@ -1,6 +1,42 @@
 {
- "generated_at": "2026-10-05T13:00:46.718Z",
+ "generated_at": "2026-10-05T21:20:39.525Z",
  "items": [
+  {
+   "id": "blockclub-20261005-chicago-fashion-week-kicks-off-thursday-",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Chicago Fashion Week Kicks Off Thursday With Runway Shows, Workshops, Parties And More",
+   "summary": "From Hyde Park to Highland Park, there are more than 80 fashion events across the Chicago area. We've highlighted 15 of them here.",
+   "url": "https://blockclubchicago.org/2026/10/05/chicago-fashion-week-kicks-off-thursday-with-runway-shows-workshops-parties-and-more/",
+   "published_at": "2026-10-05T13:41:39.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20261005-tini-bar-with-room-for-just-30-people-go",
+   "category": "business",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Tini Bar, With Room For Just 30 People, Goes Big On Retro Cocktails",
+   "summary": "The 630-square-foot bar opening in November below LIA Tavern in River North takes inspiration from midcentury modern design and house parties of the 1950s through the ‘70s.",
+   "url": "https://blockclubchicago.org/2026/10/05/tini-bar-with-room-for-just-30-people-goes-big-on-retro-cocktails/",
+   "published_at": "2026-10-05T13:13:18.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20261005-cta-unveils-1950s-neon-style-sign-at-rev",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "CTA Unveils 1950s Neon-Style Sign At Revamped Blue Line Stop",
+   "summary": "The CTA recreated the sign used for the original Congress Line, which opened in 1958, at the newly reopened Loomis Street entrance to the Racine stop.",
+   "url": "https://blockclubchicago.org/2026/10/05/cta-unveils-1950s-neon-style-sign-at-revamped-blue-line-stop/",
+   "published_at": "2026-10-05T05:01:00.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "politico-20261005-school-board-president-candidate-hilario",
    "category": "elected_official",
@@ -2279,18 +2315,6 @@
    "summary": "After a shooting near the West Loop Athletic Club and other issues at nearby Habibti, the alderman wants more leeway to to crack down on businesses that violate their operating plans.",
    "url": "https://blockclubchicago.org/2026/09/15/ald-burnett-pushes-parking-ban-tougher-rules-for-problem-bars-after-latest-west-loop-shooting/",
    "published_at": "2026-09-15T12:44:00.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260914-50-plus-theater-productions-to-check-out",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "50-Plus Theater Productions To Check Out In Chicago This Fall",
-   "summary": "Riveting dramas, hit musicals, campy comedies and more are in the lineup as Chicago kicks off its stacked fall theater season.",
-   "url": "https://blockclubchicago.org/2026/09/14/50-plus-theater-productions-to-check-out-in-chicago-this-fall/",
-   "published_at": "2026-09-14T13:56:56.000Z",
    "flagged_for_review": false
   }
  ]
