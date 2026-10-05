@@ -917,6 +917,7 @@ body.photo-banner .hero {
 .wk-ev--sky { background: #4a90d0; border-color: #4a90d0; color: #ffd200; }
 .wk-ev--hawks { background: #cf0a2c; border-color: #cf0a2c; color: #fff; }
 .wk-ev-t { display: block; font-size: 0.68rem; font-weight: 700; color: inherit; opacity: 0.72; }
+.wk-ev-away { display: inline-block; margin-left: 5px; font-size: 0.54rem; font-weight: 800; letter-spacing: 0.6px; padding: 1px 5px; border-radius: 999px; background: rgba(255, 255, 255, 0.28); vertical-align: middle; }
 .wk-ev-n { display: block; font-size: 0.8rem; line-height: 1.25; color: inherit; }
 .wk-ev-v { display: block; font-size: 0.68rem; color: inherit; opacity: 0.72; }
 .wk-tag { display: inline-block; margin-top: 3px; font-size: 0.58rem; font-weight: 700; letter-spacing: 0.4px; text-transform: uppercase; color: var(--red); background: #fde7e9; padding: 1px 5px; border-radius: 3px; }

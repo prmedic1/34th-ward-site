@@ -6,7 +6,7 @@
 <title>Museums, Theaters &amp; Festivals - West Loop Chicago</title>
 <meta name="description" content="Arts and culture in Chicago's 34th Ward: museums, theaters, galleries, and live music across the West Loop, Greektown, and the Loop.">
 <link rel="canonical" href="https://34thward.com/culture.html">
-<link rel="stylesheet" href="css/style.css?v=20260930a">
+<link rel="stylesheet" href="css/style.css?v=20261005a">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="34thward.com">
 <meta property="og:title" content="The Official 34th Ward Neighborhood Page">
@@ -230,7 +230,9 @@
             // Show away games ONLY during the playoffs (seasonType id 3 = Postseason);
             // regular-season and preseason away games are out of town, so skip them.
             const postseason = !!(e.seasonType && String(e.seasonType.id) === '3');
-            if (!homeGame && !postseason) continue;
+            // Away games show only during playoff runs, EXCEPT the Bears: show every
+            // Bears game (home and away), since the NFL plays just once a week.
+            if (!homeGame && !postseason && T.cat !== 'bears') continue;
             const oppC = (c.competitors || []).find((z) => z !== me);
             const opp = (oppC && oppC.team && (oppC.team.displayName || oppC.team.name)) || 'TBD';
             const v = c.venue || {};
@@ -240,7 +242,7 @@
               title: T.short + (homeGame ? ' vs. ' : ' at ') + opp,
               where: homeGame ? T.venue : (v.fullName || opp),
               address: homeGame ? T.address : [v.fullName, vCity].filter(Boolean).join(' - '),
-              time: e.timeValid ? centralTime(e.date) : '', note: '', tv: tvChannel(c),
+              time: e.timeValid ? centralTime(e.date) : '', note: '', tv: tvChannel(c), away: !homeGame,
               url: gameUrl(e, T.fallback), start: date, end: date, local: false
             });
           }
@@ -276,9 +278,10 @@
       const star = e.local ? '<span class="wk-star" title="West Loop event" aria-label="West Loop event">&#9733;</span>' : '';
       const logo = SPORTS.indexOf(e.cat) >= 0 ? '<img class="wk-logo" src="images/teams/' + e.cat + '.png" alt="" aria-hidden="true" onerror="this.remove()">' : '';
       const watch = e.tv ? ' &middot; ' + esc(e.tv) : '';
+      const awayTag = e.away ? '<span class="wk-ev-away">AWAY</span>' : '';
       return '<button class="wk-ev wk-ev--' + e.cat + '" data-id="' + e.id + '">' + star + logo +
         '<span class="wk-ev-t">' + esc(lab) + watch + '</span>' +
-        '<span class="wk-ev-n">' + esc(e.title) + '</span>' +
+        '<span class="wk-ev-n">' + esc(e.title) + awayTag + '</span>' +
         '<span class="wk-ev-v">' + esc(e.where) + '</span></button>';
     }
     const timedMins = EV.map((e) => tmin(e.time)).filter((m) => m >= 0);
