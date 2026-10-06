@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-06T13:00:26.110Z",
+  "updated_at": "2026-10-06T19:17:41.394Z",
   "election_date": "February 23, 2027",
   "kalshi_event": "KXCHICAGOMAYOR-27",
   "kalshi_url": "https://kalshi.com/markets/kxchicagomayor",
@@ -69,7 +69,7 @@
       "order": 5,
       "image": "images/candidates/pappas.jpg",
       "pct": 0.7,
-      "kalshi_raw": 0.2,
+      "kalshi_raw": 0.1,
       "pe_raw": null,
       "manifold_raw": 2.6,
       "campaign_url": "https://www.mariapappas.net/",
