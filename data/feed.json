@@ -1,6 +1,42 @@
 {
- "generated_at": "2026-10-05T21:20:39.525Z",
+ "generated_at": "2026-10-06T13:00:43.725Z",
  "items": [
+  {
+   "id": "politico-20261006-mayor-brandon-johnson-marks-completion-o",
+   "category": "civic_org",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Mayor Brandon Johnson marks completion of Missing Middle housing initiative in South Loop",
+   "summary": "Mayor Brandon Johnson spoke at 1443 S. Trumbull Ave at 10 a.m. on Oct. 6, 2026 to announce the completion of the Missing Middle housing initiative, a city effort to increase affordable housing options in the South Loop area of the 34th Ward.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-10-06T12:01:39.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "politico-20261006-federal-judge-blocks-illinois-from-enfor",
+   "category": "business",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Federal judge blocks Illinois from enforcing parts of its sports wagering law against Kalshi",
+   "summary": "U.S. District Judge Martha Pacold issued a 28‑page opinion on Friday ruling that Illinois likely cannot enforce key provisions of its 2019 sports wagering law against prediction market company Kalshi, Coinbase and related firms, citing federal Commodity Exchange Act jurisdiction; Attorney General Kwame Raoul’s office declined to comment.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-10-06T12:01:39.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "axios-20261006-pritzker-vs-bailey",
+   "category": "newsletter",
+   "source_id": "axios",
+   "source_name": "Axios Chicago",
+   "source_type": "email_newsletter",
+   "title": "Pritzker vs. Bailey",
+   "summary": "The race for the governor's mansion is in its final month, and Democrats and Republicans are ramping up their attacks. The two are facing off for the second time as Gov. JB Pritzker seeks a third term that would further cement Democratic control in Springfield, while Republican Darren Bailey is promising a sharp change in direction.",
+   "url": "https://www.axios.com/local/chicago",
+   "published_at": "2026-10-06T11:28:33.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "blockclub-20261005-chicago-fashion-week-kicks-off-thursday-",
    "category": "civic_org",
@@ -2255,66 +2291,6 @@
    "summary": "\"The Princess Bride: The Musical\" will open with a five-week run in Chicago next summer at the James M. Nederlander Theatre.",
    "url": "https://blockclubchicago.org/2026/09/15/princess-bride-broadway-musical-premiering-in-chicago-next-year/",
    "published_at": "2026-09-15T16:17:22.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "politico-20260915-mayor-brandon-johnson-s-re-election-bid-",
-   "category": "elected_official",
-   "source_id": "politico",
-   "source_name": "POLITICO Illinois Playbook",
-   "source_type": "email_newsletter",
-   "title": "Mayor Brandon Johnson’s re‑election bid faces real‑estate showdown over landlord disputes, data‑center moratorium and CHA conflicts",
-   "summary": "A new report in The Real Deal says Johnson’s campaign is being shadowed by a clash with landlords, a proposed moratorium on new data centers, and ongoing disputes with the Chicago Housing Authority. The issues could shape the mayoral race as voters weigh housing affordability and development policy. The story highlights how citywide real‑estate battles may affect neighborhoods across Chicago, including the 34th Ward.",
-   "url": "https://www.politico.com/newsletters/illinois-playbook",
-   "published_at": "2026-09-15T12:02:09.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "politico-20260915-city-council-committee-lowers-debt-appro",
-   "category": "elected_official",
-   "source_id": "politico",
-   "source_name": "POLITICO Illinois Playbook",
-   "source_type": "email_newsletter",
-   "title": "City Council committee lowers debt‑approval threshold to three‑fifths after debate",
-   "summary": "A Chicago City Council committee voted to reduce the vote needed to approve future borrowing from a two‑thirds majority to a three‑fifths majority, or 30 votes. Alderman Marty Quinn (13th) initially pushed for a two‑thirds threshold but compromised to gain support. The change could affect how the city finances projects that impact the 34th Ward.",
-   "url": "https://www.politico.com/newsletters/illinois-playbook",
-   "published_at": "2026-09-15T12:02:09.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "politico-20260915-residents-install-benches-at-cta-bus-sto",
-   "category": "civic_org",
-   "source_id": "politico",
-   "source_name": "POLITICO Illinois Playbook",
-   "source_type": "email_newsletter",
-   "title": "Residents install benches at CTA bus stops after city inaction",
-   "summary": "Neighborhood groups in Chicago built their own benches at several CTA bus stops after complaining about a lack of seating. The grassroots effort was reported by Block Club and reflects community‑driven solutions to public‑transit amenities. The installations are located in areas that include the near‑west side, offering immediate relief to riders.",
-   "url": "https://www.politico.com/newsletters/illinois-playbook",
-   "published_at": "2026-09-15T12:02:09.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "axios-20260915-kids-suicide-er-visits-jump-74",
-   "category": "newsletter",
-   "source_id": "axios",
-   "source_name": "Axios Chicago",
-   "source_type": "email_newsletter",
-   "title": "Kids' suicide ER visits jump 74%",
-   "summary": "Many emergency rooms seeing young people in need of mental health services lack the resources to provide that care. About half of suicide-related visits from young people occurred at ERs with fewer annual pediatric visits, where therapists or other mental health care professionals aren't on staff. That's according to a new study by doctors at Northwestern and Ann & Robert H.",
-   "url": "https://www.axios.com/local/chicago",
-   "published_at": "2026-09-15T11:29:40.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260915-ald-burnett-pushes-parking-ban-tougher-r",
-   "category": "elected_official",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Ald. Burnett Pushes Parking Ban, Tougher Rules For Problem Bars After Latest West Loop Shooting",
-   "summary": "After a shooting near the West Loop Athletic Club and other issues at nearby Habibti, the alderman wants more leeway to to crack down on businesses that violate their operating plans.",
-   "url": "https://blockclubchicago.org/2026/09/15/ald-burnett-pushes-parking-ban-tougher-rules-for-problem-bars-after-latest-west-loop-shooting/",
-   "published_at": "2026-09-15T12:44:00.000Z",
    "flagged_for_review": false
   }
  ]
