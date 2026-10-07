@@ -1,6 +1,54 @@
 {
- "generated_at": "2026-10-06T19:17:42.703Z",
+ "generated_at": "2026-10-07T13:00:44.918Z",
  "items": [
+  {
+   "id": "politico-20261007-patty-garc-a-endorsed-by-track-aipac-and",
+   "category": "elected_official",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Patty García endorsed by Track AIPAC and Justice Coalition Action PAC in IL‑04 race as Chuy Garcia retires",
+   "summary": "Democratic nominee Patty García received endorsements from Track AIPAC and the Justice Coalition Action PAC for the Illinois House 4th District seat, which is being vacated by retiring incumbent Rep. Jesús “Chuy” García. The 4th District includes Chicago neighborhoods such as the West Loop, Near West Side, and Fulton Market, making the race directly relevant to 34th Ward residents. The endorsements signal strong support from progressive and pro‑Israel groups ahead of the upcoming primary.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-10-07T12:01:24.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "politico-20261007-chicago-public-schools-watchdog-inquiry-",
+   "category": "civic_org",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Chicago Public Schools watchdog inquiry reopened, stirring controversy in school board president race",
+   "summary": "A reopened Chicago Public Schools watchdog investigation is affecting a candidate for school board president after a woman alleged inappropriate behavior by candidate Hilario Domínguez. The allegation was reported by Block Club reporters Mila Koumpilova and Francia García Hernández and also covered by NBC 5’s Mary Ann Ahern. The controversy adds tension to the citywide school board president contest, which will impact policies affecting all Chicago public schools.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-10-07T12:01:24.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "politico-20261007-illinois-expands-automatic-sealing-of-cr",
+   "category": "civic_org",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Illinois expands automatic sealing of criminal records under the Clean Slate Act",
+   "summary": "The Clean Slate Act, amended this year, now moves Illinois toward automatically sealing eligible criminal records, with Cook County officials offering assistance to residents on Saturday. The change reduces waiting periods and eligibility restrictions, aiming to improve access to housing and employment for affected individuals. The statewide reform directly benefits Chicago residents, including those in the 34th Ward, by simplifying the record‑clearing process.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-10-07T12:01:24.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "axios-20261007-trump-wrong-about-chicago-crime",
+   "category": "newsletter",
+   "source_id": "axios",
+   "source_name": "Axios Chicago",
+   "source_type": "email_newsletter",
+   "title": "Trump wrong about Chicago crime",
+   "summary": "Anna Moneymaker/Getty Images President Trump is again raising the prospect of federal intervention in Chicago, saying the city is suffering an \"unprecedented\" crime wave that's \"getting worse by the day. \" Trump's renewed focus on Chicago comes as the city is on pace to record even fewer homicides than last year, when killings fell to their lowest level in 60 years. Trump's words paint a bleak picture of violence.",
+   "url": "https://www.axios.com/local/chicago",
+   "published_at": "2026-10-07T11:27:22.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "cbs-20261006-checking-out-the-chicago-brand-museum",
    "category": "civic_org",
@@ -2207,54 +2255,6 @@
    "summary": "You can also check out Old Town Oktoberfest, a Hispanic Heritage Month block party and the Reeling Film Festival.",
    "url": "https://blockclubchicago.org/2026/09/17/27-things-to-do-in-chicago-this-weekend-story-fest-chicago-live-riot-fest-and-more/",
    "published_at": "2026-09-17T12:33:00.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "politico-20260916-mayor-brandon-johnson-speaks-at-boulevar",
-   "category": "civic_org",
-   "source_id": "politico",
-   "source_name": "POLITICO Illinois Playbook",
-   "source_type": "email_newsletter",
-   "title": "Mayor Brandon Johnson speaks at Boulevard Apartments Preservation ribbon‑cutting on North Sacramento Blvd",
-   "summary": "On Sept. 15, 2026 Mayor Brandon Johnson gave remarks at 10 a.m. at 929 North Sacramento Blvd for the ribbon‑cutting of the Boulevard Apartments Preservation project. The event marked the preservation of a historic apartment building in the Near West Side, an area that includes parts of the 34th Ward. The mayor highlighted the city's commitment to protecting affordable housing while encouraging neighborhood revitalization.",
-   "url": "https://www.politico.com/newsletters/illinois-playbook",
-   "published_at": "2026-09-16T12:01:43.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "politico-20260916-mayor-brandon-johnson-touts-paid-time-of",
-   "category": "elected_official",
-   "source_id": "politico",
-   "source_name": "POLITICO Illinois Playbook",
-   "source_type": "email_newsletter",
-   "title": "Mayor Brandon Johnson touts paid time off and record TIF funding for education",
-   "summary": "At a City Hall news conference Mayor Brandon Johnson listed his administration's accomplishments, including the introduction of paid time off for city workers and allocating more tax increment financing money toward education than any previous administration. He framed the measures as part of a broader effort to build affordable homes, treat trauma and improve environmental resilience across Chicago. The mayor used the platform to reinforce his record ahead of his re‑election campaign.",
-   "url": "https://www.politico.com/newsletters/illinois-playbook",
-   "published_at": "2026-09-16T12:01:43.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "axios-20260916-climate-change-risks-remain",
-   "category": "newsletter",
-   "source_id": "axios",
-   "source_name": "Axios Chicago",
-   "source_type": "email_newsletter",
-   "title": "Climate change risks remain",
-   "summary": "1 for climate resilience in an AlphaGeo analysis of 72 major cities, a distinction Mayor Brandon Johnson is touting as he runs for reelection. More than 50 years after officials adopted the Deep Tunnel plan, Chicago continues to invest in trees and stormwater infrastructure as it prepares for more extreme weather. Now planners are considering the city's next generation of climate defenses.",
-   "url": "https://www.axios.com/local/chicago",
-   "published_at": "2026-09-16T11:29:13.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260916-google-s-new-plans-for-thompson-center-i",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Google's New Plans For Thompson Center Include New Sculpture, 17-Story Atrium Revamp",
-   "summary": "The Loop landmark’s overhaul will include a plaza, artwork by Sanford Biggers, a cascading staircase, terraced seating and retail space. It's set to open in 2028.",
-   "url": "https://blockclubchicago.org/2026/09/16/googles-new-plans-for-thompson-center-include-new-sculpture-17-story-atrium-revamp/",
-   "published_at": "2026-09-16T12:30:00.000Z",
    "flagged_for_review": false
   }
  ]
