@@ -1,6 +1,30 @@
 {
- "generated_at": "2026-10-07T13:00:44.918Z",
+ "generated_at": "2026-10-07T19:42:29.978Z",
  "items": [
+  {
+   "id": "cbs-20261007-downtown-chicago-s-block-37-mall-sold-fo",
+   "category": "civic_org",
+   "source_id": "cbs",
+   "source_name": "CBS News Chicago",
+   "source_type": "web_feed",
+   "title": "Downtown Chicago's Block 37 mall sold for $30 million",
+   "summary": "Downtown Chicago's Block 37 mall was sold to Edwards Realty Company this week for $30 million, the company announced Wednesday.",
+   "url": "https://www.cbsnews.com/chicago/news/downtown-chicagos-block-37-sold-edwards-realty-company/",
+   "published_at": "2026-10-07T17:10:43.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20261007-5-must-see-art-exhibits-to-check-out-in-",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "5 Must-See Art Exhibits To Check Out In October",
+   "summary": "This month’s selected exhibits draw inspiration from Greek myths, Black veterans and tattoo art.",
+   "url": "https://blockclubchicago.org/2026/10/07/5-must-see-art-exhibits-to-check-out-in-october/",
+   "published_at": "2026-10-07T13:17:00.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "politico-20261007-patty-garc-a-endorsed-by-track-aipac-and",
    "category": "elected_official",
@@ -2183,18 +2207,6 @@
    "summary": "Sleep Out Chicago in November, organized by the West Side nonprofit Covenant House, hopes to raise $1 million for housing, food, mental health support, education and employment services.",
    "url": "https://blockclubchicago.org/2026/09/17/you-can-spend-the-night-at-soldier-field-to-raise-money-for-homeless-youth/",
    "published_at": "2026-09-17T12:55:00.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260916-1901-project-near-united-center-scraps-p",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "1901 Project Near United Center Scraps Planned Rooftop Park, Adds Other Green Space",
-   "summary": "Despite some community members being confused by the move, project and city officials assure that parks and green spaces are still goals of the $7 billion redevelopment.",
-   "url": "https://blockclubchicago.org/2026/09/16/1901-project-near-united-center-scraps-planned-rooftop-park-adds-other-green-space/",
-   "published_at": "2026-09-16T13:33:00.000Z",
    "flagged_for_review": false
   },
   {
