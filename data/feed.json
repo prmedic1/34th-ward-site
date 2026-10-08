@@ -1,6 +1,102 @@
 {
- "generated_at": "2026-10-07T19:42:29.978Z",
+ "generated_at": "2026-10-08T13:00:38.733Z",
  "items": [
+  {
+   "id": "politico-20261008-mayor-johnson-counters-trump-s-crime-cla",
+   "category": "elected_official",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Mayor Johnson counters Trump’s crime claims with data showing 30% drop in homicides",
+   "summary": "President Donald Trump posted on Truth Social that Chicago is experiencing an unprecedented violent crime wave and urged federal help. Mayor Brandon Johnson responded on CNN, citing Block Club data that the city has recorded 288 homicides this year, a 30 percent decline from the same time last year, and called the president out of touch. Johnson also demanded restoration of $800 million in federal funding for community violence intervention programs and the ATF budget.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-10-08T12:01:21.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "politico-20261008-residents-and-city-council-push-back-on-",
+   "category": "civic_org",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Residents and City Council push back on $900 million Amtrak Bridgeport maintenance facility",
+   "summary": "A proposed $900 million Amtrak maintenance facility in Bridgeport is facing opposition from local residents and City Council members, according to CBS 2’s Shardaa Gray. Critics are concerned about the project's impact on the neighborhood, though specific objections were not detailed in the report.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-10-08T12:01:21.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "politico-20261008-mayor-johnson-vows-to-tax-the-rich-in-20",
+   "category": "elected_official",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Mayor Johnson vows to tax the rich in 2027 budget to aid working families",
+   "summary": "Ahead of the budget deadline, Mayor Brandon Johnson said his 2027 budget will level the playing field by taxing corporations that make more money while working people stand in lines for food, as reported by the Sun‑Times. The mayor framed the plan as a response to economic inequality in Chicago.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-10-08T12:01:21.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "axios-20261008-sox-playoffs-pump-up-bridgeport",
+   "category": "newsletter",
+   "source_id": "axios",
+   "source_name": "Axios Chicago",
+   "source_type": "email_newsletter",
+   "title": "Sox playoffs pump up Bridgeport",
+   "summary": "The energy outside Rate Field may not have propelled the Sox to an ALDS-clinching win yesterday, but it didn't stop fans from enjoying the moment. The Sox played their first home game of this year's playoffs, losing to the Guardians 9-3. Game 4 is at 7 tonight.",
+   "url": "https://www.axios.com/local/chicago",
+   "published_at": "2026-10-08T11:28:23.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "cbs-20261008-atm-stolen-in-crash-and-grab-burglary-at",
+   "category": "business",
+   "source_id": "cbs",
+   "source_name": "CBS News Chicago",
+   "source_type": "web_feed",
+   "title": "ATM stolen in crash-and-grab burglary at bar in Chicago's Little Italy",
+   "summary": "Chicago police early Thursday were searching for the burglars behind a smash-and-grab at a bar in the Little Italy community.",
+   "url": "https://www.cbsnews.com/chicago/news/atm-stolen-crash-grab-burglary-bar-chicago-little-italy/",
+   "published_at": "2026-10-08T12:21:10.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "cbs-20261008-crash-and-grab-burglars-hit-bar-in-chica",
+   "category": "business",
+   "source_id": "cbs",
+   "source_name": "CBS News Chicago",
+   "source_type": "web_feed",
+   "title": "Crash-and-grab burglars hit bar in Chicago's Little Italy",
+   "summary": "Chicago police early Thursday were searching for the burglars behind a smash-and-grab at a bar in the Little Italy community.",
+   "url": "https://www.cbsnews.com/chicago/video/crash-and-grab-burglars-hit-bar-in-chicagos-little-italy/",
+   "published_at": "2026-10-08T12:17:00.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20261007-white-sox-minority-owner-s-firm-buys-ano",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "White Sox Minority Owner's Firm Buys Another Property Near Proposed Ballpark In South Loop",
+   "summary": "The $15 million purchase of The Maxwell shopping center by an affiliate of Justin Ishbia’s Shore Capital Partners adds to the footprint of his proposed Railyards development.",
+   "url": "https://blockclubchicago.org/2026/10/07/white-sox-minority-owners-firm-buys-another-property-near-proposed-ballpark-in-south-loop/",
+   "published_at": "2026-10-07T19:55:17.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20261007-block-37-s-new-owner-wants-to-get-rid-of",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Block 37's New Owner Wants To Get Rid Of Old Mall Vibe'",
+   "summary": "Edwards Realty Company plans to revamp the shopping center through retail, entertainment, culture, media, strategic partnerships and year-round programming.",
+   "url": "https://blockclubchicago.org/2026/10/07/block-37s-new-owner-wants-to-get-rid-of-old-mall-vibe/",
+   "published_at": "2026-10-07T22:56:21.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "cbs-20261007-downtown-chicago-s-block-37-mall-sold-fo",
    "category": "civic_org",
@@ -2195,78 +2291,6 @@
    "summary": "As Amtrak looks ahead to relocating its maintenance facility from the South Loop to Bridgeport, residents continue to push back and raise concerns about the future of the neighborhood. Amtrak is hosting a community meeting on the project on Thursday.",
    "url": "https://www.cbsnews.com/chicago/video/community-meeting-set-for-proposed-amtrak-maintenance-facility-in-bridgeport/",
    "published_at": "2026-09-17T23:24:00.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260917-you-can-spend-the-night-at-soldier-field",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "You Can Spend The Night At Soldier Field To Raise Money For Homeless Youth",
-   "summary": "Sleep Out Chicago in November, organized by the West Side nonprofit Covenant House, hopes to raise $1 million for housing, food, mental health support, education and employment services.",
-   "url": "https://blockclubchicago.org/2026/09/17/you-can-spend-the-night-at-soldier-field-to-raise-money-for-homeless-youth/",
-   "published_at": "2026-09-17T12:55:00.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "politico-20260917-chicago-s-first-elected-school-board-pre",
-   "category": "elected_official",
-   "source_id": "politico",
-   "source_name": "POLITICO Illinois Playbook",
-   "source_type": "email_newsletter",
-   "title": "Chicago's first elected school board president race intensifies as labor groups split",
-   "summary": "The Chicago Federation of Labor has endorsed Jessica Biggs for the city’s inaugural elected school board president, while former Chicago Teachers Union deputy political director Hilario Dominguez is backed by the CTU. The split follows a dispute over CTU’s effort to add SEIU Local 73 members to its bargaining unit, prompting SEIU to support Biggs. Advocacy group Common Ground Collective has launched ads accusing Dominguez’s family of owing $35,000 in property taxes on a building they own. Additional endorsements include One Future Illinois backing Biggs, and Victor Henderson also remains in the race.",
-   "url": "https://www.politico.com/newsletters/illinois-playbook",
-   "published_at": "2026-09-17T12:02:48.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "politico-20260917-rep-sean-casten-introduces-thriving-econ",
-   "category": "business",
-   "source_id": "politico",
-   "source_name": "POLITICO Illinois Playbook",
-   "source_type": "email_newsletter",
-   "title": "Rep. Sean Casten introduces 'Thriving Economy Project' outlining Democratic energy and climate agenda",
-   "summary": "Downers Grove Democrat Rep. Sean Casten announced a year-plus 'Thriving Economy Project' aimed at providing a detailed menu of energy, affordability and climate policies for Democrats if they regain control of Congress. The report, developed with input from the private sector, government and academia, proposes incentives for utilities to adopt low-cost energy technologies, expanded financing for home-energy upgrades, and stronger climate risk accounting by financial regulators. Casten highlighted Illinois’ agricultural economy, rising home-insurance costs and growing electric-vehicle adoption as examples of how the proposals would affect residents. He led the financial section of the report, emphasizing ways to lower energy bills for consumers.",
-   "url": "https://www.politico.com/newsletters/illinois-playbook",
-   "published_at": "2026-09-17T12:02:48.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "axios-20260917-new-thompson-center-reveal",
-   "category": "newsletter",
-   "source_id": "axios",
-   "source_name": "Axios Chicago",
-   "source_type": "email_newsletter",
-   "title": "New Thompson Center reveal",
-   "summary": "Rendering: Courtesy of Pixelflakes for Google Chicagoans are getting a fresh look at Google's transformation of the Thompson Center in the Loop. The latest renderings reimagine the Thompson Center as an inviting downtown anchor, an attractive place for workers to meet and linger. Google also revealed its commitment to retaining elements of Helmut Jahn's design.",
-   "url": "https://www.axios.com/local/chicago",
-   "published_at": "2026-09-17T11:27:16.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260916-rate-field-s-owners-blindsided-by-plans-",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Rate Field’s Owners Blindsided By Plans To Build Amtrak Facility Nearby, Don’t Want Sox To Move",
-   "summary": "The Illinois Sports Facilities Authority met Wednesday as White Sox minority owner Justin Ishbia pushes for a South Loop stadium and Amtrak plans a facility near Rate Field.",
-   "url": "https://blockclubchicago.org/2026/09/16/rate-fields-owners-blindsided-by-plans-to-build-amtrak-facility-nearby-dont-want-sox-to-move/",
-   "published_at": "2026-09-16T23:12:50.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260917-27-things-to-do-in-chicago-this-weekend-",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "27 Things To Do In Chicago This Weekend: Story Fest, Chicago Live, Riot Fest And More",
-   "summary": "You can also check out Old Town Oktoberfest, a Hispanic Heritage Month block party and the Reeling Film Festival.",
-   "url": "https://blockclubchicago.org/2026/09/17/27-things-to-do-in-chicago-this-weekend-story-fest-chicago-live-riot-fest-and-more/",
-   "published_at": "2026-09-17T12:33:00.000Z",
    "flagged_for_review": false
   }
  ]
