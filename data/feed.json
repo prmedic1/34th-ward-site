@@ -1,6 +1,42 @@
 {
- "generated_at": "2026-10-08T13:00:38.733Z",
+ "generated_at": "2026-10-08T19:38:54.245Z",
  "items": [
+  {
+   "id": "blockclub-20261008-28-things-to-do-in-chicago-this-weekend-",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "28 Things To Do In Chicago This Weekend: Chicago Fashion Week, Latino Dance Festival, Fall Fests",
+   "summary": "The Chicago Marathon returns this weekend and the Jefferson Park and Luv City fall festivals are also on deck.",
+   "url": "https://blockclubchicago.org/2026/10/08/28-things-to-do-in-chicago-this-weekend-chicago-fashion-week-latino-dance-festival-fall-fests-and-more/",
+   "published_at": "2026-10-08T13:47:04.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20261008-chicago-s-1st-battery-powered-commuter-t",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Chicago's 1st Battery-Powered Commuter Train Coming To Metra's Rock Island Beverly Line",
+   "summary": "The \"FLIRT\" train, set to begin service in 2028, will be on display next week at the LaSalle Street Metra station.",
+   "url": "https://blockclubchicago.org/2026/10/08/chicagos-1st-battery-powered-commuter-train-coming-to-metras-rock-island-beverly-line/",
+   "published_at": "2026-10-08T13:37:00.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20261008-how-to-celebrate-indigenous-peoples-day-",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "How To Celebrate Indigenous Peoples' Day In Chicago",
+   "summary": "We've compiled a list of events and Indigenous organizations you can support in Chicago and beyond.",
+   "url": "https://blockclubchicago.org/2026/10/08/how-to-celebrate-indigenous-peoples-day-in-chicago/",
+   "published_at": "2026-10-08T13:24:10.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "politico-20261008-mayor-johnson-counters-trump-s-crime-cla",
    "category": "elected_official",
