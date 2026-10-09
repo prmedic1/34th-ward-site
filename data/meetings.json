@@ -1,34 +1,27 @@
 {
  "_note": "Upcoming community meetings and neighborhood-group events shown in the carve-out box on the homepage front page. Civic meetings come from the 34th Ward newsletter (Conway's Corner); the Indivisible Greater West Loop events come from that chapter's Mobilize page (mobilize.us/indivisiblegwlchi). Optional fields: 'org' (a small source label) and 'url' (makes the title a link). Exact venues for the Indivisible events are gated behind RSVP, so 'location' is only filled where publicly verified and the link carries the rest. The homepage shows only future-dated items, soonest first, and drops them once they pass. Refresh Indivisible events from their Mobilize page.",
- "updated_at": "2026-10-05",
+ "updated_at": "2026-10-09",
  "meetings": [
   {
-   "title": "Drinks for Democracy: Write Postcards & Build Community",
-   "date": "2026-10-06",
+   "title": "CAPS Meeting, Beat 122",
+   "date": "2026-10-14",
    "time": "5:00 PM",
-   "org": "Indivisible Greater West Loop",
-   "location": "Green Street Local, West Loop",
-   "desc": "A relaxed postcard-writing social over drinks to connect with neighbors.",
-   "url": "https://www.mobilize.us/indivisiblegwlchi/event/1007078/"
+   "location": "555 W. Madison",
+   "desc": "Chicago Alternative Policing Strategy meeting with the 12th District, a chance to meet police, neighbors, and the ward team about local safety."
   },
   {
-   "title": "Printers Row Park Cleanup",
-   "date": "2026-10-06",
-   "time": "5:00 PM",
-   "org": "Chicago Parks Foundation",
-   "location": "Printers Row Park",
-   "desc": "A neighborhood trash pick-up with the Printers Row Park Clean Up Crew, part of the Chicago Parks Foundation's Pitch In for the Parks program. Supplies provided; register to join.",
-   "url": "https://givepul.se/979pid",
-   "src": "cpf"
-  },
-  {
-   "title": "Poster-Making Party: Get Out The Vote",
-   "date": "2026-10-08",
+   "title": "CAPS Meeting, Beat 124",
+   "date": "2026-10-14",
    "time": "6:00 PM",
-   "org": "Indivisible Greater West Loop",
-   "location": "Midwest Coast Brewing Company",
-   "desc": "A casual night making get-out-the-vote posters with neighbors ahead of the November 3rd election.",
-   "url": "https://www.mobilize.us/indivisiblegwlchi/event/1050652/"
+   "location": "1135 S. Delano Court",
+   "desc": "Chicago Alternative Policing Strategy meeting with the 12th District, a chance to meet police, neighbors, and the ward team about local safety."
+  },
+  {
+   "title": "CAPS Meeting, Beat 1214",
+   "date": "2026-10-14",
+   "time": "7:00 PM",
+   "location": "333 N. Green",
+   "desc": "Chicago Alternative Policing Strategy meeting with the 12th District, a chance to meet police, neighbors, and the ward team about local safety."
   },
   {
    "title": "Don't Boo, Vote! A Family-Friendly Ballot Prep Party",
@@ -38,6 +31,15 @@
    "location": "Whitney M. Young Magnet High School, Near West Side",
    "desc": "A family-friendly event to get ready for the November 3rd election, with help reading your ballot before you vote.",
    "url": "https://www.mobilize.us/indivisiblegwlchi/event/1025733/"
+  },
+  {
+   "title": "Show Up Chicago: Election Preview",
+   "date": "2026-10-19",
+   "time": "7:00 PM",
+   "org": "Indivisible Greater West Loop",
+   "location": "The Hideout",
+   "desc": "An election-preview community night ahead of the November 3rd election, hosted by Indivisible Greater West Loop.",
+   "url": "https://www.mobilize.us/indivisiblegwlchi/event/1057864/"
   }
  ]
 }
