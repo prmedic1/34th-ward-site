@@ -1,6 +1,22 @@
 {
  "_note": "The pinned Top Story on the homepage. 'current' shows at the top of the news area; move the old one into 'history' (newest first) when you swap it. type 'story' = a news writeup with a source link; type 'statement' = a released statement shown as a quote.",
- "current": null,
+ "current": {
+  "type": "story",
+  "kicker": "This Weekend · 34th Ward",
+  "headline": "Chicago Marathon Sunday: street closures across the ward, and where to cheer",
+  "image": "images/34th-ward-skyline.jpg",
+  "image_alt": "The downtown Chicago skyline along the Chicago Marathon route",
+  "exclude_kw": "marathon",
+  "summary": "The Bank of America Chicago Marathon runs Sunday, October 11, and it closes streets across much of the 34th Ward. Most route streets shut to traffic at 6 a.m. Sunday (the Abbott 5K closes Loop streets Saturday morning), no-parking and tow zones take effect along the course, and the CTA is the easiest way around downtown. Neighbors can cheer the runners at Mary Bartelme Park from 8 a.m. Sunday, with music and sign-making on the Adams Street side. Our rundown has the closures, times, parking, and transit, with links to the full coverage.",
+  "source_name": "34th Ward News",
+  "url": "chicago-marathon-2026.html",
+  "date": "2026-10-09",
+  "date_label": "October 11, 2026",
+  "pinned_at": "2026-10-09",
+  "expires": "2026-10-12",
+  "flag": "This Weekend · Road Closures",
+  "slug": "chicago-marathon-2026"
+ },
  "history": [
   {
    "type": "story",
