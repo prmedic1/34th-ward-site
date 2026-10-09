@@ -686,11 +686,11 @@
  },
  {
   "date": "2026-10-09",
-  "total": 1775,
-  "visitors": 1054,
-  "views": 3,
-  "article_total": 355,
-  "article_views": 0,
-  "verdict": "bad"
+  "total": 1785,
+  "visitors": 1057,
+  "views": 13,
+  "article_total": 356,
+  "article_views": 1,
+  "verdict": "usual"
  }
 ]
