@@ -1,6 +1,42 @@
 {
- "generated_at": "2026-10-09T19:14:11.302Z",
+ "generated_at": "2026-10-10T13:00:25.808Z",
  "items": [
+  {
+   "id": "blockclub-20261009-controversial-west-loop-bar-habibti-won-",
+   "category": "business",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Controversial West Loop Bar Habibti Won't Reopen After Suspected Arsons",
+   "summary": "The embattled bar and restaurant's owner agreed to surrender the property to his landlord as part of a dismissed eviction case and he also gave up his business license.",
+   "url": "https://blockclubchicago.org/2026/10/09/controversial-west-loop-bar-habibti-wont-reopen-after-suspected-arsons/",
+   "published_at": "2026-10-09T18:41:28.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20261009-another-beluga-whale-rescued-from-canadi",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Another Beluga Whale Rescued From Canadian Marine Park Dies At Shedd Aquarium",
+   "summary": "Caspian, 27, died Wednesday despite life saving efforts. She was the fifth beluga whale to die since the aquarium rescued 10 belugas from Marineland in Ontario.",
+   "url": "https://blockclubchicago.org/2026/10/09/another-beluga-whale-rescued-from-canadian-marine-park-dies-at-shedd-aquarium/",
+   "published_at": "2026-10-09T23:24:47.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20261009-expansion-of-automated-ticketing-program",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Expansion Of Automated Ticketing Program For Bike, Bus Lane Blockers OK'd By City Panel",
+   "summary": "The Smart Streets pilot program that began two years ago Downtown could soon be made permanent - and expanded citywide. It uses cameras on city vehicles and CTA buses to document parking infractions.",
+   "url": "https://blockclubchicago.org/2026/10/09/expansion-of-automated-ticketing-program-for-bike-bus-lane-blockers-okd-by-city-panel/",
+   "published_at": "2026-10-09T20:13:04.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "cbs-20261009-chicago-woman-wakes-up-to-find-bullet-ho",
    "category": "civic_org",
@@ -2174,30 +2210,6 @@
    "flagged_for_review": false
   },
   {
-   "id": "conway-20260918-ward-office-reviews-proposed-sale-of-chi",
-   "category": "civic_org",
-   "source_id": "conway",
-   "source_name": "Conway's Corner (34th Ward Office Newsletter)",
-   "source_type": "email_newsletter",
-   "title": "Ward Office Reviews Proposed Sale of Chicago Parking Meters to Stonepeak",
-   "summary": "Alderman Conway’s office is examining the upcoming sale of the city’s parking meters to Stonepeak, noting that the original 2008 deal was among the worst municipal asset sales. Early analysis of the revised terms suggests a significant net positive for taxpayers. The office plans to continue reviewing legal documents over the weekend and has posted a breakdown of the financial aspects.",
-   "url": "https://www.ward34.org/",
-   "published_at": "2026-09-18T20:50:48.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "conway-20260918-smart-streets-pilot-and-new-pedestrian-s",
-   "category": "civic_org",
-   "source_id": "conway",
-   "source_name": "Conway's Corner (34th Ward Office Newsletter)",
-   "source_type": "email_newsletter",
-   "title": "Smart Streets Pilot and New Pedestrian Safety Projects Expanded Across the 34th Ward",
-   "summary": "The ward has worked with CDOT engineers to add bump outs and protected bike lanes, and most of the area participates in the Smart Streets Pilot that uses cameras to issue traffic tickets. The pilot reported that 87% of drivers who received a warning avoided a subsequent violation, improving safety. The alderman signed a letter urging more CDOT staffing, better driver education, and citywide expansion of the program.",
-   "url": "https://www.ward34.org/",
-   "published_at": "2026-09-18T20:50:48.000Z",
-   "flagged_for_review": false
-  },
-  {
    "id": "abc7-20260920-semi-jackknifes-on-inbound-lanes-of-kenn",
    "category": "civic_org",
    "source_id": "abc7",
@@ -2207,30 +2219,6 @@
    "summary": "All lanes have reopened after a semi jackknifed on the Kennedy Expressway early Sunday morning.",
    "url": "https://abc7chicago.com/post/chicago-traffic-today-semi-jackknifes-kennedy-expressway-racine-exit-approaching-downtown-video-shows/19851982/",
    "published_at": "2026-09-20T17:16:34.057Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "conway-20260918-proposed-sale-of-chicago-s-parking-meter",
-   "category": "business",
-   "source_id": "conway",
-   "source_name": "Conway's Corner (34th Ward Office Newsletter)",
-   "source_type": "email_newsletter",
-   "title": "Proposed sale of Chicago's parking meters to Stonepeak under review",
-   "summary": "A revised deal to sell Chicago's parking meters to private equity firm Stonepeak is being examined after the 2008 sale was deemed one of the worst municipal asset transactions. Early numbers suggest the new agreement could be a significant net positive for taxpayers. Alderman Conway plans to continue reviewing the legal documents over the weekend.",
-   "url": "https://www.ward34.org/",
-   "published_at": "2026-09-18T20:50:48.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "conway-20260918-competing-tenant-rights-ordinances-move-",
-   "category": "civic_org",
-   "source_id": "conway",
-   "source_name": "Conway's Corner (34th Ward Office Newsletter)",
-   "source_type": "email_newsletter",
-   "title": "Competing tenant‑rights ordinances move through City Council committees",
-   "summary": "Both the Mayor's PRO proposal and the FAIR ordinance have passed committee votes and will be considered by City Council next week. The measures aim to protect tenants while encouraging the development of new affordable housing, though each has identified shortcomings. Alderman Conway expressed misgivings and hopes for a compromise that supports residents.",
-   "url": "https://www.ward34.org/",
-   "published_at": "2026-09-18T20:50:48.000Z",
    "flagged_for_review": false
   },
   {
@@ -2258,42 +2246,6 @@
    "flagged_for_review": false
   },
   {
-   "id": "blockclub-20260918-here-s-what-the-1901-project-s-music-hal",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Here’s What The 1901 Project's Music Hall Will Look Like Inside, New Renderings Show",
-   "summary": "The 6,000-seat venue is expected to open in 2028 as part of the $7 billion development next to the United Center, with space for restaurants, retail and public gathering areas.",
-   "url": "https://blockclubchicago.org/2026/09/18/heres-what-the-1901-projects-music-hall-will-look-like-inside-new-renderings-show/",
-   "published_at": "2026-09-18T19:21:25.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "conway-20260918-competing-tenants-rights-ordinances-pro-",
-   "category": "civic_org",
-   "source_id": "conway",
-   "source_name": "Conway's Corner (34th Ward Office Newsletter)",
-   "source_type": "email_newsletter",
-   "title": "Competing Tenants' Rights Ordinances PRO and FAIR Advance to City Council",
-   "summary": "Two tenant‑rights ordinances, the Mayor's PRO proposal and the FAIR proposal, moved through committee votes this week and will be considered by City Council next week. Both bills aim to protect tenants while encouraging affordable housing development, though the alderman expressed misgivings about shortcomings in each. A compromise is hoped for to support tenants and city growth.",
-   "url": "https://www.ward34.org/",
-   "published_at": "2026-09-18T20:50:48.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "conway-20260918-four-new-historic-plaques-planned-for-we",
-   "category": "civic_org",
-   "source_id": "conway",
-   "source_name": "Conway's Corner (34th Ward Office Newsletter)",
-   "source_type": "email_newsletter",
-   "title": "Four New Historic Plaques Planned for West Loop in Summer 2026",
-   "summary": "The West Loop Historic Plaques Project announced four additional plaques will be installed in summer 2026, marking a UIC classroom, a condo building, and two parks. The neighborhood already has 19 historical designations, four historic plaques, and one Chicago Landmark plaque. The project highlights the area's rich history and ongoing preservation efforts.",
-   "url": "https://www.ward34.org/",
-   "published_at": "2026-09-18T20:50:48.000Z",
-   "flagged_for_review": false
-  },
-  {
    "id": "abc7-20260919-man-critically-hurt-after-falling-onto-c",
    "category": "civic_org",
    "source_id": "abc7",
@@ -2303,54 +2255,6 @@
    "summary": "A CTA train hit a man after he fell onto the tracks at a downtown station on Saturday morning, leaving him in critical condition, Chicago police said.",
    "url": "https://abc7chicago.com/post/man-critically-hurt-falling-cta-blue-line-tracks-being-hit-train-clinton-stop-west-loop-chicago-police-say/19849772/",
    "published_at": "2026-09-19T16:59:28.623Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "conway-20260918-proposed-sale-of-chicago-parking-meters-",
-   "category": "civic_org",
-   "source_id": "conway",
-   "source_name": "Conway's Corner (34th Ward Office Newsletter)",
-   "source_type": "email_newsletter",
-   "title": "Proposed sale of Chicago parking meters to Stonepeak and pending tenants' rights ordinances",
-   "summary": "The city is reviewing a proposed sale of Chicago’s parking meters to Stonepeak, with early numbers indicating a net positive for taxpayers despite the 2008 deal being one of the worst municipal asset sales. Two competing tenants‑rights ordinances, the Mayor’s PRO and the FAIR proposal, have cleared committee votes and will be considered by City Council next week, prompting calls for a compromise that protects renters and encourages affordable housing.",
-   "url": "https://www.ward34.org/",
-   "published_at": "2026-09-18T20:50:48.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "conway-20260918-four-new-historic-plaques-to-be-installe",
-   "category": "civic_org",
-   "source_id": "conway",
-   "source_name": "Conway's Corner (34th Ward Office Newsletter)",
-   "source_type": "email_newsletter",
-   "title": "Four new historic plaques to be installed in the West Loop this summer",
-   "summary": "The West Loop Historic Plaques Project will add four new plaques in summer 2026, marking a UIC classroom, a condominium building, and two parks, bringing the total to nineteen historic designations, four historic plaques, and one Chicago Landmark plaque in the neighborhood.",
-   "url": "https://www.ward34.org/",
-   "published_at": "2026-09-18T20:50:48.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "conway-20260918-west-loop-green-city-market-returns-for-",
-   "category": "business",
-   "source_id": "conway",
-   "source_name": "Conway's Corner (34th Ward Office Newsletter)",
-   "source_type": "email_newsletter",
-   "title": "West Loop Green City Market returns for Saturday season",
-   "summary": "The West Loop Green City Market operates Saturdays from 8 a.m. to 1 p.m. at 900 W. Monroe, running May through November and featuring dozens of local farmers and food producers; the market will be closed on September 19 due to weather.",
-   "url": "https://www.ward34.org/",
-   "published_at": "2026-09-18T20:50:48.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260918-reserv-owner-says-he-s-closing-south-loo",
-   "category": "business",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Reserv Owner Says He's Closing South Loop Restaurant After Months Of Neighbor Complaints",
-   "summary": "The city issued a cease-and-desist notice after a fight prompted a large police response in August. Neighbors had previously levied frequent noise complaints.",
-   "url": "https://blockclubchicago.org/2026/09/18/reserv-owner-says-hes-closing-south-loop-restaurant-after-months-of-neighbor-complaints/",
-   "published_at": "2026-09-18T22:34:46.000Z",
    "flagged_for_review": false
   }
  ]
