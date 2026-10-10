@@ -3,7 +3,6 @@
  "updated_at": "2026-10-10",
  "shows": [
   {"title":"Brooklyn Britches & The Whispers","venue":"Tiny Tapp & Cafe","cat":"riverwalk","date":"2026-09-27","time":"5:00 PM","address":"55 W. Riverwalk South, the Loop","note":"Free live music","local":true,"url":"https://www.tinytapp.com/live-music"},
-  {"title":"Rock and Roll Playhouse","venue":"Thalia Hall","cat":"concert","date":"2026-10-10","time":"11:30 AM","address":"1807 S. Allport St, Pilsen","local":false,"url":"https://www.ticketmaster.com/event/Z7r9jZ1AAvf3Z"},
   {"title":"Jerry Seinfeld","venue":"The Chicago Theatre","cat":"concert","date":"2026-10-10","time":"5:00 PM","address":"175 N. State St, the Loop","local":false,"url":"https://www.ticketmaster.com/jerry-seinfeld-chicago-illinois-10-10-2026/event/07006498B9F97406"},
   {"title":"Alice Smith","venue":"Garcia's Chicago","cat":"concert","date":"2026-10-10","time":"7:00 PM","address":"1001 W. Washington Blvd, West Loop","local":true,"url":"https://www.ticketmaster.com/alice-smith-chicago-illinois-10-10-2026/event/04006507BF0D1BBE"},
   {"title":"Book of Love (18 and Over)","venue":"Metro","cat":"concert","date":"2026-10-10","time":"7:30 PM","address":"3730 N. Clark St, Wrigleyville","local":false,"url":"https://www.ticketmaster.com/event/Z7r9jZ1A7x_vN"},
