@@ -56,7 +56,7 @@ jobs:
           TICKETMASTER_KEY: ${{ secrets.TICKETMASTER_KEY }}
         run: node scripts/refresh-tm-venues.mjs
 
-      - name: Refresh indie-venue concerts (Lincoln Hall, non-Ticketmaster)
+      - name: Refresh indie-venue concerts (Lincoln Hall, City Winery; non-Ticketmaster)
         run: node scripts/refresh-indie-venues.mjs
 
       - name: Install newsletter dependencies

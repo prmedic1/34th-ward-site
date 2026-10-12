@@ -11,11 +11,15 @@
  *   - Lincoln Hall (DICE-ticketed; its site lh-st.com runs WordPress and exposes a
  *     clean public REST API at /wp-json/wp/v2/shows with an ACF "venue" field that
  *     separates Lincoln Hall from its sister rooms Schubas / Color Club).
- *
- * NOT here yet: City Winery Chicago - its site is a Shopify store and the concert
- * listings come from a separate system with no clean public feed, so it can't be
- * pulled this way. (Ticketmaster occasionally has a few City Winery shows; those
- * come through refresh-tm-venues.)
+ *   - City Winery Chicago (sells through its own vivenu box office, so it's thin on
+ *     Ticketmaster). Its Shopify events page builds its calendar from a public JSON
+ *     API, awsapi.citywinery.com/api/events?location=Chicago, which returns
+ *     schema.org Event objects with a genre list. Wine dinners, tastings, tours and
+ *     member pickup parties are skipped - they aren't shows. When this succeeds it
+ *     replaces the few City Winery shows Ticketmaster supplied; when it fails, the
+ *     Ticketmaster ones stay as a fallback.
+ *     (The RSS/iCal feeds the page still advertises at api.citywinery.com/feeds/ are
+ *     dead - 404 as of 2026-10-12.)
  *
  * Fail-safe: a broken fetch or zero parsed shows leaves the existing entries alone.
  */
@@ -32,7 +36,9 @@ function decode(s) {
     .replace(/&amp;/g, '&').replace(/&#0?38;/g, '&')
     .replace(/&#8217;|&#039;|&#39;|&rsquo;/g, "'").replace(/&#8216;|&lsquo;/g, "'")
     .replace(/&#8220;|&#8221;|&ldquo;|&rdquo;/g, '"').replace(/&nbsp;/g, ' ')
-    .replace(/&amp;/g, '&').replace(/\s+/g, ' ').trim();
+    .replace(/&amp;/g, '&')
+    .replace(/\s*[–—]\s*/g, ' - ') // site rule: no em/en dashes
+    .replace(/\s+/g, ' ').trim();
 }
 
 // "02/12/2027 8:00 pm" -> { date: "2027-02-12", time: "8:00 PM" }
@@ -86,13 +92,63 @@ async function lincolnHall(todayStr, endStr) {
   return rows;
 }
 
+// City Winery's own events API (the same one its citywinery.com calendar uses).
+async function fetchCwEvents() {
+  const base = 'https://awsapi.citywinery.com/api/events?location=Chicago&pageSize=100';
+  const out = [];
+  let totalPages = 1;
+  for (let page = 1; page <= Math.min(totalPages, 10); page++) {
+    const res = await fetch(base + '&page=' + page, UA);
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    const j = await res.json();
+    if (!Array.isArray(j.events)) throw new Error('unexpected response shape');
+    out.push(...j.events);
+    totalPages = +j.totalPages || 1;
+  }
+  return out;
+}
+
+// Title backstop for non-show events whose genre isn't tagged Wine. Kept narrow on
+// purpose: a bare "tour" or "class" would also catch real concerts ("Farewell Tour").
+const CW_NOT_A_SHOW = /winery tour|wine tasting|pickup party|vinofile|wine dinner|blending/i;
+
+async function cityWinery(todayStr, endStr) {
+  const all = await fetchCwEvents();
+  const rows = [];
+  const seen = new Set();
+  for (const e of all) {
+    const genres = (e.genre || []).map(String);
+    if (genres.some((g) => /^wine/i.test(g))) continue;
+    if (/Cancelled|Postponed|Rescheduled/i.test(e.eventStatus || '')) continue;
+    let title = decode(e.name);
+    if (!title || CW_NOT_A_SHOW.test(title) || /DUMMY|TEST/.test(title)) continue;
+    const start = new Date(e.startDate);
+    if (isNaN(start)) continue;
+    const date = start.toLocaleDateString('en-CA', { timeZone: 'America/Chicago' });
+    if (date < todayStr || date > endStr) continue;
+    const time = start.toLocaleTimeString('en-US', { timeZone: 'America/Chicago', hour: 'numeric', minute: '2-digit' }).replace(/\s/g, ' '); // newer Node puts a narrow no-break space before AM/PM
+    if (title.length > 75) title = title.slice(0, 72).replace(/\s+\S*$/, '') + '...';
+    const key = date + '|' + time + '|' + title;
+    if (seen.has(key)) continue; seen.add(key);
+    rows.push({
+      title, venue: 'City Winery Chicago', cat: 'concert', date, time,
+      address: '1200 W. Randolph St, West Loop', local: true,
+      url: e.url || 'https://citywinery.com/pages/events/chicago'
+    });
+  }
+  return rows;
+}
+
 async function main() {
   const now = new Date();
   const todayStr = now.toLocaleDateString('en-CA', { timeZone: 'America/Chicago' });
   const endStr = new Date(now.getTime() + DAYS * 864e5).toLocaleDateString('en-CA', { timeZone: 'America/Chicago' });
 
   // Each managed venue is a {name, fn}; fn returns its concert rows or throws.
-  const VENUES = [{ name: 'Lincoln Hall', fn: lincolnHall }];
+  const VENUES = [
+    { name: 'Lincoln Hall', fn: lincolnHall },
+    { name: 'City Winery Chicago', fn: cityWinery }
+  ];
   const added = []; const okNames = [];
   for (const V of VENUES) {
     try {
