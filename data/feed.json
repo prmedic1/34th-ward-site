@@ -1,6 +1,30 @@
 {
- "generated_at": "2026-10-11T18:35:53.256Z",
+ "generated_at": "2026-10-12T13:00:24.188Z",
  "items": [
+  {
+   "id": "blockclub-20261012-here-s-what-to-see-on-the-near-north-sid",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Here’s What To See On The Near North Side During Open House Chicago 2026",
+   "summary": "The Near North sites span the Gold Coast, Old Town, River North and Streeterville, offering a look at how the area has been repeatedly reshaped over Chicago’s history.",
+   "url": "https://blockclubchicago.org/2026/10/12/heres-what-to-see-on-the-near-north-side-during-open-house-chicago-2026/",
+   "published_at": "2026-10-12T12:00:00.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20261012-here-s-what-to-see-downtown-during-open-",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Here’s What To See Downtown During Open House Chicago",
+   "summary": "You can tour Downtown sites like the Pittsfield skyscraper, an urban farm and numerous churches during the event Saturday and Sunday.",
+   "url": "https://blockclubchicago.org/2026/10/12/heres-what-to-see-downtown-during-open-house-chicago/",
+   "published_at": "2026-10-12T12:00:00.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "blockclub-20261009-controversial-west-loop-bar-habibti-won-",
    "category": "business",
@@ -1982,54 +2006,6 @@
    "flagged_for_review": false
   },
   {
-   "id": "politico-20260921-small-businesses-against-tariffs-launche",
-   "category": "business",
-   "source_id": "politico",
-   "source_name": "POLITICO Illinois Playbook",
-   "source_type": "email_newsletter",
-   "title": "Small Businesses Against Tariffs launches $1 million billboard campaign in Chicago",
-   "summary": "The advocacy group Small Businesses Against Tariffs is rolling out a $1 million billboard effort across Chicago and Springfield, using state‑specific jokes such as “What’s worse than Green Bay? Tariffs.” Northbrook‑based Baby Paper founder Sari Wiaz backs the campaign, saying tariffs have forced her to raise product prices by 10%‑20%. The billboards are funded by the Defending Democracy Together Institute, a nonprofit supported by conservative commentator Bill Kristol.",
-   "url": "https://www.politico.com/newsletters/illinois-playbook",
-   "published_at": "2026-09-21T12:01:47.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "politico-20260921-metropolitan-water-reclamation-district-",
-   "category": "civic_org",
-   "source_id": "politico",
-   "source_name": "POLITICO Illinois Playbook",
-   "source_type": "email_newsletter",
-   "title": "Metropolitan Water Reclamation District proposes selling recycled water to data centers",
-   "summary": "The Metropolitan Water Reclamation District announced plans to sell recycled sewer water to large data centers that support artificial intelligence, projecting potential revenue of millions of dollars per year. The proposal aims to turn the agency’s water‑treatment infrastructure into a new revenue stream while supporting the growing data‑center industry in Illinois.",
-   "url": "https://www.politico.com/newsletters/illinois-playbook",
-   "published_at": "2026-09-21T12:01:47.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "wca-20260920-uic-approved-for-232m-cancer-research-hu",
-   "category": "business",
-   "source_id": "wca",
-   "source_name": "The WCA Weekly",
-   "source_type": "email_newsletter",
-   "title": "UIC Approved for $232M Cancer Research Hub",
-   "summary": "The University of Illinois Chicago received approval to build a cancer research hub funded at $232 million. The project will add state‑of‑the‑art research facilities to the city and is expected to boost local jobs and medical innovation.",
-   "url": "https://www.wcachicago.org/",
-   "published_at": "2026-09-20T19:01:33.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "wca-20260920-1282-washington-condominium-development-",
-   "category": "business",
-   "source_id": "wca",
-   "source_name": "The WCA Weekly",
-   "source_type": "email_newsletter",
-   "title": "1282 Washington Condominium Development Near Madison Row",
-   "summary": "ZSD’s 1282 Washington project, located near Madison Row, is under construction and will deliver 4‑ and 5‑bedroom single‑family condominium residences. The boutique building is 75 % pre‑sold and aims to set a new standard for West Loop living.",
-   "url": "https://www.wcachicago.org/",
-   "published_at": "2026-09-20T19:01:33.000Z",
-   "flagged_for_review": false
-  },
-  {
    "id": "cbs-20260921-thousands-of-downtown-chicago-hotel-work",
    "category": "civic_org",
    "source_id": "cbs",
@@ -2078,66 +2054,6 @@
    "flagged_for_review": false
   },
   {
-   "id": "politico-20260921-gov-jb-pritzker-warns-about-recursive-ai",
-   "category": "elected_official",
-   "source_id": "politico",
-   "source_name": "POLITICO Illinois Playbook",
-   "source_type": "email_newsletter",
-   "title": "Gov. JB Pritzker warns about recursive AI in national TV interview",
-   "summary": "In a pre‑taped interview on ABC’s “This Week” aired Sunday, Sept. 20, 2026, Gov. JB Pritzker warned that the biggest risk from artificial intelligence is recursive AI that can improve without human input. He highlighted Illinois’ new AI security rules that require annual third‑party audits for large frontier developers and said the state is exploring AI to analyze Medicaid data for savings. Pritzker also urged Democrats to make AI a top priority on the 2026 campaign trail, comparing its danger to nuclear weapons.",
-   "url": "https://www.politico.com/newsletters/illinois-playbook",
-   "published_at": "2026-09-21T12:01:47.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "axios-20260921-williams-carted-off-in-bears-loss",
-   "category": "newsletter",
-   "source_id": "axios",
-   "source_name": "Axios Chicago",
-   "source_type": "email_newsletter",
-   "title": "Williams carted off in Bears loss",
-   "summary": "Caleb Williams #18 reacts after an injury against the Minnesota Vikings. Patrick McDermott/Getty Images Bears quarterback Caleb Williams injured his right hamstring late in yesterday's 9-3 loss to the Minnesota Vikings at Soldier Field. The young superstar is the face of the franchise and has never missed a game due to injury.",
-   "url": "https://www.axios.com/local/chicago",
-   "published_at": "2026-09-21T11:29:02.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "wca-20260920-1282-washington-development-brings-new-4",
-   "category": "business",
-   "source_id": "wca",
-   "source_name": "The WCA Weekly",
-   "source_type": "email_newsletter",
-   "title": "1282 Washington development brings new 4- and 5-bedroom condos to West Loop",
-   "summary": "The ZSD development 1282 Washington, slated for delivery next fall, will add 4- and 5-bedroom single-family condominium residences to the West Loop. The project is already 75% pre-sold and is under construction, positioning it as a new standard for West Loop living.",
-   "url": "https://www.wcachicago.org/",
-   "published_at": "2026-09-20T19:01:33.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "wca-20260920-florida-based-omakai-sushi-to-open-in-fu",
-   "category": "business",
-   "source_id": "wca",
-   "source_name": "The WCA Weekly",
-   "source_type": "email_newsletter",
-   "title": "Florida-based OMAKAI Sushi to open in Fulton Market",
-   "summary": "OMAKAI Sushi, a restaurant chain from Florida, announced plans to open a location in Fulton Market. The new venue will add a Japanese sushi concept to the neighborhood’s growing dining scene.",
-   "url": "https://www.wcachicago.org/",
-   "published_at": "2026-09-20T19:01:33.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "wca-20260920-west-loop-wellness-fest-offers-fitness-c",
-   "category": "civic_org",
-   "source_id": "wca",
-   "source_name": "The WCA Weekly",
-   "source_type": "email_newsletter",
-   "title": "West Loop Wellness Fest offers fitness classes and wellness experiences on September 19",
-   "summary": "The West Central Association will host the West Loop Wellness Fest on Saturday, September 19 from 11 AM to 2 PM at Union Padel Club. Attendees can try instructor-led classes, padel instruction, chair massages, red light therapy, acupuncture and other wellness activities, with ticket proceeds supporting Mercy Home for Boys & Girls.",
-   "url": "https://www.wcachicago.org/",
-   "published_at": "2026-09-20T19:01:33.000Z",
-   "flagged_for_review": false
-  },
-  {
    "id": "abc7-20260921-2-injured-in-loop-hit-and-run-chicago-po",
    "category": "civic_org",
    "source_id": "abc7",
@@ -2147,114 +2063,6 @@
    "summary": "Two people were injured in a hit-and-run crash in the Loop Monday morning, Chicago police said.",
    "url": "https://abc7chicago.com/post/2-injured-loop-hit-run-ida-wells-drive-chicago-police-say/19854368/",
    "published_at": "2026-09-21T13:00:24.416Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "cbs-20260921-burglars-smash-atm-but-fail-to-get-money",
-   "category": "civic_org",
-   "source_id": "cbs",
-   "source_name": "CBS News Chicago",
-   "source_type": "web_feed",
-   "title": "Burglars smash ATM, but fail to get money at gas station in Chicago's West Town community",
-   "summary": "Burglars smashed an ATM at a gas station minimart in Chicago's West Town community early Monday, but failed to get any money, an employee said.",
-   "url": "https://www.cbsnews.com/chicago/news/burglars-smash-atm-fail-get-money-gas-station-chicago-west-town/",
-   "published_at": "2026-09-21T12:36:34.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "cbs-20260921-vandals-smash-into-haymarket-pub-brewery",
-   "category": "business",
-   "source_id": "cbs",
-   "source_name": "CBS News Chicago",
-   "source_type": "web_feed",
-   "title": "Vandals smash into Haymarket Pub & Brewery in Chicago's West Loop",
-   "summary": "Vandals smashed out the windows of the Haymarket Pub & Brewery in Chicago's West Loop early Monday.",
-   "url": "https://www.cbsnews.com/chicago/news/vandals-smash-into-haymarket-pub-brewery-chicago-west-loop/",
-   "published_at": "2026-09-21T12:19:00.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "cbs-20260921-vandals-break-into-haymarket-pub-brewery",
-   "category": "business",
-   "source_id": "cbs",
-   "source_name": "CBS News Chicago",
-   "source_type": "web_feed",
-   "title": "Vandals break into Haymarket Pub & Brewery in West Loop",
-   "summary": "Vandals smashed out the windows of the Haymarket Pub & Brewery in Chicago’s West Loop were smashed out early Monday.",
-   "url": "https://www.cbsnews.com/chicago/video/vandals-break-into-haymarket-pub-brewery-in-west-loop/",
-   "published_at": "2026-09-21T12:15:00.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "cbs-20260921-2-hurt-in-downtown-chicago-hit-and-run",
-   "category": "civic_org",
-   "source_id": "cbs",
-   "source_name": "CBS News Chicago",
-   "source_type": "web_feed",
-   "title": "2 hurt in downtown Chicago hit-and-run",
-   "summary": "Two people were hospitalized early Monday after being hit by a car that did not stop in downtown Chicago.",
-   "url": "https://www.cbsnews.com/chicago/video/2-hurt-in-downtown-chicago-hit-and-run/",
-   "published_at": "2026-09-21T11:05:00.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "cbs-20260921-2-pedestrians-struck-in-hit-and-run-on-i",
-   "category": "civic_org",
-   "source_id": "cbs",
-   "source_name": "CBS News Chicago",
-   "source_type": "web_feed",
-   "title": "2 pedestrians struck in hit-and-run on Ida B. Wells Drive in downtown Chicago",
-   "summary": "Two people were hospitalized early Monday after being hit by a car that did not stop in downtown Chicago.",
-   "url": "https://www.cbsnews.com/chicago/news/2-pedestrians-struck-hit-and-run-ida-b-wells-downtown-chicago/",
-   "published_at": "2026-09-21T10:58:41.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "abc7-20260920-semi-jackknifes-on-inbound-lanes-of-kenn",
-   "category": "civic_org",
-   "source_id": "abc7",
-   "source_name": "ABC7 Chicago",
-   "source_type": "web_feed",
-   "title": "Semi jackknifes on inbound lanes of Kennedy Expy. near downtown Chicago, video shows",
-   "summary": "All lanes have reopened after a semi jackknifed on the Kennedy Expressway early Sunday morning.",
-   "url": "https://abc7chicago.com/post/chicago-traffic-today-semi-jackknifes-kennedy-expressway-racine-exit-approaching-downtown-video-shows/19851982/",
-   "published_at": "2026-09-20T17:16:34.057Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "cbs-20260919-man-accidentally-falls-on-blue-line-trac",
-   "category": "civic_org",
-   "source_id": "cbs",
-   "source_name": "CBS News Chicago",
-   "source_type": "web_feed",
-   "title": "Man accidentally falls on Blue Line tracks, hit by train in West Loop, police say",
-   "summary": "It is unclear what caused the man to fall onto the tracks.",
-   "url": "https://www.cbsnews.com/chicago/news/man-falls-blue-line-tracks-hit-by-train-west-loop/",
-   "published_at": "2026-09-19T23:15:47.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260920-chicago-river-swim-scheduled-for-sunday-",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Chicago River Swim Scheduled For Sunday Is Cancelled",
-   "summary": "The Chicago River Swim organization announced the cancellation at 4 a.m. Sunday: \"Participants should not report to the event start area this morning.\"",
-   "url": "https://blockclubchicago.org/2026/09/20/chicago-river-swim-scheduled-for-sunday-is-cancelled/",
-   "published_at": "2026-09-20T10:03:03.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "abc7-20260919-man-critically-hurt-after-falling-onto-c",
-   "category": "civic_org",
-   "source_id": "abc7",
-   "source_name": "ABC7 Chicago",
-   "source_type": "web_feed",
-   "title": "Man critically hurt after falling onto CTA Blue Line tracks, being hit by train at West Loop station",
-   "summary": "A CTA train hit a man after he fell onto the tracks at a downtown station on Saturday morning, leaving him in critical condition, Chicago police said.",
-   "url": "https://abc7chicago.com/post/man-critically-hurt-falling-cta-blue-line-tracks-being-hit-train-clinton-stop-west-loop-chicago-police-say/19849772/",
-   "published_at": "2026-09-19T16:59:28.623Z",
    "flagged_for_review": false
   }
  ]
