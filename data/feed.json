@@ -1,6 +1,54 @@
 {
- "generated_at": "2026-10-13T20:03:19.935Z",
+ "generated_at": "2026-10-14T13:00:47.619Z",
  "items": [
+  {
+   "id": "politico-20261014-mayor-brandon-johnson-pushes-corporate-t",
+   "category": "elected_official",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Mayor Brandon Johnson pushes corporate taxes as city budget showdown approaches",
+   "summary": "Mayor Brandon Johnson called for taxes on large corporations while a budget showdown looms for Chicago. He urged Springfield to restore funding to the city from the local government distributive fund to previous levels, a move he said would generate $264 million for Chicago. The Illinois General Assembly is scheduled to meet late next month and again in early December for its fall veto session, giving the Johnson administration a final chance to persuade legislators to change laws and clear the way for new taxes and fees.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-10-14T12:02:05.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "politico-20261014-metra-rolls-out-new-battery-powered-trai",
+   "category": "civic_org",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Metra rolls out new battery‑powered trainsets at LaSalle Street Station",
+   "summary": "Metra began the rollout of its new battery‑powered trainsets at LaSalle Street Station, with city officials present at 10 a.m. The introduction of the battery‑powered equipment marks a step toward reducing the rail system’s reliance on diesel power and improving environmental performance.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-10-14T12:02:05.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "axios-20261014-pope-to-still-meet-chicago-catholics",
+   "category": "newsletter",
+   "source_id": "axios",
+   "source_name": "Axios Chicago",
+   "source_type": "email_newsletter",
+   "title": "Pope to still meet Chicago Catholics",
+   "summary": "Ash Wednesday procession. Courtesy of CSPL The Vatican's announcement yesterday that Pope Leo has lung cancer has not altered the plans of a group of Chicago Catholics scheduled to meet him later this month. The Vatican disclosed the pontiff's health news just hours after he underwent successful surgery to remove the lower lobe of his right lung.",
+   "url": "https://www.axios.com/local/chicago",
+   "published_at": "2026-10-14T11:28:55.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "cbs-20261014-boy-12-suffers-graze-wound-in-near-west-",
+   "category": "civic_org",
+   "source_id": "cbs",
+   "source_name": "CBS News Chicago",
+   "source_type": "web_feed",
+   "title": "Boy, 12, suffers graze wound in Near West Side shooting, police say",
+   "summary": "Chicago police said the boy was near a park when he was grazed in the thigh by gunfire.",
+   "url": "https://www.cbsnews.com/chicago/news/boy-12-suffers-graze-wound-near-west-side-shooting/",
+   "published_at": "2026-10-14T02:15:41.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "blockclub-20261013-green-and-pink-line-service-downtown-wil",
    "category": "civic_org",
@@ -2004,90 +2052,6 @@
    "summary": "Clark Street Live makes its Wrigleyville debut, plus the Beverly Art Walk, the last of Bronzeville Summer Nights and more.",
    "url": "https://blockclubchicago.org/2026/09/24/27-things-to-do-in-chicago-this-weekend-hyde-park-jazz-festival-armitage-county-fair-and-more/",
    "published_at": "2026-09-24T12:10:00.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "politico-20260923-billionaire-donor-michael-sacks-sends-ce",
-   "category": "business",
-   "source_id": "politico",
-   "source_name": "POLITICO Illinois Playbook",
-   "source_type": "email_newsletter",
-   "title": "Billionaire donor Michael Sacks sends cease‑and‑desist to influencer firm over false statements",
-   "summary": "Donor Michael Sacks, represented by attorney Ed Siskel, issued a cease‑and‑desist letter to Good Influence demanding the firm stop publishing false and defamatory claims about him. The letter references a document showing the firm posted content to boost Hilario Dominguez’s school board president campaign, linking Sacks to former Mayor Rahm Emanuel’s policies. The Chicago Teachers Union disclosed paying more than $56,000 to the firm Mori for influencer services in the same race.",
-   "url": "https://www.politico.com/newsletters/illinois-playbook",
-   "published_at": "2026-09-23T12:00:42.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "politico-20260923-former-mayor-lori-lightfoot-endorses-jes",
-   "category": "civic_org",
-   "source_id": "politico",
-   "source_name": "POLITICO Illinois Playbook",
-   "source_type": "email_newsletter",
-   "title": "Former Mayor Lori Lightfoot endorses Jessica Biggs for Chicago School Board president",
-   "summary": "In a recent endorsement, former Mayor Lori Lightfoot backed Jessica Biggs in the race to become Chicago School Board president, signaling support from a high‑profile former city leader for the upcoming election.",
-   "url": "https://www.politico.com/newsletters/illinois-playbook",
-   "published_at": "2026-09-23T12:00:42.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "politico-20260923-mayoral-candidate-william-quinlan-sues-g",
-   "category": "elected_official",
-   "source_id": "politico",
-   "source_name": "POLITICO Illinois Playbook",
-   "source_type": "email_newsletter",
-   "title": "Mayoral candidate William Quinlan sues Giannoulias, Quigley and Pappas over dual candidacies",
-   "summary": "Mayor candidate William Quinlan filed a lawsuit in Cook County Circuit Court against Illinois Secretary of State Alexi Giannoulias, Congressman Mike Quigley and Cook County Treasurer Maria Pappas, arguing that state law bars them from seeking re‑election while also running for mayor. The suit seeks a court ruling that the offices are legally incompatible under Section 10‑7 of the Illinois Election Code and names the State Board of Elections as a defendant. Petition filing for the mayoral race is due Oct. 26, and the candidates have not yet become official.",
-   "url": "https://www.politico.com/newsletters/illinois-playbook",
-   "published_at": "2026-09-23T12:00:42.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "politico-20260923-donor-michael-sacks-sends-cease-and-desi",
-   "category": "business",
-   "source_id": "politico",
-   "source_name": "POLITICO Illinois Playbook",
-   "source_type": "email_newsletter",
-   "title": "Donor Michael Sacks sends cease‑and‑desist to influencer firm over false statements",
-   "summary": "Billionaire Democratic donor Michael Sacks sent a cease‑and‑desist letter to the advertising firm Good Influence after it produced influencer videos that Sacks says contain false and defamatory statements. Sacks’ attorney Ed Siskel demanded the firm stop soliciting, ghostwriting, financing, publishing or republishing the claims, according to a Tribune report. The dispute also involves alleged payments to boost the campaign of school board candidate Hilario Dominguez.",
-   "url": "https://www.politico.com/newsletters/illinois-playbook",
-   "published_at": "2026-09-23T12:00:42.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "politico-20260923-chicago-teachers-union-disclosed-56-000-",
-   "category": "civic_org",
-   "source_id": "politico",
-   "source_name": "POLITICO Illinois Playbook",
-   "source_type": "email_newsletter",
-   "title": "Chicago Teachers Union disclosed $56,000 payments to influencer firm for school board campaign",
-   "summary": "The Chicago Teachers Union disclosed to the Illinois State Board of Elections that it paid more than $56,000 to the firm Mori for professional services that included influencer payments in the Chicago Board of Education race. The CTU’s payments were part of a broader social‑media effort to support candidate Jessica Biggs, who was endorsed by former Mayor Lori Lightfoot. The disclosure was highlighted in a recent Playbook newsletter.",
-   "url": "https://www.politico.com/newsletters/illinois-playbook",
-   "published_at": "2026-09-23T12:00:42.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "axios-20260923-rival-rental-plans",
-   "category": "newsletter",
-   "source_id": "axios",
-   "source_name": "Axios Chicago",
-   "source_type": "email_newsletter",
-   "title": "Rival rental plans",
-   "summary": "City Council is considering two competing plans today to rewrite the rental rules for the first major overhaul in decades. The dueling plans could reshape the balance between tenant protections and landlord costs for more than 600,000 Chicago renters. Tenants' rights groups and affordable housing advocates generally back Mayor Brandon Johnson's Protecting Renters Ordinance (PRO).",
-   "url": "https://www.axios.com/local/chicago",
-   "published_at": "2026-09-23T11:27:17.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260922-ford-city-mall-development-francis-parke",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Ford City Mall Development, Francis Parker Expansion, Other Projects OK'd By Key City Panel",
-   "summary": "Despite pushback from some neighbors, Ford City Mall is slated to become an industrial campus, while the private Francis Parker school is set to add an educational building. A Northwestern Medicine hospital tower was also advanced.",
-   "url": "https://blockclubchicago.org/2026/09/22/ford-city-mall-development-francis-parker-expansion-other-projects-okd-by-key-city-panel/",
-   "published_at": "2026-09-22T21:45:52.000Z",
    "flagged_for_review": false
   }
  ]
