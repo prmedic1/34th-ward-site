@@ -1,6 +1,30 @@
 {
- "generated_at": "2026-10-14T13:00:47.619Z",
+ "generated_at": "2026-10-14T18:18:05.020Z",
  "items": [
+  {
+   "id": "politico-20261014-police-report-details-sexual-assault-at-",
+   "category": "civic_org",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Police report details sexual assault at University of Chicago Alpha Epsilon Pi frat house",
+   "summary": "A 21-year-old woman reported being assaulted during a party at the Alpha Epsilon Pi fraternity house on the University of Chicago campus in the South Loop. Two friends intervened by entering the bathroom where the attack occurred, according to a Sun-Times police report.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-10-14T12:02:05.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20261014-chicago-and-the-bears-star-in-hallmark-s",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Chicago - And The Bears - Star In Hallmark’s Latest Holiday Touchdown' Love Story",
+   "summary": "\"Holiday Touchdown: A Bears Love Story\" was filmed on location at Soldier Field, the Riverwalk, Logan Square and the Irish Nobleman Pub. It premieres Saturday.",
+   "url": "https://blockclubchicago.org/2026/10/14/chicago-and-the-bears-star-in-hallmarks-latest-holiday-touchdown-love-story/",
+   "published_at": "2026-10-14T18:10:59.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "politico-20261014-mayor-brandon-johnson-pushes-corporate-t",
    "category": "elected_official",
