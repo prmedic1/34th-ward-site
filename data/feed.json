@@ -1,6 +1,19 @@
 {
- "generated_at": "2026-10-15T17:59:20.938Z",
+ "generated_at": "2026-10-15T18:23:19.723Z",
  "items": [
+  {
+   "id": "politico-20261014-house-republicans-brace-for-midterm-losses",
+   "category": "elected_official",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_id": "politico",
+   "source_type": "email_newsletter",
+   "title": "House Republicans brace for midterm losses with under three weeks to go",
+   "summary": "POLITICO Forecast reports that senior House Republicans privately accept their narrow majority is likely lost in the Nov. 3 midterm elections, with the party shifting money away from battleground seats to limit losses. Control of the Senate remains a toss-up, with Democrats needing a net gain of four seats. U.S. inflation rose to 3.7%, adding pressure ahead of the Federal Reserve rate decision on Oct. 28.",
+   "url": "https://www.politico.com/",
+   "published_at": "2026-10-14T21:13:28.000Z",
+   "flagged_for_review": false,
+   "front_exclude": true
+  },
   {
    "id": "cbs-20261015-suspicious-envelope-found-at-cook-county",
    "category": "civic_org",
