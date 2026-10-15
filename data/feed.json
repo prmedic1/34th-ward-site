@@ -1,6 +1,18 @@
 {
- "generated_at": "2026-10-15T13:01:05.285Z",
+ "generated_at": "2026-10-15T17:59:20.938Z",
  "items": [
+  {
+   "id": "cbs-20261015-suspicious-envelope-found-at-cook-county",
+   "category": "civic_org",
+   "source_id": "cbs",
+   "source_name": "CBS News Chicago",
+   "source_type": "web_feed",
+   "title": "Suspicious envelope found at Cook County building next to Chicago City Hall, prompting hazmat response",
+   "summary": "A suspicious envelope found at the Cook County building, next to Chicago City Hall in The Loop, prompted a hazmat response on Thursday morning.",
+   "url": "https://www.cbsnews.com/chicago/news/hazmat-response-chicago-city-hall/",
+   "published_at": "2026-10-15T17:01:07.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "politico-20261015-chicago-public-schools-inspector-general",
    "category": "elected_official",
@@ -2004,66 +2016,6 @@
    "summary": "The Chicago Department of Public Health issued another warning about possible exposure to measles at Union Station.",
    "url": "https://abc7chicago.com/post/measles-exposure-chicagos-union-station-health-officials-warn-more-locations-including-springhill-suites-wentworth/19865993/",
    "published_at": "2026-09-24T18:08:42.270Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "cbs-20260924-chicago-health-department-warning-of-3-m",
-   "category": "civic_org",
-   "source_id": "cbs",
-   "source_name": "CBS News Chicago",
-   "source_type": "web_feed",
-   "title": "Chicago health department warning of 3 more measles exposures at Union Station",
-   "summary": "The Chicago Department of Public Health is warning commuters of three measles exposures at Union Station this month.",
-   "url": "https://www.cbsnews.com/chicago/news/chicago-health-department-measles-exposures-union-station/",
-   "published_at": "2026-09-24T17:04:57.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "cbs-20260924-try-out-bocce-club-in-west-town",
-   "category": "civic_org",
-   "source_id": "cbs",
-   "source_name": "CBS News Chicago",
-   "source_type": "web_feed",
-   "title": "Try out bocce club in West Town",
-   "summary": "Get on the Bocce trend with Jackie Kostek.",
-   "url": "https://www.cbsnews.com/chicago/video/try-out-bocce-club-in-west-town/",
-   "published_at": "2026-09-24T15:40:00.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260924-chief-keef-has-triumphant-homecoming-in-",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Chief Keef Has Triumphant Homecoming In Chicago With Rescheduled Show",
-   "summary": "Fans turned out Wednesday night for the Washington Park native's first headlining solo Chicago show in 14 years at Northerly Island.",
-   "url": "https://blockclubchicago.org/2026/09/24/chief-keef-has-triumphant-homecoming-in-chicago-with-rescheduled-show/",
-   "published_at": "2026-09-24T17:06:29.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260924-amtrak-should-release-environmental-stud",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Amtrak Should Release Environmental Study, Sit For Hearing On Railyard Facility: Alders",
-   "summary": "A resolution signed by 36 alderpeople calls for a pause on the Bridgeport project tied to Justin Ishbia's plans for a new White Sox stadium until environmental studies are made public and a public hearing is held.",
-   "url": "https://blockclubchicago.org/2026/09/24/amtrak-should-release-environmental-study-sit-for-hearing-on-railyards-facility-alders/",
-   "published_at": "2026-09-24T16:31:52.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260924-existing-city-curfew-laws-enforced-large",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Existing City Curfew Laws Enforced Largely In Black And Latino Communities, Data Shows",
-   "summary": "While some alderpeople push for tougher curfew laws, many parents and teens say the current approach is unfair and ineffective.",
-   "url": "https://blockclubchicago.org/2026/09/24/existing-city-curfew-laws-enforced-largely-in-black-and-latino-communities-data-shows/",
-   "published_at": "2026-09-24T13:20:31.000Z",
    "flagged_for_review": false
   }
  ]
