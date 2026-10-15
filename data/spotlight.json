@@ -1,12 +1,12 @@
 {
  "_rotation_note": "The daily job picks the next business each morning - rotating among ward businesses with priority to spotlight requests from owners and newly opened spots. Keep yesterday's entries in history.",
  "current": {
-  "name": "Bonci Pizzeria",
-  "address": "161 N. Sangamon St, West Loop",
-  "website": "https://bonci.com/",
-  "image": "images/spotlight/bonci.jpg?v=20260904",
-  "blurb": "The Chicago outpost of Rome's famous pizza al taglio, sold by the rectangular slice and priced by weight, with ever-changing toppings.",
-  "date": "2026-10-14"
+  "name": "The Berghoff",
+  "address": "17 W. Adams St, the Loop",
+  "website": "https://www.theberghoff.com/",
+  "image": "images/spotlight/the-berghoff.jpg?v=20260903",
+  "blurb": "Chicago's historic German restaurant, serving Wiener schnitzel, house root beer, and steins of beer in the Loop since 1898.",
+  "date": "2026-10-15"
  },
  "history": [
   {
@@ -906,6 +906,14 @@
    "image": "images/spotlight/federales.jpg?v=20260903",
    "blurb": "Tacos, frozen margaritas, and one of Fulton Market's liveliest open-air patios, packed all summer long.",
    "date": "2026-10-13"
+  },
+  {
+   "name": "Bonci Pizzeria",
+   "address": "161 N. Sangamon St, West Loop",
+   "website": "https://bonci.com/",
+   "image": "images/spotlight/bonci.jpg?v=20260904",
+   "blurb": "The Chicago outpost of Rome's famous pizza al taglio, sold by the rectangular slice and priced by weight, with ever-changing toppings.",
+   "date": "2026-10-14"
   }
  ]
 }

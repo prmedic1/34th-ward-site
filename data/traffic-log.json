@@ -737,5 +737,14 @@
   "article_total": 360,
   "article_views": 0,
   "verdict": "bad"
+ },
+ {
+  "date": "2026-10-15",
+  "total": 1824,
+  "visitors": 1080,
+  "views": 5,
+  "article_total": 361,
+  "article_views": 1,
+  "verdict": "usual"
  }
 ]
