@@ -1,6 +1,30 @@
 {
- "generated_at": "2026-10-16T13:00:53.822Z",
+ "generated_at": "2026-10-16T17:48:07.735Z",
  "items": [
+  {
+   "id": "politico-20261016-alleged-mass-shooting-plot-foiled-at-aur",
+   "category": "religious_org",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Alleged mass‑shooting plot foiled at Aurora Hindu temple",
+   "summary": "U.S. Rep. Raja Krishnamoorthi and his family were worshipping at an Aurora Hindu temple on Sunday when a 19‑year‑old man from Palatine allegedly attempted a mass shooting, authorities said. Police reported the suspect left a manifesto expressing white supremacist and extremist ideologies. The incident prompted Krishnamoorthi to issue a statement condemning the attempted attack.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-10-16T11:58:36.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "politico-20261016-mayor-brandon-johnson-trails-in-fundrais",
+   "category": "elected_official",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Mayor Brandon Johnson trails in fundraising as candidates gear up for Chicago mayoral race",
+   "summary": "Mayor Brandon Johnson has raised about $150,000 since announcing his reelection bid and reports nearly $380,000 cash on hand, relying on more than 2,000 individual contributions of $65 or less. Secretary of State Alexi Giannoulias leads the field with at least $3 million raised since June and $19.15 million cash on hand, bolstered by over $800,000 in union donations. Other candidates, including Comptroller Susana Mendoza and former Congressman Mike Quigley, have also disclosed multi‑million dollar war chests as the filing deadline approaches.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-10-16T11:58:36.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "politico-20261016-gov-jb-pritzker-and-wife-report-9-44-mil",
    "category": "elected_official",
@@ -1768,54 +1792,6 @@
    "flagged_for_review": false
   },
   {
-   "id": "conway-20260925-amended-plan-approved-for-70-unit-develo",
-   "category": "business",
-   "source_id": "conway",
-   "source_name": "Conway's Corner (34th Ward Office Newsletter)",
-   "source_type": "email_newsletter",
-   "title": "Amended plan approved for 70-unit development at 23 S. Sangamon with new community benefits",
-   "summary": "The Chicago City Council approved an amended plan for a 70-unit residential building at 23 S. Sangamon in the West Loop. The revision adds community benefits for Mary Bartelme Park, including the installation of public restrooms, and includes 3‑ and 4‑bedroom units aimed at helping families find housing in the area.",
-   "url": "https://www.ward34.org/",
-   "published_at": "2026-09-25T15:48:18.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "conway-20260925-new-ordinance-proposed-to-treat-data-cen",
-   "category": "civic_org",
-   "source_id": "conway",
-   "source_name": "Conway's Corner (34th Ward Office Newsletter)",
-   "source_type": "email_newsletter",
-   "title": "New ordinance proposed to treat data centers as Planned Developments and tighten environmental review",
-   "summary": "At a recent City Council meeting, an ordinance was introduced to require data centers to be classified as Planned Developments, mandate community review, increase environmental enforcement, and ban them in certain districts. The measure targets rising utility costs, air pollution, and water usage linked to data centers, and seeks immediate action despite potential litigation delays.",
-   "url": "https://www.ward34.org/",
-   "published_at": "2026-09-25T15:48:18.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "conway-20260925-call-for-hearings-on-amtrak-s-proposed-m",
-   "category": "civic_org",
-   "source_id": "conway",
-   "source_name": "Conway's Corner (34th Ward Office Newsletter)",
-   "source_type": "email_newsletter",
-   "title": "Call for hearings on Amtrak’s proposed Midwest Maintenance Facility at Canal Street Rail Yard",
-   "summary": "Ward leaders urged the City Council to hold hearings on Amtrak’s plan for a Midwest Maintenance Facility in the Canal Street Rail Yard. Neighbors have voiced concerns about potential environmental impacts, increased traffic, and noise, and the hearings will provide an opportunity to assess the project’s effects on the near‑west side community.",
-   "url": "https://www.ward34.org/",
-   "published_at": "2026-09-25T15:48:18.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "conway-20260925-ordinance-would-treat-data-centers-as-pl",
-   "category": "civic_org",
-   "source_id": "conway",
-   "source_name": "Conway's Corner (34th Ward Office Newsletter)",
-   "source_type": "email_newsletter",
-   "title": "Ordinance would treat data centers as Planned Developments and tighten environmental review",
-   "summary": "At the September City Council meeting Alderman Bill Conway introduced an ordinance to require data centers to be classified as Planned Developments, add community review, and ban them in certain districts. The measure aims to curb rising utility costs, air pollution, and water use linked to data centers. The mayor has suggested a year‑long moratorium, but the ordinance faces committee delays and possible litigation. Conway pledged to keep pushing the proposal.",
-   "url": "https://www.ward34.org/",
-   "published_at": "2026-09-25T15:48:18.000Z",
-   "flagged_for_review": false
-  },
-  {
    "id": "abc7-20260927-driver-runs-red-light-leading-to-rollove",
    "category": "civic_org",
    "source_id": "abc7",
@@ -1825,66 +1801,6 @@
    "summary": "A driver ran a red light early Saturday downtown Chicago, hitting a parked vehicle and causing a rollover crash, police said.",
    "url": "https://abc7chicago.com/post/chicago-crash-driver-runs-red-light-leading-rollover-ontario-wells-streets-river-north-police-say/19877600/",
    "published_at": "2026-09-27T13:00:23.673Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "conway-20260925-alderman-proposes-ordinance-to-tighten-r",
-   "category": "civic_org",
-   "source_id": "conway",
-   "source_name": "Conway's Corner (34th Ward Office Newsletter)",
-   "source_type": "email_newsletter",
-   "title": "Alderman proposes ordinance to tighten regulation of data centers",
-   "summary": "At a recent City Council meeting, Alderman Bill Conway introduced an ordinance that would treat data centers as Planned Developments, require community review, add environmental enforcement, and ban them in certain districts. The measure aims to address resident concerns about rising utility bills, air pollution, and water use. The Mayor’s proposed year‑long moratorium could be delayed by litigation, leaving developers able to continue breaking ground.",
-   "url": "https://www.ward34.org/",
-   "published_at": "2026-09-25T15:48:18.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "conway-20260925-calls-for-hearings-on-amtrak-midwest-mai",
-   "category": "civic_org",
-   "source_id": "conway",
-   "source_name": "Conway's Corner (34th Ward Office Newsletter)",
-   "source_type": "email_newsletter",
-   "title": "Calls for hearings on Amtrak Midwest Maintenance Facility at Canal Street Rail Yard",
-   "summary": "Alderman Conway joined colleagues in urging hearings on Amtrak’s proposed Midwest Maintenance Facility at the Canal Street Rail Yard. Neighbors have voiced concerns about potential impacts on the environment, traffic, and noise. The hearings will provide an opportunity for the community to learn more about the project.",
-   "url": "https://www.ward34.org/",
-   "published_at": "2026-09-25T15:48:18.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "conway-20260925-70-unit-residential-building-at-23-s-san",
-   "category": "business",
-   "source_id": "conway",
-   "source_name": "Conway's Corner (34th Ward Office Newsletter)",
-   "source_type": "email_newsletter",
-   "title": "70-unit residential building at 23 S. Sangamon moves forward with community benefits",
-   "summary": "Developers are proceeding with a 70‑unit building at 23 S. Sangamon in the West Loop. The amended plan, approved on Wednesday, adds community benefits for Mary Bartelme Park, including public restrooms. The project includes 3‑ and 4‑unit bedroom units aimed at helping families find homes in the West Loop.",
-   "url": "https://www.ward34.org/",
-   "published_at": "2026-09-25T15:48:18.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "conway-20260925-proposed-ordinance-targets-data-centers-",
-   "category": "civic_org",
-   "source_id": "conway",
-   "source_name": "Conway's Corner (34th Ward Office Newsletter)",
-   "source_type": "email_newsletter",
-   "title": "Proposed ordinance targets data centers over rising utility costs and pollution",
-   "summary": "Alderman introduced an ordinance to treat data centers as Planned Developments, require community review, and ban them in certain districts. The measure responds to resident concerns about spiking utility bills, air pollution, and water use. The Mayor has proposed a year‑long moratorium, but the ordinance seeks immediate action.",
-   "url": "https://www.ward34.org/",
-   "published_at": "2026-09-25T15:48:18.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "conway-20260925-lasalle-central-small-business-improveme",
-   "category": "business",
-   "source_id": "conway",
-   "source_name": "Conway's Corner (34th Ward Office Newsletter)",
-   "source_type": "email_newsletter",
-   "title": "LaSalle Central Small Business Improvement Fund opens applications through Sept. 30",
-   "summary": "The Department of Planning and Development’s Small Business Improvement Fund is accepting applications in the LaSalle Central TIF district until September 30. The grant provides reimbursement for permanent building improvements and repairs for eligible businesses. Interested owners can contact the ward office for more information.",
-   "url": "https://www.ward34.org/",
-   "published_at": "2026-09-25T15:48:18.000Z",
    "flagged_for_review": false
   },
   {
@@ -1909,66 +1825,6 @@
    "summary": "Officials said they have found no evidence of a shared infectious disease or a common environmental factor connecting their deaths with that of a 34-year-old whale that also died after living at the aquarium for decades.",
    "url": "https://blockclubchicago.org/2026/09/25/shedd-finds-gastrointestinal-disease-in-2-beluga-whales-from-marineland-that-died/",
    "published_at": "2026-09-25T21:20:12.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "conway-20260925-70-unit-residential-building-approved-at",
-   "category": "business",
-   "source_id": "conway",
-   "source_name": "Conway's Corner (34th Ward Office Newsletter)",
-   "source_type": "email_newsletter",
-   "title": "70‑unit residential building approved at 23 S. Sangamon with new park amenities",
-   "summary": "The Chicago City Council approved an amended plan on Wednesday for a 70‑unit residential building at 23 South Sangamon Street in the West Loop. The project now includes community benefits for Mary Bartelme Park, such as public restrooms, and offers 3‑ and 4‑bedroom units aimed at families. The development is expected to increase housing options in the neighborhood.",
-   "url": "https://www.ward34.org/",
-   "published_at": "2026-09-25T15:48:18.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "conway-20260925-proposed-ordinance-would-tighten-regulat",
-   "category": "civic_org",
-   "source_id": "conway",
-   "source_name": "Conway's Corner (34th Ward Office Newsletter)",
-   "source_type": "email_newsletter",
-   "title": "Proposed ordinance would tighten regulation of data centers citywide",
-   "summary": "At a Wednesday City Council meeting, Alderman Conway introduced an ordinance that would treat data centers as Planned Developments, require community review, add environmental enforcement, and ban them in certain districts. The mayor has suggested a year‑long moratorium, but the ordinance seeks immediate action to address rising utility costs, air pollution, and water use. The proposal could face litigation and committee delays.",
-   "url": "https://www.ward34.org/",
-   "published_at": "2026-09-25T15:48:18.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "conway-20260925-community-calls-for-hearings-on-amtrak-m",
-   "category": "civic_org",
-   "source_id": "conway",
-   "source_name": "Conway's Corner (34th Ward Office Newsletter)",
-   "source_type": "email_newsletter",
-   "title": "Community calls for hearings on Amtrak Midwest Maintenance Facility at Canal Street Rail Yard",
-   "summary": "Alderman Conway and fellow council members urged the city to hold hearings on Amtrak’s proposed Midwest Maintenance Facility located at the Canal Street Rail Yard. Neighbors have voiced concerns about potential environmental impacts, increased traffic, and noise. The hearings will provide an opportunity for residents to learn more about the project.",
-   "url": "https://www.ward34.org/",
-   "published_at": "2026-09-25T15:48:18.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "cbs-20260925-dine-in-at-labriola-italian-specialties-",
-   "category": "business",
-   "source_id": "cbs",
-   "source_name": "CBS News Chicago",
-   "source_type": "web_feed",
-   "title": "Dine in at Labriola Italian specialties in Fulton Market",
-   "summary": "Stop inside Labriola Italian specialties in Fulton Market with Jackie Kostek.",
-   "url": "https://www.cbsnews.com/chicago/video/dine-in-at-labriola-italian-specialties-in-fulton-market/",
-   "published_at": "2026-09-25T15:50:00.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260925-obama-center-hosting-black-harvest-film-",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Obama Center Hosting Black Harvest Film Festival Shorts Tuesday",
-   "summary": "Registration is currently full for \"Shorts from the Block: Black Harvest's Chicago Stories,\" but an onsite waitlist will be available for potential attendees.",
-   "url": "https://blockclubchicago.org/2026/09/25/obama-center-hosting-black-harvest-film-festival-shorts-tuesday/",
-   "published_at": "2026-09-25T15:59:43.000Z",
    "flagged_for_review": false
   }
  ]
