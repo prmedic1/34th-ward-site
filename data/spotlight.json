@@ -1,12 +1,12 @@
 {
  "_rotation_note": "The daily job picks the next business each morning - rotating among ward businesses with priority to spotlight requests from owners and newly opened spots. Keep yesterday's entries in history.",
  "current": {
-  "name": "Italian Village",
-  "address": "71 W. Monroe St, the Loop",
-  "website": "https://www.italianvillage-chicago.com/",
-  "image": "images/spotlight/italian-village.jpg?v=20260827",
-  "blurb": "Three Italian restaurants under one roof in the Loop, serving since 1927. From the old-world Village upstairs to the refined Vivere, it is a downtown institution.",
-  "date": "2026-10-16"
+  "name": "Miller's Pub",
+  "address": "134 S. Wabash Ave, the Loop",
+  "website": "https://www.millerspub.com/",
+  "image": "images/spotlight/millers-pub.jpg?v=20260828",
+  "blurb": "A Loop institution open late since 1935, known for baby back ribs, steaks, and a classic wood-paneled bar hung with celebrity photos.",
+  "date": "2026-10-17"
  },
  "history": [
   {
@@ -922,6 +922,14 @@
    "image": "images/spotlight/the-berghoff.jpg?v=20260903",
    "blurb": "Chicago's historic German restaurant, serving Wiener schnitzel, house root beer, and steins of beer in the Loop since 1898.",
    "date": "2026-10-15"
+  },
+  {
+   "name": "Italian Village",
+   "address": "71 W. Monroe St, the Loop",
+   "website": "https://www.italianvillage-chicago.com/",
+   "image": "images/spotlight/italian-village.jpg?v=20260827",
+   "blurb": "Three Italian restaurants under one roof in the Loop, serving since 1927. From the old-world Village upstairs to the refined Vivere, it is a downtown institution.",
+   "date": "2026-10-16"
   }
  ]
 }

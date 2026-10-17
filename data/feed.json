@@ -1,6 +1,18 @@
 {
- "generated_at": "2026-10-16T17:48:07.735Z",
+ "generated_at": "2026-10-17T13:00:24.466Z",
  "items": [
+  {
+   "id": "blockclub-20261016-savannah-bananas-are-coming-to-soldier-f",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Savannah Bananas Are Coming To Soldier Field Next Year. Here's How To Get Tickets",
+   "summary": "After selling out series at Sox Park and Wrigley Field over the past two years, the Bananas will return to the city for a third straight year, bringing their wacky brand of baseball to their largest Chicago venue yet.",
+   "url": "https://blockclubchicago.org/2026/10/16/savannah-bananas-are-coming-to-soldier-field-next-year-heres-how-to-get-tickets/",
+   "published_at": "2026-10-16T18:09:06.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "politico-20261016-alleged-mass-shooting-plot-foiled-at-aur",
    "category": "religious_org",
@@ -1801,30 +1813,6 @@
    "summary": "A driver ran a red light early Saturday downtown Chicago, hitting a parked vehicle and causing a rollover crash, police said.",
    "url": "https://abc7chicago.com/post/chicago-crash-driver-runs-red-light-leading-rollover-ontario-wells-streets-river-north-police-say/19877600/",
    "published_at": "2026-09-27T13:00:23.673Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260925-christkindlmarket-unveils-flute-glass-in",
-   "category": "business",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Christkindlmarket Unveils Flute Glass-Inspired Mugs, New Shot Glasses For 30th Anniversary",
-   "summary": "The popular German-style holiday market returns to the Loop and Wrigleyville with collectibles to celebrate its 30th year.",
-   "url": "https://blockclubchicago.org/2026/09/25/christkindlmarket-unveils-flute-glass-inspired-mugs-new-shot-glasses-for-30th-anniversary-season/",
-   "published_at": "2026-09-25T19:09:07.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260925-shedd-finds-gastrointestinal-disease-in-",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Shedd Finds Gastrointestinal Disease In 2 Beluga Whales From Marineland That Died",
-   "summary": "Officials said they have found no evidence of a shared infectious disease or a common environmental factor connecting their deaths with that of a 34-year-old whale that also died after living at the aquarium for decades.",
-   "url": "https://blockclubchicago.org/2026/09/25/shedd-finds-gastrointestinal-disease-in-2-beluga-whales-from-marineland-that-died/",
-   "published_at": "2026-09-25T21:20:12.000Z",
    "flagged_for_review": false
   }
  ]
