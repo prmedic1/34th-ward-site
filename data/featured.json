@@ -1,6 +1,24 @@
 {
  "_note": "The pinned Top Story on the homepage. 'current' shows at the top of the news area; move the old one into 'history' (newest first) when you swap it. type 'story' = a news writeup with a source link; type 'statement' = a released statement shown as a quote.",
- "current": null,
+ "current": {
+  "type": "story",
+  "kicker": "Top Story · School Board Election",
+  "headline": "Jesus Ayala Jr. earns Ald. Bill Conway’s endorsement in the District 7A school board race",
+  "image": "images/jesus-ayala-jr.jpg",
+  "image_alt": "Jesus Ayala Jr., candidate for Chicago Board of Education, District 7A",
+  "exclude_kw": "ayala",
+  "summary": "Jesus Ayala Jr., a CPS graduate and nonprofit leader, is challenging appointed incumbent Emma Lozano for the District 7A seat on the Chicago Board of Education, which includes the 34th Ward’s southwest corner, and his campaign announced he has been endorsed by Ald. Bill Conway. In written responses to 34th Ward News, Ayala laid out his priorities for the board, explained why he would have voted against the July budget, and described his work helping young people reach college and careers. Election day is November 3, and early voting runs in all 50 wards starting October 19.",
+  "source_name": "34th Ward News",
+  "url": "jesus-ayala-jr-district-7a.html",
+  "date": "2026-10-18",
+  "date_label": "October 18, 2026",
+  "pinned_at": "2026-10-18",
+  "expires": "2026-11-03",
+  "flag": "Election 2026",
+  "slug": "jesus-ayala-jr",
+  "image2": "images/district-7a-map.jpg?v=20261013b",
+  "image2_alt": "Map of Chicago School Board District 7A with the 34th Ward outlined in red"
+ },
  "history": [
   {
    "type": "story",
