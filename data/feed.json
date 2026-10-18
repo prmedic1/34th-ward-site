@@ -1,6 +1,31 @@
 {
- "generated_at": "2026-10-18T17:03:38.162Z",
+ "generated_at": "2026-10-18T23:46:56.858Z",
  "items": [
+  {
+   "id": "wca-20261018-wca-networking-night-at-pizza-lobo-nov-11",
+   "category": "business",
+   "source_id": "wca",
+   "source_name": "The WCA Weekly",
+   "source_type": "email_newsletter",
+   "title": "WCA networking night at newly opened Pizza Lobo, November 11",
+   "summary": "The West Central Association Chamber of Commerce is hosting a member networking event at Pizza Lobo, the newly opened pizzeria at 165 N. Morgan Street, on Wednesday, November 11, from 4 to 6 p.m. Pizza, drinks, and conversation with local members and professionals are on the menu.",
+   "url": "https://www.wcachicago.org",
+   "published_at": "2026-10-18T21:15:28.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "politico-20261018-kansas-senate-race-could-end-94-year-gop",
+   "category": "newsletter",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Kansas Senate race could end a 94-year Republican winning streak",
+   "summary": "POLITICO Forecast reports that Kansas, which has not elected a Democratic senator since 1932, is in play two weeks before the Nov. 3 midterms. Democrat Adam Hamilton, a local minister, is challenging Republican Sen. Roger Marshall, and President Trump is scheduled to rally in Park City, Kansas, on Monday. Democrats need a net gain of four seats to win back the Senate.",
+   "url": "https://www.politico.com/newsletters/politico-forecast",
+   "published_at": "2026-10-18T21:15:55.000Z",
+   "flagged_for_review": false,
+   "front_exclude": true
+  },
   {
    "id": "cbs-20261018-hotel-workers-on-strike-in-downtown-chic",
    "category": "civic_org",
