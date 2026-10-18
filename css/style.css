@@ -1142,16 +1142,19 @@ body.modal-open { overflow: hidden; }
 .np-lead.has-flag .np-lead-media { margin-top: 0; }
 .np-lead-media .np-lead-img:only-child { max-width: 100%; width: 100%; }
 /* Two side-by-side lead photos (e.g. a headshot plus a ward/context photo):
-   a balanced pair of equal-height images instead of one oversized picture. */
-.np-lead-media-two { align-items: stretch; gap: 2px; background: rgba(0, 0, 0, 0.55); }
+   each keeps its own shape, uncropped - up to half the card wide and 380px
+   tall - so square images (a headshot, a map) show whole instead of having
+   their tops and bottoms cut off by a wide frame. */
+.np-lead-media-two { align-items: center; gap: 10px; }
 .np-lead-media-two .np-lead-img,
 .np-lead-media-two .np-lead-img2 {
-  flex: 1 1 0;
-  width: 100%;
-  max-width: none;
-  height: 320px;
-  object-fit: cover;
+  flex: 0 1 auto;
+  width: auto;
+  max-width: calc(50% - 5px);
+  height: auto;
+  max-height: 380px;
   margin: 0;
+  border-radius: 6px;
 }
 @media (max-width: 700px) {
   .np-lead-media { display: block; }
