@@ -1,6 +1,18 @@
 {
- "generated_at": "2026-10-18T13:00:22.586Z",
+ "generated_at": "2026-10-18T17:03:38.162Z",
  "items": [
+  {
+   "id": "cbs-20261018-hotel-workers-on-strike-in-downtown-chic",
+   "category": "civic_org",
+   "source_id": "cbs",
+   "source_name": "CBS News Chicago",
+   "source_type": "web_feed",
+   "title": "Hotel workers on strike in downtown Chicago",
+   "summary": "Workers at the Hilton Chicago and Hyatt Regency Chicago hotels were officially on strike Sunday morning.",
+   "url": "https://www.cbsnews.com/chicago/video/hotel-workers-on-strike-in-downtown-chicago/",
+   "published_at": "2026-10-18T15:36:00.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "blockclub-20261016-savannah-bananas-are-coming-to-soldier-f",
    "category": "civic_org",
@@ -1801,18 +1813,6 @@
    "summary": "House hunters, this is your week. 3 may be the best week of the year to buy a home, according to a new Realtor. Nationwide, shoppers could find up to 32% more homes for sale than at the start of the year and face less competition than in spring and summer, per the report.",
    "url": "https://www.axios.com/local/chicago",
    "published_at": "2026-09-28T11:29:03.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "abc7-20260927-driver-runs-red-light-leading-to-rollove",
-   "category": "civic_org",
-   "source_id": "abc7",
-   "source_name": "ABC7 Chicago",
-   "source_type": "web_feed",
-   "title": "Driver runs red light, leading to rollover crash in River North, Chicago police say",
-   "summary": "A driver ran a red light early Saturday downtown Chicago, hitting a parked vehicle and causing a rollover crash, police said.",
-   "url": "https://abc7chicago.com/post/chicago-crash-driver-runs-red-light-leading-rollover-ontario-wells-streets-river-north-police-say/19877600/",
-   "published_at": "2026-09-27T13:00:23.673Z",
    "flagged_for_review": false
   }
  ]
