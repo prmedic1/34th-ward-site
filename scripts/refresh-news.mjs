@@ -289,7 +289,11 @@ async function main() {
     const pinned = cur && (cur.pinned_at || cur.date);
     if (cur && pinned) {
       const ageDays = (Date.now() - new Date(pinned + 'T12:00:00').getTime()) / 86400000;
-      if (ageDays >= 7) {
+      // An explicit "expires" date (YYYY-MM-DD) wins over the one-week rule, so a
+      // story can stay pinned longer (e.g. through an election day).
+      const todayChi = new Date().toLocaleDateString('en-CA', { timeZone: 'America/Chicago' });
+      const retire = cur.expires ? todayChi > cur.expires : ageDays >= 7;
+      if (retire) {
         featured.history = featured.history || [];
         featured.history.unshift(cur);
         featured.current = null;
