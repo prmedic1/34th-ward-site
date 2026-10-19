@@ -1,6 +1,66 @@
 {
- "generated_at": "2026-10-18T23:46:56.858Z",
+ "generated_at": "2026-10-19T13:01:00.771Z",
  "items": [
+  {
+   "id": "politico-20261019-white-sox-owner-says-final-decision-on-t",
+   "category": "business",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "White Sox owner says final decision on team’s future rests with Jerry Reinsdorf amid Amtrak railyard controversy",
+   "summary": "Minority owner Justin Ishbia told Block Club that any decision on the White Sox’s future is up to team chairman Jerry Reinsdorf, while Amtrak faced backlash over plans to open a railyard near the current stadium in the South Loop.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-10-19T12:01:41.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "politico-20261019-mayoral-hopefuls-begin-filing-petition-s",
+   "category": "elected_official",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Mayoral hopefuls begin filing petition signatures for 2027 ballot",
+   "summary": "Candidates Alexi Giannoulias, Mike Quigley, John Kelly, Mayor Brandon Johnson and Susana Mendoza are turning in petitions, needing 12,500 valid signatures; Giannoulias expects to submit 60,000 signatures and Quigley 42,000, with the filing deadline on Oct. 26.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-10-19T12:01:41.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "politico-20261019-four-illinois-members-of-congress-receiv",
+   "category": "elected_official",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Four Illinois members of Congress receive suspicious mail ahead of election",
+   "summary": "Reps. Jan Schakowsky, Brad Schneider, Mike Quigley and Robin Kelly reported envelopes containing powdery substances, prompting evacuations and investigations by Chicago police, U.S. Capitol Police and hazardous‑materials teams, which found no harmful material.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-10-19T12:01:41.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "axios-20261019-cpd-investigates-sexual-assault",
+   "category": "newsletter",
+   "source_id": "axios",
+   "source_name": "Axios Chicago",
+   "source_type": "email_newsletter",
+   "title": "CPD investigates sexual assault",
+   "summary": "The University of Chicago's Hyde Park campus. Christopher Dilts/Bloomberg via Getty Images Warning: This story includes reporting on sexual assault and rape. Chicago police have not made any arrests in a sexual assault case reported last week at a University of Chicago fraternity house.",
+   "url": "https://www.axios.com/local/chicago",
+   "published_at": "2026-10-19T11:29:16.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "wca-20261018-city-church-secures-permit-for-new-home-",
+   "category": "religious_org",
+   "source_id": "wca",
+   "source_name": "The WCA Weekly",
+   "source_type": "email_newsletter",
+   "title": "City Church Secures Permit for New Home at Adams & Paulina",
+   "summary": "City Church received a building permit to construct a new facility at the corner of Adams Street and Paulina Street. The new worship space will add a religious venue to the West Loop/Greektown neighborhood.",
+   "url": "https://www.wcachicago.org/",
+   "published_at": "2026-10-18T21:15:28.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "wca-20261018-wca-networking-night-at-pizza-lobo-nov-11",
    "category": "business",
@@ -1814,30 +1874,6 @@
    "summary": "Bridges along the Chicago River from DuSable Lake Shore Drive to 18th Street will be raised through mid-November, temporarily stopping traffic as boats pass through.",
    "url": "https://blockclubchicago.org/2026/09/28/chicagos-fall-bridge-lifts-start-wednesday-heres-the-schedule/",
    "published_at": "2026-09-28T18:43:43.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "politico-20260928-billionaire-michael-sacks-donates-2-5-mi",
-   "category": "business",
-   "source_id": "politico",
-   "source_name": "POLITICO Illinois Playbook",
-   "source_type": "email_newsletter",
-   "title": "Billionaire Michael Sacks donates $2.5 million to Common Ground Collective PAC backing anti‑CTU school board candidates",
-   "summary": "Michael Sacks contributed $2.5 million to the Common Ground Collective PAC, which supports candidates opposed to the Chicago Teachers Union in the upcoming school board president race, according to a State Board of Elections filing. The donation makes Sacks one of the largest financial players in the contest, coming as the CTU plans to spend millions on its own social‑media campaign. Sacks, a longtime civic leader, also faced a cease‑and‑desist letter from advertising firm Good Influence earlier this month over alleged false statements about his political role.",
-   "url": "https://www.politico.com/newsletters/illinois-playbook",
-   "published_at": "2026-09-28T12:01:49.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "axios-20260928-best-time-to-buy-a-house",
-   "category": "newsletter",
-   "source_id": "axios",
-   "source_name": "Axios Chicago",
-   "source_type": "email_newsletter",
-   "title": "Best time to buy a house",
-   "summary": "House hunters, this is your week. 3 may be the best week of the year to buy a home, according to a new Realtor. Nationwide, shoppers could find up to 32% more homes for sale than at the start of the year and face less competition than in spring and summer, per the report.",
-   "url": "https://www.axios.com/local/chicago",
-   "published_at": "2026-09-28T11:29:03.000Z",
    "flagged_for_review": false
   }
  ]
