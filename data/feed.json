@@ -1,6 +1,30 @@
 {
- "generated_at": "2026-10-19T16:57:55.734Z",
+ "generated_at": "2026-10-19T19:37:41.249Z",
  "items": [
+  {
+   "id": "cbs-20261019-chicago-police-issue-alert-after-19-cars",
+   "category": "civic_org",
+   "source_id": "cbs",
+   "source_name": "CBS News Chicago",
+   "source_type": "web_feed",
+   "title": "Chicago police issue alert after 19 cars stolen in West Town, West Loop in October",
+   "summary": "Chicago police issued a warning after nearly 20 cars were stolen in West Town, West Loop and Near West Side since the beginning of October.",
+   "url": "https://www.cbsnews.com/chicago/news/chicago-police-19-cars-stolen-west-town-west-loop-october/",
+   "published_at": "2026-10-19T15:39:18.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20261019-20-ways-to-celebrate-d-a-de-los-muertos-",
+   "category": "business",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "20 Ways To Celebrate Día De Los Muertos In Chicago: Ofrendas, Festivals And More",
+   "summary": "From art exhibits and theater to bar crawls and parties, here are various ways to celebrate the Day of the Dead in Chicago this month.",
+   "url": "https://blockclubchicago.org/2026/10/19/20-ways-to-celebrate-dia-de-los-muertos-in-chicago-ofrendas-festivals-and-more/",
+   "published_at": "2026-10-19T13:17:00.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "igwl-20261019-judges-on-your-ballot-virtual-talk-oct-20",
    "category": "civic_org",
@@ -1898,18 +1922,6 @@
    "summary": "From parades and bar crawls to costume contests and theater productions, there are plenty of ways to celebrate Halloween in Chicago this fall.",
    "url": "https://blockclubchicago.org/2026/09/29/your-ultimate-chicago-halloween-guide-70-parties-parades-markets-and-family-fun/",
    "published_at": "2026-09-29T12:24:37.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260928-chicago-s-fall-bridge-lifts-start-wednes",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Chicago’s Fall Bridge Lifts Start Wednesday. Here’s The Schedule",
-   "summary": "Bridges along the Chicago River from DuSable Lake Shore Drive to 18th Street will be raised through mid-November, temporarily stopping traffic as boats pass through.",
-   "url": "https://blockclubchicago.org/2026/09/28/chicagos-fall-bridge-lifts-start-wednesday-heres-the-schedule/",
-   "published_at": "2026-09-28T18:43:43.000Z",
    "flagged_for_review": false
   }
  ]
