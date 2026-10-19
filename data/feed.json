@@ -1,6 +1,42 @@
 {
- "generated_at": "2026-10-19T13:01:00.771Z",
+ "generated_at": "2026-10-19T16:57:55.734Z",
  "items": [
+  {
+   "id": "igwl-20261019-judges-on-your-ballot-virtual-talk-oct-20",
+   "category": "civic_org",
+   "source_id": "igwl",
+   "source_name": "Indivisible Greater West Loop",
+   "source_type": "email_newsletter",
+   "title": "Virtual Talk on Researching the Judges on Your Ballot, Tuesday Oct. 20",
+   "summary": "Indivisible Greater West Loop and Injustice Watch are hosting a free virtual conversation on Tuesday, Oct. 20, from 7 to 8 p.m. about the role of judges in Cook County and how voters can research the judicial candidates on their ballots. Early voting is now open in Chicago, with the midterm election on Nov. 3.",
+   "url": "https://www.indivisiblegwlchi.org",
+   "published_at": "2026-10-19T12:46:01.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "igwl-20261019-friday-rush-hour-get-out-the-vote",
+   "category": "civic_org",
+   "source_id": "igwl",
+   "source_name": "Indivisible Greater West Loop",
+   "source_type": "email_newsletter",
+   "title": "Friday Rush Hour Get-Out-the-Vote Actions Continue Through Election Day",
+   "summary": "IGWL is holding a roadside Rush Hour Resistance visibility action every Friday from 4:30 to 6 p.m. until the election, with the next one on Friday, Oct. 23, to encourage neighbors to vote. The group also staffs a table at the West Loop Farmers Market on Saturdays from 8 to 11:30 a.m. and has a Voter Resource Hub covering ballot races, advisory questions and polling places.",
+   "url": "https://www.indivisiblegwlchi.org",
+   "published_at": "2026-10-19T12:46:01.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "igwl-20261019-paint-sip-give-fundraiser-nov-18",
+   "category": "civic_org",
+   "source_id": "igwl",
+   "source_name": "Indivisible Greater West Loop",
+   "source_type": "email_newsletter",
+   "title": "Paint, Sip, Give Holiday Fundraiser Set for Nov. 18",
+   "summary": "IGWL and Chicago Sip & Paint are hosting a ticketed paint-and-sip holiday fundraiser on Wednesday, Nov. 18, from 6 to 8:30 p.m., with proceeds going to a local organization. The group's book club will also meet in person on Nov. 11 to discuss its next selection.",
+   "url": "https://www.indivisiblegwlchi.org",
+   "published_at": "2026-10-19T12:46:01.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "politico-20261019-white-sox-owner-says-final-decision-on-t",
    "category": "business",
