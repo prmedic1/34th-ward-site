@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-20T13:01:00.941Z",
+ "generated_at": "2026-10-20T14:50:20.374Z",
  "items": [
   {
    "id": "politico-20261020-gov-jb-pritzker-hinted-at-a-2028-preside",
@@ -31,7 +31,7 @@
    "source_id": "politico",
    "source_name": "POLITICO Illinois Playbook",
    "source_type": "email_newsletter",
-   "title": "Mayoral poll shows mixed support for Mayor Brandon Johnson ahead of 2026 election",
+   "title": "Mayoral poll shows mixed support for Mayor Brandon Johnson ahead of 2027 election",
    "summary": "A new poll released as mayoral candidates filed petitions shows many Chicago voters remain dissatisfied with Mayor Brandon Johnson’s performance and that likely voters express limited enthusiasm for his reelection bid. The poll was reported by the Chicago Tribune.",
    "url": "https://www.politico.com/newsletters/illinois-playbook",
    "published_at": "2026-10-20T12:01:36.000Z",
@@ -675,18 +675,6 @@
    "published_at": "2026-10-11T21:38:40.000Z",
    "flagged_for_review": false,
    "front_exclude": true
-  },
-  {
-   "id": "politico-20261013-mayor-brandon-johnson-to-speak-at-leclai",
-   "category": "elected_official",
-   "source_id": "politico",
-   "source_name": "POLITICO Illinois Playbook",
-   "source_type": "email_newsletter",
-   "title": "Mayor Brandon Johnson to speak at LeClaire Courts groundbreaking on West Loop site",
-   "summary": "Mayor Brandon Johnson will give remarks at the LeClaire Courts groundbreaking at 4809 W. 44th St. in the West Loop on Oct. 13 at 12:15 p.m., a new mixed‑use development aimed at adding affordable housing to the Near West Side.",
-   "url": "https://www.politico.com/newsletters/illinois-playbook",
-   "published_at": "2026-10-13T12:03:03.000Z",
-   "flagged_for_review": false
   },
   {
    "id": "politico-20261013-united-working-families-endorses-mayor-b",
