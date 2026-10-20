@@ -1,6 +1,102 @@
 {
- "generated_at": "2026-10-19T19:37:41.249Z",
+ "generated_at": "2026-10-20T13:01:00.941Z",
  "items": [
+  {
+   "id": "politico-20261020-gov-jb-pritzker-hinted-at-a-2028-preside",
+   "category": "elected_official",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Gov. JB Pritzker hinted at a 2028 presidential run",
+   "summary": "All signs point to a 2028 presidential run for Gov. JB Pritzker, though he has not announced it. He is preparing through his Ready for the Fight PAC and has his political team in place. Pritzker’s Think Big America group recently donated $250,000 to a Missouri anti‑gerrymander campaign, signaling national ambitions.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-10-20T12:01:36.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "politico-20261020-governor-pritzker-expresses-optimism-on-",
+   "category": "business",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Governor Pritzker expresses optimism on Chicago Bears stadium negotiations",
+   "summary": "Governor JB Pritzker signaled renewed optimism that negotiations will keep the Chicago Bears at their current stadium, countering GOP challenger Darren Bailey’s claim the team may move to Indiana. Stadium negotiators have hinted at momentum as the election approaches.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-10-20T12:01:36.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "politico-20261020-mayoral-poll-shows-mixed-support-for-may",
+   "category": "elected_official",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Mayoral poll shows mixed support for Mayor Brandon Johnson ahead of 2026 election",
+   "summary": "A new poll released as mayoral candidates filed petitions shows many Chicago voters remain dissatisfied with Mayor Brandon Johnson’s performance and that likely voters express limited enthusiasm for his reelection bid. The poll was reported by the Chicago Tribune.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-10-20T12:01:36.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "axios-20261020-candidates-deliver-petitions",
+   "category": "newsletter",
+   "source_id": "axios",
+   "source_name": "Axios Chicago",
+   "source_type": "email_newsletter",
+   "title": "Candidates deliver petitions",
+   "summary": "Mayoral candidates lined up outside the Chicago Board of Elections yesterday to deliver their nominating petitions for the city's top job in 2027. The ritual - which saw hundreds lining up for other municipal seats - kicks off what promises to be one of Chicago's most colorful election seasons. Monday's mayoral applicants, who still must survive brutal petition challenges, include: Illinois Secretary of State.",
+   "url": "https://www.axios.com/local/chicago",
+   "published_at": "2026-10-20T11:27:15.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "abc7-20261020-police-activity-outside-chicago-federal-",
+   "category": "civic_org",
+   "source_id": "abc7",
+   "source_name": "ABC7 Chicago",
+   "source_type": "web_feed",
+   "title": "Police activity outside Chicago Federal Building in Loop",
+   "summary": "There has been a heavy police presence outside the Chicago Federal Building in the Loop Tuesday morning.",
+   "url": "https://abc7chicago.com/post/police-activity-outside-chicago-federal-building-loop/19959212/",
+   "published_at": "2026-10-20T13:00:27.682Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "abc7-20261020-chicago-protesters-urge-continued-us-sup",
+   "category": "civic_org",
+   "source_id": "abc7",
+   "source_name": "ABC7 Chicago",
+   "source_type": "web_feed",
+   "title": "Chicago protesters urge continued US support for Ukraine amid escalating Russian strikes",
+   "summary": "Protesters gathered in downtown Chicago on Monday evening, calling on the Trump administration to continue supporting Ukraine as Russian airstrikes intensified.",
+   "url": "https://abc7chicago.com/post/russia-ukraine-war-news-chicago-protest-held-urge-continued-us-support-ukrainians-amid-escalating-russian-strikes/19957806/",
+   "published_at": "2026-10-20T13:00:27.682Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "cbs-20261020-police-rush-to-kluczynski-federal-buildi",
+   "category": "civic_org",
+   "source_id": "cbs",
+   "source_name": "CBS News Chicago",
+   "source_type": "web_feed",
+   "title": "Police rush to Kluczynski Federal Building after report of shots fired",
+   "summary": "Police rushed to the area around the Kluczynski Federal Building in downtown Chicago early Tuesday morning after a report of shots fired.",
+   "url": "https://www.cbsnews.com/chicago/news/police-rush-kluczynski-federal-building-report-shots-fired/",
+   "published_at": "2026-10-20T12:11:23.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "cbs-20261020-report-of-shots-fired-near-kluczynski-fe",
+   "category": "civic_org",
+   "source_id": "cbs",
+   "source_name": "CBS News Chicago",
+   "source_type": "web_feed",
+   "title": "Report of shots fired near Kluczynski Federal Building in downtown Chicago",
+   "summary": "Police rushed to the area around the Kluczynski Federal Building in downtown Chicago early Tuesday morning after a report of shots fired. Darius Johnson reports.",
+   "url": "https://www.cbsnews.com/chicago/video/report-of-shots-fired-near-kluczynski-federal-building-in-downtown-chicago/",
+   "published_at": "2026-10-20T12:07:00.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "cbs-20261019-chicago-police-issue-alert-after-19-cars",
    "category": "civic_org",
@@ -1850,78 +1946,6 @@
    "summary": "Chicago police need help to find a group of thieves who have broken into at least 40 cars in the last few weeks on the Near South Side.",
    "url": "https://www.cbsnews.com/chicago/news/chicago-car-burglaries-south-loop-bronzeville-near-south-side/",
    "published_at": "2026-09-29T16:20:00.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "politico-20260929-city-council-budget-accountability-coali",
-   "category": "elected_official",
-   "source_id": "politico",
-   "source_name": "POLITICO Illinois Playbook",
-   "source_type": "email_newsletter",
-   "title": "City Council Budget Accountability Coalition urges mayor to avoid property tax hike in 2027 budget",
-   "summary": "A bloc of 29 aldermen, calling themselves the City Council Budget Accountability Coalition, sent Mayor Brandon Johnson a letter demanding no property tax increase, no head tax, and no counting of unapproved Springfield money in the 2027 budget. The aldermen cite an $882.4 million budget gap and reference a $3 million Ernst & Young efficiency review that identified over $1 billion in potential savings. Mayor Johnson responded that the council’s ideas are welcome but must be grounded in realistic revenue and savings estimates.",
-   "url": "https://www.politico.com/newsletters/illinois-playbook",
-   "published_at": "2026-09-29T12:02:15.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "politico-20260929-illinois-impact-awards-honor-rivian-hyun",
-   "category": "business",
-   "source_id": "politico",
-   "source_name": "POLITICO Illinois Playbook",
-   "source_type": "email_newsletter",
-   "title": "Illinois Impact Awards honor Rivian, Hyundai Translead and state quantum‑microelectronics team",
-   "summary": "The Illinois Economic Development Corp. announced the inaugural Illinois Impact Awards, recognizing Rivian as Innovator of the Year, Hyundai Translead for Large Development of the Year, and the team behind the Illinois Quantum and Microelectronics Park as Partner of the Year. The awards aim to spotlight companies and projects driving investment across the state. Winners will be honored at a ceremony on Thursday.",
-   "url": "https://www.politico.com/newsletters/illinois-playbook",
-   "published_at": "2026-09-29T12:02:15.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "axios-20260929-let-the-playoffs-begin",
-   "category": "newsletter",
-   "source_id": "axios",
-   "source_name": "Axios Chicago",
-   "source_type": "email_newsletter",
-   "title": "Let the playoffs begin",
-   "summary": "Playoff baseball is back for both sides of Chicago. Both the Cubs and Sox will start their 2026 Wild Card Series today. The White Sox will take on the Astros in Houston at 4pm, while the Cubs will travel to San Diego to play the Padres at 9pm.",
-   "url": "https://www.axios.com/local/chicago",
-   "published_at": "2026-09-29T11:29:05.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "cbs-20260929-automated-self-sanitizing-public-restroo",
-   "category": "civic_org",
-   "source_id": "cbs",
-   "source_name": "CBS News Chicago",
-   "source_type": "web_feed",
-   "title": "Automated self-sanitizing public restroom under construction in West Town",
-   "summary": "The self-sanitizing pod is equipped with a power-washing system that cleans and disinfects the toilet and the floor for a few minutes after each use.",
-   "url": "https://www.cbsnews.com/chicago/news/self-sanitizing-public-restroom-west-town/",
-   "published_at": "2026-09-29T03:52:37.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "cbs-20260929-automated-self-cleaning-restroom-being-i",
-   "category": "civic_org",
-   "source_id": "cbs",
-   "source_name": "CBS News Chicago",
-   "source_type": "web_feed",
-   "title": "Automated self-cleaning restroom being installed in West Town",
-   "summary": "The bathrooms are in some U.S. cities, like San Francisco and Paris has over 400. In fact, the one in West Town is a decommissioned one from a French company.",
-   "url": "https://www.cbsnews.com/chicago/video/automated-self-cleaning-restroom-being-installed-in-west-town/",
-   "published_at": "2026-09-29T03:39:00.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260929-your-ultimate-chicago-halloween-guide-70",
-   "category": "business",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Your Ultimate Chicago Halloween Guide: 70+ Parties, Parades, Markets And Family Fun",
-   "summary": "From parades and bar crawls to costume contests and theater productions, there are plenty of ways to celebrate Halloween in Chicago this fall.",
-   "url": "https://blockclubchicago.org/2026/09/29/your-ultimate-chicago-halloween-guide-70-parties-parades-markets-and-family-fun/",
-   "published_at": "2026-09-29T12:24:37.000Z",
    "flagged_for_review": false
   }
  ]
