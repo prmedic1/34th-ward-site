@@ -1,6 +1,18 @@
 {
- "generated_at": "2026-10-20T14:50:20.374Z",
+ "generated_at": "2026-10-20T18:18:38.553Z",
  "items": [
+  {
+   "id": "cbs-20261020-suspect-in-custody-after-shots-are-fired",
+   "category": "civic_org",
+   "source_id": "cbs",
+   "source_name": "CBS News Chicago",
+   "source_type": "web_feed",
+   "title": "Suspect in custody after shots are fired near Chicago's Kluczynski Federal Building",
+   "summary": "A suspect was in custody Tuesday morning after shots were fired near the Kluczynski Federal Building in downtown Chicago. Darius Johnson reports.",
+   "url": "https://www.cbsnews.com/chicago/video/suspect-in-custody-after-shots-are-fired-near-chicagos-kluczynski-federal-building/",
+   "published_at": "2026-10-20T14:05:00.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "politico-20261020-gov-jb-pritzker-hinted-at-a-2028-preside",
    "category": "elected_official",
@@ -1922,18 +1934,6 @@
    "summary": "Grab a pumpkin, watch a spooky movie or enjoy a witchy bike ride in and around Chicago this month.",
    "url": "https://blockclubchicago.org/2026/09/30/13-things-to-do-outside-in-chicago-this-october-2/",
    "published_at": "2026-09-30T12:30:00.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "cbs-20260929-chicago-police-investigating-string-of-4",
-   "category": "civic_org",
-   "source_id": "cbs",
-   "source_name": "CBS News Chicago",
-   "source_type": "web_feed",
-   "title": "Chicago police investigating string of 40 car burglaries in Bronezville and South Loop",
-   "summary": "Chicago police need help to find a group of thieves who have broken into at least 40 cars in the last few weeks on the Near South Side.",
-   "url": "https://www.cbsnews.com/chicago/news/chicago-car-burglaries-south-loop-bronzeville-near-south-side/",
-   "published_at": "2026-09-29T16:20:00.000Z",
    "flagged_for_review": false
   }
  ]
