@@ -1,45 +1,72 @@
 {
- "_note": "Upcoming community meetings and neighborhood-group events shown in the carve-out box on the homepage front page. Civic meetings come from the 34th Ward newsletter (Conway's Corner); the Indivisible Greater West Loop events come from that chapter's Mobilize page (mobilize.us/indivisiblegwlchi). Optional fields: 'org' (a small source label) and 'url' (makes the title a link). Exact venues for the Indivisible events are gated behind RSVP, so 'location' is only filled where publicly verified and the link carries the rest. The homepage shows only future-dated items, soonest first, and drops them once they pass. Refresh Indivisible events from their Mobilize page.",
- "updated_at": "2026-10-09",
+ "_note": "Upcoming community meetings and neighborhood-group events shown in the carve-out box on the homepage front page. Civic meetings come from the 34th Ward newsletter (Conway's Corner), the West Central Association and West Loop Community Organization newsletters, and the CCPSA public meeting calendar (ccpsa.chicago.gov/public-meeting-calendar, which lists the 1st and 12th District Council meetings); the Indivisible Greater West Loop events come from that chapter's Mobilize page (mobilize.us/indivisiblegwlchi). Optional fields: 'org' (a small source label) and 'url' (makes the title a link). Exact venues for the Indivisible events are gated behind RSVP, so 'location' is only filled where publicly verified and the link carries the rest. The homepage shows only future-dated items, soonest first, and drops them once they pass. Refresh Indivisible events from their Mobilize page.",
+ "updated_at": "2026-10-21",
  "meetings": [
   {
-   "title": "CAPS Meeting, Beat 122",
-   "date": "2026-10-14",
+   "title": "CAPS Meeting, Beat 132",
+   "date": "2026-10-21",
    "time": "5:00 PM",
-   "location": "555 W. Madison",
-   "desc": "Chicago Alternative Policing Strategy meeting with the 12th District, a chance to meet police, neighbors, and the ward team about local safety."
+   "location": "Long Grove House, 2001 S. Michigan",
+   "desc": "Chicago Alternative Policing Strategy meeting with the 1st District, a chance to meet police, neighbors, and the ward team about local safety."
   },
   {
-   "title": "CAPS Meeting, Beat 124",
-   "date": "2026-10-14",
+   "title": "Community Commission for Public Safety and Accountability, Monthly Meeting",
+   "date": "2026-10-29",
+   "time": "6:30 PM",
+   "org": "CCPSA",
+   "location": "Benito Juarez High School, 1450 W. Cermak Rd.",
+   "desc": "The citywide police oversight commission's monthly public meeting, open to all residents.",
+   "url": "https://ccpsa.chicago.gov/public-meeting-calendar/"
+  },
+  {
+   "title": "Trick or Treat for Tots",
+   "date": "2026-10-30",
+   "time": "3:00 PM",
+   "org": "West Central Association",
+   "location": "Madison St., from Elizabeth to Morgan",
+   "desc": "Families are invited to dress up and trick-or-treat along Madison Street, 3 to 6 PM."
+  },
+  {
+   "title": "Halloween at Mary Bartelme Park",
+   "date": "2026-10-31",
+   "time": "9:30 AM",
+   "org": "34th Ward",
+   "location": "Mary Bartelme Park, 115 S. Sangamon",
+   "desc": "The 34th Ward team and the Mary Bartelme Park Advisory Council host a family Halloween celebration with live music and a balloon artist, 9:30 to 11:30 AM."
+  },
+  {
+   "title": "WCA Speaker Series and Annual Meeting",
+   "date": "2026-11-05",
+   "time": "12:00 PM",
+   "org": "West Central Association",
+   "location": "West Loop or Greektown, location to be announced",
+   "desc": "Lunch, networking, and a conversation with the team behind the proposed O'Hare Flyer, followed by Q&A, noon to 2 PM. Tickets required, seating is limited."
+  },
+  {
+   "title": "WCA Networking at Pizza Lobo",
+   "date": "2026-11-11",
+   "time": "4:00 PM",
+   "org": "West Central Association",
+   "location": "Pizza Lobo, 165 N. Morgan St.",
+   "desc": "Pizza, drinks, and conversation with WCA members and local professionals at the newly opened Pizza Lobo, 4 to 6 PM."
+  },
+  {
+   "title": "1st District Council Monthly Meeting",
+   "date": "2026-11-17",
    "time": "6:00 PM",
-   "location": "1135 S. Delano Court",
-   "desc": "Chicago Alternative Policing Strategy meeting with the 12th District, a chance to meet police, neighbors, and the ward team about local safety."
+   "org": "CCPSA",
+   "location": "John B. Drake Elementary School, 2710 S. Dearborn St.",
+   "desc": "The elected 1st Police District Council's monthly public meeting on policing and public safety in the district.",
+   "url": "https://ccpsa.chicago.gov/public-meeting-calendar/"
   },
   {
-   "title": "CAPS Meeting, Beat 1214",
-   "date": "2026-10-14",
-   "time": "7:00 PM",
-   "location": "333 N. Green",
-   "desc": "Chicago Alternative Policing Strategy meeting with the 12th District, a chance to meet police, neighbors, and the ward team about local safety."
-  },
-  {
-   "title": "Don't Boo, Vote! A Family-Friendly Ballot Prep Party",
-   "date": "2026-10-15",
-   "time": "6:00 PM",
-   "org": "Indivisible Greater West Loop",
-   "location": "Whitney M. Young Magnet High School, Near West Side",
-   "desc": "A family-friendly event to get ready for the November 3rd election, with help reading your ballot before you vote.",
-   "url": "https://www.mobilize.us/indivisiblegwlchi/event/1025733/"
-  },
-  {
-   "title": "Show Up Chicago: Election Preview",
-   "date": "2026-10-19",
-   "time": "7:00 PM",
-   "org": "Indivisible Greater West Loop",
-   "location": "The Hideout",
-   "desc": "An election-preview community night ahead of the November 3rd election, hosted by Indivisible Greater West Loop.",
-   "url": "https://www.mobilize.us/indivisiblegwlchi/event/1057864/"
+   "title": "12th District Council Monthly Meeting",
+   "date": "2026-11-17",
+   "time": "6:30 PM",
+   "org": "CCPSA",
+   "location": "Dvorak Park, 1119 W. Cullerton St.",
+   "desc": "The elected 12th Police District Council's monthly public meeting on policing and public safety in the district.",
+   "url": "https://ccpsa.chicago.gov/public-meeting-calendar/"
   }
  ]
 }
