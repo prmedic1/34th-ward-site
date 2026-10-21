@@ -1,4 +1,4 @@
-const DATA_V = '20261021b';
+const DATA_V = '20261021c';
 // Daily-refreshed data must revalidate on every load, so the morning update
 // shows right away instead of a returning browser serving yesterday's copy.
 const NOCACHE = { cache: 'no-cache' };
@@ -118,12 +118,17 @@ fetch('data/meetings.json?d=' + DATA_V, NOCACHE)
     const today = new Date().toLocaleDateString('en-CA', { timeZone: 'America/Chicago' });
     // Drop any meeting whose date has already passed; the box scrolls to fit
     // however many remain.
+    // A multi-day event is one entry ('date' = first day, 'date_end' = last day)
+    // and stays up until its last day passes; it sorts by its next day.
+    const lastDay = (m) => m.date_end || m.date;
+    const nextDay = (m) => (m.date >= today ? m.date : today);
     const up = (data.meetings || [])
-      .filter((m) => m.date >= today)
-      .sort((a, b) => a.date.localeCompare(b.date));
+      .filter((m) => lastDay(m) >= today)
+      .sort((a, b) => nextDay(a).localeCompare(nextDay(b)));
     if (!up.length) return;
     const MON = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
     const when = (m) => {
+      if (m.when_label) return escapeHtml(m.when_label);
       const p = m.date.split('-'); const d = new Date(+p[0], +p[1] - 1, +p[2]);
       const day = m.date === today ? 'Today' : (MON[d.getMonth()] + ' ' + d.getDate());
       return day + (m.time ? ' &middot; ' + escapeHtml(m.time) : '');
