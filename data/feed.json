@@ -1,6 +1,42 @@
 {
- "generated_at": "2026-10-21T14:28:29.565Z",
+ "generated_at": "2026-10-21T18:21:28.032Z",
  "items": [
+  {
+   "id": "wlco-20261020-midwest-performance-cars-becomes-officia",
+   "category": "business",
+   "source_id": "wlco",
+   "source_name": "West Loop Community Organization",
+   "source_type": "email_newsletter",
+   "title": "Midwest Performance Cars becomes official Toys for Tots drop‑off site",
+   "summary": "Starting Monday, November 2, Midwest Performance Cars at 2105 W Fulton St will accept donated toys for the Toys for Tots program. The shop invites the West Loop community to drop off items throughout the holiday season.",
+   "url": "https://www.westloop.org/",
+   "published_at": "2026-10-20T21:22:22.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "wlco-20261020-montessori-academy-of-chicago-hosts-open",
+   "category": "civic_org",
+   "source_id": "wlco",
+   "source_name": "West Loop Community Organization",
+   "source_type": "email_newsletter",
+   "title": "Montessori Academy of Chicago hosts open house on Nov. 7",
+   "summary": "The Montessori Academy of Chicago will hold an open house on Saturday, November 7 from 12:00 to 1:30 p.m. Prospective families can tour the school, meet staff, and learn about its programs.",
+   "url": "https://www.westloop.org/",
+   "published_at": "2026-10-20T21:22:22.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20261021-chicago-s-thriller-flash-mob-bigger-than",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Chicago's Thriller' Flash Mob Bigger Than Ever After 14 Years",
+   "summary": "The dance group started as a pop-up in 2012 with seven dancers. Now, more than 160 people will be performing the “Thriller” dance at the Haunted Halsted Halloween Parade on Oct. 31.",
+   "url": "https://blockclubchicago.org/2026/10/21/chicagos-thriller-flash-mob-bigger-than-ever-after-14-years/",
+   "published_at": "2026-10-21T13:00:00.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "politico-20261020-lame-duck-foreign-policy-outlook",
    "category": "newsletter",
@@ -1947,18 +1983,6 @@
    "summary": "The musician and vocal coach released his fifth album \"R Beyond\" last month. He plays Pitch Pour Supper Club on the West Side Friday.",
    "url": "https://blockclubchicago.org/2026/09/30/rb-artist-manasseh-a-south-side-native-showcases-local-collaborations-on-new-album/",
    "published_at": "2026-09-30T21:15:16.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "cbs-20260930-chicago-to-install-dedicated-bus-lane-on",
-   "category": "civic_org",
-   "source_id": "cbs",
-   "source_name": "CBS News Chicago",
-   "source_type": "web_feed",
-   "title": "Chicago to install dedicated bus lane on northbound Michigan Avenue downtown",
-   "summary": "Seeking to reduce delays for CTA riders in downtown Chicago, officials plan to install a new dedicated bus lane on Michigan Avenue.",
-   "url": "https://www.cbsnews.com/chicago/news/michigan-avenue-dedicated-cta-bus-lane-downtown-loop/",
-   "published_at": "2026-09-30T17:55:39.000Z",
    "flagged_for_review": false
   }
  ]
