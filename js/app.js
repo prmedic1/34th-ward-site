@@ -1,4 +1,4 @@
-const DATA_V = '20261021a';
+const DATA_V = '20261021b';
 // Daily-refreshed data must revalidate on every load, so the morning update
 // shows right away instead of a returning browser serving yesterday's copy.
 const NOCACHE = { cache: 'no-cache' };
@@ -145,10 +145,10 @@ fetch('data/meetings.json?d=' + DATA_V, NOCACHE)
   })
   .catch((err) => console.error('Failed to load meetings', err));
 
-// The Front Page: six stories, newspaper style. One story per source first
-// (for variety), then backfill from productive sources so it always fills six.
+// The Front Page: seven stories, newspaper style. One story per source first
+// (never two from the same source), filled from the productive sources up to seven.
 const FRONT_ORDER = ['blockclub', 'wlco', 'wca', 'axios', 'politico', 'conway', 'igwl', 'wardwatch', 'eater', 'cbs', 'abc7'];
-const FRONT_COUNT = 6;
+const FRONT_COUNT = 7;
 
 Promise.all([
   fetch('data/news_sources.json?d=' + DATA_V, NOCACHE).then((r) => r.json()),
@@ -259,7 +259,7 @@ Promise.all([
     add(lead, true);
     // One Conway story (the ward's own newsletter), rotated by day.
     add(rotatedOf('conway'));
-    // Fill the rest of the six from the other sources, freshest first.
+    // Fill the rest of the seven from the other sources, freshest first.
     for (const it of reps.slice().sort(byDate)) {
       if (picks.length >= FRONT_COUNT) break;
       add(it);
@@ -321,7 +321,7 @@ Promise.all([
       }
 
       // Split the REST so the card height needed to level the bottoms
-      // (leftStories - rightStories) lands near min(naturalCard, half a column).
+      // (leftStories - rightStories) lands near min(naturalCard, a third of the column).
       const m = rest.length;
       const restTotal = rest.reduce((s, x) => s + x.h, 0);
       let best = null;
@@ -331,9 +331,12 @@ Promise.all([
         const boxOuter = La - Rb;                                // card height that levels the bottoms
         if (boxOuter < 60) continue;                             // card must be a real box
         if (m && !mask) continue;                                // always keep a story beneath the card
-        // The card grows toward its full height (owner: extend it so the two
-        // columns come out even); no half-column cap any more.
-        const score = Math.abs(boxOuter - natBox);
+        // Owner rule: the card never runs more than ONE THIRD of the way down
+        // the column. Its height only evens out the two columns; the rest of
+        // its list scrolls.
+        const cap = La / 3;
+        if (boxOuter > cap + 0.5) continue;
+        const score = Math.abs(boxOuter - Math.min(natBox, cap));
         if (!best || score < best.score) best = { mask, score };
       }
       if (best) {
@@ -345,8 +348,11 @@ Promise.all([
       }
 
       // Size the card so the columns bottom out together (measured, so borders
-      // and margins are accounted for); it scrolls if its list is longer.
+      // and margins are accounted for); it scrolls if its list is longer, and
+      // is hard-capped at a third of the column.
+      const third = colA.getBoundingClientRect().height / 3;
       let boxH = natBox + (colA.getBoundingClientRect().height - colB.getBoundingClientRect().height);
+      if (boxH > third) boxH = third;
       if (boxH < 120) boxH = 120;
       meetingsEl.style.height = boxH + 'px';
     }
