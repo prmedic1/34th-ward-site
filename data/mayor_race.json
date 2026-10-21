@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-10-21T14:29:00.573Z",
+  "updated_at": "2026-10-21T15:06:32.652Z",
   "election_date": "February 23, 2027",
   "kalshi_event": "KXCHICAGOMAYOR-27",
   "kalshi_url": "https://kalshi.com/markets/kxchicagomayor",
-  "note": "Blended from prediction markets (Kalshi weight 3, PredictionEdge and Manifold weight 1 each) and recent polling (first-round ballot, weight 1), normalized to 100% across the tracked candidates. A mix of market win-odds and current polling; candidates with no data are floored near 0.5%.",
+  "note": "Blended from prediction markets (Kalshi weight 3, PredictionEdge and Manifold weight 1 each) and recent polling (M3 Strategies and the Mansueto Institute / NORC ChicagoSpeaks first-choice results, weight 1 each), normalized to 100% across the tracked candidates. Candidates with no data are floored near 0.5%.",
   "candidates": [
     {
       "name": "Alexi Giannoulias",
@@ -13,12 +13,15 @@
       "badge": "Favorite",
       "badgeColor": "blue",
       "image": "images/candidates/giannoulias.jpg",
-      "pct": 59.4,
-      "kalshi_raw": 75,
+      "pct": 56.5,
+      "kalshi_raw": 74,
       "pe_raw": 67,
       "manifold_raw": 65.1,
       "campaign_url": "https://alexiforus.com/",
-      "poll_raw": 17.6
+      "poll_raw": 17.6,
+      "polls": {
+        "mansueto_2026q3": 24.9
+      }
     },
     {
       "name": "Matthew Brewer",
@@ -28,11 +31,14 @@
       "image": "images/candidates/brewer.jpg?v=20260916",
       "badge": "Underdog",
       "badgeColor": "yellow",
-      "pct": 1.3,
+      "pct": 1.2,
       "kalshi_raw": 1,
       "pe_raw": 4,
       "manifold_raw": 1.1,
-      "poll_raw": 0.3
+      "poll_raw": 0.3,
+      "polls": {
+        "mansueto_2026q3": 0.1
+      }
     },
     {
       "name": "Brandon Johnson",
@@ -42,12 +48,15 @@
       "badge": "Incumbent",
       "badgeColor": "green",
       "image": "images/candidates/johnson.jpg?v=20260916",
-      "pct": 11.5,
+      "pct": 12.3,
       "kalshi_raw": 7.9,
       "pe_raw": 16,
       "manifold_raw": 12.8,
       "campaign_url": "https://www.brandonforchicago.com/",
-      "poll_raw": 20.1
+      "poll_raw": 20.1,
+      "polls": {
+        "mansueto_2026q3": 13.6
+      }
     },
     {
       "name": "Susana Mendoza",
@@ -55,12 +64,15 @@
       "status": "declared",
       "order": 4,
       "image": "images/candidates/mendoza.jpg",
-      "pct": 9.3,
+      "pct": 9.7,
       "kalshi_raw": 9.9,
       "pe_raw": 9,
       "manifold_raw": 9,
       "campaign_url": "https://susanamendoza.com/",
-      "poll_raw": 11.2
+      "poll_raw": 11.2,
+      "polls": {
+        "mansueto_2026q3": 9.5
+      }
     },
     {
       "name": "Maria Pappas",
@@ -68,12 +80,15 @@
       "status": "declared",
       "order": 5,
       "image": "images/candidates/pappas.jpg",
-      "pct": 0.8,
+      "pct": 1.3,
       "kalshi_raw": 0.1,
       "pe_raw": null,
       "manifold_raw": 3.1,
       "campaign_url": "https://www.mariapappas.net/",
-      "poll_raw": 0.9
+      "poll_raw": 0.9,
+      "polls": {
+        "mansueto_2026q3": 3.3
+      }
     },
     {
       "name": "Mike Quigley",
@@ -81,12 +96,15 @@
       "status": "declared",
       "order": 6,
       "image": "images/candidates/quigley.jpg",
-      "pct": 2.1,
+      "pct": 2.4,
       "kalshi_raw": 2.1,
       "pe_raw": 4,
       "manifold_raw": 0.8,
       "campaign_url": "https://www.quigleyforchicago.com/",
-      "poll_raw": 2.3
+      "poll_raw": 2.3,
+      "polls": {
+        "mansueto_2026q3": 3.6
+      }
     },
     {
       "name": "Willie Wilson",
@@ -94,12 +112,15 @@
       "status": "declared",
       "order": 7,
       "image": "images/candidates/wilson.jpg",
-      "pct": 3.5,
+      "pct": 4,
       "kalshi_raw": 3,
       "pe_raw": 6,
       "manifold_raw": 0.1,
       "campaign_url": "https://drwilliewilson.com/",
-      "poll_raw": 6.9
+      "poll_raw": 6.9,
+      "polls": {
+        "mansueto_2026q3": 6
+      }
     },
     {
       "name": "John Kelly",
@@ -109,7 +130,7 @@
       "badge": "Conservative",
       "badgeColor": "red",
       "image": "images/candidates/kelly.jpg",
-      "pct": 2.6,
+      "pct": 2.7,
       "kalshi_raw": null,
       "pe_raw": null,
       "manifold_raw": 0.4,
@@ -122,12 +143,15 @@
       "status": "declared",
       "order": 9,
       "image": "images/candidates/holberg.jpg",
-      "pct": 1.2,
+      "pct": 1.3,
       "kalshi_raw": 1.3,
       "pe_raw": 2,
       "manifold_raw": 0.6,
       "campaign_url": "https://www.joeforchicago.com/",
-      "poll_raw": 0.9
+      "poll_raw": 0.9,
+      "polls": {
+        "mansueto_2026q3": 1.7
+      }
     },
     {
       "name": "George Cardenas",
@@ -141,7 +165,10 @@
       "kalshi_raw": 1,
       "pe_raw": 1,
       "manifold_raw": 0.7,
-      "poll_raw": 0.2
+      "poll_raw": 0.2,
+      "polls": {
+        "mansueto_2026q3": 0.5
+      }
     },
     {
       "name": "Dr. Lisa Nee",
@@ -163,7 +190,7 @@
       "badge": "Conservative",
       "badgeColor": "red",
       "image": "images/candidates/carter-walters.jpg",
-      "pct": 6.5,
+      "pct": 6.8,
       "kalshi_raw": null,
       "pe_raw": null,
       "campaign_url": "https://www.dannicformayor.com/",
@@ -181,5 +208,29 @@
       "poll_raw": null,
       "manifold_raw": 0.7
     }
-  ]
+  ],
+  "polls": {
+    "m3_strategies": {
+      "name": "M3 Strategies",
+      "field": "poll_raw",
+      "note": "First-round ballot share, blended since 2026-09-01."
+    },
+    "mansueto_2026q3": {
+      "name": "Mansueto Institute / NORC ChicagoSpeaks, 2026 Q3",
+      "fielded": "2026-09-13 to 2026-09-23",
+      "released": "2026-10-19",
+      "sample": "1,108 adult Chicago residents, 935 likely voters",
+      "moe": "+/- 4.11 points (adults)",
+      "question": "In the 2027 election for Chicago mayor, who is your first choice candidate?",
+      "not_sure": 33.9,
+      "url": "https://bpb-us-w2.wpmucdn.com/voices.uchicago.edu/dist/1/1010/files/2026/10/ChicagoSpeaks_2025Q3.pdf",
+      "not_asked": [
+        "John Kelly",
+        "Dr. Lisa Nee",
+        "Danielle Carter-Walters",
+        "Bill Quinlan"
+      ],
+      "excitement_not_used": "The same report's 'excited for each candidate' figures (Giannoulias 58.9, Mendoza 46.3, Pappas 39.0, Johnson 31.6, Wilson 30.0, Quigley 29.0, Conway 16.5, Cardenas 16.1) measure enthusiasm, not vote share, so they are NOT blended."
+    }
+  }
 }

@@ -64,7 +64,8 @@ async function refreshKalshi() {
   } catch { /* keep stored manifold_raw on network failure */ }
 
   // Blend: weighted average of the sources. Kalshi gets 3x (real-money,
-  // freshest), PredictionEdge, Manifold, and the M3 Strategies poll 1x each.
+  // freshest), PredictionEdge, Manifold, and each poll (M3 Strategies in
+  // poll_raw, later polls in c.polls) 1x each.
   // Kalshi/PE/Manifold are market win-odds; poll_raw is that candidate's
   // first-round ballot share from the latest poll (set by hand when a new poll
   // lands). Candidates with no data get a 0.5% floor, then everything is
@@ -87,6 +88,11 @@ async function refreshKalshi() {
     if (typeof c.pe_raw === 'number') { sum += c.pe_raw * W_PE; w += W_PE; }
     if (typeof c.manifold_raw === 'number') { sum += c.manifold_raw * W_MANIFOLD; w += W_MANIFOLD; }
     if (typeof c.poll_raw === 'number') { sum += c.poll_raw * W_POLL; w += W_POLL; }
+    // Additional polls (c.polls = { pollId: first-choice % }), each its own
+    // source at the poll weight. Poll ids and details live in data.polls.
+    for (const v of Object.values(c.polls || {})) {
+      if (typeof v === 'number') { sum += v * W_POLL; w += W_POLL; }
+    }
     return w ? sum / w : FLOOR;
   });
   const total = rawVals.reduce((a, b) => a + b, 0);
