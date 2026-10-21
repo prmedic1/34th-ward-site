@@ -1,6 +1,31 @@
 {
- "generated_at": "2026-10-21T13:00:55.261Z",
+ "generated_at": "2026-10-21T14:28:29.565Z",
  "items": [
+  {
+   "id": "politico-20261020-lame-duck-foreign-policy-outlook",
+   "category": "newsletter",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "What a post-midterm White House could mean for foreign policy",
+   "summary": "POLITICO Forecast looks at how presidents facing a divided Congress often turn their attention abroad, and what that could mean after the Nov. 3 midterms, from Ukraine and Iran to NATO troop levels. The newsletter also reports that Michael Bloomberg is spending at least $80 million to help Democratic candidates in the final stretch. Ukraine's president said U.S. intelligence-sharing has resumed after talks in Oslo.",
+   "url": "https://www.politico.com/newsletters/politico-forecast",
+   "published_at": "2026-10-20T21:02:50.000Z",
+   "flagged_for_review": false,
+   "front_exclude": true
+  },
+  {
+   "id": "politico-20261021-city-sticker-ticket-waiver-pilot",
+   "category": "elected_official",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Proposed pilot would let low-income residents seek relief on $200 city sticker tickets",
+   "summary": "An ordinance filed Tuesday at City Council would create a pilot program letting low-income Chicagoans apply for a waiver or reduction of the city's $200 city sticker ticket based on financial need. It was filed by City Clerk Anna Valencia with Alds. Matt Martin (47th) and Nicole Lee (11th). The Clerk's office is also working on a three-month amnesty program.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-10-21T12:01:54.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "politico-20261021-senate-debate-pits-democrat-juliana-stra",
    "category": "elected_official",
@@ -31,8 +56,8 @@
    "source_id": "politico",
    "source_name": "POLITICO Illinois Playbook",
    "source_type": "email_newsletter",
-   "title": "Jesus Ayala Jr. receives Ald. Bill Conway endorsement in District 7A school board race",
-   "summary": "In the District 7A school board race, candidate Jesus Ayala Jr. was endorsed by Alderman Bill Conway, a move that could shape the composition of the local school board. The endorsement was noted in the Playbook’s “Business of Politics” section alongside other local races and reflects Conway’s influence on education issues in the 34th Ward area. Ayala’s campaign is expected to focus on community concerns such as school funding and curriculum decisions.",
+   "title": "District 7A school board race: Jesus Ayala Jr. picks up a local endorsement",
+   "summary": "POLITICO's Illinois Playbook reports that District 7A school board candidate Jesus Ayala Jr. has been endorsed by the 34th Ward alderman. The note ran in the Playbook's Business of Politics roundup alongside other down-ballot races. Chicago's elected school board races are on the Nov. 3 ballot.",
    "url": "https://www.politico.com/newsletters/illinois-playbook",
    "published_at": "2026-10-21T12:01:54.000Z",
    "flagged_for_review": false
