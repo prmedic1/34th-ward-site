@@ -90,10 +90,15 @@ async function refreshKalshi() {
     if (typeof c.poll_raw === 'number') { sum += c.poll_raw * W_POLL; w += W_POLL; }
     // Additional polls (c.polls = { pollId: first-choice % }), each its own
     // source at the poll weight. Poll ids and details live in data.polls.
-    for (const v of Object.values(c.polls || {})) {
-      if (typeof v === 'number') { sum += v * W_POLL; w += W_POLL; }
+    // Owner rule: a candidate a poll LEFT OUT counts as 0% in that poll
+    // (absence from polling is a negative, not a gap to ignore).
+    for (const [pid, info] of Object.entries(data.polls || {})) {
+      if (info.field) continue; // legacy poll stored in its own field (poll_raw)
+      const v = c.polls && typeof c.polls[pid] === 'number' ? c.polls[pid] : 0;
+      sum += v * W_POLL; w += W_POLL;
     }
-    return w ? sum / w : FLOOR;
+    // Small display floor so no declared candidate reads as exactly 0%.
+    return w ? Math.max(sum / w, 0.1) : FLOOR;
   });
   const total = rawVals.reduce((a, b) => a + b, 0);
   data.candidates.forEach((c, i) => {
