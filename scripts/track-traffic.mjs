@@ -35,6 +35,8 @@ async function main() {
   // Track the Nathan Bean article's own page views so we can see whether it
   // moves overall traffic (key comes from the analytics.js per-page slug).
   const article = await readCounter('page-nathan-bean-34th-ward-race-html');
+  // Same for the Jesus Ayala Jr. article (ran in Politico Illinois Playbook 10/21).
+  const ayala = await readCounter('page-jesus-ayala-jr-district-7a-html');
   if (total == null) {
     console.log('Traffic: counter unreachable today (non-fatal).');
     return;
@@ -51,6 +53,7 @@ async function main() {
   const last = log.length ? log[log.length - 1] : null;
   const viewsToday = last && typeof last.total === 'number' ? Math.max(0, total - last.total) : null;
   const articleViews = last && typeof last.article_total === 'number' && article != null ? Math.max(0, article - last.article_total) : null;
+  const ayalaViews = last && typeof last.ayala_total === 'number' && ayala != null ? Math.max(0, ayala - last.ayala_total) : null;
 
   // Verdict vs the trailing week of daily views.
   const recent = log.map((d) => d.views).filter((v) => typeof v === 'number').slice(-7);
@@ -63,11 +66,11 @@ async function main() {
     else verdict = 'usual';
   }
 
-  log.push({ date: today, total, visitors, views: viewsToday, article_total: article, article_views: articleViews, verdict });
+  log.push({ date: today, total, visitors, views: viewsToday, article_total: article, article_views: articleViews, ayala_total: ayala, ayala_views: ayalaViews, verdict });
   if (log.length > 400) log = log.slice(-400);
   await writeFile(LOG, JSON.stringify(log, null, 1) + '\n');
 
-  console.log(`Traffic: ${verdict}${viewsToday != null ? ` (${viewsToday} views yesterday-to-now, ${total} all-time)` : ` (baseline ${total} views logged)`}${article != null ? ` | Bean article: ${article} all-time${articleViews != null ? `, ${articleViews} today` : ''}` : ''}`);
+  console.log(`Traffic: ${verdict}${viewsToday != null ? ` (${viewsToday} views yesterday-to-now, ${total} all-time)` : ` (baseline ${total} views logged)`}${article != null ? ` | Bean article: ${article} all-time${articleViews != null ? `, ${articleViews} today` : ''}` : ''}${ayala != null ? ` | Ayala article: ${ayala} all-time${ayalaViews != null ? `, ${ayalaViews} today` : ''}` : ''}`);
 }
 
 main().catch((e) => {
