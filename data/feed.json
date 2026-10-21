@@ -1,6 +1,90 @@
 {
- "generated_at": "2026-10-20T18:18:38.553Z",
+ "generated_at": "2026-10-21T13:00:55.261Z",
  "items": [
+  {
+   "id": "politico-20261021-senate-debate-pits-democrat-juliana-stra",
+   "category": "elected_official",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Senate debate pits Democrat Juliana Stratton against Republican Don Tracy",
+   "summary": "The Illinois U.S. Senate debate on Oct. 20 featured Democratic Lt. Gov. Juliana Stratton and Republican Don Tracy discussing Trump’s influence, the war in Iran, energy policy, a $25 federal minimum wage, Medicare for All, and immigration enforcement. Stratton linked rising costs to Trump’s policies and called for a $25 minimum wage and Medicare for All, while Tracy warned that a higher minimum wage would hurt small businesses and advocated for expanded domestic energy production. The debate was moderated by Brandis Friedman and highlighted the candidates’ contrasting foreign‑policy and economic approaches.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-10-21T12:01:54.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "politico-20261021-two-seiu-locals-endorse-alexi-giannoulia",
+   "category": "civic_org",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Two SEIU locals endorse Alexi Giannoulias for Chicago mayor",
+   "summary": "SEIU Local 73 and another chapter announced on Tuesday that they are backing Alexi Giannoulias in the upcoming mayoral race, signaling a split in the city’s progressive labor movement. Local 73 President Dian Palmer said Giannoulias would support union contracts for public employees and help win negotiations, contrasting with the union’s previous support for Mayor Brandon Johnson in 2024. The endorsement follows a dispute with the Chicago Teachers Union over organizing efforts and comes as SEIU locals have contributed more than $4.5 million to Johnson’s 2023 campaign.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-10-21T12:01:54.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "politico-20261021-jesus-ayala-jr-receives-ald-bill-conway-",
+   "category": "civic_org",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Jesus Ayala Jr. receives Ald. Bill Conway endorsement in District 7A school board race",
+   "summary": "In the District 7A school board race, candidate Jesus Ayala Jr. was endorsed by Alderman Bill Conway, a move that could shape the composition of the local school board. The endorsement was noted in the Playbook’s “Business of Politics” section alongside other local races and reflects Conway’s influence on education issues in the 34th Ward area. Ayala’s campaign is expected to focus on community concerns such as school funding and curriculum decisions.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-10-21T12:01:54.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "axios-20261021-the-corporate-head-tax-returns",
+   "category": "newsletter",
+   "source_id": "axios",
+   "source_name": "Axios Chicago",
+   "source_type": "email_newsletter",
+   "title": "The corporate head tax returns",
+   "summary": "Scott Olson/Getty Images Mayor Brandon Johnson's head tax will rise again in his 2027 budget - albeit with tweaks - in a plan he's scheduled to unveil today. The revived head tax, along with a higher cloud computing tax and $480 million in borrowing to pay off police settlements, could face stiff resistance from alders. They successfully blocked Johnson's budget last year and have proven increasingly wary of.",
+   "url": "https://www.axios.com/local/chicago",
+   "published_at": "2026-10-21T11:28:40.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "wlco-20261020-community-commission-for-public-safety-a",
+   "category": "civic_org",
+   "source_id": "wlco",
+   "source_name": "West Loop Community Organization",
+   "source_type": "email_newsletter",
+   "title": "Community Commission for Public Safety and Accountability public meeting scheduled for Oct 29",
+   "summary": "The Community Commission for Public Safety and Accountability will hold a public meeting on October 29. The meeting will address public safety and accountability topics that affect all Chicago neighborhoods. Residents of the 34th Ward are encouraged to attend and participate in the discussion.",
+   "url": "https://www.westloop.org/",
+   "published_at": "2026-10-20T21:22:22.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "wlco-20261020-mary-bartelme-park-halloween-celebration",
+   "category": "civic_org",
+   "source_id": "wlco",
+   "source_name": "West Loop Community Organization",
+   "source_type": "email_newsletter",
+   "title": "Mary Bartelme Park Halloween celebration planned for Oct 31",
+   "summary": "A Halloween celebration will take place at Mary Bartelme Park on October 31 from 9:30 to 11:30 a.m. The event includes live music, a balloon artist, and other family‑friendly spooky surprises. The 34th Ward team and the park advisory council are hosting the festivities for the community.",
+   "url": "https://www.westloop.org/",
+   "published_at": "2026-10-20T21:22:22.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "wlco-20261020-randolph-row-holiday-stroll-set-for-dec-",
+   "category": "business",
+   "source_id": "wlco",
+   "source_name": "West Loop Community Organization",
+   "source_type": "email_newsletter",
+   "title": "Randolph Row Holiday Stroll set for Dec 10 with West Loop shop deals",
+   "summary": "The annual Randolph Row Holiday Stroll returns on December 10, inviting shoppers to explore West Loop businesses along Randolph Row. Participating stores will offer special discounts and promotions throughout the day. The event is promoted as a family‑friendly way to celebrate the holiday season.",
+   "url": "https://www.westloop.org/",
+   "published_at": "2026-10-20T21:22:22.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "cbs-20261020-suspect-in-custody-after-shots-are-fired",
    "category": "civic_org",
@@ -1850,90 +1934,6 @@
    "summary": "Seeking to reduce delays for CTA riders in downtown Chicago, officials plan to install a new dedicated bus lane on Michigan Avenue.",
    "url": "https://www.cbsnews.com/chicago/news/michigan-avenue-dedicated-cta-bus-lane-downtown-loop/",
    "published_at": "2026-09-30T17:55:39.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260930-chicago-youth-stored-their-pandemic-live",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Chicago Youth Stored Their Pandemic Lives In Time Capsules. Now, You Can Look Inside",
-   "summary": "The “Look Back to Go Forward” exhibit displays artifacts kids and teens put in time capsules in 2021 and gives visitors a chance to reflect on their own pandemic experiences.",
-   "url": "https://blockclubchicago.org/2026/09/30/chicago-youth-stored-their-pandemic-lives-in-time-capsules-now-you-can-look-inside/",
-   "published_at": "2026-09-30T13:00:00.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "politico-20260930-city-transfers-2008-parking-meter-lease-",
-   "category": "business",
-   "source_id": "politico",
-   "source_name": "POLITICO Illinois Playbook",
-   "source_type": "email_newsletter",
-   "title": "City transfers 2008 parking meter lease to Stonepeak Partners for $2.53 billion",
-   "summary": "The Chicago City Council voted 46‑3 to approve the sale of the remaining years of the 2008 parking meter lease to New York‑based Stonepeak Partners for roughly $2.53 billion. Chicago will receive an upfront payment of $75 million, a 5 percent share of future net revenues, and a 2 percent right to any future resale price. Officials say the funds and revenue stream will be directed toward reducing the city’s pension obligations, and the deal gives the city more flexibility to shut down meters for special events without paying compensation.",
-   "url": "https://www.politico.com/newsletters/illinois-playbook",
-   "published_at": "2026-09-30T12:02:44.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "politico-20260930-city-council-adopts-30-vote-threshold-fo",
-   "category": "elected_official",
-   "source_id": "politico",
-   "source_name": "POLITICO Illinois Playbook",
-   "source_type": "email_newsletter",
-   "title": "City Council adopts 30‑vote threshold for new debt proposals",
-   "summary": "In a move that defies the mayor’s position, the Chicago City Council approved a rule requiring a supermajority of 30 votes to approve any new municipal debt. The change aims to tighten fiscal oversight and limit the administration’s ability to incur additional borrowing without broad council support.",
-   "url": "https://www.politico.com/newsletters/illinois-playbook",
-   "published_at": "2026-09-30T12:02:44.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "politico-20260930-after-school-matters-fundraiser-raises-n",
-   "category": "civic_org",
-   "source_id": "politico",
-   "source_name": "POLITICO Illinois Playbook",
-   "source_type": "email_newsletter",
-   "title": "After School Matters fundraiser raises nearly $2.7 million",
-   "summary": "The After School Matters fundraiser attracted a crowd of 500, including civic leader Nora Daley and Cook County Commissioner John Daley, and generated almost $2.7 million for the organization’s youth programs.",
-   "url": "https://www.politico.com/newsletters/illinois-playbook",
-   "published_at": "2026-09-30T12:02:44.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "axios-20260930-united-ceo-aims-high",
-   "category": "newsletter",
-   "source_id": "axios",
-   "source_name": "Axios Chicago",
-   "source_type": "email_newsletter",
-   "title": "United CEO aims high",
-   "summary": "United Airlines CEO Scott Kirby wants the airline's home base to be the best in the world. In a new interview with the \"Office Hours: Business Edition\" podcast, Kirby lays out an ambitious vision: Make O'Hare the world's No. Kirby's vision could supercharge Chicago's status as a global aviation hub - or put even more pressure on an air traffic control system already struggling to keep up.",
-   "url": "https://www.axios.com/local/chicago",
-   "published_at": "2026-09-30T11:29:03.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260930-culver-s-coming-to-former-aurelio-s-spot",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Culver’s Coming To Former Aurelio's Spot In South Loop",
-   "summary": "The Wisconsin-based fast-food chain is planning to open at 1212 S. Michigan Ave., in the former Aurelio’s Pizza space.",
-   "url": "https://blockclubchicago.org/2026/09/30/culvers-coming-to-former-aurelios-spot-in-south-loop/",
-   "published_at": "2026-09-30T12:33:00.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260930-13-things-to-do-outside-in-chicago-this-",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "13 Things To Do Outside In Chicago This October",
-   "summary": "Grab a pumpkin, watch a spooky movie or enjoy a witchy bike ride in and around Chicago this month.",
-   "url": "https://blockclubchicago.org/2026/09/30/13-things-to-do-outside-in-chicago-this-october-2/",
-   "published_at": "2026-09-30T12:30:00.000Z",
    "flagged_for_review": false
   }
  ]
