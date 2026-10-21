@@ -1,4 +1,4 @@
-const DATA_V = '20261019a';
+const DATA_V = '20261021a';
 // Daily-refreshed data must revalidate on every load, so the morning update
 // shows right away instead of a returning browser serving yesterday's copy.
 const NOCACHE = { cache: 'no-cache' };
@@ -113,7 +113,9 @@ fetch('data/featured.json?d=' + DATA_V, NOCACHE)
 fetch('data/meetings.json?d=' + DATA_V, NOCACHE)
   .then((r) => r.json())
   .then((data) => {
-    const today = new Date().toISOString().slice(0, 10);
+    // Chicago's calendar date (UTC rolls over at 7pm here and would drop
+    // tonight's meetings early).
+    const today = new Date().toLocaleDateString('en-CA', { timeZone: 'America/Chicago' });
     // Drop any meeting whose date has already passed; the box scrolls to fit
     // however many remain.
     const up = (data.meetings || [])
@@ -210,7 +212,11 @@ Promise.all([
         && !(excludeRe && excludeRe.test((it.title || '') + ' ' + (it.summary || ''))))
         .sort(byDate);
       if (!list.length) return undefined;
-      return list[Math.floor(Date.now() / 86400000) % list.length];
+      // Count days from the newest batch's arrival: day 0 shows its first item,
+      // day 1 the next, and so on, then older items, so a fresh batch always
+      // leads and each later day brings a different story.
+      const days = Math.floor((Date.now() - new Date(list[0].published_at).getTime()) / 86400000);
+      return list[Math.max(0, days) % list.length];
     };
 
     // Dedupe near-identical stories (titles sharing 3+ significant words).
@@ -223,9 +229,9 @@ Promise.all([
     const add = (story, isLead) => {
       if (!story || used.has(story.id)) return;
       const once = ONCE.has(story.source_id);
-      // Politico and Axios are curated once-a-day sources: never let a second
-      // item from either onto the page (yesterday's can linger in the feed).
-      if (once && picks.some((p) => p.story.source_id === story.source_id)) return;
+      // RULE (owner): never more than ONE story from the same source on the
+      // front page, for every source, in every pass.
+      if (picks.some((p) => p.story.source_id === story.source_id)) return;
       const words = sigOf(story);
       // The two curated sources always run (one each) even if they echo another
       // headline; every other story is dropped when it duplicates one already up.
@@ -234,19 +240,27 @@ Promise.all([
       picks.push({ src: sources[story.source_id], story, count: countFor(story.source_id), isLead: !!isLead });
     };
 
+    // Newsletters send several items in one batch. Show one per day and rotate
+    // through the rest on later days, so the week keeps getting new information
+    // instead of a source's whole batch landing at once.
+    const BATCH = new Set(['conway', 'wlco', 'wca', 'igwl', 'skyline', 'wardwatch']);
+    // Each source's single candidate for today: rotated for batch newsletters,
+    // freshest for the news feeds.
+    const reps = FRONT_ORDER.filter((sid) => !ONCE.has(sid) || sid === 'conway')
+      .map((sid) => (BATCH.has(sid) ? rotatedOf(sid) : fresh.filter((it) => it.source_id === sid).sort(byDate)[0]))
+      .filter((it) => it && isFresh(it));
+
     // Front page section: Politico first, then Axios - one of each, never more.
     add(recentOf('politico'));
     add(recentOf('axios'));
     // Then the biggest local story from another source, as the emphasized lead.
-    const lead = fresh.slice()
-      .sort((a, b) => (localScore(b) - localScore(a)) || byDate(a, b))
-      .find((it) => !used.has(it.id) && !ONCE.has(it.source_id));
+    const lead = reps.filter((it) => it.source_id !== 'conway')
+      .sort((a, b) => (localScore(b) - localScore(a)) || byDate(a, b))[0];
     add(lead, true);
-    // One Conway story (the ward's own newsletter), rotated by day so several
-    // relevant items get featured across the week rather than all at once.
+    // One Conway story (the ward's own newsletter), rotated by day.
     add(rotatedOf('conway'));
-    // Backfill the rest of the six, freshest first.
-    for (const it of fresh.slice().sort(byDate)) {
+    // Fill the rest of the six from the other sources, freshest first.
+    for (const it of reps.slice().sort(byDate)) {
       if (picks.length >= FRONT_COUNT) break;
       add(it);
     }
@@ -316,9 +330,10 @@ Promise.all([
         const La = pinnedH + (restTotal - Rb);                   // left column stories (pinned + rest-in-A)
         const boxOuter = La - Rb;                                // card height that levels the bottoms
         if (boxOuter < 60) continue;                             // card must be a real box
-        const cap = La / 2;                                      // never over half the column
-        if (boxOuter > cap + 0.5) continue;
-        const score = Math.abs(boxOuter - Math.min(natBox, cap));
+        if (m && !mask) continue;                                // always keep a story beneath the card
+        // The card grows toward its full height (owner: extend it so the two
+        // columns come out even); no half-column cap any more.
+        const score = Math.abs(boxOuter - natBox);
         if (!best || score < best.score) best = { mask, score };
       }
       if (best) {
@@ -330,10 +345,8 @@ Promise.all([
       }
 
       // Size the card so the columns bottom out together (measured, so borders
-      // and margins are accounted for), then hard-cap it at half the column.
-      const half = colA.getBoundingClientRect().height / 2;
+      // and margins are accounted for); it scrolls if its list is longer.
       let boxH = natBox + (colA.getBoundingClientRect().height - colB.getBoundingClientRect().height);
-      if (boxH > half) boxH = half;
       if (boxH < 120) boxH = 120;
       meetingsEl.style.height = boxH + 'px';
     }

@@ -1,5 +1,5 @@
 {
- "_note": "Upcoming community meetings and neighborhood-group events shown in the carve-out box on the homepage front page. Civic meetings come from the 34th Ward newsletter (Conway's Corner), the West Central Association and West Loop Community Organization newsletters, and the CCPSA public meeting calendar (ccpsa.chicago.gov/public-meeting-calendar, which lists the 1st and 12th District Council meetings); the Indivisible Greater West Loop events come from that chapter's Mobilize page (mobilize.us/indivisiblegwlchi). Optional fields: 'org' (a small source label) and 'url' (makes the title a link). Exact venues for the Indivisible events are gated behind RSVP, so 'location' is only filled where publicly verified and the link carries the rest. The homepage shows only future-dated items, soonest first, and drops them once they pass. Refresh Indivisible events from their Mobilize page.",
+ "_note": "Upcoming community meetings and neighborhood-group events shown in the carve-out box on the homepage front page. Civic meetings come from the 34th Ward newsletter (Conway's Corner), the West Central Association and West Loop Community Organization newsletters, and the CCPSA public meeting calendar (ccpsa.chicago.gov/public-meeting-calendar, which lists the 1st and 12th District Council meetings); the Indivisible Greater West Loop events come from that chapter's Mobilize page (mobilize.us/indivisiblegwlchi). Optional fields: 'org' (a small source label) and 'url' (makes the title a link). Exact venues for the Indivisible events are gated behind RSVP, so 'location' is only filled where publicly verified and the link carries the rest. The homepage shows only future-dated items, soonest first, and drops them once they pass. Refresh Indivisible events from their Mobilize page. Indivisible's own calendar is the Teamup agenda embedded on indivisiblegwlchi.org (teamup.com/ks9bd5wmfv7ks27vmy, has venues); it lists IGWL events plus partner Indivisible Chicago canvasses and phone banks. Dan's rule (2026-10-21): this is a community hub, publish every verified event we know about.",
  "updated_at": "2026-10-21",
  "meetings": [
   {
@@ -8,6 +8,101 @@
    "time": "5:00 PM",
    "location": "Long Grove House, 2001 S. Michigan",
    "desc": "Chicago Alternative Policing Strategy meeting with the 1st District, a chance to meet police, neighbors, and the ward team about local safety."
+  },
+  {
+   "title": "Wisconsin Wednesdays Phone Bank",
+   "date": "2026-10-21",
+   "time": "6:00 PM",
+   "org": "Indivisible Chicago",
+   "location": "Virtual",
+   "desc": "Call voters in Wisconsin ahead of the November 3rd election, 6 to 8 PM.",
+   "url": "https://www.mobilize.us/indivisiblegwlchi/event/1022122/"
+  },
+  {
+   "title": "Open Books and Laugh, Standup Comedy for Literacy",
+   "date": "2026-10-22",
+   "time": "7:00 PM",
+   "org": "Open Books",
+   "location": "Laugh Factory, 3175 N. Broadway",
+   "desc": "Comedy night with Sam Biru, Dwayne Kennedy, Michael Meyers, Claire Sundbye, and Sohrab Forouzesh. All proceeds fund Open Books' literacy programs. Doors at 6 PM."
+  },
+  {
+   "title": "Canvassing in Michigan",
+   "date": "2026-10-23",
+   "time": "All day",
+   "org": "Indivisible Chicago",
+   "location": "Benton Harbor, Mich.",
+   "desc": "Door-knocking trips to Michigan run Friday through Sunday this weekend. Sign up for a shift.",
+   "url": "https://www.mobilize.us/indivisiblegwlchi/event/931534/"
+  },
+  {
+   "title": "Rush Hour Resistance, Get Out the Vote",
+   "date": "2026-10-23",
+   "time": "4:30 PM",
+   "org": "Indivisible Greater West Loop",
+   "location": "N. Ogden Ave. and W. Warren Blvd.",
+   "desc": "A roadside visibility action encouraging neighbors to vote, 4:30 to 6 PM. Held every Friday through the election.",
+   "url": "https://teamup.com/ks9bd5wmfv7ks27vmy?view=a"
+  },
+  {
+   "title": "Indivisible Table at the West Loop Farmers Market",
+   "date": "2026-10-24",
+   "time": "8:00 AM",
+   "org": "Indivisible Greater West Loop",
+   "location": "Mary Bartelme Park",
+   "desc": "Stop by the Indivisible table for voter resources and to meet neighbors, 8 to 11:45 AM.",
+   "url": "https://teamup.com/ks9bd5wmfv7ks27vmy?view=a"
+  },
+  {
+   "title": "Canvassing in Wisconsin",
+   "date": "2026-10-24",
+   "time": "10:00 AM",
+   "org": "Indivisible Chicago",
+   "location": "Milwaukee, Wis.",
+   "desc": "Door-knocking in Milwaukee ahead of the election, 10 AM to 2 PM.",
+   "url": "https://www.mobilize.us/indivisiblegwlchi/event/998348/"
+  },
+  {
+   "title": "College Application Essay Workshop, Session 1",
+   "date": "2026-10-24",
+   "time": "11:00 AM",
+   "org": "Open Books and UIC",
+   "location": "Open Books North Lawndale, 3812 W. 16th St.",
+   "desc": "Free workshop for high school students on writing college application essays. Sessions 2 and 3 on Nov. 7 and Nov. 14 give one-on-one help with drafts."
+  },
+  {
+   "title": "Illumination, Chicago's Halloween Party",
+   "date": "2026-10-24",
+   "time": "9:00 PM",
+   "org": "Illumination",
+   "location": "Vertiport Chicago",
+   "desc": "The 10th anniversary of this immersive Halloween party with illuminated characters, music, and glowing processions, 9 PM to 2 AM. Raises funds for RVCL research."
+  },
+  {
+   "title": "Monday Michigan Phone Bank",
+   "date": "2026-10-26",
+   "time": "5:00 PM",
+   "org": "Indivisible Chicago",
+   "location": "Virtual",
+   "desc": "Call voters in Michigan ahead of the November 3rd election, 5 to 7 PM.",
+   "url": "https://www.mobilize.us/indivisiblegwlchi/event/1021786/"
+  },
+  {
+   "title": "Wisconsin Wednesdays Phone Bank",
+   "date": "2026-10-28",
+   "time": "6:00 PM",
+   "org": "Indivisible Chicago",
+   "location": "Virtual",
+   "desc": "Call voters in Wisconsin ahead of the November 3rd election, 6 to 8 PM.",
+   "url": "https://teamup.com/ks9bd5wmfv7ks27vmy?view=a"
+  },
+  {
+   "title": "Homerathon, The Odyssey Read Aloud",
+   "date": "2026-10-29",
+   "time": "12:30 PM",
+   "org": "National Hellenic Museum",
+   "location": "National Hellenic Museum, 333 S. Halsted",
+   "desc": "Read a passage or just listen as Homer's Odyssey is read aloud from beginning to end, with UIC's classics department, 12:30 to 8 PM, with a 6 to 8 PM happy hour. Continues Friday, Oct. 30."
   },
   {
    "title": "Community Commission for Public Safety and Accountability, Monthly Meeting",
@@ -19,12 +114,55 @@
    "url": "https://ccpsa.chicago.gov/public-meeting-calendar/"
   },
   {
+   "title": "Canvassing in Michigan",
+   "date": "2026-10-30",
+   "time": "All day",
+   "org": "Indivisible Chicago",
+   "location": "Michigan",
+   "desc": "Door-knocking trips to Michigan continue Friday through Election Day.",
+   "url": "https://teamup.com/ks9bd5wmfv7ks27vmy?view=a"
+  },
+  {
+   "title": "Homerathon, Day 2",
+   "date": "2026-10-30",
+   "time": "10:00 AM",
+   "org": "National Hellenic Museum",
+   "location": "National Hellenic Museum, 333 S. Halsted",
+   "desc": "The read-aloud of Homer's Odyssey continues, 10 AM to 4 PM. Sign up to read or stop by to listen."
+  },
+  {
    "title": "Trick or Treat for Tots",
    "date": "2026-10-30",
    "time": "3:00 PM",
    "org": "West Central Association",
    "location": "Madison St., from Elizabeth to Morgan",
    "desc": "Families are invited to dress up and trick-or-treat along Madison Street, 3 to 6 PM."
+  },
+  {
+   "title": "Rush Hour Resistance, Get Out the Vote",
+   "date": "2026-10-30",
+   "time": "4:30 PM",
+   "org": "Indivisible Greater West Loop",
+   "location": "N. Ogden Ave. and W. Warren Blvd.",
+   "desc": "A roadside visibility action encouraging neighbors to vote, 4:30 to 6 PM.",
+   "url": "https://teamup.com/ks9bd5wmfv7ks27vmy?view=a"
+  },
+  {
+   "title": "Chicago Children's Theatre Gala",
+   "date": "2026-10-30",
+   "time": "5:30 PM",
+   "org": "Chicago Children's Theatre",
+   "location": "City Winery, 1200 W. Randolph",
+   "desc": "Cocktails at 5:30, dinner and program at 7, live music and dancing at 9. Proceeds support programs for low-income families and youth with special needs."
+  },
+  {
+   "title": "Indivisible Table at the West Loop Farmers Market",
+   "date": "2026-10-31",
+   "time": "8:00 AM",
+   "org": "Indivisible Greater West Loop",
+   "location": "Mary Bartelme Park",
+   "desc": "Stop by the Indivisible table for voter resources and to meet neighbors, 8 to 11:45 AM.",
+   "url": "https://teamup.com/ks9bd5wmfv7ks27vmy?view=a"
   },
   {
    "title": "Halloween at Mary Bartelme Park",
@@ -35,6 +173,47 @@
    "desc": "The 34th Ward team and the Mary Bartelme Park Advisory Council host a family Halloween celebration with live music and a balloon artist, 9:30 to 11:30 AM."
   },
   {
+   "title": "Canvassing in Wisconsin",
+   "date": "2026-10-31",
+   "time": "10:00 AM",
+   "org": "Indivisible Chicago",
+   "location": "Wisconsin",
+   "desc": "Door-knocking in Wisconsin ahead of the election, 10 AM to 2 PM.",
+   "url": "https://teamup.com/ks9bd5wmfv7ks27vmy?view=a"
+  },
+  {
+   "title": "Toys for Tots Drop-Off Opens",
+   "date": "2026-11-02",
+   "org": "West Loop Community Organization",
+   "location": "Midwest Performance Cars, 2105 W. Fulton St.",
+   "desc": "Starting Nov. 2, Midwest Performance Cars is an official Toys for Tots drop-off site for the holiday season."
+  },
+  {
+   "title": "Monday Michigan Phone Bank",
+   "date": "2026-11-02",
+   "time": "5:00 PM",
+   "org": "Indivisible Chicago",
+   "location": "Virtual",
+   "desc": "Election-eve calls to Michigan voters, 5 to 7 PM.",
+   "url": "https://teamup.com/ks9bd5wmfv7ks27vmy?view=a"
+  },
+  {
+   "title": "Sepia x Zaragoza Collaborative Dinner",
+   "date": "2026-11-04",
+   "org": "Sepia",
+   "location": "Sepia, 123 N. Jefferson St.",
+   "desc": "A one-night eight-course tasting menu from Chef Kyle Cottle and Jonathan Zaragoza. $195 per person via OpenTable."
+  },
+  {
+   "title": "Elections Committee Monthly Meeting",
+   "date": "2026-11-04",
+   "time": "7:00 PM",
+   "org": "Indivisible Greater West Loop",
+   "location": "Virtual",
+   "desc": "Indivisible Greater West Loop's elections committee meets monthly. Sign up with the committee to receive the meeting link.",
+   "url": "https://teamup.com/ks9bd5wmfv7ks27vmy?view=a"
+  },
+  {
    "title": "WCA Speaker Series and Annual Meeting",
    "date": "2026-11-05",
    "time": "12:00 PM",
@@ -43,12 +222,57 @@
    "desc": "Lunch, networking, and a conversation with the team behind the proposed O'Hare Flyer, followed by Q&A, noon to 2 PM. Tickets required, seating is limited."
   },
   {
+   "title": "Indivisible Table at the West Loop Farmers Market",
+   "date": "2026-11-07",
+   "time": "8:00 AM",
+   "org": "Indivisible Greater West Loop",
+   "location": "Mary Bartelme Park",
+   "desc": "Stop by the Indivisible table and meet neighbors, 8 to 11:45 AM.",
+   "url": "https://teamup.com/ks9bd5wmfv7ks27vmy?view=a"
+  },
+  {
+   "title": "Montessori Academy of Chicago Open House",
+   "date": "2026-11-07",
+   "time": "12:00 PM",
+   "org": "Montessori Academy of Chicago",
+   "location": "Montessori Academy of Chicago",
+   "desc": "Visit the school, meet the community, and learn about the program, noon to 1:30 PM. Sign up to attend.",
+   "url": "https://www.eventbrite.com/e/montessori-academy-of-chicago-open-house-tickets-2003214257770"
+  },
+  {
    "title": "WCA Networking at Pizza Lobo",
    "date": "2026-11-11",
    "time": "4:00 PM",
    "org": "West Central Association",
    "location": "Pizza Lobo, 165 N. Morgan St.",
    "desc": "Pizza, drinks, and conversation with WCA members and local professionals at the newly opened Pizza Lobo, 4 to 6 PM."
+  },
+  {
+   "title": "Indivisible Book Club, In Person",
+   "date": "2026-11-11",
+   "time": "6:30 PM",
+   "org": "Indivisible Greater West Loop",
+   "location": "Midwest Coast Brewing Co.",
+   "desc": "The book club meets to discuss its next selection, 6:30 to 8 PM. Join the book club for details.",
+   "url": "https://teamup.com/ks9bd5wmfv7ks27vmy?view=a"
+  },
+  {
+   "title": "Volunteer at the Greater Chicago Food Depository",
+   "date": "2026-11-13",
+   "time": "All day",
+   "org": "Indivisible Greater West Loop",
+   "location": "Greater Chicago Food Depository",
+   "desc": "An Indivisible volunteer day at the Food Depository. Sign-up details coming soon.",
+   "url": "https://teamup.com/ks9bd5wmfv7ks27vmy?view=a"
+  },
+  {
+   "title": "Indivisible Table at the West Loop Farmers Market",
+   "date": "2026-11-14",
+   "time": "8:00 AM",
+   "org": "Indivisible Greater West Loop",
+   "location": "Mary Bartelme Park",
+   "desc": "Stop by the Indivisible table and meet neighbors, 8 to 11:45 AM.",
+   "url": "https://teamup.com/ks9bd5wmfv7ks27vmy?view=a"
   },
   {
    "title": "1st District Council Monthly Meeting",
@@ -67,6 +291,68 @@
    "location": "Dvorak Park, 1119 W. Cullerton St.",
    "desc": "The elected 12th Police District Council's monthly public meeting on policing and public safety in the district.",
    "url": "https://ccpsa.chicago.gov/public-meeting-calendar/"
+  },
+  {
+   "title": "Paint and Sip Holiday Fundraiser",
+   "date": "2026-11-18",
+   "time": "6:00 PM",
+   "org": "Indivisible Greater West Loop",
+   "location": "Midwest Coast Brewing",
+   "desc": "A ticketed paint-and-sip holiday fundraiser with Chicago Sip and Paint, with proceeds going to a local organization, 6 to 8:30 PM.",
+   "url": "https://teamup.com/ks9bd5wmfv7ks27vmy?view=a"
+  },
+  {
+   "title": "Indivisible Table at the West Loop Farmers Market",
+   "date": "2026-11-21",
+   "time": "8:00 AM",
+   "org": "Indivisible Greater West Loop",
+   "location": "Mary Bartelme Park",
+   "desc": "Stop by the Indivisible table and meet neighbors, 8 to 11:45 AM.",
+   "url": "https://teamup.com/ks9bd5wmfv7ks27vmy?view=a"
+  },
+  {
+   "title": "Elections Committee Monthly Meeting",
+   "date": "2026-12-02",
+   "time": "7:00 PM",
+   "org": "Indivisible Greater West Loop",
+   "location": "Virtual",
+   "desc": "Indivisible Greater West Loop's elections committee meets monthly. Sign up with the committee to receive the meeting link.",
+   "url": "https://teamup.com/ks9bd5wmfv7ks27vmy?view=a"
+  },
+  {
+   "title": "First Friday Dinner Club",
+   "date": "2026-12-04",
+   "time": "6:30 PM",
+   "org": "Indivisible Greater West Loop",
+   "location": "Rotating Chicago neighborhoods",
+   "desc": "A monthly dinner out with neighbors in a different part of the city, 6:30 to 8:30 PM. Join the mailing list for the location.",
+   "url": "https://teamup.com/ks9bd5wmfv7ks27vmy?view=a"
+  },
+  {
+   "title": "1st District Council Monthly Meeting",
+   "date": "2026-12-08",
+   "time": "6:00 PM",
+   "org": "CCPSA",
+   "location": "Harold Washington Library, 400 S. State St., Room 3N6",
+   "desc": "The elected 1st Police District Council's monthly public meeting on policing and public safety in the district.",
+   "url": "https://ccpsa.chicago.gov/public-meeting-calendar/"
+  },
+  {
+   "title": "Indivisible Book Club, In Person",
+   "date": "2026-12-09",
+   "time": "6:30 PM",
+   "org": "Indivisible Greater West Loop",
+   "location": "Midwest Coast Brewing Co.",
+   "desc": "The book club meets to discuss its next selection, 6:30 to 8 PM.",
+   "url": "https://teamup.com/ks9bd5wmfv7ks27vmy?view=a"
+  },
+  {
+   "title": "Randolph Row Holiday Stroll",
+   "date": "2026-12-10",
+   "time": "All day",
+   "org": "West Loop Community Organization",
+   "location": "Randolph Row, West Loop",
+   "desc": "Shop the West Loop at participating stores offering holiday deals all day. Businesses can sign up to take part."
   }
  ]
 }
