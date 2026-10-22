@@ -1,6 +1,78 @@
 {
- "generated_at": "2026-10-22T15:00:52.476Z",
+ "generated_at": "2026-10-22T18:15:51.432Z",
  "items": [
+  {
+   "id": "politico-20261022-mayor-brandon-johnson-unveils-2027-fair-",
+   "category": "elected_official",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Mayor Brandon Johnson unveils 2027 Fair Share Budget with corporate head tax and $664 million in new revenue",
+   "summary": "The mayor announced a budget that would raise $664.2 million from large corporations through a $25‑per‑employee head tax, a 15‑cent tax on single‑use mailers, and a higher cloud tax, while projecting $840 million in savings. Funding would expand Chicago Youth Works to hire 40,000 summer workers, add $40.6 million for violence intervention, $15 million for homelessness services, $13 million for rental assistance, and $2.5 million for a Jackson Park homeowner tax‑relief pilot, all without raising property taxes.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-10-22T12:01:37.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "wlco-20261020-mary-bartelme-park-hosts-family-hallowee",
+   "category": "civic_org",
+   "source_id": "wlco",
+   "source_name": "West Loop Community Organization",
+   "source_type": "email_newsletter",
+   "title": "Mary Bartelme Park hosts family Halloween celebration on Oct. 31",
+   "summary": "The 34th Ward team and the Mary Bartelme Park Advisory Council will hold a Halloween celebration at Mary Bartelme Park on Oct. 31 from 9:30 a.m. to 11:30 a.m. located at 115 S. Sangamon. The event will feature live music, a balloon artist, and other spooky activities for families.",
+   "url": "https://www.westloop.org/",
+   "published_at": "2026-10-20T21:22:22.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "wlco-20261020-randolph-row-holiday-stroll-returns-dec-",
+   "category": "business",
+   "source_id": "wlco",
+   "source_name": "West Loop Community Organization",
+   "source_type": "email_newsletter",
+   "title": "Randolph Row Holiday Stroll returns Dec. 10 with shop deals in West Loop",
+   "summary": "The annual Randolph Row Holiday Stroll will take place on Dec. 10, inviting shoppers to explore West Loop businesses along Randolph Row. Participating stores will offer special discounts and promotions all day, and businesses can sign up through the provided participation form.",
+   "url": "https://www.westloop.org/",
+   "published_at": "2026-10-20T21:22:22.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20261022-bears-honor-mike-ditka-with-mustache-giv",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Bears Honor Mike Ditka With Mustache Giveaway As Prices Skyrocket For Thursday’s Game",
+   "summary": "The cheapest resale tickets to Thursday's game against the Patriots were going for more than some Bears playoff tickets last season.",
+   "url": "https://blockclubchicago.org/2026/10/22/bears-honor-mike-ditka-with-mustache-giveaway-as-prices-skyrocket-for-thursdays-game/",
+   "published_at": "2026-10-22T16:35:00.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20261022-29-things-to-do-in-chicago-this-weekend-",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "29 Things To Do In Chicago This Weekend: Arts In The Dark Parade, Pilsen Open Studios And More",
+   "summary": "Halloween fun, a hops harvest festival and Día de los Muertos celebrations are also on deck.",
+   "url": "https://blockclubchicago.org/2026/10/22/29-things-to-do-in-chicago-this-weekend-arts-in-the-dark-parade-pilsen-open-studios-and-more/",
+   "published_at": "2026-10-22T13:20:00.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20261022-mexican-mr-beef-stand-that-inspired-the-",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Mexican Mr. Beef? Stand That Inspired The Bear' Hosts Pop-Up With Michelin Chef",
+   "summary": "Acclaimed London chef Santiago Lastra is partnering with the River North beef stand, \"The Bear\" crew and actor Will Poulter for Sunday's event featuring a spin on Italian beef, made with beef tongue.",
+   "url": "https://blockclubchicago.org/2026/10/22/mexican-mr-beef-stand-that-inspired-the-bear-hosts-pop-up-with-michelin-chef/",
+   "published_at": "2026-10-22T13:08:49.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "axios-20261022-bird-friendly-building-ordinance-push",
    "category": "newsletter",
