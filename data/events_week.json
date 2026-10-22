@@ -1,12 +1,8 @@
 {
  "_note": "Shows, games, and arena events for the culture page's weekly calendar. Merged with data/festivals.json; shows only the current Monday-Sunday week. 'cat' drives the box color: concert (light blue), riverwalk (deep blue, Tiny Tapp), cubs/sox/bears/bulls/fire/sky (team colors), fest comes from festivals.json (green). 'local: true' = in/around the West Loop (gold star). Sports schedules from ESPN (home games only); venue shows from each venue's site; Garcia's links to its schedule page since its Ticketmaster deep-links block verification. Refresh weekly.",
- "updated_at": "2026-10-21",
+ "updated_at": "2026-10-22",
  "shows": [
   {"title":"Brooklyn Britches & The Whispers","venue":"Tiny Tapp & Cafe","cat":"riverwalk","date":"2026-09-27","time":"5:00 PM","address":"55 W. Riverwalk South, the Loop","note":"Free live music","local":true,"url":"https://www.tinytapp.com/live-music"},
-  {"title":"Davide De Pierro","venue":"City Winery Chicago","cat":"concert","date":"2026-10-21","time":"7:30 PM","address":"1200 W. Randolph St, West Loop","local":true,"url":"https://city-winery-gy5d.vivenushop.dev/event/davide-de-pierro-fxnm4o"},
-  {"title":"The Black Keys with Eddie 9V: PEACHES 'N KREAM","venue":"The Salt Shed","cat":"concert","date":"2026-10-21","time":"8:00 PM","address":"1357 N. Elston Ave, Goose Island","local":false,"url":"https://www.ticketmaster.com/the-black-keys-with-eddie-9v-chicago-illinois-10-21-2026/event/04006503F2D60F48"},
-  {"title":"SUSTO","venue":"Garcia's Chicago","cat":"concert","date":"2026-10-21","time":"8:00 PM","address":"1001 W. Washington Blvd, West Loop","local":true,"url":"https://www.ticketmaster.com/susto-chicago-illinois-10-21-2026/event/0400652AD0B3EE59"},
-  {"title":"CHINCHILLA","venue":"Lincoln Hall","cat":"concert","date":"2026-10-21","time":"8:00 PM","address":"2424 N. Lincoln Ave, Lincoln Park","local":false,"url":"https://lh-st.com/shows/10-21-2026-chinchilla/"},
   {"title":"Whitney w/ Greg Mendez","venue":"Metro","cat":"concert","date":"2026-10-22","time":"7:30 PM","address":"3730 N. Clark St, Wrigleyville","local":false,"url":"https://www.ticketmaster.com/event/Z7r9jZ1AAZZA0"},
   {"title":"Davide De Pierro","venue":"City Winery Chicago","cat":"concert","date":"2026-10-22","time":"7:30 PM","address":"1200 W. Randolph St, West Loop","local":true,"url":"https://city-winery-gy5d.vivenushop.dev/event/davide-de-pierro-drb0ux"},
   {"title":"Sylvan Esso with Sen Morimoto","venue":"The Salt Shed","cat":"concert","date":"2026-10-22","time":"8:00 PM","address":"1357 N. Elston Ave, Goose Island","local":false,"url":"https://www.ticketmaster.com/sylvan-esso-with-sen-morimoto-presented-chicago-illinois-10-22-2026/event/0400649CF45E4588"},
@@ -105,6 +101,10 @@
   {"title":"Cut Copy","venue":"Garcia's Chicago","cat":"concert","date":"2026-11-10","time":"8:00 PM","address":"1001 W. Washington Blvd, West Loop","local":true,"url":"https://www.ticketmaster.com/cut-copy-chicago-illinois-11-10-2026/event/04006512DA86D586"},
   {"title":"Pretty Sick","venue":"Lincoln Hall","cat":"concert","date":"2026-11-10","time":"8:00 PM","address":"2424 N. Lincoln Ave, Lincoln Park","local":false,"url":"https://lh-st.com/shows/11-10-2026-pretty-sick/"},
   {"title":"Michelle Collins","venue":"City Winery Chicago","cat":"concert","date":"2026-11-11","time":"7:30 PM","address":"1200 W. Randolph St, West Loop","local":true,"url":"https://city-winery-gy5d.vivenushop.dev/event/michelle-collins-5uihdl"},
-  {"title":"Q Marsden","venue":"Lincoln Hall","cat":"concert","date":"2026-11-11","time":"8:00 PM","address":"2424 N. Lincoln Ave, Lincoln Park","local":false,"url":"https://lh-st.com/shows/11-11-2026-q/"}
+  {"title":"Hovvdy (17+ Event)","venue":"Thalia Hall","cat":"concert","date":"2026-11-11","time":"8:00 PM","address":"1807 S. Allport St, Pilsen","local":false,"url":"https://www.ticketmaster.com/event/Z7r9jZ1A70OJ9"},
+  {"title":"Donna the Buffalo","venue":"Garcia's Chicago","cat":"concert","date":"2026-11-11","time":"8:00 PM","address":"1001 W. Washington Blvd, West Loop","local":true,"url":"https://www.ticketmaster.com/donna-the-buffalo-chicago-illinois-11-11-2026/event/0400650FE9AFDFD4"},
+  {"title":"Q Marsden","venue":"Lincoln Hall","cat":"concert","date":"2026-11-11","time":"8:00 PM","address":"2424 N. Lincoln Ave, Lincoln Park","local":false,"url":"https://lh-st.com/shows/11-11-2026-q/"},
+  {"title":"The Eric Roberson Improv Sessions","venue":"City Winery Chicago","cat":"concert","date":"2026-11-12","time":"6:00 PM","address":"1200 W. Randolph St, West Loop","local":true,"url":"https://city-winery-gy5d.vivenushop.dev/event/the-eric-roberson-improv-sessions-yb3zvp"},
+  {"title":"Nori Reed: Nori Is Present LIVE at Lincoln Hall","venue":"Lincoln Hall","cat":"concert","date":"2026-11-12","time":"8:00 PM","address":"2424 N. Lincoln Ave, Lincoln Park","local":false,"url":"https://lh-st.com/shows/11-12-2026-nori-reed/"}
  ]
 }

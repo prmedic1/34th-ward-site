@@ -1,6 +1,66 @@
 {
- "generated_at": "2026-10-21T18:21:28.032Z",
+ "generated_at": "2026-10-22T13:00:56.706Z",
  "items": [
+  {
+   "id": "politico-20261022-mayor-brandon-johnson-proposes-664-milli",
+   "category": "elected_official",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Mayor Brandon Johnson proposes $664 million corporate head tax in 2027 Fair Share Budget",
+   "summary": "Johnson unveiled a 2027 Fair Share Budget that would raise $664.2 million from large corporations through a $25‑per‑employee head tax and a 15‑cent fee on single‑use mailers, plus higher personal‑property lease taxes on big‑tech firms. The plan promises $840 million in projected savings and earmarks $40.6 million for community violence intervention, $15 million for homelessness services, $13 million for rental assistance, and $2.5 million for a Jackson Park homeowner tax‑relief pilot. It also seeks to fund Chicago Youth Works to hire 40,000 summer workers and double funding for the Streets and Sanitation Quality of Life program, all without raising property taxes.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-10-22T12:01:37.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "axios-20261022-alders-pick-apart-mayor-s-budget",
+   "category": "newsletter",
+   "source_id": "axios",
+   "source_name": "Axios Chicago",
+   "source_type": "email_newsletter",
+   "title": "Alders pick apart Mayor's budget",
+   "summary": "Moments after leaving Mayor Brandon Johnson's budget address Wednesday, alders offered takes that ranged from robust support to claims that Johnson's budget is \"imbalanced. \" The yawning divide suggests a long, grueling and ultra-political budget season ahead as Johnson and the council try to close an $882 million gap while running for reelection. What's inside: Mayoral critics say Johnson has proposed.",
+   "url": "https://www.axios.com/local/chicago",
+   "published_at": "2026-10-22T11:27:27.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "abc7-20261022-chicago-police-issue-warning-about-thiev",
+   "category": "civic_org",
+   "source_id": "abc7",
+   "source_name": "ABC7 Chicago",
+   "source_type": "web_feed",
+   "title": "Chicago police issue warning about thieves posing as fundraisers for charity groups downtown",
+   "summary": "A warning about thieves posing as fundraisers for charity groups has been issued by Chicago police. They've hit at least eight spots in just the past two weeks, mostly near businesses in the Loop.",
+   "url": "https://abc7chicago.com/post/chicago-police-issue-warning-thieves-posing-fundraisers-charity-groups-loop-west-south-side/19967149/",
+   "published_at": "2026-10-22T13:00:24.050Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "cbs-20261021-cpd-warns-of-thieves-posing-as-charity-f",
+   "category": "civic_org",
+   "source_id": "cbs",
+   "source_name": "CBS News Chicago",
+   "source_type": "web_feed",
+   "title": "CPD warns of thieves posing as charity fundraisers, stealing belongings from patrons at restaurants",
+   "summary": "The incidents occurred at restaurants in the Loop, West Loop and Near South Side during various hours of the day between Oct. 7 and 18.",
+   "url": "https://www.cbsnews.com/chicago/news/fake-charity-fundraisers-loop-west-loop-near-south-side-restaurants/",
+   "published_at": "2026-10-21T23:31:52.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20261022-fire-ravaged-palace-grill-could-be-torn-",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Fire-Ravaged Palace Grill Could Be Torn Down, Replaced With Residential Building",
+   "summary": "A developer is seeking to build a five-story, 24-unit building on the property where the iconic diner stood for more than 85 years.",
+   "url": "https://blockclubchicago.org/2026/10/22/fire-ravaged-palace-grill-could-be-torn-down-replaced-with-residential-building/",
+   "published_at": "2026-10-22T12:39:37.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "wlco-20261020-midwest-performance-cars-becomes-officia",
    "category": "business",
@@ -1506,30 +1566,6 @@
    "flagged_for_review": false
   },
   {
-   "id": "politico-20261001-chicago-city-council-ethics-committee-to",
-   "category": "civic_org",
-   "source_id": "politico",
-   "source_name": "POLITICO Illinois Playbook",
-   "source_type": "email_newsletter",
-   "title": "Chicago City Council Ethics Committee to question World Business Chicago over mayor‑investment ads",
-   "summary": "The City Council Committee on Ethics, chaired by Ald. Matt Martin, is scheduled to meet on October 1 to interrogate World Business Chicago about recent TV and streaming ads that promoted Mayor Brandon Johnson’s record on neighborhood investment. Council members have sent a letter demanding answers, and the outcome could affect the organization’s city funding. The meeting is part of heightened scrutiny ahead of the mayoral election.",
-   "url": "https://www.politico.com/newsletters/illinois-playbook",
-   "published_at": "2026-10-01T12:02:22.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "politico-20261001-city-council-ethics-committee-questions-",
-   "category": "elected_official",
-   "source_id": "politico",
-   "source_name": "POLITICO Illinois Playbook",
-   "source_type": "email_newsletter",
-   "title": "City Council Ethics Committee Questions World Business Chicago Ads Ahead of Election",
-   "summary": "The Chicago City Council Committee on Ethics, chaired by Ald. Matt Martin, met to question World Business Chicago about recent spending on local TV and streaming ads that touted Mayor Brandon Johnson’s record in neighborhood investment. The committee raised concerns that the ads, which had prompted a letter from council members, may involve city funding and could be at stake. The meeting also considered whether officials from World Business Chicago would attend to answer questions.",
-   "url": "https://www.politico.com/newsletters/illinois-playbook",
-   "published_at": "2026-10-01T12:02:22.000Z",
-   "flagged_for_review": false
-  },
-  {
    "id": "cbs-20261003-design-museum-of-chicago-a-hidden-gem-in",
    "category": "civic_org",
    "source_id": "cbs",
@@ -1806,42 +1842,6 @@
    "flagged_for_review": false
   },
   {
-   "id": "politico-20261001-city-council-ethics-committee-to-questio",
-   "category": "business",
-   "source_id": "politico",
-   "source_name": "POLITICO Illinois Playbook",
-   "source_type": "email_newsletter",
-   "title": "City Council Ethics Committee to question World Business Chicago over mayor‑investment ads",
-   "summary": "The Chicago City Council Committee on Ethics, chaired by Alderman Matt Martin, scheduled a meeting today to interrogate World Business Chicago about recent TV and streaming ads that highlighted Mayor Brandon Johnson’s neighborhood investment record. Council members have sent a letter demanding answers, and the organization’s city funding could be jeopardized pending the outcome.",
-   "url": "https://www.politico.com/newsletters/illinois-playbook",
-   "published_at": "2026-10-01T12:02:22.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "politico-20261001-michael-and-cari-sacks-give-600-000-to-m",
-   "category": "civic_org",
-   "source_id": "politico",
-   "source_name": "POLITICO Illinois Playbook",
-   "source_type": "email_newsletter",
-   "title": "Michael and Cari Sacks give $600,000 to Michael Reese Health Trust for women’s abortion access",
-   "summary": "Philanthropists Michael and Cari Sacks contributed $600,000 to the Michael Reese Health Trust, earmarked to support its women’s abortion access fund, according to a report by Crain’s.",
-   "url": "https://www.politico.com/newsletters/illinois-playbook",
-   "published_at": "2026-10-01T12:02:22.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "politico-20261001-chicago-park-district-s-first-town-hall-",
-   "category": "civic_org",
-   "source_id": "politico",
-   "source_name": "POLITICO Illinois Playbook",
-   "source_type": "email_newsletter",
-   "title": "Chicago Park District’s first town hall focuses on speed and enforcement of motorized devices",
-   "summary": "At the Chicago Park District’s inaugural town hall on motorized devices, speed limits and enforcement emerged as the primary concerns among attendees, as reported by WTTW’s Patty Wetli.",
-   "url": "https://www.politico.com/newsletters/illinois-playbook",
-   "published_at": "2026-10-01T12:02:22.000Z",
-   "flagged_for_review": false
-  },
-  {
    "id": "wlco-20261001-randolph-row-holiday-stroll-scheduled-fo",
    "category": "civic_org",
    "source_id": "wlco",
@@ -1899,90 +1899,6 @@
    "summary": "Other new sites announced Thursday in advance of the Oct. 17-18 event include the Monadnock Building and the new Chicago Architecture Center hub at the Marquette Building.",
    "url": "https://blockclubchicago.org/2026/10/01/you-can-tour-the-uptown-theatre-as-part-of-open-house-chicago-this-year/",
    "published_at": "2026-10-01T13:15:00.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "politico-20261001-mayor-brandon-johnson-to-speak-at-parksi",
-   "category": "civic_org",
-   "source_id": "politico",
-   "source_name": "POLITICO Illinois Playbook",
-   "source_type": "email_newsletter",
-   "title": "Mayor Brandon Johnson to speak at Parkside ribbon‑cutting on West Loop",
-   "summary": "Mayor Brandon Johnson will be at 520 W Hobbie St at 9 a.m. on October 1 to give remarks at the Parkside ribbon‑cutting ceremony. The event is in the West Loop, part of the 34th Ward, and highlights a new community space opening in the neighborhood.",
-   "url": "https://www.politico.com/newsletters/illinois-playbook",
-   "published_at": "2026-10-01T12:02:22.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "politico-20261001-city-council-committee-on-ethics-to-ques",
-   "category": "elected_official",
-   "source_id": "politico",
-   "source_name": "POLITICO Illinois Playbook",
-   "source_type": "email_newsletter",
-   "title": "City Council Committee on Ethics to question World Business Chicago over mayor‑investment ads",
-   "summary": "The Chicago City Council Committee on Ethics, chaired by Ald. Matt Martin, is meeting today to interrogate World Business Chicago about recent TV and streaming ads that promoted Mayor Brandon Johnson’s neighborhood‑investment record. Council members have sent a letter demanding answers on the ad buys ahead of the mayoral election, and the organization’s city funding could be at risk.",
-   "url": "https://www.politico.com/newsletters/illinois-playbook",
-   "published_at": "2026-10-01T12:02:22.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "politico-20261001-chicago-park-district-holds-first-town-h",
-   "category": "civic_org",
-   "source_id": "politico",
-   "source_name": "POLITICO Illinois Playbook",
-   "source_type": "email_newsletter",
-   "title": "Chicago Park District holds first town hall on motorized devices",
-   "summary": "The Chicago Park District hosted its inaugural town hall focused on motorized devices, where speed and enforcement emerged as the top concerns among attendees. The discussion was reported by WTTW’s Patty Wetli.",
-   "url": "https://www.politico.com/newsletters/illinois-playbook",
-   "published_at": "2026-10-01T12:02:22.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "axios-20261001-sox-move-on-cubs-go-home",
-   "category": "newsletter",
-   "source_id": "axios",
-   "source_name": "Axios Chicago",
-   "source_type": "email_newsletter",
-   "title": "Sox move on, Cubs go home",
-   "summary": "Randal Grichuk celebrates with teammates after the White Sox defeated the Houston Astros yesterday. Connor Jalbert/MLB Photos via Getty Images The White Sox wasted little time punching their ticket to the divisional round with back-to-back wins over the Houston Astros, while the Cubs' season sputtered to an end with a quick exit in San Diego. Dreams of a crosstown World Series are dashed.",
-   "url": "https://www.axios.com/local/chicago",
-   "published_at": "2026-10-01T11:28:23.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260930-dedicated-bus-lane-coming-to-michigan-av",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Dedicated Bus Lane Coming To Michigan Avenue Downtown",
-   "summary": "The nearly 1.5-mile northbound lane will run from Roosevelt Road to Wacker Drive and serve 21 CTA routes used by thousands of riders each day.",
-   "url": "https://blockclubchicago.org/2026/09/30/dedicated-bus-lane-coming-to-michigan-avenue-downtown/",
-   "published_at": "2026-09-30T22:25:22.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20261001-24-things-to-do-in-chicago-this-weekend-",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "24 Things To Do In Chicago This Weekend: Block Club Chicago Block Party And More",
-   "summary": "Block Club’s third annual Block Party is back at Half Acre Beer Co. You can also check out the Latina Comedy Festival, Apple Fest and Bears watch parties.",
-   "url": "https://blockclubchicago.org/2026/10/01/24-things-to-do-in-chicago-this-weekend-block-club-chicago-block-party-and-more/",
-   "published_at": "2026-10-01T12:41:16.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20260930-r-b-artist-manasseh-a-south-side-native-",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "R B Artist Manasseh, A South Side Native, Showcases Local Collaborations On New Album",
-   "summary": "The musician and vocal coach released his fifth album \"R Beyond\" last month. He plays Pitch Pour Supper Club on the West Side Friday.",
-   "url": "https://blockclubchicago.org/2026/09/30/rb-artist-manasseh-a-south-side-native-showcases-local-collaborations-on-new-album/",
-   "published_at": "2026-09-30T21:15:16.000Z",
    "flagged_for_review": false
   }
  ]
