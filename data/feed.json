@@ -1,6 +1,67 @@
 {
- "generated_at": "2026-10-22T13:00:56.706Z",
+ "generated_at": "2026-10-22T15:00:52.476Z",
  "items": [
+  {
+   "id": "axios-20261022-bird-friendly-building-ordinance-push",
+   "category": "newsletter",
+   "source_id": "axios",
+   "source_name": "Axios Chicago",
+   "source_type": "email_newsletter",
+   "title": "After 1,000-plus bird collisions in one weekend, advocates push a bird-friendly building law",
+   "summary": "More than 1,000 migrating birds were killed or injured in building collisions in Chicago last weekend, and Chicago Bird Collision Monitors collected more than 700 dead birds. Advocates are renewing calls for the Bird-Friendly Building Design Ordinance, which would require bird-safe glass or permanent window markers on new buildings and major facade work, but not on single-family homes or two- and three-flats. Until then, residents and businesses in tall buildings can help by putting lights on timers or motion sensors and drawing blinds at night.",
+   "url": "https://www.axios.com/local/chicago/2026/10/20/chicago-bird-collision-deaths-building-laws",
+   "published_at": "2026-10-22T11:27:27.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "axios-20261022-pizzeria-gabbo-opens-fulton-market",
+   "category": "newsletter",
+   "source_id": "axios",
+   "source_name": "Axios Chicago",
+   "source_type": "email_newsletter",
+   "title": "Pizzeria Gabbo opens today in the former Beatrix Market space in Fulton Market",
+   "summary": "Lettuce Entertain You is replacing Beatrix Market, which closed this summer, with Pizzeria Gabbo, serving pizza by the slice and other menu items starting today. Axios also rounded up fall closures elsewhere in the city, including the River North Hooters at 660 N. Wells St. after 35 years, Southport Grocery in Lakeview at year end, and West Town brunch spot Flo in December.",
+   "url": "https://www.axios.com/local/chicago/2026/10/21/hooters-southport-grocery-flo-chicago-area-fall-closures",
+   "published_at": "2026-10-22T11:27:27.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "politico-20261022-mayoral-candidates-react-to-2027-budget",
+   "category": "newsletter",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Business groups and 2027 mayoral candidates line up against proposed head tax and cloud tax hike",
+   "summary": "The Chicagoland Chamber of Commerce says it will join the Civic Committee of the Commercial Club to block the proposed $25-per-employee monthly head tax and an increase in the personal property lease (\"cloud\") tax from 15% to 20%. Mayoral candidates Alexi Giannoulias, Mike Quigley, Willie Wilson and Susana Mendoza all criticized the budget, with Mendoza objecting to $480 million in proposed borrowing for police settlements. The plan also includes 40,000 summer youth jobs, $40.6 million for violence intervention and 10 new forestry crews.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-10-22T12:01:37.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "politico-20261021-israel-election-iran-war-outlook",
+   "category": "newsletter",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "front_exclude": true,
+   "title": "How Israel's election could shape the Iran war",
+   "summary": "POLITICO Forecast previews Israel's Tuesday election, where polls show Prime Minister Benjamin Netanyahu's bloc narrowly trailing former army chief Gadi Eisenkot's. Analysts expect little change on Gaza policy under Eisenkot but a tougher line on violent West Bank settlers and a less hawkish stance on Iran. The newsletter also covers Ukraine's request for an extra 70 billion euros in 2027 defense funding from European allies.",
+   "url": "https://www.politico.com/newsletters/politico-forecast",
+   "published_at": "2026-10-21T20:47:54.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "skyline-20261021-new-skyline-out",
+   "category": "newsletter",
+   "source_id": "skyline",
+   "source_name": "Skyline (Inside Publications)",
+   "source_type": "email_newsletter",
+   "title": "The Oct. 21 Skyline is out",
+   "summary": "The Oct. 21 edition of Skyline is out. In his note to readers, editor Tom O'Gorman says the city is busy with galas and charitable work, which he calls the real Chicago story of hardworking, generous people.",
+   "url": "https://insideonline.com",
+   "published_at": "2026-10-21T17:15:57.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "politico-20261022-mayor-brandon-johnson-proposes-664-milli",
    "category": "elected_official",
@@ -1887,18 +1948,6 @@
    "summary": "CTA bus riders could soon get a faster trip through downtown Chicago.",
    "url": "https://abc7chicago.com/post/cta-michigan-avenue-buses-bus-lane-coming-loop-between-roosevelt-wacker-chicago/19896301/",
    "published_at": "2026-10-01T19:14:48.238Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20261001-you-can-tour-the-uptown-theatre-as-part-",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "You Can Tour The Uptown Theatre As Part Of Open House Chicago This Year",
-   "summary": "Other new sites announced Thursday in advance of the Oct. 17-18 event include the Monadnock Building and the new Chicago Architecture Center hub at the Marquette Building.",
-   "url": "https://blockclubchicago.org/2026/10/01/you-can-tour-the-uptown-theatre-as-part-of-open-house-chicago-this-year/",
-   "published_at": "2026-10-01T13:15:00.000Z",
    "flagged_for_review": false
   }
  ]
