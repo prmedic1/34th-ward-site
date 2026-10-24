@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T18:04:48.457Z",
+  "updated_at": "2026-10-24T13:00:21.711Z",
   "election_date": "February 23, 2027",
   "kalshi_event": "KXCHICAGOMAYOR-27",
   "kalshi_url": "https://kalshi.com/markets/kxchicagomayor",
@@ -144,7 +144,7 @@
       "order": 9,
       "image": "images/candidates/holberg.jpg",
       "pct": 1.4,
-      "kalshi_raw": 1.4,
+      "kalshi_raw": 1.3,
       "pe_raw": 2,
       "manifold_raw": 0.7,
       "campaign_url": "https://www.joeforchicago.com/",

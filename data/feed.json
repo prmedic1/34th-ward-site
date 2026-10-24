@@ -1,6 +1,102 @@
 {
- "generated_at": "2026-10-23T18:05:27.425Z",
+ "generated_at": "2026-10-24T13:00:52.392Z",
  "items": [
+  {
+   "id": "politico-20261023-gov-pritzker-eyes-bears-stadium-deal-and",
+   "category": "business",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Gov. Pritzker eyes Bears stadium deal and limited veto session legislation",
+   "summary": "Gov. JB Pritzker said the November 17 veto session will focus on a few items, with a likely priority on legislation that would clear a path for the Chicago Bears to build a new stadium in Illinois. He also highlighted two proposals, the POWER Act to make large data centers cover electricity infrastructure costs and the BUILD Act to loosen zoning rules for more multifamily housing. Ethics reform remains on his agenda but may be delayed until January.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-10-23T12:01:22.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "politico-20261023-data-centers-could-cost-comed-3-billion-",
+   "category": "business",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Data centers could cost ComEd $3 billion, raising consumer concerns",
+   "summary": "Expert testimony to the Illinois Commerce Commission projected that data centers will cost ComEd about $3 billion, with the utility having collected roughly $721 million in deposits from developers. Consumer groups warned that Illinois households could face higher electricity bills as a result. The testimony highlighted the financial impact of expanding data center infrastructure on the state's power grid.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-10-23T12:01:22.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "conway-20261022-cta-loop-elevated-stations-shut-down-for",
+   "category": "civic_org",
+   "source_id": "conway",
+   "source_name": "Conway's Corner (34th Ward Office Newsletter)",
+   "source_type": "email_newsletter",
+   "title": "CTA Loop Elevated stations shut down for track repairs Oct 24‑26",
+   "summary": "The CTA will shut down train traffic at Loop Elevated stations from Saturday October 24 at 4 a.m. until Monday October 26 at 2 a.m. Green Line service will run only between Harlem and Clinton and between Roosevelt and 63rd Street, the Pink Line will be rerouted to the Racine Blue Line stop, the Orange Line will run between Midway and Roosevelt, and the Brown Line will run only between Kimball and Merchandise Mart. Shuttle buses will operate for the Green, Orange, and Brown lines, while Red and Blue lines remain unaffected.",
+   "url": "https://www.ward34.org/",
+   "published_at": "2026-10-22T21:23:55.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "conway-20261022-green-and-pink-line-service-interruption",
+   "category": "civic_org",
+   "source_id": "conway",
+   "source_name": "Conway's Corner (34th Ward Office Newsletter)",
+   "source_type": "email_newsletter",
+   "title": "Green and Pink Line service interruptions due to Lake Street Bridge replacement",
+   "summary": "Green and Pink Line service is interrupted between Clinton and Clark/Lake stations because Chicago Department of Transportation is replacing the Lake Street Bridge, beginning October 13 and scheduled to end at 4 a.m. on October 26. Green Line trains will run in two sections with free bus substitutions between Clinton and Clark/Lake, and between Clark/Lake and the Loop, while Pink Line trains will run between 54th/Cermak and Polk before connecting to the Racine Blue Line station for downtown service. Milwaukee Street is closed from Canal to Fulton until October 30.",
+   "url": "https://www.ward34.org/",
+   "published_at": "2026-10-22T21:23:55.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "wca-20261023-o-hare-flyer-transportation-project-to-c",
+   "category": "civic_org",
+   "source_id": "wca",
+   "source_name": "The WCA Weekly",
+   "source_type": "email_newsletter",
+   "title": "O'Hare Flyer Transportation Project to Connect Chicago and O’Hare International Airport",
+   "summary": "The WCA Speaker Series will discuss the proposed O'Hare Flyer transportation project on November 17 at The Green at 320, offering a Q&A about the plan to link downtown Chicago with O’Hare International Airport. The event will bring together community members and experts to explore the project's impact on transit and local development.",
+   "url": "https://www.wcachicago.org/",
+   "published_at": "2026-10-23T11:31:16.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "wca-20261023-federal-reserve-launches-2026-small-busi",
+   "category": "business",
+   "source_id": "wca",
+   "source_name": "The WCA Weekly",
+   "source_type": "email_newsletter",
+   "title": "Federal Reserve Launches 2026 Small Business Credit Survey for Chicago Businesses",
+   "summary": "The WCA partners with the Federal Reserve to conduct a 12‑minute confidential survey open through November 13, gathering data on financing, debt, and business conditions from owners and key financial decision makers of for‑profit businesses in Chicago. The survey's findings will inform policymakers, service providers, and government agencies about the needs of small businesses.",
+   "url": "https://www.wcachicago.org/",
+   "published_at": "2026-10-23T11:31:16.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "abc7-20261024-another-suspicious-letter-delivered-to-g",
+   "category": "civic_org",
+   "source_id": "abc7",
+   "source_name": "ABC7 Chicago",
+   "source_type": "web_feed",
+   "title": "Another suspicious letter delivered to government building downtown Chicago, officials say",
+   "summary": "Chicago firefighters responded yet again after a suspicious letter was sent to a federal building in the city.",
+   "url": "https://abc7chicago.com/post/suspicious-letter-delivered-kluczynski-federal-building-downtown-chicago-amid-nationwide-investigation-officials-say/19974020/",
+   "published_at": "2026-10-24T13:00:24.113Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20261023-oh-mary-chicago-tickets-on-sale-now",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Oh, Mary!' Chicago Tickets On Sale Now",
+   "summary": "The Tony Award-winning Broadway hit is coming to CIBC Theatre in January, but J. Harrison Ghee won't be performing as Mary Todd Lincoln. A replacement has yet to be announced.",
+   "url": "https://blockclubchicago.org/2026/10/23/oh-mary-chicago-tickets-on-sale-now/",
+   "published_at": "2026-10-23T18:07:58.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "politico-20261023-gov-pritzker-focuses-on-bears-stadium-de",
    "category": "elected_official",
@@ -2045,30 +2141,6 @@
    "summary": "Stock: Getty Images Chicagoans can officially start casting ballots in the 2026 midterm election. You don't have to wait until Election Day on Nov. 3, but deadlines for registering, voting by mail and finding an early voting site are approaching.",
    "url": "https://www.axios.com/local/chicago",
    "published_at": "2026-10-05T11:28:40.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "cbs-20261003-design-museum-of-chicago-a-hidden-gem-in",
-   "category": "civic_org",
-   "source_id": "cbs",
-   "source_name": "CBS News Chicago",
-   "source_type": "web_feed",
-   "title": "Design Museum of Chicago, a hidden gem in the Loop, showcases city's innovation",
-   "summary": "A special museum tucked away in downtown Chicago is dedicated to design and how it shapes our lives.",
-   "url": "https://www.cbsnews.com/chicago/news/eye-on-chicago-design-museum-of-chicago/",
-   "published_at": "2026-10-03T03:29:07.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "cbs-20261003-a-look-inside-the-design-museum-of-chica",
-   "category": "civic_org",
-   "source_id": "cbs",
-   "source_name": "CBS News Chicago",
-   "source_type": "web_feed",
-   "title": "A look inside the Design Museum of Chicago, a hidden gem in the Loop",
-   "summary": "A special museum tucked away in downtown Chicago is dedicated to design and how it shapes our lives.",
-   "url": "https://www.cbsnews.com/chicago/video/a-look-inside-the-design-museum-of-chicago-a-hidden-gem-in-the-loop/",
-   "published_at": "2026-10-03T03:20:00.000Z",
    "flagged_for_review": false
   }
  ]
