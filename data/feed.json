@@ -1,6 +1,78 @@
 {
- "generated_at": "2026-10-24T13:00:52.392Z",
+ "generated_at": "2026-10-24T17:10:44.893Z",
  "items": [
+  {
+   "id": "politico-20261023-gov-jb-pritzker-focuses-on-bears-stadium",
+   "category": "elected_official",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Gov. JB Pritzker focuses on Bears stadium deal and housing reforms in upcoming veto session",
+   "summary": "Governor JB Pritzker told reporters he expects a short six‑day veto session beginning Nov. 17, with the most likely outcome a deal to keep the Chicago Bears in Illinois. Lawmakers may also consider the POWER Act, which would require large data centers to fund electricity infrastructure, and the BUILD Act, which would loosen zoning rules to allow more multifamily homes and backyard apartments. Pritzker also wants to tighten state ethics laws by adding public members to the ethics commission and making certain reports public, though he has not yet met with House Speaker Chris Welch or Senate President Don Harmon on the proposals.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-10-23T12:01:22.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "conway-20261022-mayor-johnson-proposes-reviving-head-tax",
+   "category": "elected_official",
+   "source_id": "conway",
+   "source_name": "Conway's Corner (34th Ward Office Newsletter)",
+   "source_type": "email_newsletter",
+   "title": "Mayor Johnson proposes reviving head tax and raising PPLT in 2027 budget",
+   "summary": "Mayor Johnson introduced his 2027 budget proposals, calling for a revival of the head tax that would affect one in three Chicago workers and an increase to the Personal Property Lease Transaction Tax. The mayor argues the taxes will fund city services, while critics say they will discourage job creation and investment. The proposals will be reviewed at budget hearings beginning next week.",
+   "url": "https://www.ward34.org/",
+   "published_at": "2026-10-22T21:23:55.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "conway-20261022-west-loop-green-city-market-operates-sat",
+   "category": "business",
+   "source_id": "conway",
+   "source_name": "Conway's Corner (34th Ward Office Newsletter)",
+   "source_type": "email_newsletter",
+   "title": "West Loop Green City Market operates Saturdays through November",
+   "summary": "The West Loop Green City Market is open Saturdays from 8 a.m. to 1 p.m. at 900 W. Monroe, between Peoria and Sangamon. The market features dozens of local farmers and food producers, though the office will not be tabling for the rest of the season due to upcoming fall events.",
+   "url": "https://www.ward34.org/",
+   "published_at": "2026-10-22T21:23:55.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "wca-20261023-o-hare-flyer-project-proposed-link-betwe",
+   "category": "civic_org",
+   "source_id": "wca",
+   "source_name": "The WCA Weekly",
+   "source_type": "email_newsletter",
+   "title": "O’Hare Flyer Project: Proposed Link Between Chicago and O’Hare International Airport",
+   "summary": "The WCA Speaker Series will discuss the O’Hare Flyer, a proposed transportation project connecting Chicago and O’Hare International Airport. The session on November 17 at The Green at 320 will feature a conversation with the project team and a Q&A. Seating is limited and tickets must be secured in advance.",
+   "url": "https://www.wcachicago.org/",
+   "published_at": "2026-10-23T11:31:16.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "wca-20261023-1133-w-kinzie-development-moves-forward-",
+   "category": "business",
+   "source_id": "wca",
+   "source_name": "The WCA Weekly",
+   "source_type": "email_newsletter",
+   "title": "1133 W. Kinzie Development Moves Forward for WCA Restaurant Members",
+   "summary": "The West Central Association highlights a development at 1133 W. Kinzie, aimed at supporting its restaurant members and promoting local Italian cuisine. The project is part of the association’s efforts to serve the community and enhance the West Loop dining scene.",
+   "url": "https://www.wcachicago.org/",
+   "published_at": "2026-10-23T11:31:16.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20261023-the-story-of-william-bell-chicago-s-only",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "The Story Of William Bell, Chicago’s Only Documented Lynching Victim",
+   "summary": "Three decades before 14-year-old Emmett Till was killed by a racist mob in Mississippi, Bell was beaten to death on the streets of Chicago.",
+   "url": "https://blockclubchicago.org/2026/10/23/the-story-of-william-bell-chicagos-only-documented-lynching-victim/",
+   "published_at": "2026-10-23T19:31:17.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "politico-20261023-gov-pritzker-eyes-bears-stadium-deal-and",
    "category": "business",
