@@ -1,6 +1,66 @@
 {
- "generated_at": "2026-10-25T12:45:34.161Z",
+ "generated_at": "2026-10-25T13:00:44.948Z",
  "items": [
+  {
+   "id": "politico-20261023-gov-pritzker-eyes-bears-stadium-deal-ami",
+   "category": "business",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Gov. Pritzker eyes Bears stadium deal amid short veto session",
+   "summary": "Gov. JB Pritzker told reporters he is encouraging lawmakers to pass legislation that would clear a path for the Chicago Bears to build a new stadium in Illinois. The governor kept expectations low for the six‑day veto session starting Nov. 17, saying only a few specific items are likely to move forward. He also highlighted the POWER Act for data‑center energy costs and the BUILD Act to loosen local zoning for more housing.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-10-23T12:01:22.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "politico-20261023-mayor-brandon-johnson-pushes-budget-head",
+   "category": "business",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Mayor Brandon Johnson pushes budget head tax despite business opposition",
+   "summary": "Mayor Brandon Johnson began a citywide tour to sell his budget proposal, doubling down on a head tax that business leaders say could drive companies out of Chicago. Critics warned the tax would hurt local businesses, while Johnson argued no corporation is leaving and that people are being forced out by school closures and safety concerns. He also announced he would turn in his petition signatures for the 2027 mayoral election.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-10-23T12:01:22.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "wca-20261023-1133-w-kinzie-development-moves-forward",
+   "category": "business",
+   "source_id": "wca",
+   "source_name": "The WCA Weekly",
+   "source_type": "email_newsletter",
+   "title": "1133 W. Kinzie Development Moves Forward",
+   "summary": "The West Central Association announced that the development project at 1133 West Kinzie Street in the West Loop is moving forward. The project is part of ongoing investment in the neighborhood’s commercial real estate. The announcement appears in the association’s latest newsletter.",
+   "url": "https://www.wcachicago.org/",
+   "published_at": "2026-10-23T11:31:16.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "wca-20261023-last-wca-networking-event-of-the-year-at",
+   "category": "civic_org",
+   "source_id": "wca",
+   "source_name": "The WCA Weekly",
+   "source_type": "email_newsletter",
+   "title": "Last WCA Networking Event of the Year at Pizza Lobo",
+   "summary": "West Central Association will host its final networking event of the year on November 11 from 4–6 p.m. at the newly opened Pizza Lobo, located at 165 North Morgan Street in the West Loop. Attendees can enjoy pizza, drinks, and conversation while connecting with fellow members and local professionals. The event is limited to WCA members.",
+   "url": "https://www.wcachicago.org/",
+   "published_at": "2026-10-23T11:31:16.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "wca-20261023-sepia-x-zaragoza-eight-course-collaborat",
+   "category": "business",
+   "source_id": "wca",
+   "source_name": "The WCA Weekly",
+   "source_type": "email_newsletter",
+   "title": "Sepia x Zaragoza Eight‑Course Collaborative Tasting Menu",
+   "summary": "Chef Jonathan Zaragoza will team with Chef Kyle Cottle for a one‑night, eight‑course tasting menu at Sepia, 123 North Jefferson Street, on Wednesday, November 4. The menu blends Zaragoza’s Mexican heritage and live‑fire cooking with Cottle’s contemporary, ingredient‑driven style. Tickets cost $195 per person and can be purchased through OpenTable.",
+   "url": "https://www.wcachicago.org/",
+   "published_at": "2026-10-23T11:31:16.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "abc7-20261025-arts-in-the-dark-parade-draws-nearly-100",
    "category": "civic_org",
