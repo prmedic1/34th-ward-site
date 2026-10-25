@@ -1,6 +1,30 @@
 {
- "generated_at": "2026-10-24T17:10:44.893Z",
+ "generated_at": "2026-10-25T12:45:34.161Z",
  "items": [
+  {
+   "id": "abc7-20261025-arts-in-the-dark-parade-draws-nearly-100",
+   "category": "civic_org",
+   "source_id": "abc7",
+   "source_name": "ABC7 Chicago",
+   "source_type": "web_feed",
+   "title": "Arts in the Dark Parade draws nearly 100,000 spectators downtown Chicago",
+   "summary": "Downtown Chicago came alive for the 12th annual Arts in the Dark Parade, featuring floats, dancers, and music celebrating the arts.",
+   "url": "https://abc7chicago.com/post/chicago-halloween-events-arts-dark-parade-draws-100000-spectators-downtown/19977051/",
+   "published_at": "2026-10-25T12:45:34.156Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "cbs-20261025-arts-in-the-dark-parade-brings-creativit",
+   "category": "civic_org",
+   "source_id": "cbs",
+   "source_name": "CBS News Chicago",
+   "source_type": "web_feed",
+   "title": "Arts in the Dark Parade brings creativity to life in downtown Chicago",
+   "summary": "Chicago’s kickoff to Halloween festivities paraded down Columbus Drive in Grant Park Saturday night, as the 12th annual Arts in the Dark Parade brought together more than 100 cultural organizations. Jackie Kostek reports.",
+   "url": "https://www.cbsnews.com/chicago/video/arts-in-the-dark-parade-brings-creativity-to-life-in-downtown-chicago/",
+   "published_at": "2026-10-25T12:02:00.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "politico-20261023-gov-jb-pritzker-focuses-on-bears-stadium",
    "category": "elected_official",
