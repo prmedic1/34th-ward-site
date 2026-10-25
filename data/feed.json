@@ -1,6 +1,54 @@
 {
- "generated_at": "2026-10-25T13:00:44.948Z",
+ "generated_at": "2026-10-25T17:23:26.890Z",
  "items": [
+  {
+   "id": "politico-20261023-mayor-brandon-johnson-pushes-citywide-he",
+   "category": "elected_official",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Mayor Brandon Johnson pushes citywide head tax despite business opposition",
+   "summary": "Mayor Brandon Johnson began a citywide tour Thursday to promote his budget proposal, emphasizing a head tax that the business community has opposed. Critics warn the tax could drive businesses out of Chicago, while Johnson argued no corporation is leaving and that people are being forced out because schools have closed or safety concerns. His rival Alexi Giannoulias offered an alternative plan to cut $4.5 billion in contract spending and collect more of the $8 billion owed in fines and fees.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-10-23T12:01:22.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "politico-20261023-governor-pritzker-s-build-act-aims-to-lo",
+   "category": "civic_org",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Governor Pritzker’s BUILD Act aims to loosen zoning for more housing",
+   "summary": "Governor JB Pritzker highlighted the BUILD Act during a briefing on the upcoming veto session, saying it would make it easier to build more housing by loosening local zoning rules, allowing more multifamily homes and backyard apartments, and streamlining the development process. The proposal has raised questions about how much authority the state would take from local governments. The act is expected to be considered in the short six‑day veto session starting Nov. 17.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-10-23T12:01:22.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "wca-20261023-last-wca-networking-event-of-the-year-to",
+   "category": "civic_org",
+   "source_id": "wca",
+   "source_name": "The WCA Weekly",
+   "source_type": "email_newsletter",
+   "title": "Last WCA Networking Event of the Year to Be Held at New Pizza Lobo in the West Loop",
+   "summary": "The West Central Association will host its final networking event of the year on Wednesday, November 11, from 4 p.m. to 6 p.m. The gathering takes place at the newly opened Pizza Lobo, located at 165 N. Morgan Street in the West Loop. Attendees can enjoy pizza, drinks, and conversation while connecting with fellow members and local professionals.",
+   "url": "https://www.wcachicago.org/",
+   "published_at": "2026-10-23T11:31:16.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "cbs-20261025-cta-green-pink-line-trains-to-be-disrupt",
+   "category": "civic_org",
+   "source_id": "cbs",
+   "source_name": "CBS News Chicago",
+   "source_type": "web_feed",
+   "title": "CTA Green, Pink Line trains to be disrupted for extra 2 days",
+   "summary": "For two more days longer than originally planned, the CTA Green and Pink lines will not be connecting to the Loop from the West Side.",
+   "url": "https://www.cbsnews.com/chicago/news/cta-green-pink-line-trains-disrupted-extra-2-days/",
+   "published_at": "2026-10-25T17:09:02.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "politico-20261023-gov-pritzker-eyes-bears-stadium-deal-ami",
    "category": "business",
