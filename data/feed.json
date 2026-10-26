@@ -1,6 +1,102 @@
 {
- "generated_at": "2026-10-26T13:00:54.240Z",
+ "generated_at": "2026-10-26T19:43:28.977Z",
  "items": [
+  {
+   "id": "politico-20261026-mayor-brandon-johnson-files-33-000-signa",
+   "category": "elected_official",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Mayor Brandon Johnson files 33,000 signatures as Chicago mayoral race kicks off",
+   "summary": "On Friday, incumbent Mayor Brandon Johnson submitted roughly 33,000 signatures to the Chicago Board of Elections, meeting the 12,500‑signature threshold to appear on the ballot. The filing deadline for all mayoral candidates is today, with objections due by Nov. 2. Other declared candidates include Secretary of State Alexi Giannoulias, Congressman Mike Quigley, businessman Willie Wilson, lobbyist John Kelly and CHA Commissioner Matt Brewer.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-10-26T12:02:15.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "politico-20261026-lincoln-legacy-pac-launches-six-figure-t",
+   "category": "civic_org",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Lincoln Legacy PAC launches six‑figure TV ad against former Rep. Melissa Bean in 8th District",
+   "summary": "A Republican super PAC, Lincoln Legacy PAC, began airing a six‑figure television ad campaign across the Chicago area over the weekend targeting former congresswoman Melissa Bean, who is seeking to reclaim the 8th Congressional District seat. The ad accuses Bean of raising energy bills while opposing tax cuts.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-10-26T12:02:15.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "conway-20261025-cta-service-interruptions-on-pink-and-gr",
+   "category": "civic_org",
+   "source_id": "conway",
+   "source_name": "Conway's Corner (34th Ward Office Newsletter)",
+   "source_type": "email_newsletter",
+   "title": "CTA service interruptions on Pink and Green Lines continue through Oct 28",
+   "summary": "Structural, electrical and mechanical work on the new leaf of the Lake Street Bridge forces Pink and Green Line service interruptions between Clinton and Clark/Lake stations until 4 a.m. on Oct 28, with free bus substitutions operating on that segment. Green Line trains run in two sections, connecting at Clinton and Clark/Lake stations, while Pink Line riders must transfer to the Blue Line at Racine Station or use 9/X9 Ashland buses for downtown service. The CTA advises riders to check its website for additional information.",
+   "url": "https://www.ward34.org/",
+   "published_at": "2026-10-25T20:44:35.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "wca-20261025-pizzeria-gabbo-opens-in-fulton-market",
+   "category": "business",
+   "source_id": "wca",
+   "source_name": "The WCA Weekly",
+   "source_type": "email_newsletter",
+   "title": "Pizzeria Gabbo Opens in Fulton Market",
+   "summary": "The West Central Association highlights the opening of Pizzeria Gabbo in Fulton Market, offering pizza, pasta, and gelato. The new restaurant is a member of the WCA and adds to the neighborhood’s growing culinary scene.",
+   "url": "https://www.wcachicago.org/",
+   "published_at": "2026-10-25T20:01:05.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "wca-20261025-o-hare-flyer-project-discussed-at-wca-sp",
+   "category": "civic_org",
+   "source_id": "wca",
+   "source_name": "The WCA Weekly",
+   "source_type": "email_newsletter",
+   "title": "O’Hare Flyer Project Discussed at WCA Speaker Series",
+   "summary": "The WCA Speaker Series on November 17 will feature a conversation with the team behind the O’Hare Flyer, a proposed transportation project connecting Chicago and O’Hare International Airport. The session will include a presentation and Q&A and is scheduled for noon–2 p.m. at The Green at 320.",
+   "url": "https://www.wcachicago.org/",
+   "published_at": "2026-10-25T20:01:05.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20261026-a-coworking-space-that-never-closes-swit",
+   "category": "business",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "A Coworking Space That Never Closes: Switchyards 24/7 Work Clubs' Expand In Chicago",
+   "summary": "The Atlanta-based company is opening locations in Lincoln Park and Fulton Market that aim to combine the look and feel of a cafe, hotel lobby and college library.",
+   "url": "https://blockclubchicago.org/2026/10/26/a-coworking-space-that-never-closes-switchyards-24-7-work-clubs-expand-in-chicago/",
+   "published_at": "2026-10-26T13:12:02.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20261026-drivers-have-blocked-a-bike-lane-by-the-",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Drivers Have Blocked A Bike Lane By The Main Post Office For Years - Despite Free Parking Nearby",
+   "summary": "Cyclists say cars, trucks and even postal police vehicles regularly block the Harrison Street lane, forcing riders to swerve into traffic. The city says it's planning to add protections to prevent this next month.",
+   "url": "https://blockclubchicago.org/2026/10/26/drivers-have-blocked-a-bike-lane-by-the-main-post-office-for-years-despite-free-parking-nearby/",
+   "published_at": "2026-10-26T13:00:00.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20261026-feds-finally-agree-to-environmental-revi",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Feds Finally Agree To Environmental Review Of Proposed Amtrak Facility In Bridgeport",
+   "summary": "The Federal Railroad Administration’s decision follows months of opposition to the proposed maintenance facility near Rate Field, where residents have raised concerns about its potential environmental and health effects.",
+   "url": "https://blockclubchicago.org/2026/10/26/feds-finally-agree-to-environmental-review-of-proposed-amtrak-facility-in-bridgeport/",
+   "published_at": "2026-10-26T06:24:00.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "politico-20261026-mayor-brandon-johnson-files-nominating-p",
    "category": "elected_official",
@@ -2478,30 +2574,6 @@
    "summary": "The race for the governor's mansion is in its final month, and Democrats and Republicans are ramping up their attacks. The two are facing off for the second time as Gov. JB Pritzker seeks a third term that would further cement Democratic control in Springfield, while Republican Darren Bailey is promising a sharp change in direction.",
    "url": "https://www.axios.com/local/chicago",
    "published_at": "2026-10-06T11:28:33.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20261005-chicago-fashion-week-kicks-off-thursday-",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Chicago Fashion Week Kicks Off Thursday With Runway Shows, Workshops, Parties And More",
-   "summary": "From Hyde Park to Highland Park, there are more than 80 fashion events across the Chicago area. We've highlighted 15 of them here.",
-   "url": "https://blockclubchicago.org/2026/10/05/chicago-fashion-week-kicks-off-thursday-with-runway-shows-workshops-parties-and-more/",
-   "published_at": "2026-10-05T13:41:39.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20261005-tini-bar-with-room-for-just-30-people-go",
-   "category": "business",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Tini Bar, With Room For Just 30 People, Goes Big On Retro Cocktails",
-   "summary": "The 630-square-foot bar opening in November below LIA Tavern in River North takes inspiration from midcentury modern design and house parties of the 1950s through the ‘70s.",
-   "url": "https://blockclubchicago.org/2026/10/05/tini-bar-with-room-for-just-30-people-goes-big-on-retro-cocktails/",
-   "published_at": "2026-10-05T13:13:18.000Z",
    "flagged_for_review": false
   }
  ]
