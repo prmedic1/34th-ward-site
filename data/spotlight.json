@@ -1,12 +1,12 @@
 {
  "_rotation_note": "The daily job picks the next business each morning - rotating among ward businesses with priority to spotlight requests from owners and newly opened spots. Keep yesterday's entries in history.",
  "current": {
-  "name": "Cheese & Board",
-  "address": "948 W. Madison St, West Loop",
-  "website": "https://cheeseandboard.com/",
-  "image": "https://cheeseandboard.com/cdn/shop/files/Cheese_Board_Hero_FIXED.png?width=1200",
-  "blurb": "A woman-owned, European-style cheese shop on Madison Street where artisanal cheese is cut to order. The team builds custom boards and grazing tables, and the shelves are stocked with charcuterie, wine, craft beer, and gourmet provisions.",
-  "date": "2026-10-25"
+  "name": "Big Shoulders Coffee",
+  "address": "141 W. Jackson Blvd (Chicago Board of Trade), the Loop",
+  "website": "https://bigshoulderscoffee.com/",
+  "image": "https://bigshoulderscoffee.com/cdn/shop/files/Big_Shoulders_Coffee_Hero.png?width=1200",
+  "blurb": "A Chicago-born, award-winning coffee roaster that has been brewing in the city since 2012. Its cafe inside the Chicago Board of Trade building pours espresso drinks and fresh daily roasts for the weekday Loop crowd from 6 a.m. to 3 p.m., and a second ward cafe sits at 311 S. Wacker.",
+  "date": "2026-10-26"
  },
  "history": [
   {
@@ -995,6 +995,14 @@
    "image": "images/spotlight/rosebud.jpg?v=20260903",
    "blurb": "The flagship of the Taylor Street Italian institution since 1976, plating big portions of chicken Vesuvio, cavatelli, and old-school red sauce.",
    "date": "2026-10-24"
+  },
+  {
+   "name": "Cheese & Board",
+   "address": "948 W. Madison St, West Loop",
+   "website": "https://cheeseandboard.com/",
+   "image": "https://cheeseandboard.com/cdn/shop/files/Cheese_Board_Hero_FIXED.png?width=1200",
+   "blurb": "A woman-owned, European-style cheese shop on Madison Street where artisanal cheese is cut to order. The team builds custom boards and grazing tables, and the shelves are stocked with charcuterie, wine, craft beer, and gourmet provisions.",
+   "date": "2026-10-25"
   }
  ]
 }

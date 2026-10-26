@@ -1,6 +1,103 @@
 {
- "generated_at": "2026-10-25T17:23:26.890Z",
+ "generated_at": "2026-10-26T12:46:01.494Z",
  "items": [
+  {
+   "id": "politico-20261026-mayor-race-petition-filing-deadline",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "category": "newsletter",
+   "title": "Monday is the last day to file petitions in Chicago's 2027 mayoral race",
+   "summary": "Oct. 26 is the final day for Chicago mayoral candidates to file nominating petitions with the Chicago Board of Elections. Candidates need 12,500 valid signatures, and the deadline to file objections to other candidates' petitions is Nov. 2. Mayor Brandon Johnson filed roughly 33,000 signatures on Friday, and Alexi Giannoulias, Mike Quigley, Willie Wilson, John Kelly and Matt Brewer are already in the race, with Comptroller Susana Mendoza expected to file today.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-10-26T12:02:15.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "politico-20261026-kennedy-expressway-commutes-still-slow",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "category": "newsletter",
+   "title": "Kennedy Expressway commutes remain slow three years after the rehab began",
+   "summary": "A WBEZ analysis found most of the longest Kennedy Expressway commutes on record happened during the three-year rehab project, as the state spent more than $170 million on the 7.5-mile stretch between Downtown and the Edens junction. The Sun-Times also reported that delays during the work were the worst in more than 20 years.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-10-26T12:02:15.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "politico-20261025-trump-midterm-messaging-final-week",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "category": "newsletter",
+   "front_exclude": true,
+   "title": "Midterm campaign enters its final week as Republicans brace for House losses",
+   "summary": "POLITICO Forecast reports that polls suggest Republicans are likely to lose the U.S. House and face a struggle to hold the Senate as the Nov. 3 midterms approach, with gas prices tied to the Iran war a top voter concern. President Trump holds a rally in Mississippi on Monday, a state where Democrats see a rare Senate opening.",
+   "url": "https://www.politico.com/newsletters/politico-forecast",
+   "published_at": "2026-10-25T21:00:23.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "axios-20261026-ballys-tower-graffiti-casino-delays",
+   "source_id": "axios",
+   "source_name": "Axios Chicago",
+   "source_type": "email_newsletter",
+   "category": "newsletter",
+   "title": "Graffiti on Bally's River West tower highlights casino construction delays",
+   "summary": "Graffiti on the exterior of the Bally's Chicago hotel tower near Grand Avenue has gone untouched for at least two months. Bally's paused work on nongaming amenities in August amid a dispute with the city over the 2026 budget's legalization of video gambling terminals, and says crews are now focused on the casino floor. The project is expected to send about $200 million a year to city pension funds.",
+   "url": "https://www.axios.com/local/chicago/2026/10/26/graffiti-on-ballys-chicago-tower-reflects-casino-delays",
+   "published_at": "2026-10-26T11:28:40.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "axios-20261026-judicial-retention-voter-guides",
+   "source_id": "axios",
+   "source_name": "Axios Chicago",
+   "source_type": "email_newsletter",
+   "category": "newsletter",
+   "title": "Judges fill most of the Chicago midterm ballot: how retention votes work",
+   "summary": "Most questions on Chicago's Nov. 3 ballot involve judges, with more than 60 Cook County judges up for retention. Retained judges need 60% approval, and only three have failed to win retention in the last six years. Voter guides with recommendations are available from the Chicago Bar Association and the Illinois Alliance of Bar Associations.",
+   "url": "https://www.axios.com/local/chicago/2026/10/23/voting-for-judges-in-chicago-2026-midterm-election",
+   "published_at": "2026-10-26T11:28:40.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "wca-20261025-free-90-day-business-plan-workshop",
+   "source_id": "wca",
+   "source_name": "The WCA Weekly",
+   "source_type": "email_newsletter",
+   "category": "business",
+   "title": "Free WCA member workshop Oct. 27: build a 90-day plan for your business",
+   "summary": "The West Central Association is hosting a free, hands-on working session for member business owners on Tuesday, Oct. 27, led by Dan Brown, The Growth Coach of West Loop/Chicagoland. Participants will look at revenue per hour, where revenue comes from and how their time is spent, then leave with a written 90-day plan. Seating is limited and RSVP is required.",
+   "url": "https://www.wcachicago.org/",
+   "published_at": "2026-10-25T20:01:05.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "wca-20261025-homerathon-greektown-odyssey-reading",
+   "source_id": "wca",
+   "source_name": "The WCA Weekly",
+   "source_type": "email_newsletter",
+   "category": "business",
+   "title": "Homerathon brings a full read-aloud of The Odyssey to Greektown Oct. 29-30",
+   "summary": "The National Hellenic Museum in Greektown and UIC's Department of Classics and Mediterranean Studies are reading Homer's Odyssey aloud from beginning to end on Thursday, Oct. 29 (12:30-8 p.m.) and Friday, Oct. 30 (10 a.m.-4 p.m.). A Thursday happy hour from 6-8 p.m. invites visitors to grab a drink and read a passage. The museum's exhibit The Odyssey Reimagined is also on view Thursdays through Sundays.",
+   "url": "https://www.nationalhellenicmuseum.org/",
+   "published_at": "2026-10-25T20:01:05.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "conway-20261025-pink-green-line-closure-extended-oct-28",
+   "source_id": "conway",
+   "source_name": "Conway's Corner (34th Ward Office Newsletter)",
+   "source_type": "email_newsletter",
+   "category": "civic_org",
+   "title": "Pink and Green Line closure at Lake Street Bridge extended to Oct. 28",
+   "summary": "Pink and Green Line service between Clinton and Clark/Lake stations will stay interrupted until 4 a.m. on Wednesday, Oct. 28, to finish structural, electrical and mechanical work on the new Lake Street Bridge leaf. Free shuttle buses continue between Clinton and Clark/Lake, and Green Line trains run in two sections. Pink Line riders should transfer to the Blue Line at Racine, or take the 9/X9 Ashland bus to reach Ashland, Morgan, Clinton and the West Loop.",
+   "url": "https://www.ward34.org/",
+   "published_at": "2026-10-25T20:44:35.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "politico-20261023-mayor-brandon-johnson-pushes-citywide-he",
    "category": "elected_official",
@@ -2297,54 +2394,6 @@
    "summary": "The 630-square-foot bar opening in November below LIA Tavern in River North takes inspiration from midcentury modern design and house parties of the 1950s through the ‘70s.",
    "url": "https://blockclubchicago.org/2026/10/05/tini-bar-with-room-for-just-30-people-goes-big-on-retro-cocktails/",
    "published_at": "2026-10-05T13:13:18.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20261005-cta-unveils-1950s-neon-style-sign-at-rev",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "CTA Unveils 1950s Neon-Style Sign At Revamped Blue Line Stop",
-   "summary": "The CTA recreated the sign used for the original Congress Line, which opened in 1958, at the newly reopened Loomis Street entrance to the Racine stop.",
-   "url": "https://blockclubchicago.org/2026/10/05/cta-unveils-1950s-neon-style-sign-at-revamped-blue-line-stop/",
-   "published_at": "2026-10-05T05:01:00.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "politico-20261005-school-board-president-candidate-hilario",
-   "category": "elected_official",
-   "source_id": "politico",
-   "source_name": "POLITICO Illinois Playbook",
-   "source_type": "email_newsletter",
-   "title": "School Board president candidate Hilario Dominguez faces reopened investigation after rally with Mayor Brandon Johnson",
-   "summary": "A Chicago School Board president candidate, Hilario Dominguez, appeared at a rally with Mayor Brandon Johnson in Pilsen on Oct. 3, one day after the Tribune reported that the Chicago Public Schools Office of Inspector General reopened an investigation into allegations from a 2017 summer youth program. The allegations involve inappropriate language and behavior toward a participant who was then 17, and the complainant, now 26, said she had not been interviewed. Dominguez left the event early and posted on social media that he believes in accountability and that previous investigations found the claims unfounded.",
-   "url": "https://www.politico.com/newsletters/illinois-playbook",
-   "published_at": "2026-10-05T12:02:08.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "politico-20261005-former-mayor-rahm-emanuel-discusses-demo",
-   "category": "elected_official",
-   "source_id": "politico",
-   "source_name": "POLITICO Illinois Playbook",
-   "source_type": "email_newsletter",
-   "title": "Former Mayor Rahm Emanuel discusses Democratic brand problem and potential 2028 presidential run on Meet the Press",
-   "summary": "Former Chicago mayor Rahm Emanuel was interviewed on Meet the Press on Oct. 4, where he warned that Democrats have a brand problem and need to focus on solutions such as affordability and ethics. He dismissed efforts to impeach former President Trump as a food fight, criticized democratic socialists for defunding the police and open borders, and expressed support for Michigan Senate candidate Abdul El‑Sayed while hinting at a possible 2028 presidential bid.",
-   "url": "https://www.politico.com/newsletters/illinois-playbook",
-   "published_at": "2026-10-05T12:02:08.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "axios-20261005-how-to-vote-in-the-midterm",
-   "category": "newsletter",
-   "source_id": "axios",
-   "source_name": "Axios Chicago",
-   "source_type": "email_newsletter",
-   "title": "How to vote in the midterm",
-   "summary": "Stock: Getty Images Chicagoans can officially start casting ballots in the 2026 midterm election. You don't have to wait until Election Day on Nov. 3, but deadlines for registering, voting by mail and finding an early voting site are approaching.",
-   "url": "https://www.axios.com/local/chicago",
-   "published_at": "2026-10-05T11:28:40.000Z",
    "flagged_for_review": false
   }
  ]
