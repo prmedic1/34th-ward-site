@@ -1,6 +1,78 @@
 {
- "generated_at": "2026-10-26T19:43:28.977Z",
+ "generated_at": "2026-10-27T13:00:55.024Z",
  "items": [
+  {
+   "id": "politico-20261027-gov-jb-pritzker-holds-46-4-million-cash-",
+   "category": "elected_official",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Gov. JB Pritzker holds $46.4 million cash on hand as he seeks third term",
+   "summary": "Illinois Governor JB Pritzker entered the week with $46.4 million in campaign cash while pursuing a third term. He recently donated $3,500 to Daniel Biss, the Democratic nominee for Congress in the 9th District, and is spending on signage that ties his Republican challenger Darren Bailey to former President Donald Trump. The governor also attended a groundbreaking at Jean Baptiste Pointe DuSable Park in the Loop, underscoring his continued presence in Chicago politics.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-10-27T12:02:09.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "axios-20261027-chicago-ballot-questions",
+   "category": "newsletter",
+   "source_id": "axios",
+   "source_name": "Axios Chicago",
+   "source_type": "email_newsletter",
+   "title": "Chicago ballot questions",
+   "summary": "Questions about a millionaire tax, a new gunshot detection system, a permanent fairgrounds space and compensation for Operation Midway Blitz damage round out Cook County residents' midterm ballots. While these are nonbinding questions, their answers can help legislators gauge public opinion and decide which laws to pursue. Gunshot detection \"Should the City of Chicago restart the use of gunshot detection.",
+   "url": "https://www.axios.com/local/chicago",
+   "published_at": "2026-10-27T11:28:52.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "abc7-20261027-2-wounded-in-shooting-inside-loop-7-elev",
+   "category": "business",
+   "source_id": "abc7",
+   "source_name": "ABC7 Chicago",
+   "source_type": "web_feed",
+   "title": "2 wounded in shooting inside Loop 7-Eleven store, Chicago police say",
+   "summary": "Two men were shot inside a 7-Eleven store in the Loop Monday night, Chicago police said.",
+   "url": "https://abc7chicago.com/post/chicago-shooting-2-shot-inside-loop-7-eleven-store-adams-street-police-say/19984296/",
+   "published_at": "2026-10-27T13:00:25.583Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "cbs-20261027-2-men-shot-during-fight-inside-7-eleven-",
+   "category": "civic_org",
+   "source_id": "cbs",
+   "source_name": "CBS News Chicago",
+   "source_type": "web_feed",
+   "title": "2 men shot during fight inside 7-Eleven in The Loop",
+   "summary": "Two men were shot during a fight inside a 7-Eleven in The Loop on Monday night.",
+   "url": "https://www.cbsnews.com/chicago/news/2-men-shot-inside-7-eleven-in-the-loop/",
+   "published_at": "2026-10-27T10:58:59.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "cbs-20261027-2-men-shot-inside-7-eleven-in-the-loop",
+   "category": "civic_org",
+   "source_id": "cbs",
+   "source_name": "CBS News Chicago",
+   "source_type": "web_feed",
+   "title": "2 men shot inside 7-Eleven in The Loop",
+   "summary": "Two men are in the hospital after a fight that led to a shooting at a 7-Eleven in The Loop on Monday night.",
+   "url": "https://www.cbsnews.com/chicago/video/2-men-shot-inside-7-eleven-in-the-loop/",
+   "published_at": "2026-10-27T10:51:00.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "cbs-20261027-public-meetings-planned-for-proposed-amt",
+   "category": "civic_org",
+   "source_id": "cbs",
+   "source_name": "CBS News Chicago",
+   "source_type": "web_feed",
+   "title": "Public meetings planned for proposed Amtrak facility move from South Loop to Bridgeport",
+   "summary": "According to a new public dashboard for the project, the Federal Railroad Administration is preparing an environmental assessment despite indications that it may be exempt. The FRA is also planning two public meetings, but no dates have been announced.",
+   "url": "https://www.cbsnews.com/chicago/video/public-meetings-planned-for-proposed-amtrak-facility-move-from-south-loop-to-bridgeport/",
+   "published_at": "2026-10-27T03:08:00.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "politico-20261026-mayor-brandon-johnson-files-33-000-signa",
    "category": "elected_official",
@@ -2538,42 +2610,6 @@
    "summary": "Take a look inside the Chicago Brand Museum in the South Loop.",
    "url": "https://www.cbsnews.com/chicago/video/checking-out-the-chicago-brand-museum/",
    "published_at": "2026-10-06T15:12:00.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "politico-20261006-mayor-brandon-johnson-marks-completion-o",
-   "category": "civic_org",
-   "source_id": "politico",
-   "source_name": "POLITICO Illinois Playbook",
-   "source_type": "email_newsletter",
-   "title": "Mayor Brandon Johnson marks completion of Missing Middle housing initiative in South Loop",
-   "summary": "Mayor Brandon Johnson spoke at 1443 S. Trumbull Ave at 10 a.m. on Oct. 6, 2026 to announce the completion of the Missing Middle housing initiative, a city effort to increase affordable housing options in the South Loop area of the 34th Ward.",
-   "url": "https://www.politico.com/newsletters/illinois-playbook",
-   "published_at": "2026-10-06T12:01:39.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "politico-20261006-federal-judge-blocks-illinois-from-enfor",
-   "category": "business",
-   "source_id": "politico",
-   "source_name": "POLITICO Illinois Playbook",
-   "source_type": "email_newsletter",
-   "title": "Federal judge blocks Illinois from enforcing parts of its sports wagering law against Kalshi",
-   "summary": "U.S. District Judge Martha Pacold issued a 28‑page opinion on Friday ruling that Illinois likely cannot enforce key provisions of its 2019 sports wagering law against prediction market company Kalshi, Coinbase and related firms, citing federal Commodity Exchange Act jurisdiction; Attorney General Kwame Raoul’s office declined to comment.",
-   "url": "https://www.politico.com/newsletters/illinois-playbook",
-   "published_at": "2026-10-06T12:01:39.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "axios-20261006-pritzker-vs-bailey",
-   "category": "newsletter",
-   "source_id": "axios",
-   "source_name": "Axios Chicago",
-   "source_type": "email_newsletter",
-   "title": "Pritzker vs. Bailey",
-   "summary": "The race for the governor's mansion is in its final month, and Democrats and Republicans are ramping up their attacks. The two are facing off for the second time as Gov. JB Pritzker seeks a third term that would further cement Democratic control in Springfield, while Republican Darren Bailey is promising a sharp change in direction.",
-   "url": "https://www.axios.com/local/chicago",
-   "published_at": "2026-10-06T11:28:33.000Z",
    "flagged_for_review": false
   }
  ]
