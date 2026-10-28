@@ -1,12 +1,12 @@
 {
  "_rotation_note": "The daily job picks the next business each morning - rotating among ward businesses with priority to spotlight requests from owners and newly opened spots. Keep yesterday's entries in history.",
  "current": {
-  "name": "Pompei",
-  "address": "1531 W. Taylor St, Little Italy",
-  "website": "https://www.pompeius.com/",
-  "image": "images/spotlight/pompei.jpg?v=20260903",
-  "blurb": "A Little Italy bakery and Italian counter since 1909, known for square strudel-crust pizza, baked pastas, and Italian ices.",
-  "date": "2026-10-27"
+  "name": "Conte di Savoia",
+  "address": "1438 W. Taylor St, Little Italy",
+  "website": "https://www.contedisavoia.com/",
+  "image": "images/spotlight/conte-di-savoia.jpg?v=20260904",
+  "blurb": "A beloved Italian and European specialty grocer on Taylor Street, stocked with imported pastas, cheeses, olive oils, and made-to-order sandwiches.",
+  "date": "2026-10-28"
  },
  "history": [
   {
@@ -1011,6 +1011,14 @@
    "image": "https://bigshoulderscoffee.com/cdn/shop/files/Big_Shoulders_Coffee_Hero.png?width=1200",
    "blurb": "A Chicago-born, award-winning coffee roaster that has been brewing in the city since 2012. Its cafe inside the Chicago Board of Trade building pours espresso drinks and fresh daily roasts for the weekday Loop crowd from 6 a.m. to 3 p.m., and a second ward cafe sits at 311 S. Wacker.",
    "date": "2026-10-26"
+  },
+  {
+   "name": "Pompei",
+   "address": "1531 W. Taylor St, Little Italy",
+   "website": "https://www.pompeius.com/",
+   "image": "images/spotlight/pompei.jpg?v=20260903",
+   "blurb": "A Little Italy bakery and Italian counter since 1909, known for square strudel-crust pizza, baked pastas, and Italian ices.",
+   "date": "2026-10-27"
   }
  ]
 }

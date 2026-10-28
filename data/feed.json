@@ -1,6 +1,102 @@
 {
- "generated_at": "2026-10-27T19:13:00.125Z",
+ "generated_at": "2026-10-28T13:00:54.165Z",
  "items": [
+  {
+   "id": "politico-20261028-cindy-bailey-confronts-gov-jb-pritzker-o",
+   "category": "elected_official",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Cindy Bailey confronts Gov. JB Pritzker over campaign attacks ahead of Illinois governor race",
+   "summary": "On Oct. 27, 2026, Cindy Bailey, wife of Republican gubernatorial candidate Darren Bailey, held a press conference at the Illinois State Capitol to criticize Gov. JB Pritzker’s ads that she says mischaracterize her husband’s views on women. She highlighted her 40‑year marriage, family farm, and her own floral shop as evidence of her husband’s respect for women, and warned that the attacks also disparage stay‑at‑home mothers. Bailey pivoted to the financial pressures facing families, citing child‑care, grocery, electricity, and car‑repair costs, and urged the governor to address those concerns directly.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-10-28T12:01:59.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "politico-20261028-state-legislators-introduce-edge-essenti",
+   "category": "civic_org",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "State legislators introduce EDGE Essentials bill to expand tax credits for independent pharmacies and grocery stores",
+   "summary": "State Rep. Will Guzzardi and State Sen. Doris Turner announced legislation called EDGE Essentials that would broaden the existing EDGE tax credit program to attract and grow independent pharmacies and grocery stores across Illinois. The proposal has backing from the Illinois Department of Commerce and Economic Opportunity and the Illinois Retail Merchants Association, aiming to support local businesses and improve community access to essential goods.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-10-28T12:01:59.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "axios-20261028-evanston-plans-to-close-schools",
+   "category": "newsletter",
+   "source_id": "axios",
+   "source_name": "Axios Chicago",
+   "source_type": "email_newsletter",
+   "title": "Evanston plans to close schools",
+   "summary": "Evanston/Skokie District 65 needs to cut $20 million by 2028 and district leaders are pushing to do that by closing schools and cutting after-school care. Closing a school removes a community anchor and forces families to rebuild, and ending the childcare program disrupts working families. But district leaders argue that decades of unbalanced budgets have backed them into a corner.",
+   "url": "https://www.axios.com/local/chicago",
+   "published_at": "2026-10-28T11:28:38.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "abc7-20261028-man-killed-other-hurt-in-loop-shooting-c",
+   "category": "civic_org",
+   "source_id": "abc7",
+   "source_name": "ABC7 Chicago",
+   "source_type": "web_feed",
+   "title": "Man killed, other hurt in Loop shooting, Chicago police say",
+   "summary": "Chicago police are investigating a deadly shooting in the Loop on Wednesday morning.",
+   "url": "https://abc7chicago.com/post/chicago-shooting-today-2-shot-loop-state-lake-streets-thewit-hotel-police-say/19988864/",
+   "published_at": "2026-10-28T13:00:23.801Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "cbs-20261028-man-dead-another-injured-after-shooting-",
+   "category": "civic_org",
+   "source_id": "cbs",
+   "source_name": "CBS News Chicago",
+   "source_type": "web_feed",
+   "title": "Man dead, another injured after shooting in The Loop",
+   "summary": "A man is dead and another injured after a shooting in The Loop early Wednesday morning.",
+   "url": "https://www.cbsnews.com/chicago/news/shooting-investigation-chicago-loop/",
+   "published_at": "2026-10-28T12:15:47.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "cbs-20261028-shooting-investigation-underway-in-the-l",
+   "category": "civic_org",
+   "source_id": "cbs",
+   "source_name": "CBS News Chicago",
+   "source_type": "web_feed",
+   "title": "Shooting investigation underway in The Loop",
+   "summary": "A shooting investigation is underway in The Loop early Wednesday morning.",
+   "url": "https://www.cbsnews.com/chicago/video/shooting-investigation-underway-in-the-loop/",
+   "published_at": "2026-10-28T10:36:00.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20261027-work-finally-begins-on-dusable-park-near",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Work Finally Begins On DuSable Park, Nearly 40 Years After Land Was Set Aside For It",
+   "summary": "Lakefront land was first set aside for the park in 1987. It is slated to be completed by summer 2028.",
+   "url": "https://blockclubchicago.org/2026/10/27/work-finally-begins-on-dusable-park-nearly-40-years-after-land-was-set-aside-for-it/",
+   "published_at": "2026-10-27T21:23:16.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20261027-street-vendors-rally-for-more-protection",
+   "category": "elected_official",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Street Vendors Rally For More Protections In Proposed Ordinance: Being A Worker Is Not A Crime'",
+   "summary": "Restrictions on where and how long vendors can sell food and drink in Chicago continue to make it difficult to support their families, workers said.",
+   "url": "https://blockclubchicago.org/2026/10/27/street-vendors-rally-for-more-protections-in-proposed-ordinance-being-a-worker-is-not-a-crime/",
+   "published_at": "2026-10-27T20:17:37.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "politico-20261027-gov-jb-pritzker-unveils-building-up-inde",
    "category": "business",
@@ -2658,54 +2754,6 @@
    "summary": "This month’s selected exhibits draw inspiration from Greek myths, Black veterans and tattoo art.",
    "url": "https://blockclubchicago.org/2026/10/07/5-must-see-art-exhibits-to-check-out-in-october/",
    "published_at": "2026-10-07T13:17:00.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "politico-20261007-patty-garc-a-endorsed-by-track-aipac-and",
-   "category": "elected_official",
-   "source_id": "politico",
-   "source_name": "POLITICO Illinois Playbook",
-   "source_type": "email_newsletter",
-   "title": "Patty García endorsed by Track AIPAC and Justice Coalition Action PAC in IL‑04 race as Chuy Garcia retires",
-   "summary": "Democratic nominee Patty García received endorsements from Track AIPAC and the Justice Coalition Action PAC for the Illinois House 4th District seat, which is being vacated by retiring incumbent Rep. Jesús “Chuy” García. The 4th District includes Chicago neighborhoods such as the West Loop, Near West Side, and Fulton Market, making the race directly relevant to 34th Ward residents. The endorsements signal strong support from progressive and pro‑Israel groups ahead of the upcoming primary.",
-   "url": "https://www.politico.com/newsletters/illinois-playbook",
-   "published_at": "2026-10-07T12:01:24.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "politico-20261007-chicago-public-schools-watchdog-inquiry-",
-   "category": "civic_org",
-   "source_id": "politico",
-   "source_name": "POLITICO Illinois Playbook",
-   "source_type": "email_newsletter",
-   "title": "Chicago Public Schools watchdog inquiry reopened, stirring controversy in school board president race",
-   "summary": "A reopened Chicago Public Schools watchdog investigation is affecting a candidate for school board president after a woman alleged inappropriate behavior by candidate Hilario Domínguez. The allegation was reported by Block Club reporters Mila Koumpilova and Francia García Hernández and also covered by NBC 5’s Mary Ann Ahern. The controversy adds tension to the citywide school board president contest, which will impact policies affecting all Chicago public schools.",
-   "url": "https://www.politico.com/newsletters/illinois-playbook",
-   "published_at": "2026-10-07T12:01:24.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "politico-20261007-illinois-expands-automatic-sealing-of-cr",
-   "category": "civic_org",
-   "source_id": "politico",
-   "source_name": "POLITICO Illinois Playbook",
-   "source_type": "email_newsletter",
-   "title": "Illinois expands automatic sealing of criminal records under the Clean Slate Act",
-   "summary": "The Clean Slate Act, amended this year, now moves Illinois toward automatically sealing eligible criminal records, with Cook County officials offering assistance to residents on Saturday. The change reduces waiting periods and eligibility restrictions, aiming to improve access to housing and employment for affected individuals. The statewide reform directly benefits Chicago residents, including those in the 34th Ward, by simplifying the record‑clearing process.",
-   "url": "https://www.politico.com/newsletters/illinois-playbook",
-   "published_at": "2026-10-07T12:01:24.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "axios-20261007-trump-wrong-about-chicago-crime",
-   "category": "newsletter",
-   "source_id": "axios",
-   "source_name": "Axios Chicago",
-   "source_type": "email_newsletter",
-   "title": "Trump wrong about Chicago crime",
-   "summary": "Anna Moneymaker/Getty Images President Trump is again raising the prospect of federal intervention in Chicago, saying the city is suffering an \"unprecedented\" crime wave that's \"getting worse by the day. \" Trump's renewed focus on Chicago comes as the city is on pace to record even fewer homicides than last year, when killings fell to their lowest level in 60 years. Trump's words paint a bleak picture of violence.",
-   "url": "https://www.axios.com/local/chicago",
-   "published_at": "2026-10-07T11:27:22.000Z",
    "flagged_for_review": false
   }
  ]
