@@ -871,13 +871,13 @@
  },
  {
   "date": "2026-10-28",
-  "total": 2114,
-  "visitors": null,
-  "views": 7,
-  "article_total": null,
-  "article_views": null,
-  "ayala_total": 58,
-  "ayala_views": 0,
+  "total": 2118,
+  "visitors": 1260,
+  "views": 11,
+  "article_total": 394,
+  "article_views": 8,
+  "ayala_total": 59,
+  "ayala_views": 1,
   "verdict": "bad"
  }
 ]

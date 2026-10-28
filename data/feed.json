@@ -1,6 +1,54 @@
 {
- "generated_at": "2026-10-28T14:43:59.651Z",
+ "generated_at": "2026-10-28T19:18:54.132Z",
  "items": [
+  {
+   "id": "cbs-20261028-chicago-real-id-supercenter-in-the-loop-",
+   "category": "business",
+   "source_id": "cbs",
+   "source_name": "CBS News Chicago",
+   "source_type": "web_feed",
+   "title": "Chicago REAL ID supercenter in the Loop to close at end of December",
+   "summary": "Nearly two years after opening a downtown supercenter to process a surge in demand for REAL IDs, the Illinois Secretary of State's office plans to close the facility at the end of the year, saying it has fulfilled its mission.",
+   "url": "https://www.cbsnews.com/chicago/news/chicago-real-id-supercenter-in-the-loop-to-close-at-end-of-december/",
+   "published_at": "2026-10-28T16:37:36.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "cbs-20261028-1-killed-1-injured-in-shooting-near-a-7-",
+   "category": "civic_org",
+   "source_id": "cbs",
+   "source_name": "CBS News Chicago",
+   "source_type": "web_feed",
+   "title": "1 killed, 1 injured in shooting near a 7-Eleven in Chicago's Loop",
+   "summary": "A man is dead and another injured after a shooting in The Loop early Wednesday morning.",
+   "url": "https://www.cbsnews.com/chicago/video/1-killed-1-injured-in-shooting-near-a-7-eleven-in-chicagos-loop/",
+   "published_at": "2026-10-28T16:20:00.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20261028-man-killed-another-wounded-in-loop-shoot",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Man Killed, Another Wounded In Loop Shooting Early Wednesday",
+   "summary": "Officers responding to reports of a shooting around 2:40 a.m. Wednesday found two men with gunshot wounds outside on Lake Street, police said.",
+   "url": "https://blockclubchicago.org/2026/10/28/man-killed-another-wounded-in-loop-shooting-early-wednesday/",
+   "published_at": "2026-10-28T15:13:50.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20261028-some-green-pink-line-stations-to-remain-",
+   "category": "business",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Some Green, Pink Line Stations To Remain Closed This Week Due To Lake Street Bridge Construction",
+   "summary": "Full Pink and Green Line service is expected to be restored later this week, although an exact date and time has not been determined yet, officials said.",
+   "url": "https://blockclubchicago.org/2026/10/28/some-green-pink-line-stations-to-remain-closed-this-week-due-to-lake-street-bridge-construction/",
+   "published_at": "2026-10-28T14:16:39.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "skyline-20261027-new-skyline-out",
    "category": "newsletter",
@@ -2755,30 +2803,6 @@
    "summary": "Edwards Realty Company plans to revamp the shopping center through retail, entertainment, culture, media, strategic partnerships and year-round programming.",
    "url": "https://blockclubchicago.org/2026/10/07/block-37s-new-owner-wants-to-get-rid-of-old-mall-vibe/",
    "published_at": "2026-10-07T22:56:21.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "cbs-20261007-downtown-chicago-s-block-37-mall-sold-fo",
-   "category": "civic_org",
-   "source_id": "cbs",
-   "source_name": "CBS News Chicago",
-   "source_type": "web_feed",
-   "title": "Downtown Chicago's Block 37 mall sold for $30 million",
-   "summary": "Downtown Chicago's Block 37 mall was sold to Edwards Realty Company this week for $30 million, the company announced Wednesday.",
-   "url": "https://www.cbsnews.com/chicago/news/downtown-chicagos-block-37-sold-edwards-realty-company/",
-   "published_at": "2026-10-07T17:10:43.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20261007-5-must-see-art-exhibits-to-check-out-in-",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "5 Must-See Art Exhibits To Check Out In October",
-   "summary": "This month’s selected exhibits draw inspiration from Greek myths, Black veterans and tattoo art.",
-   "url": "https://blockclubchicago.org/2026/10/07/5-must-see-art-exhibits-to-check-out-in-october/",
-   "published_at": "2026-10-07T13:17:00.000Z",
    "flagged_for_review": false
   }
  ]
