@@ -1,6 +1,30 @@
 {
- "generated_at": "2026-10-29T19:24:26.373Z",
+ "generated_at": "2026-10-29T21:34:49.771Z",
  "items": [
+  {
+   "id": "axios-20261029-chicago-trick-or-treating-hours",
+   "category": "newsletter",
+   "source_id": "axios",
+   "source_name": "Axios Chicago",
+   "source_type": "email_newsletter",
+   "title": "What time does trick-or-treating start in Chicago this Saturday?",
+   "summary": "Halloween falls on Saturday, Oct. 31, and unlike many suburbs, Chicago does not set official trick-or-treating hours, so neighborhoods decide for themselves. Suburbs are running Halloween hours between noon and 8pm, with Schaumburg and Arlington Heights starting at 3pm. In an Axios reader poll, 57% favored sticking with the traditional 4pm start. Households not ready for visitors are advised to turn off the porch light.",
+   "url": "https://www.axios.com/local/chicago/2026/10/29/chicago-halloween-trick-or-treating-hours-2026",
+   "published_at": "2026-10-29T19:30:27.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "axios-20261029-halloween-weekend-events",
+   "category": "newsletter",
+   "source_id": "axios",
+   "source_name": "Axios Chicago",
+   "source_type": "email_newsletter",
+   "title": "Halloween weekend picks: parades, dog costumes and Rocky Horror",
+   "summary": "The free Streeterville Dog Halloween Party runs Saturday 9-11am at the MCA, and the 30th annual Haunted Halsted Halloween Parade steps off Saturday at 7pm on Halsted between Aldine and Addison, with $4,000 in costume prizes. The Chicago Theatre screens a 4K restoration of The Rocky Horror Picture Show with a live shadow cast Saturday at 7:30pm ($84). Pilsen's Dia de los Muertos Window Walk along 18th Street continues through Nov. 2.",
+   "url": "https://www.axios.com/local/chicago/2026/10/29/chicago-halloween-things-to-do-parade-rocky-horror-frankenstein",
+   "published_at": "2026-10-29T19:30:27.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "blockclub-20261029-green-pink-line-train-service-restored-d",
    "category": "civic_org",
