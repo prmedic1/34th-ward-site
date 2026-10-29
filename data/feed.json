@@ -1,6 +1,42 @@
 {
- "generated_at": "2026-10-29T13:00:50.194Z",
+ "generated_at": "2026-10-29T19:24:26.373Z",
  "items": [
+  {
+   "id": "blockclub-20261029-green-pink-line-train-service-restored-d",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Green, Pink Line Train Service Restored Downtown After Shutdown",
+   "summary": "More headaches are on the way as similar work on the 110-year-old Lake Street Bridge will require service disruptions this spring.",
+   "url": "https://blockclubchicago.org/2026/10/29/green-pink-line-train-service-restored-downtown-after-shutdown/",
+   "published_at": "2026-10-29T19:03:03.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20261029-nonbinary-chess-club-builds-lgbtq-connec",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Nonbinary Chess Club Builds LGBTQ+ Connections Over Game Boards",
+   "summary": "The club's next all-inclusive gatherings are Thursday at City Farm on Division Street and Sunday at Sweet Luxury Suites Downtown.",
+   "url": "https://blockclubchicago.org/2026/10/29/nonbinary-chess-club-builds-lgbtq-connections-over-game-boards/",
+   "published_at": "2026-10-29T13:30:00.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20261029-31-things-to-do-in-chicago-this-weekend-",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "31 Things To Do In Chicago This Weekend: Halloween Fun And More",
+   "summary": "Parades, fall fests and Día de Los Muertos celebrations are on deck this weekend.",
+   "url": "https://blockclubchicago.org/2026/10/29/31-things-to-do-in-chicago-this-weekend-halloween-fun-and-more/",
+   "published_at": "2026-10-29T13:02:51.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "politico-20261029-project-50-seeks-to-export-illinois-abor",
    "category": "civic_org",
@@ -2743,42 +2779,6 @@
    "summary": "Major streets around Grant Park will close as early as 4 a.m. Sunday. Additional closures have already begun and will continue throughout the weekend.",
    "url": "https://blockclubchicago.org/2026/10/08/here-are-road-closures-parking-restrictions-for-chicago-marathon-weekend/",
    "published_at": "2026-10-08T20:52:50.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20261008-28-things-to-do-in-chicago-this-weekend-",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "28 Things To Do In Chicago This Weekend: Chicago Fashion Week, Latino Dance Festival, Fall Fests",
-   "summary": "The Chicago Marathon returns this weekend and the Jefferson Park and Luv City fall festivals are also on deck.",
-   "url": "https://blockclubchicago.org/2026/10/08/28-things-to-do-in-chicago-this-weekend-chicago-fashion-week-latino-dance-festival-fall-fests-and-more/",
-   "published_at": "2026-10-08T13:47:04.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20261008-chicago-s-1st-battery-powered-commuter-t",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Chicago's 1st Battery-Powered Commuter Train Coming To Metra's Rock Island Beverly Line",
-   "summary": "The \"FLIRT\" train, set to begin service in 2028, will be on display next week at the LaSalle Street Metra station.",
-   "url": "https://blockclubchicago.org/2026/10/08/chicagos-1st-battery-powered-commuter-train-coming-to-metras-rock-island-beverly-line/",
-   "published_at": "2026-10-08T13:37:00.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20261008-how-to-celebrate-indigenous-peoples-day-",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "How To Celebrate Indigenous Peoples' Day In Chicago",
-   "summary": "We've compiled a list of events and Indigenous organizations you can support in Chicago and beyond.",
-   "url": "https://blockclubchicago.org/2026/10/08/how-to-celebrate-indigenous-peoples-day-in-chicago/",
-   "published_at": "2026-10-08T13:24:10.000Z",
    "flagged_for_review": false
   }
  ]
