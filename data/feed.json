@@ -1,6 +1,78 @@
 {
- "generated_at": "2026-10-28T19:18:54.132Z",
+ "generated_at": "2026-10-29T13:00:50.194Z",
  "items": [
+  {
+   "id": "politico-20261029-project-50-seeks-to-export-illinois-abor",
+   "category": "civic_org",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Project 50 seeks to export Illinois abortion‑rights playbook to red‑state races",
+   "summary": "Illinois activists behind Project 50 are targeting local races in states with strict abortion bans, aiming to replicate the state’s pro‑choice success. The group has raised more than $3.7 million from 858 donors in 36 states, with Gov. JB Pritzker contributing $100,000 to its 2026 fundraising. Since its 2022 launch the organization has helped win seven legislative contests, including three victories in 2024 and four in 2025.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-10-29T12:02:05.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "politico-20261029-seniors-for-brandon-johnson-endorse-mayo",
+   "category": "civic_org",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Seniors for Brandon Johnson endorse mayoral candidate amid new Senior Bill of Rights",
+   "summary": "The affinity group Seniors for Brandon Johnson has officially endorsed incumbent Mayor Brandon Johnson, citing his recent executive order that created a Senior Bill of Rights. The order calls for safe housing, access to information, the right to organize, reporting problems and coordination of services for seniors across Chicago.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-10-29T12:02:05.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "politico-20261029-chicago-school-board-oversees-10-billion",
+   "category": "civic_org",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Chicago School Board oversees $10 billion budget, faces aging buildings and shrinking enrollment",
+   "summary": "The Chicago Board of Education manages a $10 billion budget, larger than many major cities, while contending with aging school facilities, ballooning debt and declining student enrollment, according to a Tribune analysis.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-10-29T12:02:05.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "axios-20261029-why-restaurant-surcharges-linger",
+   "category": "newsletter",
+   "source_id": "axios",
+   "source_name": "Axios Chicago",
+   "source_type": "email_newsletter",
+   "title": "Why restaurant surcharges linger",
+   "summary": "Last week, Chicago writer Kit Graham ignited a firestorm by asking why local restaurants are still applying surcharges post-pandemic on top of just raising menu prices. Many Chicago diners have the same questions. What's happening: We queried the leaders at the city's largest restaurant groups to find out.",
+   "url": "https://www.axios.com/local/chicago",
+   "published_at": "2026-10-29T11:28:37.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20261028-mother-jones-monument-breaks-ground-as-d",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Mother Jones Monument Breaks Ground As Downtown’s First Honoring A Historic Woman",
+   "summary": "The Mother Jones “We Shall Rise” Monument will honor the pioneering labor activist who got her start in Chicago.",
+   "url": "https://blockclubchicago.org/2026/10/28/mother-jones-monument-breaks-ground-as-downtowns-first-honoring-a-historic-woman/",
+   "published_at": "2026-10-28T21:51:28.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20261028-amtrak-protesters-vow-to-stop-ishbia-in-",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Amtrak Protesters Vow To ‘Stop Ishbia In His Tracks’ As Developer Appears At Charity Conference",
+   "summary": "Protesters rallied outside the Downtown Invest for Kids conference, opposing Amtrak’s proposed $915 million rail maintenance facility in Bridgeport and Chinatown.",
+   "url": "https://blockclubchicago.org/2026/10/28/amtrak-protesters-vow-to-stop-ishbia-in-his-tracks-as-developer-appears-at-charity-conference/",
+   "published_at": "2026-10-28T21:14:26.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "cbs-20261028-chicago-real-id-supercenter-in-the-loop-",
    "category": "business",
@@ -2707,102 +2779,6 @@
    "summary": "We've compiled a list of events and Indigenous organizations you can support in Chicago and beyond.",
    "url": "https://blockclubchicago.org/2026/10/08/how-to-celebrate-indigenous-peoples-day-in-chicago/",
    "published_at": "2026-10-08T13:24:10.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "politico-20261008-mayor-johnson-counters-trump-s-crime-cla",
-   "category": "elected_official",
-   "source_id": "politico",
-   "source_name": "POLITICO Illinois Playbook",
-   "source_type": "email_newsletter",
-   "title": "Mayor Johnson counters Trump’s crime claims with data showing 30% drop in homicides",
-   "summary": "President Donald Trump posted on Truth Social that Chicago is experiencing an unprecedented violent crime wave and urged federal help. Mayor Brandon Johnson responded on CNN, citing Block Club data that the city has recorded 288 homicides this year, a 30 percent decline from the same time last year, and called the president out of touch. Johnson also demanded restoration of $800 million in federal funding for community violence intervention programs and the ATF budget.",
-   "url": "https://www.politico.com/newsletters/illinois-playbook",
-   "published_at": "2026-10-08T12:01:21.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "politico-20261008-residents-and-city-council-push-back-on-",
-   "category": "civic_org",
-   "source_id": "politico",
-   "source_name": "POLITICO Illinois Playbook",
-   "source_type": "email_newsletter",
-   "title": "Residents and City Council push back on $900 million Amtrak Bridgeport maintenance facility",
-   "summary": "A proposed $900 million Amtrak maintenance facility in Bridgeport is facing opposition from local residents and City Council members, according to CBS 2’s Shardaa Gray. Critics are concerned about the project's impact on the neighborhood, though specific objections were not detailed in the report.",
-   "url": "https://www.politico.com/newsletters/illinois-playbook",
-   "published_at": "2026-10-08T12:01:21.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "politico-20261008-mayor-johnson-vows-to-tax-the-rich-in-20",
-   "category": "elected_official",
-   "source_id": "politico",
-   "source_name": "POLITICO Illinois Playbook",
-   "source_type": "email_newsletter",
-   "title": "Mayor Johnson vows to tax the rich in 2027 budget to aid working families",
-   "summary": "Ahead of the budget deadline, Mayor Brandon Johnson said his 2027 budget will level the playing field by taxing corporations that make more money while working people stand in lines for food, as reported by the Sun‑Times. The mayor framed the plan as a response to economic inequality in Chicago.",
-   "url": "https://www.politico.com/newsletters/illinois-playbook",
-   "published_at": "2026-10-08T12:01:21.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "axios-20261008-sox-playoffs-pump-up-bridgeport",
-   "category": "newsletter",
-   "source_id": "axios",
-   "source_name": "Axios Chicago",
-   "source_type": "email_newsletter",
-   "title": "Sox playoffs pump up Bridgeport",
-   "summary": "The energy outside Rate Field may not have propelled the Sox to an ALDS-clinching win yesterday, but it didn't stop fans from enjoying the moment. The Sox played their first home game of this year's playoffs, losing to the Guardians 9-3. Game 4 is at 7 tonight.",
-   "url": "https://www.axios.com/local/chicago",
-   "published_at": "2026-10-08T11:28:23.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "cbs-20261008-atm-stolen-in-crash-and-grab-burglary-at",
-   "category": "business",
-   "source_id": "cbs",
-   "source_name": "CBS News Chicago",
-   "source_type": "web_feed",
-   "title": "ATM stolen in crash-and-grab burglary at bar in Chicago's Little Italy",
-   "summary": "Chicago police early Thursday were searching for the burglars behind a smash-and-grab at a bar in the Little Italy community.",
-   "url": "https://www.cbsnews.com/chicago/news/atm-stolen-crash-grab-burglary-bar-chicago-little-italy/",
-   "published_at": "2026-10-08T12:21:10.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "cbs-20261008-crash-and-grab-burglars-hit-bar-in-chica",
-   "category": "business",
-   "source_id": "cbs",
-   "source_name": "CBS News Chicago",
-   "source_type": "web_feed",
-   "title": "Crash-and-grab burglars hit bar in Chicago's Little Italy",
-   "summary": "Chicago police early Thursday were searching for the burglars behind a smash-and-grab at a bar in the Little Italy community.",
-   "url": "https://www.cbsnews.com/chicago/video/crash-and-grab-burglars-hit-bar-in-chicagos-little-italy/",
-   "published_at": "2026-10-08T12:17:00.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20261007-white-sox-minority-owner-s-firm-buys-ano",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "White Sox Minority Owner's Firm Buys Another Property Near Proposed Ballpark In South Loop",
-   "summary": "The $15 million purchase of The Maxwell shopping center by an affiliate of Justin Ishbia’s Shore Capital Partners adds to the footprint of his proposed Railyards development.",
-   "url": "https://blockclubchicago.org/2026/10/07/white-sox-minority-owners-firm-buys-another-property-near-proposed-ballpark-in-south-loop/",
-   "published_at": "2026-10-07T19:55:17.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20261007-block-37-s-new-owner-wants-to-get-rid-of",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Block 37's New Owner Wants To Get Rid Of Old Mall Vibe'",
-   "summary": "Edwards Realty Company plans to revamp the shopping center through retail, entertainment, culture, media, strategic partnerships and year-round programming.",
-   "url": "https://blockclubchicago.org/2026/10/07/block-37s-new-owner-wants-to-get-rid-of-old-mall-vibe/",
-   "published_at": "2026-10-07T22:56:21.000Z",
    "flagged_for_review": false
   }
  ]
