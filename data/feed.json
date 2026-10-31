@@ -1,6 +1,90 @@
 {
- "generated_at": "2026-10-30T18:58:18.918Z",
+ "generated_at": "2026-10-31T13:00:50.540Z",
  "items": [
+  {
+   "id": "politico-20261030-independent-candidate-chris-getty-challe",
+   "category": "elected_official",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Independent candidate Chris Getty challenges Patty Garcia in Illinois’s 4th Congressional District",
+   "summary": "Chris Getty, a Democrat‑turned‑independent, is challenging Patty Garcia for the Democratic nomination in Illinois’s 4th Congressional District. The Independent PAC has spent $250,000 on Getty’s campaign and he has raised more than $400,000, while Garcia’s campaign has raised $527,000 and is backed by House Minority Leader Hakeem Jeffries and Gov. JB Pritzker. Getty hopes to appeal to independents and Hispanic voters, and a recent meet‑and‑greet at Brookfield’s Irish Times Pub drew nearly 300 attendees.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-10-30T12:02:29.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "politico-20261030-gov-jb-pritzker-and-other-illinois-democ",
+   "category": "elected_official",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Gov. JB Pritzker and other Illinois Democrats to attend get‑out‑the‑vote rally",
+   "summary": "Gov. JB Pritzker, Cook County Board President Toni Preckwinkle, Senate candidate Juliana Stratton and Congressman Danny Davis will attend a get‑out‑the‑vote rally on Saturday, aiming to boost turnout ahead of the midterm elections. The rally is part of a broader effort by Illinois Democrats to mobilize voters across the state.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-10-30T12:02:29.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "conway-20261030-city-council-budget-hearings-focus-on-20",
+   "category": "elected_official",
+   "source_id": "conway",
+   "source_name": "Conway's Corner (34th Ward Office Newsletter)",
+   "source_type": "email_newsletter",
+   "title": "City Council Budget Hearings Focus on 2027 Budget and Fiscal Challenges",
+   "summary": "Council member spent week in budget hearings, examining Mayor’s proposed 2027 budget. Key issues include $40B in unfunded pension liabilities, $31B in debt, and a $520M TIF sweep that may not be applied consistently. The hearings also addressed a proposed 15‑cent “Nickel and Dime” tax, gunshot detection technology procurement, and the need for more affordable housing and jobs.",
+   "url": "https://www.ward34.org/",
+   "published_at": "2026-10-30T17:37:35.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "conway-20261030-cta-bus-vision-project-seeks-rider-feedb",
+   "category": "civic_org",
+   "source_id": "conway",
+   "source_name": "Conway's Corner (34th Ward Office Newsletter)",
+   "source_type": "email_newsletter",
+   "title": "CTA Bus Vision Project Seeks Rider Feedback in 34th Ward",
+   "summary": "CTA is gathering input from riders and non‑riders to improve bus service. A community engagement meeting will be held on November 17 from 5‑7pm at CTA headquarters, 567 W. Lake. Residents can also take a survey or learn more on the project site.",
+   "url": "https://www.ward34.org/",
+   "published_at": "2026-10-30T17:37:35.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "conway-20261030-chicago-youth-climate-action-fund-offers",
+   "category": "civic_org",
+   "source_id": "conway",
+   "source_name": "Conway's Corner (34th Ward Office Newsletter)",
+   "source_type": "email_newsletter",
+   "title": "Chicago Youth Climate Action Fund Offers Grants to 15‑24‑Year‑Olds",
+   "summary": "The city invites young people to apply for $1,000–$5,000 grants to develop environmental projects. Eligible projects include environmental justice advocacy, community gardens, tree planting, recycling, composting, food‑waste reduction, clean‑energy education, sustainable transportation, and other climate solutions. Applications are open through November 6, 2026.",
+   "url": "https://www.ward34.org/",
+   "published_at": "2026-10-30T17:37:35.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20261030-open-books-closing-in-west-loop-selling-",
+   "category": "business",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Open Books Closing In West Loop, Selling Inventory At Half Off",
+   "summary": "The nonprofit's last remaining retail location in Chicago will be in Pilsen after the Lake Street store closes Nov. 8.",
+   "url": "https://blockclubchicago.org/2026/10/30/open-books-closing-in-west-loop-selling-inventory-at-half-off/",
+   "published_at": "2026-10-30T20:44:04.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20261030-5-candidates-file-to-run-in-27th-ward-ch",
+   "category": "elected_official",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "5 Candidates File To Run In 27th Ward, Challenging Burnett Family's Decades-Long Hold On Seat",
+   "summary": "Ald. Walter Redmond Burnett, appointed last year after his father retired following 30 years in office, faces four challengers as he seeks his first election victory.",
+   "url": "https://blockclubchicago.org/2026/10/30/5-candidates-file-to-run-for-27th-ward-alderperson-challenging-burnett-familys-decades-long-hold-on-seat/",
+   "published_at": "2026-10-30T13:20:00.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "conway-20261030-alderman-highlights-concerns-in-2027-cit",
    "category": "civic_org",
@@ -2744,30 +2828,6 @@
    "summary": "You can tour Downtown sites like the Pittsfield skyscraper, an urban farm and numerous churches during the event Saturday and Sunday.",
    "url": "https://blockclubchicago.org/2026/10/12/heres-what-to-see-downtown-during-open-house-chicago/",
    "published_at": "2026-10-12T12:00:00.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20261009-another-beluga-whale-rescued-from-canadi",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Another Beluga Whale Rescued From Canadian Marine Park Dies At Shedd Aquarium",
-   "summary": "Caspian, 27, died Wednesday despite life saving efforts. She was the fifth beluga whale to die since the aquarium rescued 10 belugas from Marineland in Ontario.",
-   "url": "https://blockclubchicago.org/2026/10/09/another-beluga-whale-rescued-from-canadian-marine-park-dies-at-shedd-aquarium/",
-   "published_at": "2026-10-09T23:24:47.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20261009-expansion-of-automated-ticketing-program",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Expansion Of Automated Ticketing Program For Bike, Bus Lane Blockers OK'd By City Panel",
-   "summary": "The Smart Streets pilot program that began two years ago Downtown could soon be made permanent - and expanded citywide. It uses cameras on city vehicles and CTA buses to document parking infractions.",
-   "url": "https://blockclubchicago.org/2026/10/09/expansion-of-automated-ticketing-program-for-bike-bus-lane-blockers-okd-by-city-panel/",
-   "published_at": "2026-10-09T20:13:04.000Z",
    "flagged_for_review": false
   }
  ]
