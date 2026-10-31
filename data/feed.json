@@ -1,6 +1,42 @@
 {
- "generated_at": "2026-10-31T13:00:50.540Z",
+ "generated_at": "2026-10-31T18:08:55.135Z",
  "items": [
+  {
+   "id": "politico-20261030-2027-mayoral-candidate-george-cardenas-r",
+   "category": "business",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "2027 mayoral candidate George Cardenas releases AI‑generated database of 1.5 million Chicago voters",
+   "summary": "Board of Review commissioner George Cardenas has launched a website that publicly displays the home addresses, birth years and voting histories of more than 1.5 million Chicago residents. The data was compiled using AI tools by the Illinois Answers Project’s Andrew Adams and Alex Nitkin, raising concerns about privacy and voter information security ahead of the 2027 mayoral race.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-10-30T12:02:29.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "conway-20261030-mayor-s-proposed-2027-budget-faces-scrut",
+   "category": "elected_official",
+   "source_id": "conway",
+   "source_name": "Conway's Corner (34th Ward Office Newsletter)",
+   "source_type": "email_newsletter",
+   "title": "Mayor's Proposed 2027 Budget Faces Scrutiny in City Council Hearings",
+   "summary": "During City Council budget hearings, the 34th Ward representative examined the Mayor’s 2027 budget, highlighting concerns over $40 billion in unfunded pension liabilities and $31 billion in debt. The representative questioned the $520 million TIF sweep, the proposed 15‑cent \"Nickel and Dime\" tax, and the unresolved procurement of gun‑shot detection technology. He emphasized the need for responsible spending, affordable housing, and job growth to address the city’s structural deficit.",
+   "url": "https://www.ward34.org/",
+   "published_at": "2026-10-30T17:37:35.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "conway-20261030-cta-bus-vision-project-seeks-34th-ward-i",
+   "category": "civic_org",
+   "source_id": "conway",
+   "source_name": "Conway's Corner (34th Ward Office Newsletter)",
+   "source_type": "email_newsletter",
+   "title": "CTA Bus Vision Project Seeks 34th Ward Input at November 17 Meeting",
+   "summary": "CTA is gathering feedback from riders and non‑riders to improve bus service under its Bus Vision Project. Residents of the 34th Ward can attend a community engagement meeting on November 17 from 5‑7 pm at CTA headquarters, 567 W. Lake. Participants can also take a survey or learn more on the project site.",
+   "url": "https://www.ward34.org/",
+   "published_at": "2026-10-30T17:37:35.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "politico-20261030-independent-candidate-chris-getty-challe",
    "category": "elected_official",
