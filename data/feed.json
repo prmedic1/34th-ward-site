@@ -1,6 +1,30 @@
 {
- "generated_at": "2026-11-01T14:00:49.847Z",
+ "generated_at": "2026-11-01T18:44:21.138Z",
  "items": [
+  {
+   "id": "conway-20261030-city-budget-hearings-focus-on-520-millio",
+   "category": "civic_org",
+   "source_id": "conway",
+   "source_name": "Conway's Corner (34th Ward Office Newsletter)",
+   "source_type": "email_newsletter",
+   "title": "City budget hearings focus on $520 million TIF sweep and proposed 15‑cent “Nickel and Dime” tax",
+   "summary": "Alderman Bill Conway attended recent Chicago City Council budget hearings where the Mayor’s 2027 budget proposal was examined. Key issues include a $520 million TIF surplus that the Mayor plans to sweep, inconsistencies in applying the sweep formula, and a proposed 15‑cent “Nickel and Dime” package tax that would affect grocery and prescription deliveries. The hearings also addressed a stalled gunshot‑detection procurement and the need for more resources for streets and sanitation amid increasing severe weather.",
+   "url": "https://www.ward34.org/",
+   "published_at": "2026-10-30T17:37:35.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "cbs-20261101-a-couple-of-striking-halloween-displays-",
+   "category": "civic_org",
+   "source_id": "cbs",
+   "source_name": "CBS News Chicago",
+   "source_type": "web_feed",
+   "title": "A couple of striking Halloween displays | What Caught My Eye",
+   "summary": "Suzanne Le Mignot shows us a terrifying Halloween spectacle put together by 24-year-old Sam Darr, while Shane Hinton shows us a light-centric Halloween display in the West Loop that features a skeleton throwing up.",
+   "url": "https://www.cbsnews.com/chicago/video/a-couple-of-striking-halloween-displays-what-caught-my-eye/",
+   "published_at": "2026-11-01T15:45:00.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "conway-20261030-city-budget-hearings-focus-on-tif-sweep-",
    "category": "civic_org",
