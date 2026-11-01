@@ -1,6 +1,30 @@
 {
- "generated_at": "2026-11-01T08:09:34.286Z",
+ "generated_at": "2026-11-01T14:00:49.847Z",
  "items": [
+  {
+   "id": "conway-20261030-city-budget-hearings-focus-on-tif-sweep-",
+   "category": "civic_org",
+   "source_id": "conway",
+   "source_name": "Conway's Corner (34th Ward Office Newsletter)",
+   "source_type": "email_newsletter",
+   "title": "City budget hearings focus on TIF sweep, proposed taxes, and public safety technology",
+   "summary": "Alderman Conway attended City Council budget hearings on the Mayor's 2027 budget, highlighting a $520 million TIF sweep that appears inconsistently applied, a proposed 15‑cent “Nickel and Dime” tax that could affect grocery and prescription deliveries, unresolved procurement of gunshot detection technology, and the need for more resources for streets and sanitation amid severe weather. He pledged to keep scrutinizing the proposals as hearings continue.",
+   "url": "https://www.ward34.org/",
+   "published_at": "2026-10-30T17:37:35.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "conway-20261030-cta-bus-vision-project-seeks-rider-input",
+   "category": "civic_org",
+   "source_id": "conway",
+   "source_name": "Conway's Corner (34th Ward Office Newsletter)",
+   "source_type": "email_newsletter",
+   "title": "CTA Bus Vision Project seeks rider input; community meeting Nov 17 at CTA headquarters",
+   "summary": "The Chicago Transit Authority is gathering feedback for its Bus Vision Project and will hold a community engagement meeting in the 34th Ward on November 17 from 5 p.m. to 7 p.m. at the CTA headquarters, 567 W Lake. Residents can also take an online survey or attend other events to shape future bus service improvements.",
+   "url": "https://www.ward34.org/",
+   "published_at": "2026-10-30T17:37:35.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "politico-20261030-2027-mayoral-candidate-george-cardenas-r",
    "category": "business",

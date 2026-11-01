@@ -912,5 +912,16 @@
   "ayala_total": 60,
   "ayala_views": 0,
   "verdict": "bad"
+ },
+ {
+  "date": "2026-11-01",
+  "total": 2176,
+  "visitors": 1294,
+  "views": 14,
+  "article_total": 414,
+  "article_views": 7,
+  "ayala_total": 60,
+  "ayala_views": 0,
+  "verdict": "usual"
  }
 ]
