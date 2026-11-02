@@ -1,12 +1,12 @@
 {
  "_rotation_note": "The daily job picks the next business each morning - rotating among ward businesses with priority to spotlight requests from owners and newly opened spots. Keep yesterday's entries in history.",
  "current": {
-  "date": "2026-11-01",
-  "name": "Kumiko",
-  "address": "630 W. Lake St, West Loop",
-  "website": "https://www.barkumiko.com/",
-  "blurb": "A Japanese dining bar in a historic corner storefront on Lake Street, where food, drink, and hospitality get equal care. Its inventive cocktails and thoughtful zero-proof drinks have drawn national attention since it opened in 2018. Open Wednesday through Sunday evenings.",
-  "image": "images/spotlight/kumiko.jpg"
+  "name": "Lou Mitchell's",
+  "address": "565 W. Jackson Blvd, West Loop",
+  "website": "https://www.loumitchells.com/",
+  "image": "images/lou-mitchells.jpg",
+  "blurb": "A Chicago breakfast landmark at the original starting line of Route 66, serving since 1923. Lou Mitchell's is famous for double-yolk eggs, skillet omelettes served in the pan, and the free Milk Duds and donut holes handed out while you wait.",
+  "date": "2026-11-02"
  },
  "history": [
   {
@@ -1051,6 +1051,14 @@
    "image": "images/spotlight/national-hellenic-museum.jpg?v=20260903",
    "blurb": "Greektown's museum of the Greek American experience, with rotating exhibits, a rooftop with skyline views, and a busy calendar of events.",
    "date": "2026-10-31"
+  },
+  {
+   "date": "2026-11-01",
+   "name": "Kumiko",
+   "address": "630 W. Lake St, West Loop",
+   "website": "https://www.barkumiko.com/",
+   "blurb": "A Japanese dining bar in a historic corner storefront on Lake Street, where food, drink, and hospitality get equal care. Its inventive cocktails and thoughtful zero-proof drinks have drawn national attention since it opened in 2018. Open Wednesday through Sunday evenings.",
+   "image": "images/spotlight/kumiko.jpg"
   }
  ]
 }

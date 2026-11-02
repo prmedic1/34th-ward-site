@@ -1,6 +1,90 @@
 {
- "generated_at": "2026-11-01T18:44:21.138Z",
+ "generated_at": "2026-11-02T14:00:49.894Z",
  "items": [
+  {
+   "id": "politico-20261102-gov-jb-pritzker-urges-chicago-churchgoer",
+   "category": "elected_official",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Gov. JB Pritzker urges Chicago churchgoers to vote, highlights new student voter registration law",
+   "summary": "On Nov. 1, Gov. JB Pritzker spoke at the Apostolic Church of God in Chicago, invoking Rev. Jesse Jackson’s legacy and urging congregants to turn out for Democrats. He promoted Illinois’ new law that requires high school students to be registered to vote and the state mandate that Black history be taught in public schools. Pritzker also praised Senate nominee Juliana Stratton and warned that a vote for Republican Mike Rogers would aid Donald Trump.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-11-02T13:01:38.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "politico-20261102-cook-county-commissioner-sean-morrison-p",
+   "category": "elected_official",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Cook County Commissioner Sean Morrison publicly opposes GOP nominee Liz Gorman in board race",
+   "summary": "Republican Cook County Commissioner Sean Morrison posted on Facebook that Liz Gorman should never be allowed to hold public office, reflecting a long‑running rivalry. His comment came as the county board races heat up, with Gorman facing Democrat Elyse Hoffenberg for the Lyons Township Clerk seat. Cook County Democrats are hoping to sweep the board races while Republicans aim to retain at least one seat.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-11-02T13:01:38.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "axios-20261102-the-dark-side-of-daylight-saving",
+   "category": "newsletter",
+   "source_id": "axios",
+   "source_name": "Axios Chicago",
+   "source_type": "email_newsletter",
+   "title": "The dark side of daylight saving",
+   "summary": "Chicagoans turned back their clocks yesterday, gaining an extra hour of sleep but losing an hour of evening daylight. Could this be the last time? President Trump and House lawmakers want to make daylight saving time permanent, but the change would come with a significant trade-off for Chicago: Winter sunrises wouldn't arrive until after 8am.",
+   "url": "https://www.axios.com/local/chicago",
+   "published_at": "2026-11-02T12:28:26.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "cbs-20261102-open-books-nonprofit-bookstore-soon-to-c",
+   "category": "business",
+   "source_id": "cbs",
+   "source_name": "CBS News Chicago",
+   "source_type": "web_feed",
+   "title": "Open Books nonprofit bookstore soon to close West Loop Chicago location",
+   "summary": "Open Books​ is closing its location in Chicago's West Loop, citing a decline in foot traffic and the rising cost of running a store in that community.",
+   "url": "https://www.cbsnews.com/chicago/news/open-books-nonprofit-bookstore-close-west-loop-location/",
+   "published_at": "2026-11-02T13:19:53.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "cbs-20261102-open-books-to-close-store-in-chicago-s-w",
+   "category": "business",
+   "source_id": "cbs",
+   "source_name": "CBS News Chicago",
+   "source_type": "web_feed",
+   "title": "Open Books to close store in Chicago's West Loop",
+   "summary": "Open Books is closing its location in Chicago’s West Loop, citing a decline in foot traffic and the rising cost of running a store in that community.",
+   "url": "https://www.cbsnews.com/chicago/video/open-books-to-close-store-in-chicagos-west-loop/",
+   "published_at": "2026-11-02T13:09:00.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20261102-5-must-see-theater-shows-to-check-out-in",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "5 Must-See Theater Shows To Check Out In November",
+   "summary": "Brand-new shows and revivals of decades-old classics share the spotlight on Chicago stages this month.",
+   "url": "https://blockclubchicago.org/2026/11/02/5-must-see-theater-shows-to-check-out-in-november/",
+   "published_at": "2026-11-02T13:48:11.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20261102-chicago-s-2026-christmas-tree-is-a-nearl",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Chicago's 2026 Christmas Tree Is A Nearly 50-Foot Spruce From Kane County",
+   "summary": "The tree will be cut and transported to Chicago Monday from Campton Hills. It'll light up Millennium Park Nov. 20-Jan. 10.",
+   "url": "https://blockclubchicago.org/2026/11/02/chicagos-2026-christmas-tree-is-a-nearly-50-foot-spruce-from-kane-county/",
+   "published_at": "2026-11-02T12:39:16.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "conway-20261030-city-budget-hearings-focus-on-520-millio",
    "category": "civic_org",
@@ -2758,55 +2842,6 @@
    "flagged_for_review": false
   },
   {
-   "id": "wca-20261011-gibsons-tavern-coming-to-925-w-fulton",
-   "category": "business",
-   "source_name": "The WCA Weekly",
-   "source_id": "wca",
-   "source_type": "email_newsletter",
-   "title": "Gibsons Tavern coming to 925 W. Fulton St. in November",
-   "summary": "Gibsons Restaurant Group, the team behind the Rush Street steakhouse that opened in 1989, expects to open Gibsons Tavern at 925 W. Fulton St. in November. The new Fulton Market spot will take a more relaxed, tavern-style approach, with Gibsons signature steaks, seafood, comfort dishes, and a vintage-inspired cocktail program. The restaurant has joined the West Central Association as a new member.",
-   "url": "https://www.wcachicago.org/",
-   "published_at": "2026-10-11T19:01:04.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "wca-20261011-nightmare-on-randolph-returns-oct-23-24",
-   "category": "business",
-   "source_name": "The WCA Weekly",
-   "source_id": "wca",
-   "source_type": "email_newsletter",
-   "title": "Nightmare on Randolph returns October 23-24",
-   "summary": "Nightmare on Randolph returns Friday and Saturday, October 23-24, with proceeds benefiting the West Central Association. Separately, Illumination, a Halloween party marking its 10th year, takes place at Vertiport Chicago on Saturday, October 24 from 9 p.m. to 2 a.m.",
-   "url": "https://www.wcachicago.org/",
-   "published_at": "2026-10-11T19:01:04.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "wca-20261011-small-business-credit-survey-open",
-   "category": "business",
-   "source_name": "The WCA Weekly",
-   "source_id": "wca",
-   "source_type": "email_newsletter",
-   "title": "Small business owners asked to take Federal Reserve credit survey by Nov. 13",
-   "summary": "The West Central Association is partnering with the Federal Reserve on the 2026 Small Business Credit Survey. Owners and financial decision-makers of for-profit businesses can share their experience with business conditions, financing, and debt in a confidential survey that takes about 12 minutes. The survey is open through November 13.",
-   "url": "https://www.wcachicago.org/",
-   "published_at": "2026-10-11T19:01:04.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "politico-20261011-us-and-europe-split-over-russia-sanctions",
-   "category": "elected_official",
-   "source_name": "POLITICO Illinois Playbook",
-   "source_id": "politico",
-   "source_type": "email_newsletter",
-   "title": "U.S. and Europe split over Russia sanctions",
-   "summary": "POLITICO Forecast reports a widening gap between Washington and European capitals after the Trump administration lifted sanctions on Russian oil. EU officials said the bloc was preparing its largest-ever package of sanctions on Russian individuals, more than 1,600 in total, for sign-off by foreign ministers in Luxembourg. European leaders from across the political spectrum criticized the U.S. move.",
-   "url": "https://www.politico.com/",
-   "published_at": "2026-10-11T21:38:40.000Z",
-   "flagged_for_review": false,
-   "front_exclude": true
-  },
-  {
    "id": "politico-20261013-united-working-families-endorses-mayor-b",
    "category": "civic_org",
    "source_id": "politico",
@@ -2867,18 +2902,6 @@
    "flagged_for_review": false
   },
   {
-   "id": "blockclub-20261012-here-s-what-to-see-on-the-near-west-side",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Here’s What To See On The Near West Side During Open House Chicago 2026",
-   "summary": "The Blackhawks Ice Center, Olson Kundig and Windy City Bird Lab are new additions among 13 Near West Side sites featured in this year’s architecture festival.",
-   "url": "https://blockclubchicago.org/2026/10/12/heres-what-to-see-on-the-near-west-side-during-open-house-chicago-2026/",
-   "published_at": "2026-10-12T12:00:00.000Z",
-   "flagged_for_review": false
-  },
-  {
    "id": "blockclub-20261012-man-on-electronic-monitoring-jumped-gree",
    "category": "civic_org",
    "source_id": "blockclub",
@@ -2888,30 +2911,6 @@
    "summary": "Chevazz Campbell, 37, was on probation for a retail theft conviction when he stabbed Justin Mobley to death following an argument, prosecutors said.",
    "url": "https://blockclubchicago.org/2026/10/12/man-on-electronic-monitoring-jumped-green-line-turnstile-before-macing-fatally-stabbing-cta-janitor-prosecutors-say/",
    "published_at": "2026-10-12T18:07:43.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20261012-here-s-what-to-see-on-the-near-north-sid",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Here’s What To See On The Near North Side During Open House Chicago 2026",
-   "summary": "The Near North sites span the Gold Coast, Old Town, River North and Streeterville, offering a look at how the area has been repeatedly reshaped over Chicago’s history.",
-   "url": "https://blockclubchicago.org/2026/10/12/heres-what-to-see-on-the-near-north-side-during-open-house-chicago-2026/",
-   "published_at": "2026-10-12T12:00:00.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20261012-here-s-what-to-see-downtown-during-open-",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Here’s What To See Downtown During Open House Chicago",
-   "summary": "You can tour Downtown sites like the Pittsfield skyscraper, an urban farm and numerous churches during the event Saturday and Sunday.",
-   "url": "https://blockclubchicago.org/2026/10/12/heres-what-to-see-downtown-during-open-house-chicago/",
-   "published_at": "2026-10-12T12:00:00.000Z",
    "flagged_for_review": false
   }
  ]
