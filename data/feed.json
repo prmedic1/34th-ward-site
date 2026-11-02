@@ -1,6 +1,30 @@
 {
- "generated_at": "2026-11-02T15:12:18.476Z",
+ "generated_at": "2026-11-02T22:34:45.235Z",
  "items": [
+  {
+   "id": "blockclub-20261102-chef-john-manion-is-bringing-a-new-kind-",
+   "category": "business",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Chef John Manion Is Bringing A New Kind Of Steakhouse To The West Loop With Palomino",
+   "summary": "Opening in the former Proxi on Randolph Street, Palomino will focus on live-fire cooking and the flavors and techniques of the American West and South.",
+   "url": "https://blockclubchicago.org/2026/11/02/chef-john-manion-is-bringing-a-new-kind-of-steakhouse-to-the-west-loop-with-palomino/",
+   "published_at": "2026-11-02T14:15:30.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20261102-neon-trees-michael-james-scott-thelma-ho",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Neon Trees, Michael James Scott, Thelma Houston To Headline Magnificent Mile Lights Parade",
+   "summary": "The 35th annual festival and parade returns Saturday, Nov. 21 with live performances, floats, a fireworks spectacular and one million lights along Michigan Avenue.",
+   "url": "https://blockclubchicago.org/2026/11/02/neon-trees-michael-james-scott-thelma-houston-to-headline-magnificent-mile-lights-parade/",
+   "published_at": "2026-11-02T20:01:52.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "igwl-20261102-our-votes-count-march-nov-7",
    "category": "civic_org",
@@ -2972,18 +2996,6 @@
    "summary": "CTA riders who use the Green and Pink lines to get to downtown Chicago might want to plan some extra travel time for the next couple of weeks.",
    "url": "https://www.cbsnews.com/chicago/video/lake-street-bridge-work-forcing-cta-green-and-pink-line-changes/",
    "published_at": "2026-10-13T03:10:00.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20261012-man-on-electronic-monitoring-jumped-gree",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Man On Electronic Monitoring Jumped Green Line Turnstile Before Killing CTA Janitor: Prosecutors",
-   "summary": "Chevazz Campbell, 37, was on probation for a retail theft conviction when he stabbed Justin Mobley to death following an argument, prosecutors said.",
-   "url": "https://blockclubchicago.org/2026/10/12/man-on-electronic-monitoring-jumped-green-line-turnstile-before-macing-fatally-stabbing-cta-janitor-prosecutors-say/",
-   "published_at": "2026-10-12T18:07:43.000Z",
    "flagged_for_review": false
   }
  ]

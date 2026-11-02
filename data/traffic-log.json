@@ -926,13 +926,13 @@
  },
  {
   "date": "2026-11-02",
-  "total": 2186,
-  "visitors": 1299,
-  "views": 6,
-  "article_total": 417,
-  "article_views": 0,
+  "total": 2197,
+  "visitors": 1305,
+  "views": 17,
+  "article_total": 424,
+  "article_views": 7,
   "ayala_total": 61,
   "ayala_views": 1,
-  "verdict": "bad"
+  "verdict": "usual"
  }
 ]
