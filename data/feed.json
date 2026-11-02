@@ -1,6 +1,79 @@
 {
- "generated_at": "2026-11-02T14:00:49.894Z",
+ "generated_at": "2026-11-02T15:12:18.476Z",
  "items": [
+  {
+   "id": "igwl-20261102-our-votes-count-march-nov-7",
+   "category": "civic_org",
+   "source_id": "igwl",
+   "source_name": "Indivisible Greater West Loop",
+   "source_type": "email_newsletter",
+   "url": "https://www.indivisiblegwlchi.org",
+   "published_at": "2026-11-02T13:46:01.000Z",
+   "flagged_for_review": false,
+   "title": "Our Votes Count March set for downtown Chicago on Saturday, Nov. 7",
+   "summary": "Indivisible Chicago is organizing an \"Our Votes Count\" march in downtown Chicago on Saturday, Nov. 7, at noon, and Indivisible Greater West Loop is asking members to sign up. The group also points voters to its Voter Resource Hub for information on races, advisory questions, polling places, and hours ahead of Election Day on Tuesday, Nov. 3."
+  },
+  {
+   "id": "igwl-20261102-food-depository-and-paint-sip-give",
+   "category": "civic_org",
+   "source_id": "igwl",
+   "source_name": "Indivisible Greater West Loop",
+   "source_type": "email_newsletter",
+   "url": "https://www.indivisiblegwlchi.org",
+   "published_at": "2026-11-02T13:46:01.000Z",
+   "flagged_for_review": false,
+   "title": "Volunteer shift at the Food Depository Nov. 13 and a Paint, Sip, Give fundraiser Nov. 18",
+   "summary": "Indivisible Greater West Loop is recruiting volunteers for a Friday, Nov. 13 shift at the Greater Chicago Food Depository, 12:45 to 3:30 p.m., repackaging bulk donations into smaller portions for local families. On Wednesday, Nov. 18, from 6 to 8:30 p.m., the group hosts a Paint, Sip, Give holiday fundraiser with Chicago Sip & Paint benefiting the Chicago Food Sovereignty Coalition. The group also staffs a table at the West Loop Farmers Market on Saturdays, 8 to 11:30 a.m."
+  },
+  {
+   "id": "wca-20261101-the-escape-game-opens-in-fulton-market",
+   "category": "business",
+   "source_id": "wca",
+   "source_name": "The WCA Weekly",
+   "source_type": "email_newsletter",
+   "url": "https://www.wcachicago.org",
+   "published_at": "2026-11-01T21:15:28.000Z",
+   "flagged_for_review": false,
+   "title": "The Escape Game opens a new Fulton Market location",
+   "summary": "The Escape Game opened its new Fulton Market location on Oct. 23 and has joined the West Central Association. The venue offers 60-minute team adventures with movie-quality sets, multiple rooms, and unlimited hints, aimed at friends, families, and corporate groups of a wide range of ages and skill levels."
+  },
+  {
+   "id": "wca-20261101-brightpath-west-loop-ribbon-cutting",
+   "category": "business",
+   "source_id": "wca",
+   "source_name": "The WCA Weekly",
+   "source_type": "email_newsletter",
+   "url": "https://www.wcachicago.org",
+   "published_at": "2026-11-01T21:15:28.000Z",
+   "flagged_for_review": false,
+   "title": "BrightPath West Loop child care center opens at 310 S. Racine",
+   "summary": "BrightPath West Loop, an early learning and child care center at 310 S. Racine Ave., celebrated its ribbon cutting with the West Central Association. The center serves children from six weeks to five years old and is offering tours to families."
+  },
+  {
+   "id": "wca-20261101-imd-park-and-covid-memorial",
+   "category": "business",
+   "source_id": "wca",
+   "source_name": "The WCA Weekly",
+   "source_type": "email_newsletter",
+   "url": "https://www.wcachicago.org",
+   "published_at": "2026-11-01T21:15:28.000Z",
+   "flagged_for_review": false,
+   "title": "Illinois Medical District opens new park and COVID-19 memorial",
+   "summary": "The Illinois Medical District cut the ribbon on a new park and COVID-19 memorial near Ogden Avenue, Damen Avenue, and Polk Street. The space features three stainless-steel dandelion sculptures honoring frontline and essential workers and remembering those lost to COVID-19, and is designed as a place to gather and reflect."
+  },
+  {
+   "id": "politico-20261101-why-the-world-should-care-about-midterms",
+   "category": "newsletter",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "url": "https://www.politico.com/newsletters/forecast",
+   "published_at": "2026-11-01T23:04:24.000Z",
+   "flagged_for_review": false,
+   "front_exclude": true,
+   "title": "Why the world is watching Tuesday's U.S. midterm elections",
+   "summary": "POLITICO Forecast lays out eight reasons the Nov. 3 midterms matter beyond U.S. borders, including control of congressional committees and spending, the future of the Iran war and Ukraine aid, AI regulation, and tariff policy. The newsletter notes 36 governors' races are also on the ballot and could shape the rollout of data centers. It also previews the start of the 2028 presidential race once results are in."
+  },
   {
    "id": "politico-20261102-gov-jb-pritzker-urges-chicago-churchgoer",
    "category": "elected_official",
