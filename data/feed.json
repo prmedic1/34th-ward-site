@@ -1,6 +1,30 @@
 {
- "generated_at": "2026-11-03T14:00:51.700Z",
+ "generated_at": "2026-11-03T20:24:17.176Z",
  "items": [
+  {
+   "id": "cbs-20261103-voting-underway-at-loop-supersite",
+   "category": "civic_org",
+   "source_id": "cbs",
+   "source_name": "CBS News Chicago",
+   "source_type": "web_feed",
+   "title": "Voting underway at Loop Supersite",
+   "summary": "Darius Johnson reports live from the Loop Supersite. Lines are under 30 minutes, and Darius said voting takes around 10 minutes once inside.",
+   "url": "https://www.cbsnews.com/chicago/video/voting-underway-at-loop-supersite/",
+   "published_at": "2026-11-03T15:29:00.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20261103-black-harvest-film-festival-celebrates-3",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Black Harvest Film Festival Celebrates 32nd Year With Lineup For Us, By Us'",
+   "summary": "The festival showcasing films created by Black artists returns to the School of the Art Institute of Chicago’s Gene Siskel Film Center Friday through Nov. 15 with 10 shorts as well as feature-length films.",
+   "url": "https://blockclubchicago.org/2026/11/03/black-harvest-film-festival-celebrates-32nd-year-with-lineup-for-us-by-us/",
+   "published_at": "2026-11-03T14:30:00.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "politico-20261103-chicago-school-board-president-race-pits",
    "category": "elected_official",
@@ -2972,30 +2996,6 @@
    "summary": "Chicago police said the boy was near a park when he was grazed in the thigh by gunfire.",
    "url": "https://www.cbsnews.com/chicago/news/boy-12-suffers-graze-wound-near-west-side-shooting/",
    "published_at": "2026-10-14T02:15:41.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20261013-green-and-pink-line-service-downtown-wil",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Green And Pink Line Service Downtown Will Be Disrupted Due To Lake Street Bridge Construction",
-   "summary": "Pink and Green line train service will be rerouted through Oct. 26 as the city continues work on the Lake Street Bridge.",
-   "url": "https://blockclubchicago.org/2026/10/13/lake-street-bridge-construction-will-disrupt-green-and-pink-line-service-downtown/",
-   "published_at": "2026-10-13T18:47:31.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "skyline-20261013-new-skyline-is-out",
-   "category": "newsletter",
-   "source_id": "skyline",
-   "source_name": "Skyline (Inside Publications)",
-   "source_type": "email_newsletter",
-   "title": "The October 14 Skyline is out",
-   "summary": "The October 14, 2026 edition of Skyline from Inside Publications is out. Editor Tom O'Gorman's note looks back on a busy stretch in the city, from Sunday's Chicago Marathon to the CSO and Lyric Opera seasons in full swing and a crowded fall gala calendar. He also marks the loss of Bears legend Mike Ditka.",
-   "url": "https://insideonline.com",
-   "published_at": "2026-10-13T16:45:16.000Z",
    "flagged_for_review": false
   }
  ]
