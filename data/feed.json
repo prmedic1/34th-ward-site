@@ -1,6 +1,66 @@
 {
- "generated_at": "2026-11-02T22:34:45.235Z",
+ "generated_at": "2026-11-03T14:00:51.700Z",
  "items": [
+  {
+   "id": "politico-20261103-chicago-school-board-president-race-pits",
+   "category": "elected_official",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Chicago school board president race pits CTU‑backed Hilario Dominguez against SEIU‑endorsed Jessica Biggs",
+   "summary": "The contest for Chicago school board president has CTU‑backed Hilario Dominguez framing the fight as a stand against outside influence, while billionaire Michael Sacks backs his opponent Jessica Biggs, who is supported by two SEIU groups. The race is seen as an early test of the city’s progressive coalition and could signal trends for the February mayoral election. Both CTU and SEIU are prominent progressive labor groups in Chicago.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-11-03T13:02:04.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "politico-20261103-illinois-democrats-raise-record-141-85-m",
+   "category": "civic_org",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Illinois Democrats raise record $141.85 million through ActBlue in 2026 midterms",
+   "summary": "ActBlue reported that Illinois Democrats collected $141.85 million in the 2026 midterm cycle, a 15.5 percent increase over 2022, with 1.04 million donors contributing 6.7 percent more than four years ago. ActBlue CEO Regina Wallace‑Jones highlighted the surge during a Chicago stop on her cross‑country tour, handing out coffee and donuts to voters. The fundraising boost positions Illinois as a strong blue pillar in the Midwest.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-11-03T13:02:04.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "axios-20261103-election-storylines-to-watch",
+   "category": "newsletter",
+   "source_id": "axios",
+   "source_name": "Axios Chicago",
+   "source_type": "email_newsletter",
+   "title": "Election storylines to watch",
+   "summary": "Illinois voters head to the polls today to decide who will lead the state, represent them in Washington and oversee Chicago's public schools. Beyond the marquee races for governor and U. Senate, the results could reshape political power in our area for years to come.",
+   "url": "https://www.axios.com/local/chicago",
+   "published_at": "2026-11-03T12:28:45.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "cbs-20261103-polls-open-for-illinois-2026-midterm-ele",
+   "category": "elected_official",
+   "source_id": "cbs",
+   "source_name": "CBS News Chicago",
+   "source_type": "web_feed",
+   "title": "Polls open for Illinois 2026 midterm election",
+   "summary": "As Darious Johnson reports, voters are already lined up outside the Loop supersite.",
+   "url": "https://www.cbsnews.com/chicago/video/polls-open-for-illinois-2026-midterm-election/",
+   "published_at": "2026-11-03T12:07:00.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "cbs-20261103-woman-issues-warning-after-uber-driver-c",
+   "category": "civic_org",
+   "source_id": "cbs",
+   "source_name": "CBS News Chicago",
+   "source_type": "web_feed",
+   "title": "Woman issues warning after Uber driver cancels ride, drives wrong way mid-trip",
+   "summary": "Her Uber app shows a location on Hubbard as the drop-off address, but she says they were able to finally get out of the car on Randolph Street near the Kennedy Expressway.",
+   "url": "https://www.cbsnews.com/chicago/video/woman-issues-warning-after-uber-driver-cancels-ride-drives-wrong-way-mid-trip/",
+   "published_at": "2026-11-03T04:41:00.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "blockclub-20261102-chef-john-manion-is-bringing-a-new-kind-",
    "category": "business",
@@ -2936,66 +2996,6 @@
    "summary": "The October 14, 2026 edition of Skyline from Inside Publications is out. Editor Tom O'Gorman's note looks back on a busy stretch in the city, from Sunday's Chicago Marathon to the CSO and Lyric Opera seasons in full swing and a crowded fall gala calendar. He also marks the loss of Bears legend Mike Ditka.",
    "url": "https://insideonline.com",
    "published_at": "2026-10-13T16:45:16.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "politico-20261013-united-working-families-endorses-mayor-b",
-   "category": "civic_org",
-   "source_id": "politico",
-   "source_name": "POLITICO Illinois Playbook",
-   "source_type": "email_newsletter",
-   "title": "United Working Families endorses Mayor Brandon Johnson for reelection",
-   "summary": "The progressive labor coalition United Working Families announced its endorsement of Mayor Brandon Johnson’s 2027 reelection bid, joining the Chicago Teachers Union while building‑trades unions back challenger Alexi Giannoulias, highlighting a split in organized labor.",
-   "url": "https://www.politico.com/newsletters/illinois-playbook",
-   "published_at": "2026-10-13T12:03:03.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "politico-20261013-gov-jb-pritzker-campaigns-in-south-carol",
-   "category": "elected_official",
-   "source_id": "politico",
-   "source_name": "POLITICO Illinois Playbook",
-   "source_type": "email_newsletter",
-   "title": "Gov. JB Pritzker campaigns in South Carolina and funds Texas Democratic race",
-   "summary": "Illinois Gov. JB Pritzker traveled to the NAACP convention in Columbia, South Carolina, and pledged more than $1 million to Texas Democratic gubernatorial nominee Gina Hinojosa, while also supporting Georgia candidate Keisha Lance Bottoms at a Chicago fundraiser.",
-   "url": "https://www.politico.com/newsletters/illinois-playbook",
-   "published_at": "2026-10-13T12:03:03.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "axios-20261013-chicago-s-school-board-races",
-   "category": "newsletter",
-   "source_id": "axios",
-   "source_name": "Axios Chicago",
-   "source_type": "email_newsletter",
-   "title": "Chicago's school board races",
-   "summary": "School board president candidates Victor P. Henderson, Jessica Biggs and Hilario Dominguez. Photos: Courtesy of candidates' campaigns Chicagoans will make history on Nov.",
-   "url": "https://www.axios.com/local/chicago",
-   "published_at": "2026-10-13T11:28:37.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "cbs-20261013-lake-street-bridge-reconstruction-to-dis",
-   "category": "civic_org",
-   "source_id": "cbs",
-   "source_name": "CBS News Chicago",
-   "source_type": "web_feed",
-   "title": "Lake Street Bridge reconstruction to disrupt service on CTA Green and Pink Lines for two weeks",
-   "summary": "CTA riders who use the Green and Pink lines to get to downtown Chicago might want to plan some extra travel time for the next couple of weeks.",
-   "url": "https://www.cbsnews.com/chicago/news/cta-green-pink-line-disruption-lake-street-bridge-reconstruction/",
-   "published_at": "2026-10-13T03:16:34.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "cbs-20261013-lake-street-bridge-work-forcing-cta-gree",
-   "category": "civic_org",
-   "source_id": "cbs",
-   "source_name": "CBS News Chicago",
-   "source_type": "web_feed",
-   "title": "Lake Street bridge work forcing CTA Green and Pink line changes",
-   "summary": "CTA riders who use the Green and Pink lines to get to downtown Chicago might want to plan some extra travel time for the next couple of weeks.",
-   "url": "https://www.cbsnews.com/chicago/video/lake-street-bridge-work-forcing-cta-green-and-pink-line-changes/",
-   "published_at": "2026-10-13T03:10:00.000Z",
    "flagged_for_review": false
   }
  ]

@@ -1,12 +1,12 @@
 {
  "_rotation_note": "The daily job picks the next business each morning - rotating among ward businesses with priority to spotlight requests from owners and newly opened spots. Keep yesterday's entries in history.",
  "current": {
-  "name": "Lou Mitchell's",
-  "address": "565 W. Jackson Blvd, West Loop",
-  "website": "https://www.loumitchells.com/",
-  "image": "images/lou-mitchells.jpg",
-  "blurb": "A Chicago breakfast landmark at the original starting line of Route 66, serving since 1923. Lou Mitchell's is famous for double-yolk eggs, skillet omelettes served in the pan, and the free Milk Duds and donut holes handed out while you wait.",
-  "date": "2026-11-02"
+  "name": "Au Cheval",
+  "address": "800 W. Randolph St, West Loop",
+  "website": "https://www.auchevalchicago.com/",
+  "image": "images/spotlight/au-cheval.jpg?v=20260903",
+  "blurb": "The dark, clubby diner behind what many call the best cheeseburger in America. The wait on Randolph Street is legendary, the bologna sandwich and the eggs are worth it, and the whole room hums well past midnight.",
+  "date": "2026-11-03"
  },
  "history": [
   {
@@ -1059,6 +1059,14 @@
    "website": "https://www.barkumiko.com/",
    "blurb": "A Japanese dining bar in a historic corner storefront on Lake Street, where food, drink, and hospitality get equal care. Its inventive cocktails and thoughtful zero-proof drinks have drawn national attention since it opened in 2018. Open Wednesday through Sunday evenings.",
    "image": "images/spotlight/kumiko.jpg"
+  },
+  {
+   "name": "Lou Mitchell's",
+   "address": "565 W. Jackson Blvd, West Loop",
+   "website": "https://www.loumitchells.com/",
+   "image": "images/lou-mitchells.jpg",
+   "blurb": "A Chicago breakfast landmark at the original starting line of Route 66, serving since 1923. Lou Mitchell's is famous for double-yolk eggs, skillet omelettes served in the pan, and the free Milk Duds and donut holes handed out while you wait.",
+   "date": "2026-11-02"
   }
  ]
 }
