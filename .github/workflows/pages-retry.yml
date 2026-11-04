@@ -4,14 +4,14 @@ name: Retry failed Pages publish
 # two ways it has broken on GitHub's side:
 #   1. The publish FAILS with a GitHub server error (500) -> re-run it.
 #   2. GitHub never STARTS a publish for the newest commit -> request one.
-# Runs right after every publish finishes, plus about hourly as a backup.
+# Runs hourly (the main check) and whenever GitHub reports a Pages build.
+# (A workflow_run trigger on the publish step does NOT fire - tested 11/4/2026 -
+# because GitHub's built-in Pages workflow is exempt from it.)
 # Gives up after 3 attempts on the same commit so it can never loop forever.
 on:
-  workflow_run:
-    workflows: ['pages build and deployment']
-    types: [completed]
+  page_build:
   schedule:
-    - cron: '17 * * * *'  # hourly backup (odd minute; GitHub's cron can run late)
+    - cron: '17 * * * *'  # hourly (odd minute; GitHub's cron can run late)
   workflow_dispatch: {}
 
 permissions:
@@ -68,7 +68,7 @@ jobs:
               echo "Already retried 3 times on this commit; leaving it for a person to look at."
               # Fail (which sends one GitHub email) only right after the last
               # retry, not again on every hourly check.
-              if [ "${{ github.event_name }}" = "workflow_run" ]; then exit 1; fi
+              if [ "${{ github.event_name }}" != "schedule" ]; then exit 1; fi
             fi
           else
             echo "Nothing to fix."
