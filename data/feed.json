@@ -1,6 +1,54 @@
 {
- "generated_at": "2026-11-03T20:24:17.176Z",
+ "generated_at": "2026-11-04T14:00:52.821Z",
  "items": [
+  {
+   "id": "politico-20261104-gov-jb-pritzker-wins-third-term-and-unve",
+   "category": "elected_official",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Gov. JB Pritzker wins third term and unveils “Fighting for Illinois” agenda",
+   "summary": "Incumbent Governor JB Pritzker defeated Republican Darren Bailey on Nov. 3, 2026 to win a third term. After his victory speech at Chicago’s Navy Pier, he introduced the “Fighting for Illinois: The Day One Agenda,” a set of nearly 200 policy proposals aimed at addressing everyday challenges. The agenda was presented as part of his plan to fight for Illinois at the state and federal levels.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-11-04T12:59:56.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "politico-20261104-city-hall-hosts-mobile-food-car-licensin",
+   "category": "business",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "City Hall hosts mobile food car licensing ordinance rally",
+   "summary": "At 9 a.m. on Nov. 4, 2026, city officials gathered at City Hall for a rally on a new mobile food car licensing ordinance. The event, featuring remarks by Brandon, aimed to discuss the proposed licensing rules for mobile food vendors and coincided with an online Native American Heritage Month cultural reception.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-11-04T12:59:56.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "axios-20261104-illinois-blue-wave",
+   "category": "newsletter",
+   "source_id": "axios",
+   "source_name": "Axios Chicago",
+   "source_type": "email_newsletter",
+   "title": "Illinois' blue wave",
+   "summary": "Illinois voters turned out yesterday in an election marked by long lines, sporadic polling-place problems and historic results. Yesterday's results will shape Illinois' political leadership and representation in Washington, while offering a glimpse of how Chicago voters may feel about Mayor Brandon Johnson and the Chicago Teachers Union. (more on that below) Gov.",
+   "url": "https://www.axios.com/local/chicago",
+   "published_at": "2026-11-04T12:37:00.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20261104-state-rep-la-shawn-ford-wins-race-to-suc",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "State Rep. La Shawn Ford Wins Race To Succeed Danny Davis In 7th Congressional District",
+   "summary": "Ford will be the district's first new leader in 30 years, replacing the retiring U.S. Rep. Danny Davis.",
+   "url": "https://blockclubchicago.org/2026/11/03/state-rep-la-shawn-ford-wins-race-to-succeed-danny-davis-in-7th-congressional-district/",
+   "published_at": "2026-11-04T02:05:36.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "cbs-20261103-voting-underway-at-loop-supersite",
    "category": "civic_org",
@@ -2927,18 +2975,6 @@
    "flagged_for_review": false
   },
   {
-   "id": "politico-20261014-police-report-details-sexual-assault-at-",
-   "category": "civic_org",
-   "source_id": "politico",
-   "source_name": "POLITICO Illinois Playbook",
-   "source_type": "email_newsletter",
-   "title": "Police report details sexual assault at University of Chicago Alpha Epsilon Pi frat house",
-   "summary": "A 21-year-old woman reported being assaulted during a party at the Alpha Epsilon Pi fraternity house on the University of Chicago campus in the South Loop. Two friends intervened by entering the bathroom where the attack occurred, according to a Sun-Times police report.",
-   "url": "https://www.politico.com/newsletters/illinois-playbook",
-   "published_at": "2026-10-14T12:02:05.000Z",
-   "flagged_for_review": false
-  },
-  {
    "id": "blockclub-20261014-chicago-and-the-bears-star-in-hallmark-s",
    "category": "civic_org",
    "source_id": "blockclub",
@@ -2948,54 +2984,6 @@
    "summary": "\"Holiday Touchdown: A Bears Love Story\" was filmed on location at Soldier Field, the Riverwalk, Logan Square and the Irish Nobleman Pub. It premieres Saturday.",
    "url": "https://blockclubchicago.org/2026/10/14/chicago-and-the-bears-star-in-hallmarks-latest-holiday-touchdown-love-story/",
    "published_at": "2026-10-14T18:10:59.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "politico-20261014-mayor-brandon-johnson-pushes-corporate-t",
-   "category": "elected_official",
-   "source_id": "politico",
-   "source_name": "POLITICO Illinois Playbook",
-   "source_type": "email_newsletter",
-   "title": "Mayor Brandon Johnson pushes corporate taxes as city budget showdown approaches",
-   "summary": "Mayor Brandon Johnson called for taxes on large corporations while a budget showdown looms for Chicago. He urged Springfield to restore funding to the city from the local government distributive fund to previous levels, a move he said would generate $264 million for Chicago. The Illinois General Assembly is scheduled to meet late next month and again in early December for its fall veto session, giving the Johnson administration a final chance to persuade legislators to change laws and clear the way for new taxes and fees.",
-   "url": "https://www.politico.com/newsletters/illinois-playbook",
-   "published_at": "2026-10-14T12:02:05.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "politico-20261014-metra-rolls-out-new-battery-powered-trai",
-   "category": "civic_org",
-   "source_id": "politico",
-   "source_name": "POLITICO Illinois Playbook",
-   "source_type": "email_newsletter",
-   "title": "Metra rolls out new battery‑powered trainsets at LaSalle Street Station",
-   "summary": "Metra began the rollout of its new battery‑powered trainsets at LaSalle Street Station, with city officials present at 10 a.m. The introduction of the battery‑powered equipment marks a step toward reducing the rail system’s reliance on diesel power and improving environmental performance.",
-   "url": "https://www.politico.com/newsletters/illinois-playbook",
-   "published_at": "2026-10-14T12:02:05.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "axios-20261014-pope-to-still-meet-chicago-catholics",
-   "category": "newsletter",
-   "source_id": "axios",
-   "source_name": "Axios Chicago",
-   "source_type": "email_newsletter",
-   "title": "Pope to still meet Chicago Catholics",
-   "summary": "Ash Wednesday procession. Courtesy of CSPL The Vatican's announcement yesterday that Pope Leo has lung cancer has not altered the plans of a group of Chicago Catholics scheduled to meet him later this month. The Vatican disclosed the pontiff's health news just hours after he underwent successful surgery to remove the lower lobe of his right lung.",
-   "url": "https://www.axios.com/local/chicago",
-   "published_at": "2026-10-14T11:28:55.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "cbs-20261014-boy-12-suffers-graze-wound-in-near-west-",
-   "category": "civic_org",
-   "source_id": "cbs",
-   "source_name": "CBS News Chicago",
-   "source_type": "web_feed",
-   "title": "Boy, 12, suffers graze wound in Near West Side shooting, police say",
-   "summary": "Chicago police said the boy was near a park when he was grazed in the thigh by gunfire.",
-   "url": "https://www.cbsnews.com/chicago/news/boy-12-suffers-graze-wound-near-west-side-shooting/",
-   "published_at": "2026-10-14T02:15:41.000Z",
    "flagged_for_review": false
   }
  ]
