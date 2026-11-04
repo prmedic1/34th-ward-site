@@ -1,6 +1,66 @@
 {
- "generated_at": "2026-11-04T16:34:38.846Z",
+ "generated_at": "2026-11-04T20:40:06.537Z",
  "items": [
+  {
+   "id": "politico-20261104-jessica-biggs-becomes-first-elected-chic",
+   "category": "elected_official",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Jessica Biggs becomes first elected Chicago School Board president",
+   "summary": "Jessica Biggs won the high‑profile Chicago School Board president race, defeating former CTU organizer Hilario Dominguez and attorney Victor Henderson. Biggs was backed by the union representing Chicago Public School support staff and the Common Ground Collective super PAC. Her victory makes her the first elected president of the CPS board.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-11-04T12:59:56.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "politico-20261104-democratic-lawmakers-organize-opposition",
+   "category": "elected_official",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Democratic lawmakers organize opposition to Speaker Emanuel \"Chris\" Welch in Illinois House",
+   "summary": "A group of Democratic state representatives is quietly trying to organize opposition to Speaker Emanuel \"Chris\" Welch ahead of a speaker vote expected in January. Lawmakers cite Welch's handling of a sexual harassment complaint involving former Rep. Harry Benton, a 60‑vote rule for measures, and broader frustrations with House operations. The effort reflects growing tension in Springfield as legislators prepare for the upcoming veto session.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-11-04T12:59:56.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "wlco-20261104-taste-of-randolph-2027-kickoff-meeting-s",
+   "category": "civic_org",
+   "source_id": "wlco",
+   "source_name": "West Loop Community Organization",
+   "source_type": "email_newsletter",
+   "title": "Taste of Randolph 2027 Kickoff Meeting scheduled for Nov 16",
+   "summary": "The West Loop Community Organization will host a Taste of Randolph 2027 kickoff meeting on Monday, Nov 16 at 6 p.m. Residents can ask questions and learn how to get involved in the upcoming food festival. Registration is required via an RSVP link and details will be emailed to participants.",
+   "url": "https://www.westloop.org/",
+   "published_at": "2026-11-04T17:16:06.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "wlco-20261104-chicago-artisan-market-returns-to-fulton",
+   "category": "business",
+   "source_id": "wlco",
+   "source_name": "West Loop Community Organization",
+   "source_type": "email_newsletter",
+   "title": "Chicago Artisan Market returns to Fulton Market on Nov 15",
+   "summary": "The Chicago Artisan Market will take place in Fulton Market on Sunday, Nov 15 from 10 a.m. to 2 p.m., featuring more than 115 artisans in food, fashion, home goods and art. WLCO members, friends and family can obtain free tickets online using the coupon code WLCOholiday.",
+   "url": "https://www.westloop.org/",
+   "published_at": "2026-11-04T17:16:06.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20261104-these-west-side-students-are-too-young-t",
+   "category": "elected_official",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "These West Side Students Are Too Young To Vote. They Volunteered To Be Election Judges Instead",
+   "summary": "The five-year tradition of AP U.S. History students receiving extra credit to man polling stations has grown to spark many students to develop lifelong passions for helping the electoral process.",
+   "url": "https://blockclubchicago.org/2026/11/04/these-west-side-students-are-too-young-to-vote-they-volunteered-to-be-election-judges-instead/",
+   "published_at": "2026-11-04T14:34:00.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "skyline-20261104-skyline-out",
    "category": "newsletter",
@@ -2997,18 +3057,6 @@
    "summary": "There's also the return of the Chicago International Film Festival, a beer garden pop-up, art exhibits and more.",
    "url": "https://blockclubchicago.org/2026/10/15/26-things-to-do-in-chicago-this-weekend-fall-fun-chicago-open-house-and-more/",
    "published_at": "2026-10-15T12:02:35.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20261014-chicago-and-the-bears-star-in-hallmark-s",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Chicago - And The Bears - Star In Hallmark’s Latest Holiday Touchdown' Love Story",
-   "summary": "\"Holiday Touchdown: A Bears Love Story\" was filmed on location at Soldier Field, the Riverwalk, Logan Square and the Irish Nobleman Pub. It premieres Saturday.",
-   "url": "https://blockclubchicago.org/2026/10/14/chicago-and-the-bears-star-in-hallmarks-latest-holiday-touchdown-love-story/",
-   "published_at": "2026-10-14T18:10:59.000Z",
    "flagged_for_review": false
   }
  ]
