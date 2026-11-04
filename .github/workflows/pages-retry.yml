@@ -4,7 +4,8 @@ name: Retry failed Pages publish
 # two ways it has broken on GitHub's side:
 #   1. The publish FAILS with a GitHub server error (500) -> re-run it.
 #   2. GitHub never STARTS a publish for the newest commit -> request one.
-# Runs hourly (the main check) and whenever GitHub reports a Pages build.
+# Runs whenever GitHub reports a Pages build (then waits for the publish to
+# finish) and hourly as a backup.
 # (A workflow_run trigger on the publish step does NOT fire - tested 11/4/2026 -
 # because GitHub's built-in Pages workflow is exempt from it.)
 # Gives up after 3 attempts on the same commit so it can never loop forever.
@@ -26,7 +27,7 @@ concurrency:
 jobs:
   check:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 55
     steps:
       - name: Re-run or request the publish if needed
         env:
@@ -54,22 +55,37 @@ jobs:
           fi
 
           ID=$(echo "$RUN" | jq -r .id)
-          STATUS=$(echo "$RUN" | jq -r .status)
-          CONCLUSION=$(echo "$RUN" | jq -r '.conclusion // ""')
-          ATTEMPT=$(echo "$RUN" | jq -r .run_attempt)
-          echo "Publish run $ID: $STATUS $CONCLUSION (attempt $ATTEMPT)"
-
-          if [ "$STATUS" = "completed" ] && [ "$CONCLUSION" = "failure" ]; then
-            if [ "$ATTEMPT" -lt 3 ]; then
-              echo "Publish failed; re-running it."
-              sleep 60  # a brief pause helps when GitHub's servers are struggling
-              gh api -X POST "repos/$REPO/actions/runs/$ID/rerun-failed-jobs" >/dev/null
-            else
-              echo "Already retried 3 times on this commit; leaving it for a person to look at."
-              # Fail (which sends one GitHub email) only right after the last
-              # retry, not again on every hourly check.
+          # page_build fires BEFORE the publish (deploy) step finishes, and a
+          # re-run does not fire it again, so this job waits for each attempt to
+          # finish and re-runs it itself (up to 3 attempts per commit).
+          wait_done() {
+            for i in $(seq 1 30); do
+              [ "$(echo "$RUN" | jq -r .status)" = "completed" ] && return 0
+              sleep 30
+              RUN=$(gh api "repos/$REPO/actions/runs/$ID")
+            done
+            return 1
+          }
+          while true; do
+            if ! wait_done; then echo "Publish still running after 15 min; the hourly check will look again."; exit 0; fi
+            CONCLUSION=$(echo "$RUN" | jq -r '.conclusion // ""')
+            ATTEMPT=$(echo "$RUN" | jq -r .run_attempt)
+            echo "Publish run $ID: $CONCLUSION (attempt $ATTEMPT)"
+            if [ "$CONCLUSION" != "failure" ]; then echo "Nothing to fix."; exit 0; fi
+            if [ "$ATTEMPT" -ge 3 ]; then
+              echo "Already tried 3 times on this commit; leaving it for a person to look at."
+              # Fail (which sends one GitHub email) only from a live check, not
+              # again on every hourly check.
               if [ "${{ github.event_name }}" != "schedule" ]; then exit 1; fi
+              exit 0
             fi
-          else
-            echo "Nothing to fix."
-          fi
+            echo "Publish failed; re-running it."
+            sleep 60  # a brief pause helps when GitHub's servers are struggling
+            gh api -X POST "repos/$REPO/actions/runs/$ID/rerun-failed-jobs" >/dev/null
+            # Wait for GitHub to register the new attempt before checking again.
+            for i in $(seq 1 12); do
+              sleep 10
+              RUN=$(gh api "repos/$REPO/actions/runs/$ID")
+              [ "$(echo "$RUN" | jq -r .run_attempt)" -gt "$ATTEMPT" ] && break
+            done
+          done
