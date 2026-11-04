@@ -1,6 +1,31 @@
 {
- "generated_at": "2026-11-04T14:00:52.821Z",
+ "generated_at": "2026-11-04T16:34:38.846Z",
  "items": [
+  {
+   "id": "skyline-20261104-skyline-out",
+   "category": "newsletter",
+   "source_id": "skyline",
+   "source_name": "Skyline (Inside Publications)",
+   "source_type": "email_newsletter",
+   "title": "The Nov. 4 Skyline is out",
+   "summary": "The Nov. 4, 2026 edition of Skyline is out, a day after the midterm election. Editor Tom O'Gorman says more election results are still coming in and the paper will keep reporting on them. The full issue is available from Inside Publications.",
+   "url": "https://insideonline.com",
+   "published_at": "2026-11-04T12:38:26.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "politico-20261103-what-happens-after-midterms",
+   "category": "newsletter",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "front_exclude": true,
+   "title": "What to expect after the midterm results",
+   "summary": "POLITICO Forecast laid out what to watch once Tuesday's midterm results came in, including a likely return to divided government in Washington if Democrats win the House. It expects more legislative gridlock, budget standoffs, and a wave of congressional investigations, along with the immediate start of the 2028 presidential contest in both parties.",
+   "url": "https://www.politico.com/newsletters/forecast",
+   "published_at": "2026-11-03T21:35:50.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "politico-20261104-gov-jb-pritzker-wins-third-term-and-unve",
    "category": "elected_official",
