@@ -1,0 +1,75 @@
+name: Retry failed Pages publish
+
+# Watches the site's publish step ("pages build and deployment") and fixes the
+# two ways it has broken on GitHub's side:
+#   1. The publish FAILS with a GitHub server error (500) -> re-run it.
+#   2. GitHub never STARTS a publish for the newest commit -> request one.
+# Runs right after every publish finishes, plus about hourly as a backup.
+# Gives up after 3 attempts on the same commit so it can never loop forever.
+on:
+  workflow_run:
+    workflows: ['pages build and deployment']
+    types: [completed]
+  schedule:
+    - cron: '17 * * * *'  # hourly backup (odd minute; GitHub's cron can run late)
+  workflow_dispatch: {}
+
+permissions:
+  actions: write
+  pages: write
+  contents: read
+
+concurrency:
+  group: pages-retry
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Re-run or request the publish if needed
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+          HEAD_SHA=$(gh api "repos/$REPO/commits/main" --jq .sha)
+          HEAD_TIME=$(gh api "repos/$REPO/commits/main" --jq .commit.committer.date)
+          AGE_MIN=$(( ( $(date -u +%s) - $(date -u -d "$HEAD_TIME" +%s) ) / 60 ))
+          echo "Newest commit ${HEAD_SHA:0:7}, ${AGE_MIN} min old"
+
+          RUN=$(gh api "repos/$REPO/actions/runs?head_sha=$HEAD_SHA&per_page=20" \
+            --jq '[.workflow_runs[] | select(.name == "pages build and deployment")] | sort_by(.created_at) | last // empty')
+
+          if [ -z "$RUN" ]; then
+            # GitHub skipped this commit. Give it 10 minutes to start on its own first.
+            if [ "$AGE_MIN" -ge 10 ]; then
+              echo "No publish was started for the newest commit; requesting one."
+              gh api -X POST "repos/$REPO/pages/builds" >/dev/null
+            else
+              echo "Commit is new; waiting for GitHub to start the publish."
+            fi
+            exit 0
+          fi
+
+          ID=$(echo "$RUN" | jq -r .id)
+          STATUS=$(echo "$RUN" | jq -r .status)
+          CONCLUSION=$(echo "$RUN" | jq -r '.conclusion // ""')
+          ATTEMPT=$(echo "$RUN" | jq -r .run_attempt)
+          echo "Publish run $ID: $STATUS $CONCLUSION (attempt $ATTEMPT)"
+
+          if [ "$STATUS" = "completed" ] && [ "$CONCLUSION" = "failure" ]; then
+            if [ "$ATTEMPT" -lt 3 ]; then
+              echo "Publish failed; re-running it."
+              sleep 60  # a brief pause helps when GitHub's servers are struggling
+              gh api -X POST "repos/$REPO/actions/runs/$ID/rerun-failed-jobs" >/dev/null
+            else
+              echo "Already retried 3 times on this commit; leaving it for a person to look at."
+              # Fail (which sends one GitHub email) only right after the last
+              # retry, not again on every hourly check.
+              if [ "${{ github.event_name }}" = "workflow_run" ]; then exit 1; fi
+            fi
+          else
+            echo "Nothing to fix."
+          fi
