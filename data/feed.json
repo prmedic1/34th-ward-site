@@ -1,6 +1,30 @@
 {
- "generated_at": "2026-11-05T15:30:07.302Z",
+ "generated_at": "2026-11-05T20:55:59.342Z",
  "items": [
+  {
+   "id": "wlco-20261104-taste-of-randolph-2027-kickoff-meeting-s",
+   "category": "civic_org",
+   "source_id": "wlco",
+   "source_name": "West Loop Community Organization",
+   "source_type": "email_newsletter",
+   "title": "Taste of Randolph 2027 Kickoff Meeting scheduled for Nov. 16",
+   "summary": "West Loop Community Organization invites residents to a Taste of Randolph 2027 kickoff meeting on Monday, November 16 at 6 pm. Attendees can ask questions and learn about ways to get involved with the upcoming event. Registration details will be emailed to participants after RSVP.",
+   "url": "https://www.westloop.org/",
+   "published_at": "2026-11-04T17:16:06.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "abc7-20261105-cooking-up-a-storm-pizzeria-gabbo-in-ful",
+   "category": "business",
+   "source_id": "abc7",
+   "source_name": "ABC7 Chicago",
+   "source_type": "web_feed",
+   "title": "Cooking Up A Storm: Pizzeria Gabbo in Fulton Market",
+   "summary": "Whipped ricotta is on the menu at Pizzeria Gabbo. The restaurant is now open in Fulton Market.",
+   "url": "https://abc7chicago.com/post/cooking-storm-pizzeria-gabbo-shared-whipped-ricotta-recipe-roasted-garlic/20018137/",
+   "published_at": "2026-11-05T20:55:28.714Z",
+   "flagged_for_review": false
+  },
   {
    "id": "politico-20261105-jessica-biggs-wins-chicago-school-board-",
    "category": "elected_official",
@@ -3008,30 +3032,6 @@
    "summary": "Justin Ishbia said any decision on the team's future is up to team chairman Jerry Reinsdorf and said Amtrak had to answer to the backlash over its plans to open a railyard near the current stadium.",
    "url": "https://blockclubchicago.org/2026/10/15/reinsdorf-will-make-final-call-on-white-sox-move-not-me-teams-minority-owner-says/",
    "published_at": "2026-10-15T21:00:00.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20261015-rat-hole-in-a-cage-smashing-pumpkins-dis",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Rat Hole In A Cage? Smashing Pumpkins Display Famed Concrete Slab At United Center Show",
-   "summary": "The City doesn't normally lend out the Rat Hole, but this one-night opportunity Wednesday \"was almost too perfect,\" a spokesperson told Block Club.",
-   "url": "https://blockclubchicago.org/2026/10/15/rat-hole-in-a-cage-smashing-pumpkins-display-famed-concrete-slab-at-united-center-show/",
-   "published_at": "2026-10-15T20:25:37.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "cbs-20261015-suspicious-envelope-found-at-cook-county",
-   "category": "civic_org",
-   "source_id": "cbs",
-   "source_name": "CBS News Chicago",
-   "source_type": "web_feed",
-   "title": "Suspicious envelope found at Cook County building next to Chicago City Hall, prompting hazmat response",
-   "summary": "A suspicious envelope found at the Cook County building, next to Chicago City Hall in The Loop, prompted a hazmat response on Thursday morning.",
-   "url": "https://www.cbsnews.com/chicago/news/hazmat-response-chicago-city-hall/",
-   "published_at": "2026-10-15T17:01:07.000Z",
    "flagged_for_review": false
   }
  ]
