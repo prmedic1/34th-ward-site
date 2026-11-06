@@ -2,6 +2,66 @@
  "generated_at": "2026-11-06T16:53:25.714Z",
  "items": [
   {
+   "category": "civic_org",
+   "source_id": "conway",
+   "source_name": "Conway's Corner (34th Ward Office Newsletter)",
+   "source_type": "email_newsletter",
+   "url": "https://www.ward34.org/",
+   "published_at": "2026-11-06T16:21:25.000Z",
+   "flagged_for_review": false,
+   "id": "conway-20261106-election-day-lines-board-of-elections",
+   "title": "Long Election Day lines to be raised at Board of Elections budget hearing",
+   "summary": "Voters in parts of the city faced long waits on Election Day because of equipment problems and a shortage of paper ballots. The 34th Ward office says it will ask the Chicago Board of Elections for a concrete plan to prevent a repeat at next week's budget hearing, with the February 2027 municipal election approaching. Residents can send budget feedback to bill@ward34.org."
+  },
+  {
+   "category": "civic_org",
+   "source_id": "conway",
+   "source_name": "Conway's Corner (34th Ward Office Newsletter)",
+   "source_type": "email_newsletter",
+   "url": "https://www.ward34.org/",
+   "published_at": "2026-11-06T16:21:25.000Z",
+   "flagged_for_review": false,
+   "id": "conway-20261106-cta-bus-vision-open-house-nov-17",
+   "title": "CTA wants rider input on bus service, open house Nov. 17",
+   "summary": "As part of its Bus Vision Project, the CTA is gathering feedback from riders and non-riders on how bus service should change. A community open house is set for Tuesday, November 17, from 5 to 7 p.m. at CTA headquarters, 567 W. Lake St., and the online survey is open through November 30."
+  },
+  {
+   "category": "civic_org",
+   "source_id": "conway",
+   "source_name": "Conway's Corner (34th Ward Office Newsletter)",
+   "source_type": "email_newsletter",
+   "url": "https://www.ward34.org/",
+   "published_at": "2026-11-06T16:21:25.000Z",
+   "flagged_for_review": false,
+   "id": "conway-20261106-morgan-lighting-loomis-speed-bump",
+   "title": "New street lighting on S. Morgan and a speed bump on S. Loomis this month",
+   "summary": "Residential lighting work on S. Morgan St. from W. Vernon Park Pl. to W. Taylor St. is tentatively set to begin November 9, pending utility coordination, and a speed bump is scheduled for 700 S. Loomis in November. Resurfacing of S. Throop from Congress to Harrison is expected in the next two to three weeks."
+  },
+  {
+   "source_id": "wca",
+   "source_name": "The WCA Weekly",
+   "source_type": "email_newsletter",
+   "url": "https://www.wcachicago.org/",
+   "published_at": "2026-11-06T12:30:58.000Z",
+   "flagged_for_review": false,
+   "id": "wca-20261106-gibsons-tavern-opens-nov-17",
+   "category": "business",
+   "title": "Gibsons Tavern opens November 17 in Fulton Market",
+   "summary": "Gibsons Tavern is set to open in Fulton Market on Tuesday, November 17, according to the West Central Association's weekly newsletter."
+  },
+  {
+   "source_id": "wca",
+   "source_name": "The WCA Weekly",
+   "source_type": "email_newsletter",
+   "url": "https://www.wcachicago.org/",
+   "published_at": "2026-11-06T12:30:58.000Z",
+   "flagged_for_review": false,
+   "id": "wca-20261106-ohare-flyer-speaker-series-moves-nov-17",
+   "category": "civic_org",
+   "title": "O'Hare Flyer founders to speak Nov. 17 at WCA annual meeting",
+   "summary": "The West Central Association's Speaker Series and Annual Meeting, featuring the founders of the proposed O'Hare Flyer transit link between Chicago and O'Hare Airport, is now set for Tuesday, November 17, from noon to 2 p.m. at The Platform Conference Center, 320 S. Canal. The event includes a Q&A, networking, and lunch, and tickets are required."
+  },
+  {
    "id": "conway-20261106-no-city-garbage-pickup-veterans-day",
    "category": "civic_org",
    "source_id": "conway",
@@ -80,7 +140,7 @@
    "source_name": "The WCA Weekly",
    "source_type": "email_newsletter",
    "title": "West Loop Aldi Development Receives Full Building Permit",
-   "summary": "The Aldi grocery store development in the West Loop has been granted a full building permit, clearing the way for construction to begin. The project is expected to bring a new retail anchor to the neighborhood.",
+   "summary": "The planned Aldi grocery store development in the West Loop has received its full building permit, according to the West Central Association's weekly newsletter.",
    "url": "https://www.wcachicago.org/",
    "published_at": "2026-11-06T12:30:58.000Z",
    "flagged_for_review": false

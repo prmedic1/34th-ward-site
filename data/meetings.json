@@ -1,6 +1,6 @@
 {
  "_note": "Upcoming community meetings and neighborhood-group events shown in the carve-out box on the homepage front page. Civic meetings come from the 34th Ward newsletter (Conway's Corner), the West Central Association and West Loop Community Organization newsletters, and the CCPSA public meeting calendar (ccpsa.chicago.gov/public-meeting-calendar, which lists the 1st and 12th District Council meetings); the Indivisible Greater West Loop events come from that chapter's Mobilize page (mobilize.us/indivisiblegwlchi). Optional fields: 'org' (a small source label) and 'url' (makes the title a link). Exact venues for the Indivisible events are gated behind RSVP, so 'location' is only filled where publicly verified and the link carries the rest. The homepage shows only future-dated items, soonest first, and drops them once they pass. Refresh Indivisible events from their Mobilize page. Indivisible's own calendar is the Teamup agenda embedded on indivisiblegwlchi.org (teamup.com/ks9bd5wmfv7ks27vmy, has venues); it lists IGWL events plus partner Indivisible Chicago canvasses and phone banks. Dan's rule (2026-10-21): this is a community hub, publish every verified event we know about. Multi-day or recurring events are ONE entry (owner rule 2026-10-21): 'date' = first day, 'date_end' = last day (the entry stays up until date_end passes), 'when_label' replaces the date line, and the description names every day.",
- "updated_at": "2026-10-21",
+ "updated_at": "2026-11-06",
  "meetings": [
   {
    "title": "Phone Banks for Wisconsin and Michigan",
@@ -151,12 +151,14 @@
    "url": "https://teamup.com/ks9bd5wmfv7ks27vmy?view=a"
   },
   {
-   "title": "WCA Speaker Series and Annual Meeting",
-   "date": "2026-11-05",
-   "time": "12:00 PM",
-   "org": "West Central Association",
-   "location": "West Loop or Greektown, location to be announced",
-   "desc": "Lunch, networking, and a conversation with the team behind the proposed O'Hare Flyer, followed by Q&A, noon to 2 PM. Tickets required, seating is limited."
+   "title": "South Loop Farmers Market",
+   "date": "2026-11-07",
+   "date_end": "2026-11-21",
+   "when_label": "Saturdays through Nov 21 · 9:00 AM",
+   "time": "9:00 AM",
+   "org": "South Loop Farmers Market",
+   "location": "Printers Row Park, 632 S. Dearborn St.",
+   "desc": "The market's final Saturdays of the season, Nov. 7, 14, and 21, 9 AM to 1 PM."
   },
   {
    "title": "Montessori Academy of Chicago Open House",
@@ -166,6 +168,22 @@
    "location": "Montessori Academy of Chicago",
    "desc": "Visit the school, meet the community, and learn about the program, noon to 1:30 PM. Sign up to attend.",
    "url": "https://www.eventbrite.com/e/montessori-academy-of-chicago-open-house-tickets-2003214257770"
+  },
+  {
+   "title": "The Publishing House Neighborhood Open House",
+   "date": "2026-11-07",
+   "time": "12:00 PM",
+   "org": "The Publishing House",
+   "location": "108 N. May St.",
+   "desc": "See what's behind the blue door at this West Loop bed and breakfast, meet the team, and connect with neighbors, noon to 3 PM."
+  },
+  {
+   "title": "Old St. Pat's Blood Drive",
+   "date": "2026-11-08",
+   "time": "10:00 AM",
+   "org": "Old St. Patrick's Church",
+   "location": "Old St. Patrick's Church, 700 W. Adams",
+   "desc": "The 10th Annual John Buciak St. Pat's Blood Drive, 10 AM to 2 PM. Appointments preferred through the Red Cross or 1-800-RED-CROSS."
   },
   {
    "title": "Indivisible Book Club, In Person",
@@ -178,12 +196,37 @@
    "url": "https://teamup.com/ks9bd5wmfv7ks27vmy?view=a"
   },
   {
+   "title": "CAPS Meetings, 1st District Beats 121 to 124",
+   "date": "2026-11-11",
+   "date_end": "2026-11-12",
+   "when_label": "Nov 11 & 12",
+   "org": "Chicago Police, 1st District",
+   "location": "Beat 123 at 1135 S. Delano Ct.; Beat 121 at Presidential Towers, 555 W. Madison; Beats 122 and 124 on Zoom",
+   "desc": "Meet police, neighbors, and the ward team about local safety. Wednesday Nov. 11, Beat 123 at 5 PM and Beat 121 at 6 PM. Thursday Nov. 12, Beat 122 at 10 AM and Beat 124 at 11 AM on Zoom (email CAPS.001District@chicagopolice.org for the link)."
+  },
+  {
    "title": "WCA Networking at Pizza Lobo",
    "date": "2026-11-11",
    "time": "4:00 PM",
    "org": "West Central Association",
    "location": "Pizza Lobo, 165 N. Morgan St.",
    "desc": "Pizza, drinks, and conversation with WCA members and local professionals at the newly opened Pizza Lobo, 4 to 6 PM."
+  },
+  {
+   "title": "Fulton Street Mural Dedication",
+   "date": "2026-11-12",
+   "time": "9:30 AM",
+   "org": "34th Ward",
+   "location": "Fulton St. and Clinton St.",
+   "desc": "Celebrate the new mural on Fulton between Clinton and Canal highlighting the history of Chicago and the West Loop, with the Department of Cultural Affairs and Special Events and Arts Encounter."
+  },
+  {
+   "title": "Veterans Day Luncheon",
+   "date": "2026-11-12",
+   "time": "11:00 AM",
+   "org": "34th Ward",
+   "location": "Chicago Cultural Center, 78 E. Washington (accessible entrance at 77 E. Randolph)",
+   "desc": "The annual luncheon honoring veterans, with the Renaissance Court Senior Center, 11 AM to 1 PM. Register in advance at 312-744-4550."
   },
   {
    "title": "Volunteer at the Greater Chicago Food Depository",
@@ -195,6 +238,32 @@
    "url": "https://teamup.com/ks9bd5wmfv7ks27vmy?view=a"
   },
   {
+   "title": "City Civics Day",
+   "date": "2026-11-14",
+   "time": "10:30 AM",
+   "org": "City of Chicago",
+   "location": "Chicago Cultural Center, 78 E. Washington",
+   "desc": "A free, day-long celebration of civic involvement, 10:30 AM to 4:30 PM. Learn about ways to take part in civic life and meet organizations from across the city. Registration requested."
+  },
+  {
+   "title": "Fair Trade Holiday Market",
+   "date": "2026-11-15",
+   "when_label": "Nov 15 · after morning Masses",
+   "org": "Old St. Patrick's Church",
+   "location": "Fellowship Hall, Old St. Patrick's Church",
+   "desc": "Handcrafted gifts from local vendors supporting fair trade and economic justice, open after the 7, 9, and 11 AM Masses."
+  },
+  {
+   "title": "Chicago Artisan Market Holiday Markets",
+   "date": "2026-11-15",
+   "date_end": "2026-12-13",
+   "when_label": "Nov 15 & Dec 13 · 11:00 AM",
+   "time": "11:00 AM",
+   "org": "Chicago Artisan Market",
+   "location": "Morgan MFG, 401 N. Morgan St.",
+   "desc": "Gifts from Chicago and Midwest artisans in food, fashion, home goods, and art, 11 AM to 5 PM on Sunday Nov. 15 and Sunday Dec. 13 at Morgan MFG (also Nov. 28 and 29 at Artifact Events, 4325 N. Ravenswood)."
+  },
+  {
    "title": "1st District Council Monthly Meeting",
    "date": "2026-11-17",
    "date_end": "2026-12-08",
@@ -203,6 +272,22 @@
    "location": "Nov. 17 at Drake Elementary, 2710 S. Dearborn; Dec. 8 at Harold Washington Library, 400 S. State, Room 3N6",
    "desc": "The elected 1st Police District Council's monthly public meeting on policing and public safety in the district, Nov. 17 and Dec. 8 at 6 PM.",
    "url": "https://ccpsa.chicago.gov/public-meeting-calendar/"
+  },
+  {
+   "title": "WCA Speaker Series and Annual Meeting",
+   "date": "2026-11-17",
+   "time": "12:00 PM",
+   "org": "West Central Association",
+   "location": "The Platform Conference Center, 320 S. Canal",
+   "desc": "A conversation with the founders of the proposed O'Hare Flyer transit link to O'Hare Airport, followed by Q&A, networking, and lunch, noon to 2 PM. Tickets required, seating is limited."
+  },
+  {
+   "title": "CTA Bus Vision Open House",
+   "date": "2026-11-17",
+   "time": "5:00 PM",
+   "org": "CTA",
+   "location": "CTA Headquarters, 567 W. Lake St.",
+   "desc": "Share ideas on how CTA bus service should change, 5 to 7 PM. The online survey is open through November 30."
   },
   {
    "title": "12th District Council Monthly Meeting",
@@ -221,6 +306,23 @@
    "location": "Midwest Coast Brewing",
    "desc": "A ticketed paint-and-sip holiday fundraiser with Chicago Sip and Paint, with proceeds going to a local organization, 6 to 8:30 PM.",
    "url": "https://teamup.com/ks9bd5wmfv7ks27vmy?view=a"
+  },
+  {
+   "title": "34th Ward Coat and Turkey Giveaway",
+   "date": "2026-11-21",
+   "time": "9:30 AM",
+   "org": "34th Ward",
+   "location": "Teamster City, 1645 W. Jackson",
+   "desc": "Free coats and turkeys while supplies last. Volunteers are needed; sign up through the 34th Ward office."
+  },
+  {
+   "title": "LiveLaunch: The Online Main Street, In Person",
+   "date": "2026-11-28",
+   "date_end": "2026-11-28",
+   "when_label": "Nov 27 & 28",
+   "org": "LiveLaunch",
+   "location": "LiveLaunch, 810 W. Washington Blvd.",
+   "desc": "A one-day showcase of brands that sell online; guests scan a code to buy or book. Industry night Friday Nov. 27 from 5 PM. WCA members can apply to take part through Nov. 13."
   },
   {
    "title": "First Friday Dinner Club",
