@@ -1,6 +1,42 @@
 {
- "generated_at": "2026-11-06T14:01:00.548Z",
+ "generated_at": "2026-11-06T16:53:25.714Z",
  "items": [
+  {
+   "id": "conway-20261106-no-city-garbage-pickup-veterans-day",
+   "category": "civic_org",
+   "source_id": "conway",
+   "source_name": "Conway's Corner (34th Ward Office Newsletter)",
+   "source_type": "email_newsletter",
+   "title": "No City garbage pickup on Veterans Day, Wednesday Nov. 11",
+   "summary": "City refuse collection will not run on Wednesday, November 11, in observance of Veterans Day, and the 34th Ward office will be closed that day. Residents with City garbage service should make sure trash and recycling carts are accessible Monday, Tuesday, Thursday and Friday that week.",
+   "url": "https://www.ward34.org/",
+   "published_at": "2026-11-06T16:21:25.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "conway-20261106-fulton-street-mural-dedication-nov-12",
+   "category": "civic_org",
+   "source_id": "conway",
+   "source_name": "Conway's Corner (34th Ward Office Newsletter)",
+   "source_type": "email_newsletter",
+   "title": "New Fulton Street mural to be dedicated Nov. 12",
+   "summary": "A new mural on Fulton Street between Clinton and Canal, highlighting the history of Chicago and the West Loop, will be dedicated on Thursday, November 12, at 9:30 a.m. at Fulton and Clinton. The celebration is hosted with the Department of Cultural Affairs and Special Events and Arts Encounter, and neighbors are invited.",
+   "url": "https://www.ward34.org/",
+   "published_at": "2026-11-06T16:21:25.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "conway-20261106-coat-and-turkey-giveaway-nov-21",
+   "category": "civic_org",
+   "source_id": "conway",
+   "source_name": "Conway's Corner (34th Ward Office Newsletter)",
+   "source_type": "email_newsletter",
+   "title": "Free coat and turkey giveaway Nov. 21 at Teamster City",
+   "summary": "A free coat and turkey giveaway is set for Saturday, November 21, at 9:30 a.m. at Teamster City, 1645 W. Jackson, with coats and turkeys available while supplies last. Volunteers are being sought to help run the event through the 34th Ward office.",
+   "url": "https://www.ward34.org/",
+   "published_at": "2026-11-06T16:21:25.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "politico-20261106-illinois-house-speaker-emanuel-chris-wel",
    "category": "elected_official",
