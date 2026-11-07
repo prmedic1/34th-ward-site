@@ -1,6 +1,30 @@
 {
- "generated_at": "2026-11-06T20:14:26.390Z",
+ "generated_at": "2026-11-07T14:00:49.973Z",
  "items": [
+  {
+   "id": "politico-20261106-democratic-wave-sweeps-suburban-illinois",
+   "category": "elected_official",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Democratic wave sweeps suburban Illinois, toppling longtime Republican officeholders",
+   "summary": "Tuesday’s elections saw a broad defeat of Illinois Republicans in traditionally GOP suburbs, including state Sens. Seth Lewis of Bartlett, Craig Lewis of McHenry, and Darby Hills of Barrington Hills. The district of outgoing Sen. Don DeWitte of St. Charles also flipped to Democrats, and in the House Republicans Martin McLaughlin, Jennifer Sanalitro and Dan Ugaste lost their seats. The results suggest national political dynamics impacted even moderate suburban districts.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-11-06T12:59:13.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20261105-pedestrians-hit-by-paintballs-from-movin",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Pedestrians Hit By Paintballs From Moving Car In Little Italy, Police Say",
+   "summary": "Wednesday’s incident on Taylor Street follows similar paintball gun attacks Monday near UIC and last week in Lakeview.",
+   "url": "https://blockclubchicago.org/2026/11/05/pedestrians-hit-by-paintballs-from-moving-car-in-little-italy-police-say/",
+   "published_at": "2026-11-05T21:39:22.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "politico-20261106-illinois-house-speaker-chris-welch-annou",
    "category": "elected_official",
