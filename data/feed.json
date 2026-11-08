@@ -1,6 +1,18 @@
 {
- "generated_at": "2026-11-08T07:37:16.879Z",
+ "generated_at": "2026-11-08T14:00:23.416Z",
  "items": [
+  {
+   "id": "abc7-20261108-stair-climbers-to-ascend-100-flights-at-",
+   "category": "civic_org",
+   "source_id": "abc7",
+   "source_name": "ABC7 Chicago",
+   "source_type": "web_feed",
+   "title": "Stair-climbers to ascend 100+ flights at Willis Tower for 18th Annual 'Skyrise Chicago'",
+   "summary": "Participants are taking on more than 2,000 stairs to support patients and groundbreaking research at Shirley Ryan AbilityLab.",
+   "url": "https://abc7chicago.com/post/skyrise-chicago-2026-stair-climbers-ascend-steps-willis-tower-skydeck-benefit-shirley-ryan-ability-lab-sunday/20023884/",
+   "published_at": "2026-11-08T14:00:23.416Z",
+   "flagged_for_review": false
+  },
   {
    "id": "blockclub-20261106-ald-walter-red-burnett-s-mom-challenges-",
    "category": "elected_official",
