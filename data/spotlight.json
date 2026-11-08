@@ -1,12 +1,12 @@
 {
  "_rotation_note": "The daily job picks the next business each morning - rotating among ward businesses with priority to spotlight requests from owners and newly opened spots. Keep yesterday's entries in history.",
  "current": {
-  "name": "Madison Street Books",
-  "address": "1127 W. Madison St, West Loop",
-  "website": "https://www.madstreetbooks.com/",
-  "image": "images/spotlight/madison-street-books.jpg?v=20260904",
-  "blurb": "The West Loop's independent bookstore, with a thoughtfully curated selection, a resident shop dog, and a steady calendar of author events and book clubs. A cozy neighborhood anchor on Madison Street.",
-  "date": "2026-11-07"
+  "name": "Cheese & Board",
+  "address": "948 W. Madison St, West Loop",
+  "website": "https://cheeseandboard.com/",
+  "image": "https://cheeseandboard.com/cdn/shop/files/Cheese_Board_Hero_FIXED.png?width=1200",
+  "blurb": "A European-style cheese shop on Madison Street that cuts cheese to order and sells cured meats, crackers, jams, and specialty pantry goods from its wood-shelved storefront. It also builds ready-made cheese and charcuterie boards for gatherings, gifts, and catering.",
+  "date": "2026-11-08"
  },
  "history": [
   {
@@ -1099,6 +1099,14 @@
    "image": "images/spotlight/crosstown-fitness.jpg?v=20260903",
    "blurb": "A locally owned gym on Madison Street known for high-energy group classes, personal training, and a neighborhood feel that big chains cannot match. A West Loop fixture for over a decade.",
    "date": "2026-11-06"
+  },
+  {
+   "name": "Madison Street Books",
+   "address": "1127 W. Madison St, West Loop",
+   "website": "https://www.madstreetbooks.com/",
+   "image": "images/spotlight/madison-street-books.jpg?v=20260904",
+   "blurb": "The West Loop's independent bookstore, with a thoughtfully curated selection, a resident shop dog, and a steady calendar of author events and book clubs. A cozy neighborhood anchor on Madison Street.",
+   "date": "2026-11-07"
   }
  ]
 }
