@@ -1,6 +1,30 @@
 {
- "generated_at": "2026-11-09T16:29:33.355Z",
+ "generated_at": "2026-11-09T23:16:15.525Z",
  "items": [
+  {
+   "id": "cbs-20261109-chicago-police-seeking-vehicle-wanted-in",
+   "category": "civic_org",
+   "source_id": "cbs",
+   "source_name": "CBS News Chicago",
+   "source_type": "web_feed",
+   "title": "Chicago police seeking vehicle wanted in connection with 2022 Near West Side homicide",
+   "summary": "CPD is searching for the vehicle involved in the homicide of a 49-year-old man on Nov. 13, 2022.",
+   "url": "https://www.cbsnews.com/chicago/news/vehicle-sought-in-connection-with-2022-near-west-side-homicide/",
+   "published_at": "2026-11-09T22:36:30.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "cbs-20261109-vehicle-sought-in-connection-with-2022-n",
+   "category": "civic_org",
+   "source_id": "cbs",
+   "source_name": "CBS News Chicago",
+   "source_type": "web_feed",
+   "title": "Vehicle sought in connection with 2022 Near West Side homicide",
+   "summary": "A 49-year-old man was driving westbound in the 1900 block of West Fulton Street on the evening of Nov. 13, 2022, when he was hit by gunfire from an unknown person driving a gray, two-door Dodge Challenger.",
+   "url": "https://www.cbsnews.com/chicago/video/vehicle-sought-in-connection-with-2022-near-west-side-homicide/",
+   "published_at": "2026-11-09T22:15:00.000Z",
+   "flagged_for_review": false
+  },
   {
    "category": "civic_org",
    "source_id": "igwl",
@@ -3151,18 +3175,6 @@
    "summary": "Police rushed to the area around the Kluczynski Federal Building in downtown Chicago early Tuesday morning after a report of shots fired. Darius Johnson reports.",
    "url": "https://www.cbsnews.com/chicago/video/report-of-shots-fired-near-kluczynski-federal-building-in-downtown-chicago/",
    "published_at": "2026-10-20T12:07:00.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "cbs-20261019-chicago-police-issue-alert-after-19-cars",
-   "category": "civic_org",
-   "source_id": "cbs",
-   "source_name": "CBS News Chicago",
-   "source_type": "web_feed",
-   "title": "Chicago police issue alert after 19 cars stolen in West Town, West Loop in October",
-   "summary": "Chicago police issued a warning after nearly 20 cars were stolen in West Town, West Loop and Near West Side since the beginning of October.",
-   "url": "https://www.cbsnews.com/chicago/news/chicago-police-19-cars-stolen-west-town-west-loop-october/",
-   "published_at": "2026-10-19T15:39:18.000Z",
    "flagged_for_review": false
   }
  ]
