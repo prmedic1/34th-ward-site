@@ -1,6 +1,42 @@
 {
- "generated_at": "2026-11-09T14:00:53.561Z",
+ "generated_at": "2026-11-09T16:29:33.355Z",
  "items": [
+  {
+   "category": "civic_org",
+   "source_id": "igwl",
+   "source_name": "Indivisible Greater West Loop",
+   "source_type": "email_newsletter",
+   "url": "https://www.indivisiblegwlchi.org",
+   "published_at": "2026-11-09T13:45:56.000Z",
+   "id": "igwl-20261109-rally-tech-in-schools-google-nov-11",
+   "flagged_for_review": false,
+   "title": "Rally on AI and Big Tech in public schools set for West Loop on Wednesday, Nov. 11",
+   "summary": "Illinois Families for Public Schools and Schools Beyond Screens are holding a rally on Wednesday, Nov. 11, to raise concerns about the growing role of AI and Big Tech in public education. Participants gather at 3 p.m. at Mary Bartelme Park, 115 S. Sangamon, then hold a rally and press conference at 4 p.m. outside Google's Chicago office at 309 N. Morgan. Organizers are calling for more transparency, student privacy protections, and a greater say for families and educators in school technology decisions."
+  },
+  {
+   "category": "civic_org",
+   "source_id": "igwl",
+   "source_name": "Indivisible Greater West Loop",
+   "source_type": "email_newsletter",
+   "url": "https://www.indivisiblegwlchi.org",
+   "published_at": "2026-11-09T13:45:56.000Z",
+   "id": "igwl-20261109-indivisible-guide-launch-nov-19",
+   "flagged_for_review": false,
+   "title": "New Indivisible Guide launches online Nov. 19 as local members plan for 2027",
+   "summary": "Indivisible National will hold a virtual launch on Thursday, Nov. 19, for its new Indivisible Guide and strategic plan following the midterms. Indivisible Greater West Loop says it will survey its members later this month to shape its 2027 strategy. The group also continues its Saturday table at the West Loop Farmers Market from 8 to 11:30 a.m."
+  },
+  {
+   "category": "civic_org",
+   "source_id": "igwl",
+   "source_name": "Indivisible Greater West Loop",
+   "source_type": "email_newsletter",
+   "url": "https://www.indivisiblegwlchi.org",
+   "published_at": "2026-11-09T13:45:56.000Z",
+   "id": "igwl-20261109-congress-call-actions",
+   "flagged_for_review": true,
+   "title": "Local Indivisible chapter urges calls to Congress as session resumes",
+   "summary": "Indivisible Greater West Loop is asking members to contact Senators Durbin and Duckworth to support an open process for choosing new Senate Democratic leadership. It is also asking members to urge their U.S. Representative to back articles of impeachment against Defense Secretary Pete Hegseth that Rep. Thomas Massie is pushing, which cite alleged abuses of power."
+  },
   {
    "id": "politico-20261109-alexi-giannoulias-launches-tv-ads-highli",
    "category": "elected_official",
