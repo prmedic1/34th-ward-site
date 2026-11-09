@@ -158,12 +158,17 @@
     "week": "2026-10-26",
     "date": "2026-10-26",
     "name": "Stephanie Turner"
+   },
+   {
+    "week": "2026-11-02",
+    "date": "2026-11-02",
+    "name": "Armando Chacon"
    }
   ],
   "current": {
-   "week": "2026-11-02",
-   "date": "2026-11-02",
-   "name": "Armando Chacon"
+   "week": "2026-11-09",
+   "date": "2026-11-09",
+   "name": "Stephanie Fedor"
   }
  }
 }
