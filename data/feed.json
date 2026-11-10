@@ -1,6 +1,42 @@
 {
- "generated_at": "2026-11-09T23:16:15.525Z",
+ "generated_at": "2026-11-10T14:00:53.315Z",
  "items": [
+  {
+   "id": "politico-20261110-illinois-lawmakers-push-bears-stadium-de",
+   "category": "business",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Illinois lawmakers push Bears stadium deal to keep team in state",
+   "summary": "State Sen. Bill Cunningham is leading negotiations on a stadium-authority model that would let a municipality build a privately financed, publicly owned stadium, aiming to keep the Chicago Bears in Illinois. Lawmakers hope to finalize a deal before the end of the year, with four Chicago sites under consideration: Soldier Field, the Michael Reese Hospital site in Bronzeville, Rate Field in Bridgeport, and the former U.S. Steel South Works site on the Southeast Side. The proposal seeks to avoid taxpayer liability while offering incentives for mega projects, and faces scrutiny from both Democratic and Republican leaders.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-11-10T13:02:01.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "politico-20261110-mayor-brandon-johnson-faces-signature-ch",
+   "category": "civic_org",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Mayor Brandon Johnson faces signature challenges as ballot access fight moves to Electoral Board",
+   "summary": "Challenges to mayoral candidate signatures are now before the Electoral Board, with 108 objections filed across city races. Mayor Brandon Johnson and other hopefuls must prove they have the required 12,500 valid signatures to appear on the February ballot, while former state Sen. Rickey Hendon, consulting for Willie Wilson, has contested Johnson’s petitions. Hearings are expected to stretch over several weeks, putting ballot access at stake for multiple candidates.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-11-10T13:02:01.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "axios-20261110-parents-protest-google-ai-in-cps",
+   "category": "newsletter",
+   "source_id": "axios",
+   "source_name": "Axios Chicago",
+   "source_type": "email_newsletter",
+   "title": "Parents protest Google AI in CPS",
+   "summary": "Chicago parents concerned about AI will join activists across the nation tomorrow to protest \"Big Tech bullies in our schools. \" What happened: Google set off a firestorm - and then partially backtracked - last week when it announced it would take away Google search from any school that opts out of its AI products like Gemini. CPS, like many districts, has integrated Google technology deeply into its infrastructure.",
+   "url": "https://www.axios.com/local/chicago",
+   "published_at": "2026-11-10T12:29:14.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "cbs-20261109-chicago-police-seeking-vehicle-wanted-in",
    "category": "civic_org",
@@ -3079,102 +3115,6 @@
    "summary": "A suspect was in custody Tuesday morning after shots were fired near the Kluczynski Federal Building in downtown Chicago. Darius Johnson reports.",
    "url": "https://www.cbsnews.com/chicago/video/suspect-in-custody-after-shots-are-fired-near-chicagos-kluczynski-federal-building/",
    "published_at": "2026-10-20T14:05:00.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "politico-20261020-gov-jb-pritzker-hinted-at-a-2028-preside",
-   "category": "elected_official",
-   "source_id": "politico",
-   "source_name": "POLITICO Illinois Playbook",
-   "source_type": "email_newsletter",
-   "title": "Gov. JB Pritzker hinted at a 2028 presidential run",
-   "summary": "All signs point to a 2028 presidential run for Gov. JB Pritzker, though he has not announced it. He is preparing through his Ready for the Fight PAC and has his political team in place. Pritzker’s Think Big America group recently donated $250,000 to a Missouri anti‑gerrymander campaign, signaling national ambitions.",
-   "url": "https://www.politico.com/newsletters/illinois-playbook",
-   "published_at": "2026-10-20T12:01:36.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "politico-20261020-governor-pritzker-expresses-optimism-on-",
-   "category": "business",
-   "source_id": "politico",
-   "source_name": "POLITICO Illinois Playbook",
-   "source_type": "email_newsletter",
-   "title": "Governor Pritzker expresses optimism on Chicago Bears stadium negotiations",
-   "summary": "Governor JB Pritzker signaled renewed optimism that negotiations will keep the Chicago Bears at their current stadium, countering GOP challenger Darren Bailey’s claim the team may move to Indiana. Stadium negotiators have hinted at momentum as the election approaches.",
-   "url": "https://www.politico.com/newsletters/illinois-playbook",
-   "published_at": "2026-10-20T12:01:36.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "politico-20261020-mayoral-poll-shows-mixed-support-for-may",
-   "category": "elected_official",
-   "source_id": "politico",
-   "source_name": "POLITICO Illinois Playbook",
-   "source_type": "email_newsletter",
-   "title": "Mayoral poll shows mixed support for Mayor Brandon Johnson ahead of 2027 election",
-   "summary": "A new poll released as mayoral candidates filed petitions shows many Chicago voters remain dissatisfied with Mayor Brandon Johnson’s performance and that likely voters express limited enthusiasm for his reelection bid. The poll was reported by the Chicago Tribune.",
-   "url": "https://www.politico.com/newsletters/illinois-playbook",
-   "published_at": "2026-10-20T12:01:36.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "axios-20261020-candidates-deliver-petitions",
-   "category": "newsletter",
-   "source_id": "axios",
-   "source_name": "Axios Chicago",
-   "source_type": "email_newsletter",
-   "title": "Candidates deliver petitions",
-   "summary": "Mayoral candidates lined up outside the Chicago Board of Elections yesterday to deliver their nominating petitions for the city's top job in 2027. The ritual - which saw hundreds lining up for other municipal seats - kicks off what promises to be one of Chicago's most colorful election seasons. Monday's mayoral applicants, who still must survive brutal petition challenges, include: Illinois Secretary of State.",
-   "url": "https://www.axios.com/local/chicago",
-   "published_at": "2026-10-20T11:27:15.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "abc7-20261020-police-activity-outside-chicago-federal-",
-   "category": "civic_org",
-   "source_id": "abc7",
-   "source_name": "ABC7 Chicago",
-   "source_type": "web_feed",
-   "title": "Police activity outside Chicago Federal Building in Loop",
-   "summary": "There has been a heavy police presence outside the Chicago Federal Building in the Loop Tuesday morning.",
-   "url": "https://abc7chicago.com/post/police-activity-outside-chicago-federal-building-loop/19959212/",
-   "published_at": "2026-10-20T13:00:27.682Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "abc7-20261020-chicago-protesters-urge-continued-us-sup",
-   "category": "civic_org",
-   "source_id": "abc7",
-   "source_name": "ABC7 Chicago",
-   "source_type": "web_feed",
-   "title": "Chicago protesters urge continued US support for Ukraine amid escalating Russian strikes",
-   "summary": "Protesters gathered in downtown Chicago on Monday evening, calling on the Trump administration to continue supporting Ukraine as Russian airstrikes intensified.",
-   "url": "https://abc7chicago.com/post/russia-ukraine-war-news-chicago-protest-held-urge-continued-us-support-ukrainians-amid-escalating-russian-strikes/19957806/",
-   "published_at": "2026-10-20T13:00:27.682Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "cbs-20261020-police-rush-to-kluczynski-federal-buildi",
-   "category": "civic_org",
-   "source_id": "cbs",
-   "source_name": "CBS News Chicago",
-   "source_type": "web_feed",
-   "title": "Police rush to Kluczynski Federal Building after report of shots fired",
-   "summary": "Police rushed to the area around the Kluczynski Federal Building in downtown Chicago early Tuesday morning after a report of shots fired.",
-   "url": "https://www.cbsnews.com/chicago/news/police-rush-kluczynski-federal-building-report-shots-fired/",
-   "published_at": "2026-10-20T12:11:23.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "cbs-20261020-report-of-shots-fired-near-kluczynski-fe",
-   "category": "civic_org",
-   "source_id": "cbs",
-   "source_name": "CBS News Chicago",
-   "source_type": "web_feed",
-   "title": "Report of shots fired near Kluczynski Federal Building in downtown Chicago",
-   "summary": "Police rushed to the area around the Kluczynski Federal Building in downtown Chicago early Tuesday morning after a report of shots fired. Darius Johnson reports.",
-   "url": "https://www.cbsnews.com/chicago/video/report-of-shots-fired-near-kluczynski-federal-building-in-downtown-chicago/",
-   "published_at": "2026-10-20T12:07:00.000Z",
    "flagged_for_review": false
   }
  ]

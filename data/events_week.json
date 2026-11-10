@@ -1,11 +1,8 @@
 {
  "_note": "Shows, games, and arena events for the culture page's weekly calendar. Merged with data/festivals.json; shows only the current Monday-Sunday week. 'cat' drives the box color: concert (light blue), riverwalk (deep blue, Tiny Tapp), cubs/sox/bears/bulls/fire/sky (team colors), fest comes from festivals.json (green). 'local: true' = in/around the West Loop (gold star). Sports schedules from ESPN (home games only); venue shows from each venue's site; Garcia's links to its schedule page since its Ticketmaster deep-links block verification. Refresh weekly.",
- "updated_at": "2026-11-09",
+ "updated_at": "2026-11-10",
  "shows": [
   {"title":"Brooklyn Britches & The Whispers","venue":"Tiny Tapp & Cafe","cat":"riverwalk","date":"2026-09-27","time":"5:00 PM","address":"55 W. Riverwalk South, the Loop","note":"Free live music","local":true,"url":"https://www.tinytapp.com/live-music"},
-  {"title":"The War and Treaty","venue":"Thalia Hall","cat":"concert","date":"2026-11-09","time":"7:30 PM","address":"1807 S. Allport St, Pilsen","local":false,"url":"https://www.ticketmaster.com/event/Z7r9jZ1A7PI8t"},
-  {"title":"Alyssa Grace","venue":"Metro","cat":"concert","date":"2026-11-09","time":"7:30 PM","address":"3730 N. Clark St, Wrigleyville","local":false,"url":"https://www.ticketmaster.com/event/Z7r9jZ1AAvxOY"},
-  {"title":"Tim Rogers & The Fellas","venue":"City Winery Chicago","cat":"concert","date":"2026-11-09","time":"7:30 PM","address":"1200 W. Randolph St, West Loop","local":true,"url":"https://city-winery-gy5d.vivenushop.dev/event/tim-rogers-the-fellas-vr1xod"},
   {"title":"Cem Adrian","venue":"City Winery Chicago","cat":"concert","date":"2026-11-10","time":"6:30 PM","address":"1200 W. Randolph St, West Loop","local":true,"url":"https://city-winery-gy5d.vivenushop.dev/event/cem-adrian-lshfmg"},
   {"title":"Cut Copy","venue":"Garcia's Chicago","cat":"concert","date":"2026-11-10","time":"8:00 PM","address":"1001 W. Washington Blvd, West Loop","local":true,"url":"https://www.ticketmaster.com/cut-copy-chicago-illinois-11-10-2026/event/04006512DA86D586"},
   {"title":"Pretty Sick","venue":"Lincoln Hall","cat":"concert","date":"2026-11-10","time":"8:00 PM","address":"2424 N. Lincoln Ave, Lincoln Park","local":false,"url":"https://lh-st.com/shows/11-10-2026-pretty-sick/"},
@@ -95,6 +92,8 @@
   {"title":"The Walls Group (2nd show added)","venue":"City Winery Chicago","cat":"concert","date":"2026-11-29","time":"3:00 PM","address":"1200 W. Randolph St, West Loop","local":true,"url":"https://city-winery-gy5d.vivenushop.dev/event/the-walls-group-2nd-show-added-plykp9"},
   {"title":"The Walls Group","venue":"City Winery Chicago","cat":"concert","date":"2026-11-29","time":"7:00 PM","address":"1200 W. Randolph St, West Loop","local":true,"url":"https://city-winery-gy5d.vivenushop.dev/event/the-walls-group-pis12g"},
   {"title":"Angine de Poitrine with zouz","venue":"The Salt Shed","cat":"concert","date":"2026-11-29","time":"8:00 PM","address":"1357 N. Elston Ave, Goose Island","local":false,"url":"https://www.ticketmaster.com/angine-de-poitrine-with-zouz-chicago-illinois-11-29-2026/event/040064D2F2BDE720"},
-  {"title":"Cousin Tiera","venue":"City Winery Chicago","cat":"concert","date":"2026-11-30","time":"7:30 PM","address":"1200 W. Randolph St, West Loop","local":true,"url":"https://city-winery-gy5d.vivenushop.dev/event/cousin-tiera-nfbfqi"}
+  {"title":"Cousin Tiera","venue":"City Winery Chicago","cat":"concert","date":"2026-11-30","time":"7:30 PM","address":"1200 W. Randolph St, West Loop","local":true,"url":"https://city-winery-gy5d.vivenushop.dev/event/cousin-tiera-nfbfqi"},
+  {"title":"Angine de Poitrine with zouz","venue":"The Salt Shed","cat":"concert","date":"2026-11-30","time":"8:00 PM","address":"1357 N. Elston Ave, Goose Island","local":false,"url":"https://www.ticketmaster.com/angine-de-poitrine-with-zouz-chicago-illinois-11-30-2026/event/040064D2F23BE643"},
+  {"title":"Chicago Jazz Orchestra: Home for the Holidays with vocalist Paul Marinaro","venue":"City Winery Chicago","cat":"concert","date":"2026-12-01","time":"7:30 PM","address":"1200 W. Randolph St, West Loop","local":true,"url":"https://city-winery-gy5d.vivenushop.dev/event/chicago-jazz-orchestra-home-for-the-holidays-wit-avb0jx"}
  ]
 }
