@@ -1,6 +1,66 @@
 {
- "generated_at": "2026-11-10T14:00:53.315Z",
+ "generated_at": "2026-11-10T20:42:38.828Z",
  "items": [
+  {
+   "id": "politico-20261110-mayor-brandon-johnson-faces-ballot-signa",
+   "category": "elected_official",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Mayor Brandon Johnson faces ballot signature challenges in Electoral Board hearings",
+   "summary": "Challenges to mayoral candidate signatures have moved to the Electoral Board, where 108 objections across city races are being heard. Mayor Brandon Johnson and several other hopefuls must prove they have the required 12,500 valid signatures to appear on the February ballot. Hearings are expected to stretch over several weeks, putting ballot access for the mayoral race at stake.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-11-10T13:02:01.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "cbs-20261110-amtrak-begins-construction-on-new-level-",
+   "category": "civic_org",
+   "source_id": "cbs",
+   "source_name": "CBS News Chicago",
+   "source_type": "web_feed",
+   "title": "Amtrak begins construction on new \"level boarding\" platforms at Chicago Union Station",
+   "summary": "Construction starts Tuesday on a $112 million project to create new \"level boarding\" platforms for Amtrak trains at Union Station in Chicago.",
+   "url": "https://www.cbsnews.com/chicago/news/chicago-union-station-amtrak-construction-level-boarding-platforms/",
+   "published_at": "2026-11-10T17:30:10.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "cbs-20261110-amtrak-to-install-new-level-boarding-pla",
+   "category": "civic_org",
+   "source_id": "cbs",
+   "source_name": "CBS News Chicago",
+   "source_type": "web_feed",
+   "title": "Amtrak to install new \"level boarding\" platforms at Chicago Union Station",
+   "summary": "Construction starts Tuesday on a $112 million project to create new \"level boarding\" platforms for Amtrak trains at Union Station in Chicago.",
+   "url": "https://www.cbsnews.com/chicago/video/amtrak-to-install-new-level-boarding-platforms-at-chicago-union-station/",
+   "published_at": "2026-11-10T17:23:00.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "cbs-20261110-grab-a-slice-at-pizzeria-gabbo-in-fulton",
+   "category": "business",
+   "source_id": "cbs",
+   "source_name": "CBS News Chicago",
+   "source_type": "web_feed",
+   "title": "Grab a slice at Pizzeria Gabbo in Fulton Market",
+   "summary": "Jackie Kostek takes you to Pizzeria Gabbo in Fulton Market.",
+   "url": "https://www.cbsnews.com/chicago/video/grab-a-slice-at-pizzeria-gabbo-in-fulton-market/",
+   "published_at": "2026-11-10T16:03:00.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20261110-want-to-get-more-involved-in-your-commun",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Want To Get More Involved In Your Community? Free City Civics Day Can Show You How",
+   "summary": "The annual event will host panel discussions, a walking tour from the founder of Brick of Chicago, art activities and a free lunch at the Cultural Center Saturday.",
+   "url": "https://blockclubchicago.org/2026/11/10/want-to-get-more-involved-in-your-community-free-city-civics-day-can-show-you-how/",
+   "published_at": "2026-11-10T13:55:00.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "politico-20261110-illinois-lawmakers-push-bears-stadium-de",
    "category": "business",
@@ -3103,18 +3163,6 @@
    "summary": "The annual Randolph Row Holiday Stroll returns on December 10, inviting shoppers to explore West Loop businesses along Randolph Row. Participating stores will offer special discounts and promotions throughout the day. The event is promoted as a family‑friendly way to celebrate the holiday season.",
    "url": "https://www.westloop.org/",
    "published_at": "2026-10-20T21:22:22.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "cbs-20261020-suspect-in-custody-after-shots-are-fired",
-   "category": "civic_org",
-   "source_id": "cbs",
-   "source_name": "CBS News Chicago",
-   "source_type": "web_feed",
-   "title": "Suspect in custody after shots are fired near Chicago's Kluczynski Federal Building",
-   "summary": "A suspect was in custody Tuesday morning after shots were fired near the Kluczynski Federal Building in downtown Chicago. Darius Johnson reports.",
-   "url": "https://www.cbsnews.com/chicago/video/suspect-in-custody-after-shots-are-fired-near-chicagos-kluczynski-federal-building/",
-   "published_at": "2026-10-20T14:05:00.000Z",
    "flagged_for_review": false
   }
  ]
