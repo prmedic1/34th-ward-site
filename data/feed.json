@@ -1,6 +1,42 @@
 {
- "generated_at": "2026-11-10T20:42:38.828Z",
+ "generated_at": "2026-11-11T14:01:02.289Z",
  "items": [
+  {
+   "id": "politico-20261111-potential-cascade-of-vacancies-if-gov-pr",
+   "category": "elected_official",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Potential cascade of vacancies if Gov. Pritzker runs for president",
+   "summary": "If Gov. JB Pritzker were to win the presidency, he would resign and Lt. Gov. Christian Mitchell would become governor, leaving the lieutenant‑governor post vacant for the rest of the term. The article outlines how a similar chain reaction could affect the Secretary of State office, a Chicago mayoral win by Alexi Giannoulias, a mayoral bid by Rep. Mike Quigley, and possible openings for Treasurer Mike Frerichs, Cook County Treasurer Maria Pappas, and other county officials, each triggering appointments and special‑election rules.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-11-11T13:01:48.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "politico-20261111-city-club-executives-tout-40-million-nor",
+   "category": "business",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "City Club executives tout $40 million North Lawndale investment and new hiring practices",
+   "summary": "At a City Club of Chicago luncheon, Hyatt CEO Mark Hoplamazian said 29 percent of the hotel chain’s new Chicago hires this year came from the South and West sides, while Financial Investments Corp. CEO Jennifer Steans announced a $40 million investment in a North Lawndale project that includes a hospital laundry employing 300 workers with plans to expand to 450. ComEd CEO Gil Quiniones added that the utility has invested nearly $6 billion in small and midsize businesses since 2017 and partners with community colleges to train workers for high‑pay line‑worker jobs.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-11-11T13:01:48.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "cbs-20261111-self-sanitizing-public-bathroom-opening-",
+   "category": "business",
+   "source_id": "cbs",
+   "source_name": "CBS News Chicago",
+   "source_type": "web_feed",
+   "title": "Self-sanitizing public bathroom opening in West Town on Wednesday",
+   "summary": "A self-cleaning public bathroom is opening in West Town on Wednesday morning.",
+   "url": "https://www.cbsnews.com/chicago/news/self-sanitizing-public-bathroom-opening-west-town/",
+   "published_at": "2026-11-11T12:15:48.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "politico-20261110-mayor-brandon-johnson-faces-ballot-signa",
    "category": "elected_official",
@@ -2840,30 +2876,6 @@
    "flagged_for_review": false
   },
   {
-   "id": "wlco-20261020-mary-bartelme-park-hosts-family-hallowee",
-   "category": "civic_org",
-   "source_id": "wlco",
-   "source_name": "West Loop Community Organization",
-   "source_type": "email_newsletter",
-   "title": "Mary Bartelme Park hosts family Halloween celebration on Oct. 31",
-   "summary": "The 34th Ward team and the Mary Bartelme Park Advisory Council will hold a Halloween celebration at Mary Bartelme Park on Oct. 31 from 9:30 a.m. to 11:30 a.m. located at 115 S. Sangamon. The event will feature live music, a balloon artist, and other spooky activities for families.",
-   "url": "https://www.westloop.org/",
-   "published_at": "2026-10-20T21:22:22.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "wlco-20261020-randolph-row-holiday-stroll-returns-dec-",
-   "category": "business",
-   "source_id": "wlco",
-   "source_name": "West Loop Community Organization",
-   "source_type": "email_newsletter",
-   "title": "Randolph Row Holiday Stroll returns Dec. 10 with shop deals in West Loop",
-   "summary": "The annual Randolph Row Holiday Stroll will take place on Dec. 10, inviting shoppers to explore West Loop businesses along Randolph Row. Participating stores will offer special discounts and promotions all day, and businesses can sign up through the provided participation form.",
-   "url": "https://www.westloop.org/",
-   "published_at": "2026-10-20T21:22:22.000Z",
-   "flagged_for_review": false
-  },
-  {
    "id": "blockclub-20261022-bears-honor-mike-ditka-with-mustache-giv",
    "category": "civic_org",
    "source_id": "blockclub",
@@ -3018,151 +3030,6 @@
    "summary": "A developer is seeking to build a five-story, 24-unit building on the property where the iconic diner stood for more than 85 years.",
    "url": "https://blockclubchicago.org/2026/10/22/fire-ravaged-palace-grill-could-be-torn-down-replaced-with-residential-building/",
    "published_at": "2026-10-22T12:39:37.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "wlco-20261020-midwest-performance-cars-becomes-officia",
-   "category": "business",
-   "source_id": "wlco",
-   "source_name": "West Loop Community Organization",
-   "source_type": "email_newsletter",
-   "title": "Midwest Performance Cars becomes official Toys for Tots drop‑off site",
-   "summary": "Starting Monday, November 2, Midwest Performance Cars at 2105 W Fulton St will accept donated toys for the Toys for Tots program. The shop invites the West Loop community to drop off items throughout the holiday season.",
-   "url": "https://www.westloop.org/",
-   "published_at": "2026-10-20T21:22:22.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "wlco-20261020-montessori-academy-of-chicago-hosts-open",
-   "category": "civic_org",
-   "source_id": "wlco",
-   "source_name": "West Loop Community Organization",
-   "source_type": "email_newsletter",
-   "title": "Montessori Academy of Chicago hosts open house on Nov. 7",
-   "summary": "The Montessori Academy of Chicago will hold an open house on Saturday, November 7 from 12:00 to 1:30 p.m. Prospective families can tour the school, meet staff, and learn about its programs.",
-   "url": "https://www.westloop.org/",
-   "published_at": "2026-10-20T21:22:22.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20261021-chicago-s-thriller-flash-mob-bigger-than",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Chicago's Thriller' Flash Mob Bigger Than Ever After 14 Years",
-   "summary": "The dance group started as a pop-up in 2012 with seven dancers. Now, more than 160 people will be performing the “Thriller” dance at the Haunted Halsted Halloween Parade on Oct. 31.",
-   "url": "https://blockclubchicago.org/2026/10/21/chicagos-thriller-flash-mob-bigger-than-ever-after-14-years/",
-   "published_at": "2026-10-21T13:00:00.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "politico-20261020-lame-duck-foreign-policy-outlook",
-   "category": "newsletter",
-   "source_id": "politico",
-   "source_name": "POLITICO Illinois Playbook",
-   "source_type": "email_newsletter",
-   "title": "What a post-midterm White House could mean for foreign policy",
-   "summary": "POLITICO Forecast looks at how presidents facing a divided Congress often turn their attention abroad, and what that could mean after the Nov. 3 midterms, from Ukraine and Iran to NATO troop levels. The newsletter also reports that Michael Bloomberg is spending at least $80 million to help Democratic candidates in the final stretch. Ukraine's president said U.S. intelligence-sharing has resumed after talks in Oslo.",
-   "url": "https://www.politico.com/newsletters/politico-forecast",
-   "published_at": "2026-10-20T21:02:50.000Z",
-   "flagged_for_review": false,
-   "front_exclude": true
-  },
-  {
-   "id": "politico-20261021-city-sticker-ticket-waiver-pilot",
-   "category": "elected_official",
-   "source_id": "politico",
-   "source_name": "POLITICO Illinois Playbook",
-   "source_type": "email_newsletter",
-   "title": "Proposed pilot would let low-income residents seek relief on $200 city sticker tickets",
-   "summary": "An ordinance filed Tuesday at City Council would create a pilot program letting low-income Chicagoans apply for a waiver or reduction of the city's $200 city sticker ticket based on financial need. It was filed by City Clerk Anna Valencia with Alds. Matt Martin (47th) and Nicole Lee (11th). The Clerk's office is also working on a three-month amnesty program.",
-   "url": "https://www.politico.com/newsletters/illinois-playbook",
-   "published_at": "2026-10-21T12:01:54.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "politico-20261021-senate-debate-pits-democrat-juliana-stra",
-   "category": "elected_official",
-   "source_id": "politico",
-   "source_name": "POLITICO Illinois Playbook",
-   "source_type": "email_newsletter",
-   "title": "Senate debate pits Democrat Juliana Stratton against Republican Don Tracy",
-   "summary": "The Illinois U.S. Senate debate on Oct. 20 featured Democratic Lt. Gov. Juliana Stratton and Republican Don Tracy discussing Trump’s influence, the war in Iran, energy policy, a $25 federal minimum wage, Medicare for All, and immigration enforcement. Stratton linked rising costs to Trump’s policies and called for a $25 minimum wage and Medicare for All, while Tracy warned that a higher minimum wage would hurt small businesses and advocated for expanded domestic energy production. The debate was moderated by Brandis Friedman and highlighted the candidates’ contrasting foreign‑policy and economic approaches.",
-   "url": "https://www.politico.com/newsletters/illinois-playbook",
-   "published_at": "2026-10-21T12:01:54.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "politico-20261021-two-seiu-locals-endorse-alexi-giannoulia",
-   "category": "civic_org",
-   "source_id": "politico",
-   "source_name": "POLITICO Illinois Playbook",
-   "source_type": "email_newsletter",
-   "title": "Two SEIU locals endorse Alexi Giannoulias for Chicago mayor",
-   "summary": "SEIU Local 73 and another chapter announced on Tuesday that they are backing Alexi Giannoulias in the upcoming mayoral race, signaling a split in the city’s progressive labor movement. Local 73 President Dian Palmer said Giannoulias would support union contracts for public employees and help win negotiations, contrasting with the union’s previous support for Mayor Brandon Johnson in 2024. The endorsement follows a dispute with the Chicago Teachers Union over organizing efforts and comes as SEIU locals have contributed more than $4.5 million to Johnson’s 2023 campaign.",
-   "url": "https://www.politico.com/newsletters/illinois-playbook",
-   "published_at": "2026-10-21T12:01:54.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "politico-20261021-jesus-ayala-jr-receives-ald-bill-conway-",
-   "category": "civic_org",
-   "source_id": "politico",
-   "source_name": "POLITICO Illinois Playbook",
-   "source_type": "email_newsletter",
-   "title": "District 7A school board race: Jesus Ayala Jr. picks up a local endorsement",
-   "summary": "POLITICO's Illinois Playbook reports that District 7A school board candidate Jesus Ayala Jr. has been endorsed by the 34th Ward alderman. The note ran in the Playbook's Business of Politics roundup alongside other down-ballot races. Chicago's elected school board races are on the Nov. 3 ballot.",
-   "url": "https://www.politico.com/newsletters/illinois-playbook",
-   "published_at": "2026-10-21T12:01:54.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "axios-20261021-the-corporate-head-tax-returns",
-   "category": "newsletter",
-   "source_id": "axios",
-   "source_name": "Axios Chicago",
-   "source_type": "email_newsletter",
-   "title": "The corporate head tax returns",
-   "summary": "Scott Olson/Getty Images Mayor Brandon Johnson's head tax will rise again in his 2027 budget - albeit with tweaks - in a plan he's scheduled to unveil today. The revived head tax, along with a higher cloud computing tax and $480 million in borrowing to pay off police settlements, could face stiff resistance from alders. They successfully blocked Johnson's budget last year and have proven increasingly wary of.",
-   "url": "https://www.axios.com/local/chicago",
-   "published_at": "2026-10-21T11:28:40.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "wlco-20261020-community-commission-for-public-safety-a",
-   "category": "civic_org",
-   "source_id": "wlco",
-   "source_name": "West Loop Community Organization",
-   "source_type": "email_newsletter",
-   "title": "Community Commission for Public Safety and Accountability public meeting scheduled for Oct 29",
-   "summary": "The Community Commission for Public Safety and Accountability will hold a public meeting on October 29. The meeting will address public safety and accountability topics that affect all Chicago neighborhoods. Residents of the 34th Ward are encouraged to attend and participate in the discussion.",
-   "url": "https://www.westloop.org/",
-   "published_at": "2026-10-20T21:22:22.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "wlco-20261020-mary-bartelme-park-halloween-celebration",
-   "category": "civic_org",
-   "source_id": "wlco",
-   "source_name": "West Loop Community Organization",
-   "source_type": "email_newsletter",
-   "title": "Mary Bartelme Park Halloween celebration planned for Oct 31",
-   "summary": "A Halloween celebration will take place at Mary Bartelme Park on October 31 from 9:30 to 11:30 a.m. The event includes live music, a balloon artist, and other family‑friendly spooky surprises. The 34th Ward team and the park advisory council are hosting the festivities for the community.",
-   "url": "https://www.westloop.org/",
-   "published_at": "2026-10-20T21:22:22.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "wlco-20261020-randolph-row-holiday-stroll-set-for-dec-",
-   "category": "business",
-   "source_id": "wlco",
-   "source_name": "West Loop Community Organization",
-   "source_type": "email_newsletter",
-   "title": "Randolph Row Holiday Stroll set for Dec 10 with West Loop shop deals",
-   "summary": "The annual Randolph Row Holiday Stroll returns on December 10, inviting shoppers to explore West Loop businesses along Randolph Row. Participating stores will offer special discounts and promotions throughout the day. The event is promoted as a family‑friendly way to celebrate the holiday season.",
-   "url": "https://www.westloop.org/",
-   "published_at": "2026-10-20T21:22:22.000Z",
    "flagged_for_review": false
   }
  ]
