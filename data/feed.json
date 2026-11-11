@@ -1,6 +1,54 @@
 {
- "generated_at": "2026-11-11T16:14:26.952Z",
+ "generated_at": "2026-11-11T21:02:28.039Z",
  "items": [
+  {
+   "id": "politico-20261111-chicago-executives-announce-40-million-n",
+   "category": "business",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Chicago executives announce $40 million North Lawndale investment and hiring push for South and West side neighborhoods",
+   "summary": "At a City Club of Chicago luncheon, Hyatt CEO Mark Hoplamazian said 29% of the company’s new Chicago hires this year came from the South and West sides, while Financial Investments Corp CEO Jennifer Steans detailed a $40 million North Lawndale project that includes a hospital laundry operation employing 300 workers with plans to grow to 450. ComEd CEO Gil Quiniones added that the utility has invested nearly $6 billion in small and midsize businesses across the region since 2017. The executives argued that investing in underserved communities creates jobs, strengthens local economies and benefits businesses.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-11-11T13:01:48.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "politico-20261111-afge-local-789-endorses-mayor-brandon-jo",
+   "category": "elected_official",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "AFGE Local 789 endorses Mayor Brandon Johnson for re‑election",
+   "summary": "The American Federation of Government Employees Local 789 has officially endorsed incumbent Mayor Brandon Johnson in the upcoming Chicago mayoral race, signaling labor support for his administration as the campaign heads into its final stretch.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-11-11T13:01:48.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20261110-ao-hawaiian-hideout-sought-work-for-its-",
+   "category": "business",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "AO Hawaiian Hideout Sought Work For Its Staff When It Closed. These Restaurants Stepped Up",
+   "summary": "When the eatery closed last month after 13 years in the South Loop, fellow eateries opened their doors to its former workers: \"We know how valued those employees are.\"",
+   "url": "https://blockclubchicago.org/2026/11/10/ao-hawaiian-hideout-sought-work-for-its-staff-when-it-closed-these-restaurants-stepped-up/",
+   "published_at": "2026-11-10T21:01:26.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20261111-3-hour-waits-for-matcha-here-s-the-tea-o",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "3-Hour Waits For Matcha? Here’s The Tea On Chicago’s Obsession",
+   "summary": "The trendy tea drink has enjoyed a surge in demand in recent years thanks in part to social media, with long lines at pop-ups and stores like Nichi, Match-A and Noble Fat.",
+   "url": "https://blockclubchicago.org/2026/11/11/3-hour-waits-for-matcha-heres-the-tea-on-chicagos-obsession/",
+   "published_at": "2026-11-11T14:36:00.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "politico-20261111-potential-cascade-of-vacancies-if-gov-pr",
    "category": "elected_official",
@@ -3030,31 +3078,6 @@
    "summary": "The incidents occurred at restaurants in the Loop, West Loop and Near South Side during various hours of the day between Oct. 7 and 18.",
    "url": "https://www.cbsnews.com/chicago/news/fake-charity-fundraisers-loop-west-loop-near-south-side-restaurants/",
    "published_at": "2026-10-21T23:31:52.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "politico-20261021-israel-election-iran-war-outlook",
-   "category": "newsletter",
-   "source_id": "politico",
-   "source_name": "POLITICO Illinois Playbook",
-   "source_type": "email_newsletter",
-   "front_exclude": true,
-   "title": "How Israel's election could shape the Iran war",
-   "summary": "POLITICO Forecast previews Israel's Tuesday election, where polls show Prime Minister Benjamin Netanyahu's bloc narrowly trailing former army chief Gadi Eisenkot's. Analysts expect little change on Gaza policy under Eisenkot but a tougher line on violent West Bank settlers and a less hawkish stance on Iran. The newsletter also covers Ukraine's request for an extra 70 billion euros in 2027 defense funding from European allies.",
-   "url": "https://www.politico.com/newsletters/politico-forecast",
-   "published_at": "2026-10-21T20:47:54.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "skyline-20261021-new-skyline-out",
-   "category": "newsletter",
-   "source_id": "skyline",
-   "source_name": "Skyline (Inside Publications)",
-   "source_type": "email_newsletter",
-   "title": "The Oct. 21 Skyline is out",
-   "summary": "The Oct. 21 edition of Skyline is out. In his note to readers, editor Tom O'Gorman says the city is busy with galas and charitable work, which he calls the real Chicago story of hardworking, generous people.",
-   "url": "https://insideonline.com",
-   "published_at": "2026-10-21T17:15:57.000Z",
    "flagged_for_review": false
   }
  ]
