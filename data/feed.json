@@ -1,6 +1,30 @@
 {
- "generated_at": "2026-11-12T14:00:57.943Z",
+ "generated_at": "2026-11-12T21:17:10.187Z",
  "items": [
+  {
+   "id": "blockclub-20261112-developers-unveil-10-billion-plan-for-be",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Developers Unveil $10 Billion Plan For Bears Stadium, 100-Acre Project In Bronzeville",
+   "summary": "The proposal includes a 75,000-seat domed stadium, more than 5,000 homes and plans to replace up to 1,000 Prairie Shores apartments.",
+   "url": "https://blockclubchicago.org/2026/11/12/developers-unveil-10-billion-plan-for-bears-stadium-100-acre-project-in-bronzeville/",
+   "published_at": "2026-11-12T20:40:01.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20261112-27-things-to-do-in-chicago-this-weekend-",
+   "category": "business",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "27 Things To Do In Chicago This Weekend: Fa La La Holiday Market, Art Book Fair And More",
+   "summary": "The Words of Wonder Literary Festival, the Logan Square Farmers Market Surplus Sunday and a soup party are also on deck.",
+   "url": "https://blockclubchicago.org/2026/11/12/27-things-to-do-in-chicago-this-weekend-fa-la-la-holiday-market-art-book-fair-and-more/",
+   "published_at": "2026-11-12T14:05:42.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "politico-20261112-poll-shows-strong-support-for-amtrak-rai",
    "category": "business",
@@ -2969,43 +2993,6 @@
    "summary": "The West Loop Green City Market operates Saturdays from 8 a.m. to 1 p.m. at 900 W. Monroe, between Peoria and Sangamon. The market features dozens of local farmers and food producers, though office staff will not be tabling for the remainder of the season due to fall community events.",
    "url": "https://www.ward34.org/",
    "published_at": "2026-10-22T21:23:55.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "politico-20261022-brazil-runoff-bolsonaro",
-   "category": "newsletter",
-   "source_id": "politico",
-   "source_name": "POLITICO Illinois Playbook",
-   "source_type": "email_newsletter",
-   "front_exclude": true,
-   "title": "Brazil heads to a presidential runoff Sunday with Flavio Bolsonaro favored",
-   "summary": "Brazil holds its presidential runoff on Sunday, Oct. 25, with polls suggesting Flavio Bolsonaro is on course to defeat President Luiz Inacio Lula da Silva after taking a narrow first-round lead. POLITICO Forecast notes no Brazilian candidate has ever come back from a first-round defeat, though polls have narrowed. Serbia also holds snap parliamentary elections the same day.",
-   "url": "https://www.politico.com/newsletters/politico-forecast",
-   "published_at": "2026-10-22T20:35:50.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20261022-cta-to-close-loop-l-tracks-this-weekend-",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "CTA To Close Loop L' Tracks This Weekend For Repairs",
-   "summary": "Brown, Green, Orange and Pink line trains will be affected by the closure between 4 a.m. Saturday and 4 a.m. Monday.",
-   "url": "https://blockclubchicago.org/2026/10/22/cta-to-close-loop-l-tracks-this-weekend-for-repairs/",
-   "published_at": "2026-10-22T19:28:07.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20261022-bears-honor-mike-ditka-with-mustache-giv",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Bears Honor Mike Ditka With Mustache Giveaway As Prices Skyrocket For Thursday’s Game",
-   "summary": "The cheapest resale tickets to Thursday's game against the Patriots were going for more than some Bears playoff tickets last season.",
-   "url": "https://blockclubchicago.org/2026/10/22/bears-honor-mike-ditka-with-mustache-giveaway-as-prices-skyrocket-for-thursdays-game/",
-   "published_at": "2026-10-22T16:35:00.000Z",
    "flagged_for_review": false
   }
  ]
