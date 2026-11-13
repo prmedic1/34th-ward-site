@@ -1,6 +1,114 @@
 {
- "generated_at": "2026-11-13T14:00:58.554Z",
+ "generated_at": "2026-11-13T20:45:14.133Z",
  "items": [
+  {
+   "id": "politico-20261113-chicago-city-council-aldermen-push-for-s",
+   "category": "elected_official",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Chicago City Council aldermen push for ShotSpotter reinstatement and millionaire tax after voter approval",
+   "summary": "A coalition of aldermen in the City Council Budget Accountability Coalition announced plans to call for votes on two advisory measures that voters supported last week: restoring the ShotSpotter gunshot detection system, which the mayor ended in September 2024, and a millionaire’s tax that the mayor backs. The group will seek votes at next week’s council meeting as Mayor Brandon Johnson’s proposed 2027 budget still lacks the 26 votes needed for passage before the Dec. 31 deadline.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-11-13T13:01:06.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "politico-20261113-merchants-sue-over-federal-rules-exempti",
+   "category": "business",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Merchants sue over federal rules exempting banks from Illinois swipe‑fee ban",
+   "summary": "Retailers filed lawsuits claiming federal regulators exceeded their authority by allowing national banks and credit unions to bypass Illinois’ law that bans credit and debit card swipe fees on sales taxes and tips. The suits, reported by Bloomberg Law, seek to block the exemptions and protect the state’s effort to eliminate these fees.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-11-13T13:01:06.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "conway-20261113-cta-bus-vision-project-seeks-rider-feedb",
+   "category": "civic_org",
+   "source_id": "conway",
+   "source_name": "Conway's Corner (34th Ward Office Newsletter)",
+   "source_type": "email_newsletter",
+   "title": "CTA Bus Vision Project seeks rider feedback with 34th Ward meeting",
+   "summary": "The Chicago Transit Authority’s Bus Vision Project is inviting input from riders and non‑riders to improve bus service. A community engagement meeting will be held on November 17 from 5 p.m. to 7 p.m. at CTA headquarters, 567 W. Lake, within the 34th Ward. Participants can also take an online survey or learn more on the project website.",
+   "url": "https://www.ward34.org/",
+   "published_at": "2026-11-13T17:42:31.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "conway-20261113-greektown-annual-christmas-tree-celebrat",
+   "category": "civic_org",
+   "source_id": "conway",
+   "source_name": "Conway's Corner (34th Ward Office Newsletter)",
+   "source_type": "email_newsletter",
+   "title": "Greektown Annual Christmas Tree Celebration scheduled for November 22",
+   "summary": "The Greektown community will host its annual Christmas tree lighting on November 22 from 3:30 p.m. to 5 p.m. at Elysian Field, the southeast corner of Halsted and Van Buren. The event features Santa, traditional Greek carols sung by local school students, and complimentary hot chocolate and loukoumades. The tree is decorated with karavákia ornaments created by artist Panos Fiorentios and will be lit in white and blue, the colors of the Greek flag.",
+   "url": "https://www.ward34.org/",
+   "published_at": "2026-11-13T17:42:31.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "conway-20261113-south-loop-farmers-market-returns-to-pri",
+   "category": "civic_org",
+   "source_id": "conway",
+   "source_name": "Conway's Corner (34th Ward Office Newsletter)",
+   "source_type": "email_newsletter",
+   "title": "South Loop Farmers Market returns to Printers Row Park for fall season",
+   "summary": "The South Loop Farmers Market has reopened at Printers Row Park, 632 S. Dearborn St., operating on Saturdays from 9 a.m. to 1 p.m. through November 21. The market offers local vendors, fresh produce, and an opportunity for neighbors to connect. It is part of the seasonal schedule that runs from May to November.",
+   "url": "https://www.ward34.org/",
+   "published_at": "2026-11-13T17:42:31.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "wca-20261113-what-would-a-15-minute-express-connectio",
+   "category": "civic_org",
+   "source_id": "wca",
+   "source_name": "The WCA Weekly",
+   "source_type": "email_newsletter",
+   "title": "What Would a 15‑Minute Express Connection from Downtown Chicago to O’Hare Mean for Our Community?",
+   "summary": "The WCA’s Speaker Series Luncheon on November 17 will feature the O’Hare Flyer team discussing the proposed express connection, with Q&A, lunch, and networking. The event will be held at the Platform Conference Center, 320 S. Canal St., from noon to 2 p.m. It will also serve as the WCA’s Annual Meeting.",
+   "url": "https://www.wcachicago.org/",
+   "published_at": "2026-11-13T12:31:11.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "wca-20261113-410-n-elizabeth-reaches-construction-mil",
+   "category": "business",
+   "source_id": "wca",
+   "source_name": "The WCA Weekly",
+   "source_type": "email_newsletter",
+   "title": "410 N. Elizabeth Reaches Construction Milestone",
+   "summary": "The building at 410 N. Elizabeth has reached a significant construction milestone, marking progress in the development. The milestone indicates the project is moving forward toward completion.",
+   "url": "https://www.wcachicago.org/",
+   "published_at": "2026-11-13T12:31:11.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "cbs-20261113-mexodus-at-chicago-s-studebaker-theater-",
+   "category": "civic_org",
+   "source_id": "cbs",
+   "source_name": "CBS News Chicago",
+   "source_type": "web_feed",
+   "title": "\"Mexodus\" at Chicago's Studebaker Theater tells story of enslaved Africans escaping to Mexico",
+   "summary": "A new musical playing at the Studebaker Theater in downtown Chicago sheds light on a little-known part of American history.",
+   "url": "https://www.cbsnews.com/chicago/news/mexodus-chicago-studebaker-theater-enslaved-africans-mexico/",
+   "published_at": "2026-11-13T16:48:22.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20261113-the-joffrey-s-nutcracker-returns-with-ne",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "The Joffrey's ‘Nutcracker’ Returns With New Projections Inspired By 1893 World’s Fair",
+   "summary": "Award-winning projection designer Daniel Brodie dug into Chicago history archives to create digital images and animations for the Joffrey production. The show runs Dec. 4-27 at the Lyric Opera House.",
+   "url": "https://blockclubchicago.org/2026/11/13/the-joffreys-nutcracker-returns-with-new-projections-inspired-by-1893-worlds-fair/",
+   "published_at": "2026-11-13T14:00:00.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "politico-20261113-chicago-aldermen-coalition-pushes-for-sh",
    "category": "civic_org",
@@ -2513,66 +2621,6 @@
    "summary": "Chicago firefighters responded yet again after a suspicious letter was sent to a federal building in the city.",
    "url": "https://abc7chicago.com/post/suspicious-letter-delivered-kluczynski-federal-building-downtown-chicago-amid-nationwide-investigation-officials-say/19974020/",
    "published_at": "2026-10-24T13:00:24.113Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20261023-the-story-of-william-bell-chicago-s-only",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "The Story Of William Bell, Chicago’s Only Documented Lynching Victim",
-   "summary": "Three decades before 14-year-old Emmett Till was killed by a racist mob in Mississippi, Bell was beaten to death on the streets of Chicago.",
-   "url": "https://blockclubchicago.org/2026/10/23/the-story-of-william-bell-chicagos-only-documented-lynching-victim/",
-   "published_at": "2026-10-23T19:31:17.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20261023-oh-mary-chicago-tickets-on-sale-now",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Oh, Mary!' Chicago Tickets On Sale Now",
-   "summary": "The Tony Award-winning Broadway hit is coming to CIBC Theatre in January, but J. Harrison Ghee won't be performing as Mary Todd Lincoln. A replacement has yet to be announced.",
-   "url": "https://blockclubchicago.org/2026/10/23/oh-mary-chicago-tickets-on-sale-now/",
-   "published_at": "2026-10-23T18:07:58.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "cbs-20261023-suspicious-letter-draws-hazmat-response-",
-   "category": "civic_org",
-   "source_id": "cbs",
-   "source_name": "CBS News Chicago",
-   "source_type": "web_feed",
-   "title": "Suspicious letter draws hazmat response at Kluczynski Federal Building in downtown Chicago Friday morning",
-   "summary": "The Chicago Fire Department's hazmat team responded to the Kluczynski Federal Building for a suspicious letter Friday morning.",
-   "url": "https://www.cbsnews.com/chicago/news/suspicious-letter-hazmat-response-kluczynski-federal-building-chicago/",
-   "published_at": "2026-10-23T16:39:01.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "cbs-20261023-fitness-friday-bar-method-in-south-loop",
-   "category": "business",
-   "source_id": "cbs",
-   "source_name": "CBS News Chicago",
-   "source_type": "web_feed",
-   "title": "Fitness Friday: Bar Method in South Loop",
-   "summary": "Bar Method in the South Loop offers classes to build muscle, strengthen your core and improve flexibility and balance with a combination of movement inspired by pilates and yoga with ballet barre training.",
-   "url": "https://www.cbsnews.com/chicago/video/fitness-friday-bar-method-in-south-loop/",
-   "published_at": "2026-10-23T15:04:00.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "cbs-20261023-gino-s-east-celebrates-60-years-of-chica",
-   "category": "civic_org",
-   "source_id": "cbs",
-   "source_name": "CBS News Chicago",
-   "source_type": "web_feed",
-   "title": "Gino's East celebrates 60 years of Chicago deep dish pizza",
-   "summary": "Gino's East in downtown Chicago is celebrating 60 years of family owned and operated deep dish pizza joy.",
-   "url": "https://www.cbsnews.com/chicago/video/ginos-east-celebrates-60-years-of-chicago-deep-dish-pizza/",
-   "published_at": "2026-10-23T14:50:00.000Z",
    "flagged_for_review": false
   }
  ]
