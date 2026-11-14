@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-14T14:00:56.438Z",
+ "generated_at": "2026-11-14T16:31:47.614Z",
  "items": [
   {
    "id": "politico-20261113-chicago-city-council-budget-accountabili",
@@ -35,7 +35,7 @@
    "summary": "Ms. Gabrysch submitted her resignation letter stating that the CFO’s statements must be complete and accurate and that she cannot fulfill those obligations under current conditions. She alleged that the Mayor’s Office asked her to present false information, raising concerns of potential criminal fraud. The resignation could harm Chicago’s credit rating as the city approaches a budget deadline. Ald. Conway called for an immediate independent investigation by the Inspector General.",
    "url": "https://www.ward34.org/",
    "published_at": "2026-11-13T17:42:31.000Z",
-   "flagged_for_review": false
+   "flagged_for_review": true
   },
   {
    "id": "conway-20261113-cta-bus-vision-project-holds-community-m",
@@ -86,42 +86,6 @@
    "flagged_for_review": false
   },
   {
-   "id": "politico-20261113-chicago-city-council-aldermen-push-for-s",
-   "category": "elected_official",
-   "source_id": "politico",
-   "source_name": "POLITICO Illinois Playbook",
-   "source_type": "email_newsletter",
-   "title": "Chicago City Council aldermen push for ShotSpotter reinstatement and millionaire tax after voter approval",
-   "summary": "A coalition of aldermen in the City Council Budget Accountability Coalition announced plans to call for votes on two advisory measures that voters supported last week: restoring the ShotSpotter gunshot detection system, which the mayor ended in September 2024, and a millionaire’s tax that the mayor backs. The group will seek votes at next week’s council meeting as Mayor Brandon Johnson’s proposed 2027 budget still lacks the 26 votes needed for passage before the Dec. 31 deadline.",
-   "url": "https://www.politico.com/newsletters/illinois-playbook",
-   "published_at": "2026-11-13T13:01:06.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "politico-20261113-merchants-sue-over-federal-rules-exempti",
-   "category": "business",
-   "source_id": "politico",
-   "source_name": "POLITICO Illinois Playbook",
-   "source_type": "email_newsletter",
-   "title": "Merchants sue over federal rules exempting banks from Illinois swipe‑fee ban",
-   "summary": "Retailers filed lawsuits claiming federal regulators exceeded their authority by allowing national banks and credit unions to bypass Illinois’ law that bans credit and debit card swipe fees on sales taxes and tips. The suits, reported by Bloomberg Law, seek to block the exemptions and protect the state’s effort to eliminate these fees.",
-   "url": "https://www.politico.com/newsletters/illinois-playbook",
-   "published_at": "2026-11-13T13:01:06.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "conway-20261113-cta-bus-vision-project-seeks-rider-feedb",
-   "category": "civic_org",
-   "source_id": "conway",
-   "source_name": "Conway's Corner (34th Ward Office Newsletter)",
-   "source_type": "email_newsletter",
-   "title": "CTA Bus Vision Project seeks rider feedback with 34th Ward meeting",
-   "summary": "The Chicago Transit Authority’s Bus Vision Project is inviting input from riders and non‑riders to improve bus service. A community engagement meeting will be held on November 17 from 5 p.m. to 7 p.m. at CTA headquarters, 567 W. Lake, within the 34th Ward. Participants can also take an online survey or learn more on the project website.",
-   "url": "https://www.ward34.org/",
-   "published_at": "2026-11-13T17:42:31.000Z",
-   "flagged_for_review": false
-  },
-  {
    "id": "conway-20261113-greektown-annual-christmas-tree-celebrat",
    "category": "civic_org",
    "source_id": "conway",
@@ -143,18 +107,6 @@
    "summary": "The South Loop Farmers Market has reopened at Printers Row Park, 632 S. Dearborn St., operating on Saturdays from 9 a.m. to 1 p.m. through November 21. The market offers local vendors, fresh produce, and an opportunity for neighbors to connect. It is part of the seasonal schedule that runs from May to November.",
    "url": "https://www.ward34.org/",
    "published_at": "2026-11-13T17:42:31.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "wca-20261113-what-would-a-15-minute-express-connectio",
-   "category": "civic_org",
-   "source_id": "wca",
-   "source_name": "The WCA Weekly",
-   "source_type": "email_newsletter",
-   "title": "What Would a 15‑Minute Express Connection from Downtown Chicago to O’Hare Mean for Our Community?",
-   "summary": "The WCA’s Speaker Series Luncheon on November 17 will feature the O’Hare Flyer team discussing the proposed express connection, with Q&A, lunch, and networking. The event will be held at the Platform Conference Center, 320 S. Canal St., from noon to 2 p.m. It will also serve as the WCA’s Annual Meeting.",
-   "url": "https://www.wcachicago.org/",
-   "published_at": "2026-11-13T12:31:11.000Z",
    "flagged_for_review": false
   },
   {
@@ -194,30 +146,6 @@
    "flagged_for_review": false
   },
   {
-   "id": "politico-20261113-chicago-aldermen-coalition-pushes-for-sh",
-   "category": "civic_org",
-   "source_id": "politico",
-   "source_name": "POLITICO Illinois Playbook",
-   "source_type": "email_newsletter",
-   "title": "Chicago aldermen coalition pushes for ShotSpotter reinstatement and millionaire tax after voter support",
-   "summary": "The Chicago City Council Budget Accountability Coalition, a group of aldermen, plans to call for votes on reinstating the ShotSpotter gunshot detection policy and adopting a millionaire’s tax, both measures voters overwhelmingly supported last week. Mayor Brandon Johnson backs the millionaire‑tax but ended the ShotSpotter contract in September 2024. The coalition will announce its plan today and aims to bring the measures to a City Council vote next week as the 2027 budget deadline approaches.",
-   "url": "https://www.politico.com/newsletters/illinois-playbook",
-   "published_at": "2026-11-13T13:01:06.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "politico-20261113-retailers-sue-over-federal-rule-exemptin",
-   "category": "business",
-   "source_id": "politico",
-   "source_name": "POLITICO Illinois Playbook",
-   "source_type": "email_newsletter",
-   "title": "Retailers sue over federal rule exempting banks from Illinois swipe‑fee ban",
-   "summary": "Retailers have filed lawsuits claiming federal regulators overstepped authority by exempting national banks and credit unions from Illinois’ swipe‑fee ban on sales taxes and tips. The suits argue the rule undermines the state law that bars credit‑card fees for those charges. The lawsuits were reported by Bloomberg Law and target the recent federal rule change.",
-   "url": "https://www.politico.com/newsletters/illinois-playbook",
-   "published_at": "2026-11-13T13:01:06.000Z",
-   "flagged_for_review": false
-  },
-  {
    "id": "axios-20261113-south-side-stadium-proposals",
    "category": "newsletter",
    "source_id": "axios",
@@ -230,18 +158,6 @@
    "flagged_for_review": false
   },
   {
-   "id": "wca-20261113-o-hare-flyer-team-to-discuss-proposed-15",
-   "category": "business",
-   "source_id": "wca",
-   "source_name": "The WCA Weekly",
-   "source_type": "email_newsletter",
-   "title": "O’Hare Flyer team to discuss proposed 15‑minute express connection at WCA Speaker Series Luncheon",
-   "summary": "The West Central Association’s Speaker Series Luncheon on November 17 will feature the O’Hare Flyer team discussing a proposed 15‑minute express connection from downtown Chicago to O’Hare Airport, followed by Q&A, lunch, and networking. The event is at The Platform Conference Center, 320 S. Canal St., from noon to 2 p.m., with tickets available for members and non‑members.",
-   "url": "https://www.wcachicago.org/",
-   "published_at": "2026-11-13T12:31:11.000Z",
-   "flagged_for_review": false
-  },
-  {
    "id": "wca-20261113-sunda-launches-daily-happy-hour-at-fulto",
    "category": "business",
    "source_id": "wca",
@@ -249,18 +165,6 @@
    "source_type": "email_newsletter",
    "title": "Sunda launches daily Happy Hour at Fulton Market and River North locations",
    "summary": "Sunda introduced a daily Happy Hour on November 2 at its Fulton Market and River North venues, offering $10 signature cocktails, $8 handrolls, $10 featured bites, and $6 bar bites from 4–6 p.m. daily. Menu highlights include the Island Old Fashioned, Mango Margarita, Longanisa Slider, and Sunda Wings.",
-   "url": "https://www.wcachicago.org/",
-   "published_at": "2026-11-13T12:31:11.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "wca-20261113-cta-seeks-community-input-for-bus-vision",
-   "category": "civic_org",
-   "source_id": "wca",
-   "source_name": "The WCA Weekly",
-   "source_type": "email_newsletter",
-   "title": "CTA seeks community input for Bus Vision Project ahead of November 30 deadline",
-   "summary": "CTA is gathering community feedback for its Bus Vision Project through an online survey that runs until November 30, with participants entered to win one of five $100 digital Visa gift cards. An open house will be held at CTA Headquarters, 567 W. Lake St., on November 17 from 5–7 p.m., allowing residents to share input on future bus service and investments.",
    "url": "https://www.wcachicago.org/",
    "published_at": "2026-11-13T12:31:11.000Z",
    "flagged_for_review": false
