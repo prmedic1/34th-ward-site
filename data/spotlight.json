@@ -1,12 +1,12 @@
 {
  "_rotation_note": "The daily job picks the next business each morning - rotating among ward businesses with priority to spotlight requests from owners and newly opened spots. Keep yesterday's entries in history.",
  "current": {
-  "date": "2026-11-13",
-  "name": "Meddle Coffee Bar",
-  "address": "601 W. Jackson Blvd, West Loop",
-  "website": "https://www.darkmattercoffee.com/pages/meddle",
-  "blurb": "Dark Matter Coffee's West Loop outpost, a mural-covered cafe the Chicago roaster calls its psychedelegance coffee shop. It pours rotating single-origin espresso and cold brew on draft, with plenty of seating a short walk from Union Station. Open daily from 7 a.m. to 5 p.m.",
-  "image": "https://www.darkmattercoffee.com/cdn/shop/files/Meddle_Interior_Website-2.jpg?v=1613714405&width=1000"
+  "name": "Bar Siena",
+  "address": "832 W. Randolph St, West Loop",
+  "website": "https://www.barsiena.com/",
+  "image": "images/spotlight/bar-siena.jpg?v=20260903",
+  "blurb": "A bustling Randolph Street trattoria known for wood-fired pizzas, house pastas, and a lively bar. Its patio is one of Restaurant Row's favorite warm-weather perches.",
+  "date": "2026-11-14"
  },
  "history": [
   {
@@ -1147,6 +1147,14 @@
    "image": "images/spotlight/el-che.jpg?v=20260903",
    "blurb": "An Argentine-inspired steakhouse where nearly everything touches the open hearth. The wood-fired grill, empanadas, and Malbec-heavy list make it one of the West Loop's most distinctive rooms.",
    "date": "2026-11-12"
+  },
+  {
+   "date": "2026-11-13",
+   "name": "Meddle Coffee Bar",
+   "address": "601 W. Jackson Blvd, West Loop",
+   "website": "https://www.darkmattercoffee.com/pages/meddle",
+   "blurb": "Dark Matter Coffee's West Loop outpost, a mural-covered cafe the Chicago roaster calls its psychedelegance coffee shop. It pours rotating single-origin espresso and cold brew on draft, with plenty of seating a short walk from Union Station. Open daily from 7 a.m. to 5 p.m.",
+   "image": "https://www.darkmattercoffee.com/cdn/shop/files/Meddle_Interior_Website-2.jpg?v=1613714405&width=1000"
   }
  ]
 }

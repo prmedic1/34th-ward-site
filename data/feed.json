@@ -1,6 +1,90 @@
 {
- "generated_at": "2026-11-13T20:45:14.133Z",
+ "generated_at": "2026-11-14T14:00:56.438Z",
  "items": [
+  {
+   "id": "politico-20261113-chicago-city-council-budget-accountabili",
+   "category": "civic_org",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Chicago City Council Budget Accountability Coalition to push for ShotSpotter reinstatement and millionaire tax after voter support",
+   "summary": "A group of aldermen in the Budget Accountability Coalition announced plans to call for votes on restoring the ShotSpotter gunshot detection policy and adopting a millionaire’s tax at next week’s City Council meeting. Voters overwhelmingly supported both measures in the recent advisory vote, though the mayor previously rejected ShotSpotter and backs the millionaire tax. The coalition says the mayor’s proposed 2027 budget still lacks the 26 votes needed to pass as the Dec. 31 deadline approaches.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-11-13T13:01:06.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "politico-20261113-merchants-sue-federal-regulators-over-ex",
+   "category": "business",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Merchants sue federal regulators over exemption of national banks from Illinois swipe‑fee ban",
+   "summary": "Retailers filed lawsuits claiming federal regulators exceeded their authority by exempting national banks and credit unions from Illinois’ law banning credit and debit card swipe fees on sales taxes and tips. The merchants argue the exemption undermines the state’s effort to eliminate these fees for consumers and businesses. The lawsuits were reported by Bloomberg Law.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-11-13T13:01:06.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "conway-20261113-chicago-chief-financial-officer-resigns-",
+   "category": "civic_org",
+   "source_id": "conway",
+   "source_name": "Conway's Corner (34th Ward Office Newsletter)",
+   "source_type": "email_newsletter",
+   "title": "Chicago Chief Financial Officer Resigns Amid Allegations of Misleading Statements",
+   "summary": "Ms. Gabrysch submitted her resignation letter stating that the CFO’s statements must be complete and accurate and that she cannot fulfill those obligations under current conditions. She alleged that the Mayor’s Office asked her to present false information, raising concerns of potential criminal fraud. The resignation could harm Chicago’s credit rating as the city approaches a budget deadline. Ald. Conway called for an immediate independent investigation by the Inspector General.",
+   "url": "https://www.ward34.org/",
+   "published_at": "2026-11-13T17:42:31.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "conway-20261113-cta-bus-vision-project-holds-community-m",
+   "category": "civic_org",
+   "source_id": "conway",
+   "source_name": "Conway's Corner (34th Ward Office Newsletter)",
+   "source_type": "email_newsletter",
+   "title": "CTA Bus Vision Project Holds Community Meeting in 34th Ward",
+   "summary": "The Chicago Transit Authority is gathering input from riders and non‑riders for its Bus Vision Project. A community engagement meeting is scheduled for November 17 from 5 p.m. to 7 p.m. at CTA headquarters, 567 W. Lake, within the 34th Ward. Residents can also take an online survey or attend other project events to shape future bus service improvements.",
+   "url": "https://www.ward34.org/",
+   "published_at": "2026-11-13T17:42:31.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "wca-20261113-proposed-15-minute-express-connection-fr",
+   "category": "civic_org",
+   "source_id": "wca",
+   "source_name": "The WCA Weekly",
+   "source_type": "email_newsletter",
+   "title": "Proposed 15-Minute Express Connection from Downtown Chicago to O’Hare",
+   "summary": "The WCA’s Speaker Series Luncheon on November 17 will discuss the proposed 15-minute express connection from downtown Chicago to O’Hare, featuring the O’Hare Flyer team. The event will include a conversation about the project, followed by Q&A, lunch, and networking at the Platform Conference Center, 320 S. Canal St. Seating is limited.",
+   "url": "https://www.wcachicago.org/",
+   "published_at": "2026-11-13T12:31:11.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "wca-20261113-cta-bus-vision-project-seeks-community-f",
+   "category": "civic_org",
+   "source_id": "wca",
+   "source_name": "The WCA Weekly",
+   "source_type": "email_newsletter",
+   "title": "CTA Bus Vision Project Seeks Community Feedback",
+   "summary": "CTA is gathering community input for its Bus Vision Project to shape future bus service and investments. Residents can complete an online survey by November 30 and enter to win one of five $100 digital Visa gift cards. An open house will be held at CTA Headquarters, 567 W. Lake St., on November 17 from 5-7 p.m.",
+   "url": "https://www.wcachicago.org/",
+   "published_at": "2026-11-13T12:31:11.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20261113-chicago-s-thanksgiving-parade-will-start",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Chicago's Thanksgiving Parade Will Start Earlier This Year. Here’s What To Know",
+   "summary": "The parade steps off at 7:45 a.m. - an hour earlier than in recent years - with former Bears great Charles \"Peanut\" Tillman leading and a new Cookie Monster balloon.",
+   "url": "https://blockclubchicago.org/2026/11/13/chicagos-thanksgiving-parade-will-start-earlier-this-year-heres-what-to-know/",
+   "published_at": "2026-11-13T20:46:36.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "politico-20261113-chicago-city-council-aldermen-push-for-s",
    "category": "elected_official",
@@ -2609,18 +2693,6 @@
    "summary": "Chicago’s kickoff to Halloween festivities paraded down Columbus Drive in Grant Park Saturday night, as the 12th annual Arts in the Dark Parade brought together more than 100 cultural organizations. Jackie Kostek reports.",
    "url": "https://www.cbsnews.com/chicago/video/arts-in-the-dark-parade-brings-creativity-to-life-in-downtown-chicago/",
    "published_at": "2026-10-25T12:02:00.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "abc7-20261024-another-suspicious-letter-delivered-to-g",
-   "category": "civic_org",
-   "source_id": "abc7",
-   "source_name": "ABC7 Chicago",
-   "source_type": "web_feed",
-   "title": "Another suspicious letter delivered to government building downtown Chicago, officials say",
-   "summary": "Chicago firefighters responded yet again after a suspicious letter was sent to a federal building in the city.",
-   "url": "https://abc7chicago.com/post/suspicious-letter-delivered-kluczynski-federal-building-downtown-chicago-amid-nationwide-investigation-officials-say/19974020/",
-   "published_at": "2026-10-24T13:00:24.113Z",
    "flagged_for_review": false
   }
  ]
