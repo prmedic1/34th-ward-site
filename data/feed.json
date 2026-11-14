@@ -1,6 +1,54 @@
 {
- "generated_at": "2026-11-14T16:31:47.614Z",
+ "generated_at": "2026-11-14T18:56:35.354Z",
  "items": [
+  {
+   "id": "politico-20261113-chicago-city-council-aldermen-push-for-s",
+   "category": "civic_org",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Chicago City Council aldermen push for ShotSpotter reinstatement and millionaire tax after voter support",
+   "summary": "The Chicago City Council Budget Accountability Coalition, a group of aldermen, announced plans to call votes on two voter‑backed measures at next week’s council meeting: restoring the ShotSpotter gunshot detection system and adopting a millionaire’s tax. Mayor Brandon Johnson supports the tax but previously ended the ShotSpotter contract in September 2024. The coalition argues that voters sent two clear messages and the mayor cannot select only the one he prefers. The push comes as the mayor’s proposed 2027 budget still lacks the 26 votes needed for passage before the Dec. 31 deadline.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-11-13T13:01:06.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "politico-20261113-retailers-sue-federal-regulators-over-il",
+   "category": "business",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Retailers sue federal regulators over Illinois swipe‑fee ban exemption",
+   "summary": "A pair of lawsuits filed by merchants allege that federal regulators exceeded their authority by exempting national banks and credit unions from Illinois’ law prohibiting credit and debit card swipe fees on sales taxes and tips. The retailers claim the exemption undermines the state’s effort to eliminate swipe fees for consumers and businesses. The lawsuits seek to block the exemption and enforce the swipe‑fee ban statewide.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-11-13T13:01:06.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "conway-20261113-cta-bus-vision-project-seeks-rider-input",
+   "category": "civic_org",
+   "source_id": "conway",
+   "source_name": "Conway's Corner (34th Ward Office Newsletter)",
+   "source_type": "email_newsletter",
+   "title": "CTA Bus Vision Project seeks rider input with 34th Ward meeting",
+   "summary": "CTA is gathering feedback on its Bus Vision Project; a community engagement meeting will be held on November 17 from 5‑7 pm at CTA headquarters, 567 W. Lake, inviting riders and non‑riders to share ideas on improving bus service across the region.",
+   "url": "https://www.ward34.org/",
+   "published_at": "2026-11-13T17:42:31.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "wca-20261113-proposed-15-minute-express-link-from-dow",
+   "category": "civic_org",
+   "source_id": "wca",
+   "source_name": "The WCA Weekly",
+   "source_type": "email_newsletter",
+   "title": "Proposed 15‑Minute Express Link from Downtown Chicago to O’Hare to Be Discussed at WCA Speaker Series",
+   "summary": "The West Central Association will host a speaker series luncheon on November 17 at the Platform Conference Center, featuring the O’Hare Flyer team to discuss a proposed 15‑minute express connection between downtown Chicago and O’Hare Airport. The event includes a Q&A, lunch, and networking, and serves as the WCA’s annual meeting.",
+   "url": "https://www.wcachicago.org/",
+   "published_at": "2026-11-13T12:31:11.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "politico-20261113-chicago-city-council-budget-accountabili",
    "category": "civic_org",
