@@ -1,6 +1,66 @@
 {
- "generated_at": "2026-11-14T18:56:35.354Z",
+ "generated_at": "2026-11-15T14:00:52.588Z",
  "items": [
+  {
+   "id": "politico-20261113-retailers-sue-federal-regulators-over-ex",
+   "category": "business",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Retailers sue federal regulators over exemptions to Illinois swipe‑fee ban",
+   "summary": "A pair of lawsuits filed by merchants allege that federal regulators overstepped authority by creating rules that exempt national banks and credit unions from Illinois’ law prohibiting credit‑card swipe fees on sales taxes and tips. The retailers claim the exemptions undermine the state’s effort to eliminate these fees and hurt local businesses. The lawsuits were reported by Bloomberg Law’s Evan Weinberger.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-11-13T13:01:06.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "conway-20261113-cta-bus-vision-project-holds-community-e",
+   "category": "civic_org",
+   "source_id": "conway",
+   "source_name": "Conway's Corner (34th Ward Office Newsletter)",
+   "source_type": "email_newsletter",
+   "title": "CTA Bus Vision Project holds community engagement meeting in the 34th Ward",
+   "summary": "CTA is seeking input from riders and non‑riders as part of its Bus Vision Project, and a community engagement meeting is scheduled for November 17 from 5 p.m. to 7 p.m. at the CTA headquarters located at 567 W. Lake. Residents of the 34th Ward are invited to share feedback on how bus service can better serve their neighborhoods. Additional information, including a survey and event details, is available on the project website.",
+   "url": "https://www.ward34.org/",
+   "published_at": "2026-11-13T17:42:31.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "wca-20261113-o-hare-flyer-express-connection-proposal",
+   "category": "civic_org",
+   "source_id": "wca",
+   "source_name": "The WCA Weekly",
+   "source_type": "email_newsletter",
+   "title": "O’Hare Flyer Express Connection Proposal Discussed at WCA Speaker Series",
+   "summary": "The West Central Association hosted a speaker‑series luncheon on November 17 to discuss a proposed 15‑minute express connection from downtown Chicago to O’Hare, featuring the O’Hare Flyer team. The event included a Q&A, lunch catered by Canal Street Eatery, and networking at the Platform Conference Center, 320 S. Canal St. It also served as the WCA’s annual meeting.",
+   "url": "https://www.wcachicago.org/",
+   "published_at": "2026-11-13T12:31:11.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "wca-20261113-410-n-elizabeth-construction-milestone-r",
+   "category": "business",
+   "source_id": "wca",
+   "source_name": "The WCA Weekly",
+   "source_type": "email_newsletter",
+   "title": "410 N. Elizabeth Construction Milestone Reached",
+   "summary": "The construction project at 410 N. Elizabeth has reached a significant milestone, marking progress toward the development of the property in the West Loop. The newsletter notes the milestone but does not provide further details on the project's scope or timeline.",
+   "url": "https://www.wcachicago.org/",
+   "published_at": "2026-11-13T12:31:11.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "abc7-20261115-2-injured-vehicle-crashes-into-building-",
+   "category": "civic_org",
+   "source_id": "abc7",
+   "source_name": "ABC7 Chicago",
+   "source_type": "web_feed",
+   "title": "2 injured, vehicle crashes into building in the Loop after driver runs red light, Chicago police say",
+   "summary": "Two people were injured and a vehicle crashed into a building Saturday morning in the Loop after a driver ran a red light, Chicago police said.",
+   "url": "https://abc7chicago.com/post/chicago-crash-2-injured-vehicle-crashes-building-wells-washington-loop-driver-runs-red-light-police-say/20040757/",
+   "published_at": "2026-11-15T14:00:23.940Z",
+   "flagged_for_review": false
+  },
   {
    "id": "politico-20261113-chicago-city-council-aldermen-push-for-s",
    "category": "civic_org",
@@ -2621,30 +2681,6 @@
    "summary": "For two more days longer than originally planned, the CTA Green and Pink lines will not be connecting to the Loop from the West Side.",
    "url": "https://www.cbsnews.com/chicago/news/cta-green-pink-line-trains-disrupted-extra-2-days/",
    "published_at": "2026-10-25T17:09:02.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "abc7-20261025-arts-in-the-dark-parade-draws-nearly-100",
-   "category": "civic_org",
-   "source_id": "abc7",
-   "source_name": "ABC7 Chicago",
-   "source_type": "web_feed",
-   "title": "Arts in the Dark Parade draws nearly 100,000 spectators downtown Chicago",
-   "summary": "Downtown Chicago came alive for the 12th annual Arts in the Dark Parade, featuring floats, dancers, and music celebrating the arts.",
-   "url": "https://abc7chicago.com/post/chicago-halloween-events-arts-dark-parade-draws-100000-spectators-downtown/19977051/",
-   "published_at": "2026-10-25T12:45:34.156Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "cbs-20261025-arts-in-the-dark-parade-brings-creativit",
-   "category": "civic_org",
-   "source_id": "cbs",
-   "source_name": "CBS News Chicago",
-   "source_type": "web_feed",
-   "title": "Arts in the Dark Parade brings creativity to life in downtown Chicago",
-   "summary": "Chicago’s kickoff to Halloween festivities paraded down Columbus Drive in Grant Park Saturday night, as the 12th annual Arts in the Dark Parade brought together more than 100 cultural organizations. Jackie Kostek reports.",
-   "url": "https://www.cbsnews.com/chicago/video/arts-in-the-dark-parade-brings-creativity-to-life-in-downtown-chicago/",
-   "published_at": "2026-10-25T12:02:00.000Z",
    "flagged_for_review": false
   }
  ]
