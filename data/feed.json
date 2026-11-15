@@ -1,6 +1,78 @@
 {
- "generated_at": "2026-11-15T14:00:52.588Z",
+ "generated_at": "2026-11-15T19:32:43.971Z",
  "items": [
+  {
+   "id": "politico-20261113-chicago-aldermen-push-for-shotspotter-an",
+   "category": "elected_official",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Chicago aldermen push for ShotSpotter and millionaire tax after voter approval",
+   "summary": "A coalition of Chicago aldermen in the City Council Budget Accountability Coalition announced plans to call for votes on two advisory measures that voters supported last week: reinstating the ShotSpotter gunshot detection policy, which the mayor ended in September 2024, and a millionaire’s tax that the mayor also backs. The coalition will seek votes at next week’s City Council meeting as Mayor Brandon Johnson’s proposed 2027 budget still lacks the 26 votes needed for passage before the Dec. 31 deadline.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-11-13T13:01:06.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "politico-20261113-merchants-sue-over-federal-exemption-of-",
+   "category": "business",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Merchants sue over federal exemption of banks from Illinois swipe‑fee ban",
+   "summary": "Retailers filed lawsuits claiming federal regulators overstepped authority by exempting national banks and credit unions from Illinois’ law that bars credit and debit card swipe fees on sales taxes and tips. The merchants argue the exemption undermines the state’s effort to eliminate swipe fees, and the lawsuits were reported by Bloomberg Law’s Evan Weinberger.",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-11-13T13:01:06.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "conway-20261113-cta-seeks-rider-input-in-34th-ward-bus-v",
+   "category": "civic_org",
+   "source_id": "conway",
+   "source_name": "Conway's Corner (34th Ward Office Newsletter)",
+   "source_type": "email_newsletter",
+   "title": "CTA seeks rider input in 34th Ward Bus Vision Project",
+   "summary": "CTA invites residents to share feedback on bus service as part of its Bus Vision Project. A community engagement meeting will be held on November 17 from 5‑7 pm at CTA headquarters, 567 W. Lake. Riders can also take an online survey or learn more on the project website.",
+   "url": "https://www.ward34.org/",
+   "published_at": "2026-11-13T17:42:31.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "conway-20261113-greektown-hosts-annual-christmas-tree-li",
+   "category": "civic_org",
+   "source_id": "conway",
+   "source_name": "Conway's Corner (34th Ward Office Newsletter)",
+   "source_type": "email_newsletter",
+   "title": "Greektown hosts annual Christmas tree lighting and cultural celebration",
+   "summary": "The Greektown Annual Christmas Tree Celebration takes place on November 22 from 3:30 pm to 5 pm at Elysian Field on the southeast corner of Halsted & Van Buren. The event features Santa, a tree lit in the Greek flag colors, carols sung by local Greek school students, and complimentary hot chocolate and loukoumades. The National Hellenic Museum will also be open for free and host a Cider & Cookies gathering from 3‑5 pm.",
+   "url": "https://www.ward34.org/",
+   "published_at": "2026-11-13T17:42:31.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "conway-20261113-south-loop-farmers-market-reopens-at-pri",
+   "category": "civic_org",
+   "source_id": "conway",
+   "source_name": "Conway's Corner (34th Ward Office Newsletter)",
+   "source_type": "email_newsletter",
+   "title": "South Loop Farmers Market reopens at Printers Row Park",
+   "summary": "The South Loop Farmers Market returns to Printers Row Park, located at 632 S. Dearborn St, operating Saturdays from 9 am to 1 pm through November 21. The market showcases dozens of local farmers and food producers, providing residents an opportunity to support local businesses and connect with neighbors.",
+   "url": "https://www.ward34.org/",
+   "published_at": "2026-11-13T17:42:31.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "wca-20261113-cta-bus-vision-project-seeks-community-i",
+   "category": "civic_org",
+   "source_id": "wca",
+   "source_name": "The WCA Weekly",
+   "source_type": "email_newsletter",
+   "title": "CTA Bus Vision Project Seeks Community Input on Future Bus Service",
+   "summary": "CTA is gathering feedback through its Bus Vision Project to shape future bus service and investments. Residents can complete an online survey by November 30 and enter to win one of five $100 digital Visa gift cards. An open house is scheduled at CTA Headquarters (567 W. Lake St.) on November 17 from 5 to 7 p.m.",
+   "url": "https://www.wcachicago.org/",
+   "published_at": "2026-11-13T12:31:11.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "politico-20261113-retailers-sue-federal-regulators-over-ex",
    "category": "business",
@@ -2657,30 +2729,6 @@
    "summary": "The National Hellenic Museum in Greektown and UIC's Department of Classics and Mediterranean Studies are reading Homer's Odyssey aloud from beginning to end on Thursday, Oct. 29 (12:30-8 p.m.) and Friday, Oct. 30 (10 a.m.-4 p.m.). A Thursday happy hour from 6-8 p.m. invites visitors to grab a drink and read a passage. The museum's exhibit The Odyssey Reimagined is also on view Thursdays through Sundays.",
    "url": "https://www.nationalhellenicmuseum.org/",
    "published_at": "2026-10-25T20:01:05.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20261025-green-pink-line-service-disruptions-exte",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Green, Pink Line Service Disruptions Extended Due Lake Street Bridge Work",
-   "summary": "Green and Pink line service to the Loop was scheduled to resume Monday, but that date was pushed back to Wednesday due to ongoing bridge replacement work.",
-   "url": "https://blockclubchicago.org/2026/10/25/green-pink-line-service-disruptions-extended-due-lake-street-bridge-work/",
-   "published_at": "2026-10-25T19:02:47.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "cbs-20261025-cta-green-pink-line-trains-to-be-disrupt",
-   "category": "civic_org",
-   "source_id": "cbs",
-   "source_name": "CBS News Chicago",
-   "source_type": "web_feed",
-   "title": "CTA Green, Pink Line trains to be disrupted for extra 2 days",
-   "summary": "For two more days longer than originally planned, the CTA Green and Pink lines will not be connecting to the Loop from the West Side.",
-   "url": "https://www.cbsnews.com/chicago/news/cta-green-pink-line-trains-disrupted-extra-2-days/",
-   "published_at": "2026-10-25T17:09:02.000Z",
    "flagged_for_review": false
   }
  ]
