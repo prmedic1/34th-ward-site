@@ -1,6 +1,43 @@
 {
- "generated_at": "2026-11-16T14:00:57.891Z",
+ "generated_at": "2026-11-16T14:12:41.905Z",
  "items": [
+  {
+   "category": "civic_org",
+   "source_id": "igwl",
+   "source_name": "Indivisible Greater West Loop",
+   "source_type": "email_newsletter",
+   "url": "https://www.indivisiblegwlchi.org",
+   "published_at": "2026-11-16T13:45:57.000Z",
+   "flagged_for_review": false,
+   "id": "igwl-20261116-paint-sip-toy-drive",
+   "title": "Paint-and-sip fundraiser Nov. 18 and holiday toy drive Nov. 21 for local food groups",
+   "summary": "Indivisible Greater West Loop is hosting a paint-and-sip holiday fundraiser with Chicago Sip & Paint on Wednesday, Nov. 18, from 6 to 8:30 p.m., with part of each ticket going to the Chicago Food Sovereignty Coalition. On Saturday, Nov. 21, from 8 to 11:30 a.m., the group is collecting new, unwrapped toys valued over $15 for the Pilsen Food Pantry at the last farmers market of the year. Details and tickets are on the group's Mobilize calendar."
+  },
+  {
+   "category": "civic_org",
+   "source_id": "igwl",
+   "source_name": "Indivisible Greater West Loop",
+   "source_type": "email_newsletter",
+   "url": "https://www.indivisiblegwlchi.org",
+   "published_at": "2026-11-16T13:45:57.000Z",
+   "flagged_for_review": false,
+   "id": "igwl-20261116-veto-session-bills",
+   "title": "Springfield veto session: bills on data centers, pricing, guns, voting and foam foodware",
+   "summary": "With the Illinois General Assembly back in Springfield for its veto session, Indivisible Greater West Loop is urging residents to contact state legislators about several bills. They include the POWER Act on data center energy and water use, a ban on surveillance pricing, the RIFL Act (SB 2279) on firearm manufacturer accountability, the RACE Act (HB 5414/SB 2983) on voting rights for incarcerated people, and a polystyrene foam foodware phase-out (SB 1531). Indivisible National's virtual launch of its new guide and strategic plan has moved to Thursday, Dec. 10."
+  },
+  {
+   "id": "politico-20261115-trump-asia-summit-week",
+   "category": "newsletter",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "Trump heads to Asia for a week of trade and defense summits",
+   "summary": "POLITICO Forecast reports President Trump leaves for Asia for the ASEAN summit in Manila and the APEC summit in China, ending with a planned three-way meeting with Xi Jinping and Vladimir Putin. Asian diplomats told POLITICO they expect less appetite for deals after Republican losses in this month's midterms. The White House says Trump aims to finalize a long-negotiated trade deal with Thailand.",
+   "url": "https://www.politico.com/newsletters/politico-forecast",
+   "published_at": "2026-11-15T22:29:42.000Z",
+   "flagged_for_review": false,
+   "front_exclude": true
+  },
   {
    "id": "politico-20261116-mayor-brandon-johnson-appoints-mike-bels",
    "category": "civic_org",
@@ -733,18 +770,6 @@
    "flagged_for_review": false,
    "title": "Rally on AI and Big Tech in public schools set for West Loop on Wednesday, Nov. 11",
    "summary": "Illinois Families for Public Schools and Schools Beyond Screens are holding a rally on Wednesday, Nov. 11, to raise concerns about the growing role of AI and Big Tech in public education. Participants gather at 3 p.m. at Mary Bartelme Park, 115 S. Sangamon, then hold a rally and press conference at 4 p.m. outside Google's Chicago office at 309 N. Morgan. Organizers are calling for more transparency, student privacy protections, and a greater say for families and educators in school technology decisions."
-  },
-  {
-   "category": "civic_org",
-   "source_id": "igwl",
-   "source_name": "Indivisible Greater West Loop",
-   "source_type": "email_newsletter",
-   "url": "https://www.indivisiblegwlchi.org",
-   "published_at": "2026-11-09T13:45:56.000Z",
-   "id": "igwl-20261109-indivisible-guide-launch-nov-19",
-   "flagged_for_review": false,
-   "title": "New Indivisible Guide launches online Nov. 19 as local members plan for 2027",
-   "summary": "Indivisible National will hold a virtual launch on Thursday, Nov. 19, for its new Indivisible Guide and strategic plan following the midterms. Indivisible Greater West Loop says it will survey its members later this month to shape its 2027 strategy. The group also continues its Saturday table at the West Loop Farmers Market from 8 to 11:30 a.m."
   },
   {
    "category": "civic_org",
