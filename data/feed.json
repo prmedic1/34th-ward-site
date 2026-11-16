@@ -1,6 +1,18 @@
 {
- "generated_at": "2026-11-16T14:12:41.905Z",
+ "generated_at": "2026-11-16T23:10:59.981Z",
  "items": [
+  {
+   "id": "blockclub-20261116-sky-ride-tap-closing-after-93-years-in-t",
+   "category": "business",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Sky Ride Tap Closing After 93 Years In The Loop",
+   "summary": "Kyriakos \"Carl\" Damianides, who has run the bar since 1972, said the building was recently sold and the new owner wants all remaining businesses out. Its last night will be New Year's Eve.",
+   "url": "https://blockclubchicago.org/2026/11/16/sky-ride-tap-closing-after-93-years-in-the-loop/",
+   "published_at": "2026-11-16T21:00:04.000Z",
+   "flagged_for_review": false
+  },
   {
    "category": "civic_org",
    "source_id": "igwl",
@@ -2488,19 +2500,6 @@
    "summary": "According to a new public dashboard for the project, the Federal Railroad Administration is preparing an environmental assessment despite indications that it may be exempt. The FRA is also planning two public meetings, but no dates have been announced.",
    "url": "https://www.cbsnews.com/chicago/video/public-meetings-planned-for-proposed-amtrak-facility-move-from-south-loop-to-bridgeport/",
    "published_at": "2026-10-27T03:08:00.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "politico-20261026-lula-wins-brazil-runoff",
-   "category": "newsletter",
-   "source_id": "politico",
-   "source_name": "POLITICO Illinois Playbook",
-   "source_type": "email_newsletter",
-   "front_exclude": true,
-   "title": "Lula comes from behind to win Brazil's presidential runoff",
-   "summary": "Brazilian President Luiz Inacio Lula da Silva won the Oct. 25 runoff over Flavio Bolsonaro, the first come-from-behind second-round win in Brazil's democratic history. Turnout reached almost 81%, the highest for a runoff in 20 years, and the Brazilian real fell more than 10% against the dollar the next day. POLITICO Forecast also notes high turnout helped a student-led movement oust Serbia's Aleksandar Vucic the same day.",
-   "url": "https://www.politico.com/newsletters/politico-forecast",
-   "published_at": "2026-10-26T21:19:47.000Z",
    "flagged_for_review": false
   }
  ]
