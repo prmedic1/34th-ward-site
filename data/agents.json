@@ -163,12 +163,17 @@
     "week": "2026-11-02",
     "date": "2026-11-02",
     "name": "Armando Chacon"
+   },
+   {
+    "week": "2026-11-09",
+    "date": "2026-11-09",
+    "name": "Stephanie Fedor"
    }
   ],
   "current": {
-   "week": "2026-11-09",
-   "date": "2026-11-09",
-   "name": "Stephanie Fedor"
+   "week": "2026-11-16",
+   "date": "2026-11-16",
+   "name": "Ilsa Conover"
   }
  }
 }
