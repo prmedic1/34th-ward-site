@@ -1,6 +1,79 @@
 {
- "generated_at": "2026-11-17T14:00:27.566Z",
+ "generated_at": "2026-11-17T14:09:34.054Z",
  "items": [
+  {
+   "category": "newsletter",
+   "source_type": "email_newsletter",
+   "flagged_for_review": false,
+   "source_id": "axios",
+   "source_name": "Axios Chicago",
+   "url": "https://www.axios.com/local/chicago",
+   "published_at": "2026-11-17T12:27:17.000Z",
+   "id": "axios-20261117-power-act-data-centers",
+   "title": "Illinois lawmakers weigh first statewide data center rules",
+   "summary": "The POWER Act, expected to move during the veto session that starts today, would require large data centers to bring their own renewable energy, disclose their water and electricity use, and stop signing nondisclosure agreements with local governments. Versions of the bill have circulated in Springfield for more than a year, opposed by building trade unions. Voters nationally passed 40 of 41 local ballot measures regulating data centers in this month's election, according to Ballotpedia."
+  },
+  {
+   "category": "newsletter",
+   "source_type": "email_newsletter",
+   "flagged_for_review": false,
+   "source_id": "axios",
+   "source_name": "Axios Chicago",
+   "url": "https://www.axios.com/local/chicago",
+   "published_at": "2026-11-17T12:27:17.000Z",
+   "id": "axios-20261117-nita-budget-comment",
+   "title": "Public comment open on $5 billion regional transit budget through Dec. 4",
+   "summary": "NITA, the new agency overseeing the CTA, Metra and Pace, has released a $5 billion 2027 budget proposal and is taking public comment through Dec. 4. CTA riders logged more than 100 train delays of 10 minutes or more in October. Last month the CTA launched Safe Ride Specialists, trained to connect riders experiencing homelessness, mental health crises or substance use with housing, treatment and services."
+  },
+  {
+   "category": "newsletter",
+   "source_type": "email_newsletter",
+   "flagged_for_review": false,
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-11-17T13:01:23.000Z",
+   "id": "politico-20261117-veto-session-leadership-bears",
+   "title": "Veto session opens with leadership races and Bears stadium talks",
+   "summary": "Lawmakers return to Springfield today as House Democrats jockey to succeed Speaker Chris Welch, who is not seeking another term; named contenders include state Reps. Kam Buckner, Eva-Dina Delgado, Jehan Gordon-Booth, Jay Hoffman, Ann Williams and Marcus Evans. Republicans in both chambers face leadership challenges after midterm losses. A plan that could give both Chicago and Arlington Heights a shot at a Bears stadium is still being negotiated, with a December vote considered more likely than one this week. Data center rules and Chicago school funding are also unfinished."
+  },
+  {
+   "category": "newsletter",
+   "source_type": "email_newsletter",
+   "flagged_for_review": false,
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-11-17T13:01:23.000Z",
+   "id": "politico-20261117-chicago-55b-debt",
+   "title": "How Chicago reached $55 billion in debt",
+   "summary": "A WTTW and ProPublica project traces Chicago's $55 billion debt to three main causes: state legislation that let the city contribute less to pensions each year than was needed, the long-term parking meter lease, and hundreds of millions of dollars in police misconduct settlements. Separately, aldermen introduced an ordinance allowing an outside investigation of city finances following the city CFO's departure, with a vote planned this week."
+  },
+  {
+   "category": "newsletter",
+   "source_type": "email_newsletter",
+   "flagged_for_review": false,
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "url": "https://www.politico.com/newsletters/illinois-playbook",
+   "published_at": "2026-11-17T13:01:23.000Z",
+   "id": "politico-20261117-cardenas-staffing-audit",
+   "title": "Mayoral candidate releases audit of city staffing since 2019",
+   "summary": "Chicago mayoral candidate George Cardenas released an analysis of budgeted city positions finding that since 2019 budgets cut 1,232 police officer positions while adding 377 management and appointed jobs. His campaign says management payroll rose 39%, from $291 million to $405 million. Cardenas proposes freezing non-union hiring, auditing management positions added since 2019 and redirecting savings to front-line workers such as police officers and 911 call-takers."
+  },
+  {
+   "category": "newsletter",
+   "source_type": "email_newsletter",
+   "flagged_for_review": false,
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "url": "https://www.politico.com/newsletters/politico-forecast",
+   "published_at": "2026-11-16T22:43:41.000Z",
+   "front_exclude": true,
+   "id": "politico-20261116-nvidia-earnings-after-ceo-exit",
+   "title": "Nvidia faces first earnings call since CEO resignation",
+   "summary": "POLITICO Forecast reports Big Tech stocks fell ahead of Nvidia's Q3 earnings call, the first since co-founder Jensen Huang resigned as CEO. Interim CEO Colette Kress, the longtime chief financial officer, is expected to face questions about the company's direction and its role financing AI infrastructure. Nvidia's board has signaled it intends to move on without Huang."
+  },
   {
    "id": "blockclub-20261117-shop-local-2026-a-bronzeville-and-south-",
    "category": "business",
