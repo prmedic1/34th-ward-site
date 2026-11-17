@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>NCAA Football &amp; Basketball - 34thward.com</title>
-<meta name="description" content="Men's college football on 34thward.com: this week's full schedule, the AP Top 25, standings for every FBS conference, and the latest news. Men's basketball added when its season starts.">
+<meta name="description" content="Men's college football and basketball on 34thward.com: this week's schedules, the AP Top 25, conference standings, and the latest news.">
 <link rel="canonical" href="https://34thward.com/ncaa.html">
 <link rel="stylesheet" href="css/style.css?v=20260907f">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,7 +13,7 @@
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="34thward.com">
 <meta property="og:title" content="NCAA Football & Basketball">
-<meta property="og:description" content="This week's college football schedule, the AP Top 25, and standings for every FBS conference.">
+<meta property="og:description" content="This week's college football and basketball schedules, the AP Top 25 polls, and conference standings.">
 <meta property="og:image" content="https://34thward.com/images/og-share.jpg?v=20260709">
 <meta property="og:url" content="https://34thward.com/ncaa.html">
 <meta name="twitter:card" content="summary_large_image">
@@ -28,6 +28,10 @@
   .ncaa-toggle button { font-family: var(--font-body); font-weight: 700; font-size: 14px; padding: 9px 20px; border-radius: 999px; border: 1px solid var(--border); background: var(--card-bg); color: var(--navy); cursor: pointer; }
   .ncaa-toggle button.active { background: var(--navy); border-color: var(--navy); color: #fff; }
   .ncaa-toggle button[disabled] { opacity: 0.55; cursor: default; }
+  .ncaa-filter { display: flex; flex-wrap: wrap; gap: 6px; margin: -4px 0 14px; }
+  .ncaa-filter[hidden] { display: none; }
+  .ncaa-filter button { font-family: var(--font-body); font-weight: 700; font-size: 13px; padding: 7px 14px; border-radius: 999px; border: 1px solid var(--border); background: var(--card-bg); color: var(--navy); cursor: pointer; }
+  .ncaa-filter button.active { background: var(--sky); border-color: var(--sky); color: #06303f; }
   .ncaa-actions { display: flex; flex-wrap: wrap; gap: 12px; margin: 0 0 26px; }
   .ncaa-dd { position: relative; flex: 1 1 220px; }
   .ncaa-btn { display: flex; width: 100%; align-items: center; justify-content: center; gap: 9px; font-family: 'Paytone One', var(--font-body); font-weight: 400; font-size: 16px; letter-spacing: 0.2px; text-decoration: none; padding: 13px 20px; border-radius: 10px; cursor: pointer; background: #d3ecfb; color: #e2680a; border: 4px solid #ef7c1a; box-shadow: var(--shadow-1); transition: transform 150ms var(--ease-out), box-shadow 150ms var(--ease-out), background 150ms; }
@@ -147,14 +151,14 @@
 <section class="hero hero-compact hero-photo" style="--hero-img: url('/images/mary-bartelme-park.jpg')">
   <div class="hero-inner">
     <h2>NCAA Football &amp; Basketball</h2>
-    <p>Men's college football across the country: standings for every FBS conference, the AP Top 25, this week's full schedule, and the latest news. Men's basketball joins when its season tips off in November.</p>
+    <p>Men's college football and basketball across the country: conference standings, the AP Top 25, this week's schedule, and the latest news. Pick a sport below.</p>
   </div>
 </section>
 
 <main class="ncaa-wrap">
   <div class="ncaa-toggle">
-    <button id="tab-fb" class="active" type="button">Football</button>
-    <button id="tab-bb" type="button" disabled title="Men's college basketball starts in November">Basketball (Nov)</button>
+    <button id="tab-fb" class="active" type="button" aria-pressed="true">Football</button>
+    <button id="tab-bb" type="button" aria-pressed="false">Basketball</button>
   </div>
 
   <div class="ncaa-actions">
@@ -163,7 +167,7 @@
         <span>Place a Bet</span>
         <svg class="caret" viewBox="0 0 12 12" aria-hidden="true" focusable="false"><path d="M2 4.5l4 4 4-4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
       </button>
-      <div class="ncaa-dd-menu" role="menu">
+      <div class="ncaa-dd-menu" role="menu" id="bet-menu">
         <a role="menuitem" href="https://sportsbook.draftkings.com/leagues/football/ncaaf" target="_blank" rel="noopener">DraftKings</a>
         <a role="menuitem" href="https://sportsbook.fanduel.com/navigation/ncaaf" target="_blank" rel="noopener">FanDuel</a>
         <a role="menuitem" href="https://www.betmgm.com/en/sports/football-11/betting/usa-9/college-football-211" target="_blank" rel="noopener">BetMGM</a>
@@ -174,7 +178,7 @@
         <span>Get Tickets</span>
         <svg class="caret" viewBox="0 0 12 12" aria-hidden="true" focusable="false"><path d="M2 4.5l4 4 4-4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
       </button>
-      <div class="ncaa-dd-menu" role="menu">
+      <div class="ncaa-dd-menu" role="menu" id="tix-menu">
         <a role="menuitem" href="https://www.ticketmaster.com/search?q=college%20football" target="_blank" rel="noopener">Ticketmaster</a>
         <a role="menuitem" href="https://www.stubhub.com/ncaa-football-tickets/grouping/122" target="_blank" rel="noopener">StubHub</a>
         <a role="menuitem" href="https://gametime.co/c/college-football" target="_blank" rel="noopener">Gametime</a>
@@ -198,13 +202,17 @@
   </div>
 
   <h3 class="ncaa-section-title">This Week's Schedule</h3>
-  <p class="ncaa-note">Every FBS game this week, grouped by day and colored by the home team. Tap a game for the full matchup.</p>
+  <p class="ncaa-note" id="sched-note">Every FBS game this week, grouped by day and colored by the home team. Tap a game for the full matchup.</p>
+  <div class="ncaa-filter" id="sched-filter" hidden>
+    <button type="button" data-f="featured" class="active" aria-pressed="true">Top 25, Big Ten &amp; Chicago</button>
+    <button type="button" data-f="all" aria-pressed="false">All Division I</button>
+  </div>
   <div id="ncaa-schedule"><p class="ncaa-loading">Loading this week's games&hellip;</p></div>
 
-  <h3 class="ncaa-section-title">Latest College Football News</h3>
+  <h3 class="ncaa-section-title" id="news-title">Latest College Football News</h3>
   <div id="ncaa-news"><p class="ncaa-loading">Loading news&hellip;</p></div>
 
-  <p class="ncaa-src">Scores, rankings, standings, and news update automatically from ESPN's public feed.</p>
+  <p class="ncaa-src">Scores, rankings, standings, betting lines, and news update automatically from ESPN's public feed.</p>
 </main>
 
 <footer class="site-footer">
@@ -242,11 +250,40 @@ document.getElementById('year').textContent = new Date().getFullYear();
 })();
 
 (function () {
-  var CFB = 'https://site.api.espn.com/apis/site/v2/sports/football/college-football';
+  // One renderer, two sports. Each sport is just a set of ESPN endpoints plus the
+  // page copy and outbound links that go with it. Every section fails safe on its
+  // own: if a feed is missing or a field is absent we show "unavailable" or leave
+  // the cell blank, never a guessed value.
+  var API = 'https://site.api.espn.com/apis/site/v2/sports/';
+  var STD = 'https://site.api.espn.com/apis/v2/sports/';
+  var SPORTS = {
+    fb: {
+      hash: 'football', path: 'football/college-football', web: 'college-football', groups: 80,
+      news: 'Latest College Football News',
+      sched: 'Every FBS game this week, grouped by day and colored by the home team. Tap a game for the full matchup.',
+      diff: ['Pt Diff', '+/-'],
+      bet: [['DraftKings', 'https://sportsbook.draftkings.com/leagues/football/ncaaf'], ['FanDuel', 'https://sportsbook.fanduel.com/navigation/ncaaf'], ['BetMGM', 'https://www.betmgm.com/en/sports/football-11/betting/usa-9/college-football-211']],
+      tix: [['Ticketmaster', 'https://www.ticketmaster.com/search?q=college%20football'], ['StubHub', 'https://www.stubhub.com/ncaa-football-tickets/grouping/122'], ['Gametime', 'https://gametime.co/c/college-football'], ['SeatGeek', 'https://seatgeek.com/ncaa-football-tickets']]
+    },
+    bb: {
+      hash: 'basketball', path: 'basketball/mens-college-basketball', web: 'mens-college-basketball', groups: 50, filter: true,
+      news: 'Latest College Basketball News',
+      sched: 'Men\'s Division I games this week, grouped by day and colored by the home team. Showing games with an AP Top 25 team, a Big Ten team, or a Chicago school (DePaul, Loyola, UIC, Chicago State) - switch to All Division I for every game. Tap a game for the full matchup.',
+      diff: ['Pt Diff', '+/-'],
+      bet: [['DraftKings', 'https://sportsbook.draftkings.com/leagues/basketball/ncaab'], ['FanDuel', 'https://sportsbook.fanduel.com/navigation/ncaab'], ['BetMGM', 'https://www.betmgm.com/en/sports/basketball-7/betting/usa-9/ncaab-264']],
+      tix: [['Ticketmaster', 'https://www.ticketmaster.com/search?q=college%20basketball'], ['StubHub', 'https://www.stubhub.com/ncaa-basketball-tickets/grouping/123'], ['Gametime', 'https://gametime.co/c/college-basketball'], ['SeatGeek', 'https://seatgeek.com/ncaa-basketball-tickets']]
+    }
+  };
+  var CHICAGO_SCHOOLS = /^(DePaul|Loyola Chicago|Loyola-Chicago|UIC|Illinois Chicago|Chicago State)\b/i;
+  var cur = null;          // active sport key; late responses for the other sport are ignored
+  var cache = {};          // per-sport promises, so switching back is instant
+  var bbFilter = 'featured';
+
   function esc(s) { var d = document.createElement('div'); d.textContent = s == null ? '' : s; return d.innerHTML; }
   function escA(s) { return String(s == null ? '' : s).replace(/"/g, '&quot;'); }
   function pad(n) { return n < 10 ? '0' + n : '' + n; }
   function ymd(d) { return '' + d.getFullYear() + pad(d.getMonth() + 1) + pad(d.getDate()); }
+  function getJSON(u) { return fetch(u).then(function (r) { return r.ok ? r.json() : null; }).catch(function () { return null; }); }
   // White or dark text depending on how light the team color is.
   function isLight(hex) {
     if (!hex) return false;
@@ -258,72 +295,183 @@ document.getElementById('year').textContent = new Date().getFullYear();
   function logo(t) { return (t && (t.logo || (t.logos && t.logos[0] && t.logos[0].href))) || ''; }
   // ESPN team page (schedule, roster, scores, news) - provided by the feed,
   // with an id-built fallback so every team links somewhere valid.
-  function teamLink(t) {
+  function teamLink(t, S) {
     if (t && t.links && t.links.length) {
       var l = t.links.find(function (x) { return (x.rel || []).indexOf('desktop') >= 0 && (x.rel || []).indexOf('clubhouse') >= 0; }) || t.links[0];
       if (l && l.href) return l.href;
     }
-    return t && t.id ? 'https://www.espn.com/college-football/team/_/id/' + t.id : '';
+    return t && t.id ? 'https://www.espn.com/' + S.web + '/team/_/id/' + t.id : '';
+  }
+  // Conference list from the standings feed. Football returns conferences as
+  // top-level children; basketball can nest them one level deeper, so walk down
+  // until we find groups that actually carry standings rows.
+  function confList(data) {
+    var out = [];
+    (function walk(nodes) {
+      (nodes || []).forEach(function (c) {
+        if (c.standings && c.standings.entries && c.standings.entries.length) out.push(c);
+        else if (c.children) walk(c.children);
+      });
+    })(data && data.children);
+    return out;
+  }
+  function findStat(entry, keys) {
+    return (entry.stats || []).find(function (x) { return keys.indexOf(x.type) >= 0 || keys.indexOf(x.name) >= 0; });
+  }
+  function overall(entry) {
+    var s = findStat(entry, ['total', 'overall']);
+    if (s) return s.summary || s.displayValue || '';
+    var w = findStat(entry, ['wins']), l = findStat(entry, ['losses']);
+    return (w && l && w.value != null && l.value != null) ? (w.value + '-' + l.value) : '';
+  }
+  function statVal(entry, keys) { var s = findStat(entry, keys); return s ? (s.displayValue || s.summary || (s.value != null ? s.value : '')) : ''; }
+
+  // ---- Data loading (cached per sport) ----
+  function load(key) {
+    if (cache[key]) return cache[key];
+    var S = SPORTS[key];
+    var std = getJSON(STD + S.path + '/standings').then(function (j) {
+      // Some seasons the bare URL returns only a shell; ask for Division I explicitly.
+      if (confList(j).length) return j;
+      return getJSON(STD + S.path + '/standings?group=' + S.groups);
+    });
+    var days = [];
+    for (var i = 0; i < 7; i++) { var d = new Date(); d.setDate(d.getDate() + i); days.push(ymd(d)); }
+    // ESPN's scoreboard no longer accepts a dates=START-END *range* (HTTP 400 since
+    // Sep 2026). Single-date queries still work, so ask for each of the next seven
+    // days in parallel and merge them: a true rolling window, no bot involved.
+    var sched = Promise.all(days.map(function (ds) {
+      return getJSON(API + S.path + '/scoreboard?groups=' + S.groups + '&limit=500&dates=' + ds)
+        .then(function (j) { return (j && j.events) || null; });
+    })).then(function (lists) {
+      if (lists.every(function (l) { return l === null; })) return null; // feed broken, not "no games"
+      var seen = {}, events = [];
+      // De-dupe by game id (a late tip can land in two adjacent single-day responses).
+      lists.forEach(function (list) { (list || []).forEach(function (e) { if (e && e.id && !seen[e.id]) { seen[e.id] = 1; events.push(e); } }); });
+      events.sort(function (a, b) { return new Date(a.date) - new Date(b.date); });
+      return events;
+    });
+    cache[key] = { rank: getJSON(API + S.path + '/rankings'), std: std, sched: sched, news: getJSON(API + S.path + '/news') };
+    return cache[key];
+  }
+
+  // ---- Sport switch ----
+  function setActive(key) {
+    var S = SPORTS[key];
+    cur = key;
+    ['fb', 'bb'].forEach(function (k) {
+      var b = document.getElementById('tab-' + k);
+      b.classList.toggle('active', k === key);
+      b.setAttribute('aria-pressed', k === key ? 'true' : 'false');
+    });
+    document.getElementById('news-title').textContent = S.news;
+    document.getElementById('sched-note').textContent = S.sched;
+    document.getElementById('sched-filter').hidden = !S.filter;
+    function menu(id, items) {
+      document.getElementById(id).innerHTML = items.map(function (x) { return '<a role="menuitem" href="' + escA(x[1]) + '" target="_blank" rel="noopener">' + esc(x[0]) + '</a>'; }).join('');
+    }
+    menu('bet-menu', S.bet);
+    menu('tix-menu', S.tix);
+    var loading = function (id, txt) { document.getElementById(id).innerHTML = '<p class="ncaa-loading">' + txt + '&hellip;</p>'; };
+    loading('ncaa-top25', 'Loading the AP Top 25');
+    document.getElementById('top25-note').textContent = '';
+    document.getElementById('conf-tabs').innerHTML = '';
+    loading('conf-table', 'Loading standings');
+    loading('ncaa-schedule', 'Loading this week\'s games');
+    loading('ncaa-news', 'Loading news');
+
+    var D = load(key);
+    // AP Top 25 + standings fetched together so the Top 25 can show each team's
+    // CURRENT record from the standings feed (the rankings feed can lag).
+    Promise.all([D.rank, D.std]).then(function (res) {
+      if (cur !== key) return;
+      var info = indexStandings(res[1]);
+      var rankById = {};
+      var poll0 = apPoll(res[0]);
+      if (poll0 && poll0.ranks) poll0.ranks.forEach(function (r) { if (r.team && r.current) rankById[r.team.id] = r.current; });
+      renderTop25(res[0], info, S);
+      renderStandings(res[1], rankById, S);
+    });
+    Promise.all([D.sched, D.std]).then(function (res) {
+      if (cur !== key) return;
+      renderSchedule(res[0], indexStandings(res[1]), S, key);
+    });
+    D.news.then(function (data) { if (cur === key) renderNews(data); });
+    try { history.replaceState(null, '', '#' + S.hash); } catch (e) {}
+  }
+  document.getElementById('tab-fb').addEventListener('click', function () { if (cur !== 'fb') setActive('fb'); });
+  document.getElementById('tab-bb').addEventListener('click', function () { if (cur !== 'bb') setActive('bb'); });
+  [].forEach.call(document.querySelectorAll('#sched-filter button'), function (b) {
+    b.addEventListener('click', function () {
+      bbFilter = b.getAttribute('data-f');
+      [].forEach.call(document.querySelectorAll('#sched-filter button'), function (x) {
+        x.classList.toggle('active', x === b); x.setAttribute('aria-pressed', x === b ? 'true' : 'false');
+      });
+      if (cur === 'bb') Promise.all([load('bb').sched, load('bb').std]).then(function (res) { if (cur === 'bb') renderSchedule(res[0], indexStandings(res[1]), SPORTS.bb, 'bb'); });
+    });
+  });
+
+  function apPoll(data) { return data && (data.rankings || []).find(function (p) { return /AP Top 25/i.test(p.name || ''); }); }
+  function indexStandings(data) {
+    var recById = {}, confById = {}, bigTen = {};
+    confList(data).forEach(function (c) {
+      var confLogo = c.id ? 'https://a.espncdn.com/i/teamlogos/ncaa_conf/500/' + c.id + '.png' : '';
+      var isB1G = /Big Ten/i.test(c.name || '');
+      c.standings.entries.forEach(function (e) {
+        if (!e.team) return;
+        var rec = overall(e);
+        if (rec) recById[e.team.id] = rec;
+        confById[e.team.id] = { logo: confLogo, name: c.name };
+        if (isB1G) bigTen[e.team.id] = 1;
+      });
+    });
+    return { recById: recById, confById: confById, bigTen: bigTen };
   }
 
   // ---- Schedule ----
-  // ESPN's scoreboard no longer accepts a dates=START-END *range* - it now returns
-  // HTTP 400 "Failed to get events endpoint" (this silently broke the schedule in
-  // Sep 2026). Single-date queries still work, so we ask for each of the next seven
-  // days in parallel and merge them. This keeps a true rolling seven-day window that
-  // advances on its own every day, permanently, with no bot or data file involved.
-  (function loadSchedule() {
+  function renderSchedule(events, info, S, key) {
     var host = document.getElementById('ncaa-schedule');
-    var days = [];
-    for (var i = 0; i < 7; i++) { var d = new Date(); d.setDate(d.getDate() + i); days.push(ymd(d)); }
-    Promise.all(days.map(function (ds) {
-      return fetch(CFB + '/scoreboard?groups=80&limit=400&dates=' + ds)
-        .then(function (r) { return r.ok ? r.json() : null; })
-        .then(function (j) { return (j && j.events) || []; })
-        .catch(function () { return []; });
-    })).then(function (lists) {
-      var seen = {}, events = [];
-      // Merge all seven days, de-duping by game id (a late kickoff can land in two
-      // adjacent single-day responses).
-      lists.forEach(function (list) {
-        list.forEach(function (e) { if (e && e.id && !seen[e.id]) { seen[e.id] = 1; events.push(e); } });
+    if (events === null) { host.innerHTML = '<p class="ncaa-loading">Schedule is unavailable right now.</p>'; return; }
+    var list = events;
+    if (S.filter && bbFilter === 'featured') {
+      list = events.filter(function (e) {
+        var comp = (e.competitions && e.competitions[0] && e.competitions[0].competitors) || [];
+        return comp.some(function (c) {
+          var t = c.team || {};
+          return (c.curatedRank && c.curatedRank.current && c.curatedRank.current <= 25) ||
+            info.bigTen[t.id] || CHICAGO_SCHOOLS.test(t.location || '') || CHICAGO_SCHOOLS.test(t.displayName || '');
+        });
       });
-      events.sort(function (a, b) { return new Date(a.date) - new Date(b.date); });
-      if (!events.length) { host.innerHTML = '<p class="ncaa-loading">No games scheduled in the next seven days.</p>'; return; }
-      var byDay = {};
-      // Group by the CENTRAL calendar date (not UTC), so a Thursday- or Friday-
-      // night kickoff shows under its real day instead of sliding into the next
-      // one and appearing out of order at the top of the list.
-      function centralYMD(iso) { return new Date(iso).toLocaleDateString('en-CA', { timeZone: 'America/Chicago' }); }
-      events.forEach(function (e) { var k = centralYMD(e.date); (byDay[k] = byDay[k] || []).push(e); });
-      var DOW = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
-      var MON = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
-      // Central-time kickoff hour (0-23), used to split a busy day into parts.
-      function centralHour(iso) { return parseInt(new Date(iso).toLocaleTimeString('en-US', { hour: '2-digit', hour12: false, timeZone: 'America/Chicago' }), 10); }
-      // Morning (before noon), afternoon (noon to 5 PM), evening (5 PM and later).
-      var PARTS = [
-        { name: 'Morning', hint: 'before noon', test: function (h) { return h < 12; } },
-        { name: 'Afternoon', hint: 'noon to 5 PM', test: function (h) { return h >= 12 && h < 17; } },
-        { name: 'Evening', hint: '5 PM and later', test: function (h) { return h >= 17; } }
-      ];
-      function grid(list) { return '<div class="ncaa-games">' + list.map(renderGame).join('') + '</div>'; }
-      var html = Object.keys(byDay).sort().map(function (k) {
-        var p = k.split('-'); var d = new Date(+p[0], +p[1] - 1, +p[2]);
-        var label = DOW[d.getDay()] + ', ' + MON[d.getMonth()] + ' ' + d.getDate();
-        var games = byDay[k];
-        // Only busy days (Saturday, bowl days) get broken into morning/afternoon/
-        // evening; a light Thursday or Friday stays a single tidy list.
-        if (games.length <= 6) return '<div class="ncaa-day">' + label + '</div>' + grid(games);
-        var inner = PARTS.map(function (part) {
-          var list = games.filter(function (e) { return part.test(centralHour(e.date)); });
-          if (!list.length) return '';
-          return '<div class="ncaa-part">' + part.name + ' <span class="ncaa-part-time">' + part.hint + '</span></div>' + grid(list);
-        }).join('');
-        return '<div class="ncaa-day">' + label + '</div>' + inner;
+    }
+    if (!list.length) { host.innerHTML = '<p class="ncaa-loading">No games scheduled in the next seven days' + (events.length ? ' for this filter. Try All Division I.' : '.') + '</p>'; return; }
+    var byDay = {};
+    // Group by the CENTRAL calendar date (not UTC), so a late tip shows under its
+    // real day instead of sliding into the next one.
+    function centralYMD(iso) { return new Date(iso).toLocaleDateString('en-CA', { timeZone: 'America/Chicago' }); }
+    list.forEach(function (e) { var k = centralYMD(e.date); (byDay[k] = byDay[k] || []).push(e); });
+    var DOW = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+    var MON = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+    function centralHour(iso) { return parseInt(new Date(iso).toLocaleTimeString('en-US', { hour: '2-digit', hour12: false, timeZone: 'America/Chicago' }), 10); }
+    var PARTS = [
+      { name: 'Morning', hint: 'before noon', test: function (h) { return h < 12; } },
+      { name: 'Afternoon', hint: 'noon to 5 PM', test: function (h) { return h >= 12 && h < 17; } },
+      { name: 'Evening', hint: '5 PM and later', test: function (h) { return h >= 17; } }
+    ];
+    function grid(l) { return '<div class="ncaa-games">' + l.map(function (e) { return renderGame(e, S); }).join('') + '</div>'; }
+    host.innerHTML = Object.keys(byDay).sort().map(function (k) {
+      var p = k.split('-'); var d = new Date(+p[0], +p[1] - 1, +p[2]);
+      var label = DOW[d.getDay()] + ', ' + MON[d.getMonth()] + ' ' + d.getDate();
+      var games = byDay[k];
+      // Only busy days get split into morning/afternoon/evening.
+      if (games.length <= 6) return '<div class="ncaa-day">' + label + '</div>' + grid(games);
+      var inner = PARTS.map(function (part) {
+        var l = games.filter(function (e) { return part.test(centralHour(e.date)); });
+        if (!l.length) return '';
+        return '<div class="ncaa-part">' + part.name + ' <span class="ncaa-part-time">' + part.hint + '</span></div>' + grid(l);
       }).join('');
-      host.innerHTML = html;
-    }).catch(function () { host.innerHTML = '<p class="ncaa-loading">Schedule is unavailable right now.</p>'; });
-  })();
+      return '<div class="ncaa-day">' + label + '</div>' + inner;
+    }).join('');
+  }
 
   function teamRow(c, showScore) {
     var t = c.team || {};
@@ -332,7 +480,7 @@ document.getElementById('year').textContent = new Date().getFullYear();
     var sc = showScore && c.score != null ? '<span class="sc">' + esc(c.score) + '</span>' : '';
     return '<div class="ncaa-team">' + lg + '<span class="tname">' + esc(t.abbreviation || t.shortDisplayName || t.displayName || '') + '</span>' + rk + sc + '</div>';
   }
-  function renderGame(e) {
+  function renderGame(e, S) {
     var c = (e.competitions && e.competitions[0]) || {};
     var comp = c.competitors || [];
     var home = comp.find(function (x) { return x.homeAway === 'home'; }) || comp[0] || {};
@@ -344,8 +492,7 @@ document.getElementById('year').textContent = new Date().getFullYear();
     var lightCls = isLight(color) ? ' light' : '';
     var statusTxt;
     if (scheduled) {
-      var dt = new Date(e.date);
-      statusTxt = dt.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit', timeZone: 'America/Chicago' });
+      statusTxt = e.timeValid === false ? 'Time TBD' : new Date(e.date).toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit', timeZone: 'America/Chicago' });
     } else if (st.state === 'in') {
       statusTxt = '<span class="ncaa-live">' + esc(st.shortDetail || 'Live') + '</span>';
     } else {
@@ -353,20 +500,18 @@ document.getElementById('year').textContent = new Date().getFullYear();
     }
     var tv = (c.broadcasts && c.broadcasts[0] && c.broadcasts[0].names && c.broadcasts[0].names[0]) ? esc(c.broadcasts[0].names[0]) : '';
     var line = statusTxt + (tv ? ' &middot; ' + tv : '');
-    // Betting line for upcoming games: spread (e.g. MIA -7.5) and over/under.
+    // Betting line for upcoming games: spread and over/under, straight from the feed.
     var odds = (c.odds && c.odds[0]) || null;
     var oddsLine = '';
     if (scheduled) {
       var op = [];
       if (odds && odds.details) op.push(esc(odds.details));
       if (odds && odds.overUnder != null) op.push('O/U ' + esc(odds.overUnder));
-      // Books don't set a line for many FBS-vs-FCS games; say so instead of
-      // leaving the card looking like the data failed to load.
       oddsLine = op.length
         ? '<div class="ncaa-line">' + op.join(' &middot; ') + '</div>'
         : '<div class="ncaa-line ncaa-line-none">No line</div>';
     }
-    var href = 'https://www.espn.com/college-football/game/_/gameId/' + esc(e.id);
+    var href = 'https://www.espn.com/' + S.web + '/game/_/gameId/' + esc(e.id);
     return '<a class="ncaa-game' + lightCls + '" style="--home:' + color + '" href="' + href + '" target="_blank" rel="noopener">' +
       '<div class="ncaa-game-body">' +
         '<div class="ncaa-game-status">' + line + '</div>' +
@@ -376,46 +521,19 @@ document.getElementById('year').textContent = new Date().getFullYear();
       '</div></a>';
   }
 
-  // ---- AP Top 25 + Conference standings ----
-  // Fetched together so the Top 25 can show each team's CURRENT record from the
-  // standings feed (ESPN's rankings feed can lag on the preseason poll).
-  Promise.all([
-    fetch(CFB + '/rankings').then(function (r) { return r.json(); }).catch(function () { return null; }),
-    fetch('https://site.api.espn.com/apis/v2/sports/football/college-football/standings').then(function (r) { return r.json(); }).catch(function () { return null; })
-  ]).then(function (res) {
-    var recById = {}, confById = {};
-    if (res[1] && res[1].children) {
-      res[1].children.forEach(function (c) {
-        var confLogo = c.id ? 'https://a.espncdn.com/i/teamlogos/ncaa_conf/500/' + c.id + '.png' : '';
-        ((c.standings && c.standings.entries) || []).forEach(function (e) {
-          if (!e.team) return;
-          var o = (e.stats || []).find(function (x) { return x.type === 'total' || x.name === 'overall'; });
-          if (o) recById[e.team.id] = o.summary || o.displayValue;
-          confById[e.team.id] = { logo: confLogo, name: c.name };
-        });
-      });
-    }
-    // AP Top 25 rank by team id, so ranked teams can be badged in the standings.
-    var rankById = {};
-    var poll0 = res[0] && (res[0].rankings || []).find(function (p) { return /AP Top 25/i.test(p.name); });
-    if (poll0 && poll0.ranks) poll0.ranks.forEach(function (r) { if (r.team && r.current) rankById[r.team.id] = r.current; });
-    renderTop25(res[0], recById, confById);
-    renderStandings(res[1], rankById);
-  });
-
-  function renderTop25(data, recById, confById) {
+  function renderTop25(data, info, S) {
     var host = document.getElementById('ncaa-top25');
     var note = document.getElementById('top25-note');
-    var poll = data && (data.rankings || []).find(function (p) { return /AP Top 25/i.test(p.name); });
-    if (!poll || !poll.ranks) { host.innerHTML = '<p class="ncaa-loading">Rankings unavailable right now.</p>'; return; }
+    var poll = apPoll(data);
+    if (!poll || !poll.ranks || !poll.ranks.length) { host.innerHTML = '<p class="ncaa-loading">Rankings unavailable right now.</p>'; return; }
     var occ = (poll.occurrence && poll.occurrence.displayValue) || '';
     var preseason = /preseason/i.test(occ);
     if (note) note.textContent = occ ? (preseason ? 'Preseason poll' : occ) : '';
     host.innerHTML = '<div class="ncaa-top25">' + poll.ranks.map(function (x) {
       var t = x.team || {};
       var lg = logo(t) ? '<img src="' + escA(logo(t)) + '" alt="" loading="lazy" onerror="this.remove()">' : '';
-      var rec = recById[t.id] || (x.recordSummary && x.recordSummary !== '0-0' ? x.recordSummary : '');
-      var conf = (confById && confById[t.id]) || null;
+      var rec = info.recById[t.id] || (x.recordSummary && x.recordSummary !== '0-0' ? x.recordSummary : '');
+      var conf = info.confById[t.id] || null;
       var confLg = conf && conf.logo ? '<img class="conf" src="' + escA(conf.logo) + '" alt="" title="' + escA(conf.name || '') + '" loading="lazy" onerror="this.remove()">' : '';
       var trend = '';
       if (!preseason && x.trend != null) {
@@ -425,64 +543,60 @@ document.getElementById('year').textContent = new Date().getFullYear();
         else trend = '<span class="tr tr-down">&#9660;' + esc(tv.replace('-', '')) + '</span>';
       }
       var nm = esc(t.location || t.nickname || t.name);
-      var tl = teamLink(t);
+      var tl = teamLink(t, S);
       var nmHtml = tl ? '<a class="nm team-link" href="' + escA(tl) + '" target="_blank" rel="noopener">' + nm + '</a>' : '<span class="nm">' + nm + '</span>';
       return '<div class="rk-row"><span class="num">' + esc(x.current) + '</span>' + lg +
         '<span class="rk-main">' + nmHtml + (rec ? '<br><span class="rec">' + esc(rec) + '</span>' : '') + '</span>' + confLg + trend + '</div>';
     }).join('') + '</div>';
   }
 
-  function renderStandings(data, rankById) {
-    rankById = rankById || {};
-    var confs = ((data && data.children) || []).filter(function (c) { return c.standings && c.standings.entries && c.standings.entries.length; });
+  function renderStandings(data, rankById, S) {
+    var confs = confList(data);
     var tabs = document.getElementById('conf-tabs');
     var table = document.getElementById('conf-table');
     if (!confs.length) { tabs.innerHTML = ''; table.innerHTML = '<p class="ncaa-loading">Standings unavailable right now.</p>'; return; }
-    var SHORT = { 'Southeastern Conference': 'SEC', 'Atlantic Coast Conference': 'ACC', 'Big Ten Conference': 'Big Ten', 'Big 12 Conference': 'Big 12', 'American Conference': 'American', 'American Athletic Conference': 'American', 'Conference USA': 'C-USA', 'Mid-American Conference': 'MAC', 'Mountain West Conference': 'Mtn West', 'Pac-12 Conference': 'Pac-12', 'Sun Belt Conference': 'Sun Belt', 'FBS Independents': 'Independents' };
-    function shortName(n) { return SHORT[n] || n.replace('Conference', '').trim(); }
-    function stat(entry, type) { var s = (entry.stats || []).find(function (x) { return x.type === type; }); return s ? (s.displayValue || s.summary || s.value) : ''; }
-    function overall(entry) { var s = (entry.stats || []).find(function (x) { return x.type === 'total' || x.name === 'overall'; }); return s ? (s.summary || s.displayValue) : ''; }
+    var SHORT = { 'Southeastern Conference': 'SEC', 'Atlantic Coast Conference': 'ACC', 'Big Ten Conference': 'Big Ten', 'Big 12 Conference': 'Big 12', 'American Conference': 'American', 'American Athletic Conference': 'American', 'Conference USA': 'C-USA', 'Mid-American Conference': 'MAC', 'Mountain West Conference': 'Mtn West', 'Pac-12 Conference': 'Pac-12', 'Sun Belt Conference': 'Sun Belt', 'FBS Independents': 'Independents', 'Big East Conference': 'Big East', 'Missouri Valley Conference': 'MVC', 'Horizon League': 'Horizon', 'West Coast Conference': 'WCC', 'Atlantic 10 Conference': 'A-10' };
+    function shortName(n) { return SHORT[n] || String(n || '').replace('Conference', '').trim(); }
     function render(idx) {
       [].forEach.call(tabs.children, function (b, i) { b.className = 'conf-tab' + (i === idx ? ' active' : ''); });
-      var entries = confs[idx].standings.entries;
-      var rows = entries.map(function (e, i) {
+      var rows = confs[idx].standings.entries.map(function (e, i) {
         var t = e.team || {};
         var lg = logo(t) ? '<img src="' + escA(logo(t)) + '" alt="" loading="lazy" onerror="this.remove()">' : '';
         var full = esc(t.displayName || t.location), shortNm = esc(t.location || t.shortDisplayName || t.displayName);
-        var tl = teamLink(t);
+        var tl = teamLink(t, S);
         var apRk = rankById[t.id] ? '<span class="ap-rk">' + esc(rankById[t.id]) + '</span>' : '';
         var teamInner = lg + '<span class="tn tn-full">' + full + '</span><span class="tn tn-short">' + shortNm + '</span>' + apRk;
         var teamCell = tl ? '<a class="team team-link" href="' + escA(tl) + '" target="_blank" rel="noopener">' + teamInner + '</a>' : '<span class="team">' + teamInner + '</span>';
         return '<tr><td class="c">' + (i + 1) + '</td><td>' + teamCell + '</td>' +
-          '<td class="c">' + esc(overall(e)) + '</td><td class="c">' + esc(stat(e, 'streak')) + '</td><td class="c">' + esc(stat(e, 'pointdifferential')) + '</td></tr>';
+          '<td class="c">' + esc(overall(e)) + '</td><td class="c">' + esc(statVal(e, ['streak'])) + '</td><td class="c">' + esc(statVal(e, ['pointdifferential', 'pointDifferential', 'differential'])) + '</td></tr>';
       }).join('');
       table.innerHTML = '<table class="conf-table"><thead><tr><th class="c">#</th><th>Team</th>' +
         '<th class="c"><span class="th-full">Record</span><span class="th-short">Rec</span></th>' +
         '<th class="c"><span class="th-full">Streak</span><span class="th-short">Stk</span></th>' +
-        '<th class="c"><span class="th-full">Pt Diff</span><span class="th-short">+/-</span></th>' +
+        '<th class="c"><span class="th-full">' + S.diff[0] + '</span><span class="th-short">' + S.diff[1] + '</span></th>' +
         '</tr></thead><tbody>' + rows + '</tbody></table>';
     }
     tabs.innerHTML = confs.map(function (c, i) { return '<button class="conf-tab" type="button" data-i="' + i + '">' + esc(shortName(c.name)) + '</button>'; }).join('');
     [].forEach.call(tabs.children, function (b) { b.addEventListener('click', function () { render(+b.getAttribute('data-i')); }); });
-    var def = confs.findIndex(function (c) { return /Big Ten/.test(c.name); });
+    var def = confs.findIndex(function (c) { return /Big Ten/.test(c.name || ''); });
     render(def >= 0 ? def : 0);
   }
 
   // ---- News (top 3) ----
-  fetch(CFB + '/news')
-    .then(function (r) { return r.json(); })
-    .then(function (data) {
-      var host = document.getElementById('ncaa-news');
-      var arts = (data.articles || []).filter(function (a) { return a.headline; }).slice(0, 3);
-      if (!arts.length) { host.innerHTML = '<p class="ncaa-loading">No news right now.</p>'; return; }
-      host.innerHTML = '<div class="ncaa-news">' + arts.map(function (a) {
-        var img = (a.images && a.images[0] && a.images[0].url) ? '<img src="' + escA(a.images[0].url) + '" alt="" loading="lazy" onerror="this.remove()">' : '';
-        var href = (a.links && a.links.web && a.links.web.href) || '#';
-        return '<a class="news-card" href="' + escA(href) + '" target="_blank" rel="noopener">' + img +
-          '<div class="nc-body"><h4>' + esc(a.headline) + '</h4><p>' + esc(a.description || '') + '</p></div></a>';
-      }).join('') + '</div>';
-    })
-    .catch(function () { document.getElementById('ncaa-news').innerHTML = '<p class="ncaa-loading">News unavailable right now.</p>'; });
+  function renderNews(data) {
+    var host = document.getElementById('ncaa-news');
+    var arts = ((data && data.articles) || []).filter(function (a) { return a.headline; }).slice(0, 3);
+    if (!arts.length) { host.innerHTML = '<p class="ncaa-loading">' + (data ? 'No news right now.' : 'News unavailable right now.') + '</p>'; return; }
+    host.innerHTML = '<div class="ncaa-news">' + arts.map(function (a) {
+      var img = (a.images && a.images[0] && a.images[0].url) ? '<img src="' + escA(a.images[0].url) + '" alt="" loading="lazy" onerror="this.remove()">' : '';
+      var href = (a.links && a.links.web && a.links.web.href) || '#';
+      return '<a class="news-card" href="' + escA(href) + '" target="_blank" rel="noopener">' + img +
+        '<div class="nc-body"><h4>' + esc(a.headline) + '</h4><p>' + esc(a.description || '') + '</p></div></a>';
+    }).join('') + '</div>';
+  }
+
+  // Open on basketball when the link says so (ncaa.html#basketball), else football.
+  setActive(/basketball/i.test(location.hash) ? 'bb' : 'fb');
 })();
 </script>
 <script src="js/ticker.js?v=20260708a"></script>
