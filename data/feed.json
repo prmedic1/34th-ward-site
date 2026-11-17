@@ -1,6 +1,30 @@
 {
- "generated_at": "2026-11-17T14:09:34.054Z",
+ "generated_at": "2026-11-17T21:59:57.641Z",
  "items": [
+  {
+   "id": "blockclub-20261116-cta-cuts-13-bus-stops-on-damen-in-effort",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "CTA Cuts 13 Bus Stops On Damen In Effort To Quicken Your Commute",
+   "summary": "The changes impact stops along a stretch of Damen Avenue between West Town and the Lower West Side.",
+   "url": "https://blockclubchicago.org/2026/11/16/cta-cuts-13-bus-stops-on-damen-in-effort-to-quicken-your-commute/",
+   "published_at": "2026-11-16T21:22:58.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20261117-cta-safe-ride-specialists-are-only-a-sta",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "CTA Safe Ride Specialists Are Only A Start' To Improving Safety On Transit, Riders Say",
+   "summary": "The yearlong pilot launched in October, deploying non-law enforcement workers trained in crisis intervention to help riders in need and connect people with resources.",
+   "url": "https://blockclubchicago.org/2026/11/17/cta-safe-ride-specialists-are-only-a-start-to-improving-safety-on-transit-riders-say/",
+   "published_at": "2026-11-17T14:00:00.000Z",
+   "flagged_for_review": false
+  },
   {
    "category": "newsletter",
    "source_type": "email_newsletter",
@@ -2405,90 +2429,6 @@
    "summary": "A shooting investigation is underway in The Loop early Wednesday morning.",
    "url": "https://www.cbsnews.com/chicago/video/shooting-investigation-underway-in-the-loop/",
    "published_at": "2026-10-28T10:36:00.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20261027-work-finally-begins-on-dusable-park-near",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Work Finally Begins On DuSable Park, Nearly 40 Years After Land Was Set Aside For It",
-   "summary": "Lakefront land was first set aside for the park in 1987. It is slated to be completed by summer 2028.",
-   "url": "https://blockclubchicago.org/2026/10/27/work-finally-begins-on-dusable-park-nearly-40-years-after-land-was-set-aside-for-it/",
-   "published_at": "2026-10-27T21:23:16.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20261027-street-vendors-rally-for-more-protection",
-   "category": "elected_official",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Street Vendors Rally For More Protections In Proposed Ordinance: Being A Worker Is Not A Crime'",
-   "summary": "Restrictions on where and how long vendors can sell food and drink in Chicago continue to make it difficult to support their families, workers said.",
-   "url": "https://blockclubchicago.org/2026/10/27/street-vendors-rally-for-more-protections-in-proposed-ordinance-being-a-worker-is-not-a-crime/",
-   "published_at": "2026-10-27T20:17:37.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "cbs-20261027-man-dies-after-shooting-involving-fbi-ag",
-   "category": "civic_org",
-   "source_id": "cbs",
-   "source_name": "CBS News Chicago",
-   "source_type": "web_feed",
-   "title": "Man dies after shooting involving FBI agent in Pilsen",
-   "summary": "A man has died after a shooting involving an FBI agent on Chicago's Near West Side on Monday.",
-   "url": "https://www.cbsnews.com/chicago/news/man-dead-shooting-fbi-agent-pilsen/",
-   "published_at": "2026-10-27T19:02:09.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "cbs-20261027-ribbon-cut-for-covid-19-memorial-in-illi",
-   "category": "civic_org",
-   "source_id": "cbs",
-   "source_name": "CBS News Chicago",
-   "source_type": "web_feed",
-   "title": "Ribbon cut for COVID-19 memorial in Illinois Medical District",
-   "summary": "The ribbon was cut Tuesday for a COVID-19 memorial monument in the Illinois Medical District on Chicago's Near West Side.",
-   "url": "https://www.cbsnews.com/chicago/news/ribbon-cut-covid-19-memorial-illinois-medical-district/",
-   "published_at": "2026-10-27T18:07:19.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "skyline-20261027-new-skyline-out",
-   "category": "newsletter",
-   "source_id": "skyline",
-   "source_name": "Skyline (Inside Publications)",
-   "source_type": "email_newsletter",
-   "title": "The Oct. 28 Skyline is out",
-   "summary": "The Oct. 28 edition of Skyline from Inside Publications is out. In his note to readers, editor Tom O'Gorman calls the midterm election a moment of real significance for Chicago and urges anyone who has not yet voted to cast a ballot by Election Day, Nov. 3.",
-   "url": "https://insideonline.com",
-   "published_at": "2026-10-27T17:18:41.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "cbs-20261027-freight-train-looted-on-chicago-s-near-w",
-   "category": "civic_org",
-   "source_id": "cbs",
-   "source_name": "CBS News Chicago",
-   "source_type": "web_feed",
-   "title": "Freight train looted on Chicago's Near West Side",
-   "summary": "Thieves looted a freight train on Chicago’s West Side Tuesday morning, causing major delays for Metra commuters.",
-   "url": "https://www.cbsnews.com/chicago/video/freight-train-looted-on-chicagos-near-west-side/",
-   "published_at": "2026-10-27T16:21:00.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "cbs-20261027-shooting-leaves-2-wounded-in-downtown-ch",
-   "category": "civic_org",
-   "source_id": "cbs",
-   "source_name": "CBS News Chicago",
-   "source_type": "web_feed",
-   "title": "Shooting leaves 2 wounded in downtown Chicago 7-Eleven",
-   "summary": "Police as of midday Tuesday were still searching for the shooter in the incident at the 7-Eleven at Adams Street and Wabash Avenue. Darius Johnson reports.",
-   "url": "https://www.cbsnews.com/chicago/video/shooting-leaves-2-wounded-in-downtown-chicago-7-eleven/",
-   "published_at": "2026-10-27T16:10:00.000Z",
    "flagged_for_review": false
   }
  ]
