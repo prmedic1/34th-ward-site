@@ -903,7 +903,8 @@ body.photo-banner .hero {
 .wk-spacer { flex: 0 0 auto; }
 .wk-ev { position: relative; width: 100%; text-align: left; background: #fff; border: 1px solid var(--border); border-radius: 7px; padding: 5px 16px 5px 7px; cursor: pointer; font: inherit; color: var(--text); }
 .wk-ev:hover { filter: brightness(0.96); }
-.wk-star { position: absolute; top: 3px; right: 5px; color: #e0a400; font-size: 0.74rem; line-height: 1; }
+.wk-star { position: absolute; top: 3px; right: 5px; color: var(--red); font-size: 0.74rem; line-height: 1; }
+.wk-ev--riverwalk .wk-star { color: #fff; }
 .wk-logo { position: absolute; bottom: 4px; right: 6px; width: 22px; height: 22px; object-fit: contain; background: rgba(255, 255, 255, 0.92); border-radius: 50%; padding: 1px; box-sizing: border-box; }
 .wk-ev--cubs, .wk-ev--sox, .wk-ev--bears, .wk-ev--bulls, .wk-ev--fire, .wk-ev--sky, .wk-ev--hawks, .wk-ev--iu { padding-bottom: 26px; }
 .wk-ev--concert { background: #e6f6fd; border-color: #bfe6f7; }
@@ -914,7 +915,7 @@ body.photo-banner .hero {
 .wk-ev--bears { background: #c83803; border-color: #c83803; color: #0b162a; }
 .wk-ev--bulls { background: #ce1141; border-color: #ce1141; color: #fff; }
 .wk-ev--fire { background: #c8102e; border-color: #c8102e; color: #0a2342; }
-.wk-ev--sky { background: #4a90d0; border-color: #4a90d0; color: #ffd200; }
+.wk-ev--sky { background: #4a90d0; border-color: #4a90d0; color: #0a2342; }
 .wk-ev--hawks { background: #cf0a2c; border-color: #cf0a2c; color: #fff; }
 .wk-ev--iu { background: #990000; border-color: #990000; color: #fff; }
 .wk-ev-t { display: block; font-size: 0.68rem; font-weight: 700; color: inherit; opacity: 0.72; }
