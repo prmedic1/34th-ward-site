@@ -6,7 +6,7 @@
 <title>Museums, Theaters &amp; Festivals - West Loop Chicago</title>
 <meta name="description" content="Arts and culture in Chicago's 34th Ward: museums, theaters, galleries, and live music across the West Loop, Greektown, and the Loop.">
 <link rel="canonical" href="https://34thward.com/culture.html">
-<link rel="stylesheet" href="css/style.css?v=20261005a">
+<link rel="stylesheet" href="css/style.css?v=20261117a">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="34thward.com">
 <meta property="og:title" content="The Official 34th Ward Neighborhood Page">
@@ -55,7 +55,7 @@
 <section class="hero hero-compact hero-photo" style="--hero-img: url('/images/lyric-opera.webp')">
   <div class="hero-inner">
     <h2>Museums, Theaters, &amp; Festivals</h2>
-    <p>The 34th Ward holds some of Chicago's great stages, museums, and festivals - from the Loop's historic theater district to Greektown's museums and the West Loop's live-music halls. See what's on this week, then explore the venues.</p>
+    <p>The 34th Ward holds some of Chicago's great stages, museums, and festivals - from the Loop's historic theater district to Greektown's museums and the West Loop's live-music halls. See what's on this week, then explore the venues. The weekly calendar also follows Chicago's pro teams and every Indiana Hoosiers football and men's basketball game, home and away.</p>
   </div>
 </section>
 
@@ -179,7 +179,7 @@
   document.getElementById('year').textContent = new Date().getFullYear();
 
   const DOW = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
-  const SPORTS = ['cubs', 'sox', 'bears', 'bulls', 'fire', 'sky', 'hawks'];
+  const SPORTS = ['cubs', 'sox', 'bears', 'bulls', 'fire', 'sky', 'hawks', 'iu'];
   const MON = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
   function esc(s) { const d = document.createElement('div'); d.textContent = s == null ? '' : s; return d.innerHTML; }
   function ymd(d) { const y = d.getFullYear(), m = String(d.getMonth() + 1).padStart(2, '0'), a = String(d.getDate()).padStart(2, '0'); return y + '-' + m + '-' + a; }
@@ -197,7 +197,12 @@
     { cat: 'fire',  sport: 'soccer',     league: 'usa.1', id: 182, short: 'Fire',       venue: 'Soldier Field',  address: '1410 Special Olympics Dr, Museum Campus', fallback: 'https://www.chicagofirefc.com/matches' },
     { cat: 'sky',   sport: 'basketball', league: 'wnba',  id: 19,  short: 'Sky',        venue: 'Wintrust Arena', address: '200 E. Cermak Rd, South Loop',            fallback: 'https://sky.wnba.com/schedule/' },
     { cat: 'bulls', sport: 'basketball', league: 'nba',   id: 4,   short: 'Bulls',      venue: 'United Center',  address: '1901 W. Madison St, Near West Side',      fallback: 'https://www.nba.com/bulls/schedule' },
-    { cat: 'hawks', sport: 'hockey',     league: 'nhl',   id: 4,   short: 'Blackhawks', venue: 'United Center',  address: '1901 W. Madison St, Near West Side',      fallback: 'https://www.nhl.com/blackhawks/schedule' }
+    { cat: 'hawks', sport: 'hockey',     league: 'nhl',   id: 4,   short: 'Blackhawks', venue: 'United Center',  address: '1901 W. Madison St, Near West Side',      fallback: 'https://www.nhl.com/blackhawks/schedule' },
+    // Indiana Hoosiers: every game, home and away. No fixed venue - IU's "home" games
+    // are sometimes at neutral sites (Madison Square Garden, Lucas Oil Stadium), so the
+    // venue and city always come from the feed.
+    { cat: 'iu', sport: 'football',   league: 'college-football',        id: 84, short: 'IU Football',   allGames: true, fallback: 'https://www.espn.com/college-football/team/schedule/_/id/84' },
+    { cat: 'iu', sport: 'basketball', league: 'mens-college-basketball', id: 84, short: 'IU Basketball', allGames: true, fallback: 'https://www.espn.com/mens-college-basketball/team/schedule/_/id/84' }
   ];
   const centralYMD = (iso) => new Date(iso).toLocaleDateString('en-CA', { timeZone: 'America/Chicago' });
   const centralTime = (iso) => new Date(iso).toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit', timeZone: 'America/Chicago' });
@@ -232,7 +237,7 @@
             const postseason = !!(e.seasonType && String(e.seasonType.id) === '3');
             // Away games show only during playoff runs, EXCEPT the Bears: show every
             // Bears game (home and away), since the NFL plays just once a week.
-            if (!homeGame && !postseason && T.cat !== 'bears') continue;
+            if (!homeGame && !postseason && T.cat !== 'bears' && !T.allGames) continue;
             const oppC = (c.competitors || []).find((z) => z !== me);
             const opp = (oppC && oppC.team && (oppC.team.displayName || oppC.team.name)) || 'TBD';
             const v = c.venue || {};
@@ -240,8 +245,8 @@
             out.push({
               kind: 'show', cat: T.cat,
               title: T.short + (homeGame ? ' vs. ' : ' at ') + opp,
-              where: homeGame ? T.venue : (v.fullName || opp),
-              address: homeGame ? T.address : [v.fullName, vCity].filter(Boolean).join(' - '),
+              where: (homeGame && T.venue) ? T.venue : (v.fullName || opp),
+              address: (homeGame && T.address) ? T.address : [v.fullName, vCity].filter(Boolean).join(' - '),
               time: e.timeValid ? centralTime(e.date) : '', note: '', tv: tvChannel(c), away: !homeGame,
               url: gameUrl(e, T.fallback), start: date, end: date, local: false
             });
