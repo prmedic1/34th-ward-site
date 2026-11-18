@@ -1,6 +1,42 @@
 {
- "generated_at": "2026-11-17T21:59:57.641Z",
+ "generated_at": "2026-11-18T14:00:23.402Z",
  "items": [
+  {
+   "id": "blockclub-20261117-cubs-wrigley-field-parking-expansion-adv",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Cubs’ Wrigley Field Parking Expansion Advances, Along With Briar St. Theatre Conversion, Other Projects",
+   "summary": "Ald. Bennett Lawson (44th) backed a revised plan for more parking spaces near Wrigley Field. Other proposals would bring apartments to Logan Square, Lakeview and West Loop.",
+   "url": "https://blockclubchicago.org/2026/11/17/cubs-wrigley-field-parking-expansion-advances-along-with-briar-st-theatre-conversion-other-projects/",
+   "published_at": "2026-11-17T22:51:13.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20261118-blue-man-group-returns-to-chicago-for-sp",
+   "category": "business",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Blue Man Group Returns To Chicago For Special Holiday Show",
+   "summary": "\"A New Holiday Surprise\" opens Nov. 24 and runs through Dec. 13 at Broadway in Chicago's CIBC Theatre Downtown.",
+   "url": "https://blockclubchicago.org/2026/11/18/blue-man-group-returns-to-chicago-for-special-holiday-show/",
+   "published_at": "2026-11-18T13:45:00.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20261117-2nd-ward-ald-brian-hopkins-faces-first-c",
+   "category": "elected_official",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "2nd Ward Ald. Brian Hopkins Faces First Challenger In Reelection Bid",
+   "summary": "Both candidates are also facing challenges to their petitions which will test the validity of their campaigns.",
+   "url": "https://blockclubchicago.org/2026/11/17/2nd-ward-ald-brian-hopkins-faces-first-challenger-in-reelection-bid/",
+   "published_at": "2026-11-17T21:58:10.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "blockclub-20261116-cta-cuts-13-bus-stops-on-damen-in-effort",
    "category": "civic_org",
@@ -2345,90 +2381,6 @@
    "summary": "Full Pink and Green Line service is expected to be restored later this week, although an exact date and time has not been determined yet, officials said.",
    "url": "https://blockclubchicago.org/2026/10/28/some-green-pink-line-stations-to-remain-closed-this-week-due-to-lake-street-bridge-construction/",
    "published_at": "2026-10-28T14:16:39.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20261028-new-covid-19-monument-and-park-honors-ch",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "New COVID-19 Monument And Park Honors Chicago's Frontline Workers, Pandemic Victims",
-   "summary": "IMD Park is the first new public park in the Illinois Medical District in decades. It features a soaring COVID-19 monument, fitness areas, a playground and more.",
-   "url": "https://blockclubchicago.org/2026/10/28/new-covid-19-monument-and-park-honors-chicagos-frontline-workers-pandemic-victims/",
-   "published_at": "2026-10-28T13:33:26.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "abc7-20261028-man-killed-other-hurt-in-loop-shooting-c",
-   "category": "civic_org",
-   "source_id": "abc7",
-   "source_name": "ABC7 Chicago",
-   "source_type": "web_feed",
-   "title": "Man killed, other hurt in Loop shooting, Chicago police say",
-   "summary": "Chicago police are investigating a deadly shooting in the Loop on Wednesday morning.",
-   "url": "https://abc7chicago.com/post/chicago-shooting-today-2-shot-loop-state-lake-streets-thewit-hotel-police-say/19988864/",
-   "published_at": "2026-10-28T13:00:23.801Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "cbs-20261028-man-dead-another-injured-after-shooting-",
-   "category": "civic_org",
-   "source_id": "cbs",
-   "source_name": "CBS News Chicago",
-   "source_type": "web_feed",
-   "title": "Man dead, another injured after shooting in The Loop",
-   "summary": "A man is dead and another injured after a shooting in The Loop early Wednesday morning.",
-   "url": "https://www.cbsnews.com/chicago/news/shooting-investigation-chicago-loop/",
-   "published_at": "2026-10-28T12:15:47.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "politico-20261028-cindy-bailey-confronts-gov-jb-pritzker-o",
-   "category": "elected_official",
-   "source_id": "politico",
-   "source_name": "POLITICO Illinois Playbook",
-   "source_type": "email_newsletter",
-   "title": "Cindy Bailey confronts Gov. JB Pritzker over campaign attacks ahead of Illinois governor race",
-   "summary": "On Oct. 27, 2026, Cindy Bailey, wife of Republican gubernatorial candidate Darren Bailey, held a press conference at the Illinois State Capitol to criticize Gov. JB Pritzker’s ads that she says mischaracterize her husband’s views on women. She highlighted her 40‑year marriage, family farm, and her own floral shop as evidence of her husband’s respect for women, and warned that the attacks also disparage stay‑at‑home mothers. Bailey pivoted to the financial pressures facing families, citing child‑care, grocery, electricity, and car‑repair costs, and urged the governor to address those concerns directly.",
-   "url": "https://www.politico.com/newsletters/illinois-playbook",
-   "published_at": "2026-10-28T12:01:59.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "politico-20261028-state-legislators-introduce-edge-essenti",
-   "category": "civic_org",
-   "source_id": "politico",
-   "source_name": "POLITICO Illinois Playbook",
-   "source_type": "email_newsletter",
-   "title": "State legislators introduce EDGE Essentials bill to expand tax credits for independent pharmacies and grocery stores",
-   "summary": "State Rep. Will Guzzardi and State Sen. Doris Turner announced legislation called EDGE Essentials that would broaden the existing EDGE tax credit program to attract and grow independent pharmacies and grocery stores across Illinois. The proposal has backing from the Illinois Department of Commerce and Economic Opportunity and the Illinois Retail Merchants Association, aiming to support local businesses and improve community access to essential goods.",
-   "url": "https://www.politico.com/newsletters/illinois-playbook",
-   "published_at": "2026-10-28T12:01:59.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "axios-20261028-evanston-plans-to-close-schools",
-   "category": "newsletter",
-   "source_id": "axios",
-   "source_name": "Axios Chicago",
-   "source_type": "email_newsletter",
-   "title": "Evanston plans to close schools",
-   "summary": "Evanston/Skokie District 65 needs to cut $20 million by 2028 and district leaders are pushing to do that by closing schools and cutting after-school care. Closing a school removes a community anchor and forces families to rebuild, and ending the childcare program disrupts working families. But district leaders argue that decades of unbalanced budgets have backed them into a corner.",
-   "url": "https://www.axios.com/local/chicago",
-   "published_at": "2026-10-28T11:28:38.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "cbs-20261028-shooting-investigation-underway-in-the-l",
-   "category": "civic_org",
-   "source_id": "cbs",
-   "source_name": "CBS News Chicago",
-   "source_type": "web_feed",
-   "title": "Shooting investigation underway in The Loop",
-   "summary": "A shooting investigation is underway in The Loop early Wednesday morning.",
-   "url": "https://www.cbsnews.com/chicago/video/shooting-investigation-underway-in-the-loop/",
-   "published_at": "2026-10-28T10:36:00.000Z",
    "flagged_for_review": false
   }
  ]
