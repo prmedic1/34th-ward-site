@@ -29,8 +29,6 @@
       "status": "declared",
       "order": 2,
       "image": "images/candidates/brewer.jpg?v=20260916",
-      "badge": "Underdog",
-      "badgeColor": "yellow",
       "pct": 1.2,
       "kalshi_raw": 2,
       "pe_raw": 1,

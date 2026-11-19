@@ -346,8 +346,6 @@ a { color: var(--sky); }
 .race-badge-blue { background: #1565c0; }
 .race-badge-green { background: #2e7d32; }
 .race-badge-red { background: #c0392b; }
-.race-card.badge-yellow { border: 3px solid #e6a817; }
-.race-badge-yellow { background: #e6a817; color: #3b2a05; }
 .race-card:hover {
   transform: translateY(-4px);
   box-shadow: var(--shadow-3);
