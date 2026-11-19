@@ -1,6 +1,30 @@
 {
- "generated_at": "2026-11-18T21:41:37.045Z",
+ "generated_at": "2026-11-19T14:00:26.845Z",
  "items": [
+  {
+   "id": "blockclub-20261119-ald-pat-dowell-facing-2-challengers-in-3",
+   "category": "elected_official",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Ald. Pat Dowell Facing 2 Challengers In 3rd Ward Race",
+   "summary": "South Loop resident Raheem Uqdah, a Democratic Socialist, and Bronzeville native Qushona Harris are also contenders for the 3rd Ward seat.",
+   "url": "https://blockclubchicago.org/2026/11/19/ald-pat-dowell-facing-2-challengers-in-3rd-ward-race/",
+   "published_at": "2026-11-19T13:35:00.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20261118-bally-s-says-560-million-in-new-loans-wi",
+   "category": "business",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Bally’s Says $560 Million In New Loans Will Help Secure Spring Opening For Chicago Casino",
+   "summary": "The funding comes as Bally's pushes forward on the $1.8 billion project amid mounting debt, construction setbacks and millions in losses.",
+   "url": "https://blockclubchicago.org/2026/11/18/ballys-says-560m-in-new-loans-will-help-secure-spring-opening-for-chicago-casino/",
+   "published_at": "2026-11-18T23:18:55.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "blockclub-20261118-love-language-is-the-rare-21st-century-r",
    "category": "civic_org",
@@ -2249,90 +2273,6 @@
    "summary": "More headaches are on the way as similar work on the 110-year-old Lake Street Bridge will require service disruptions this spring.",
    "url": "https://blockclubchicago.org/2026/10/29/green-pink-line-train-service-restored-downtown-after-shutdown/",
    "published_at": "2026-10-29T19:03:03.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20261029-nonbinary-chess-club-builds-lgbtq-connec",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Nonbinary Chess Club Builds LGBTQ+ Connections Over Game Boards",
-   "summary": "The club's next all-inclusive gatherings are Thursday at City Farm on Division Street and Sunday at Sweet Luxury Suites Downtown.",
-   "url": "https://blockclubchicago.org/2026/10/29/nonbinary-chess-club-builds-lgbtq-connections-over-game-boards/",
-   "published_at": "2026-10-29T13:30:00.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20261029-31-things-to-do-in-chicago-this-weekend-",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "31 Things To Do In Chicago This Weekend: Halloween Fun And More",
-   "summary": "Parades, fall fests and Día de Los Muertos celebrations are on deck this weekend.",
-   "url": "https://blockclubchicago.org/2026/10/29/31-things-to-do-in-chicago-this-weekend-halloween-fun-and-more/",
-   "published_at": "2026-10-29T13:02:51.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "politico-20261029-project-50-seeks-to-export-illinois-abor",
-   "category": "civic_org",
-   "source_id": "politico",
-   "source_name": "POLITICO Illinois Playbook",
-   "source_type": "email_newsletter",
-   "title": "Project 50 seeks to export Illinois abortion‑rights playbook to red‑state races",
-   "summary": "Illinois activists behind Project 50 are targeting local races in states with strict abortion bans, aiming to replicate the state’s pro‑choice success. The group has raised more than $3.7 million from 858 donors in 36 states, with Gov. JB Pritzker contributing $100,000 to its 2026 fundraising. Since its 2022 launch the organization has helped win seven legislative contests, including three victories in 2024 and four in 2025.",
-   "url": "https://www.politico.com/newsletters/illinois-playbook",
-   "published_at": "2026-10-29T12:02:05.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "politico-20261029-seniors-for-brandon-johnson-endorse-mayo",
-   "category": "civic_org",
-   "source_id": "politico",
-   "source_name": "POLITICO Illinois Playbook",
-   "source_type": "email_newsletter",
-   "title": "Seniors for Brandon Johnson endorse mayoral candidate amid new Senior Bill of Rights",
-   "summary": "The affinity group Seniors for Brandon Johnson has officially endorsed incumbent Mayor Brandon Johnson, citing his recent executive order that created a Senior Bill of Rights. The order calls for safe housing, access to information, the right to organize, reporting problems and coordination of services for seniors across Chicago.",
-   "url": "https://www.politico.com/newsletters/illinois-playbook",
-   "published_at": "2026-10-29T12:02:05.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "politico-20261029-chicago-school-board-oversees-10-billion",
-   "category": "civic_org",
-   "source_id": "politico",
-   "source_name": "POLITICO Illinois Playbook",
-   "source_type": "email_newsletter",
-   "title": "Chicago School Board oversees $10 billion budget, faces aging buildings and shrinking enrollment",
-   "summary": "The Chicago Board of Education manages a $10 billion budget, larger than many major cities, while contending with aging school facilities, ballooning debt and declining student enrollment, according to a Tribune analysis.",
-   "url": "https://www.politico.com/newsletters/illinois-playbook",
-   "published_at": "2026-10-29T12:02:05.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "axios-20261029-why-restaurant-surcharges-linger",
-   "category": "newsletter",
-   "source_id": "axios",
-   "source_name": "Axios Chicago",
-   "source_type": "email_newsletter",
-   "title": "Why restaurant surcharges linger",
-   "summary": "Last week, Chicago writer Kit Graham ignited a firestorm by asking why local restaurants are still applying surcharges post-pandemic on top of just raising menu prices. Many Chicago diners have the same questions. What's happening: We queried the leaders at the city's largest restaurant groups to find out.",
-   "url": "https://www.axios.com/local/chicago",
-   "published_at": "2026-10-29T11:28:37.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20261028-mother-jones-monument-breaks-ground-as-d",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Mother Jones Monument Breaks Ground As Downtown’s First Honoring A Historic Woman",
-   "summary": "The Mother Jones “We Shall Rise” Monument will honor the pioneering labor activist who got her start in Chicago.",
-   "url": "https://blockclubchicago.org/2026/10/28/mother-jones-monument-breaks-ground-as-downtowns-first-honoring-a-historic-woman/",
-   "published_at": "2026-10-28T21:51:28.000Z",
    "flagged_for_review": false
   }
  ]
