@@ -1,6 +1,42 @@
 {
- "generated_at": "2026-11-21T14:00:29.538Z",
+ "generated_at": "2026-11-21T20:21:19.399Z",
  "items": [
+  {
+   "id": "cbs-20261121-cash-registers-stolen-during-burglaries-",
+   "category": "civic_org",
+   "source_id": "cbs",
+   "source_name": "CBS News Chicago",
+   "source_type": "web_feed",
+   "title": "Cash registers stolen during burglaries reported minutes apart in South Loop",
+   "summary": "Cash registers were stolen during burglaries in Chicago's South Loop early Saturday morning.",
+   "url": "https://www.cbsnews.com/chicago/news/cash-registers-stolen-during-burglaries-reported-minutes-apart-on-michigan-avenue-in-south-loop/",
+   "published_at": "2026-11-21T16:46:28.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "cbs-20261121-small-business-saturday-heritage-press-b",
+   "category": "business",
+   "source_id": "cbs",
+   "source_name": "CBS News Chicago",
+   "source_type": "web_feed",
+   "title": "Small Business Saturday: Heritage Press & Blow Dry",
+   "summary": "Stop by Heritage Press & Blow Dry in Chicago's West Loop.",
+   "url": "https://www.cbsnews.com/chicago/video/small-business-saturday-heritage-press-blow-dry/",
+   "published_at": "2026-11-21T16:09:00.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "cbs-20261121-man-woman-shot-and-killed-outside-hookah",
+   "category": "civic_org",
+   "source_id": "cbs",
+   "source_name": "CBS News Chicago",
+   "source_type": "web_feed",
+   "title": "Man, woman shot and killed outside hookah lounge in West Town",
+   "summary": "Two people were killed in a shooting outside a hookah lounge in Chicago's West Town neighborhood.",
+   "url": "https://www.cbsnews.com/chicago/video/man-woman-shot-and-killed-outside-hookah-lounge-in-west-town/",
+   "published_at": "2026-11-21T14:40:00.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "cbs-20261121-2-killed-in-shooting-outside-hookah-loun",
    "category": "civic_org",
