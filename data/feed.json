@@ -1,6 +1,42 @@
 {
- "generated_at": "2026-11-22T18:52:07.768Z",
+ "generated_at": "2026-11-22T20:33:54.996Z",
  "items": [
+  {
+   "id": "cbs-20261122-christmas-tree-lighting-celebrations-set",
+   "category": "civic_org",
+   "source_id": "cbs",
+   "source_name": "CBS News Chicago",
+   "source_type": "web_feed",
+   "title": "Christmas tree lighting celebrations set for Chicago's Greektown, Lakeview communities",
+   "summary": "The holiday season was getting into gear in Chicago on Sunday, with tree-lighting ceremonies planned in Greektown and Lakeview.",
+   "url": "https://www.cbsnews.com/chicago/news/christmas-tree-lighting-celebrations-chicago-greektown-lakeview/",
+   "published_at": "2026-11-22T18:38:55.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "cbs-20261122-holiday-kickoff-ceremonies-set-for-greek",
+   "category": "civic_org",
+   "source_id": "cbs",
+   "source_name": "CBS News Chicago",
+   "source_type": "web_feed",
+   "title": "Holiday kickoff ceremonies set for Greektown, Lakeview",
+   "summary": "The holiday season was getting into gear in Chicago on Sunday, with tree-lighting ceremonies planned in Greektown and Lakeview.",
+   "url": "https://www.cbsnews.com/chicago/video/holiday-kickoff-ceremonies-set-for-greektown-lakeview/",
+   "published_at": "2026-11-22T18:35:00.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "cbs-20261122-suzanne-and-shane-visit-the-walnut-room-",
+   "category": "civic_org",
+   "source_id": "cbs",
+   "source_name": "CBS News Chicago",
+   "source_type": "web_feed",
+   "title": "Suzanne and Shane visit the Walnut Room, leaves on trees at golden hour | What Caught My Eye",
+   "summary": "Recently, meteorologist Shane Hinton asked Suzanne Le Mignot about Chicago's holiday traditions and invited her to the Walnut Room at Macy’s. Meanwhile, Shane himself took notice of the autumn leaves on the trees at golden hour in Skinner Park in the West Loop.",
+   "url": "https://www.cbsnews.com/chicago/video/suzanne-and-shane-visit-the-walnut-room-leaves-on-trees-at-golden-hour-what-caught-my-eye/",
+   "published_at": "2026-11-22T15:47:00.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "abc7-20261122-video-shows-rollover-crash-in-chicago-s-",
    "category": "civic_org",

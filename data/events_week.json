@@ -3,7 +3,6 @@
  "updated_at": "2026-11-22",
  "shows": [
   {"title":"Brooklyn Britches & The Whispers","venue":"Tiny Tapp & Cafe","cat":"riverwalk","date":"2026-09-27","time":"5:00 PM","address":"55 W. Riverwalk South, the Loop","note":"Free live music","local":true,"url":"https://www.tinytapp.com/live-music"},
-  {"title":"The Rock and Roll Playhouse plays Music of Taylor Swift for Kids","venue":"Thalia Hall","cat":"concert","date":"2026-11-22","time":"11:30 AM","address":"1807 S. Allport St, Pilsen","local":false,"url":"https://www.ticketweb.com/event/the-rock-and-roll-playhouse-thalia-hall-tickets/14293654"},
   {"title":"Boney James","venue":"City Winery Chicago","cat":"concert","date":"2026-11-22","time":"5:00 PM","address":"1200 W. Randolph St, West Loop","local":true,"url":"https://city-winery-gy5d.vivenushop.dev/event/boney-james-wivsxb"},
   {"title":"Lee Emi (Emilee Petersmark of The Crane Wives)","venue":"Lincoln Hall","cat":"concert","date":"2026-11-22","time":"8:00 PM","address":"2424 N. Lincoln Ave, Lincoln Park","local":false,"url":"https://lh-st.com/shows/11-22-2026-lee-emi/"},
   {"title":"Boney James","venue":"City Winery Chicago","cat":"concert","date":"2026-11-22","time":"8:30 PM","address":"1200 W. Randolph St, West Loop","local":true,"url":"https://city-winery-gy5d.vivenushop.dev/event/boney-james-09ujlc"},
@@ -83,6 +82,7 @@
   {"title":"Supertaste","venue":"Garcia's Chicago","cat":"concert","date":"2026-12-12","time":"8:00 PM","address":"1001 W. Washington Blvd, West Loop","local":true,"url":"https://www.ticketmaster.com/supertaste-chicago-illinois-12-12-2026/event/040064EB131FCFF2"},
   {"title":"Pinksqueeze","venue":"Lincoln Hall","cat":"concert","date":"2026-12-12","time":"8:00 PM","address":"2424 N. Lincoln Ave, Lincoln Park","local":false,"url":"https://lh-st.com/shows/12-12-2026-pinksqueeze/"},
   {"title":"Love is a Funny Thing Podcast Live with October London & D'Lai","venue":"City Winery Chicago","cat":"concert","date":"2026-12-12","time":"9:30 PM","address":"1200 W. Randolph St, West Loop","local":true,"url":"https://city-winery-gy5d.vivenushop.dev/event/love-is-a-funny-thing-podcast-live-with-october--u5ri0u"},
+  {"title":"The Rock and Roll Playhouse plays Music of The Beatles for Kids","venue":"Thalia Hall","cat":"concert","date":"2026-12-13","time":"11:30 AM","address":"1807 S. Allport St, Pilsen","local":false,"url":"https://www.ticketweb.com/event/the-rock-and-roll-playhouse-thalia-hall-tickets/14409434"},
   {"title":"Damien Escobar - Art of a Gentleman Tour","venue":"City Winery Chicago","cat":"concert","date":"2026-12-13","time":"5:00 PM","address":"1200 W. Randolph St, West Loop","local":true,"url":"https://city-winery-gy5d.vivenushop.dev/event/damien-escobar-z1c7xp"},
   {"title":"Damien Escobar - Art of a Gentleman Tour","venue":"City Winery Chicago","cat":"concert","date":"2026-12-13","time":"8:30 PM","address":"1200 W. Randolph St, West Loop","local":true,"url":"https://city-winery-gy5d.vivenushop.dev/event/damien-escobar-vtrso4"}
  ]
