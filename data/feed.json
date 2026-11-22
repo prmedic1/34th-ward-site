@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T14:00:22.009Z",
+ "generated_at": "2026-11-22T18:52:07.768Z",
  "items": [
   {
    "id": "abc7-20261122-video-shows-rollover-crash-in-chicago-s-",
@@ -2348,18 +2348,6 @@
    "flagged_for_review": false,
    "title": "Illinois Medical District opens new park and COVID-19 memorial",
    "summary": "The Illinois Medical District cut the ribbon on a new park and COVID-19 memorial near Ogden Avenue, Damen Avenue, and Polk Street. The space features three stainless-steel dandelion sculptures honoring frontline and essential workers and remembering those lost to COVID-19, and is designed as a place to gather and reflect."
-  },
-  {
-   "id": "cbs-20261101-a-couple-of-striking-halloween-displays-",
-   "category": "civic_org",
-   "source_id": "cbs",
-   "source_name": "CBS News Chicago",
-   "source_type": "web_feed",
-   "title": "A couple of striking Halloween displays | What Caught My Eye",
-   "summary": "Suzanne Le Mignot shows us a terrifying Halloween spectacle put together by 24-year-old Sam Darr, while Shane Hinton shows us a light-centric Halloween display in the West Loop that features a skeleton throwing up.",
-   "url": "https://www.cbsnews.com/chicago/video/a-couple-of-striking-halloween-displays-what-caught-my-eye/",
-   "published_at": "2026-11-01T15:45:00.000Z",
-   "flagged_for_review": false
   }
  ]
 }
