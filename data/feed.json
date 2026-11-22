@@ -687,7 +687,8 @@
    "flagged_for_review": false,
    "id": "igwl-20261116-paint-sip-toy-drive",
    "title": "Paint-and-sip fundraiser Nov. 18 and holiday toy drive Nov. 21 for local food groups",
-   "summary": "Indivisible Greater West Loop is hosting a paint-and-sip holiday fundraiser with Chicago Sip & Paint on Wednesday, Nov. 18, from 6 to 8:30 p.m., with part of each ticket going to the Chicago Food Sovereignty Coalition. On Saturday, Nov. 21, from 8 to 11:30 a.m., the group is collecting new, unwrapped toys valued over $15 for the Pilsen Food Pantry at the last farmers market of the year. Details and tickets are on the group's Mobilize calendar."
+   "summary": "Indivisible Greater West Loop is hosting a paint-and-sip holiday fundraiser with Chicago Sip & Paint on Wednesday, Nov. 18, from 6 to 8:30 p.m., with part of each ticket going to the Chicago Food Sovereignty Coalition. On Saturday, Nov. 21, from 8 to 11:30 a.m., the group is collecting new, unwrapped toys valued over $15 for the Pilsen Food Pantry at the last farmers market of the year. Details and tickets are on the group's Mobilize calendar.",
+   "front_exclude": true
   },
   {
    "category": "civic_org",
