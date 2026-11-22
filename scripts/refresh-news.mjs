@@ -77,7 +77,7 @@ const SPOTLIGHT_POOL = [
   { name: 'Bar Siena', address: '832 W. Randolph St, West Loop', website: 'https://www.barsiena.com/', image: 'images/spotlight/bar-siena.jpg?v=20260903', blurb: 'A bustling Randolph Street trattoria known for wood-fired pizzas, house pastas, and a lively bar. Its patio is one of Restaurant Row\'s favorite warm-weather perches.' },
   { name: 'Gibsons Italia', address: '233 N. Canal St, Fulton River District', website: 'https://gibsonssteakhouse.com/italia/', image: 'images/spotlight/gibsons-italia.jpg?v=20260903', blurb: 'The Italian-leaning riverside sibling of the classic Chicago steakhouse, with sweeping views of the Chicago River. Prime steaks, fresh pasta, and a see-and-be-seen patio.' },
   { name: 'J.P. Graziano Grocery', address: '901 W. Randolph St, West Loop', website: 'https://www.jpgraziano.com/', image: 'images/spotlight/jp-graziano.jpg?v=20260903', blurb: 'A century-old Italian importer and sandwich counter on Randolph Street. The Mr. G, a stacked Italian sub with sharp provolone and hot giardiniera, has a devoted citywide following.' },
-  { name: "Mario's Italian Lemonade", address: '1068 W. Taylor St, Little Italy', website: 'https://www.facebook.com/MariosItalianLemonade/', image: 'images/marios-italian-lemonade.webp', blurb: 'A Taylor Street summer institution since 1954, Mario\'s is the little red-and-green stand where Chicagoans line up for hand-shaved Italian lemonade. Cash only, open only in the warm months, and worth every minute of the wait.' },
+  { name: "Mario's Italian Lemonade", address: '1068 W. Taylor St, Little Italy', website: 'https://www.facebook.com/MariosItalianLemonade/', image: 'images/marios-italian-lemonade.webp', paused_until: '2027-05-01', blurb: 'A Taylor Street summer institution since 1954, Mario\'s is the little red-and-green stand where Chicagoans line up for hand-shaved Italian lemonade. Cash only, open only in the warm months, and worth every minute of the wait.' },
   { name: 'Publican Quality Meats', address: '825 W. Fulton Market, Fulton Market', website: 'https://www.publicanqualitymeats.com/', image: 'images/spotlight/publican-quality-meats.jpg?v=20260904', blurb: 'The butcher shop, bakery, and sandwich cafe next to The Publican. Grab a pastrami or porchetta sandwich, a loaf of bread, and house-cured meats to take home.' },
   { name: 'Swift & Sons', address: '1000 W. Fulton Market, Fulton Market', website: 'https://www.swiftandsonschicago.com/', image: 'images/spotlight/swift-and-sons.avif', blurb: 'A grand, brass-and-leather steakhouse in a former cold-storage building, anchoring the Fulton Market dining scene. Dry-aged steaks, a raw bar, and a soaring room built for a night out.' },
   { name: 'H Mart West Loop', address: '711 W. Jackson Blvd, West Loop', website: 'https://www.hmart.com/', image: 'images/spotlight/h-mart.jpg?v=20260903', blurb: 'The beloved Korean-American grocery chain\'s downtown Chicago store, stocking fresh produce, seafood, kimchi, and hard-to-find pantry staples from across Asia. The food hall upstairs draws a lunch crowd from all over the Loop.' },
@@ -267,9 +267,12 @@ async function main() {
       const past = [...(spot.history || []), spot.current].filter(Boolean);
       const lastSeen = new Map();
       past.forEach((h, i) => { if (h.name) lastSeen.set(h.name, i); });
-      pick =
-        SPOTLIGHT_POOL.find((b) => !lastSeen.has(b.name)) ||
-        SPOTLIGHT_POOL.slice().sort((a, b) => lastSeen.get(a.name) - lastSeen.get(b.name))[0];
+      // A business with paused_until (YYYY-MM-DD) sits out of the rotation
+      // until that Chicago date, e.g. a seasonal stand closed for the winter.
+      const { paused_until, ...next } =
+        SPOTLIGHT_POOL.filter((b) => !b.paused_until || todayStr >= b.paused_until)
+          .sort((a, b) => (lastSeen.get(a.name) ?? -1) - (lastSeen.get(b.name) ?? -1))[0];
+      pick = next;
     }
     if (spot.current) { spot.history = spot.history || []; spot.history.push(spot.current); }
     // Spread the pick so optional fields (e.g. image_fit for ad-style graphics)
