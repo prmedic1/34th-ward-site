@@ -1,6 +1,42 @@
 {
- "generated_at": "2026-11-21T20:21:19.399Z",
+ "generated_at": "2026-11-22T14:00:22.009Z",
  "items": [
+  {
+   "id": "abc7-20261122-video-shows-rollover-crash-in-chicago-s-",
+   "category": "civic_org",
+   "source_id": "abc7",
+   "source_name": "ABC7 Chicago",
+   "source_type": "web_feed",
+   "title": "Video shows rollover crash in Chicago's River North neighborhood",
+   "summary": "Video shows a rollover crash in downtown Chicago Sunday.",
+   "url": "https://abc7chicago.com/post/chicago-traffic-video-shows-river-north-rollover-crash-ohio-orleans-sunday/20066424/",
+   "published_at": "2026-11-22T14:00:22.008Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "abc7-20261122-chicago-police-investigating-string-of-b",
+   "category": "business",
+   "source_id": "abc7",
+   "source_name": "ABC7 Chicago",
+   "source_type": "web_feed",
+   "title": "Chicago police investigating string of business burglaries in South Loop",
+   "summary": "Thieves stolen cash registers from at least four business after breaking in through the front glass early Saturday in the city's South Loop neighborhood, Chicago police said.",
+   "url": "https://abc7chicago.com/post/chicago-crime-police-investigating-string-business-burglaries-south-michigan-avenue-indiana-loop/20064216/",
+   "published_at": "2026-11-22T14:00:22.008Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "cbs-20261122-thousands-turn-out-for-magnificent-mile-",
+   "category": "civic_org",
+   "source_id": "cbs",
+   "source_name": "CBS News Chicago",
+   "source_type": "web_feed",
+   "title": "Thousands turn out for Magnificent Mile Lights Festival, parade downtown",
+   "summary": "Chicago was illuminated with even more holiday cheer thanks to the 35th year of the Magnificent Mile Lights Festival on Saturday.",
+   "url": "https://www.cbsnews.com/chicago/news/thousands-turn-out-mag-mile-lights-festival-parade/",
+   "published_at": "2026-11-22T04:54:22.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "cbs-20261121-cash-registers-stolen-during-burglaries-",
    "category": "civic_org",
