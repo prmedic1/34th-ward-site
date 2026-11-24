@@ -1,6 +1,54 @@
 {
- "generated_at": "2026-11-24T01:27:50.252Z",
+ "generated_at": "2026-11-24T14:00:25.617Z",
  "items": [
+  {
+   "id": "abc7-20261124-amtrak-to-redevelop-14th-street-yard-in-",
+   "category": "civic_org",
+   "source_id": "abc7",
+   "source_name": "ABC7 Chicago",
+   "source_type": "web_feed",
+   "title": "Amtrak to redevelop 14th Street Yard in blow to White Sox stadium plans",
+   "summary": "Amtrak will focus on redeveloping its 14th Street Rail Yard instead of building a new facility in Bridgeport, blocking plans for a White Sox stadium in the South Loop.",
+   "url": "https://abc7chicago.com/post/amtrak-redevelop-14th-street-yard-blocking-white-sox-stadium-plans-south-loop/20074475/",
+   "published_at": "2026-11-24T14:00:25.615Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20261124-soul-train-awards-make-chicago-debut-mar",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Soul Train Awards Make Chicago Debut, Marking City’s Role In Shaping Black Music",
+   "summary": "BET recently taped the awards ceremony at the Harris Theater, bringing the franchise back to the city where the dance show began. The awards air Friday on BET and CBS.",
+   "url": "https://blockclubchicago.org/2026/11/24/soul-train-awards-make-chicago-debut-marking-citys-role-in-shaping-black-music/",
+   "published_at": "2026-11-24T13:57:13.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20261124-30-pop-ups-and-bars-in-chicago-to-get-yo",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "30+ Pop-Ups And Bars In Chicago To Get You In The Holiday Spirit",
+   "summary": "From Wrigleyville to River North, there are plenty of ways to feel festive while supporting local businesses and pop-ups.",
+   "url": "https://blockclubchicago.org/2026/11/24/30-pop-ups-and-bars-in-chicago-to-get-you-in-the-holiday-spirit/",
+   "published_at": "2026-11-24T13:04:48.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20261124-why-a-plan-to-help-chicago-s-blighted-ne",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Why A Plan To Help Chicago’s Blighted Neighborhoods Fell Short",
+   "summary": "An examination by the New York Times shows how a tax incentive program that transformed Downtown has left some poorer neighborhoods overlooked and neglected.",
+   "url": "https://blockclubchicago.org/2026/11/24/why-a-plan-to-help-chicagos-blighted-neighborhoods-fell-short/",
+   "published_at": "2026-11-24T13:00:00.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "blockclub-20261123-after-drama-over-sky-ride-tap-s-iconic-s",
    "category": "civic_org",
@@ -2312,66 +2360,6 @@
    "summary": "The festival showcasing films created by Black artists returns to the School of the Art Institute of Chicago’s Gene Siskel Film Center Friday through Nov. 15 with 10 shorts as well as feature-length films.",
    "url": "https://blockclubchicago.org/2026/11/03/black-harvest-film-festival-celebrates-32nd-year-with-lineup-for-us-by-us/",
    "published_at": "2026-11-03T14:30:00.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "politico-20261103-chicago-school-board-president-race-pits",
-   "category": "elected_official",
-   "source_id": "politico",
-   "source_name": "POLITICO Illinois Playbook",
-   "source_type": "email_newsletter",
-   "title": "Chicago school board president race pits CTU‑backed Hilario Dominguez against SEIU‑endorsed Jessica Biggs",
-   "summary": "The contest for Chicago school board president has CTU‑backed Hilario Dominguez framing the fight as a stand against outside influence, while billionaire Michael Sacks backs his opponent Jessica Biggs, who is supported by two SEIU groups. The race is seen as an early test of the city’s progressive coalition and could signal trends for the February mayoral election. Both CTU and SEIU are prominent progressive labor groups in Chicago.",
-   "url": "https://www.politico.com/newsletters/illinois-playbook",
-   "published_at": "2026-11-03T13:02:04.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "politico-20261103-illinois-democrats-raise-record-141-85-m",
-   "category": "civic_org",
-   "source_id": "politico",
-   "source_name": "POLITICO Illinois Playbook",
-   "source_type": "email_newsletter",
-   "title": "Illinois Democrats raise record $141.85 million through ActBlue in 2026 midterms",
-   "summary": "ActBlue reported that Illinois Democrats collected $141.85 million in the 2026 midterm cycle, a 15.5 percent increase over 2022, with 1.04 million donors contributing 6.7 percent more than four years ago. ActBlue CEO Regina Wallace‑Jones highlighted the surge during a Chicago stop on her cross‑country tour, handing out coffee and donuts to voters. The fundraising boost positions Illinois as a strong blue pillar in the Midwest.",
-   "url": "https://www.politico.com/newsletters/illinois-playbook",
-   "published_at": "2026-11-03T13:02:04.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "axios-20261103-election-storylines-to-watch",
-   "category": "newsletter",
-   "source_id": "axios",
-   "source_name": "Axios Chicago",
-   "source_type": "email_newsletter",
-   "title": "Election storylines to watch",
-   "summary": "Illinois voters head to the polls today to decide who will lead the state, represent them in Washington and oversee Chicago's public schools. Beyond the marquee races for governor and U. Senate, the results could reshape political power in our area for years to come.",
-   "url": "https://www.axios.com/local/chicago",
-   "published_at": "2026-11-03T12:28:45.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "cbs-20261103-polls-open-for-illinois-2026-midterm-ele",
-   "category": "elected_official",
-   "source_id": "cbs",
-   "source_name": "CBS News Chicago",
-   "source_type": "web_feed",
-   "title": "Polls open for Illinois 2026 midterm election",
-   "summary": "As Darious Johnson reports, voters are already lined up outside the Loop supersite.",
-   "url": "https://www.cbsnews.com/chicago/video/polls-open-for-illinois-2026-midterm-election/",
-   "published_at": "2026-11-03T12:07:00.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "cbs-20261103-woman-issues-warning-after-uber-driver-c",
-   "category": "civic_org",
-   "source_id": "cbs",
-   "source_name": "CBS News Chicago",
-   "source_type": "web_feed",
-   "title": "Woman issues warning after Uber driver cancels ride, drives wrong way mid-trip",
-   "summary": "Her Uber app shows a location on Hubbard as the drop-off address, but she says they were able to finally get out of the car on Randolph Street near the Kennedy Expressway.",
-   "url": "https://www.cbsnews.com/chicago/video/woman-issues-warning-after-uber-driver-cancels-ride-drives-wrong-way-mid-trip/",
-   "published_at": "2026-11-03T04:41:00.000Z",
    "flagged_for_review": false
   }
  ]

@@ -1,12 +1,12 @@
 {
  "_rotation_note": "The daily job picks the next business each morning - rotating among ward businesses with priority to spotlight requests from owners and newly opened spots. Keep yesterday's entries in history.",
  "current": {
-  "name": "Athenian Candle Co.",
-  "address": "300 S. Halsted St, Greektown",
-  "website": "https://www.atheniancandle.com/",
-  "image": "https://www.atheniancandle.com/wp-content/uploads/2025/10/sasa.jpg",
-  "blurb": "This fourth-generation family business has a tradition of hand-dipping beeswax and paraffin candles that goes back more than 100 years, from 8-inch tapers to five-foot lambathes. The Halsted Street shop also carries incense, vigil lights and goods imported from Greece for weddings, baptisms and holidays. It is closed Sundays and Wednesdays.",
-  "date": "2026-11-23"
+  "name": "Sepia",
+  "address": "123 N. Jefferson St, West Loop",
+  "website": "https://www.sepiachicago.com/",
+  "image": "images/spotlight/sepia.jpg",
+  "blurb": "Set in a restored 1890s print shop, this Michelin-starred West Loop mainstay pairs refined American cooking with a warm, timeless room. It has been a special-occasion favorite in the neighborhood for well over a decade.",
+  "date": "2026-11-24"
  },
  "history": [
   {
@@ -1227,6 +1227,14 @@
    "image": "images/marios-italian-lemonade.webp",
    "blurb": "A Taylor Street summer institution since 1954, Mario's is the little red-and-green stand where Chicagoans line up for hand-shaved Italian lemonade. Cash only, open only in the warm months, and worth every minute of the wait.",
    "date": "2026-11-22"
+  },
+  {
+   "name": "Athenian Candle Co.",
+   "address": "300 S. Halsted St, Greektown",
+   "website": "https://www.atheniancandle.com/",
+   "image": "https://www.atheniancandle.com/wp-content/uploads/2025/10/sasa.jpg",
+   "blurb": "This fourth-generation family business has a tradition of hand-dipping beeswax and paraffin candles that goes back more than 100 years, from 8-inch tapers to five-foot lambathes. The Halsted Street shop also carries incense, vigil lights and goods imported from Greece for weddings, baptisms and holidays. It is closed Sundays and Wednesdays.",
+   "date": "2026-11-23"
   }
  ]
 }
