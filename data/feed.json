@@ -1,6 +1,66 @@
 {
- "generated_at": "2026-11-23T15:44:44.396Z",
+ "generated_at": "2026-11-24T01:27:50.252Z",
  "items": [
+  {
+   "id": "blockclub-20261123-after-drama-over-sky-ride-tap-s-iconic-s",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "After Drama Over Sky Ride Tap’s Iconic Sign, Owner Says He’s Keeping It",
+   "summary": "After the sign was removed and speculation swirled online sparked by a Chicago Sign Museum Instagram post, owner Kyriakos “Carl” Damianides said he has no plans to sell it.",
+   "url": "https://blockclubchicago.org/2026/11/23/after-drama-over-sky-ride-taps-iconic-sign-owner-says-hes-keeping-it/",
+   "published_at": "2026-11-23T14:58:00.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20261123-here-s-where-1st-video-gambling-machines",
+   "category": "business",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Here’s Where 1st Video Gambling Machines Went Live In Chicago - And Where They’re Coming Next",
+   "summary": "Longtime Loop restaurant Miller's Pub is among eight Chicago businesses now operating video gambling terminals. They are among 100 already approved by the state.",
+   "url": "https://blockclubchicago.org/2026/11/23/heres-where-the-first-video-gambling-machines-went-live-in-chicago-and-where-theyre-coming-next/",
+   "published_at": "2026-11-23T14:49:00.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20261123-christkindlmarket-s-famously-stinky-racl",
+   "category": "business",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Christkindlmarket’s Famously Stinky Raclette Cheese Sandwich Is Back: Just Give It A Try'",
+   "summary": "The pungent raclette sandwich from Baked Cheese Haus drew first-timers and fans on the market's opening day. It's “not for everybody,” said cheesemaker Joe Burns.",
+   "url": "https://blockclubchicago.org/2026/11/23/christkindlmarkets-famously-stinky-raclette-cheese-sandwich-is-back-just-give-it-a-try/",
+   "published_at": "2026-11-23T14:23:00.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20261123-shop-local-2026-a-chicago-food-gift-guid",
+   "category": "business",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Shop Local 2026: A Chicago Food Gift Guide",
+   "summary": "Make the holidays a little sweeter for your foodie friends and family with these Chicago-flavored treats.",
+   "url": "https://blockclubchicago.org/2026/11/23/shop-local-2026-a-chicago-food-gift-guide/",
+   "published_at": "2026-11-23T14:22:14.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20261123-here-s-where-to-find-a-real-christmas-tr",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Here’s Where To Find A Real Christmas Tree In Chicago This Holiday Season",
+   "summary": "From neighborhood tree lots to home delivery services, here are over 40 spots to find fresh Christmas trees, wreaths and other holiday greenery across Chicago.",
+   "url": "https://blockclubchicago.org/2026/11/23/heres-where-to-find-a-real-christmas-tree-in-chicago-this-holiday-season/",
+   "published_at": "2026-11-23T13:55:03.000Z",
+   "flagged_for_review": false
+  },
   {
    "category": "civic_org",
    "source_id": "igwl",
@@ -2312,18 +2372,6 @@
    "summary": "Her Uber app shows a location on Hubbard as the drop-off address, but she says they were able to finally get out of the car on Randolph Street near the Kennedy Expressway.",
    "url": "https://www.cbsnews.com/chicago/video/woman-issues-warning-after-uber-driver-cancels-ride-drives-wrong-way-mid-trip/",
    "published_at": "2026-11-03T04:41:00.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20261102-neon-trees-michael-james-scott-thelma-ho",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Neon Trees, Michael James Scott, Thelma Houston To Headline Magnificent Mile Lights Parade",
-   "summary": "The 35th annual festival and parade returns Saturday, Nov. 21 with live performances, floats, a fireworks spectacular and one million lights along Michigan Avenue.",
-   "url": "https://blockclubchicago.org/2026/11/02/neon-trees-michael-james-scott-thelma-houston-to-headline-magnificent-mile-lights-parade/",
-   "published_at": "2026-11-02T20:01:52.000Z",
    "flagged_for_review": false
   }
  ]
