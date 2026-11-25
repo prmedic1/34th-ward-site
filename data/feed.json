@@ -1,6 +1,42 @@
 {
- "generated_at": "2026-11-24T23:22:01.609Z",
+ "generated_at": "2026-11-25T14:00:27.524Z",
  "items": [
+  {
+   "id": "blockclub-20261125-soul-city-church-to-add-sound-mitigation",
+   "category": "elected_official",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Soul City Church To Add Sound Mitigation To Expansion Plans After Alderman Requires It",
+   "summary": "WEST LOOP - Soul City Church can move forward with submitting plans for its proposed expansion after agreeing to additional sound mitigation efforts following a contentious community meeting this summer.",
+   "url": "https://blockclubchicago.org/2026/11/25/soul-city-church-to-add-sound-mitigation-to-expansion-plans-after-alderman-requires-it/",
+   "published_at": "2026-11-25T13:53:00.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20261125-21-things-to-do-in-chicago-this-weekend-",
+   "category": "business",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "21 Things To Do In Chicago This Weekend: Thanksgiving Parade, Holiday Markets And More",
+   "summary": "Tree lightings, Small Business Saturday events and more are also on deck.",
+   "url": "https://blockclubchicago.org/2026/11/25/21-things-to-do-in-chicago-this-weekend-thanksgiving-parade-holiday-markets-and-more/",
+   "published_at": "2026-11-25T13:45:24.000Z",
+   "flagged_for_review": false
+  },
+  {
+   "id": "blockclub-20261125-your-guide-to-chicago-s-holiday-performa",
+   "category": "civic_org",
+   "source_id": "blockclub",
+   "source_name": "Block Club Chicago",
+   "source_type": "web_feed",
+   "title": "Your Guide To Chicago's Holiday Performances: 30 Plays, Concerts, Comedy Shows And More",
+   "summary": "From beloved holiday traditions to fresh twists on festive classics, the Chicago art scene is gearing up for a month of holiday performances.",
+   "url": "https://blockclubchicago.org/2026/11/25/your-guide-to-chicagos-holiday-performances-30-plays-concerts-comedy-shows-and-more-2/",
+   "published_at": "2026-11-25T13:42:00.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "cbs-20261124-amtrak-calls-off-bridgeport-maintenance-",
    "category": "civic_org",
@@ -2372,90 +2408,6 @@
    "summary": "The five-year tradition of AP U.S. History students receiving extra credit to man polling stations has grown to spark many students to develop lifelong passions for helping the electoral process.",
    "url": "https://blockclubchicago.org/2026/11/04/these-west-side-students-are-too-young-to-vote-they-volunteered-to-be-election-judges-instead/",
    "published_at": "2026-11-04T14:34:00.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "politico-20261104-jessica-biggs-becomes-first-elected-chic",
-   "category": "elected_official",
-   "source_id": "politico",
-   "source_name": "POLITICO Illinois Playbook",
-   "source_type": "email_newsletter",
-   "title": "Jessica Biggs becomes first elected Chicago School Board president",
-   "summary": "Jessica Biggs won the high‑profile Chicago School Board president race, defeating former CTU organizer Hilario Dominguez and attorney Victor Henderson. Biggs was backed by the union representing Chicago Public School support staff and the Common Ground Collective super PAC. Her victory makes her the first elected president of the CPS board.",
-   "url": "https://www.politico.com/newsletters/illinois-playbook",
-   "published_at": "2026-11-04T12:59:56.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "politico-20261104-democratic-lawmakers-organize-opposition",
-   "category": "elected_official",
-   "source_id": "politico",
-   "source_name": "POLITICO Illinois Playbook",
-   "source_type": "email_newsletter",
-   "title": "Democratic lawmakers organize opposition to Speaker Emanuel \"Chris\" Welch in Illinois House",
-   "summary": "A group of Democratic state representatives is quietly trying to organize opposition to Speaker Emanuel \"Chris\" Welch ahead of a speaker vote expected in January. Lawmakers cite Welch's handling of a sexual harassment complaint involving former Rep. Harry Benton, a 60‑vote rule for measures, and broader frustrations with House operations. The effort reflects growing tension in Springfield as legislators prepare for the upcoming veto session.",
-   "url": "https://www.politico.com/newsletters/illinois-playbook",
-   "published_at": "2026-11-04T12:59:56.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "politico-20261104-gov-jb-pritzker-wins-third-term-and-unve",
-   "category": "elected_official",
-   "source_id": "politico",
-   "source_name": "POLITICO Illinois Playbook",
-   "source_type": "email_newsletter",
-   "title": "Gov. JB Pritzker wins third term and unveils “Fighting for Illinois” agenda",
-   "summary": "Incumbent Governor JB Pritzker defeated Republican Darren Bailey on Nov. 3, 2026 to win a third term. After his victory speech at Chicago’s Navy Pier, he introduced the “Fighting for Illinois: The Day One Agenda,” a set of nearly 200 policy proposals aimed at addressing everyday challenges. The agenda was presented as part of his plan to fight for Illinois at the state and federal levels.",
-   "url": "https://www.politico.com/newsletters/illinois-playbook",
-   "published_at": "2026-11-04T12:59:56.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "politico-20261104-city-hall-hosts-mobile-food-car-licensin",
-   "category": "business",
-   "source_id": "politico",
-   "source_name": "POLITICO Illinois Playbook",
-   "source_type": "email_newsletter",
-   "title": "City Hall hosts mobile food car licensing ordinance rally",
-   "summary": "At 9 a.m. on Nov. 4, 2026, city officials gathered at City Hall for a rally on a new mobile food car licensing ordinance. The event, featuring remarks by Brandon, aimed to discuss the proposed licensing rules for mobile food vendors and coincided with an online Native American Heritage Month cultural reception.",
-   "url": "https://www.politico.com/newsletters/illinois-playbook",
-   "published_at": "2026-11-04T12:59:56.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "skyline-20261104-skyline-out",
-   "category": "newsletter",
-   "source_id": "skyline",
-   "source_name": "Skyline (Inside Publications)",
-   "source_type": "email_newsletter",
-   "title": "The Nov. 4 Skyline is out",
-   "summary": "The Nov. 4, 2026 edition of Skyline is out, a day after the midterm election. Editor Tom O'Gorman says more election results are still coming in and the paper will keep reporting on them. The full issue is available from Inside Publications.",
-   "url": "https://insideonline.com",
-   "published_at": "2026-11-04T12:38:26.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "axios-20261104-illinois-blue-wave",
-   "category": "newsletter",
-   "source_id": "axios",
-   "source_name": "Axios Chicago",
-   "source_type": "email_newsletter",
-   "title": "Illinois' blue wave",
-   "summary": "Illinois voters turned out yesterday in an election marked by long lines, sporadic polling-place problems and historic results. Yesterday's results will shape Illinois' political leadership and representation in Washington, while offering a glimpse of how Chicago voters may feel about Mayor Brandon Johnson and the Chicago Teachers Union. (more on that below) Gov.",
-   "url": "https://www.axios.com/local/chicago",
-   "published_at": "2026-11-04T12:37:00.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20261104-state-rep-la-shawn-ford-wins-race-to-suc",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "State Rep. La Shawn Ford Wins Race To Succeed Danny Davis In 7th Congressional District",
-   "summary": "Ford will be the district's first new leader in 30 years, replacing the retiring U.S. Rep. Danny Davis.",
-   "url": "https://blockclubchicago.org/2026/11/03/state-rep-la-shawn-ford-wins-race-to-succeed-danny-davis-in-7th-congressional-district/",
-   "published_at": "2026-11-04T02:05:36.000Z",
    "flagged_for_review": false
   }
  ]
