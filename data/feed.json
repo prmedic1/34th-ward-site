@@ -1,6 +1,18 @@
 {
- "generated_at": "2026-11-26T15:30:00.000Z",
+ "generated_at": "2026-11-26T22:46:28.643Z",
  "items": [
+  {
+   "id": "cbs-20261126-the-2026-chicago-thanksgiving-parade-ste",
+   "category": "civic_org",
+   "source_id": "cbs",
+   "source_name": "CBS News Chicago",
+   "source_type": "web_feed",
+   "title": "The 2026 Chicago Thanksgiving Parade steps off in The Loop",
+   "summary": "Watch the 2026 Chicago Thanksgiving Parade live with hosts Audrina Sinclair and Chef Blaque Shelton.",
+   "url": "https://www.cbsnews.com/chicago/video/the-2026-chicago-thanksgiving-parade-steps-off-in-the-loop/",
+   "published_at": "2026-11-26T14:08:00.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "politico-20261125-us-proposes-new-tariffs-14-partners",
    "category": "newsletter",
@@ -2398,30 +2410,6 @@
    "summary": "Thursday night was a homecoming for one of Chicago's cultural treasures, as the Soul Train Awards arrived in the city where the iconic show originated. The taping of the awards show brought stars to the Loop.",
    "url": "https://www.cbsnews.com/chicago/video/stars-turn-out-in-chicago-for-soul-train-awards/",
    "published_at": "2026-11-06T04:22:00.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "blockclub-20261105-pedestrians-hit-by-paintballs-from-movin",
-   "category": "civic_org",
-   "source_id": "blockclub",
-   "source_name": "Block Club Chicago",
-   "source_type": "web_feed",
-   "title": "Pedestrians Hit By Paintballs From Moving Car In Little Italy, Police Say",
-   "summary": "Wednesday’s incident on Taylor Street follows similar paintball gun attacks Monday near UIC and last week in Lakeview.",
-   "url": "https://blockclubchicago.org/2026/11/05/pedestrians-hit-by-paintballs-from-moving-car-in-little-italy-police-say/",
-   "published_at": "2026-11-05T21:39:22.000Z",
-   "flagged_for_review": false
-  },
-  {
-   "id": "abc7-20261105-cooking-up-a-storm-pizzeria-gabbo-in-ful",
-   "category": "business",
-   "source_id": "abc7",
-   "source_name": "ABC7 Chicago",
-   "source_type": "web_feed",
-   "title": "Cooking Up A Storm: Pizzeria Gabbo in Fulton Market",
-   "summary": "Whipped ricotta is on the menu at Pizzeria Gabbo. The restaurant is now open in Fulton Market.",
-   "url": "https://abc7chicago.com/post/cooking-storm-pizzeria-gabbo-shared-whipped-ricotta-recipe-roasted-garlic/20018137/",
-   "published_at": "2026-11-05T20:55:28.714Z",
    "flagged_for_review": false
   }
  ]
