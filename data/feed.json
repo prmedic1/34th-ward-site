@@ -1,6 +1,19 @@
 {
- "generated_at": "2026-11-26T14:00:26.541Z",
+ "generated_at": "2026-11-26T15:30:00.000Z",
  "items": [
+  {
+   "id": "politico-20261125-us-proposes-new-tariffs-14-partners",
+   "category": "newsletter",
+   "source_id": "politico",
+   "source_name": "POLITICO Illinois Playbook",
+   "source_type": "email_newsletter",
+   "title": "U.S. proposes new tariffs on the EU, China, Japan and 11 other partners",
+   "summary": "U.S. officials laid out plans Wednesday to raise tariffs on more than a dozen trading partners, including a proposed 20% rate on imports from China and 15% on goods from the European Union. The move seeks to restore duties the U.S. Supreme Court struck down earlier this year. The U.K. would stay at the 10% rate it agreed to last year.",
+   "url": "https://www.politico.com/newsletters/politico-forecast",
+   "published_at": "2026-11-25T22:25:29.000Z",
+   "flagged_for_review": false,
+   "front_exclude": true
+  },
   {
    "id": "abc7-20261126-chicago-thanksgiving-parade-set-to-march",
    "category": "civic_org",
