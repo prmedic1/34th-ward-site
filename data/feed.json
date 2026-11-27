@@ -1,6 +1,18 @@
 {
- "generated_at": "2026-11-26T22:46:28.643Z",
+ "generated_at": "2026-11-27T13:42:13.453Z",
  "items": [
+  {
+   "id": "conway-20261125-west-loop-historic-plaques",
+   "category": "elected_official",
+   "source_id": "conway",
+   "source_name": "Conway's Corner (34th Ward Office Newsletter)",
+   "source_type": "email_newsletter",
+   "title": "Four more historic plaques coming to the West Loop",
+   "summary": "The West Loop already has 19 historical designations, four historic plaques and one Chicago Landmarks plaque, and four more plaques are planned, including a UIC classroom, a condo building and two parks. Residents of historic West Loop buildings who have history to share can contact project organizer Connie Fairbanks to learn how to install a plaque of their own.",
+   "url": "https://www.ward34.org/",
+   "published_at": "2026-11-25T14:08:55.000Z",
+   "flagged_for_review": false
+  },
   {
    "id": "cbs-20261126-the-2026-chicago-thanksgiving-parade-ste",
    "category": "civic_org",

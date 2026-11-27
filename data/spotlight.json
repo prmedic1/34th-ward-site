@@ -1,12 +1,12 @@
 {
  "_rotation_note": "The daily job picks the next business each morning - rotating among ward businesses with priority to spotlight requests from owners and newly opened spots. Keep yesterday's entries in history.",
  "current": {
-  "name": "The Original Pancake House",
-  "address": "1124 W. Madison St, West Loop",
-  "website": "https://ophchicagoland.com/",
-  "image": "images/original-pancake-house.jpg?v=20260903",
-  "blurb": "A breakfast institution since 1953, famous for the oven-baked Dutch Baby and apple pancakes. The West Loop location on Madison fills its striped-awning patio all summer long.",
-  "date": "2026-11-26"
+  "date": "2026-11-27",
+  "name": "Jazzy Flowers",
+  "address": "35 S. Racine Ave, West Loop",
+  "website": "https://www.jazzyflowers.com/",
+  "blurb": "A West Loop florist on Racine Avenue that has spent more than fifteen years turning out fresh, custom arrangements for gifts, weddings and events. Alongside bouquets the shop also sells potted houseplants, a handy stop for holiday tables and hostess gifts.",
+  "image": "https://image.floranext.com/instances/jazzyflowers_com/widgets/i/m/img_3118_69b19bb087c0d.jpeg.webp?h=450&r=255&g=255&b=255"
  },
  "history": [
   {
@@ -1251,6 +1251,14 @@
    "image": "images/spotlight/the-publican.jpg?v=20260903",
    "blurb": "A beer-hall-style anchor of Fulton Market built on oysters, house charcuterie, and pork served at long communal tables. Its farm-focused cooking helped turn the old meatpacking district into a dining destination.",
    "date": "2026-11-25"
+  },
+  {
+   "name": "The Original Pancake House",
+   "address": "1124 W. Madison St, West Loop",
+   "website": "https://ophchicagoland.com/",
+   "image": "images/original-pancake-house.jpg?v=20260903",
+   "blurb": "A breakfast institution since 1953, famous for the oven-baked Dutch Baby and apple pancakes. The West Loop location on Madison fills its striped-awning patio all summer long.",
+   "date": "2026-11-26"
   }
  ]
 }
