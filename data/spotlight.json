@@ -1,12 +1,12 @@
 {
  "_rotation_note": "The daily job picks the next business each morning - rotating among ward businesses with priority to spotlight requests from owners and newly opened spots. Keep yesterday's entries in history.",
  "current": {
-  "date": "2026-11-27",
-  "name": "Jazzy Flowers",
-  "address": "35 S. Racine Ave, West Loop",
-  "website": "https://www.jazzyflowers.com/",
-  "blurb": "A West Loop florist on Racine Avenue that has spent more than fifteen years turning out fresh, custom arrangements for gifts, weddings and events. Alongside bouquets the shop also sells potted houseplants, a handy stop for holiday tables and hostess gifts.",
-  "image": "https://image.floranext.com/instances/jazzyflowers_com/widgets/i/m/img_3118_69b19bb087c0d.jpeg.webp?h=450&r=255&g=255&b=255"
+  "name": "Duck Duck Goat",
+  "address": "857 W. Fulton Market, Fulton Market",
+  "website": "https://www.duckduckgoatchicago.com/",
+  "image": "images/spotlight/duck-duck-goat.jpg?v=20260903",
+  "blurb": "Stephanie Izard's playful Chinese restaurant, with hand-pulled noodles, dim sum, and Peking duck in a bustling, mural-lined room.",
+  "date": "2026-11-28"
  },
  "history": [
   {
@@ -1259,6 +1259,14 @@
    "image": "images/original-pancake-house.jpg?v=20260903",
    "blurb": "A breakfast institution since 1953, famous for the oven-baked Dutch Baby and apple pancakes. The West Loop location on Madison fills its striped-awning patio all summer long.",
    "date": "2026-11-26"
+  },
+  {
+   "date": "2026-11-27",
+   "name": "Jazzy Flowers",
+   "address": "35 S. Racine Ave, West Loop",
+   "website": "https://www.jazzyflowers.com/",
+   "blurb": "A West Loop florist on Racine Avenue that has spent more than fifteen years turning out fresh, custom arrangements for gifts, weddings and events. Alongside bouquets the shop also sells potted houseplants, a handy stop for holiday tables and hostess gifts.",
+   "image": "https://image.floranext.com/instances/jazzyflowers_com/widgets/i/m/img_3118_69b19bb087c0d.jpeg.webp?h=450&r=255&g=255&b=255"
   }
  ]
 }
